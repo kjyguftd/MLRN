@@ -1,0 +1,421 @@
+text,label,username_encoded
+"how slow would it be? the touch judge has to walk to where the ball went out, so there is a few seconds time",r/iot,Z0FBQUFBQm0yeGNNUWVDZW9JTVhBb0RsYU9BblFpT1JQVmxHbGUzcy1MX1d2NmY2TXI0SWVqbkxrSXJiZTUyTGN5SGhjc0ZPdkFqdF9jZGlxTjA4bkRINTl6cW4tLVZ4emc9PQ==
+There's no reason to use oled at this tiny size. Look at various ESP32 based HMI type screens on Ali - plenty there from about $0 up depending on size.,r/iot,Z0FBQUFBQm0yeGNNT3ZSVnBqc09WaXptS3ZBc0p1bmhoQkQtLURzdHRQeXZHTVNISkFOX2J5NDd4R0lYeWdDRFBxa19HVng4X3FlZGY5ejVaNWxiXzlKUVFWb09EQjd4YV9wYVJZMXVrNDdnYlB6OHdyTmVwcGM9
+"I (recently) started working for a vendor in this space. An IoT SIM will do what you need. We charge a monthly fee per active SIM. As long as that fee is paid, the SIM will remain active.
+
+FYI unlike with consumer SIMs you’ll also pay per received SMS. The upside is you can send SMS directly via an API (or the web UI) and don’t need to pay for service like Twilio.",r/iot,Z0FBQUFBQm0yeGNNS245M25RMlROU0NqYnhRWWU4eWptbW9CYkRORjZ3b2YxY0xLcGotUnYyY1Uzdl9UVmpBUFpHS1lMeUZVVUtkRFBZUnpkZEprZWMzNmQtb0RfV0d3ZlE9PQ==
+"UWB can be very accurate and very fast, sampling 100x/sec but you'd need a sophisticated antenna array at each goal line to get this, which would need to be calibrated, which is going to give fans no end of reasons to complain.
+
+I'm NOT against this idea, I'm just saying you'd need to test the hell out of it to make sure it's extra crazy reliable.",r/iot,Z0FBQUFBQm0yeGNNRW5PWHNHMjhQOGFmSVRqM0h1dHF2Rk9XSEhVSHhoSC14VkdKWjNJclR4Y2h6Z2MtdzJBb3NrRl9MVmtzUWF0cHVxcWNjbFFadG5PMF9hMFZjcEltclE9PQ==
+thanks for posting. Are the antennas expensive? Why would fans complain? Do you think another technology might be better? Maybe a gps module inside the ball or an ultrasonic sensor.,r/iot,Z0FBQUFBQm0yeGNNemdMVHhnd1VjZHZZTXZGdFFoMmRqWkVUbzhFSllEY1JWZ01ZS254Ulk1cXNoWEhDN2RIMGt2OVNrWWNOZ3RrTF84ckFDOGdkQmVLUmVSTlhOczdLdlE9PQ==
+"Oh, wrt fans, any automated system 'sucks' when it goes against your team ;-) it's just human nature. The antennas are actually quite cheap, but as the goal line is such a large area, you'd need several antennas to get the right signal strength/line of site for an accurate reading. The expensive part would be the custom electronics/firmware to coordinate the antenna signals. Definitely \\*not\\* an off the shelf project!",r/iot,Z0FBQUFBQm0yeGNNWE5SZ2I5b3FiUEJfczBJWmI4bUFzNlg2RTRKcTBmSHlGaGFXSXQzb1liODVUYnBLdWVUS0JMR0x3Q0V5eHliVGFXWGJqbkx4VDVhUDZyMnYydC04WFE9PQ==
+"Thanks for the reply. There are multiple IOT service providers who do NOT make a charge for a received (ie MT) SMS, so I'm unclear why I would want to pay this in addition to a monthly service fee as well?",r/iot,Z0FBQUFBQm0yeGNNNWduWHBXVnk2SUg2cTFxUXVLT1FldmRQN1RLU0JvbHpfSTBMYXlyMXlrM0JfcnRVNTFnVmtkWFE3WFlJUWhxYmhSYTVmSVJPaGNIeVBBVzRoTG9YU1ZjLXVfSHJSQldUYXl3RS1YTUtqQlk9
+"Different vendors have different pricing models. You’ll have to model out what the per SIM fee, per SMS fee and your expected volume of SMS comes out to for different vendors - the per SMS fee is very low.
+
+With significant volume this can also be negotiated.
+
+If you want to talk concrete numbers, feel free to drop me a DM.",r/iot,Z0FBQUFBQm0yeGNNY2JxQjVCb2tZcXY1aW5jOFp0WENwVXZjLTdiU1UzaTlaUENWOFI5dm9JQy1wVWY4Q2hzOE5SbDhDVlVONlZNdFNKTHJOX0RKTHpiZTBNdWtScnJVZnc9PQ==
+Thanks - but the indefinite nature of the SMS cost makes it too risky (for edge cases or stupid end users!) .,r/iot,Z0FBQUFBQm0yeGNNUmwwUDN1RTgtMGNjUGlSSU1fbV96MTkyQW5rbGlTWm5ZQVFkUTRpeDhYMUp6eGxRTlNhY1VDUVg2NzlqYnQtYmM4Tk0xODBzWWN5QjFacjF5VkZNRXZwOEtlNl9tSlFVd09CSGluVGRDczA9
+"Interesting. In your use-case, end users would somehow trigger the SMS and you’re afraid they trigger more than you budgeted?
+
+I just checked our self-service pricing and it’s 1ct/SMS.
+
+Anyway, this is just our pricing model. With volume it can be negotiated. Other vendors will have different models. I don’t know how many devices you’re planning for but with enough of them it makes sense to approach vendors to ask for custom pricing.",r/iot,Z0FBQUFBQm0yeGNNaVBYa2FJeTlXT1gxb0NvYmlXdXpXRElSTmFiQjA2dURlUDhoUWMtdzlLcmpRdDlucTFJOE9EUG5YYjN2UTY4QWhWQjR0UUdXNHpLclQwQTRrTkpBTWc9PQ==
+"I see, but I can probably code the firmware myself, so not that expensive",r/iot,Z0FBQUFBQm0yeGNNdzlkaU05WldGZkw4NTg2eGcwMzduMmdxbENXUjRMRW85U0xyZzFyMGJGSVFqZUJ2a3BLbWJWemRZWXQxQlJ5dEpRbU5kb1BDQncxZWNnck5hQ2djLUE9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNNendpb1ByU0liaVlSSmpOWWFTU2VmczFFdGtHdkdNZzhoV09KS05qYldmV3o2emptQUxCdDY3RkFJbjJBbTVaaDM3V2hEWWlVVTNYVV9vWi1iZ2plWHc9PQ==
+Thanks!,r/iot,Z0FBQUFBQm0yeGNNdDNGSW5WTDJma1FRX1FNdDREeF9jRk50VDhKVWtTaFlQbDJhWkhXS0ZBa0JIUmlPZDNGM0hXcmE3MzExWW1QaDNBcnc3dXhvSGNVMUZXM09DU1hjVUE9PQ==
+"You know there's a feature with Google Maps and Google Assistant to ""save my park"", right?",r/iot,Z0FBQUFBQm0yeGNOeFFSeXRxTzZfc0llS0RWNVZpcDlxR0dBbUVYSjlVd2hEOEpyeVUyWGVFRGxSc25Tb1JtdmpWSF9URnJCV1BERkdDMWFENUhLZHg2d0dUQndaa19tZ3c9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNOZUtWMmwtaUJQZjZBbFFReUJxRUlFMVUzaUx5VmlXeTQ5emNBdDdULUREMWxBcTR6T2o3dmluenhFbEpDd1FoVTZack9XbmIzOWVSbEtMc2U4bVRsZFE9PQ==
+No my post is not promotional,r/iot,Z0FBQUFBQm0yeGNOZG1LVUlsbE1sVWFDdXY1OHlNdWFWazlGRzFLeW1mbFlqM1JDanNuRlpUMWpnZHJ2ai1ObU8waGhKN25CbUNYLUxQTXpfVGloSFFfVEhRUXNDekRzQ3VLOVpRd1F4VGNGWDV1MFdiXzU4cTA9
+"If you DM me, I will be happy to make you an example offer and calculation based on the 1NCE service.   
+With the prepaid model, they provide you with a simple one-time price per SIM/Device and include all the details. In the UK, there are multiple networks you can use; therefore, it is also suitable for critical infrastructure applications.   
+While you can find the standard offer for 10 EUR online, which includes 250 SMS, we can customize it to better suit your specific needs. Just let me know what you require. 
+
+Disclaimer: I work for 1NCE and was one of the initial Founding Team Members. But even with that and knowing the market, I can say that without bias, you will likely not find a better solution.",r/iot,Z0FBQUFBQm0yeGNOcWI3LTF1ZlUzbVd5cnNTRElKN29kSEdSZGhZMUJ4MERJMUF3VTJwSk9GTm01ZDBieVRxYWdGOTVVWl9GbDk4MndQLXFLOWZLcnpzM1cwdllOOEpVVWc9PQ==
+Thanks for the reply - aren't your MT SMS charged at 10 euro per 250 though (after 250 free?). That could soon add up quick !! (I'd agree that for 'normal' data your offer is great!),r/iot,Z0FBQUFBQm0yeGNOeWNJNDJRRlZHN2V4aVFaaWVBc2JRbEJqYlM4Z3NjSGdLM1NhbDlYZnd6Sm5QUVN1d3lKczhpRnl3WHZkUWNDbGJtOUV0ZnhXSXdzVTg4VTRSMlg5ZHhfTmZFaXpwUWtSWWtVSEIyNUEtU2s9
+"Without sounding too vague, its a display based system, and the user can update (which is what triggers the SMS being sent to the simple IOT end device). Some users will update monthly, some will no doubt be smart asses and write scripts and do hourly. For a relatively small project (1000 end devices) adding additional checks and controls to prevent it it cost prohibitive..... i think.  Do feel free to DM me the company name though, if rules mean you cant just tell me here! Thanks.",r/iot,Z0FBQUFBQm0yeGNOZElFRGhSeVNFQ1U0c0x6LUdJTF9MVkh6SnZHRXNRdWQ0SExZSjFjWENxeEpseVJCM2MydS0tcUJFZmdhMk5uSHBEUXNEX3A3MTVfOWJEUy02SGFTNjJvT2JBWHZUSnI1cmtLRFZuSXpiSVE9
+"Maybe you could share a bit more about your requirements and what you need.. then I can give you a very direct answer.. 
+you are current that the 10 only include 250 but they also include various other things which you wouldn’t need hence we would change the parameters for you use case. 
+
+How many SMS do you expect per month or year per endpoint?",r/iot,Z0FBQUFBQm0yeGNOOHBuVTlMSzB3dzU2Mk1rY0tMNGdTd2pMRDROVVZMWEZyYTNGYzRlVXZYVjZkYkhNZE1hellQbWlfem9IY3R0cEZYMmlOTlZONHowd0l4ejN6d0xRQ2c9PQ==
+"Hi, I can help you doing this code, I've aready connect ESP32 to AWS
+
+  
+It's no so easy but belive me, that's the better cloud service to connect, first I strongly recomend delete all devices you have to start again
+
+  
+create a simple device
+
+create a policy free pub/sub allow \\* to all topics
+
+attach this policy to this device, 
+
+  
+DOWNLOAD ALLL CERTIFICADES 
+
+  
+After this you can easly find a code that connect a ESP32 using WIFI, if you need I have one here from a project mine, just DM me to anyquestion, ty",r/iot,Z0FBQUFBQm0yeGNOdFRFc1lhWHlib05UNmstZ0xsbjZ2N3MwZTZoYTd4WUxiMWtjZ01FeU5EcFVXVXJCWEt0c1FPOHFHNjNWVEpxZzNiQ0NFMHpIOGxjeExrOUhOTXVNVGc9PQ==
+"Thank you for your  reply.
+I deleted all devices + i also changed the region instead of central Canada to Ohio US.
+I added allow * to connect, subscribe, publish and receive with no luck!",r/iot,Z0FBQUFBQm0yeGNOSTFoMkpLWU1BaXI5QW1aNnVvaW9rQzRHTmNVLUlha2taVmQ4b2JwZGZQSmRwc3NsV0xHUUlEamd6WW84alZpVFJhNzJiZnhtdko4NHJOR2kxR2ltZVE9PQ==
+"Hello again,  
+I was unable to dm you. Keep showing unable to send invite to start a chat.  
+Thanks.",r/iot,Z0FBQUFBQm0yeGNObHJhVG5tbWw4WGlEclZJTTU0NkJfT1FJN1JOYXhDaDBpQ3EzS0w5SlJJRXhnM2Ytc2hJVVdoYkt0ZU9QQTdXcE1qZDRSUXIzaEljaVpWQ1dySUFWY3c9PQ==
+"I Dm you, plz check you again",r/iot,Z0FBQUFBQm0yeGNOMVptdmgyZXQ2NEM4MTBIaUdWTzFGblh0NUR0OGxQbTF4UkxRVnBYUUdEalpfVEhWZW5TMnBHOGhieGVwcFR5N1BxdE5QVWRFSnUxS2NleGtpSkVXZFE9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNOcV9abVl0eVRIc2NZd00wMVFRYkd4Z090aFBXMnhXQnVVZXpXZHRXa19aUjBUZGEtY0JkRWNMTlJEb1l3RWQyczVyYVdUZjZnN1dOcmFxMHE5TXdHMGc9PQ==
+"Contact Wireless Logic which is one of the largest providers of IOT/M2M cellular connectivity… it is an English group which was created in 2000.
+
+1nce is an interesting solution financially but the company does not have the best roaming agreements and its business model is loss-making.... Not sure it will still exist in 5/10 years",r/iot,Z0FBQUFBQm0yeGNPMjlyZzRldDZSYnJYZE0wT3JHMGswR1IxRFJ2UjZOT0UxWVgzUS1NZjRGNlM0a1pZa3dnU29OeEMwcHFYaTFFV2trbXVYWjhxdTk0RnZkTHpORV9PTmc9PQ==
+"does this help ?   
+[https://www.digitalbaytech.com/products/shelly-pro-3em-smart-din-rail-3-phase-energy-meter](https://www.digitalbaytech.com/products/shelly-pro-3em-smart-din-rail-3-phase-energy-meter)",r/iot,Z0FBQUFBQm0yeGNQTy1FY2dBR25RMURoUFhDUS1pcHFLQ0UyTTRyaTB6eFBKZVFEYjlHYVFvWjRjQkN2N1dmV1ZFRnV4eHlSTFVoNGlmRldsYThxRFpoY2o0allBUHhFOXc9PQ==
+"Stm 32s are available on robu.in, you can get from there or look for beaglebone boards",r/iot,Z0FBQUFBQm0yeGNQTUdzcDBQU05IZlBwV0tnd2VnM2E1ci1uYkN4Tzk3eHpUa3duNGg5MENwTkp4NEVYQlRvejBnMEotVkhhUlBJNzA2RGlkTHFXMXRLdHVUWFNKbGxodWc9PQ==
+They all are either low on memory or are some low end with less clock speed. I want clock speed of upto 170Mhz and RAM about 512kb,r/iot,Z0FBQUFBQm0yeGNQOG8tS1JJQ1czUGFpSmFnR0VGNTEyVm5SVE1zREhmZWg2N3IxMTRpandVZUpPdUkzUEZ1RWswWDF5VlVVSXotNjUzczE3cmVkRXg3RHNGUjVrWTdRS0lCTS1Vc2M1d25wMGJZWXAxSjM3MkE9
+"Yupp that is also a thing, I'll try to find better ones",r/iot,Z0FBQUFBQm0yeGNQVkZKNHF3S2VjdzJJald6YnQ2b05ieGJ5YjhtTmhvc0Z2WnFCTDY2QzhWTjZTMEFjZy1Gek5mSmR0Wi1XMVNlZEdhaFoyZHFVaV9LTklzclZZVy0zOXc9PQ==
+"I agree I do struggle to see how 1nce can make enough money to pay staff - let alone the networks themselves.  To have to change SIMs in devices everywhere would finish use financially, so I am being quite conservative with supplier choice !",r/iot,Z0FBQUFBQm0yeGNQV2NlZzVITW9sRlVDQzRIZUI2ai1yUzMtbXI0OTNVSkNkYVVfVl96cXVuOWE0aVhKU1RmcmRSU1Njc0FMd0hOOENuc2w3aHBDWC01cXJUdjNvOGg2LXdTbmdMOURrN3MxMk5LQWhCLTBhYjA9
+If you are finding ESP32 boards unreliable it's either your board or your software that is the issue. These chips are used in their millions in thousands of different designs (mostly industrial) around the world and are entirely reliable. Even hobbyist level projects (mine included) run for years without resets or reboots.,r/iot,Z0FBQUFBQm0yeGNQU3lRcmc0YlVNY1JHTGtaNnJVa0VhLUNpZjRmNlFfSVpOeTR2aDd3REVtMXY4S2ZXVy1ybXVHdzl4ZnZFaGE0aXkzeU1sUFJaaHRmZ1NrZFUwVWhfVjV0cFhPVWxhVEhSLTd4Q3dzRmVGMzQ9
+"1nce is a spin-off from Deutsche Telekom…. They want to change the IOT market but their service offering only allows certain specific use cases in cellular connectivity with very low data consumption (LPWA) and therefore their offering cannot respond to the large majority of cellular IOT projects requiring greater data consumption.
+They are dependent on roaming agreements from DT, or T-Mobile for the USA.
+
+In addition, for a large-scale deployment, the basic investment for a company... example: if you want to deploy 1000 devices... you will have to pay a basic cost of €10,000 (not counting fixed costs... delivery costs... cost of the SIM... )
+
+With this business model… the service is “low touch”…. Customer service ? Features of their management platform and services included?…)
+
+In my opinion, even if the price is important in a cellular IOT deployment project, it is important... I think we must also look at the supplier's ability to provide quality service (networks... security... roaming... Customer service...)",r/iot,Z0FBQUFBQm0yeGNQbVAtd1FWeGVha08tREF2Z0xkSDkwc1FTTFdNX1lWZVBfUl9rbS1rWUhZU0ZzUUJ2RjFJdTJ5aUllREMxbmtmbG5KTTc1MDlIM1RvdFc3ZlRJTVd1QUE9PQ==
+"I think the problem with arduino is that the shields available for it for cellular don't support 4G and 5G, at least from what i can find.  
+But i saw people using the cellular HAT for Raspberry Pi with Arduinos",r/iot,Z0FBQUFBQm0yeGNQZmVEbzFKY3BzcW13QUV3TWNsQ3dYZlBaMzROc2pYTDg3bVhKb1E0UTlGYW1MZmp6TlUyVTZ5RDQ2OWxtZ2xUbG1kbUc0S09uejVndVN2SGFfSG1vb1E9PQ==
+I saw the Pico are nowadays cheaper than genuine Arduinos,r/iot,Z0FBQUFBQm0yeGNQeU9jYm9zRDdGVktmcTJYSDVSSHowcnJwTGVwNVV6Nm9lM0lKSGdGbFJST1EzdkI5c1pEWlhDdDJhWnE2UGNwTG1sZnpJRkpuSzI5eU12QVBicUFoTmc9PQ==
+"Agreed, my go to shop had them for cheap as hell
+https://raspberry.piaustralia.com.au/products/raspberry-pi-pico-w",r/iot,Z0FBQUFBQm0yeGNQWVEtcGUyVEhld0pZS2NUX2NMdkVuMUZTQTVpRzM1TXBPa2JXMDk5RTFHVGsyU0cxejdSY1ZBUDZvMG1JOUtlci1rOUtONTZiQTAtbWhEb2wxODlYRmc9PQ==
+"For my projects, the ESP32 is 100% rock solid with my ESP-IDF-powered software.",r/iot,Z0FBQUFBQm0yeGNQOWY0cWE5cVEtckJuYThsZF9mYUlnWEk2NHNfR3RYcWstcTFDaHhmMHVKc3VSMlQxa3BoenRFZkVyQVIxX2ZIVW5IYWlRTDhpRnljSGMwWGlhTDk4NGc9PQ==
+"LOL nice. That is some next level automation. I don't know though, good luck",r/iot,Z0FBQUFBQm0yeGNQcW93MlNJazBZMGRpejkzTWdrdkxBb2IxTzlreW5lUnJSYVQtTXZLdVJHb2pqYjRxU0NwcWwwQl9uQ0I5a0NDWjdwQi1zWGt1d0REcy1pb3VEaGQ0dkE9PQ==
+"I'm aware, but thanks anyways. The only google product that would help me would be a more accurate tile alternative.",r/iot,Z0FBQUFBQm0yeGNQbGtJdDM5YVBraFl0QWloaUh6ZFEyYkJrckk0VnQwM25RNVJGSTBocXoxbWlRRl84Nm8wM0VJQmxQZ2J4SWd3eXNuUnpJeVdaTXdUeFhhMkdGTFowVEE9PQ==
+"Power Automate, create a webhook and do actions based on that. Webhook is probably licensed, but you can make a custom for free, and it is just a webhook... At least last time I tried.",r/iot,Z0FBQUFBQm0yeGNQcFRtTFg2WFZhdWZNV1E1RlBKVWlha20wbDFFS2FxQ1FFUVdXeDhhWUlRVUs5YjBQQjVkZVJPTFgtd2haWkowTHB5a3c1MEdKX0IzZkJCa3VTNmNuZHc9PQ==
+"You seem to want to go wireless...
+For me the first rule is open system see open source...
+And for wireless, look at lora.
+Afterwards you will need a mini server to process the information (raspberry example)
+For sensors, the lora is perfect, for everything actuator, see what you need...
+
+And for your connection problem, if it is recurring, there is no magic solution, a 4G modem as a backup,",r/iot,Z0FBQUFBQm0yeGNRZUZHZFVZbDY3dHJPbWo0d0RLVVAwRXR5X2NNMWZQWjZ2Yk5WOHBrUkNXUXNJUzN2RkpSejJEU0lGYjl5a2VzUWF4NnRGMEozRDdib25pWDhDRmpVUUE9PQ==
+"This is the hardware of the Edgeberry project; an open source project for putting your Raspberry Pi on (the IoT) edge =D
+
+Should this tickle your interest: [https://github.com/Edgeberry](https://github.com/Edgeberry)",r/iot,Z0FBQUFBQm0yeGNReUdHbU9pRG5FNElNdl9tRi0yQUdEMW96T3lIMk9hUFYwMmxJQnk4VjMtdHNEREtsQjItbzQ3dkRGS2duSDlKTW1PRHQ2a0NoUW5lV0xOdHRybHRtMGc9PQ==
+"Your devices are already securely communicating with the cloud through MQTT, isn't it possible to deliver the firmware over MQTT?   
+[https://docs.aws.amazon.com/iot/latest/developerguide/mqtt-based-file-delivery.html](https://docs.aws.amazon.com/iot/latest/developerguide/mqtt-based-file-delivery.html)  
+Something like this?",r/iot,Z0FBQUFBQm0yeGNRRTJHZ1hiRExsOWl4LVNmamdYeTBVQXhSbWhiZjFfbC02SDJYZ1Nub2ZycmZ3TGdySjYyOGd0MVAtbWZoekRfQlp4M05vb3JmdzRoc19JLUxOdnBXc3c9PQ==
+"I'm not sure whether that's the best solution? How about a request/response model, in which the device sends their location, and receive all location-associated data?",r/iot,Z0FBQUFBQm0yeGNRekItX2tGcVJRU2ZTd3gyOUpQRWlidVFFVUIwbS1rTEc0Z3BtdnV4UE1vdHZ5bTRQSDdDMEhLdEZSc1kxUXJCbENydm5IN1QtRTBKdTNhM0stTTlSd3c9PQ==
+The problem is that my esp freezes randomly sometimes. And that is something I cannot let happen as my devices are installed at remote locations. For now I have put a external watchdog timer on my device along with its internal watchdog. Still I am looking forward to change the mcu.,r/iot,Z0FBQUFBQm0yeGNRb2lBdTFreEhONTZuQVVUTmxPQjQ0dHMyem96S3RISHdncmNIRGdTaHN6YlZzSXU0a1hpUUJ1R3VLVmh2UU9NS1RrTGZoUUQ4UjFjb21BRlRSUGxEQWU2TTBJdTVaajBncWw0MUlWZ2hBcW89
+"I know, it was also good for me until my devices got deployed in remote locations and started freezing.",r/iot,Z0FBQUFBQm0yeGNRaGk2dVRFVS1SaDMwVnYzOHdiZDFTekZ4cGQtZ2dodkkwRnI3WGxPVTNoYmt3QXpUcUVhOHc5cS1YNTZNYWhtMm1YdEg3WDN1dkM0X2NyTUN6V3JLLVVyd2dUSUV3VVVwNFo0T3ZPX3hDUDQ9
+"that's interesting, looking into it, thanks a million",r/iot,Z0FBQUFBQm0yeGNRQ2ZUcjZlWXpxZ0ZHRXRqMmxMNFc2WWpDeTkzdjVudHo4YzktNWs2ZVpodTk0dmd6MFozcWViS3R0aHJCSDNKc1JPYThsYlRlU0dwVGc5UUVyTGIyMVE9PQ==
+Great! Let me/us know your findings!,r/iot,Z0FBQUFBQm0yeGNRM0NNbzdaQnE2MG4xNmdzeEJyTGhzb1JiVV9OZEQwX1lCenRnOWFYSlFDVUJCSHlOXy1OWDk1VldGTTI1V08zS0tnYWxNWkhaZ00tYTFkRXNmOFdlV2c9PQ==
+"Thanks for your advice. I’ve just signed up at the Rasberry pi website. 
+
+Regarding the connection issue, there really is no solution (magic or mundane). Just a product of where I have chosen to live. I just want to be able to connect to my lights and things via a local hub that doesn’t require an internet connection to work. If I can also access this hub remotely via internet, that would be a bonus.",r/iot,Z0FBQUFBQm0yeGNRUWJIb0NiYlBrU3IzR3JyX0NWNVNSQnBNZFVLYXJyN1AwS2I4UkVYQmRjb244M1EwN19SY2NHRW9JYUFxRjhuWWJ5ZkpScFV6SkpJYkRiUjF3QllvVmc9PQ==
+"Autant pour moi je n' avais pas compris l histoire du hub.
+
+Effectivement pour faire cela, un raspberry fera très bien l' affaire ! Mais il n y a rien de plug and play, il y aura du boulot !",r/iot,Z0FBQUFBQm0yeGNRWEg1eFVUdHVZbjktbThvTDQ2VDFJZEZGOFVTUEZsTnBid2ZmLXJjcUYzc0YxMUEwTFo4allKY2FPQzNYQ05nb05XOVVCLXM0b0FKRzh1ZmppMWNaNUE9PQ==
+If Google translate is working properly…DIY is fine. Plug and play is convenient but expensive and reliant on the company do decide what features I can have. I’m just looking for suggestions on where to start so I don’t end up back to square one when the (system/platform) I start with is not capable of the features that as t I want.,r/iot,Z0FBQUFBQm0yeGNRS0dVNTFRMTlwNlpYZHZYcnoweHVjY2h3UTR4SkgtS09mR3ZMZnNrTnBNMXJxRXpRWGVSejR6UXVTWTJJdXFXMTFCRW5LVmJibE1YVlFGVENHdkZQYlE9PQ==
+What are your limitations against using s3 presigned urls?,r/iot,Z0FBQUFBQm0yeGNRZndNMW55eXFGVjh2UWxnQ2hEaWxVY0p5SnNnMUMyMXlXWldqTUY4S0YyVW1xd0hoZ3hkZUxaZUdJZFNzamZ6eXo4U3dqNHFKODNhNEktdHl6TDZveFE9PQ==
+"Shelly Buttons have a internal web interface, so you can enter the WiFi details.
+
+[https://kb.shelly.cloud/knowledge-base/shelly-button-1-web-interface-guide](https://kb.shelly.cloud/knowledge-base/shelly-button-1-web-interface-guide)",r/iot,Z0FBQUFBQm0yeGNRV05oWlVqeEpfb2l4eGlBTkdUR2JWSDRFeGhEc0ZXN05HV2hCaHFwVG1nbENlRE45MDhzbjlJZmg2S0kzN1E2SzhaR0NremxlSGZzSnBrOGJGcm9NLUE9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNRbDItM1hzODljejlscmExdk5JdzdnOXZ3RjBGUnRXY2tiNVQzSXB1QzlaOGxzUFduUi0xZE9MNzIwbjh6RDI5RkQ3U2p4cnhPaTZsTXJvRWNvVWJNLXc9PQ==
+"i though the same link can not be used twice  
+but now the actual limitation is that the signed url needs to be always fresh",r/iot,Z0FBQUFBQm0yeGNRWUxEZGN0cHE4UmZEZFBvdmw3c1IyeUxNMEZSdlczenZRb0YwLVFFMzdCZWhVdy1EVWxJUEgtQ2VsMWlRbWtINWpPN3RZTkRIQ3JZZk41OEMtdWxxa0E9PQ==
+"I would also recommend to learn AWS IoT Core or Azure IoT Hub...
+
+\\[edit\\] Or check out Open Balena?",r/iot,Z0FBQUFBQm0yeGNRc2JMNUpaaEpJcFdmWkF1SkpCaWNLSGM0OEhBOEVOWDE3RTFyOHpJUHpkQTZ4Qm4xYlFoR3ZvNEpYYU9GVkVqeGVFQkl3bEF6b19Kd3pYOUdFbG1QcGc9PQ==
+"You might be able to leverage IoT Jobs which generates a fresh presigned url when for your bucket when a device starts the remote operation
+
+https://docs.aws.amazon.com/iot/latest/developerguide/jobs-what-is.html",r/iot,Z0FBQUFBQm0yeGNRWlBYWFByWVBmUmRHLUxDT0tmUnpvbzAyMm5PeWpBUl9uWnpNMVU2U08tdmNXc1JsSFBVTm1DZjZWRWRZUzVmMkpHY0tKNmlDY2RGdG1UV3d1QVRQZmc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNRNGFIN2lSdmtTbTMyNS1lOHdHaDgxd1AtQ2tCSGwyMFZrUGRySWYzX2t1WnNCcFdKYTZjcEhYaGNvZHNPZmprX1gzSkdXcnJ6Vy1pQy1VTDlnWGZzdHc9PQ==
+"Like I said its your board or your code. If its rubbish code then changing the SoC won't help. Are you buying branded, certificated, traceable boards, and high quality CE / FCC marked power supplies, or just cheap crap on Ebay? The chips themselves are NOT the issue.",r/iot,Z0FBQUFBQm0yeGNXdjZKbmtsNVp1S2xvbFhzYjYzN2pScmtkUGpoMnpyOXk2d0ZFX1loZFNYcUVnLUcxYV8wWVZCNkJTNFJSNC1nUnctMTV0RFBXYjFkRUY3cWhWQ2V0elptZ1FRYWJrZmVlbHpGWmZfWmktTmM9
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNXMlhteTBNUkNTUXdQdEM0b1lLZENSQzAxenhGNE5jTHN2ZFFGU3NqNms3VXlzMXdVZDVtYmdIYnNLTzVYdWpMY0Q4UVBHYVJxOTRaa3lHaWZBREItaVE9PQ==
+"Sounds like startup current to me, maybe consider a start capacitor if possible?",r/iot,Z0FBQUFBQm0yeGNXdXZLaXBIRlo1TVdfQldvZFk5YzJncllRT2NmRzZPenhiVHNNNkU2eGNrTVVPbDNZN2lya201TXI1ZmhmLWZKQjFscGt1QVFyMjZvdlh4YW8xYUZyRXc9PQ==
+Interested to learn how this worked out?,r/iot,Z0FBQUFBQm0yeGNXMmh6OE51MTRTSkZFWFRhTjdlX0ppZjg5b3FEd1Y2LUFmby05TFZiRUpkSmdiWU1XcWhscExEUTQ1TVNKb3JIbUFBRkVsYl8wWkoxSXFscFdKZWdEUUE9PQ==
+What did you figure out on this? I’m facing a similar decision,r/iot,Z0FBQUFBQm0yeGNXNTE3S1FHYXpQdFRfUjVzMG5iWnRtdVZGUTVlS3F1THJnenRnLUxieHlHYTBtclAydy1uSWN1NXl0VnkzYUxFYVlvS1dsZ0JIZjBOVzhRRHl6ODlvakE9PQ==
+"Huh I didn't know such thing exist.
+Do you happen to know how to wire it?
+The motor in question is very simple 5v DC with 2 lid and I can't think of good way.",r/iot,Z0FBQUFBQm0yeGNXMUpVc3pwZ1RtY0ZzMENhWmc1ZDN3a0drZGlxNzhOaUZZR0lYQU5ZZjM2RnpPYmJwcHBoWS1GcUJqSXNTaDZzMTNfdjM1Rmx1NjVGTzdlMXg2N0g2TUtocllmdDlWRkJPLUJfckZ2Mk1mVDg9
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNXWndwQTAtbThrSU5JUHQ2SS00V0t3a3RUQVpwejlvUjNkQVFfTjV6LTlCRkd3MlR2QUtsVXZ4M1IweFRCaVlER1NHT1hCMGdKamp1QUF6Ti1IcllsR3c9PQ==
+Parakey might work. https://en.parakey.co,r/iot,Z0FBQUFBQm0yeGNXcUFvYkZQSmtscUd3OFNRVFpmVmN2bFY4TUloUHZHNWFZdFN1UFhXdWRuZE44SVBGaG54bXRyelJYUHNiQWRTSDhsbFFhcko3Qi13M1JudWFfQTFuWmc9PQ==
+Thanks - I must have missed that! I'll give it a go,r/iot,Z0FBQUFBQm0yeGNXaG5iMlA3SWxLWElleTJCTWtIekZncnQxaDlTdUVZSlptNWdGT1dndkhzUUtBTVk4UEdUMHBBemRKOWU4RWhqT3JDRk1UV3Zmdkl3MENVelpaR2xvanc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNXSk1kb0VmM29QVlN4WklLcDluNy1IOW0yaWpoWlphR0Q5UEo4bnFucXJpX2NoR3Z1RFVXWUctNm9zSEJvbmZhRkt0SzZyQnhZZTJNZ1hMblhaNk04SHc9PQ==
+We don’t charge for SMS-MT and only charge for data consumed. Plus we only charge for SIM cards that are active on our network - DM me and I will send you contact details in UK,r/iot,Z0FBQUFBQm0yeGNXZ2JJM3NRY2xMYzQ2Y00wWDBGWjBpNnJFaWRtZ190S1RDYjJzdHZxemRKbjZkMndabURHMktnQzJtbjlnMHNjd1JRNDVINk9YNE9DWTZUNjJaTEJDUkdXdmlRSzBTbXFBSFNWYnpQZTVtekU9
+"SMS in IOT is not a technology of the future…. in a few years this mode of communication will no longer be used in the cellular world (general public or industrial)
+
+Some manufacturers are establishing partnerships with cellular connectivity providers, but this remains rare.
+
+Can you explain your use case or your need more precisely?",r/iot,Z0FBQUFBQm0yeGNXR0xkWWpTcktjQzJ3ZzhxMGhaSmd3c2pnSVNoNWdPTFllT2RhMmZsUEszenY3eU9ReUhSQjN2b1Q5R3FURzdYOU90N2Z5V1pwbTVXcmtQN0xoY01pNkE9PQ==
+M5Stack LTE module?,r/iot,Z0FBQUFBQm0yeGNXS3huUEtSakU4Zm42TmsxcWtIbmdTQV9YNDkydVFQQVZ3QW1XWkhIVmRqVFQ0ZkktZ1IzTzJyNDl5MEMyQ3VOa01TNTJyYVFPTnAxQnNob3lWQ0MyWXc9PQ==
+"1. IoT device that will have SIM and GPS in it
+2. Will be a button to press on a small keychain type size device
+3. When pressed, it will send my server an SMS with GPS coordinates and other data I programmed into that device",r/iot,Z0FBQUFBQm0yeGNXd1ZVZFoyb1pVc2tibTdkaGttT3pPbzBJZFFwWXNtNnAxbXZJc0VJNWd6LXFrR29zRnNKNS1sUEVzSXJDT0NZQ01MaW9BU08tcEZFWHBrN0hRTlRRSUE9PQ==
+Maybe at Teltonika: https://teltonika-gps.com/products/trackers,r/iot,Z0FBQUFBQm0yeGNXbFVZMTJQNkVrOGJLYkNZdHhWQkNFTWJyMEhTWTYxb1ZodG1fRXlGSTZ2aTRRNWktRE1yeWU0VnNyOTFVU0RsTnozU3FrUy1SMS1MZURucU91MWRWcVE9PQ==
+"Wow, you hit it right on the nail !!!!!  What more can you tell me about this solution?",r/iot,Z0FBQUFBQm0yeGNXWWZRRHdkdkFzdkNGTkFsN0V3UjctbHdqY09TekJLREplelpHVnd2V083THgxRHpMTjh2MmZiemRWa1N1VmRPVjdnTWxha3ZSOFFXR3ZZNG1YaXY5Rmc9PQ==
+it seems they only to hardware,r/iot,Z0FBQUFBQm0yeGNXTGR2LVBCd0tKcEhWR0xIVkZyY0RzNmlxTnJTVXVsVlJYdExFOHlBcnpkZnV4VXBMVjI0QVRYYzZFTVcwU2pnUXgzSk1uV3ZQLWw0RF9Tdl85clU4YXc9PQ==
+"More requirements questions:
+
+
+1. Presumably this device will be battery powered, how long does the battery need to last?
+1. How often will the button be pressed?
+1. What is an acceptable amount of latency from the time the button is pressed to the time the location reaches the server?
+1. What do you expect to happen if the user presses the button and the device can't get a GPS fix?
+1. Will this device always be outdoors when the button is pressed?
+1. Will the device be used in urban environments or remote environments?
+1. What do you expect to happen if the button is pressed while the device is out of cellular coverage?
+1. What level of location accuracy is acceptable to your application?",r/iot,Z0FBQUFBQm0yeGNXeEp4a1hXQVhTREtHSDdwd0xUbGtjYTl0aXhlLVpydnVSMDRmM1hwVkQ5NkpCU3hhNHlNM3ZzWkxWTl9BNHVOWkxkMzFZbVhxVHlQUThFMndPUkU3S3c9PQ==
+"Thank You!
+
+1) It wont be used much, looking for at least 1-2 weeks battery lasting
+
+2) rarely... very rarely.... maybe once in 2 weeks if that
+
+3) not worried about that, as long as the data is SENT within 1-2 seconds of when the button is pressed.  but >5 seconds would be nice
+
+4) I would expect them to press it again.  So it could have a green light to show its on, then when it is pressed if GPS was sent successfully it would maybe show them a flashing green light for a minute or so and if not a red light, this will require them to press it again, something like this.
+
+5) No, it will be used mostly indoors and sometimes outdoors.
+
+6) Urban
+
+7) It can flash red light showing failure....
+
+8) **DGPS**: 1 to 3 meters would be nice, or **WAAS/EGNOS/LAAS**: 1 to 3 meters, but would be happy with **Consumer-Grade GPS**: 5 to 10 meters
+
+Great questions.....",r/iot,Z0FBQUFBQm0yeGNXUGxMZTN6My0xZDVyYXo0dlFDaWU4a3RCRjJPWlVLaklmVDZ4ZFlIQmpWbDJRanRpeDV2al9QNWo3ZVJ1SFNiV29vTWpzY1pkSHRtMG1xRUNSMzlRTGc9PQ==
+"Particle.io have some gps modules that Can send data to a webhook, not sure why you need sms, though it might be possible. ",r/iot,Z0FBQUFBQm0yeGNXczRINHRJM3BHTGxjZnJKZUoyVHJXUHF2cFVjUFEybmJBZk4zbW1QSDNUdzlaeW81ZWVQaGcycjJTNDZ1cG0zWjY3c3lGc0xSZGRTTmRoTkJ2WkZIbUE9PQ==
+"Most of it's on the site, but it's stackable, in that the M5 stuff is modular and can be programmed with python",r/iot,Z0FBQUFBQm0yeGNXWjNKNEhPUFFVektscGo5X0RBVWpLZUcxX25ZeDVZZWZZMVltQ3N2QzhFMm5oOEdlaklqODMwSE1sVWI2dmdYOWtCVW9hb09PWlg1eU5LcERoZEZreXc9PQ==
+do you do this stuff for a living?,r/iot,Z0FBQUFBQm0yeGNXRjFHUkpVT1dJbE03a2NCbEt5bDNVTGV1by0waWNPY1lEalpQWUtHcHg2WEhkdEZXWDBkX1Y5UnNuWUJXQXFBVnJiWmV5ajB4aEphNWQ3emt4a01SdkE9PQ==
+This looks like a security device. Instead of SMS you can use an MQTT broker. We are developing similar solutions for kids watches. Maybe we can help. DM me,r/iot,Z0FBQUFBQm0yeGNXZldnelM5NFVnTlpPUkR6VzBfT3JNb1BGTFdHbmhqenZoREdIR19laUhHM0xpcTA4ZHcwRzgxdEpPMlY1Z0lHQlVacGgxelA0aDg5clBzeG1kNHdIU1E9PQ==
+"No, actually its an SMS solution, i just need it to send out an SMS that is all, will DM you.",r/iot,Z0FBQUFBQm0yeGNXd0o5STJjdDVLdFN3VVlBQmRha0dmLXcza21MbGswU3BRMlhMd1JaRWFXdUt4XzFMY0tlZkcwUy03Nmx3WjVCZVlwNzJ0bkY1YVUwUEt1WGNDbDVMNnc9PQ==
+"Ok, during my research I saw some similar modules, mostly as personal security devices, usually for the Chinese or Indian markets. Suggest to first start finding out-of-the-shelf devices, like from Teltonika or based on the nRF9160 chips.",r/iot,Z0FBQUFBQm0yeGNXSzJOTV9tcUtpRkd6YXZJU3Q0SU1RWEltNWRJM2dxUDI0cU5haXBPOGNfeW5aY1BYaEVnYzEtNlRlOE14eDFVSmVHWjlYdUZUS1FfS01tSVVrWXBYcWc9PQ==
+"We've developed hardware + software with similar architectures successfully in the past. Included both an NRF9160 module + Antenna, GPS with a Taoglas Patch Antenna, an LED, sensor inputs, and a solar cell (to eliminate batteries). Depends if your application is outside or not, having a battery based solution wouldn't be a problem. Software include a complete iOS and Android app with AWS cloud architecture.
+
+DM me and I fill you in,
+
+Nick",r/iot,Z0FBQUFBQm0yeGNXU0ZNQ0JYcWcyenN5M1k0Z2R0a0tYZ285Zk8tTkxnVTNVdFBpeHVxQWVvNGhSYVpWcTluS25GalZod2FibnBzNzlsVW1vTWVVcUpnTllwOVpMNHJVS3YzNTNEczZoUk95MlpjQlJkX3UwUlE9
+[This device](https://www.eurotech.com/products/reliagate-10-14/) has GPS and cellular connectivity. Antenna needed. [Their other edge devices.](https://www.eurotech.com/products/#product-edge-gateways),r/iot,Z0FBQUFBQm0yeGNXVW5RTHlYUDZlRlI3QlZ3OWp2djlKTlNnNFRrOFM3TkVhRHhMeENtQS0tUlRDVE1aYVhjQzJlMlNoRkg4S18zWWpwemRyanpGUnZTODR0VFM4Q1MzMHc9PQ==
+Try Blynk,r/iot,Z0FBQUFBQm0yeGNXVzdLTTkwMHRadVB0NG02UEVua3k4ZjFHamp5TEl2dE8wbDN2OC1reU1kMWNQbElMMWVRTldONEV4OXZZZFhaVjljMkViXzdDMU5jOVVZZjQxLWdTTFE9PQ==
+It looks good. Thank You!,r/iot,Z0FBQUFBQm0yeGNYT3lDN0RKZ21kMl84Z2I3ZmI4UlFVYS1mQ0VJWlA1MlN0SnFWR0tFU2dTTHVCY0VZTTA0Z2tmV3dfdy1QdVZibF8zbVRDbk8ydENJMVRueFVkTUtxcmc9PQ==
+"If you don't care about power consumption, you can have the device check it's location frequently and keep your cellular modem in a fully connected state. As soon as someone presses the button, you send a message to your server.
+
+Of course people generally *do* care about power consumption, so you can go to the other extreme. Put the cellular modem into PSM mode and put your MCU into a low power state with an interrupt connected to your push-button. Once the button is pressed you wake up and attempt to get a fix. I'm not a GPS expert, but I believe that this can take significantly longer than a few seconds. Stuff that I'm seeing online is saying 3 minutes. Once you have the fix, you send your message to the server, get an ACK and then shutdown into your sleep state.
+
+It may also be worth considering whether you could use non-GPS methods for determining the location. You could (for example) do a Wi-Fi scan and submit your results to a third party service that uses a database of WiFi SSIDs to estimate the location of the device.",r/iot,Z0FBQUFBQm0yeGNYNzZjaGN4WWwzSzhXckg5SXdrWmFjcWlYVW52QUYwUE9xQlY3b0FtV1FSci1JbnFkT0JJcl9BcUNnc1A1NnlzZDU5ZWtfMWpWMDJsNTQ3RjdxbXlTSnc9PQ==
+Thank You!  Wealth of info,r/iot,Z0FBQUFBQm0yeGNYU2R3dmpTNTBTWUk4R3Jucm54bFFheTM2ZVdMeEs4SmM1RUxRY1VyTWg4N1llc1p1SUZPa1dPbklveWQyNk5xNkdhWHFrM3J0WUc2MWZ2TV9scHRJc0E9PQ==
+How did you pick that device? The traccar supported devices pages has like 100s of choices and no details.,r/iot,Z0FBQUFBQm0yeGNYdHdRUGJZM2NxT0hMVTFHeVg3M3Y5RHR1YkZWX0RzZ0dRZzVfN2ZhRmVDZlJDLXQyWm5sbGpiREc3TnppNjRPR0p5TlFOdWsyNjIySHlKSFNCVmhhSUE9PQ==
+"I don't remember at this point, I think it was relatively cheap and looked decent with LTE support and whatnot.",r/iot,Z0FBQUFBQm0yeGNYVlJTNm5fbzA0XzByck1hR3RyRG1jSWFWdF9Hck5Kb3RNM1BqNE1sNHI0Q1YzLUR6VDdRNGpEMVd0NXJtTFFNNk1mRXJ0Y0tfOFlkMDNHTm81T2h6a0E9PQ==
+"It seems like from technical and product level is not a problem, cost is a big problem at present. Also even in warehouse the use case is different, so solutions should be a little higher.",r/iot,Z0FBQUFBQm0yeGNYN3pLTFlNZzdWRUFkb0RPSFE0VE9tTk1kT1dmbW9uVHBmMTYtMFFBQmo2RzhERWNhOXBtN01sTTZ5YV9mS1E4UkNScnNTLU11NF9mbHRTYVRkNFB4dUE9PQ==
+"Yeah, wyze cam seems promising. Can use stream from here onto google cloud or AWS.  
+[https://github.com/mrlt8/docker-wyze-bridge/tree/main](https://github.com/mrlt8/docker-wyze-bridge/tree/main)",r/iot,Z0FBQUFBQm0yeGNYVXZpbjd5Y2p4aGwtNVhxenlvWjdaWTVLa0ZNQWs4SVQ3SnoyX1FCZ2pwYUtXU05WM1VFVmtpa0NxX0xsaE10VnRicWJScUVXNkd1TFY5OUpqRDVlbnc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNYb19HazU2MWRxR212VXVHRThYRGpKVm1oVE9Ccm9lMTRwd3FjTXBXbjNDcW1vc0k1MENaX2JTSFhibzFkTWw1N1Nqc0pKTkZrWGZkTTNZWE9WM1puZGc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNYZ0xqQXNwd3BtUzlRVFpraEgwZGJXaXdqblBpUTN4dTIxY0xJMTk3M3dubGJaTjNlZUlscWlFNE51YVVIZDhEWHlfUmN6M0dLRWFjT19obmFCTUFLTnc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNYbjMybnlReWxBMDZqVm9jc3ZlbmlNRmx2ZVlUN3FJaFJmUVduU3hROVJhUEZvVm94cjlIaWRDNEY4X0ZQSHN2U2ZFUGR3cnJjeWFvWU1JeXVjaXUzaFE9PQ==
+It will work I guess,r/iot,Z0FBQUFBQm0yeGNYanFwY3dpYTJsaGRJay04MzVwX1RWMGFZcVRQN0tYamZfUEYzR0lIT3kwbGJWeGNsWG9wNTZacm45a003MlBvTFBIcktQbUxQRG9QUHVURE9GZU4yV1VfQWdnZFZ2YktSSTlSR0xfU1pER289
+I found this https://spintly.com/,r/iot,Z0FBQUFBQm0yeGNYeVlBNmdHS2pmR2NodjVxRDhSN25FbWdlUWRZRW1JMW00OEF1U3I0ZnhicXdvTEVKWFRtM1ZsWU9XZllfRkRwMGNjNEcxNWlJVXFRTml3TDVHZ0cyVE81Z2d1emdsRE4tR2ozSFBBOGVOenM9
+"You can reach out to Schematics Microelectronics, they are really good in this domain.
+https://www.smedehradun.com/",r/iot,Z0FBQUFBQm0yeGNYUVl2ams3Z3ZTNl9qWWE0TURwRWRkZWlaS2lXbkxVZWRXaHFISnJ1cWlTVUlOOC1QWC00MVJIbm9LLV9PbG9IUzlic2dsUmk2NlRfUWtmSVUyREhFYTFqMzdrcmhkc1VKMGhrZkNUSW1ZTmM9
+"Only one IoT Company came for placements other than that I would say this is India, if civil engineers can go in software then anyone can
+
+If you are asking about this particular college or degree then I would say it's above average, facilities are there for those who want actually do something, placements were just like any other tier 3 college",r/iot,Z0FBQUFBQm0yeGNYUG5taWZpSGE4WkI1TTZPeng2YzM5RGhRbzdUekhfdmtLR1ZjSmZQZEpNTHUtMWhWYzJiRHhmQ05QN2Nma1Zla3dPcUdWT2F1N3pPekdnaEVyUHhseHc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNZdHZQazJuTGRmQ2c1SEtFWkZQN1BYbXc5RUNFY180WjBsTm5ZZXNDTVJvUXVFcGNOblFsOV9qYnFPNlZERWlwLWE0eldpeGE1ejVad0FFWFJuRXFWS0E9PQ==
+Check out [Thingsty.com](http://Thingsty.com) .  Has a lot of features. Plus the founders take customer feedback very seriously so they might add custom features for you.,r/iot,Z0FBQUFBQm0yeGNZYTRtZVVlUUM0TU9FX1RzbUQ3NS1CQjhYWV9QNjVDcEdNUW01U0JuVm1OZjVRUW9PRkNjVnVvYXdMQ0ZyLVFlLU5DQmRVLUFiaHBTcWZPbVpBaWRaSVE9PQ==
+You can explore us at RNDSquare.com. we can manufacture it at under your brand name,r/iot,Z0FBQUFBQm0yeGNZelczeDlnejVmV2JjNFFEYVJyUFB4dlhYSEdmNzRJN1JfSV9pUWplV3VtZEx0MVhmb3BheTFlSE4yajRqdkRsWDQwY01iancxUjJ5SHVNZWdVSXBKSEE9PQ==
+Try [Thingsty.com](http://thingsty.com/) . Has a lot of features. Plus the founders take customer feedback very seriously so they might add custom features for you.,r/iot,Z0FBQUFBQm0yeGNZZXdOUWpCbTdkMS1VMjlRYXBTMGpTMzkxTGcyaVlKZjhZTVRDS3BaRmVCZVBJR2FrOEhTU3paZDZ3MmdfbmE5NWpjNkszMC1VSGZmaThwdEU2ZUN5T0E9PQ==
+Check out [Thingsty.com](http://thingsty.com/) . Has a lot of features. Plus the founders take customer feedback very seriously so they might add custom features for you.,r/iot,Z0FBQUFBQm0yeGNZYlNtUEpESTFRdlRvQjUwbzIwSldVbU9OWGN4N1BSNWpvRUJIcHhkMFYwNkRlTXVvc3ZtbVR3UXowWGtnaGRsbC1VbjJsampoMm9BcDVfTnRVUGFVaVE9PQ==
+"Try [Thingsty.com](http://thingsty.com/) . Its No-Code and has a lot of features. Plus, the founders take customer feedback very seriously so they might add custom features for you.",r/iot,Z0FBQUFBQm0yeGNZUUM3X0hkWlN2eXZ1MzdWZXhkZ2VvUmFfRTB3bXNKRzRsalZObXFNbGdNYk03cDR6VW11aURXTjF2MlBkMW1zam1aSko0RHE3SmxHeTFRcDhOT2pDRnc9PQ==
+What will it cost,r/iot,Z0FBQUFBQm0yeGNZSldTVnRLZF9nUmthckFkYVJXYU5haEZPYmoxOTlHUVJsMEJyNnVzSUF4RmlnQU9OaDZyd1JNY3otNlY1SzZlUkx5SGJNMXJyTERycF94Y3hlLWVERGc9PQ==
+Thank You!,r/iot,Z0FBQUFBQm0yeGNZU3oySWIyZVFpQjhPSGJ2NjZHcndybmZzeXgxR3JUNjVhVWpDNTN1VElYdmZ4OVFuU19FbE50bEhDZTB0ZVh0eEppc1YyN2NGejdNZURkMHNHdWZMM2c9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNZdExMLTA0RklBMHNacXFSUEVURXRKMnNfdGxVRURnVzdWeHo2cGdrZGk3OXRRQ2NxVTJtYU1KREFWSzBSb1EtQ0JOUXBUYjBISlU1cmpyZXAyMzBFY3c9PQ==
+"2G/GSM is being phased out in North America so if you can, i highly recommend to change your cellular module before going further. T-Mobile US and Rogers Canada still have a little coverage but not for long. About the AT command you should just set the APN with something like AT+CGDCONT=1,""IP"",""apn""",r/iot,Z0FBQUFBQm0yeGNaQlJla2psSjl6dndteW5jSHhvUVlxTDFBMkstMF9CcUZ5UUV2RHBlLVZyRTdBeXpPaExaNC1LLWV2OXpJWWlMTERUZmhmeHBESzd4TkxvNlAxREFhbmc9PQ==
+"I've made a CAN-bus interface for my [Raspberry Pi based IoT platform](https://github.com/Edgeberry). I've made successful connection between 2 devices. Now I'm looking for interesting CAN-bus things for listening in on, or controlling.",r/iot,Z0FBQUFBQm0yeGNab1FKdDIwZkpmYVBjaFVYM0podFBTMWNCZ2dxWjlTR3VSYkZQSHI1OUhYVm9pcDFIOWdPTzFDSW9zeEtJOGV6TG9KM3A2V1Y2ZUVNWXoxOFZVaGNhT0E9PQ==
+Improve heat pump controller. Most of them suck but some have a CAN-Bus.,r/iot,Z0FBQUFBQm0yeGNaYkxreXZZNzlWRU1lU3VnaUZOTE1pd3JXUWZnSllHdEZvTlo5bHRKZTBOZ0JORlFCZFI3VlZNNEwweFFkTFBJajhYRHBNa1VmQWd0UW5UMEd2a1dtYWc9PQ==
+"Purely by coincidence, I saw Zehner's ""Airduino"" board recently - Thanks for reminding me of this application!",r/iot,Z0FBQUFBQm0yeGNab1JNVUtDQ0I2dnNJMmxjQ2JvVHZObGxnME9kNkQzUXRVc0pKZ1I0WHhYRnJnY0x4VmV5VWVicEFhcGZ5bkgtNndCcUdwaTh4bjBnQVMxVEVPekI3R2c9PQ==
+Okay I thought that particle and hologram were going to be supporting that narrow band for a while.... what do you use RoutineBoot?,r/iot,Z0FBQUFBQm0yeGNaOUFJdHFXcmU0bS1yeDlzV0NSZkRYSmNPYTBMRHptWEZRTG9uaXdjZ2JyekhPVDlLcFNOUndZcVRwbmwxbGVqLTZ3LVpxWkFqNWs4bDd1c0M4WGJua3c9PQ==
+Some E-Bikes use CAN bus. Maybe there's some interesting applications,r/iot,Z0FBQUFBQm0yeGNaY3Q2YnkzNTlEaVVweFlTM1JsQkFmZHYxZm0wc1NuS2pkajcwUy1uVlU0NXAwcnZ6Q1pOQ0hfaTVjN1ZSQ2cwaTJnNmhaRkRFQmI5OTdNbTJ0TG1hMXc9PQ==
+"That's interesting, thanks!",r/iot,Z0FBQUFBQm0yeGNablNUNUNneklFdGpzaHNsXzVBWW05aWhJVDh3aDQzSXpMN3FJaGI5VnppVjBLRHRCVm1qVWtoOU9GZ2s2eHRDeUJwM1E2M1hFUGc4TkFGMG5yLTFUTFE9PQ==
+"The SIM800L only supports 2G. Particle and Hologram do not have their own networks, they are a MVNO. So you still need coverage from one of the big players, even if you don’t  buy the service directly from them.",r/iot,Z0FBQUFBQm0yeGNaMTA3bHJsTlFmLWs4cXNjTDVfeWJPa1pBZ0VmTWd4eWpGUUMwZXpwN18zWW1RQmR3QXdKTnNXbGVQYnB6TVF5WVJoUXBWWFFsX21HXzVmSEZiNlRId0E9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNaOXZqMDdZUlJ2cmdfbmpjejFLMm1zSm1MakN1UUtDNFdpZkRfRGVIX2d4VzVSb3V2bGs2dElWb1ZJZ2Nfb3Bwa0Y5X3dYTEZYMS1XeXRlNlZmQWlOTFE9PQ==
+"Get all data from your car, and transmit it to the cloud using a LTE connection. You can develop a predictive maintenance app for your car.",r/iot,Z0FBQUFBQm0yeGNaRTFnVHdRamRvUFltZkdHSjlUeVFrc0NLeWJuZEVOczhKSGd1dWNiN1RvMXBBZWFnOTFLSkRjcGdpUldwMmtyR3dteFktd09oNFVyY2NqbU9XM2xnNEE9PQ==
+"Thanks! What do you use u/mfalkvidd - device, network etc?",r/iot,Z0FBQUFBQm0yeGNaVTZ0TmFfckpYaFFYaG5qeThyU1ZDQUxTMmJEQmJMMGRUZGhDQ3p5dXVSVWJyUGM5aG1xMWNaQVBQd096bFBMMEtfRWtScjdwS19DZkJYQmdwVW10RGc9PQ==
+"Predictive maintenance is one of my favorite concepts - but in the case of the car, how do you start 'predicting'?",r/iot,Z0FBQUFBQm0yeGNaYmFldlZKaUtyNU41aHJrMTNlbHV5M1dZSHpidzRRRUIxUGg0WDdhTmNHSi1GYnpvYUw5UGMxamMzeHFVcVNOY1pxZTJVQmliVUlLcm1SMW53V1lSTFE9PQ==
+"Depends on customer requirements, deployment size and deployment area/region. But https://www.nordicsemi.com/Products/nRF9160 and 1nce can be good for a small project.",r/iot,Z0FBQUFBQm0yeGNaWFZCeWlManRtSlJmc2FXNjJzWThVMGx4ZnhLWm8zWkZmTGJySVVfWEFiMzNSdVVLUVUtZFJmaDRmMlFKOHBSaHBab1RiWVhpOFlBYjY4WDdPaEFlc0E9PQ==
+"First of all, you need to have a large amount of data, and model the data of a ""normal"" behavior. Once you have a deviation from the normal condition, you can predict a failure. When you have a failure, you need feedback the system about what the failure was and it needs to learn which sensors detected something different from normal.",r/iot,Z0FBQUFBQm0yeGNadWp4VDgzWTlXcU9hbG5TbWpKZUJtWmx4cXpKMDNXeUtRZmRuY1E5akNjR3VfdFZmenBuRWhKTW9BSlJvYlhoT1J0QnNIMDR5RlpvUnFlekFwTy1hSkE9PQ==
+https://github.com/helium/virtual-lorawan-device,r/iot,Z0FBQUFBQm0yeGNaczZZVHZ3MVNDdWpnbVJXdjRtbEs5WTRsa1UyTlp6SzZxcUo1VHJLWm5hbTQzZ3NDeFQ1SUF1TXVVVXhJU21Zbjg5X2xaNWdjVlJPZEdwSEs4TDA3YlE9PQ==
+"Connectivity plans on the NExT network, powered by Telit Cinterion, they are super flexible and have very competitive pricing, but it's only for businesses.",r/iot,Z0FBQUFBQm0yeGNadm41dnRQeFF3Y0FlMy1ZWkRzdmU3Y3JwbFNwMHNmbF9uNFNaTFhsSVZpVkhsMm14M3REd2FMbkRlb2JYU3MyTV94TTFwSUJRRENLYnIyZFRBLXBDamc9PQ==
+[Best starting point for can bus](https://github.com/iDoka/awesome-canbus),r/iot,Z0FBQUFBQm0yeGNadGtjWTJUN3VERXNDa2ZVQ3g5QWtJRWIzS0VUM3V5TERjcmwwT2E0cWEzdVVXc3RGY3VFRGtYTXNxeXJWdHJwTVdfS19MVWZkOWRiaW81RGttcFNTTHc9PQ==
+Definitely helped me with the headaches.,r/iot,Z0FBQUFBQm0yeGNaUFVjVmdaZHEyeW1QTFdZbS1wVU8yZDdaUWhDUjdIa3pLaGlFU2pROG82dmtKWXFhc3ZpTHZFOE1jdFNIMU83OWZUZVBvY09pSkd2Z1JhVEdnSGVoaVE9PQ==
+"Ah, nice!",r/iot,Z0FBQUFBQm0yeGNaWXExTlRuR1RyRFE1TXE2QU5pU19LMkpaa1V0alVGeUhMWGF4SG9IcFlSdVFhNEtVVmhQMEszUEdzeHdMbkdDNmtCbUtlM0psbEdvRUxZMFZFTzNzbmc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNaVXhLOElJMlhpbldmVnBTVzhsa0EzLUpBcUNoZnNfV09UU2lib2t1OTJJVnd4MmxjOUFTYmJPOGRLS29wRDZkUmNOOW9fd2dzQmluZDN1U2dsMnpSWlE9PQ==
+We've done it cheaply before with Nordic modem chips and purchasing a 1NCE global SIM. Much cheaper than Hologram or any of the other GSM service providers out there.,r/iot,Z0FBQUFBQm0yeGNaSXpJVlVWb21GeExtTWo3V09PNkcweFk0U0pwSUZTQThtMlN3SENOaDZUYzBGbUxneEVTTEs5Qkh2QklKREZncGdqQkVXOUVEa1FfXzJ0NGRTY0pJcUc5LXpWZndEVVM5NHJsWmtDc0g0RGM9
+This is very cool. Congratulations. I work in cellular connectivity for IoT and go to a lot of hardware shows. I really enjoy hearing about how solutions in the field come to be.,r/iot,Z0FBQUFBQm0yeGNaNmVvVDF5Q2lRX1FZQ25oWWZib0t0alhYLWJZQUg4dGpXOXh4SEJrTEN6UEp2NkNTeUNmNGRvNl9WaV9iTlE5VlpCdEhlQ1BtelZhamhzWWpBMnV1a1E9PQ==
+Thank you u/Gastomagic - what type of IoT hardware shows do you frequent?,r/iot,Z0FBQUFBQm0yeGNaOERfMzVVQlZTa3dFU2pVS1JsRklPRFZGNjFwdjJ1LVJCVlJma3ROczNtQ0dFc2xXNFRqRnlUVVYzcDRCTEI0dnNGbkJwd0ZDTmNIMTYwakZsNXlBbnVGSUVwM0hVWE5Vel91bl96Nmpac2s9
+Last one was the Hardware Pioneers show in London.  Great mix of people all trying to solve different problems.,r/iot,Z0FBQUFBQm0yeGNad0tfLWE5MUF2T1dLRDdJQzhxZ0M5Q3BYR0czY3k1OGx1clpYYjRZME1PcTJKY29CakJqSDRacFg3dlBjbjVxR3Nic1hhQ3pJZ1ZiN1pWN2lZRTJpSGc9PQ==
+"Nice, i'll check it out ! Thanks",r/iot,Z0FBQUFBQm0yeGNaMnhvdXFieGtKd1o0QWRMMTRwcTNWdExTVEU4Tll5cUJYWFN0N3hxbERGUGp0bWJlSU1TdlBNMEpqQzRWR2FVXzVFcXRKUnM5RDZEVmpHTmtpM3o1T0tCbjJ5dHFQLTYtYmNjNTF6bkdQX2s9
+Just wanted to chime in and say this is a great story - thanks for sharing!,r/iot,Z0FBQUFBQm0yeGNaRnZPQm5vV3ZxLWpHYlp5ZUgwUGFLVm9xVEF4MFV0bXV0aHdGUEh3R2NPRXN1X3h4Y3NCNVpDUkpqdnVpMUdRZTRpMGItcjFna3JtMlFjN1BWLXl2bGc9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNaQ3hGSG5SbkpubTlWeVFYQ3YwTldMbERKZVg1dUpTVmMxLVBFdmM3NU53OVJJcHpYZ2VlMkFDNUl4UDVINGQtTFlWaUFEN0xYUGd3YkwzY3ZRcno5bmc9PQ==
+"Pretty cool!
+
+What processor did you end up using in the system? I assume a BB is a bit over-powered and expensive for this sort of product. As an IoT engineer it certainly wouldn't be my first choice to productionise the original prototype.",r/iot,Z0FBQUFBQm0yeGNaWk4yYmE1alRiMVZUQmJiZEF5aTlvOUxRanA5aWE2eWVGeGpycUpqRDJSRjVpbjlKeHZublZZSjlnT01udVNhbF8weU10Q2l2Wnk4dEppY1RjTmp3aVE9PQ==
+I LOVE this and aspire to develop an idea like this. Solves a real problem and actually works! Great job  👏,r/iot,Z0FBQUFBQm0yeGNhRjhJMXZoWmNrejNhQ1hzaG5jN2lMVnZkU29pMXFTOUNGUmhVYjNHeDh0STY4RlFhaWZ2TEhrdTBCWEw5UExxV2tJMnZtWjMzdzZtZmFGeFRfQWhOY1E9PQ==
+"my post is not an advertisement, which can be easily seen from the fact that I post two devices from competing manufacturers. Where else should I post my problem?",r/iot,Z0FBQUFBQm0yeGNhYkozZmFKU29sUWl1WWhma1ZnazV6dmppaERib3c3TnE1UFFmLTJZWDQ4dk9rOHZRNjdCS3R2OThITF9iUWVOay1wUjh6UFh2SXJZRDFER2RRR3U4TkR4QXhZTkZVNkxDOGxmOFVBaUN0WUU9
+Thank you!,r/iot,Z0FBQUFBQm0yeGNhZENBUjV6VTVsdHpablY2VDNpcEo5ZHVUMmRObFU1UU9ZcldzcllDQ0RTLTl5RDJleHBYZS1ELVhLRVM5TU1uejBEN3pDRzdlS0o1RlNtdFM5YmJPdEJ6TEotS2c1cmQ5WUdBd0RNTG5XWFk9
+"You're absolutely right - we went with a Nordic NRF modem / chip set. Super light weight, and to your point, the beagleboards were way overpowered for the application.",r/iot,Z0FBQUFBQm0yeGNhYzh2WEtISHFlWXZ5aDF0YzNqeHRNUlctanBySEZDajVGNlpheTRQTHo2Q2Y0T3FSODFDMzRXVFFMd1ZZZ1Q3eUhnNkhsT1hhZ0MxTHV1NEYtbjd0T2Q3emYxamFvNWZrSFZWbnJLVWJ2Znc9
+Thank you!,r/iot,Z0FBQUFBQm0yeGNhWlNlemhPeVdPWDNvQ251d3lKVW5EWGRRLWgtVUp4VTJHdERlU1NleXR5MlRzcl93dGUydFkxZEh3RDZDY09mTmhkTlJkRGk1VUdhMnBpdlpfZkdVQW9VR0FHREo0Rk1iQ25RelV6dU0wUlU9
+"Happy cake day dude and thanks a lot
+
+You saved an intern today.",r/iot,Z0FBQUFBQm0yeGNhaUoyMXVUMjZfczJQbGZPd0hWcmNNQ0F1RTNXdTAwZWlRT3dZTVJVUDljQWpUd05xRUQ0X09tZDRlZ2J2UTJFYmpKeERMbXZmZzJ0YkVrVzZvelMycUE9PQ==
+"I use Quectel BG96 with raspi (mostly prototyping) in EU, APAC and North America using LTE-M or NB-Iot. But I'm working for operators so that's how I know 2G is not promising for NA region.",r/iot,Z0FBQUFBQm0yeGNhWlJtMGNScEhVcTJnRnl6Y0k1WXhxSE5TRENVTzhkTXNHSzhITXFwU0dKOEQySlN0Y0p3cG9nakRocGp5ZVRDakpvSTk0WWItTURqNGtLR29IY045Tnc9PQ==
+Some that has to do with home automation and smart farming,r/iot,Z0FBQUFBQm0yeGNhV1h2cElNSXN4S3E5NmRJalJxcksxdnhNd08xaHFXWHMwYkpnMGx5TDF1RjRxLXdOMFZSTkJ5RDFteVZDLXVPYTVQNjZfbHhiVk5QR3dvN0dIZ2VrSkE9PQ==
+OK cool thanks. I was just told by hologram support that nbiot is not very deployed well and they have no clue whether it's going to work for me..... In main stream Brooklyn NY USA... Not Antarctica... but they were happy to take my money though,r/iot,Z0FBQUFBQm0yeGNhM3g1UEhlWG1vUHlPeTBRRDZWTExIVDNVWW1hU1RVMjZ4cGJoXzJUazFlQlRtbmlCN2lqSVNKd2Vwd3c3MmxYQWtucHR2Yjl3WGhya1VBeGpqZzdveEE9PQ==
+Very cool. What does onboarding/implemtation look like and what do you charge the homeowners for your solution?,r/iot,Z0FBQUFBQm0yeGNnTFJCR3l5TXRmM3JzTHBQNVFPUnRrQkZvTi1CMngzV010VXdva2dLbnhHWVdZR2hBMFNMLVdHcDVhZEtCZWx3OWRNaEtMVk9DQkVCdW1WOUoyWHpkcUE9PQ==
+"You may explore a complete solution like gateways, sensors,scanners etc. In India teltonika is making a massive move in this segment(tier 1) along with some chinese products(tier 2)",r/iot,Z0FBQUFBQm0yeGNnekFZYXBmLWh2d0NuQmhFc3VKbUEzV3pqMG11SXVjaG4zazljYmdBM3lJNHM0MEtkQ2dLWlFrSHRTSnRLbkJTMzZFZDlEZzI5SEVFbVlaRkdPY3NOVUE9PQ==
+"Ok, I was hoping there was some magic shortcut that avoided the initial large amount of data collection to get a sense of 'normal' behavior =D",r/iot,Z0FBQUFBQm0yeGNnRE93c21rb1Y3TkxqNkRHVmtpbTJYeUlJV3VkanBNbENCcnZtWnZ4MmdpWlRydHFoeFR1aVZ6REFZNUQ1Qm5MWnJpU01QOUZSS1diVlVMaVVWVC1CQ3c9PQ==
+Air Quality Monitors :),r/iot,Z0FBQUFBQm0yeGNnQVRmY25LcnZqdlI4M0hraHZObVBMRGJzZDd3REh2bmhTX181cWFGUUQ5VjlKU3lnSDI1NFQ2a29OaFBWUUxZU2d6dWRvSkhMX1VnU3RabUlvNlNmQ2c9PQ==
+"Has there been any discussion on handling standards around HAZLOC and UL/FCC? If so, do you have any recommendations on how to navigate these areas, especially during prototype and early release stages?",r/iot,Z0FBQUFBQm0yeGNnVVh0dklQdUUydnJ5U29IM3NqMHRNZ1Y1YW45QTF1UnpVNnozeFcyV1dZYVZGalcweG9QOGVad0FUUkhHel92UVYyZ0xCbmQ2Sk5DU0xCWGdPNlkxSGc9PQ==
+Any updates what did you take at the end?,r/iot,Z0FBQUFBQm0yeGNnbWFNa21UODJHcmJfOGFCXzlhRFdXVmgzcXVLb01IOGU1a3NoMVo0RjhveFkwU0NqTmZYeVVDRlRLNW9SaHRfYlZYcDhVZTBEbnAwemR6eW9vZEEtdEE9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNnQ3lzNWlES01HZF9FR1JOSEZON2tldlpNc1pCbU53WXJraXRnRmhpdkxCckkyYjRuQ0NQQ3RJUWZmZFFlaFFlQVFGU2IxQnFod1M1WkZhZTREN1ozUkE9PQ==
+"You do not have enough *comment karma* (5) to post here. This safeguard has been put in an effort to reduce spam.
+
+Please note, if your post is promotional (i.e. links to a product/service/promotional blog) it breaks our rules and you risk being banned.
+If you wish to share an insightful blog that you have written, you may copy its content and share it here as a text post.
+
+Note: Comment karma is separate from post karma. You can gain more comment karma by participating in reddit comment section.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IOT) if you have any questions or concerns.*",r/iot,Z0FBQUFBQm0yeGNndUU1dXlMeVY2NjAzbnZsSTlKRm4xUEpjSk14bEhTdFlMTXlHX29ZcWEzd2VMX2tTVVVLR1pjaUk0eVdlY2xHNTZuM3FCY0NIRm9sQkV5LUNFVFVsOEE9PQ==
+"Manufacturing or assembling IoT products in Africa presents a tremendous opportunity to contribute to the region's digital transformation and build a sustainable business. One promising area could be smart energy management systems, such as smart meters and energy monitoring solutions. These products can address the growing need for efficient energy use and management across various sectors, including residential, commercial, and industrial. Additionally, they can help reduce energy wastage, lower costs, and promote sustainable energy practices.
+
+Smart agriculture solutions are another great option. IoT devices for monitoring soil health, weather conditions, and crop health can significantly boost agricultural productivity and sustainability, which is crucial for many African economies.
+
+Lastly, water management systems that leverage IoT technology can help optimize water usage, detect leaks, and ensure efficient water distribution, addressing water scarcity issues prevalent in many regions.
+
+By focusing on these areas, you can create products that offer both social and economic value, contributing to Africa's growth and sustainability goals.
+
+And don't forget to check out Thingsty's innovative energy monitoring solutions to see how we're making a difference! 🌍💡",r/iot,Z0FBQUFBQm0yeGNnOGJ1RmRLZVZEVEZLSFVPcm5USjZad0pRMWYxbVRXV2pDRlhUa2R4OFgtMzhCakxjWmtLX1oxdmMwTjFyYzRKMy10R3RUTWVWLWh0elZXVmpzU2JxVkE9PQ==
+I doubt that,r/iot,Z0FBQUFBQm0yeGNnWlVPdTAtd2xWM1A5RFZOWnlqc09BNl8xZnZiQTFfTEpndXpLTTZwdnpQLXRnaEVDTFNTYnFGTWN0U1pMNTlfTEkzMURjeFZXdTMtNTl0WXpPUkwzOGc9PQ==
+Farmers have a hard time using technology. It's a good idea tho that u mentioned farming as a customization of iot  for Africa,r/iot,Z0FBQUFBQm0yeGNndXhwRG5DZGJaSjk5NGQ4MFpSQUhvbV8wd0xZSmhtanJ2eHlhUUEzLXJQOUxjOHQ0MVJtN08tVHdyb0tRajVjZ3d0Tmg3ejdiTVVUN2F3Y1U1OWhxUHc9PQ==
+"Yes i know but your target is not small farmers you’ll be working with big farming projects those are the most who use this technologies to lower the coast of the working people, it is begging to take a big market in north Africa, additionally you could offer installation of your iot products.. good luck",r/iot,Z0FBQUFBQm0yeGNnVTYxNzNHVGJlbUZTQXJwTVFEWWZ2RTN1MkFSLV8yWWV2Rm53eHlydG56SDN0aDQ0V280dW1mM29kUjE4QWdwcGlkdXh6YU4tWVlmNE9VaHBMdUNZbXc9PQ==
+"AT&T + T-Mobile USA have great NB-IoT coverage in NY, so any MVNO SIM with those should work. I don't know with who Hologram is working.",r/iot,Z0FBQUFBQm0yeGNnY3dVMXVFUk4tRkIyS3FacXZ2T1F4VE5mRnV4dFF2SVd1d2p0QkplY2FiOWN6TXdVbk5DZVFBc00xM0hyOTVwcHA4b0RzMjN3QjJXRU5CZkswSjBUV0E9PQ==
+"my comms provider and flonet are middlemen that resell zest4iot, i went direct to the source and struck a deal at £2/GB based on 30GB/month for a small portion of my sites 
+
+everywhere else got starlink which works significantly better and is the primary connection at some sites with the broadband line as failover",r/iot,Z0FBQUFBQm0yeGNnNnhsMWtzcktEVjFRdFREZVV6ZG54dW5hQWFfcmZScXVQRTZjdHBPeFVrOHk5alA4Tml3OUVkQW81YjB1VEZpXzhuUGxNR1lGOUdLTG9hMGNkbzB1NkE9PQ==

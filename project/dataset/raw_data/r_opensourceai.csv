@@ -1,0 +1,221 @@
+text,label,username_encoded
+"See MaMi in Action  
+https://www.youtube.com/watch?v=OeFoSYiyGz8",r/opensourceai,Z0FBQUFBQm0yeGJSbklPU052czF6cWkzMzVZWXY0SGUyMUVyQVM2dDhPSWFNT0FWb3JIVURmM21UMVdiNnVVT3Z2ZHBnMlZCVXNDZm9nNzR4TVpmUjFKTTR0UmVKdUlFZk9nZ3o0VXAxd1A1VzluZEVZQnZ1Znc9
+To be honest that article reads like it's ai generated.,r/opensourceai,Z0FBQUFBQm0yeGJSUkl2WjdOcUh6VjQyNHh6MHBhYjNVUlJZcUpFWXotUFJuYWRkMVV4dlVQajR2RzdvYWZrOXR3ZldfRUZVaGk3Sk9Fa2VLVXhvZVFVcVZQRW9uOWpJakE9PQ==
+"I just found this interesting. While there is currently a lot of focus on Llama, there's some other great models out there that people are working on improving as well. 
+
+BLOOM Alpaca seems like a very promising alternative.",r/opensourceai,Z0FBQUFBQm0yeGJSblhMekdadzJ6WlpFNXZiUzkwVnJ1QVlfekJoTC1Yb09PMEtLWF9WcmhDQTYza3VmYXJXQ2NYLWxoWGdSZEpvWnRnMDZDeDBFbUN4Vk1UMUVVa0Y5MUxsY1pRaTNQaURYd1JjNFgxeHNuNjA9
+OpenChatKit,r/opensourceai,Z0FBQUFBQm0yeGJScXRIVktkSEJfclJXWElBV1J1akMwcUhwLWNyWnNxN0xveEJkb0hOM2FfSUgzOEtZVTVCeUVLYmVTTjdwaHdGWkFzYnRfR2tJTlBqdlJOV3dVeE13UGc9PQ==
+Could you then take this and fine tune and train it on say meta's weights and make it actually comparable to something like Alpaca?,r/opensourceai,Z0FBQUFBQm0yeGJSTmRocGxrd3Y1UG5Dd0swMUEzal8zSmdfalNzZEZKV1MxWC1CLS15MU5oZV9XN3dZakkzWUdLTFRaYWU0cUR0Wi1IX19kd2o0d0xqaHI4cVNURVR6ZlE9PQ==
+Vicuna,r/opensourceai,Z0FBQUFBQm0yeGJSTjFlZ1MxTVBNR0tzS1pNX1ZRcWw4RmFIejIwZ3ZzNll4MlJkQXFwN21LWnZ4bVNXS0RqVGhVbFB6WmExeEVHZHVwWFl3aEhrd2JMcFdRbHBTbXdha1hZMEtTVWRMc0ltLUdRbVpBMXpvZmM9
+Baize -  https://github.com/project-baize/baize-chatbot,r/opensourceai,Z0FBQUFBQm0yeGJScFc0allicEhrY3ZhTnAxMVBzOU5Va0dUd0Rnc3h5SktvVlNqa3dtTy1QWkg0SUlYWFM4Z0wxVEJvdEZxLVVodW1TZm4xcjktS3J2OUtUbkRIbkV5NVE9PQ==
+"Haven't gotten around to reading it but I guess it fit the bill, also you guys said I should share something and didn't see this here :)",r/opensourceai,Z0FBQUFBQm0yeGJSdm0tNmM4dUFVelZZOGZKbWZwWEZ5eHMyYzFXNDFnQ3REU2xXOGNCTktrZ0pFN3FFWGs1eHVJSU1ORGw4VlpwUHByZERXYlFlVDhUTjZqY21KZUJjUkE9PQ==
+form what i see the community is putting on the radar everything which is important,r/opensourceai,Z0FBQUFBQm0yeGJSZnhId0hEMC01Z3pwbnh0NUZlakZMQ2xRa3NWNzVNcnZxc0UxR2RFOWdLYTBLZ3BoTi0xY0FaNkFNRVBMN0ZDWDdEanJFa0ZfaDZnM1lTZGs5QklJU3c9PQ==
+"As a developer, I highly recommend checking out the Telegram API for your UI needs. It offers a sleek interface with the ability to easily count tokens and even includes a watermark feature. Plus, it can be used with alpaca.cpp and other LLMs. Give it a try and see the difference it makes in your workflow!",r/opensourceai,Z0FBQUFBQm0yeGJSZDJ2d3ByVWk5Y2dlYzVsMUNXUUt6X0RKMU5xdVhqajZ6MkJwaEJvQ3Zka3QxV1VlYUR0SDBLcVd3UlFmeXRlYm5RZEI1YWF4elA5M01YalZWaXVhTXc9PQ==
+"Could you give me a link to it? I'm trying to google Telegram API but there are several things that fit that name, so I'm not sure which one you mean.",r/opensourceai,Z0FBQUFBQm0yeGJSVnN4NjdpZVQ0RnJIVk9HM01heGo2U1dKQ0dlRW9ZZUZseS1PX3hnaWlSX3AtOTN6aFlmWjJJVVc5ZWlYYkN1X1V5b1dfWVhlUm9jcjVUcGh4TmJrcmc9PQ==
+"There's some interesting projects like https://github.com/logspace-ai/langflow (and another one I am looking for but can't find) based on making a GUI for LangChain type prompt chaining. 
+
+If you have some more specific requets, feel free to ask.",r/opensourceai,Z0FBQUFBQm0yeGJSeFoyLVNGX1I0SjI1RFl1VGlKQ1hEWmtNUFEtMjNIN1llRE95ZFZpY214dEw4eVJsTjFVY01XMXFLNzdIT1J3RmJ4WGVGMnRvdVgwdGdkTXVhVld5SkE9PQ==
+"Have you tried out GPT4All, its also slow lol",r/opensourceai,Z0FBQUFBQm0yeGJSRkVpWXhHT1ZpOFJJM1JjeFdfWWRFM1BITUFyemVOb2VOSlZXT1hhcHpwdXgzMG1nNHJNQ2NfdENhQzBTQTRzeHpZT3h1T1F0OWFXUGVDNU5IME9jcFE9PQ==
+You mean model or source code too ?,r/opensourceai,Z0FBQUFBQm0yeGJSWkFEUXRwaXhmdF9FQVJEa1VpSC11S25UUjZFeml0Z0JxZ0E3SlNvM2hpdk44OVdTeW5VLTVYQU9WSTU2V0VwdU5KemU3SFB2MER0LW8tLVJkMnp2akxFYlJXd3k4SVNMMmFNd2wzR3FibTg9
+this one is ok https://www.youtube.com/@code4AI,r/opensourceai,Z0FBQUFBQm0yeGJSMmFpRFRFbnk3YlM5LUNqcHdJbTgzWjZxbVlfTjRjbFRibFlhSHRKenVhWHdFOE5UdE10eEs5TGtla0pfMFFpV2ZKM0d3UFlhUGhLZTUtUTR4Z1RqTjZoMGhKTjNkQ2tkMkFXSDZwQUQ1VDA9
+"no, I was interested in it until I realised the max tokens is very limited. Results seem impressive from watching other people's reviews, even the 7B fientuned, but will have to see if they can expand the token length before it becomes useful for me.",r/opensourceai,Z0FBQUFBQm0yeGJSLXhqRngxanNsR0R1ZlZLTkhWYVhQeGpqMEJYeDkzZ2lmaVJiS2VKZ2JwcXV3UGdxVDB2dkRTSnJMbmJFUjB5RGhWeEFjLWpHTUN5S1dHOUpOUjJpYmNYRjVKWTJzUl9maDFwRngxU2JKdVk9
+"You created this list? Whether you created or shared, thank you! Prompt engineering is the single most under- leveraged skill that anyone can have. Barrier to entry is much lower than software engineering, but if you learn how to leverage it as a tool to produce accelerated results...you'll be unmatched in your line of work.",r/opensourceai,Z0FBQUFBQm0yeGJSeW5TSDVRXzJPbTkzeDF4NXVmWWRYM2FGb0tDZURrMmIzMF9SZ25OdlZZWlQ1bHhmYTBKNGNQUXAxcUhESkl4RXFKNmlSQXB2TkJaR2EzWmE4Sm9uLVJXTlhuakhrWWtoMlVjdjhTYXcwQmM9
+💯 totally agree,r/opensourceai,Z0FBQUFBQm0yeGJSRVNFaXdOSmdUblFIWE9uY3Q2bUcyUW5zZDlZT2RZMzYyRk85NF9ZN1B3b3lJUlp5VEIxOFl6VnByVVN3MlJzYlA4NnBCQWpoYlNaejczSk1xaGQ5M1E9PQ==
+Hi,r/opensourceai,Z0FBQUFBQm0yeGJSQmQ3a1JSLWlFVFNXeUhvd1haaVBad2hnRzFFaTN2LWdHMFdKc0drVkxHMDI5YWkzUlpYVmRXWHZLd3NUbW9nNXdjaHpBb056cEUyMVZMZ1E4d3pESnc9PQ==
+"/u/thumbsdrivesmecrazy is a click-farming spam bot.  Please downvote its post and click the `report` button, selecting `Spam` then `Link farming`.  
+
+With enough reports, the reddit algorithm will suspend this spammer.
+
+^(Reddit's new API changes may break me, moderation tools, and 3rd-party apps.  This is why many subs have gone private in protest.)",r/opensourceai,Z0FBQUFBQm0yeGJSczJndnFkQ3lQRGxtWW1Od2Vmem51TzhBS29RODNuV1lnLXFtb0I4aVdnVDk3MlNHZGYyUkE5NTBYRWJXbWRxSFZYUFRVVXlET29wNldyLWUyYXA0Y3c9PQ==
+"Assuming you might be interested in LLMs (since that's where the AI buzz is), current cutting edge open source commercial LLMs seem to be Llama 2 (mentioned here several days ago) and Cerebras' BTLM-3B-8K, depending on the size model; both released by companies with a lot of compute. https://www.cerebras.net/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model/ Mozilla.ai has been quiet since they announced their existence. LAION has been quiet for the past 3 months: https://projects.laion.ai/Open-Assistant/blog Which leaves (to my knowledge, anyway) Together.ai and Mosaicml.com https://together.ai/bloglist If I had your knowledge/skills, I'd look at open source LLMs with either Together (at least currently) https://together.ai/ or Mosaic https://www.mosaicml.com/blog",r/opensourceai,Z0FBQUFBQm0yeGJSV29udGlOcERxVTl1RmhwUXRfZUU4MWRVblpzdGdHa3JjTkRjQXVxTk1yZk93ejQ1bDB6T3MyZmdfRS1WXzJvRUJzY21oME11ajV2NWp2Ul9acVNCSXc9PQ==
+Thank you!,r/opensourceai,Z0FBQUFBQm0yeGJSaDJfWHFmMGxOaEY1UExvNVAzZi0tRHVqaXVoWUpoZUxaTnRGM05BWWdBU3dyaGxsZHdDWGh4TEVleDFhdWZVRGhPd0hXMEQwQmVGR3dSMmExbGcwLUE9PQ==
+"Sure. There's a lot of flux in this area, with open source frontier models changing practically daily. I've named all the players I watch regularly, but there may be others to keep an eye on as well. Mosaic and together give the most updates on their work, though.",r/opensourceai,Z0FBQUFBQm0yeGJSbkRNWHdlM1VNV3lBV0Q3LXRXVG5uYUVobGRja3VuSjVFWUdVb2lDN3pleEw5ZFJEX01WTnhCMm9YU0dkUUEyVmlvLUQwUEFqVnNnQS1fNWlsMFFvUWc9PQ==
+"Yep, definitely plenty of options. One thing I'm trying to figure out as well is how hard it is to contribute to those projects.  
+Great open source projects have some very defined tasks that people can contribute to. Some others are less structured. And having a full time job, there's only so much time I can dedicate to this. But I'd really love to be more part of the community",r/opensourceai,Z0FBQUFBQm0yeGJSMkVCQjVBaGc5Qkl0QUxwbWc4NlRiaWgwUDFkRldubWdNYjBuX1hfRkZoSU9uTW9nN1ZzaXZUQm83ZHl1NXpxTURsaXpKZWhFeWpEckMwZDNrY1hJeGc9PQ==
+"From my perspective as someone who doesn't code, the current learning curve for using AWS to train a custom LLM on new data is too steep for me to bother with right now. Formatting the data isn't an issue, it's trying to figure out what the training steps are after that (and trying not to get dinged for accidentally using compute after one has given up on it and getting a bill). Any open source project which made the process more like using a word processor or spreadsheet (with non technical instructions) would be 1. opening up a huge Pandora's box, which perhaps should remain locked for now) 2. inundated with new users with ideas and a lack of coding expertise.",r/opensourceai,Z0FBQUFBQm0yeGJSRmlFa2syWnhzc3J3Ri1hMk5PWkpRLWJwMEV3a0hwWjE2eEVHT0JURU14VmNPd0xTTUxsandMS2FtQlBqaGNISkJsX2lEblJ2bFQ1RldLamRja0dCUWc9PQ==
+"I haven't tried this yet, since I just ran across the article, but it sounds like they're doing something here analogous to what I'm envisioning for LLMs - https://techxplore.com/news/2023-07-open-source-platform-easier-3d-scenes.html",r/opensourceai,Z0FBQUFBQm0yeGJSZW5RbnRBRWVNZXdnUmtMOGlHbERzY3NrS0ZXWHF2Nzd2VEpyd2xLd0tkZENpWmI0cmV5czd3UEVDOGZSdzFHREJiOXhyWVBiRTI0bG0temFKZzVPd2c9PQ==
+do you have an account/credits in beta.openai.com ? Seems to be referencing that. You might also still need to request access to the gpt4 api specifically with OpenAi.,r/opensourceai,Z0FBQUFBQm0yeGJSajJFZDdYRXRXTnZNZE5LNk9SckRBbkJKTFJTbWdWbDNyWFRxYnZud29rVkZpcGFNcGdmSXlialFjaGdQbkh1d2ZqejJhOVFTZ2lCNGRjenRra3JIc3c9PQ==
+Thank you for this! I'm a noob so it'll take me sometime to understand. But thoughts of using Google Colab's TPUs to improve performance as I don't have a fancy GPU?,r/opensourceai,Z0FBQUFBQm0yeGJSa0ZVMXpwZi1sVU1sd25ULU9QM3BnaVRMZkdOcE1DSXl4OUhsWEsycUktQ0k1aURIOGNJRW5ENWg3TnBOX2R1ZVRtM0NnejEzWlZQUXNpY3dYQ0dGZEE9PQ==
+"This is great. 
+
+Some have been complaining about the terms of use, but they seem pretty reasonable to me. 
+
+
+
+> RESTRICTIONS. You will not, and will not permit, assist, or cause any Third Party to use, modify, copy, reproduce, incorporate, create Derivatives of, or Distribute any Artifacts or Your Derivatives, in whole or in part, for:
+
+>>    military weapons purposes or in the service of nuclear proliferation or nuclear weapons technology;
+
+ >>   purposes of military surveillance, including any research or development relating to military surveillance;
+
+>>    purposes of generating or disseminating information or content, in any context (e.g. posts, articles, tweets, chatbots or other kinds of automated bots) without expressly and intelligibly disclaiming that the text is machine generated;
+
+ >>   purposes of ‘real time’ remote biometric processing or identification systems in publicly accessible spaces for the purpose of law enforcement;
+
+ >>   fully automated decision-making without a human in the loop; and/or
+
+ >>   purposes of the predictive administration of justice, law enforcement, immigration, or asylum processes, such as predicting an individual will commit fraud/crime (e.g. by text profiling, drawing causal relationships between assertions made in documents, indiscriminate and arbitrarily-targeted use).",r/opensourceai,Z0FBQUFBQm0yeGJSRUlzZzE5a2Z0NUhnR3gzQkZ4N01yTmpRYWc1alZDVXloNzFselgzX0hYcTczY0VoWjQ4amVPTVhRWGVncURXRkNISUpyb2oyUm8zMUFWb0lwUUNwRmc9PQ==
+"After my initial question to Claude 2, I had it extract some examples of high quality coding prompts which could be given to Code Llama - Instruct for generating more high quality coding prompts. 
+ https://poe.com/s/yBmFbxVyU8g3yWOoHgeZ",r/opensourceai,Z0FBQUFBQm0yeGJSX2pkcXJFMDYxdDNZbTVjZHEtQkphYTd4RkNvNGR1UDFKdGo1UHRxSnJsdG1qb09URmFHUlFieUg1Z2hZZFM4Nk4xYl91OEl2NmtlSmE2X0pvaTBZZFE9PQ==
+"Not remotely open source, unfortunately:
+
+- https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt
+- https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/ACCEPTABLE_USE_POLICY.txt
+
+It's in many ways worse than LLaMA 2's license.",r/opensourceai,Z0FBQUFBQm0yeGJSY3k0X0stWk9rc0UzRGRKNUw4VHNnSFJNZVl5WWdaa3pYUjJsUHZfMDVVLXl6M2FCbWdsMm9Za0ItOF9ia3pEWkZ5ZWVKLWtLeXdUSXp4amZPc25XeHloM1hqOW5adEZZeFBJN2psZEhiREk9
+"It's really good !!  
+I think that's the best arabic LLM so far, Is there any public notebooks shows how to fine tune it on some tasks?",r/opensourceai,Z0FBQUFBQm0yeGJSVlhCZHdmck1KTzIwOFNEZnZKMXUwVHl5dzZPUFZ0UGZqdzhRMWtBWC1RM1hUMld4cmZxeVhXaFdGekJ1OTllVk1jdVNzdHdXRjI2M1pSbjhaUEhxM2c9PQ==
+"It's been awhile since I skimmed the info on this LLM. If I recall correctly, there wasn't enough Arabic language text for full training, so they substituted code to make up for that lack. So, any fine tuning would likely be done with English, I suspect.",r/opensourceai,Z0FBQUFBQm0yeGJSQVZEV2hWTzNTQlBDOWwzd1VnUmVHVXVDbjZXT2hpTFV2cXNqdll6U1d2eG1faU5zMFhydXY3QzNBSjJ0YUJjVDBoZFlZQldxMHZfa0NkRjB2Um5EOFE9PQ==
+"I tried the latest version (publised a month ago I think), it's super cool with arabic text so I think they modified it  
+but I want to finetune it on arabic tasks like extracting answers from texts, do you think if I finetuned it using English dataset it will be able to do it as well in arabic?",r/opensourceai,Z0FBQUFBQm0yeGJSM1l4cWcxcmh0eEREUERtZXdnOTVBakFOSHJ1czRlSENhSnVKNlhadmZySE1MVksyZDByS2E2UmRmV2pmMV9vLTJJOG95bjBtWkRsaHp2bXlmTHpLRlE9PQ==
+"I'm just making a guess here... but, if you are able to give it at least some high quality new training examples of the type of answer extraction you're looking for in Arabic as well as fine tuning with an English data set that may be your best bet. Fine tuning just with English might improve it somewhat, but a combination would likely give it more nuance.",r/opensourceai,Z0FBQUFBQm0yeGJSMUVZV000ZlhrUUFtYTdsVF8yQ09PcGpzMGMxeHU0SGk1UzVhbGZHY1hTdUozZE9ad0NGTWFxUmFtMGpBM2NOS1ZrRmtJNnI1TzQ0V0QtdldrMnBTVGc9PQ==
+"I'd say reaching out to the inceptionai team with feedback or ideas to collaborate with them on might be the best bet. The model seems to have been well thought out, so it might not be particularly easy to improve without working with them to get specific ideas on fine tuning for your use case. A long blog post about the model is here, and they do seem interested in collaborating: https://www.cerebras.net/blog/jais-a-new-pinnacle-in-open-arabic-nlp",r/opensourceai,Z0FBQUFBQm0yeGJSa2tQZzhQNXZCenY1Z3VJQUtzSlpRN252a3dBWGlKclczSEVHTkwyMEk3SmNSNVJ3eC1KVXNRUXY3c1RiSjVTRDRNLUVxSkJkV25ZSkw0cnl4VlpnQnc9PQ==
+"Nice !  
+They published this paper as well and it seems interesting   
+[https://arxiv.org/abs/2308.16149](https://arxiv.org/abs/2308.16149)  
+
+
+I will read them and I'll tell you what I have found",r/opensourceai,Z0FBQUFBQm0yeGJSYmlVTnFVX2hqQnpzMV9RNFp1MlhZTnBXYXhodEItb3lCenNVUFdrcEpVb1pTRVhEb3g0S21aUE1WMUtCNk9NN1haUzNrWDNxTFY3UHZaVmNQaHhZRkE9PQ==
+ooooh!,r/opensourceai,Z0FBQUFBQm0yeGJScDA2aTFDQ3IwcWFPN1hKWVQyOHZqYmhVV2FITnJPb3ktcHNZM0oxbGNsYkVWUUlfQy1MbDN0TXBqYmZ3MUU3MjFROUt3Wm9zd1dLekNPV0UwQkVPblE9PQ==
+"Automatic1111 is free and easy to use, but it depends a lot on your hardware.",r/opensourceai,Z0FBQUFBQm0yeGJTYTc3LVpOTkdLT3lGaU5lZEJaZUpVdUF6T3Y1dUlUX2FSRFlibzZPbDVVUFgtMklMVWJ5bVBmXzJSMHNLQjYtRDVCblFZd2JSa1paRzdmblRiZUpKekE9PQ==
+Chech out gradio. https://github.com/gradio-app/gradio.,r/opensourceai,Z0FBQUFBQm0yeGJTS1dHRTJBU2NZd0ROSmg1akVJQzNFTEpoeS1nRXgtMWFnVmttTkJwZHRMZWhqaTZza1hyU3ItNW9xXzVHeHVDcVE3czM2NFV3Z3A4N3UtZ3haLW9RRHc9PQ==
+"Imagebot lets you use stable diffusion not on your computer up to 100 images a day. Its stable diffusion so it is censored
+
+&#x200B;
+
+https://poe.com/Imagebot2023",r/opensourceai,Z0FBQUFBQm0yeGJTM1k5elk0Z1JwVm1fd3dZYm9GbC1teHlsMVVRVzhVSFNSX1FSYzliNzhQSWtQZ1FKT1N1SHgzbXZVaW1ya05HbUpWWFZLU2QtYWFRVHB3bXZqTG1icHc9PQ==
+total hallucination,r/opensourceai,Z0FBQUFBQm0yeGJTNkY5cjVveHQ3eUYzcHFMODF5QklGbWZZX3M2dHRTYzk0YW5qSXRnUGlNSmhtSHRFaG1NZUROYmhCYzFPUkNCaGdFNm1mbGZ0LXZrNWY2MmNBbjI0VUE9PQ==
+"Many models don’t have access to the internet, indeed.
+They are trained on data scrapped from the internet, but they don’t necessarily have access to internet when replying to you. Which is why some don’t know the latest news for example.",r/opensourceai,Z0FBQUFBQm0yeGJTZ1R3NUdtSXI0R25lQmd4SlRvdWloTkdYVExXUUtwV2d3ZXdNY2o0THpudTJyb3ZOVXp6RWluQmJWQkpSQkJVU0JyZy16NkYwS1BLRzh2OE81QTBIRkp1X0J6amhSajVlc0FCMnI4NUljVWM9
+Tensor ai app on iPhone. Gives a hundred credits daily. Basic use is .8 per generation. Does nsfw as far as I could tell though I haven’t pushed it far. Has a lot of different models including stable diffusion,r/opensourceai,Z0FBQUFBQm0yeGJTU1RMNDRxOVRvdThEZE05LVJIZk8wUVdpME90b2hBUFN4TFU0ZnAtNnF1R3pMVW9uUnNCQVNxLWdwZy1ZbERMLVMwRFdnX0hmVkliSWRaR09VYUszQVBJWXF0Vk81SXBtS2lPY0d4eUU1YlU9
+🎉,r/opensourceai,Z0FBQUFBQm0yeGJTMTRlVWpIdzdrbDgtNnlpUW82OTIwdmpkX2V4YzFic0xqN3JLWUdjLXo4MHBteDBuVGM4SHJwMnNUTUdfRDJVQ2dCMVYwMUNrb2NjSWMxVlVxLVB5OWZreklSQ3h4dmJfZFJnVFNTVGd5Ymc9
+Some? What models do?,r/opensourceai,Z0FBQUFBQm0yeGJTTnpRNVhPTjdFcHJYemFwZzR4RGU1ZkZXZ01TVG1XbzdUOFBuVUFYTWM0UmtvNUE1dnFweDZFU0ZpVXVNVWVqUExDRUJuSG9JUER4UGd4MGhERFJuV3puaVU0bjVpQV85ODNiQURTbVVBWDg9
+That's what I'm wondering,r/opensourceai,Z0FBQUFBQm0yeGJTN2QxQ0ZlTDFQX3FFZ2owSHhJN2lRbVhpOXFYaE43dlhOZTBCTWJRNElCNU5ndU9iUVMxN0ZvWC1DblZEaTZSNUZGR3dhSEF5dmd3OHJHUDJLU3U1OXBKQlJQZVc1d2xOM0dETE9tZ0prczQ9
+"I mean, I have one I just haven’t been able to get the Google API to work",r/opensourceai,Z0FBQUFBQm0yeGJTa3Y0RnJIRjNfZXp6b3RTMG43eV9ONG40eFQzVGhXbFFjRjVJWi12MUJaakRyZEJCN3NheDRoQkZUSkhKdmJWWk1zV0JjZ1BjNTdmdUJ0OUVZcjhCdlRlUU5NdFYzM0d1aHRnampWSmJfTmc9
+HF link: https://huggingface.co/codellama/CodeLlama-70b-Instruct-hf,r/opensourceai,Z0FBQUFBQm0yeGJTYU1ueERUQlQ2dXF2M0ZXc2VnY1BNYlUyZGVLZlF2WGYxc1RFdFJkVmMxWEM5YThWSXVNNWVkWnVxekdCSFNSSXQ1blZXOElhZG4wemNzRzFETmtZWFE9PQ==
+So... I got through half the article bit that a lot to read.. anyone play with it yet?,r/opensourceai,Z0FBQUFBQm0yeGJTdnlyQzZ0a1FHcG05WkxEMmFET3BJSGlEeFZtcXdleHdZdXVSVlIyN0E4c1ppMThqaHdaZm1ZVnhQWTdfLTBEcW50TzJkejdCc1Zod3FiaDdvdWt4dUJocUg1akE2c0NhYzhSNGdCb3h4VU09
+Try out [https://huggingface.co/pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1) . Pyannote is pretty good . It takes in audio file .,r/opensourceai,Z0FBQUFBQm0yeGJTd2lRNWRTVWhYcEZKNXpxUWM3QzBPbHZGa1p6cnBrMU5PdllIYkVGS1ZJMm5pUWlKUGhrSXVlN0NiaDhaamFhQ2NqbkpGb041d3htZmlxZzFpOS03VWpjNHBiNW5UOHh6ell4X0Z2MXA3ODQ9
+How do I hook it up to ollama LLMs,r/opensourceai,Z0FBQUFBQm0yeGJTWU1RMTJLV3JQbFc5ZWdVaE1wNndNcjhJY1IwN2lrX0lYblg2MVJoYy16ZUpHc0tDRy1tb0RZQVpuSTZRSFdsdDhZR21uNlhxVHFyM18yYXNKRlJGeGc9PQ==
+"Run the model as an API using ollama, then when you get the project running, you can go into the config and set the apiBase to your locally running language server. There’s an example you will see on the config page.",r/opensourceai,Z0FBQUFBQm0yeGJTdmhfMzBtemVCUHd5XzBfNFJ2QnRXLXd4NzEwXy1CVUViMkd5eEpzSWFsVktWZy1YUU9yVlBDTnVMRzhJR0g2ZFFoXzdZUUNkeEJuRDIxTk93UmFHdkE9PQ==
+"A fun article I put together, bringing attention to someone who has been advocating strongly and reaching out to numerous projects to gently nudge them towards open source.",r/opensourceai,Z0FBQUFBQm0yeGJTQjk2X2tITDR4VnVRWklVT1FXWHB5NU5GdFk2SUN6WTJaTkNDcGJwQ3FFcUo4N3FRTnpxaWltYUd0TERjOXFHbGNDc3U1blRtYzF1QjVlSElXMEpNclE9PQ==
+"I am constantly asking this question, as I develop aimodels.org. I alternate between catching up with whats new by browsing twitter, and what has 'stuck' for over 6 months. 
+
+Keeping up isn't really possible (I think there are a few who manage better at it), because there is a good chance it will be obsoleted / superseded a month or two down the line. 
+
+That said, here is what I skim to get a sense of what is happening:
+
+1) Twitter (following a lot of people in the Open Source AI space) 
+
+Updates seem to fit in these categories mostly:
+
+- New 'foundation models'
+
+- Technique / method improvements
+
+- Fine tune releases (smaller teams making a name for themselves) Often through implementing the items from 'technique/method improvements'
+
+- Adapting to more diverse hardware (memory tricks/ quantization)
+
+2) Look over trending models at hugging face
+
+3)  Check the Google News Tech / AI section
+
+4) To a lesser extent, discord
+
+Specifically for Open Source AI, I'm trying to fill that gap, part of the issue on that many of the discussions are happening in academia or closed sessions where startups and industry are invited. So many published efforts come from Huggingface & Higher Ed collaborations. There is a strong network around this that can publicize the efforts across different channels (linkedin / blogs) and it is a bit 'read only' if you're not inside that collective.
+
+At least that's been my experience. Feels like I'm starting to make progress in getting something going, but it's been a lot of work. I've sort of started following the bigger picture discussions around copyright and government policy. Many government departments have been seeking feedback over the last months on AI, and those responses are public record - So I'm thinking that I will write blog articles maybe fishing out interesting bits of groups like the Software Freedom Conservancy. 
+
+It will be kind of dry, I'm not sure it's the content that will have people beating a path to my site lol!",r/opensourceai,Z0FBQUFBQm0yeGJTMW16WkNzWDJhSGNsVHk0aVlGOGxVcWNvNWJodjV3dEV3OG5fZnZremc5SlAtZEs1ekdseE1nSjAxdVhfT2hNUUt0S2VJX0VpaHM1cjlLelhTcXZRcWc9PQ==
+Two Minute Papers youtube channel.,r/opensourceai,Z0FBQUFBQm0yeGJTZU5ncGV0bWtoeUVJUlRibV9Qb1g5TjJ1d3UxUlgwenVHSmoyX0UzSXJUQnNuNVA0WFNmZVJmOURha05tME1SZzNyNVh0M2ZxYjBuZ3B2eGJvWTJHb2c9PQ==
+"Hi there, interesting concept. I am building a product to create forms on the go, with a workflow for non technical users. It’s one of the core features of the collaboration platform I am building for higher Ed clients and students. Happy to discuss. Please DM me if interested.",r/opensourceai,Z0FBQUFBQm0yeGJTTE0ySjBCaFNva2hjX0RzMHYwZVNGSmxrNzFJQzd6cUloNWZaeEdZWFRHb1NLUG5JUkVnZ0ZlT3NCV2JfcGxNS2FtRkJhb2pDdmpQdUpVbjVjU1NLUFE9PQ==
+Happy to discuss. We are building a multi agent AI product and this is one of the use cases we plan to address.,r/opensourceai,Z0FBQUFBQm0yeGJTb3BNSEl1aW1FSzczNWs1SEtQSl9zRy1oNU1CTzJ2Zk5Fb0UzcE0tN09RU2FzTkdGaUM4WUJOdFM2TkNrRVJudjRLRE5TV0VTYjBabWdPYXVzNzlxV0E9PQ==
+"You can find the paper itself here: [https://arxiv.org/pdf/2403.13784.pdf](https://arxiv.org/pdf/2403.13784.pdf)
+
+It's nice work. I just find it interesting that the paper itself is CC-NC-SA, while the contents espouse CC-BY-SA. The article explores this a bit more!",r/opensourceai,Z0FBQUFBQm0yeGJTdDUwM2g1S29XajF0ZHZPRV80ZVhmbkJFd0hWNjB3Z2hRN0xrZ2xPWS1HNERzMnZwYTJQMjc1enF0bERTaWh4OVNKWUZ4V3NXTm5za09pRjBWbE9DNHc9PQ==
+"Code (Open source): [https://github.com/dht/xr-debugger](https://github.com/dht/xr-debugger)  
+Demo: [https://xr-debugger.com](https://xr-debugger.com)  
+It's very early stage, one week old, if you like this direction, you're welcome to take part on Github!  
+🎉",r/opensourceai,Z0FBQUFBQm0yeGJTTjFjc3N4LWw3NFRSNlVOWkQzZDdKVDBPY3JfZkthamZsU2NpTmhqX1lRQXVJVmkzQzVFY0RRbzVLUHhfSTh6MkpSQnZfek9tQzBpV0x6UnJRYkkxT1E9PQ==
+"Most tools like Pictory, Invideo, Zebracat, etc. rely often on many 3rd party services and APIs, which are still quite costly at this point. In that sense it's not just video but also audio, script generation, voice over... I think that's why there is not ONE open source solution available yet (as far as I know)",r/opensourceai,Z0FBQUFBQm0yeGJTamdKSGIxREk3OEtrWWV5TTJIS3pvTXU3LXRVMXUxTmpaeXIwNTFOVmNxM0x0WC15U2lqOGQzNVZWR0Z0eVVXel9mb0MwN3BBSWsxemFOWFBUczQtdlE9PQ==
+"I hadn't thought of the aspects you mentioned. But, what you've written makes sense.",r/opensourceai,Z0FBQUFBQm0yeGJTazFxemdBekliMWI0d21fMk9Pc2RKaVNKU2FHbEpwVV9MV3ZtMTQxdDhLLV9sQ21QUDRfMkxhWVJ6UDNaN3MwSkhxLXFwVE53NXdWb0pEOUYzUTA0VEE9PQ==
+"what about only text to video, so only a video generator? is there an open source one that can be locally hosted? I know stable diffusion does images on self hosted, but not videos, correct?",r/opensourceai,Z0FBQUFBQm0yeGJTSlA4YmZCbmNYTzhWcTR3b0Vpak0tTGpVb0FxRVd6aFJhMU1kRV8tZmcyc2MxaUV4X281dVQ5NFN2NHdZYnViVDk0R25hTDcxajllNTliUXpqWXVqZmc9PQ==
+"check out: [https://stability.ai/news/stable-video-diffusion-open-ai-video-model](https://stability.ai/news/stable-video-diffusion-open-ai-video-model)  
+so far only for research though. what do you want to achieve with it?",r/opensourceai,Z0FBQUFBQm0yeGJTLWExdDdybFhBWDluMmtxa19wb0Z1MEw5dUhpeFFkakJxQV8yZHBlWWRyNERMd0J4cTAxQjAwaDZxVmZDY004MUZEMi1NUENQQzNQMTVXTk1oUDNYR3c9PQ==
+u/bmacd1 please help,r/opensourceai,Z0FBQUFBQm0yeGJTNjNLbVhyZGdJYjJaakQ3bHhlMC16d2dUMUUtX1FEV2ZhM3dfOW12d1R5ZXUweG45UXRBYUlVaTJndDBQYk1TbzZsUVdpT3BNMWtZVmtKMGtpYXFpVFE9PQ==
+"Hi there, if you hit this issue it is probably something to do with how I packaged chatd. As a workaround in the meantime try installing Ollama from the official website (ollama.com) and running chatd while Ollama is installed. Chatd will use the running instance of Ollama.",r/opensourceai,Z0FBQUFBQm0yeGJTeXZWWk5CMmM1bC1PbllvM1NSUWo3UGg5ZzNNcklodHA3MU9oMmV2X2cyakJpUkQ0eDRRRFlLX2Jtc1B6NGlRWF9NRXdWREwwVzMtLV9mX0ZMS3RJRGc9PQ==
+Thanks for the ping,r/opensourceai,Z0FBQUFBQm0yeGJTMEtVX3BMOXdhdjk5MGNVWllhdGJzYnB5elc0dmxDREVNaFpOS1BINmVkRzhnV2tPT09GM2RhNk96emFrR3Qzb3EzYWgwZ3RjM3o1TmgwX3ltcVhpd1E9PQ==
+"[Kialo](https://en.wikipedia.org/wiki/Kialo) is a a site for open debate with argument trees rather than long linear unstructured comment threads (repetitive, hard to oversee, not suited for complex subjects, not including functionality for rating argument weight, etc). I just find it interesting and am a user of the site where there's many ongoing AI-related debates (they go on for years in contrast to what I call ""fast social media"").
+
+Join the public debate or read up on arguments in the debate which is also useful for closing knowledge/data gaps etc. If you have an argument and don't find it there but don't want to add it, you could also make it here and I'll see if I add some claim about it.",r/opensourceai,Z0FBQUFBQm0yeGJTWDhGUWlWNWdnaFpFVWJqWV83eGYzVG5QTjZKWEJSLW1XS3oxcnpKZml0RkN1cm1sMk13cUlyenJXb3hDMy0wLUlPQjlFUVdtTjQ1eldiQ2RQTHJfb28zdDVzb29MeHBtLUtCQThGMnFlTlU9
+"This is interesting, thanks for posting.",r/opensourceai,Z0FBQUFBQm0yeGJTUy1YdnFRNGEyMHd6dmpzdnozaUhFUms5UlFITENjanltRS0yTkRPTW5WYWdEOGRxR3FBZ2FyY3Fxb2hwT01UNkliVWxGN0Q4SW1fZ2tMSEdzeXRlblE9PQ==
+"I have done this using Stable diffusion with control net. There are a number of tutorials how, trying looking on r/stablediffusion. 
+
+Let me know if you have trouble maybe I can point you in the right direction. 
+
+But there's maybe 20-30 minutes of initial setup work and the rest is getting the prompting and control net to work correctly together.",r/opensourceai,Z0FBQUFBQm0yeGJTNWQtVVFlU05UbWFYRGtSZ2NaMEpHUVRyRWlYLUdybkQ2T1JVMnVhWm5wMnNpb3JrdjQ3bEJvNXNUcXRnRHMtcTFqOGVQcks2YUd6ZEtnTEs0dHJfNHc9PQ==
+"I personally say no. Keeping AI closed source only fuels speculation that it is manipulated and biased based upon a political agenda. Before someone starts preaching one side or the other, it doesn't matter. Any derivative political agenda is bad no matter what. Software should always be free of politics. 
+
+I'm a firm believer that open source paves the way to ensure that software is indeed free and non-political in every way possible because it can be inspected and analyzed at any given point. I also firmly believe that open source offers the best opportunities for innovation.
+
+I have been a programmer for 43 years and equally involved in open source for just as long and am an avid supporter of open source software.",r/opensourceai,Z0FBQUFBQm0yeGJTWGJWUDRqRWttX3pBcUM1NktrUTI2MnFxXzBXaUVDb0pKV08xWWRvTmJvVjMzRTVlOW1FNWplSnFuclhVNUJleXZkR3BmQXBUNG5jTXFuQWJyeElSemc9PQ==
+Sounds hella cool bro. Good job,r/opensourceai,Z0FBQUFBQm0yeGJTS0dOaWRFd0V0ZmZUaGZRR09zVnY5VTloclBiNWJrZzg4NDcxSTJlejhWLWpwTHp6RmhmUWRESXIyUEtScFU1eGd5YmhkdkFJN2JIUFp1cEZ1bmVwUlE9PQ==
+"Interesting, thanks for your input. Mind adding these three arguments to the structured debate? I think the first one could be a Pro underneath a broader argument about this being useful to mitigate bias / manipulation / political distortions. I think the other two are already included but maybe you could add to them.",r/opensourceai,Z0FBQUFBQm0yeGJTanFoakFYc3c1TDFHWU9NLTczX1dJZmhSWDFJN3ZuTGpSczdjdjdWblA1TGE1bmxCeHZpOEdLejRtcTRUTDBJbjZ2djFIcG9vckFMV0ZHVFRJLVVyRnBpdi01N3B4MDlVY1FJLVc5QUludmc9
+What?,r/opensourceai,Z0FBQUFBQm0yeGJTeFhTeVNVU0ZmLWdsX1g2Y2JYaGRCcnJCM2RGeHU3QnYxZGZpTlowcW50X3BKbmNITDgyMFByNUVGRHRjb2gxX1ZnOEl0Vm5PT2xwaGNXZ3Jyb0tad1E9PQ==
+"I’m sorry, but I’m confused by what I have read. 
+
+Let’s break this down though. 
+
+Your son and you had your devices “hacked”. 
+
+And the hack refers to open source licenses installed into your devices. 
+
+Question, how was it installed in your devices? 
+
+Could you show some form of picture for us to determine what are we referring to, please?",r/opensourceai,Z0FBQUFBQm0yeGJTX0hVeUJXZG9oNHVvVUtjYkUxWGVuSWx5X2tEa1hXT1NhVTV1US16bDVKMHV3UTg2OXBJdU4yRk5odU93ZEJhc3FWMG5XTW5oWnF0WFlTUWFKeF9TZXc9PQ==
+Cool. I often write about AI tools on medium and in my newsletter BrainScriblr. I’ll take a look and see what’s up here. Looks good so far reading the code.,r/opensourceai,Z0FBQUFBQm0yeGJTQUg3a0d2S1B4RW5Ydl9YY3dVcnhuSGxMeGdzSzJrR0ZfYTNxSEtFNE93bUx1Zml3VzRsYnZHOHN6Q3ppbGEyLWhzUkkybjREOU1paFYzRlp6eEJGXzVYVmdWN2RNc21LdldSZXdTRXNyUlE9
+I’m curious about this too. I currently use AWS but looking for a greener alt andCloudfare think fits that.,r/opensourceai,Z0FBQUFBQm0yeGJTNmJqZjBVOHNGZG55TEFnM3lkQV9EclNNVWpoWnR5RHhncnVVcXVJSWNfcWJuNEEzUHhYRWt1SXRoTk9BRWNaYi1mdHlqdnRMMDhuSEhUZm9WMmd5MmNGdnp1LTI5Z2VZYUtSR2RlNnNBVWs9
+Is this crypto based?,r/opensourceai,Z0FBQUFBQm0yeGJTaTF5aDRVSDhQZEtCTW8wZjJQOTFoak1KSml2U1oyOGdkM3hZVFlUenVaeXJmRXZodFkxTFpZZlI3MjZ0dzltY2ZSZzc4T2h6ZS0zTGhzLTVIeGpTM1p4Tk04VUNPNTFvZXRBYjZSZEJrSXc9
+"Thanks...there are obviously things to improve like support more vector dbs, embeddings models and eviction etc",r/opensourceai,Z0FBQUFBQm0yeGJTTkExNE5OMGd0cnQ1RzRwRVFCYU85eWlnTEpYajhUVWVtRWE1SnhvbEtEREhLakNNNzJpX3Uyd1IxQU1jTEh5MHhpaHptM1BUYVZSdlczdWxGM29tS0E9PQ==
+"Hey community, we are currently testing a new feature with the Shader mobile app and would love to have you among the first testers.
+
+In addition, our mobile app has been shortlisted for the prestigious American Auggie Awards. It's the Oscars of the XR industry. We would be happy if you could support us in the Best Consumer App category. Voting closes at the end of today, May 22nd: [https://auggies.awexr.com/entry/vote/xlmGGJJJ/BeVMWjRb?search=cc0614d1d6b99ee4-](https://auggies.awexr.com/entry/vote/xlmGGJJJ/BeVMWjRb?search=cc0614d1d6b99ee4-)",r/opensourceai,Z0FBQUFBQm0yeGJVa0Z3RGtlWHNiNmc1eUp0YmFYMVVXMTBtcW51OGw1ZHBxUWhEanZqV3o0VjJiYzA2RWxnaXhKN01qdDI0SThzU0wwOFNSYVpBdENxeTRIN3EtSEo4Qmc9PQ==
+" New OpenSource AI Agent Desktop App, build agents locally and run them on your computer!",r/opensourceai,Z0FBQUFBQm0yeGJjY0Z0b3JLT2RQVUVyRExTcjZob3RsMC1VZHRoQkxza1QwSzFxOEthWDVDQlZlRXE5ZmF5RkJ1cUpCcEVoNUhzeGVLOHdqQkg3VEp0VUpUb0tVWUtDUkJwYjZlVk9nUUhlVFQ2dEZwdTNzWk09
+Sounds great. I’d love to help.,r/opensourceai,Z0FBQUFBQm0yeGJvb0p0MHh2eWpHV2FScEhZV2tEVTh2Ql9CVWZ1ZElORXk4djhwQ0RDb2w4TFFsM2p0YUsydF8yMnUwVTNkYjdXbmNreEdTOGNiTVd5eFQ4cS1paFdMZzFBQUFFd3BEdVN0Zk0teVdPNGhIYU09
+"I did a test of extracting author COIs with ChatGPT and it did well when the statement included the author's full name. Here is some output from uploading a PDF of an article in the *New England Journal of Medicine*. Authors’ names are redacted. The prompt:
+
+>*Please extract the conflicts of interest or competing interests of each author of this paper and present them in a structured format*
+
+1. **Dr. \\[\\_\\_\\_\\_\\]**:
+   * Receiving grant support from: AbbVie, Merck, Lilly, Arcutis Biotherapeutics, UCB, Bausch, and Arrivo BioVentures.
+2. **Dr. \\[\\_\\_\\_\\_\\]**:
+   * Receiving consulting fees from: Foamix Pharmaceuticals, Kinex–Athenex.
+   * Receiving grant support from and serving as an investigator for: Arcutis Biotherapeutics.
+3. **Dr. \\[\\_\\_\\_\\_\\]**:
+   * Receiving grant support from and serving as an investigator for: AbbVie, Asana BioSciences, Avillion, Dermavant, DS Biopharma, Edesa Biotech, Foamix Pharmaceuticals, Galderma, Incyte, Janssen, Pfizer, and UCB.
+   * Receiving grant support, consulting fees, and serving as an investigator for: Arcutis Biotherapeutics, LEO Pharma, Eli Lilly.
+   * Part owner of: Aseptic MD.
+   * Receiving consulting fees from: Fit Bit, L’Oreal, Menlo Therapeutics, Ortho Dermatologics.
+   * Receiving lecture fees from: Genentech–Novartis.
+   * Receiving grant support, consulting fees, and lecture fees from and serving as an investigator for: Regeneron–Sanofi.
+
+The key is that it is structured data that could be stored in a database.
+
+I suppose that ChatGPT uses open source libraries like **spaCy** for NLP. The library **PyMuPDF** could be used for extracting text from PDFs. I'm not a developer, by the way.",r/opensourceai,Z0FBQUFBQm0yeGJvSVdvVnRZM2FTUVdfd0VBd3o2Q0UxRlNjZ1NCQjZSNmxuTTZEdjEzalozY29HT2NkeFhpUGUtMmptTWRLc2VLQzc5RzlReHR1MW9ZT2VMYlFCUGJ1OWc9PQ==
+"Great! I just posted a reply with an example and ideas for libraries: spaCy and PyMuPDF. I'm not a developer, but I have experience in UX and product, and past exposure to NLP concepts.
+
+Have you worked with either of those libraries?",r/opensourceai,Z0FBQUFBQm0yeGJvS3R6akxkQ1hxbFJoT1NJOGQyckpvUlpxSDI4Nl9lRDROQ0p3bjZidlhfR2IzY3pfeUJMZ1Ytcm9fck5ZcFRMeTRZcmJqcmRWdmY2aER0ZkxkWU9Eamc9PQ==
+"I study Computational Linguistics and AI. Yeah, I’ve had to work with NLTK and Scikit-Learn before.",r/opensourceai,Z0FBQUFBQm0yeGJ2OHdCZGlBMUVaQVJDS1pXZ25od3pibkFudlA2R3RWU21TNEw3N1l4WFg2ZDdjaGJ4ODF4U3hhWkdyRkthOFRkMDRLYkRIWkRhTklzbGREajBnaVhyOWRtdWZrc2NmY29mMnFVdkpxZ2w5TU09
+I am a masters student of AI. I would love to help!,r/opensourceai,Z0FBQUFBQm0yeGJ2YUpxRmVPVjNoZWNhdjFDOFp2UmcwbDJseEdpLWRUQTRzQzRfZDZhY1p0UjZpZ1dUYVJxV0xpZGFVM2p2c0owU3FJeVk3NzhRY2ExSDRPVTBqQVNDb2dwTktXVHhoUlFyWWptdG9YaUdiNE09
+Great! Will DM,r/opensourceai,Z0FBQUFBQm0yeGJ2d1JMZHBlZzFfV3M2UjFkWkdqY1psYW9Pay15M2hJek9GUHpGWlRNVFFfdGFUdlU5YUNEWktnSTB6NnhjWUUtWmlhdjBZcUdIWFlhOGNkYWxnYnotb2c9PQ==
+This is so cool!,r/opensourceai,Z0FBQUFBQm0yeGJ3TEljQ1JKc1M2R04xVEpQd18wVzVfcW4zQkxKcmc0dGlTM2U5MmppU1hqdEFSV1NxLVBKOVpGd01wNWxZZUxsOVN1U2NjaGVudW9MWUJMc3pxRzg0Qjk1MEJlejF0X1B2LS1Vd2JjQTM5WFU9
+"I think this is a really good idea. ResearchHub is not doing the same thing,  but they’re an open source project doing interesting things to create more transparency. It might be worth connecting with someone there to have a discussion.",r/opensourceai,Z0FBQUFBQm0yeGI2VUpNSzB1eGRuY192eVN2RDJMWmJfS3hFYnRIQlAyRmhaVjVQeERkeGVqemVBOVh2WG96M0tSYk1GQlVveFp0a2xZazdaUkJPR21KeFFibXhLcXlORUE9PQ==
+Yeah I talked with a leader there a couple of years ago. I might check back with him. Thanks.,r/opensourceai,Z0FBQUFBQm0yeGI2YkhMM3cxV2UyYVd4OWwteU1Sdm5fcUI1Sl9ib0Y2Zk8zeHJiNm1XRUdYRFpqaDB5UkVDR01SaGp2eW9pOThkY3ZuTVc5SGc0cHMxa3U0aWpGWFJUTEE9PQ==
+"I'd like to make an, at least, semi-consistent video that is longer than 2 seconds. Basically, I want to generate music videos for stuff I make in my music room. Any suggestions? 
+
+I have a 4090, and would really just like the opportunity to use it to its potential.",r/opensourceai,Z0FBQUFBQm0yeGNDODVqb3RJSElvUV9ZWVdEdVpvQk92eFROeVVfOE04Q1BBT2FRWW9MSlpLbFRtT3lkUFJHOXRqRml1WEk4b3phMFYtbGxBc0cybGN2eVNwUU9BaTVERGc9PQ==
+"How about this one?   
+[https://youtu.be/KXVyTHK46DE?si=u0D4asXd9QwaxIvv](https://youtu.be/KXVyTHK46DE?si=u0D4asXd9QwaxIvv)
+
+This is Videopedia. Competitor to all these tools. I'll be launching this soon. If you want early access DM me.",r/opensourceai,Z0FBQUFBQm0yeGNDQ2ZWUGczb1hQUUlQcVg4cHoyOEc1TEJqeVJZaW5xTFMtb2daNGF5cnZzemJjSTVuTGJtcFEybkx2Skc2aWpLSW5yenRGQUlHNUFlZHJlSHAxcnBmSmc9PQ==

@@ -1,0 +1,725 @@
+text,label,username_encoded
+"If you are open to using Anaconda, I found a very short and concise video a few weeks ago. Helps you set up GPU for TensorFlow very quickly.
+
+Here's the link: https://youtu.be/toJe8ZbFhEc",r/tensorflow,Z0FBQUFBQm0yeGJSX0lvVTZSSHpYWkpIblBpZ3VBTFNhd1pDdFF6dHZHeGJwbEJWby14Y1FZNnRYOF9DdS1lTVpLWVlNSEI1MmJicG5tQnEweVZxTTV0X01uUnhlV3NOeWc9PQ==
+"Ok, I see, thank you for the response.",r/tensorflow,Z0FBQUFBQm0yeGJSZHFNZWdYUWVSZDAxbGFHeWZab3AySWVROUc3aDBqbjlVaG56U2RYTzBTQzFqXzhxTlhKeFRsVlVVSVVOVjk1VUs0ZlI5M1NyOUhLZmpTR1V4UU90aDdvMFNCazFfZE1hVUQzY3ZuWUJLcWs9
+"Yea this could prove to be useful, thank you for sharing it.",r/tensorflow,Z0FBQUFBQm0yeGJSQ0pjZFkxejdINUpfVWFWbnRXcUlmb3M3SWY2cFZlWW0tZFFRV09UR0VucTZ0VkdDNjJqbm91WWxpTWlaZll5Sm1NUUJvSC1IQWp5RzhJX0dDeVVTQ1JOWDFac0xOZ3JkZ2pHY19YR1M3YWc9
+Did you eventually get any answer?,r/tensorflow,Z0FBQUFBQm0yeGJSUDBEN0R0Q1pobG1wdmZKR0pubXJ2anNjemxQSzh2TUU0Mks5UkF5ZnZob3R3SVM1SlVjN0M1ZEZGeDF1ZWk4WE4yeUQ3dVRKRDJaal90WHVXZFdTQ1E9PQ==
+"hello, sorry for the delayed response, this was for my batchelor's project, i ended up taking a project from the example repos given by tensorflow, translating it to java, then building upon it",r/tensorflow,Z0FBQUFBQm0yeGJSYmtFa2xzRGxYbnAxMFctakVEY0o0SVJFWUJtOFBsdEtXUENnd1MydngxdDBhRkJXa3dzVW5iV3pBb01QX2lZcUdiQWlTQ1NaS1pmS1ZUX2YweGdOSFE9PQ==
+I've tried tensorflow-rocm and tensorflow-directml-plugin in ubuntu and wsl2 respectively and apparently only the former kinda works with my gpu (RX6700 XT). Mind that I need to run export hsa_override_gfx_version=10.3.0 to make the former worked. Tried with the keras example for automatic speech recognition it works at least (huge speed increase from 2s/step to nearly 200ms/step),r/tensorflow,Z0FBQUFBQm0yeGJSMkdVYU1EbHlWMlc5dGVlWEkteGRSajZ0V0VDaDI3cm1OamQ4LXlNNFFHRXBKMGtnM1A5bWU0SWYtNzVIa3JTOW1SSElfSkdmRG5qUkt2US1pbnBPcXc9PQ==
+"do a reshape(-1,100,100,3) on your input tensors. based on the structure of the data i am assuming that is a 100x100 RGB image you are trying to pass into the network",r/tensorflow,Z0FBQUFBQm0yeGJSakRLdm1xbDhpdzF2Qy1QTW4yZWNXeW5wRDMtM25wSXYxOHhxdjNDekMyc0hQRm8zREJrRmJtYkJKZGZUNkstZUQ3cHJwcmJxWXdmSV9fcFo3T093OUxpUFlScDFsb3ZVY1hwNUFveVBwcnc9
+"For someone who already has experience with Python, an effective way to learn Tensorflow from is with the book ""[Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition)"" by François Chollet. Highly recommended!",r/tensorflow,Z0FBQUFBQm0yeGJSLWEzQ0lqSHVkODlaUHRlTlRMMjRLYmx4Uk1mbDEzYmhFclAxa2w4MUhIalhBamJHam8zWE9Td3JqR3BSUk5BaEYwYjdJSUllZm1xMTB1M09xaWlwZ1E9PQ==
+"I bought an RTX 4070Ti four months ago (for a desktop computer), and I have no problems at all. I don't think the RTX 4070 would be any different in terms of compatibility.",r/tensorflow,Z0FBQUFBQm0yeGJSc0FZU0tXcWxoY3JkUEVWTmtaNjRaVXE5QlZ5azA0M0ZXNHVnYVQyS2xBbUEwSXRaYlNBeExXa2d0YU9nRk9pVWhCUzJEbGVrZlpOSFJBY2ZiWWJoWGc9PQ==
+callbacks are supposed to be in a list,r/tensorflow,Z0FBQUFBQm0yeGJSeEhwVnlIMkZwaEdZVXdVWV9laW9FTlFFOUN0bDBfSmpGN2Faa1VfaDFwNHNxSmREdnQ2eHR4SEVQel83aTVnbDdVUFAtTEJMQjIzOTBYeHlyTTJlX1E9PQ==
+"please elaborate, i entered it in the format and everything that the documentation wants",r/tensorflow,Z0FBQUFBQm0yeGJSeFVlUWJ4VnZ1YTQ0dGVOUDBFZm12STdQeGF5b1VBZHExWnVHMEYtenBLVGNYM3Q0YVh2MzQxYVhCVHRHdHdteVlkRVpuUUJDNllRVkJHWWxzdXBhMmc9PQ==
+This was a great course.  https://coursera.org/professional-certificates/tensorflow-in-practice,r/tensorflow,Z0FBQUFBQm0yeGJSMUVXWWlBN0xIYnFic1d3OGdKSDFuWkR5QnFlbWgyNFV5TmpfdEZPTlFFRXUwcGc4YjRueWFNcGRKdnBPRU1NR1Nhd3B1Z2N3RE45X2ZJenRiTE9LUkdVMzJsUVVSQy1MbE4yMkt1NmhiTUU9
+I think it's better if you share the code,r/tensorflow,Z0FBQUFBQm0yeGJSRVI5X201d1pBSHhhTGMwWU9CSFQ0ZGRBZ2Y2c0ZUOE5tam1MMVd1R3I4VnJseXFFbDVWZHhnbDVLMUJYZENRYVMwLW13b3dHMUY1M1pGekdIaTNhVlE9PQ==
+I have no knowledge in python. But i would like to learn it. Please give me some resources. Thanks…,r/tensorflow,Z0FBQUFBQm0yeGJSSE1tM1ZlekpOQk92VllLekFJWER6RktFU3pNdEEzYkhfN2ZLeUZfd2l0VjVaTndpX1IybUZrVmFMQk5qVi1kVnlJeE5wM3lYVEc0eWpKQlhVRjBYaWc9PQ==
+This web page provides links to everything you need to get started with python: [https://www.python.org/about/gettingstarted/](https://www.python.org/about/gettingstarted/),r/tensorflow,Z0FBQUFBQm0yeGJSTHpGbEFyOVNRd2VmTnMtR0NiYkJGbXMyTmcxVmZBX09vRFhKaTFYSGMzekFvNGZqTERHalQ1aEVJTmtkQnRqeHNLLWV0S0RmVDdqTDhVUzgwWnpRY2c9PQ==
+"It seems easier. I will get one book from oreilly. 
+Can you help me with a mathematical book, related to tensorflow. Algebra concepts and etc . 
+
+A book to refresh all the concept required for learning tensorflow",r/tensorflow,Z0FBQUFBQm0yeGJScUs1SUNFWjVhNE9vVTJDUEJkNzdfVnlVdnhneV93bzgyRm9na2cwblAwN0h1enRZUWhpY2VWVUoyOWdCX1FUNW1feDVGS09GWkpfWWpDdXhyMlV0MlE9PQ==
+"hey do you know how i can setup gpu on my windows system in a conda environment tensorflow. i have gone through the tensorflow docs and they seem to have stopped giving out the newer versions compatibility with the CUDA and CUDnn
+
+i have been using google collab but open cv seems to not work and i want to use my nvidia geforce rtx 3060",r/tensorflow,Z0FBQUFBQm0yeGJSTjVJN3ZDNTdCMzBrbm83OWNlNXdpMl93dW5POTIyclBrMFN1TjB6ZDFEc0RuQlluT09lcU1TSnJOb2w0M3VZTEdwbnEyQTdLZjBsSFk4YmVTRmtfX1E9PQ==
+"no worries! i actually ended up doing something similar too, the example repos were super helpful :)",r/tensorflow,Z0FBQUFBQm0yeGJSaUxxT2gwaEg5MThob0JMN1VnWHNxb0VNcDBwaFpIaGRlNHVrUjItY2lkUWNWaEVHaHhaX2ZJbzNOSWlILUFPY2Nfams3aFVqM25zc1RHRnp0TlpZdHc9PQ==
+"So my question is... What do you want to do with knowing tensorflow? What's your aim?
+
+Tensorflow is big... Like it's... Really damn big. If tensorflow was it's own managed company like spark to databricks, it prolly will be a 50b+ company (and a lot less buggy).
+
+If you say tensorflow, you're saying I want to learn the whole deep learning as a field, there's so many layers to that.
+
+Do you want to...
+
+1. Learn how to create a model and train it with ttensorflow?
+
+2. Learn how to optimize existing models?
+
+3. Learn how to setup infrastructure with tensorflow?
+
+4. Learn how to deploy a model and have it in a production environment?
+
+5. Learn the deep inside knowledge and fix tensorflow issues?
+
+And ultimately, are you trying to get a job that you can use tensorflow? Or is this just for fun",r/tensorflow,Z0FBQUFBQm0yeGJSR3ZYU0VkVUVQd3lIRXpUNGtoMDRRb1NUM010UXZEeEtqUVVxa0FHaUV4ZmVnVlg5MlYydzV3WXVFNWRndm9RTTFJeHQ2WWFUNkpFbkFISU5FZDVCR1E9PQ==
+"Should be fine, drivers and Cuda and cudnn is the same. 4070 is just a cut down 4070 but there should be no software issues",r/tensorflow,Z0FBQUFBQm0yeGJSU3luZFR5eUdkd1pUSzU4Sl92bm03aXkwc3I5NFBWZDhhV2s2dlRCOHhZXzBGOEhFcU44N3I2NGZiaWpLejZSd1p5V0hRR0Jxd2xXZnNyWnVyRzJHQWc9PQ==
+It will work.,r/tensorflow,Z0FBQUFBQm0yeGJSSzhHcmZaWGNQWXc1RGRXcVhIOFFOSGVUU1d0R1p6NDl6eWxuNHBtcUtRcmZFcURpWkFNOHJzLTcyQndCTEMyajlocjBCekJkUWNfNUpSM1RmYTFYZGc9PQ==
+working on WSL is absolutely a dread. Everything is slow and unstable. Screen resolution sucks hard if you have a good display. Good luck spending hours to launch Spyder for whatever technical deficiency WSL is incapable to fix.,r/tensorflow,Z0FBQUFBQm0yeGJSeDk0Z3FlMlRUNEZJakNWekxpODQzMk84c1J2ZDZrWFI2MWd3S3l0aktXWXpBdHFrS3BYZE9ac1FMX2w2NGNfNHctVnhDbDRDZ2NOdWM4OTBSR2tvZ2c9PQ==
+u/dark16sider what was the solution?,r/tensorflow,Z0FBQUFBQm0yeGJSWmpGZDJVNzB2S3QwUGw1ZWtzVml3RXM2M0JMS0pPV2xDZWFiaUJDWmpsYWFMaDI5bmg2TmkweklFWS1Qb2g5dWpXeXo4T05qd08tR0Z2Mkw2OG5lY0E9PQ==
+"Your input shape specification in the model is (1,).  You want it to be (320,320,3) based on the error?",r/tensorflow,Z0FBQUFBQm0yeGJTN3FWVzdmN3lidDdkcEFERk9VaVpDdjIyNUlxQXdXYURsVmc3S3draXI5WUFMbGRPRXRCQTRJaGtsN3J0bVpab3ZBWXZaREZuWnZaeWR5Nkl5dkdkWGc9PQ==
+"I’m sorry, I’m out of my element (mechanical engineer). Could you say it in another way that I might better understand?",r/tensorflow,Z0FBQUFBQm0yeGJTTGgtNTFPQkhtNmVCTjZsWG9USjk2VWFBSWJyTnhSYmNSWklBdTljdTlNaUpvR3NQSGE3Nm4wOHZhU3F0OWxjS3NDVVIwQS1zaXlfVjBQeTJSU3BUMVE9PQ==
+"This bit specifies the shape of the data going into your model.  An image will be something like (rows,columns,features).  The shape you have here would be nonsense in most cases, indicating that each input sample is a single number.
+
+    tf.keras.layers.Input(shape=(1,))",r/tensorflow,Z0FBQUFBQm0yeGJTOWZWYktjQTJENVBBWjhEY0FZdEN5UC1QX2JuYVYwckk5endiRjc1c3VXbzV0QjA2ZEVZZ09fam9HUkVESUU2YmpTbi1KVWpyVGw4NVZZRV9nYnVEMlE9PQ==
+"The output of a GNN will naturally be features for all the nodes.  Assuming your edges aren't also being learned, you just need to write a helper function to recreate the TF graph tensor from the node features.  Presumably you created the graph tensor in the first place, so you just make it again except using the GNN output as your node features.  That's if I understand you right.
+
+But it sounds like you don't really need it in graph tensor form anyway?  If you just want the answers, use the GNN output directly.  You'll have one feature vector per node, shape= (nodes,features).",r/tensorflow,Z0FBQUFBQm0yeGJTZ2Nsc2ZLcUpoVUZnNmhjUjZINFozbW5MbXcyaDVWVHdyWVNSVTIxb3lwT3l3Z2V3Sk5NOEowNjdnLUZJRVNOSGFtWXQ2WC1sdEVGamNHSzFCV1pmc2c9PQ==
+"I don't have any particular insight, but the simple thing would be if you accidentally lost GPU support in the upgrade?",r/tensorflow,Z0FBQUFBQm0yeGJTb21nWWZvWW1xYUJqdVJidDNUR2Nma0wtUzVTMFBjZC11Yl9SMHRYaG5TdjM0a2RiOUxGMHhxcGs0aDRIM1pjd2Zlbm4zUUxpZ1RObkhZOGxvUWw5NkE9PQ==
+That's definitely part of the problem. I've just realised any version over 2.10 ain't great to use with Windows GPU's. Do you see any other issues with my code?,r/tensorflow,Z0FBQUFBQm0yeGJTNllINzdmQzNLaE9YalVaMW1KbWVqVEZvX2hGVENnaXhNeUViZ3NHb0s5Mjd5RXFZVWtfeENWaWZJV3FnWGJucWhUa1I0SmpmM2NBV1JjUkZhdV9NUEE9PQ==
+"Thanks for your response! Honestly I need to implement a naïve pipeflow to understand well how it works. The point is I wasn't sure if the feature vector per node was able to keep the ""structural relationship"" between each node. Anyway, I'll go into the coding stuff, thanks again :)",r/tensorflow,Z0FBQUFBQm0yeGJTWnlIMmxiMktTZWhCYTdPby13N1hpLTlDZVhoX252Nm5GUG44dTdKNFhFRUlxMTVXSHlTb2U0aFZieDFZS2FvVXU4ZExVdmRPVXRMSTFDcWJzNjBiYzZuTTd3UmU4dlJLZE4zTXFqcHF1ZDA9
+"When it comes out it'll just be (nodes,features) in shape.  It's up to you to remember the order your provided the nodes and their relationship.  
+
+The GNN documentation is limited and confusing at this point.  Honestly, I got what I have going by iterating through chatGPT and experimenting.  The examples they have are far too complex in my opinion.",r/tensorflow,Z0FBQUFBQm0yeGJTS2lCWW40Nk14a0ZsMzdwYUVXcVZFTGVDOGR0cHltcnBJaG1JeUFSTWJla01VcV9TTnFvbUF4X2dqMmoxTXJoREFZeHVFVE9SdEJidTZZSE1XS0l5T1E9PQ==
+Thank God!! We are back again.,r/tensorflow,Z0FBQUFBQm0yeGJTSFlqcERmRGZ2UVpsUTNZaGlOdlZLVTJqOGdJZEp6SUxoQlVCdWhTSmpHcGg5Wm1fOG5wVXBmc2JOZWh0VTFzTVNMOWJERHpTYWM2VWEyV1N6UjdNNHc9PQ==
+Cool 😎 awesome,r/tensorflow,Z0FBQUFBQm0yeGJTS1NKRV9sbDdDUHRHUWd1MzhfR3kxSzZQUFEwaHhUc2tJNlB3LXRJLWpZUXlDQk9nV1lBUHptZE0yVlRIUVkteElDZWVHNEhrNlM2dlpZaDVCYm0tUmc9PQ==
+"As it is having both image and text as command so it's multi-modal model for sure. And trust me it's not a beginner's project. You can do lots of stuff with lots of library / API available there. But if you want to stick to this field and know deeper it's important to know the basic. I would recommend you start by classifying images, then localizing, and finally segmentation. And in parallel you can start text summarization. I think one day, it may give you the idea why I suggested this approach.
+
+Cheerio!",r/tensorflow,Z0FBQUFBQm0yeGJTQ09PQkFsZDdncldCUmJEdUlUZWFEWE5MSHlPTEhSdGtoalZHeXZoY19LX0s1NUNvSDNyQ3pDbkpZOXR5aGxPUkdjTkk2SlVCTl9CTjNSNmJ1TXRvdXc9PQ==
+"What are you trying to do? Do you have a specific model or architecture you are trying to run? TFLite doesn’t have state between inferences. Unless you are doing something a bit unique, you normally don’t need to manage any internal state yourself",r/tensorflow,Z0FBQUFBQm0yeGJTWFFKYmxtLUd2TjJTdzFZbDVTcEtWYnAtRVBxM2ZGUTQzWGNRYWhtTDJMVDc4eXFqSWIxNl9oVDRxejBLTzZyWVhyRnNaZHEwV2Y1WHF5S1VwLTZkYmRsY2x4NEJOWjFPNHRyRFQ5V0oycms9
+"I'm using a model with LSTM (RNN based) layers for time series prediction. So I should have hidden layers (memory units) which I want to keep updating as I input a series and reset before inputting a new series.
+And it seems like TFLite supports LSTM, so it would be strange to me if I couldn't manage the hidden layers...",r/tensorflow,Z0FBQUFBQm0yeGJTYk5EZzRCbmNUWXhkbjBROGhEUXFjcTBBY196dnhvQ0tkWnhXNDktRG5TMnVfQ3B1VFJ1a0E3cFpsZlhjNklSNTU0Sm5SS296R0txNjZOdDBNLWdvOWc9PQ==
+Python version and interpreter ? Do you use the miniconda version for compatibility?,r/tensorflow,Z0FBQUFBQm0yeGJTZmV3ZlpuR0tKaTlhbU9CLUFuZHZvX3N6S3dCbXI5anpHLWFZZ3puWnlDcVdONEl5SjdwQlpDNWx3UDFaWDhqMXJ5NURyUEktcXlkMGxhRlNVS1hkODhZUVN2bXgwM05RQ3lBazlHRkYyYlE9
+"Not sure how much code you are talking about, but I'd sure be inclined to just write it again in TF2 rather than looking for a utility to convert.  TF1 is pretty ancient at this point.",r/tensorflow,Z0FBQUFBQm0yeGJTQXE3TjBTMWlKdGZKcXpGMWtLNWxUV3E5bkNXbGhzQ1ZIZnVMNlF2bHBqV25KVVRwMDRhRjNJX1A0aFpPai02X0ZMYW40WUc2RXRvalE3cmxQTHhRdUE9PQ==
+"My imports look like this for most every tensorflow related thing:
+
+`import tensorflow.keras as keras`
+
+`import tensorflow as tf`
+
+`import tensorflow.keras.backend as K`
+
+I don't personally use load\\_model, but if I needed it I'd say ""keras.models.load\\_model"".
+
+FWIW.",r/tensorflow,Z0FBQUFBQm0yeGJTWjl2TzdMZGJhS095TXBjWUQwLXU5ZTZKdF80b2l3YWNxUGYxZTRNdzdnOWg2WUxMRURUMnhOSUF0Rkp3eTVtZ2lsTnVGMFgtYm91b0dENmRSb1lQaGc9PQ==
+That's what I'm saying I've tried this at first and it said the module doesn't exist. I looked in the file explorer and there isn't even a keras folder in the tensorflow folder. There's a python folder in tensorflow inside of which there's a keras folder and that one still doesn't have a model file. I'm really confused.,r/tensorflow,Z0FBQUFBQm0yeGJTNk81dGY1SWR6Y01YRWJLY0JpR0xzZWlhWmJfYklDUk9qSzFjVlNqb09vZ3R5Z3dLdjlLSXo0ZkhOVks4c0JUTDM2WHNvVTY1ZlJtWHFld093X0FockE9PQ==
+"I tried this a few years ago and it turned out the object detection API depends on TF1 tflite features that were never ported to TF2. Even Google used the deprecated TF1 object detection API for their new spaghettinet model.
+
+Feel free to message me if you need help with TF1 training.",r/tensorflow,Z0FBQUFBQm0yeGJTdkVKaHQ3YktnUUZKbXVrbzRpZzZveFRxWGFzX2t3endZMGZNSXZCQVZfY2hPZ2RqMEdKQzQxZmNkRkFTeWNDbk5GTHU2b25fOXlnMThsMXBZYW1iT0E9PQ==
+Which version of tensorflow are you using btw?,r/tensorflow,Z0FBQUFBQm0yeGJTb2V5bTM2M1NiNFZDejZUbG0tWFA2TlhMQWUxdHZ5eDktdEM1aTUzeEk4OWp2UEQ5czJYTmU3dXJLYzFKaVFaUWkyOEdaanVWNUhZYU5rRTZpQXNPM2c9PQ==
+I see.  So your install itself is not working.  You're on windows it sounds like?  Maybe someone else can chime it since I'm a linux user.  I just pip install things into a virtual environment.  Can you import tensorflow and just not the keras stuff?  That's been around since 2.0 I believe.,r/tensorflow,Z0FBQUFBQm0yeGJTZ0lfeHJhQ3ZHV2EzM1JTdlBSRVZFMU50Rnhvc3htNnRPaU8ybi1nU1dGQk9Scm40SmVOMnpGaDhVU21Fb2hWZTZQazlHaW5jdEtYMURtSGV3Mnd5TkE9PQ==
+"No I'm on ubuntu 22.04 lts.
+Both tf as well as keras stuff is messed up. Should I remove all of it and create a virtual environment and redo it?",r/tensorflow,Z0FBQUFBQm0yeGJTOENPcFpBYlozY1ZjUDFNWnREVzdGd2FWOXV6eVFwRnMxZV9EczVseWpKOVd3S2dfVm44TG9aSG9ldG1pRmpUY0plTWVyRW91OGh0VGphY3JRLXpQS0E9PQ==
+"Sounds like it.  I personally like anaconda virtual environments, then I use pip to install most stuff.  But a plain python venv should work.",r/tensorflow,Z0FBQUFBQm0yeGJTYmNGT3V3OWRyMWJhbEpHZTBuNjlKbDIzSmpfa1VWTkgyeDZoemtFMk9ic20tLTBuU3d5d1NZcGFmMUR5czZxTUFEWlZPSDNMSTc5YWRJdW9OaGgxRWc9PQ==
+Thank you!,r/tensorflow,Z0FBQUFBQm0yeGJTQkl2b3VLeEZPSXQ5bTJzeWluVTZPNE5DVUx0bEVJUTNoVGVkWHVSYnpVVkI4VkJXRDJENndKOC1ITVk0b29UcDF1MjNyRG5TNWMzcmlZdENlMnBKLXc9PQ==
+"Does your model convert to tflite? Have you tried running inference and checking the results. You will input the series up until a point and it will predict the following values. 
+
+If you want to continually predict the next value, the naive solution is to run the entire series as input on each inference. The LSTM stores “memory” as it processes through the input series. It does not store memory between inferences. You as a developer, do not need to manage these. 
+
+The page on the tflite docs for rnn: https://www.tensorflow.org/lite/models/convert/rnn",r/tensorflow,Z0FBQUFBQm0yeGJTc1dQVzZmNmVldkNQTjhrZTltT2lTVHZ2WlhTWXpmRmVZQ0dlTzJsX3RJWkJZSVcwSENmUGRLLTFnOENHdUozTGEyT2dibFU5R0R6aUh0RVEzV1ExMFRKVTBSZ1pWWXRnaFJpaHBxNjJnMFk9
+"Python 3.11.0, I don’t use miniconda",r/tensorflow,Z0FBQUFBQm0yeGJTcDdIMjFYTXBJRXg0eU5tTklnN1FCUkRzNGtGQ21hZ3NGZG9YdTJTcTlOLXFmV3FhallONFVwSEloUGttZFRFVGdvQ2ItOEQ1TVJFRUhfOHM1dnZYa0E9PQ==
+I actually managed to do that,r/tensorflow,Z0FBQUFBQm0yeGJTQ25zb2xZR1FraFhwbDJYYnVqQ0RfZm5NVnhsYkd6ak40MjNTM2k3cU9YNGRQNmU0NVlRQ1JyMjJzbjA1Y0lJM0JmeVp0X1VhS3lKcWh5M2pEQWRKcFhVUjl1WUw4SDJKOXNkYWNqYkJBUkU9
+Care to share the notebook with us???,r/tensorflow,Z0FBQUFBQm0yeGJTUVRHbk9ZOE5jbVBMTjlrNUJ2bUZDZ3Q3SC12Y1hkVnZaTFROZnNUbFVHakdMdE8yZEJKR1pHU1QydTB2Zi1mcUxjeVlyT05aQkY4bTRaUVVZVzg4d1E9PQ==
+"Sure, here it is
+
+https://github.com/dixy52-beep/pix2pix-TFLITE-model-notbook/blob/main/Custom_TFLITE_pix2pix.ipynb
+
+It seems to work well however when converting the model, if trained for various epochs (4k/10k) sometimes the runtime disconnects. I think it's a limitation of colab",r/tensorflow,Z0FBQUFBQm0yeGJTNHB1T0g2WlhCMU4xdWNJN3lpbE56cjZBanY5N0prbUM1UlZ5S2pReGV6dGlPN1lEVVJwZWdJdTVSNU9Gd211X3NpOC1BX3V4YkZHU2tLOHFDODJQOUtycnpOTUh6WVp2cVFBdFQtU0tCOHM9
+[Please note that my notebook is modified to add the ability of uploading a custom dataset. You will have to revert my changes there if you wanna use the original datasets showed in the demo],r/tensorflow,Z0FBQUFBQm0yeGJTMjMzOVdtaDNYRXJBTEVQcG1DaGxxOVlsNXN4X1ViMlFuNkpCVFNrOEY3QTE3N0ZlLW1VMnZJdTc1UWptVVdGUDgyQkRKenBTbWpLSkE5Zkw4SE1jZ1hBQXVCZTJCMWp5eEUwM2wzYjNRYVU9
+"Yes my model converts to tflite and inference runs fine.
+I already expected tflite to correctly manage the LSTM memory when iterating through a series, but I wasn't figuring out how to reset it for a different series.
+
+But it turns out I just found the answer in a LSTM tflite example. The method I was looking for was:
+
+>tensorflow.lite.Interpreter.reset_all_variables()",r/tensorflow,Z0FBQUFBQm0yeGJTYnE5OUxfeTJXMFpBQmVERTFod3drS05lMHFpamdMaXRDWTViRk96ODFqVWE5SEE3b1R1QlhxS1BpSDgyaHMyMkxMQ0hXZVN2UDNwTFFaQ09HUThsV2c9PQ==
+Copy the approach from a published paper,r/tensorflow,Z0FBQUFBQm0yeGJTVVYxejhEdUhSd0VZaW1fRHlxdl8wVk9lNmZ2VzRDR2JtUlgzeVlULVFIeFZKRlNFQzhfbmVVTnl3VjlfTW85TzJjOGpuZktPaXVBemh6Z1VwVkpJMHc9PQ==
+Based on https://discuss.tensorflow.org/t/attributeerror-module-tensorflow-has-no-attribute-keras/20495/7 I would try importing and using Keras directly.,r/tensorflow,Z0FBQUFBQm0yeGJTSG83ODc5UzlEd3hZOGxqaDkzNWhRXzM2bloyejR5RGJMQTBHMDBqTE5vWjZjb2ZJX2hHRWg5cFl4X0VEbnJuemxrMWg3Yk9jSkFYMGdMbU05cXJLN3c9PQ==
+"Keras is built in with tensorflow, you don't need to install it as a separate package.",r/tensorflow,Z0FBQUFBQm0yeGJTOFdGRVhGeER4U1lNQTdZbkpUS2ZPRFFtaDdUWk1CbTg3Qm5fdDNqaUNEZHBXaUYySDJlSFJDcl9pU3ZSdEdzZ2VKVkc5b0FBMVFFTVJwUVJabE0zNEE9PQ==
+Please paste the code here with proper formatting.,r/tensorflow,Z0FBQUFBQm0yeGJTWXpyUnJ6UlBVN1NZeWh0aVVRXzlhelgtLS1heVNVZWhGYTlCdFZxMVpVYUdmWFJON1JYZTAwZFhnZ3MySWpKeE5maFE0cEtrN0xpYk5lSGIxdVJxc2c9PQ==
+What do you want to install??,r/tensorflow,Z0FBQUFBQm0yeGJTNzltVHJiWW9ReFpzbEhUbjFPZHBMaWFGME1KYkd5THdMZnVrVnRZV2VPU3JlakZLWkE0NjNRRVFPOGdDcmJmNnJNX2NXSmk4ZF8tVEdBQUttOTVYdWc9PQ==
+Try in wsl,r/tensorflow,Z0FBQUFBQm0yeGJTdUF2VTFxZVJiMmU3RUd2QjMxcnBfLWRaNFhVS2tzTzRLYVo4cUlqVVRPeDFFTXBvNE1FSXVaUlc3bVVuVWtSVlVleUhsOHQzVjhxdUgtcXM3N2VUa3c9PQ==
+I want to install a script for object detection so I follow I tuto on YouTube that explain how to install the subreddit but when I install all the things install but not 1 things and it’s blocked at what I you just say I send you the link of the YouTube and the Reddit,r/tensorflow,Z0FBQUFBQm0yeGJTSXRscWR6WV9xTHZad2tObkhlVzlvejluSDhLdTNncHY2T1BKWWtsZl9qYUxvMlMzbWdMUjNPaEt1NTVMNkpuN25tS19DWk4wM3pvRlhka1gzRUdpS3c9PQ==
+"    import streamlit as st
+    import os
+    import random
+    import numpy as np
+    import tensorflow as tf
+    from PIL import Image
+    
+    # Path to the directory containing the celebrity images
+    IMAGE_DIR = ""path to dataset""
+    
+    # List of classes (directory names)
+    CLASSES = os.listdir(IMAGE_DIR)
+    
+    
+    # Load the pre-trained face recognition model
+    
+    MODEL_PATH = ""VGG16.h5""
+    
+    u/st.cache(allow_output_mutation=True)
+    def load_model():
+        model = tf.keras.models.load_model(MODEL_PATH)
+        return model
+    with st.spinner('Model is being loaded..'):
+        model=load_model()
+    
+    
+    
+    # Function to preprocess the input image
+    def preprocess_image(image_path):
+        img = Image.open(image_path).convert('RGB')
+        img = img.resize((224, 224))  # Assuming the model input size is 224x224
+        img = np.array(img) / 255.0
+        img = np.expand_dims(img, axis=0)
+        return img
+    
+    # Function to get the name of the celebrity
+    def get_celebrity_name(image_path):
+        # Preprocess the image
+        img = preprocess_image(image_path)
+        # Predict using the loaded model
+        predictions = model.predict(img)
+        # Get the predicted class index
+        predicted_index = np.argmax(predictions)
+        # Get the celebrity name from the class index
+        celebrity_name = CLASSES[predicted_index]
+        return celebrity_name
+    
+    # Function to get a random image
+    def get_random_image():
+        # Choose a random class
+        random_class = random.choice(CLASSES)
+        # Get list of images in the class directory
+        images = os.listdir(os.path.join(IMAGE_DIR, random_class))
+        # Choose a random image from the class
+        random_image = random.choice(images)
+        # Return the path to the random image
+        return os.path.join(IMAGE_DIR, random_class, random_image)
+    
+    def main():
+        st.title(""Celebrity Face Recognition"")
+        st.write(""Click below to recognize a celebrity"")
+    
+        # Get a random image
+        random_image_path = get_random_image()
+    
+        # Display the image
+        st.image(random_image_path, caption='Random Celebrity Image', use_column_width=True)
+    
+        if st.button(""Recognize Celebrity""):
+            # Get the name of the celebrity
+            celebrity_name = get_celebrity_name(random_image_path)
+            st.write(f""Predicted Celebrity:{celebrity_name}"")
+    
+    if __name__ == ""__main__"":
+        main()",r/tensorflow,Z0FBQUFBQm0yeGJTQ0h5S3FTaHNRX014RmZBdGU4T0JzUVJSaXpQWkduRFl6aHBYY3JpeF9nNG8yOVJJU0w4c3NBSHNCQnlCbGloU1VMdHNWNEhPdzRaeFU2MGVheVFNamZNMk9ScDNPMzB3NmRIQThjWlhDa1E9
+"1. Install python
+2. set up a virtual environment and activate it. (you can skip this step, but it's very helpful)
+3. pip install tensorflow",r/tensorflow,Z0FBQUFBQm0yeGJTcS1qdE10Q3FXbmFYTTZpUndDM1ItVjZKTEVGR1VEZjhpR3VWdjljS210LUxud1M5LVJkUVd4WXNtMFZvSzBmb1I5T2E3T2dwVHdmVnVHRU5kYmZDWGc9PQ==
+I recently learned about this if you are having cuda versioning issues:  pip install tensorflow\\[and-cuda\\],r/tensorflow,Z0FBQUFBQm0yeGJTdEh3eElpelFsLWR1MWRqWTZSazlkZ2NOUkpJVE9qZXNmMkEzVWFHaDF0cEZGRXVtWDFtQ05pR0NsSExxNHRrWDNtR19OUWRMSk8ycW01VEVJeHdkWkE9PQ==
+Pretty awesome tutorial!,r/tensorflow,Z0FBQUFBQm0yeGJTcjQxbWkxU2VCZU9TZkxUMkFhZjNfN1NsX3FOQm5hUThjZ0tJLS0wOUJVbWF0UlN4dlVuLUs4dmEtM1BMd19MOVZpcGZ1UGoxMDFhc3h1YzFiVENRTUdQV2tvUDhSb0Q1WkVyX3FVQW1RVFE9
+Thanks :),r/tensorflow,Z0FBQUFBQm0yeGJTRlNzWGQ3d0FPeW1YZE9JeW9MREtTYURYS2xQTDJjdkllcTd6eXR3RW5Mc1BMMGxQOUNZTlZ6NmFLYkFsTUg0TzFHZFptZE1XbkNqVVN2cVh0TDdvb2c9PQ==
+"It allows you to make more complex loss functions that are not a simple function of the model output and a specified ""y\\_true"".  You could make a loss that is a function of other tensors in your model for example.",r/tensorflow,Z0FBQUFBQm0yeGJTcmZiWmZtMzVIS0toMlR1WEhqR3dEakZlODVKZmFYUHNnMmEtNWgwb1c2X0tMRXhQMHNtaFNqN3FpTkthVlBDZmFkYWlyVFpfRzR0RkxXQ3d1clp4d2c9PQ==
+"So if I'm specifying a loss for a layer but I also specified a loss in the compile method of the overall model, how do the two integrate with one another?",r/tensorflow,Z0FBQUFBQm0yeGJTemxQMFRZSHh0eXk4UEFqbU00YkVkU0plbS1lVHZxeXotazVDcjF5MHJraldjR3phX1Ric2xUQktZcU81S2xCdm5JTWY3bXY3TFB5UmF0UDdyekNEUTV3dEw0WnlOY29SRE1fRHEzaktnMDg9
+"On Ubuntu? If you do \\`pip install -U tensorflow-gpu\\`, does it not pulling the right cuda and cudnn for you already?
+
+I use the tensorflow docker image, so I don't need to deal with this.
+
+  
+The packages are already compiled, so you don't need clang or bazel.",r/tensorflow,Z0FBQUFBQm0yeGJTOUhFMnNXVkhDd0N5ZFh1UVEzaWpOUHBfaUlubFhlUTlvWDZqX1hNa3dnT3ByTGhpdWVOb3BnWG9VcnRlemZIc0ZJVDZjZTU5ZW4ybXJCMlBtVm9id2c9PQ==
+I thought the package tensorflow-gpu was deprecated. Doesn't tensorflow 2.16.1 ship directly with GPU support?,r/tensorflow,Z0FBQUFBQm0yeGJTcExOWE1HVEt1Y1dQWUU4LVdLS0FNU1BzcGhpbFVZNFNwdDZGU254YWkzalIxMWVjSlhJWjlPRVlXdEl3aE1qbXVPWE80SlFuanNFS2RHb0prUlczU1ctZ0oxaGdUUFR2Yk9yYnhlTmJNbms9
+"https://www.tensorflow.org/install/pip
+
+Right, they changed to the naming convention. Have you tried this?",r/tensorflow,Z0FBQUFBQm0yeGJTSHFpMTQtVXpoczZubHJqSURRWjNhZlExSi1UV3Fia2loX25vVEdobVlOc3JtazUwMXdSOW5ZZW5ZWlEzUlpGZ2NXVmtCYmJETlM4aWxBNExObFBoSEE9PQ==
+Tried what exactly here? I have installed Tensorflow using pip if that's your intended question,r/tensorflow,Z0FBQUFBQm0yeGJTNTZmbVFoWTVNSjdwcEx4bzFuMjFpRkxMTzgzWGtzSFdScGxmNlh6eE1jeUlYSUhhV2lWQk96NmZhLWxfcjlqZFV0ZlFwaHpjLXNudFFjTHBlWF9seHpJYUhhNDl3dXNRNGNyLVVuQzgweXc9
+"python3 -m pip install tensorflow[and-cuda]
+# Verify the installation:
+python3 -c ""import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))""
+
+What does your console say? Empty array means no GPU access.",r/tensorflow,Z0FBQUFBQm0yeGJTRzU0WTB0UDcyU2ZjemNmek1QY21yeWxhcDlGNUpycEhGYnFuNDRwRU5aNWlsaGhNSTRuY0pnT2tURFN5Vnd1MmdBT1FyTXczTGl3VHFrOUZqcU82bWc9PQ==
+There is no such package as tensorflow\\[and-cuda\\]. I think that's just referring to the fact that you also need cuda alongside tensorflow,r/tensorflow,Z0FBQUFBQm0yeGJTMXNhMC0zVXpFUjNiaThuQnUxTHhiUXF0bmVyY0NlRmpMVjJ3MlY2aWxBeVIxaF9DRk9SZlZ0NGQ2OHdmN1FXQk53Q1dqSVQ2N3BtcjlXRDc0OVFkUzZuZmxaQ1ZDMGdlV2V1N2hzOUNfRG89
+"\\`\\`\\`
+
+root@f886b6dbe231:/# pip install ""tensorflow\\[and-cuda\\]""
+
+Collecting tensorflow\\[and-cuda\\]
+
+  Downloading tensorflow-2.16.1-cp310-cp310-manylinux\\_2\\_17\\_x86\\_64.manylinux2014\\_x86\\_64.whl (589.8 MB)
+
+━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.1/589.8 MB 6.6 MB/s eta 0:01:26
+
+ERROR: Operation cancelled by user
+
+\\`\\`\\`
+
+  
+Depending on your shell, try quoting the entire package name.",r/tensorflow,Z0FBQUFBQm0yeGJTQ3p2ZWc0REdFNWttWG85elo5X3JXQWg5ckhKbjkzUVUtVkpOcXNweWZmZGl4clpqampIWjloQlhTNS1KUzBWYlozR0RrdW1QUC0tRjJYNkJZX0xRcWc9PQ==
+"    ❯ python3 -c ""import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))""
+    2024-05-15 15:08:02.312933: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+    2024-05-15 15:08:02.348419: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+    To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+    2024-05-15 15:08:02.978770: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+    2024-05-15 15:08:04.455323: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:282] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+    2024-05-15 15:08:04.455348: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:134] retrieving CUDA diagnostic information for host: sagnik-lenovo
+    2024-05-15 15:08:04.455353: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:141] hostname: sagnik-lenovo
+    2024-05-15 15:08:04.455440: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:165] libcuda reported version is: 545.29.6
+    2024-05-15 15:08:04.455452: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:169] kernel reported version is: 545.29.6
+    2024-05-15 15:08:04.455455: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:248] kernel version seems to match DSO: 545.29.6
+    []
+    
+
+I got this. Evidently, tensorflow is not detecting my GPU",r/tensorflow,Z0FBQUFBQm0yeGJTOS1PWEJRUHRjUElzVGFKMk43LTRDZGpNYjBUbTFvM2k4Zk5SYnZiTjM4NmVsQkZkaVl4eWdvdGNhdkZvbC16MHBBVEV2Y01sdkY3QW0yOFlYeTVnbUFsSXhZTll2TjRDQkRNakl1dWxvZUk9
+"failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+
+At least you know it tried.
+
+What does `nvidia-smi` say?",r/tensorflow,Z0FBQUFBQm0yeGJTOWNMRkJqNjlWY0w0S1YtWFBDUWVJd0EyWTRYYlRqOUNXNkh1blNqN05rS09MTG5sNHI0dlA5aUxVWmZDbnRJa2UyTGQ4dEZqLUViMjhWN3FwWTBMckE9PQ==
+"    ❯ nvidia-smi
+    Wed May 15 15:16:46 2024       
+    +---------------------------------------------------------------------------------------+
+    | NVIDIA-SMI 545.29.06              Driver Version: 545.29.06    CUDA Version: 12.3     |
+    |-----------------------------------------+----------------------+----------------------+
+    | GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+    | Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+    |                                         |                      |               MIG M. |
+    |=========================================+======================+======================|
+    |   0  NVIDIA GeForce RTX 3050 ...    Off | 00000000:01:00.0 Off |                  N/A |
+    | N/A   43C    P0             752W /  60W |      4MiB /  4096MiB |      0%      Default |
+    |                                         |                      |                  N/A |
+    +-----------------------------------------+----------------------+----------------------+
+                                                                                             
+    +---------------------------------------------------------------------------------------+
+    | Processes:                                                                            |
+    |  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+    |        ID   ID                                                             Usage      |
+    |=======================================================================================|
+    |    0   N/A  N/A      1543      G   /usr/bin/gnome-shell                          1MiB |
+    +---------------------------------------------------------------------------------------+
+
+I do think that I need to manually install CUDA and CuDNN",r/tensorflow,Z0FBQUFBQm0yeGJTYlI3TTRlSWdXWUpjSGo4a3pzRXkzaVQybjMyWWRSZXZFNDVQd19jLXdobVZsM0JNRUdCLXlzc29BOFo3MDg1VjJhMVI2cHBaOEZYYml6QkZLMFNYMGlKMms0a2lsX0JDX1pzbmJFUms4cEE9
+maybe permission issue? try running as root?,r/tensorflow,Z0FBQUFBQm0yeGJTS2lBQmhYYzdPTS15QWp1dVpGZGNxU2pXb2FvV1lTdm1tckFIXzVhaUlDY2NjMk9VYTM4TjBXVlFCb1VYOW5jekZBZFpfbExMMGZRWlNZcnBabXlWRGc9PQ==
+"Same result running python with sudo  
+I think tensorflow\\[and-cuda\\] only installs the interface tensorflow need to communicate with cuda. i stiill need to install cuda and cudnn",r/tensorflow,Z0FBQUFBQm0yeGJTdE0zdE41bVZQQkZJU2JydHNIVmdNMzJNbHdIS1NVb3IzbTduT2J2OFNDX3oyYnd3Ym1yRHBNbThMSEVmOHM1dFpkakw4Q3R3T3MwSkV0Z2l4blhmSVhzSWNpSXhGSVRNVnJIZnItWWpUaGM9
+"Pretty sure they just add together, but it's been a long time since I used this capability.  The verbose fit output probably spells it out a little.",r/tensorflow,Z0FBQUFBQm0yeGJTZU1waGVwZTlTSFYtTktJR2dUc0ZfSmRTRjdGVHBoLXE3WERPSjNnOC1vWGxCdlREd1VqaHJIMVROX0JNVTRPa3NRNllPT1J2QkxXUUlsa3F3S29oWEE9PQ==
+pip install tensorflow\\[and-cuda\\] has worked for me.  It causes it to pull the versions it needs.  It's still up to you to have the right drivers though.,r/tensorflow,Z0FBQUFBQm0yeGJTRW90RHhaNWdOTWxnNVlZbnhqRkhRY05ZT3JpT1dpUVh4ZkZjd0d0VVlRWDJDS2ZMZC1yVzZvNDdEQkRtdzVhbXJnWmZXQnpxNWZrN1RlbUhQV0IzNkE9PQ==
+"Typically what you'd do is train models offline with python, then load and run inference using the java runtime.",r/tensorflow,Z0FBQUFBQm0yeGJTY0ZwNEM0emc5eFZYLWhMNGtHdHVlOS1yNFZLX0dmbkJkUHIwUFMxWlBOUWxNYlZIOFZWMV9SSjU4U3UtU0xSdFk1N0NiYnNZRjNjQnFVMk5hcXpEa0E9PQ==
+"Ok that makes sense.
+
+There are no issues with the library?  I guess googlers will use ML in java too...assuming some of that code comes from googlers.",r/tensorflow,Z0FBQUFBQm0yeGJTNkttdUJjYVlMc2RvM1k3dmZTWU9neG5Ebk5pZXJRUTVpN1hNRTkzZ3lPNlFZMVRkMk5wWmswRk5wTWlHdy1qbDYzSmFWbE5HVjdIRDdnT2ZLNGxJNWc9PQ==
+"Every library has issues and bug - but I would expect it to be of relatively high quality.  One of the biggest advantages of tensorflow is the fact that you can deploy your model to so many different runtimes. Google does use most of them internally, so I'd consider it likely that they're polished.",r/tensorflow,Z0FBQUFBQm0yeGJTSlZEd2NwdVJjVGR1cnBxMnQ2OTQzMU1QQURBMENIUFBiSWZGMjhKdU9adFhxOF9Bdm8tSmhXR0xpLWVzNlgwZDcwdTVZZ2VoTDBVWjZpNjFudTA2TkE9PQ==
+Thanks,r/tensorflow,Z0FBQUFBQm0yeGJTdlhBeGZvc0lLRmg2My1NUUpXLWNEV0JReGtzeFNGd3RzOGE0RGdYNmp1Tk5VMU4tS2wwZ3hOM3NVTGRncDRUY0pNYWEzMXhTWmhJMG9mZlVqOWdUTlE9PQ==
+"Cool, thanks for clarifying",r/tensorflow,Z0FBQUFBQm0yeGJTZ3FmYWpoQWp1RFFoTThjcU9LbEZGaG1ZLVJJd1pGVUNNSWZuM3dPczJ1WVV6c0lZNHdvNno1aVRFVkQ3Ty1YdGdfd0dod1RTOG8tQnJpb3FoX1lsa2lfMzZLb1NJZHI2VFVDeUNILWpsUFE9
+"So, to completely replace ""model.predict(x)"" use ""model(x).numpy()""",r/tensorflow,Z0FBQUFBQm0yeGJTdlF4UjFsanhrTExNTGdWb3d5dll5OS03WHFEQXdpRW1rNkNBcG9Xa25QRFhkSGQ0ZWNEWE9kVDIzUnFOM29fQkN4eUVaZkNaRlUwZG9DVVNqVVAtaVE9PQ==
+"I recommend looking into metric learning.  This allows you to characterize new faces and see if they match something you've seen before.  It's no small effort to make it work though.  I'm not personally aware of any off the shelf models you can just take, but they might exist.",r/tensorflow,Z0FBQUFBQm0yeGJTLWh3czdZSTgxaVcyYUl5ZnFtRDFlTFFqS0VFZThOd1h0VmVGWkpfbGRIOEtYSVZxWjJBcU0zRlF0RHpNYWRZdWlNdnJFbDl3QzJQT05BcE5QSndFRnc9PQ==
+Can you please share the input shape of your dataset. I can write the data-generator for you,r/tensorflow,Z0FBQUFBQm0yeGJTRzRKbkFXNnpKOUJBZGhMQkVxYkJadHNZbzZyOGdfTVZqMnJjVkdnZE0tQkZBRkswU3BwSEozMmN4YkJhTm9IMVNhSUFzcHotWTJ0aWd3YmtBX09Camc9PQ==
+"time1,time2 are (256,256,3)
+Label (256,256,1)
+Each folder has 12000 images",r/tensorflow,Z0FBQUFBQm0yeGJTNTlUcEFEd3VjTzExNHRYTEhvQzFyVGQ5WjNyTVVoLXFCLWJEeEdTOHkzeHNlOE5rY0t2Ulp5WnJZUWs0TkVpb09KYzlRRTN1YVdOZkJuY1VHVVd0LWtpTmJCRG13NHZBaHlySUF6a2hHcTg9
+same!,r/tensorflow,Z0FBQUFBQm0yeGJTTFRjQi00RERXekFLMUJjUFFqVUpVcUpPdzlHRUh4M0ZPSjNPQl9HTHEzV1VfcHlsbElVTTB6THhBdUNFelp3UnFuMTNNQjZaeHRNcWFXUDVfZ0FlaFE9PQ==
+"*Sorry for my late response*
+
+Here is how we can do it:
+
+    import tensorflow as tf
+    
+    images1_path = '/kaggle/input/sysucd/train/time1/*.png'
+    images2_path = '/kaggle/input/sysucd/train/time2/*.png'
+    masks_path = '/kaggle/input/sysucd/train/label/*.png'
+    
+    image1_files = tf.data.Dataset.list_files(images1_path, shuffle=False)
+    image2_files = tf.data.Dataset.list_files(images2_path, shuffle=False)
+    mask_files = tf.data.Dataset.list_files(masks_path, shuffle=False)
+    
+    def load_image(image_file):
+        image = tf.io.read_file(image_file)
+        image = tf.image.decode_jpeg(image, channels=3)
+        image = tf.image.convert_image_dtype(image, tf.float32)
+        return image
+    
+    def load_mask(mask_file):
+        mask = tf.io.read_file(mask_file)
+        mask = tf.image.decode_jpeg(mask, channels=1)
+        mask = tf.image.convert_image_dtype(mask, tf.float32)
+        return mask
+    
+    images1 = image1_files.map(load_image)
+    images2 = image2_files.map(load_image)
+    masks = mask_files.map(load_mask)
+    
+    dataset = tf.data.Dataset.zip((images1, images2, masks))
+    
+    import matplotlib.pyplot as plt
+    
+    for image1, image2, mask in dataset.take(2):
+        plt.figure(figsize=(10, 5))
+    
+        plt.subplot(1, 3, 1)
+        plt.title(""Image 1"")
+        plt.imshow(image1)
+        plt.axis('off')
+    
+        plt.subplot(1, 3, 2)
+        plt.title(""Image 2"")
+        plt.imshow(image2)
+        plt.axis('off')
+    
+        plt.subplot(1, 3, 3)
+        plt.title(""Mask"")
+        plt.imshow(mask[:, :, 0], cmap='gray')
+        plt.axis('off')
+    
+        plt.show()
+
+Here is the kaggle notebook: [https://www.kaggle.com/code/maifeeulasad/tensorflow-memefficient-complex-dataset/notebook](https://www.kaggle.com/code/maifeeulasad/tensorflow-memefficient-complex-dataset/notebook)
+
+If you have any issues understanding, please let me know. I would be happy to help.
+
+At the end of the notebook, you will find I have posted another approach, that may prove itself super helpful based on what you are trying to do, afaik.",r/tensorflow,Z0FBQUFBQm0yeGJTZHZlYWtFWGFaM1cwMHh6NkIySE5FZ0JLNGR6RUhkeTJkcmxnSTZrOEtPbXZQSlFpN0lkRi04bllXeWhWbVNEZENWUm93QURPTlJFTmdVbVFmZk1FM1E9PQ==
+"Ran both versions of tensorflow on a 920m 2gib, not sure about 410m. You should give it a try and share the update with us",r/tensorflow,Z0FBQUFBQm0yeGJTWDNFSi1tZExUN0xUaDNQWnBLeVhtX3FoVlRFZlR4R1VIR2pZbUs0ZHVxVjA3RTBLemFWTU1rU1VlRWhCN3F2NnB0V0pEVlFKUEJpQjZYUi10MkgwSFE9PQ==
+"920M is CUDA compute 3.5 but 410M is CUDA compute 2.1
+
+:(",r/tensorflow,Z0FBQUFBQm0yeGJTSENlTWtXd1BqLWNuZW53VTFuWnpKQWNOa3J0b2pfbUIwRXlBS3pGRmhiM0c1OUFTWXR5MmZ1MmxINzAzeGJhYlBRQ2hxWVhfeUJYUFhWRUZrUlFkQVhOdFBBSmxTR2lIMl9kZkhsUGMzNFk9
+I checked and cuDNN is not installing,r/tensorflow,Z0FBQUFBQm0yeGJTcHEwamNsM0VqNTlLaFVZR1R3MTIyYk1IQ0pQOGZ3OUxNWWxBMG5IY3pPODhZWnB2WnNNQ0VDamJPUVE2bDV4eUc0c0taUGdpNzI4XzVndHNvcWxmSXRFYXY4UGFYbzh1d08zSThPZkY3Qkk9
+"if you're using tensorflow 2.16 you should just use keras 3.  It is a standalone package, so replace from tensorflow.keras with from keras.  It should just work",r/tensorflow,Z0FBQUFBQm0yeGJTcHozZDhTT1FNZ2JYUXhTTmNUZ2FyekgxWnVVMzN3NUE2a1ltTTE3QzFDTGptRGZRNmZjOWNxcUZfd2tZU1F4YW5EYUtTSGJJTFZReDZGSG5zOEIwOXc9PQ==
+"https://www.tensorflow.org/install/pip#windows-native
+
+Read the details and give up...
+
+Or use wsl 2",r/tensorflow,Z0FBQUFBQm0yeGJTc3QyaVItRmJOV0Y5bzN4NmkwYXlsRV90WWhrbVJFMHIxZXhBQ0ZPU2lYUVB2V0JmaTlvWWdmU1pZRU5jbHdnWHhBY1QwSVA3TWY1M01idlVUVkdjQlE9PQ==
+"Exactly, tensorflow stopped supporting cuda for native windows quite a while ago",r/tensorflow,Z0FBQUFBQm0yeGJTZDdadkEyYWtBZlZOM0d2VDVQWEV2Zl9GR3lncGxBTHZHa0p2NmhrNGNxcnVzVUFETWFwdkFLY3ZvRzJfMEF4REFIa3pjRVd2aGhlQWFqajY0ZUZVc3c9PQ==
+Thank you for the help,r/tensorflow,Z0FBQUFBQm0yeGJTdFI4cFNTaHhaaWctbVRoeEJvTnQwTE10Tm9DYWlQVlpac3BLeUhUSGFEb2lYWmFEZWNhZnFYSXczeHNSRnJBY0ZmTVJVSGpPVTRpTHJCaGFiOUVocE4zdzhMZFJPMnRtNUFCTzJlVEsyY0E9
+i didnt know that🫠,r/tensorflow,Z0FBQUFBQm0yeGJTREFuRHZWaWpMOGRLZllNQ0UtLTVMNVRNUnV5Uk9CUzFKMzRrOGFWbjdHbW9VamhKaUhOTUo5OUFpU2NIVWZ3T1BzREN3ajFxd3RDVnBKMzJMdGNhNjYwWm82NVV4S3FnclR1NGh3dV9yYW89
+Please share your outcome as well. Eagerly waiting.,r/tensorflow,Z0FBQUFBQm0yeGJUUGV0YUxQbzZyVnIzUjVhOER0WXBFV0tVVjFyekp3eUJ3OERURDI0NzJ5M3VGdUpOemVIYVF6TDQzOGd1UUpma1QyQTIwdHNTdWUyVDRPUnhEc0RJYkE9PQ==
+The method defined in this SO answer did the trick: [https://stackoverflow.com/a/70648958](https://stackoverflow.com/a/70648958),r/tensorflow,Z0FBQUFBQm0yeGJUSXY1VWl6OXA0R1gzOW1YblRhZWVXaTRPdDlhOHhkSFJIMC1jNEl0Q21GMGliMFcwTFRNVjNDczFFOERmX2J2WU15Wkh3MkVaN2hWMXZlQXZIc2J1UVE9PQ==
+Do you genuinely think that tf will ever rollback to supporting gpu natively on windows? Using WSL on low ram machines sucks and I'd rather avoid it,r/tensorflow,Z0FBQUFBQm0yeGJVMjJrSVg1aVNraUZROU5lTTh5RExDeldBZ3VpbExLdVFIczh0OXplckNMWXJuTDBUUER5WjNtSjJSdHhFQmhKRWppbElhcDNjazdWSUNCQ01LX0NhOXc9PQ==
+Technically they can do it now. Look at pytorch. They just don't want to. 🙃,r/tensorflow,Z0FBQUFBQm0yeGJVNG45QzZ4R3Z2bXpVRG4tZHplZVFTdEZ3N3VRc3lyYmdlU3VNRE5oX2VWc0FxcktaT3dEdzZVaDJIRUlyNzN2aVRTYXNvV0sxY1BCVnh6aDNCUzgtbUE9PQ==
+"Uhm, where are your errors? What happens when you try running the script?",r/tensorflow,Z0FBQUFBQm0yeGJVejhHUlQ1NE0xcWJvbnVRRVU1NW9XWDZ6LURMbkxjYl9GakFXZHN0emNqeHZfLU1LUDJ2Y0lhay1HT2ctT2NtT2RRUXdOTDFEblU5bGdEeldleVNwM2c9PQ==
+"Let's just try to install the cuda-toolkit. And see what happens. We will surely find some version of tensorflow which will support this. Worst case, we will have to build it from scratch
+
+ref: [https://imgur.com/InBkD9l](https://imgur.com/InBkD9l)",r/tensorflow,Z0FBQUFBQm0yeGJVSU9qbWh5UU9NZWpNRm9aLTNlVzU0a0FYcDRqR09LSVF5VGw4anNzaUk4ei0zYXlWYXg3RTg0cExkajEteTV3VnpBclF1V1h2d1NyTEJ6VVRPMGNQdWc9PQ==
+Cuda toolkit is supported on 2.1 but cuDNN is not. 🥲 How will we build that.,r/tensorflow,Z0FBQUFBQm0yeGJVRzRTdUxVRjdtWnBXdGZqLUtVZTJVRkp2ZVRmQ0J1ZHQ1Z0ZnSWtCbG5pNXlLdWFoQV91VERWSzB5ZTN0ZHY1N0FqWWhMRU9GN2R3blRkR2xfM1RmV243WDdoaHpCWTVZNUVNdFdSa3BzTzQ9
+"Let's try to download these old version from archive and try to use them:
+
+[https://imgur.com/7k9oEPM](https://imgur.com/7k9oEPM)
+
+  
+ref: [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive)",r/tensorflow,Z0FBQUFBQm0yeGJValMyaEgtdW1IWWQ5bWFJZDlBV0lJR2dEMl84SWJ4SzVZQVZGTXJ5a1MxeVFiaDhyZF9LVG5HNU1ManBtZmctemVmSzVseDdLLW5sVncyVTNjZ2laZ2c9PQ==
+"What should we use, Linux or windows 7?",r/tensorflow,Z0FBQUFBQm0yeGJVRThZT2FBMXBPM252Vjh4Z1h3b1lnTW5tSU5pZGRhalU0bHBKTUtIQ01OcTlKbE5GdkZ0TGZmTnQtLUsxdEt2UU5jdHh6aUROdkNYU2VDbnlaeW93RHRYRXBIRVM4VUVjVUVOV2FtZXFVX1k9
+"GPU or not should give the same result, unless there is some sort of numerical stability issue.  You brought over the weights?  If it were me, I'd put a single image in and see exactly what the numerical results are for it, vs looking at aggregate stats.",r/tensorflow,Z0FBQUFBQm0yeGJWMHgyV25QS1ZtMG1VTElDUnZsZHJhdVY2em00VzBvVUMwYkZHOHhJdWVRTEs1aWhnWFhGSXdxdEhSWnJqS191LTc3WVUwbkliUXVFVUNjS2dXcjNyRUE9PQ==
+Why did you use the nodejs server? I think you could have send data from fronted to Flask server using a API request,r/tensorflow,Z0FBQUFBQm0yeGJjbk5mVWhUZHZ5dFN0UGlLY3Z0UGR0c2tta2xIN0RWekFMQVBISlBSaGVBbjV1aHhONlJHV0VudWsxdDZzTlA3Zl9XQVFod3BKaUhET3lYNzd0V2tVblE9PQ==
+"Very true, i had already created the node server, when i encountered the issue with the converted model, and I was emotional stuck with the node server so I just used it anyways 😂",r/tensorflow,Z0FBQUFBQm0yeGJjRlRPUWhlN052ZmNvM0JKRjF0cjBFeXpKUDFZZ0VnVkNucFI4VHFSX21tZ01YVk9XZ285YlItcFFvNVJXU2dENkhiUHdvSk8yS0N2SWpWZmFTQjR0RHRQakJWN3FYTTNVWWhXS3U0RUwtbUU9
+"That's okay. You can make it faster by removing the intermediate node server. Or by eliminating Flask server by using tensorflowjs for predicting (Personally, I haven't used tfjs. Idk how difficult this is)",r/tensorflow,Z0FBQUFBQm0yeGJja1JqWTE2QktNd1AwNnRZWlpFdXR4SXhvYzBUcmdIczlaSnBHdm9fbnBYWFVXUFFRY0paOFZIYXlPdmU2V1NrZ3RCR05sYzU1MEZIZzlyeXFqVDl3d0E9PQ==
+"Found [17 relevant code implementations](https://www.catalyzex.com/paper/arxiv:1911.05722/code) for ""Momentum Contrast for Unsupervised Visual Representation Learning"".
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/1911.05722&title=Momentum+Contrast+for+Unsupervised+Visual+Representation+Learning) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/tensorflow,Z0FBQUFBQm0yeGJkUnlFTS1iNWVBbHhrd012d3dJbDVsenBaX2Vfc2RHWHlienFleWJoR29CT1liSTJvSDQyNFpjNkpNb09OV1hoTWRUU0V2ZHRpdTVNQnRRajBaNUJxMHdaMGpTT0pFU0xSakRpaTZ6Z0ZUNkk9
+"A good place to start would be simply reducing the dataset size. Try to run with first 1000 only, if it works on that. Then surely it's an oom issue.
+
+Although, these kind of oom issues can be solved as well.",r/tensorflow,Z0FBQUFBQm0yeGJlcnZveDJSMHNiSURoendNaGhXcmRyODJ0RFFzX3gza1YzNkdGeDJaVHhRdHVvRDMyZDV6UmJYdVEyLWdOSjZSQ3FtQjBsUTdPclpsOFJhLXdEcVRHWUE9PQ==
+"Thanks for your response!
+
+I get the error around 70 comments at a time. Should I process the script in a manner that it only works on 70 iterations at a time and run it again and again, 70 comments at a time?
+
+I tried ways to essentially ""flush"" the model and load again but that, too, failed.
+
+How may I address these oom issues?
+
+  
+Edit: I cannot reduce my dataset as I am not training the model, merely running it for inferences to be used for the research later.",r/tensorflow,Z0FBQUFBQm0yeGJlSDhTV25QNV9lSENoa3F6cGNZOWxxaDkwMG9BS3k2aGg1X2RnU3djcVdZSWNtTlRndzBxLVF5bXBVdTNQUWZ1ZkNjVDVKdHZ2R3l1cDktLVdoSHVHVWc9PQ==
+"In that case, if you could share your codes that would be great.",r/tensorflow,Z0FBQUFBQm0yeGJlSDFBNkVNMVNyTWwyenBKaEJhOC1NUGs2cGR6cEZTZFF2QUdvZW5pQXZBZWJENTJGYzdWVDYwM2Z1dTJBWld0NjFEVTg5ZGc3cm9fNVE2QnpjUDByUGc9PQ==
+"Im not sure if there is something similar to batch size when training or fine tuning cnns, lowering that number will take fewer samples per step and takes up less memory in your gpu and solves OOM errors
+
+It will however take more steps to have the same convergence rate as with higher batch size",r/tensorflow,Z0FBQUFBQm0yeGJlSnZCNTUtLXh2bHRGcWh6dzZXLXpHLVM0TXJ0LU9DQ0VXZFFNeEp5aHFCVG9pTjdnNF9ReFN2S29qN09KbmNQVnRSbkg2RDMyanVRenhsckF4VlM4WUE9PQ==
+"Here is the script I am trying to run:  
+[https://gist.github.com/sannidhyas/1ca379a193d65e6788b30fcd2726ec45](https://gist.github.com/sannidhyas/1ca379a193d65e6788b30fcd2726ec45)",r/tensorflow,Z0FBQUFBQm0yeGJlMVI5cGQ2THRLYmZyLVZYMmJ0ajJUVzlkeHEtUlJNTWNULU1kUWM4X1AwbkR0R2VoQkpmMjlORUtGTVdzWVVINkJDcUlzZWlINFFWaFVPdVZvZ2R0Mnc9PQ==
+"
+I see you've posted a GitHub link to a Jupyter Notebook! GitHub doesn't 
+render large Jupyter Notebooks, so just in case, here is an 
+[nbviewer](https://nbviewer.jupyter.org/) link to the notebook:
+
+https://nbviewer.jupyter.org/url/github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/micro_speech/train/train_micro_speech_model.ipynb
+
+Want to run the code yourself? Here is a [binder](https://mybinder.org/) 
+link to start your own Jupyter server and try it out!
+
+https://mybinder.org/v2/gh/tensorflow/tflite-micro/main?filepath=tensorflow%2Flite%2Fmicro%2Fexamples%2Fmicro_speech%2Ftrain%2Ftrain_micro_speech_model.ipynb
+
+
+
+------
+
+^(I am a bot.) 
+[^(Feedback)](https://www.reddit.com/message/compose/?to=jd_paton) ^(|) 
+[^(GitHub)](https://github.com/JohnPaton/nbviewerbot) ^(|) 
+[^(Author)](https://johnpaton.net/)",r/tensorflow,Z0FBQUFBQm0yeGJlai1SbGN0S0VRMndVbzJwOWRfa3RrMjNXMG0waTFDMzlzZ1BpZEd6VXU2V3pWdXZBNjFYakVvUkFlNThhaHFadTVUcGJFVG1NQ25fX0xpR2IzaHBTSmc9PQ==
+"bot dude, I have no idea what are those links",r/tensorflow,Z0FBQUFBQm0yeGJlandZNXpIZkxucGtXMHpTc1RtTWxka1p0VXlSUkRyNXlQUTFrQUJNOHVKaFdxaUJESnlsdXdOYXhLc3hzT0hxaF9acXRCZ0laTThKeEJaOVNkX0ttdUVQd1M4bHZuRkpoN0dnbVdzSHVvWWc9
+"ESP doesn't even have that much memory to store the model, and doesn't have that much computational power to infer it as well. But you can run some really small models there. So you may want to train it in a powerful device, and then move the weight to esp and run it.
+
+And there is one more way, which is the easiest of them all. Simply create a model, host it somewhere and call it using Rest API.
+
+That's all",r/tensorflow,Z0FBQUFBQm0yeGJlMFdDMDBkVGt2XzFCYmFUcTJIcV8xRkZfT09pc0VrblpyeXBoRGV2MnpDQWMyOGd1V3ZmQUFYakZHdkZtSVN5Y0x6M0hQLW9UaERwVm1helZfQzNKWXc9PQ==
+"if you are going to use windows, use torch.",r/tensorflow,Z0FBQUFBQm0yeGJlM0NDdWhfclJ4ZURkMzNrSTBqN1B5QmJfeFdGWVZleE44TFl2OEVQU2pFODY3ZURDSWpzY1luamZ6RTZUNFJoTExoWExESV8zTW1wc1B3cGU1VndIOHc9PQ==
+"I use torch for most of the applications but there is a book-""Hands on ML with sklearn/tf"" whose exercises I am currently doing using tf.",r/tensorflow,Z0FBQUFBQm0yeGJleV9hbEVuMUZDeUF1ME52emVUamZDbEJPOXRsSTVtSDBHRmplbHZDdDNYUERhc1lzeDdFeVY2ckp0MGlrTGVlZkZNMHRxNjFMWEYxem5jTTVaSFdWVDlZSU1jVGpicC1RLWhYVGZEQ0dGdU09
+"great book! I would set up in colab or linux avoid the pain of trying to use tensorflow in windows they (google/tensorflow) just don't support it anymore. you could try wsl but why swim upstream.
+
+again, my conditional holds. :) Switch operating systems if you are going to use tf.",r/tensorflow,Z0FBQUFBQm0yeGJlS0ZhY1FnZTItOGRpX0xEU180VXk4aXVZblN1WEtjbmZoOWRYMU80YWdOWWtoUGxZT1Nqd0ExR2poVnp4cWlIRnZZdUluR0M0N0hMYnZjal9QTlVVOWc9PQ==
+"> Caution: TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. Starting with TensorFlow 2.11, you will need to install TensorFlow in WSL2, or install tensorflow or tensorflow-cpu and, optionally, try the TensorFlow-DirectML-Plugin
+
+
+Read the fine print 🫠",r/tensorflow,Z0FBQUFBQm0yeGJlUloydWdJb1hCS3UxeGRzUEU5M3IzZWVrVGZfcjhzU2hENHprS0xMcmc4cUQteFBMc0JTN2RVYlhMZ0pmLVhJNmZfN29CbE5RNkF3dG1nRk5NVkZGUHc9PQ==
+"I don't think it's a permission issue, unless the installation instructions are just outrageously bad.
+
+On the page you just linked it shows that the installation requires NVIDIA drivers, CUDA, and cuDNN, under the ""Software Requirements"" heading. It wouldn't be a requirement if it came with the python package.",r/tensorflow,Z0FBQUFBQm0yeGJmSWJKOVVLVzJxRjByTVZaS0hGRGVTVmR6OHNyNThRcWZNOGVqaHJYVjBDQ2tzdWJtYTJrdnFTUTFsaW1jOGF5ZkZzblRZMk1fREpUYXZseWgydjVDc0E9PQ==
+"If you are familiar with docker, I suggest you just use docker, so you don't need to manage the packages.
+
+The nvidia-docker2 package on Ubuntu works well.",r/tensorflow,Z0FBQUFBQm0yeGJmaVNxOEtYODg3b3dfdHd6Q0Y4UG1RWE1EdlBGZ19oTHNBZU1Oa3FScjRJLVpLQ0ZxdERRVFZ3aGd1V0M5bGVWWFJaR3dwS01WY2pydWNwUzl1NUdrTEE9PQ==
+"ChatGPT can handle it if you prompt it file by file, or put relevant files in one prompt without overshooting the context window limit. I have done this for conversion from pytorch to tensorflow in order to implement PPO in tensorflow.
+
+I also built a small desktop tool called [16x Prompt](https://prompt.16x.engineer/) to help streamline the process and embed source code into the prompt, that should help you with this.",r/tensorflow,Z0FBQUFBQm0yeGJmZDd4dnZyUWEtbzJRZEswNjJFU2ZfeVJRMGlnbnppYXN5ak5qcU93REtmTzZZUk1ob2lyQy1nTFFUWktVSUpWckN2R0xJX01ZWUFXVEs0SFRCOHg1bHc9PQ==
+"I like offline stuff, using Rest API is something I love to avoid in embedded systems, where possible :)
+
+If I understood the selling point well, TensorFlow Lite [https://www.tensorflow.org/lite/microcontrollers](https://www.tensorflow.org/lite/microcontrollers) should be able to run really small models on ESP32, I just want to find the streamlined way to do all this, for a complete noob like me :)",r/tensorflow,Z0FBQUFBQm0yeGJmWnVhQ09rRmR4TlRoTlNEcmxUb19wRWo3NlJERWVWcmZpdjNOc00wWV9PU21GeVZoWUVNakI3ejUtM1phWHFiazdhdmljTUJZa1N2WE9udmhOdGRGa2RjT3lfMzMyUl9KczFvSk9sdlFfV289
+"how many epochs you choose and the image size? also, you can check use of your gpu memory while training.",r/tensorflow,Z0FBQUFBQm0yeGJsbjhmZm5MRzF2bXR1WTRjOFpjemRqdlVqTE1odV9oTEJwLWtNdlJhZC1aMndlX01KczlqRzEzT2ExZjhGSDBFblBPNDljZHJZRGRuQkpBWDBLQnFzZHc9PQ==
+"epochs - 12
+image size - 373 * 373
+batch_size - 50
+
+I've checked the gpu usage and it consumes only 5%",r/tensorflow,Z0FBQUFBQm0yeGJsb1d6VWM1Tm96Qy1QMFR1WlRFWE9RejJUXzFlODVFVjJidjVTM0VwNTdVRmJMZUwwR28xUXlrTEFfVy1FWVpzeTZKZE5HOTJnb0ppWTJKMUgwNUFEMGc9PQ==
+Are you using Linux or WSL? Windows isn't supported for GPU acceleration since 2021 afaik,r/tensorflow,Z0FBQUFBQm0yeGJsOFc4RFlQb2hZU3VBMWduZ2xCMFpLcVl6aTNBMWt0b0pwRG1fWDhyaS1pWkRrOWZwRXRmYWE1cUJDV04wci1HdlJOMlhTNnVOV1BUX19SaDUyV0JYZ1E9PQ==
+" Check this page ; (running this in bash worked for me); [https://github.com/tensorflow/tensorflow/issues/63362](https://github.com/tensorflow/tensorflow/issues/63362) 
+
+    NVIDIA_DIR=$(dirname $(dirname $(python -c ""import nvidia.cudnn;print(nvidia.cudnn.__file__)"")))
+    for dir in $NVIDIA_DIR/*; do
+        if [ -d ""$dir/lib"" ]; then
+            export LD_LIBRARY_PATH=""$dir/lib:$LD_LIBRARY_PATH""
+        fi
+    done",r/tensorflow,Z0FBQUFBQm0yeGJtN0gzRUtqME5MbXppVFk2alFFQ2stUUZnVWdidFhvSDI2cXpaeFBGSWFveGtYZjlXeTI0c2tkLTFJRW05djRpQkxuaUlmMURtTVdtNDM3Q0M0Q2tnT3c9PQ==
+"It's outrageous to have to use docker for this.
+
+But anyway, after tracking down my issue, I found out that you're right after all-- pip really did install the nvidia libraries already. The tensorflow installation instructions are, in fact, misleading and outdated. The actual problem for me was this one: [https://github.com/tensorflow/tensorflow/issues/63362](https://github.com/tensorflow/tensorflow/issues/63362)",r/tensorflow,Z0FBQUFBQm0yeGJtc0JFQkxMQWZsTUc1VDJyTkZVUUd5ekRfUFN3MDhqdUk1WWxidUN6N0NNZ0xqTmEtX3QtSk5rTFRCQ0xMUDZhaWdjTVVGLTlicTN4TFdkY1hQaWsyZ0E9PQ==
+"I had a similar question. It turns out that these nvidia libraries really are installed automatically by pip. There's just a bug in tensorflow 2.16.1 🙄 that prevents it from finding the libraries. Not hard to fix, you just have to manually set some paths. [https://github.com/tensorflow/tensorflow/issues/63362](https://github.com/tensorflow/tensorflow/issues/63362)",r/tensorflow,Z0FBQUFBQm0yeGJtNzJwOHI3M3JLbEdRdE1pLUJSR05JYkJOR2lINTRDSFpUVG5mdkJYemgybTIyUDRPUlQ5X3YzdnJfbzNBTWFuZnhpdHBNdXh3djY0WFV3WXVKemNPa3c9PQ==
+"model / dataset is too small that the overhead in loading these resources to GPU takes longer
+
+you will notice better performance with larger models (more layers)/ datasets
+
+it is also common to find this remark in getting started tutorials",r/tensorflow,Z0FBQUFBQm0yeGJteHlPNmVZUjdmMmFoakp1X3pleGk1SURqc0FCYi1QcjhZWVhzU1RfVE95cHpUa2k3bl9yb2FMbFEzWmRHS2ZHbi11cTlEMDE1dnRtS3dqUldCTU1iT1E9PQ==
+How many parameters does your model have? Try something with at least 1M+ parameters and you should see a significant speed up.,r/tensorflow,Z0FBQUFBQm0yeGJuR2R1T1Jzc3FwNWt2Q3pXSDk3TmFJbmhYNnVxbjl5MG5KSmhYUm5FWmdNRFo2emVtTzNpR1VScTlrOGVfZ25rNVZ6SW1UTG9STEV4dnBpS0VITmJPQ3lMU0ZBVEluSV9BTDBBenRNS0dZNVU9
+debian on dual boot,r/tensorflow,Z0FBQUFBQm0yeGJucG1YQkFHUkltX0otMk9Ud25Jdzd3T2dWY0dwcUZrbEhwdHQ0WEp0d25XbzdJT0RDV1FsNTI0QnA5Qk1tbVNQR1puc18yaUh3RmxUV3FyMnFGRi1GVFE9PQ==
+"there is a tab called scalar tab,switch to it ,click download data and that allows you to download the plots as svg.",r/tensorflow,Z0FBQUFBQm0yeGJuTHJxQXFPb3lNemtvRW9UbFBRSjVHV1cxc3hnN29vMmx2VERJRzZiSnd0QzRJaFRwVHFTdlFyeEJ2NFEyY1VSZWNDX1FZTXV5RDRETmlFUGFtSDhrZUE9PQ==
+"I see you have Python 3.7. Which version of TF do you have?
+
+Check https://www.tensorflow.org/install, the latest TF 2 **only** supports Python 3.8-3.11.
+
+Also, I noticed you are on Winodws...TF 2 no longer supports GPU on Winodws native.
+
+I highly recommend you learn how to setup WSL 2 and docker first...but, learning these two takes a bit of time.",r/tensorflow,Z0FBQUFBQm0yeGJvYXc4QVZZU3BOakc2aFNoeG95OTJJeE03bVFZNDFoU2Zxd0NJbjBaTmlOTFpoMkZZOGRjZjJlemNjcG51dm4zTnJyR1d0YlRvZVVpbUZSekF0VXp2NGc9PQ==
+I have tensorflow 1.14.0. Now  I updated to T 2.4.0 now its working. thank you david. I try wsl 2 and docker,r/tensorflow,Z0FBQUFBQm0yeGJvWlBOdVNIQ2RGSEFCTFdVOGs0UWFrdjJORXpZTXNOTmx2WUJVbHBxXzZxTFlDTXRJYUg0X0hQbkpPeGdRNVFlQnVtVlY2UjMwdHY5Y2c5RVBpaGZobi1HbWNvbnlvZy1Cc3Z2dHEyWENkN3M9
+"You can check by 
+
+python3 -c ""import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))""
+
+Tell me what the output is.",r/tensorflow,Z0FBQUFBQm0yeGJvOTkzX3BMX3BicDFsdVk2SHdMTzFSYTYzMURBRnNfLXZEYm9uUHppWkhMNVRULUZqLWFjaFRaN0E2QnlpVkpmY0xGVUhMbGwxdnRraWtwYmxJbkxQNEsydnN4TjlFUnIwNFpia2RwN0hSZ289
+"this worked but the nvidia gpu isn't being used to its full extent (in the task manager) even after specifying ""with gpu:""",r/tensorflow,Z0FBQUFBQm0yeGJvdXFsTGxkZGM4bjJmQ2hBaG50NkFxM2pqYnhad1Y3cWRVRjhWcEtfZzVlU1l6NDR1TVk5a1ZnR290WDhYSXVvU0ZJMU1uME1ZaklKYlRiLXl6N0pVYUE9PQ==
+You tried using TensorRT?,r/tensorflow,Z0FBQUFBQm0yeGJvNHUzbXRvWkVmbDl0YUU5eGZGcUVGcmQyUlRGVVl0aVpNcGhxcXpia3VBU2RJMEk1UkxiQjZnRUVGSnV6UW1vZnpUTjZTNHZFVDBlUHBxOGR4amJaaFA5azE2dmVjRkJnbTBldGJMUXJ1c2s9
+"Why do you have `model(x_batch)` etc and then its `dcunet8` when you call in gradient tape ? 
+
+If thats just a copy/paste mistake, does it run in eager mode ?
+
+Also I can' tell but is your indentation here correct? It looks like you are applying the gradients at the end of the epoch.",r/tensorflow,Z0FBQUFBQm0yeGJ2RGlmVGVYQ1dGSXZtXzZpX3pZQ2oxbDBoY0w0R3JXcGt0d1VHRDVrVm1ZQmNuMDJvd1hMUFIwMmpKUkZRdDg3dlVxVnJwZW95cmpFd0ZWMktDUlAzeXc9PQ==
+"Thanks for pointing out the mistake. It was a copy/paste mistake. You are also right about the indentation. Its a typo, I fixed it. 
+
+tf.run\\_eagerly is True, but not sure if this code is running eagerly. How do I check?",r/tensorflow,Z0FBQUFBQm0yeGJ2cDNGZE96cGxwYklyQ2xtN2Jpa291cUNPYnpOSW0tOTBWcWkwX3lLVFR6X0JXNndxM2NSa2VhaHA4ZVJzUmhCMzlSYTB4Z1Zqck9nUTBBM2Zqakw4VVE9PQ==
+"Did you fix the issue ? I think it might be the line where you apply thr gradients ( `optimizer.apply_gradients(zip(grads, vars))`). Its now just `optimizer.apply(grads, vars)` 
+
+Yes, i know. It could be better documented especially since its so similar to the old way. 😅
+
+Eager execution means its not running in graph mode - makes it alot easier to debug but its much slower. Error messages get very cryptic in graph mode, which is what is happeneing here imo.",r/tensorflow,Z0FBQUFBQm0yeGJ2a09ZOXdmWHVmSGF5WXFaYzU2MG5qR1pNN0JpYXBXTFRoWVRrRnYyRWdKVEpsV3lrNzhuY0tiYmR2MnNIaEZIeVR4TGVCU29pajd3NGU0M0psb1VvMFE9PQ==
+"hmm the traceback suggests that the actual failure is happening in tape.gradient(). It seems I need to use the zip(), its giving me ""too many values to unpack"" error if I use optimizer.apply\\_gradients(grads, vars). If I use optimizer.apply(grads, vars), it tells me that Adam optimizer has no such function apply. 
+
+  
+I am using tf version 2.15.0
+
+I am not sure the code is executing eagerly. I was trying to use print statements within my data pipeline functions to try to debug but it was not printing anything.
+
+  
+It is also weird that the failure is happening for an arbitrary batch at an arbitrary epoch, after running successfully through multiple batches and epochs...",r/tensorflow,Z0FBQUFBQm0yeGJ2QnVNMm50VzF5N29XT2FoYkcyUzdEb21RaDQwcDBIUUd6bFNPaFM1Wkd5RTh5N1o5S3pXNmJUczdYaFJzWGVaZzcyR3FuR3FPMnIxN3pMMkpGSzhJVFE9PQ==
+"Ah ok, I don't know then if you are still on 2.15. What keras version are you using? Sometimes there can be weird stuff with that ?  I was having so much trouble I just refactored everything for keras 3. 
+
+I agree your error is strange, and to me it doesnt seem to be obviously coming from the code you provided. But sometimes these errors are hard to figure out. 
+
+As for eager execution maybe it could help if you make the gpu invisible to debug?  
+
+Sorry I couldnt really help - ive been there before I know how frustrating it can get ...",r/tensorflow,Z0FBQUFBQm0yeGJ2NmxnMlBWV01WblBVc3o3ajFKdGpDeW5HRndrdGNGOHg3VHozR0k2eERRMzhxcVBnS3V2NDFLMUZ4NXE1cVhlTGg3bXh5a1dQQmNaNU4xUU4zaFdOQXc9PQ==
+I was just using it in Colab so I figured it must be using the latest version of tf and keras. Let me check that and make sure its all up to date. Thanks for all the help!,r/tensorflow,Z0FBQUFBQm0yeGJ2VU0wOUxBbndzelR4eVZyQ0N6cVo4RnNGYUFCaGtNMmpoZ1VSQW80OHpPXzJhd0pwQzFwbVliSG5rMHNWN2FmWDFaVFR3VjZ4WFRIOGNBODhDdFFucVE9PQ==
+">Would using TensorFlow lite result in decreased accuracy?
+
+Not necessarily. It *can* result in decreased accuracy if you compress the model (which is kind of the point of using TensorFlow Lite), but you don't need to do this if you can get away with not doing it. Of course, you also have control of the optimization process, and you can tune the process to minimize accuracy loss, etc. [Here's a link to their docs with pertinent information](https://www.tensorflow.org/lite/performance/model_optimization).
+
+>My question is, what would be the best way to implement this? Our apps have an offline mode. Some of our techs have older phones, but some have newer phones. Some of the wells and lift stations are in areas with weak service.
+
+Asking if this is the ""best' way to implement this is pretty open-ended. It's certainly a good option to evaluate given the context, but there are other options available depending on your overall requirements, constraints, etc. I'd say it'd certainly be preferable to be able to use full TensorFlow since it's more flexible, provides better compatibility, etc. But TensorFlow Lite should definitely be investigated next if you find TensorFlow is too heavy.",r/tensorflow,Z0FBQUFBQm0yeGJ2NUVVZGR4Uk9XN29oeDNxQmdzZ015ajlkbE5QaU5QcTd5WkE3YnlQWE1lNGFqQ0xBeldzbHN4ZVNZbVhqR1h1NTlrUFVKNU9oU2stNU1seGNENHRXdFE9PQ==
+"It is a classification task as you want to classify the data.  It is possible using deep learning. However, you should first check the data at hand to see if classes are easily distinguishable. You might find that it might be easier than expected, which could mean that using a deep model is overkill. It depends on the amount/type of data. [I just searched in google a notebook with a few examples.](https://www.kaggle.com/code/rakesh6184/seaborn-plot-to-visualize-iris-data)",r/tensorflow,Z0FBQUFBQm0yeGJ3QUh3Mm4xVmRucnBUYV9lUFVWNTVDVC16TDJJV3BsU1ZmYk12WWZSQThHbDNjRDdZNXNIdzRCNFA4TnN3WUJFLVJJWk9OMUNranEyNzZCQTgzT3hJNGc9PQ==
+Linux or windows? And with GPU support?,r/tensorflow,Z0FBQUFBQm0yeGJ3SkNORWNEd09aOW4xRjhsTE1FT1Y0VmN2TUNuWEZqbEk0QThwLXZnY0U2MktuVl9wUG9DRTFfUno3cktYSXN4V2xJcXItaWcyYndsZDhjaWVzQ1N4UElZZW02Y1RiUkpaSDVzdDBlVnoxMnM9
+"conda create -n tf python=3.6  
+conda activate tf  
+conda config --add channels conda-forge  
+conda config --set channel\\_priority strict  
+pip install tensorflow-gpu==1.15.0
+
+""ONLY THIS MUCH FOR CPU SETUP"" (GPU version also installs CPU)
+
+conda install cudatoolkit=10 -c conda-forge  
+conda config --set channel\\_priority flexible  
+conda install cudnn=7.3.1
+
+""AND NOW THE GPU SETUP IS ALSO DONE""",r/tensorflow,Z0FBQUFBQm0yeGJ3a0xoX25peFRZSlRLNTR6TVpRZTZQRUY3MUpIeGhrZ2Z4eGotU00zSVBqMUlXZ3dHb3VickVNcGhKN1hBdG00M091UV9mU2c1VFVIMWJRWVpMZmE2TFhaamxCcG5EdFRKdTVEUG16dXJJeGM9
+I am a begining on deep learning and tbis was my first course as well. Is there another one as good as this that I should do next?,r/tensorflow,Z0FBQUFBQm0yeGJ3NEdWRm5OQjZWXzZwWm1NTjc5Tk42MDhyVkdkNXA1T25LQnF0cDAzYnVrNm9QNk8zM3ctRmV0WWpZUEIzN1ZFdzVfSkl4U2gzV1dELUhSQzd2QWhoMkE9PQ==
+"Without more info it's impossible to tell you.
+
+It could be a host of problems.  You're going to have to figure out if anything is changing in the weights or not.  If they are let it go longer. If not check your code to ensure it's set up properly.  If there's still no improvement it may be a data issue or model issue.  Those are harder to track down.",r/tensorflow,Z0FBQUFBQm0yeGJ3UmZVVy05YWFrZ2ZFaG01azhoTU5odGlmbm9TNGtGdlZZZHppckthd0Z0enN3OGxXRzEtMDQ3SFg1dk9Bd0piS1JPb3o2S012VzNfT2Y5T3luZ0Fxc1E9PQ==
+"I’m not an expert at portfolios, but the next step would be to have an understanding of MLOps. I think coursera has a specialisation on this. You can also check out pytorch. Just a different framework, but is much more popular. A few projects in that would get you familiarised with it. And all the best.",r/tensorflow,Z0FBQUFBQm0yeGJ4MGN3cFY2Wlo4WkVOdDJBT1pta0p1NHpEbE12OVg0STlmRERTTFVISmYyUURLb2RCT3czYmNkb2FnYnNHdGlyUUZmUE9KazM2S09feTRia3FMdEZLY3c9PQ==
+"Will check these out, thanks! I've been looking into pytorch and huggingface a bit",r/tensorflow,Z0FBQUFBQm0yeGJ4NVlsWm9CR0xxVjVWUTJyVzNfX2ZSSWZmYl93a2h1dmxqc3N0QTg1OVVuS1FyOGlIWjgwQ2RhZGtsVVVnVGVlZEtwck01UmE0TFdkbHdwS01kLWphN3c9PQ==
+"You *cannot* get pass 87% accuracy could because:
+
+- the date set is poor, like the images is blurry
+- the optimizer parameters are wrong, like the learning rate is too big
+- your model is too small, so it simply cannot learn that task
+
+There are lots of CNN based models. You could try some other variations.",r/tensorflow,Z0FBQUFBQm0yeGJ5Vmx1XzdKWlcxUkFJVGFSenkyNy1sN0lxd2czZkhNTEF2cXFrbEp6YlBxWHNZTWEzMVdZNmNQNERQLVNPZzR1RDM2RWRmMG80MjF6YXVvaHhUSzZVU1E9PQ==
+"Thank you for the reply I appreciate it; have an image of my model attached , [Simple Cat/Dog CNN with Kaggle](https://imgur.com/a/IEEcgVi), but I’m using a .001 learning rate and have about 12,499 pictures of cats and dogs (total of about 25000) off the Kaggle pet images dataset. I always hear about this being the first model people tend to make, so 87% accuracy for some beginner knowledge is solid, I was just wondering if I was missing any methods I could use. I’ll look into some CNN variations, thanks again!",r/tensorflow,Z0FBQUFBQm0yeGJ5ZXhNTnBwaGVvN3JnTnpwbkFYTGVYLTRDdlRqWG5YNnVGSDdzVDhQLVlSSTdoYTlGR2ljbEJuLXZwRTN5YXJYVV9zTGlxWlVuLW1kRzNOcU54OWgyd3c9PQ==
+"Drop rate is 0.5? Try smaller values.
+Batch size is 32. If that is the limit of your hardware, try a smaller learning rate.
+30 training epochs is probably too low. Did you see the loss value plateau already? If not, could use more training epochs.",r/tensorflow,Z0FBQUFBQm0yeGJ5U3BXZnBFakxnaXFyemZXX3hUcGZlWUJwX2EyWFRicUpqck5mcHc2Z21lUEtpU0J6XzZLb0hVOVJTSEp2ejhGdHZlU1FfZnpmM2J3MFhCaU9CQktub2c9PQ==
+"The loss value does start to plateau after the 30 epochs, and I tried pushing it further and the model ends up with a lot of incorrect predictions, so I think that means there is some overfitting past 30. 
+
+I will say, my computer isn’t horrible but for some reason a model takes like ten minutes to run, so I’ve been looking for like cloud computing services with free trials just to try and speed up my models. 
+
+To be honest looking back I actually haven’t tried adjusting the learning rate (I don’t know how that slipped my mind) but I’ll cook with your recommendations and see how it all turns out!
+
+Thanks a lot for the help I really appreciate it, I’ll be sure to update you 🙏.",r/tensorflow,Z0FBQUFBQm0yeGJ5OUNrQmoyYkNrVHN5bVRPT1NlTGcwWXVLWFVlZGdTS19nTklFaXVOdWhoMzFpWTFieHdnWXNWUERjZThEdVR5WmpTUUlHYU5Vb1hWdzQwaWJJZE4wbnc9PQ==
+If you are overfitting after 30 Epochs with a dataset that large and augmentation on something else is wrong.,r/tensorflow,Z0FBQUFBQm0yeGJ6VFQ0NWVBM3c0Qi1FdWRlT3lBWVFEdVZ5NjdlSXVqeWh0WFpFckItemc5Sk5rRklSLVpCMmZMWWZWWWx1Qnh5YjNiWEZEZXJoX1FWcFhNUlBRUDVSRnc9PQ==
+"I’ll double check my code, I did write a function to automatically assign labels to images via the path to the folder as well as split up the test and validation data, so that could by why",r/tensorflow,Z0FBQUFBQm0yeGJ6SDhfbWtYd1dpYklyY2FtUkVySEM3OTZxbkZiSl9FQmZYRm5DMlpnRnBZdGJQc0FnendlZGNfZmhxRnU2Y3ZHRnpYVEZsdkh0UVhydDhTYVFfbXoyQ0E9PQ==
+"Bigger network, lower learning rate or higher learning rate with gradient clipping, lower dropout rate (also make sure to disable dropout when evaluating), use batchnorm, play with the regularization rate, etc.
+
+Don't expect your model to be as good as a kaggler's, after a certain point optimization is kind of like cooking and you need to develop an intuition on what's going wrong with it, and stare at a lot of plots and baby the model to see what's going on.",r/tensorflow,Z0FBQUFBQm0yeGI1OG9hclg4MzB5aGtGNmM1SGhQZzhvM0w4dXI4TGRqclduSE4xekVCQWV6aDc2ZUxCOFJDY3hJc1dXVkFKd3FxTjQyTnhZTVRicXAtdVpyLXpQQjlmSEE9PQ==
+Are you using Windows?,r/tensorflow,Z0FBQUFBQm0yeGI1alU5clZHSHlaN0tpYTkyZjVGbmZ0Z3h3YnpZeE5IOXNBSUJTaEZCc0ZIRVdYQ00xRXY3SlVNblBWOWUtU09QSy05UlptcFlSWm9lQUxtVHpnd2w1dlA3MVlOdFhSYlNaTmhYeXFlWHdMLXM9
+yessir,r/tensorflow,Z0FBQUFBQm0yeGI1NXlHc1ozamM4UTQwc1pmWFNNWXZnR1hxYmJZTnRleG5ZY1VsUERDRE1Ra3VXVml4NWJDaWtGWXU0ak1mdGpwbDhwaHNkd3dKaTVtX3dCakNrVzBPU2c9PQ==
+That's why you're having issues.,r/tensorflow,Z0FBQUFBQm0yeGI1QVpyeGJqbUZYdnl4cVZJZGRYREduZWwwbnZxTnppbFIzVzllb2VMVUE3c0lPbXkxOEZjOGtwQ0dySUhUVnM4SUZWNVJJQWNIZ2pHQndwUjY5V1pZY2ZOZk9ydnRqY0w0TjRKaE9JSXVFU009
+"so, what's the solution?",r/tensorflow,Z0FBQUFBQm0yeGI1cmVVTTNTUThzX1FydGU4TnNqRGVEVlpUNmR1bzhsUXhFSGFBWlFsSUVHOG9lQ1VKSGd1WUdWZjRUTEI0RDhlYUZJWUJ3OU9fbHFwUGVxZVdZQVM0dUE9PQ==
+"Which tensorflow version are you using? 
+I am mostly on Mac/linux but with the WSL setup on newer tensorflow versions many of these problems were solved.",r/tensorflow,Z0FBQUFBQm0yeGI1NG9Mdlpqel85YXVteHlRQm5XT09YWG1ZLWFUODVHMFhxQ3BlUHVCeTNZZDFsTXY4WVlhOE1YUk9Db2E3T2N5VUhtZEZfQUNYQjBfd2dTTkxjYnUyeUhhNkRFbmJET2xrZ2FTN2RTNW1sdWc9
+"Use Linux. Much easier, too.",r/tensorflow,Z0FBQUFBQm0yeGI1Y1pTRE9MYTRGNWduMl9lX1RGZTdZYmpzckV2bFk0Q2l1VnRVR2VUdDROcmtQM08tSXdZTnJ6YWNjZEUya0dMNHNlZTFRcHlmUU5IejdiY0dUb01EeEluYjF5V0dNRTA0WUFZNnV4aG9LTVk9
+"You need to downgrade the Nvidia driver version afaik. And tensorflow has stopped supporting window with GPU. Sooo, either use wsl, which is Ubuntu.. or directly use Ubuntu",r/tensorflow,Z0FBQUFBQm0yeGI1ajhkeVR2eDNadE5IeFlPbGk5TVYtRUpiSzk0VTNxNTkyM3o0NDVSMHpxVi05OFhPQ3plMTRwOU1qcmpTbTA0SVdiRWR6cnhmOEFEZ0tnS2FxQWhCZ0E9PQ==
+"but, I've ""heard"" about nvidia and linux not working together very well  
+ps: I haven't coded for last 1-1.5 years, so I'm outta touch",r/tensorflow,Z0FBQUFBQm0yeGI1ZEpzMDdkWG5rMFZ4S3dqV2tjQldtUjNDdzE5TUtOQVN3V0lYR3Bjc29UVS0zTDN3emotbDBLVVRfVnhEQ0lUTWotQS1FQ1gxV2hvakczX3NKcDhDTnc9PQ==
+Just use a docker Container,r/tensorflow,Z0FBQUFBQm0yeGI1Qy11WkRqUnlEdTU0ZDVkYmljRHU3aDQxR2N4c0thTlhadlU1akE2WVZha2FXZGVZYXVhb3l6TUZPZlZTY1VCZnJaamxENGRsQ3lrbTkzRGd5WHVidUE9PQ==
+I think that's more true for gaming,r/tensorflow,Z0FBQUFBQm0yeGI1UzlRdzZpNVgyaXJXMnFfNWUyUHE0dVh4TDJYMi0zX1NNenhzQkM0NTNZRkdVWkRGbWM1WkFYcV9SZDA0STFoeDJOMEo5cWhCc0ZFRTZTWW9obDRtbmc9PQ==
+What is the issue?🙃,r/tensorflow,Z0FBQUFBQm0yeGI1LTBVSmlZUXprZXlsbG91UVFZYWhtY3lYZ3VnNG5Ba2FNUjN2WXlnRXJvRTVnY2ZpelhzM1hhRTBaR2VqU2c1eXN1RlQyT000MC0wZFVLZ2dpdVRwV2c9PQ==
+"I assume you are using the latest tensorflow version?
+
+Please read https://www.tensorflow.org/install/pip carefully.
+
+Please move on and use Linux or wsl.",r/tensorflow,Z0FBQUFBQm0yeGI1OFV2bGxGcUVBOXJHWTN4LUE1dy04d2NvazlwTU8wdm9mTWZ5eUNaLUJIaWloRDdJcjNnaU1IbGtEVGtMazB5Y1BDQzhNRTFfc0tHU3Uzblcxc2RoRkE9PQ==
+"https://engineering.purdue.edu/ECN/Support/KB/Docs/setup-tensorflow-in-windows-server-with-gpu , follow this, works wonder for me on windows 11 pro , but need to use conda",r/tensorflow,Z0FBQUFBQm0yeGI1V0ItYVJYTmtTZ1RwY3lMWnAyVVhUUmt4TmFTUjRWTXhaRXFOQ1oxbkJuMkhaSVpCUGlQZEF5Uk1nQXI2b3hSWXlXcUx6eWtGRkNmaVdYR0ItNEJMaDItendoelBMdFRmbHFkMm5aSTBZbkk9
+"Have you tried making a conda venv then making it run on the gpu, I saw a video about it online.",r/tensorflow,Z0FBQUFBQm0yeGI1RnZUM0R5X25rdWdTWWhsd09RWWh1QTlIaElObzEtWHRCeHVIdFpjUDhfRXhFcXlPTWozdDlOa3V1X29WakZLRzFRRjJoSTVNc1ozVnNBOVAxbldDZmc9PQ==
+"Use wsl2 (Windows subsystem for Linux). Pretty easy to set up and gives you a real Linux install living *inside* your windows install. 
+
+
+Once installed you can just run 'wsl' and get a Linux prompt. Worth it just to get filenames that use slashes rather than backslashes but makes development easier in general.  
+https://learn.microsoft.com/en-us/windows/wsl/install",r/tensorflow,Z0FBQUFBQm0yeGI1aXVwcWpsaWRTQ3lZcGpvby1JRE5BN3VSZER3RDhCeHE1RkVOMGU1Q1ozSlE2TmZJb0ZFcnh2RTNlcUdmdWctWFdfdWZZc2hRUFdRZnRpdzJqVUNKQXc9PQ==
+Did you install CUDA Toolkit and CuDNN?,r/tensorflow,Z0FBQUFBQm0yeGI3WFlEelJwRUdfUEhuZ2dWbUh2TXhTTGg0S3pOVzR1STM4ZVNUbDQyN0w5RFZQUTlIbF9sczdMdEYtSWNha2N4VVpjTW1BeXVON09nRWIzWm9PcDhtTlE9PQ==
+"I installed CUDA Toolkit using these instructions:
+
+    wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
+    sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
+    wget https://developer.download.nvidia.com/compute/cuda/12.5.0/local_installers/cuda-repo-wsl-ubuntu-12-5-local_12.5.0-1_amd64.deb
+    sudo dpkg -i cuda-repo-wsl-ubuntu-12-5-local_12.5.0-1_amd64.deb
+    sudo cp /var/cuda-repo-wsl-ubuntu-12-5-local/cuda-*-keyring.gpg /usr/share/keyrings/
+    sudo apt-get update
+    sudo apt-get -y install cuda-toolkit-12-5
+
+I then ran:
+
+    sudo apt-key del 7fa2af80sudo apt-key del 7fa2af80
+
+I haven't installed CuDNN yet as I figured it was a step for afterwards.",r/tensorflow,Z0FBQUFBQm0yeGI3SHZ0dXNKaDlROVFhSFRPV1NGeWo5eEx1cTZrU25IY1VOQkstZzYzNk56QkYyR01qaFc3NHY3S2JnMTV0b2JJSno0MEZDQjc3bEFlN1ZZUjBRQThialE9PQ==
+"I had this issue before. Try:
+
+sudo apt-get -y uninstall cuda-toolkit-12-5
+
+sudo apt-get -y install cuda-12-5
+
+This won’t install driver that comes with the toolkit which may conflict with windows driver.",r/tensorflow,Z0FBQUFBQm0yeGI3bEhQZWxkNUFoS1VHMXhieFM1NWVPY1FhMFFsQzNtLVZETzRNY1NvWUJvYlQ2a2otVU5SeVJkSmZwb2czczU0Y2p5U21wVlFQemVid0VNbHdIR21NaVE9PQ==
+unfortunately the output for nvidia-smi is the same. WSL2 just can't seem to see the driver,r/tensorflow,Z0FBQUFBQm0yeGI3TW5WUTJpcFY0b2taakN4ZHN3cFlyckZuNjNudHRvZ2xVTzlvbG9yXzljWl9JT2hiaUlfNVZFMzJnVVhDMkpIVFF0T0d1N042SjN5QUt0bUQtQXNzN1E9PQ==
+I don't think you can do much without a solid GPU.,r/tensorflow,Z0FBQUFBQm0yeGI3Rkt4d0tUcnpocjhZR2VJR1ByVWUwLW1naTdacUdqdkxJTUkwdmpIRDZhTnJUaXY5YWJJaTNmY2V3THNwdEhacFA2QUwzZ0cwcWRUeHZmUEFOUmJSTEpJQ3QtR3pPbGpPZWhvNWhUTU5Gb1U9
+"Nvidea wins, 4090 here I come 😞",r/tensorflow,Z0FBQUFBQm0yeGI3bU56M0tfSjNyWlVTcGg0ekN6UHFRS1RiUGhWQVozazZuMmc3M2Q1NlQtVU8zT01pcDhPT1J5RmdMeFM4YjBnaTF1Y1BNd3FCQWE5eTBoalQ5Rk1YT3c9PQ==
+It must be a problem with your code or model size. What are you trying to train? I am also not sure if Google Colab is the best here if you time out („running out“).,r/tensorflow,Z0FBQUFBQm0yeGI3dDNVSjI1ZHJ1UjdSN242Ylk2Q2hPVTYtcmxSY2NhakFFSWUwcXhGNTRPV2FKcFk5eWhfSndWNUpaMEE2dmFzaVB3a2JHa3c4UjE2NDNya3V1aDFXSXpwZW9rWXZXWGtRNXIxUjcxZk9SeUk9
+"Yeaaaa this sounds more like a coding issue. I’m sure it “works,” but my bet is OP’s script is very inefficient if he’s blowing through online resources like that.",r/tensorflow,Z0FBQUFBQm0yeGI3RVFpeHBTbmxMRjg1NjMxeF9uUVVGRG9fdml2cEM3ZVdyYmp0cXZDczB6akZpaWREd1dLRW1WYXZSRHlmMUxLUE1zRXhkM1I3QlB3ci1LT2hSeDZRVkE9PQ==
+"I got chatGPT answer for you: The issue you're encountering is due to the state not updating synchronously, which can cause multiple updates within the same bicep curl. Additionally, there is no mechanism to prevent the counter from incrementing while holding the ""up"" position. Let's address this by using `useRef` to manage the `canCount` state more effectively.
+
+Here's an improved version of your code:
+
+1. Use a `useRef` to manage the `canCount` state.
+2. Ensure the counter only increments once per complete curl.
+
+```javascript
+import React, { useRef, useState, useEffect } from 'react';
+
+const App = () => {
+    const webcamRef = useRef(null);
+    const canvasRef = useRef(null);
+    const [pose, setPose] = useState(null);
+    const [counter, setCounter] = useState(0);
+    const [stage, setStage] = useState('down');
+    const [angle, setAngle] = useState(0);
+    const canCountRef = useRef(true);
+
+    const countReps = (pose) => {
+        const confidenceThreshold = 0.35; // Set a confidence threshold
+        const leftShoulder = pose.keypoints.find(point => point.part === 'leftShoulder' && point.score > confidenceThreshold);
+        const leftElbow = pose.keypoints.find(point => point.part === 'leftElbow' && point.score > confidenceThreshold);
+        const leftWrist = pose.keypoints.find(point => point.part === 'leftWrist' && point.score > confidenceThreshold);
+
+        if (leftShoulder && leftElbow && leftWrist) {
+            const angle = calculateAngle(leftShoulder.position, leftElbow.position, leftWrist.position);
+            setAngle(angle);
+
+            if (angle > 140) {
+                setStage('down');
+                canCountRef.current = true;
+                console.log('Stage changed to down');
+            } else if (angle < 40 && stage === 'down' && canCountRef.current) {
+                setCounter(prevCounter => prevCounter + 1);
+                canCountRef.current = false; // Prevent counting until the next down
+                setStage('up');
+                console.log('Stage changed to up');
+            }
+        } else {
+            console.log(""Key points not detected or not confident enough"");
+        }
+    };
+
+    useEffect(() => {
+        // Add code to initialize the webcam and start the pose detection
+        // When a new pose is detected, call countReps with the detected pose
+    }, []);
+
+    return (
+        <div>
+            <video ref={webcamRef} style={{ display: 'none' }} />
+            <canvas ref={canvasRef} />
+            <div>Reps: {counter}</div>
+        </div>
+    );
+};
+
+const calculateAngle = (a, b, c) => {
+    const radians = Math.atan2(c.y - b.y, c.x - b.x) - Math.atan2(a.y - b.y, a.x - b.x);
+    let angle = Math.abs(radians * 180.0 / Math.PI);
+    if (angle > 180.0) {
+        angle = 360 - angle;
+    }
+    return angle;
+};
+
+export default App;
+```
+
+### Key Changes:
+1. **Ref for `canCount`**: By using `useRef` for `canCount`, we avoid the asynchronous state update issues, ensuring `canCount` is correctly managed between frames.
+2. **Check for `canCount`**: Only increment the counter if `canCount` is true, and set it to false immediately after incrementing to prevent further increments until the next complete curl.
+
+Make sure to initialize the webcam and pose detection properly in the `useEffect` hook. This code assumes you have a pose detection setup that calls `countReps` with the detected pose. If you need help with setting up the webcam and pose detection, please provide more details about your current setup.",r/tensorflow,Z0FBQUFBQm0yeGI3UkpxZERReGIwVHdQa21NTmNXcDFPX3JLckc4akQ2R1VfMFRLMk50VnFFdnJNU2xidkF0Sl9qdUx4Y0dVd1g4X3VTa0NuYkpyR1l3UjJHUmtEbVh2Umc9PQ==
+I tried that but it didn't work. Here is my repo: [https://github.com/laura-nguyen/flexifit-ai/blob/main/src/components/Test/Test.jsx](https://github.com/laura-nguyen/flexifit-ai/blob/main/src/components/Test/Test.jsx),r/tensorflow,Z0FBQUFBQm0yeGI3U1Itb21wWlJ6LS1QOG9naTRfRWtYMHlmdWF6YnlvRS0tcTJVdTF0dUUtSGkwV3BwaHc3STZXc2hYNTgxaF8xVk8tR3YwbGdILUZlRjY1NUl5MzZCZkNvbWxmWkI1dDNuQkctVW9kZklsZnc9
+NEVER MIND!! I SOLVED IT!!! THANKSSSS <3,r/tensorflow,Z0FBQUFBQm0yeGI3U1BWQUhmWVEwaU5WTTFGVFNZMmRkYldtMkF6cXFXczZscHlGYVVjQW12NHhGX2Z1TWlwSlMyRTVnSGlZR0JLUFJwTUk5UElvWmdseTUyajZtRkliN1FxTWZ1RmJfRXVoVmNNMWNxNjZLbTQ9
+"[https://imgur.com/a/IEEcgVi](https://imgur.com/a/IEEcgVi)
+
+The above link is the general gist of the code, I’ve tried running it with more epochs at a lower learning rate, adding and removing convolutional layers, etc.
+
+I don’t think the code is too inefficient, but to be fair I did have to upload a 25000 image dataset, and ran the model at 300+ epochs multiple times.",r/tensorflow,Z0FBQUFBQm0yeGI3SGNURFp1Yk1lRTZDZ1p2TWZXajQ4N1JMQVhBMG9WcjR0WWxpMzA2VHhGZXhoa2o4aW51ZVo1MGNRaVJIRTJlRklnRHZGd3NrdmJFdTFBYzRBRnR6Rmc9PQ==
+"I’m trying to train a CNN to tell the difference between a cat and a dog. I did make a previous post about being unable to get past 87% accuracy, which in turn spurred my journey to find ways to run the code faster.",r/tensorflow,Z0FBQUFBQm0yeGI3eFRNOVJMdlA4dE9KRkplMUk3VlFFc1hqU0dWSnJ6ZnpFUXlOYklYWTNHTXRtNTdjVTZZNnFZbEVqVUNQZUk1NmlHTTVyMWxrSHFwSHhCN3NPcnB3YkE9PQ==
+To all: mark as spam please.,r/tensorflow,Z0FBQUFBQm0yeGNDOF93a1BPSXNTZktuVkRNaTFqbElLTlNyTXRGUmw2SnVzeUVKQjJHeWhhbGVQbWlVc0c2SC0yNkc1NS1DYUluSWxHVHIyUDNzdmVjeUpqamstclQxOFE9PQ==

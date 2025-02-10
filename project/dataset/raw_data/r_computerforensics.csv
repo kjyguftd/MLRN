@@ -1,0 +1,346 @@
+text,label,username_encoded
+"I found their channel on YouTube, some videos unfortunately have bad strange sound, but this does not interfere with gaining new knowledge) Thank you !",r/computerforensics,Z0FBQUFBQm0yeGNRNjNVUE9sWW55NFJCUFJ5dml2N0hPTDdZX1hlV1VhMWJHc2xCOGI3Z1NXYnc5VExqcHB4ZDl2d2swNkZXbkhzeWRRdnBSVS1qUC1QazhBY1ZPUjU4NHc9PQ==
+"As of June 2024, the median salary in San Jose, California is $113,100, with 80% of salaries falling between $43,500 and $217,500. However, some say that the cost of living in San Jose is 49% higher than the national average, so a salary of $150,000 may only qualify as lower middle class. A ConsumerAffairs analysis from May 2024 suggests that San Jose residents need to earn at least $124,292 to live comfortably.",r/computerforensics,Z0FBQUFBQm0yeGNROWJyeWtURk01WGMxbWNXOXAwMEdJR09Ncm4wYVlnT0NUUHY5VS1QNUNlQk1jZ2NUbDVwX2h4bngyYXdqYVN0YUVxc19pajl0UzB0WVdlWTVpWE5rSkE9PQ==
+Is this CFCE course for general desktop forensics?,r/computerforensics,Z0FBQUFBQm0yeGNXQzR1aFI3OHFtM29nYnBKeUhNYW13MkczdVU4dU1zMXU0R29uVDQxZjVaZW42cUhXbEsyRDZNR1JBMDBHdGRDZ2tuQUtTcy16UGU4c0d3R29PYWIwVnc9PQ==
+"Yes. It’s VERY heavy on how file systems work. It’s a lot of work with the MFT, bitmaps, FAT tables and carving files manually.",r/computerforensics,Z0FBQUFBQm0yeGNXOE02VzQyQXV2dndSdGdTRUpVbG44SGx3LWs1QnVWWHB4dGpvUUxWbVFKLWdWUGhUTDZobENER1gwcldubFlfTWJ3eXRnNW03VE9PZGR0RkE5Yk90eFE9PQ==
+Gotcha. Does IACIS do anything with mobile forensics or mostly desktop stuff?,r/computerforensics,Z0FBQUFBQm0yeGNXS3VOSHJIamJScHZFaWF0VlQtZ2pvRGVzdlZna0RCWmlWa2pGaEFvT1JhbENHcW40T2ZHUUJXQ3RyRVhEakhGMUI2Smd1cjNqaTg0SHRiRzlkOHpOUkE9PQ==
+"They do have a mobile class and cert.  It’s 
+okay but nothing like the CFCE program.",r/computerforensics,Z0FBQUFBQm0yeGNXNWtmNGZiYW01MlVoOEJEckEwTzhnWEVQM1lxYnlaYzRjSU5uakNnTVFpNllPcmwwXzZCWHFuVXp1MjZsZ1I0Y3hoWjNrLU5ZbVdnMW1ieHM4OGQ3NVE9PQ==
+"If you have bitlocker enabled it will be an issue. You just imaged encrypted data. 
+
+If this is a legal matter and you are trying to use this as evidence I would full stop and hire a pro. You will get torn up in court about this. Don't do that to yourself.",r/computerforensics,Z0FBQUFBQm0yeGNXY0hjWFNXUFBlSUhXNmtOQVA2UDJINmxFejNPQWg4NHA3MktMNno5MmtNdlNkYjZsV3VJM0NqV0dHdnlUOUVkazNrLVVXcnFVektiOV92SDhBYTJ3M1JQYi1WSnFxN3NyTTNVSHpTV0IyYVk9
+Image it as a logical c drive with ftk imager because of the bitlocker. If you have it plugged into a write blocker and out of the original host device you will have to put in the bitlocker recovery key and make sure you can see it in windows explorer forst,r/computerforensics,Z0FBQUFBQm0yeGNXMF9hZ202NDI0Rm5NZXBDdDg0ZzRETFl6R3B6aDVWR2dBa2puMjVPcGl0RDJnY0ozVW9MdG5ZejRCbXAyOTVBdjBpZGUtUFMzaDZ1cXRaRUNxWDJkY3RYcE9qcnJjZEtCc2lkUU5CRDF5NjA9
+I was about to say the same thing! Alexis has great perspective,r/computerforensics,Z0FBQUFBQm0yeGNXMUozaWNnRllfbGFEbWEtZFdBdlR3cjNrak9VWWdsWlZycUVvVkNLRkE1SEkxRHVRYXBIWUo1eXktakRIb0NaZ2VWUElCd0d6LXpBSmptZ2FyZm9ERGc9PQ==
+"DFIR diva posts a lot of great resources on her blog - https://dfirdiva.com/
+
+Also, there is a startme page that is a hub for everything DFIR, there may be training on there! - https://start.me/p/q6mw4Q/forensics
+
+These are both good resources to have even if you don’t find the training you’re looking for. Good luck!",r/computerforensics,Z0FBQUFBQm0yeGNXTldvTGYzVmNCdGpHWUVMSHVZc20wUEtEVzBWMHhkZ29zZ3RlMkpnckxad0VFZm1oN1hybXFvU2x2THc5T3JITWlzdUFWdnBiM2YtYUdXNmhyMnpwNGc9PQ==
+"Just gonna say in regards to sans, there’s also the undergrad and masters degrees and certs where they have more funding options. The classes overall are a lot cheaper than a single cert. sometimes by half. And if you’re international, they have some scholarships. Oh and they take the GI Bill. 
+
+Just putting that out there since not many people know about this.",r/computerforensics,Z0FBQUFBQm0yeGNXaWtnMlFpRXNKU0dLa3VNUU9iWXNnV1h1UFRKSUhJa0gzaXJ2dHlTTC1WXy1RWkJjLXpRYVRuZWIwZDBMTldkTWhNQVFOS3pVcUFvMi13dTZmUXN3cUE9PQ==
+thanks for the comment ! I saw her in LinkedIn recommendations a couple of hours ago),r/computerforensics,Z0FBQUFBQm0yeGNXdmdZQnUyMFVRUkxfVU9UOXM4RTZXZVRjcFlNb0pDSjVuT0dFenJpeE1pODVBbTJzNFZ5YjV5N0JMcW1xX2swWTNOTWR6dU5EUmw3V0ltWVBlcDloU1E9PQ==
+"thanks for the answer! I already have a master's degree in information security, but unfortunately topics such as analysis of malicious files and computer forensics require additional independent study.",r/computerforensics,Z0FBQUFBQm0yeGNXU1dZMUlsWTMwWU91bjNXY2NPQlZzMnBsQXVfeU9PbG14WnNPOHN0SUJqNlpGYmtMaGE3Qm5yVHdxMHEzelhCTWc0WUVWM1F1ZVZiamptRDVKUjMxSnc9PQ==
+"CCD from CyberDefenders is an excellent all-around blue team cert with a strong focus on DFIR. It not only teaches the tools but also delves into the inner workings of the OS and how the tools function (e.g., what kernel structures Volatility targets and why). They also have practical labs to apply what you learn, and oh boy, they are tough (the disk forensics lab took me a little over 10 hours to complete, but it was really fun tbh)
+
+It really helped me in my DFIR journey, and I recommend checking out their syllabus to see if it meets your needs.",r/computerforensics,Z0FBQUFBQm0yeGNXRE9zLVJDaVV1eWZRQmpjS1I1dS1DZV9tNEVOSjNnbjlYZDQzVy14b0tJUU9MMzZsM3QwdW1zWlV5VklTbDVueTY4N0g1Z0xrdzA3T1I3U2VReUQ4X0E9PQ==
+"Thanks for the advice!
+
+I already have a BTL level 1.
+
+I was planning to purchase this certification in the fall and start training.",r/computerforensics,Z0FBQUFBQm0yeGNXN3VWRzhhRjJOdlpJRW9yWW1pQU9yVzJ3clpsMEVhc0lQQVlnY0l6WTFTQTc1UVpwQW0zdnFybmhHVTg5YmV0NU04X0h2QzZyamJFQ0o2SXRzSDM0a2c9PQ==
+"CCD packs a lot more compared to any other training out there. I already have CDSA and BTL, but CCD is superior imo.
+
+Good luck with your journey, and feel free to reach out if you have any questions. I would be happy to help.",r/computerforensics,Z0FBQUFBQm0yeGNXTTExU1JheWlTVUlaaVNBY2c2c3lJNE5sR3NRUmdwd2xDMHk1M09CMkhYWXR6QVpMdTAxTW1aVVFILW1maWlVZ0FBUnRfSVFwankxTllTMWM2YjlFaEE9PQ==
+"Thank you so much for your support!
+
+I really appreciate it.",r/computerforensics,Z0FBQUFBQm0yeGNXaUdnUC01YURqcEo1RXFwNmFreFU0Q29SQXR3OW54TktwTFJieXpseTQ4Rm52Z0xCVkZPRE5NQi0xVXFVR1BQYVZaNUFxdm5iaXY2aWU3Wk5taTBEQnc9PQ==
+"Check out Applied Network Defense, lot of great affordable courses there:
+https://www.networkdefense.co/",r/computerforensics,Z0FBQUFBQm0yeGNXYWszdU9mandBZlA1RVhNeXFuNzI3VkM3Sm5NUlRsOFZFMktyNDdOODRvWVMyb2NfQno2S3c4ZWNURk5CWldiT0hEMDhnWHM1ZURPVHNNQWF5cF9HYk9aLUZyN1l3UFUyQlN2SWN1eFlrT1k9
+"Thanks for the comment.
+
+This is the first time I've seen this site, I'll add it to my piggy bank).",r/computerforensics,Z0FBQUFBQm0yeGNXWWdwLTBkcmMtaXRIZVA1MTMwdVlldWVuS3diVC1wdnFZUWJfYUxBcmxtSjZkZ2x6ZTg2aWFvc29TbDBlR1hVdWpDUVhmVkpZak1YSGNUamRFWTJWVlE9PQ==
+I definitely recommend this course. It's awesome and a great value.,r/computerforensics,Z0FBQUFBQm0yeGNXV3V6c2pNZ0lIZDFNWnpKUHVQRHpjMGRiRkpLVkMyRFdBb1JOZ2REczFGSVB6LVVEYkFKeFFSb1N5b2N0RkNWNTgtbE10LThJYXpKbVN3NXlJMTBGSWc9PQ==
+"I've been studying digital forensics and the way Cellebrite and other software work. TheBinaryHick's sample images have been helpful but it would be great if we could be provided some proprietary format sample images, such as in Cellebrite's CLBX format. So we can see how they are different as compared to a TAR or ZIP file.",r/computerforensics,Z0FBQUFBQm0yeGNXNEZaNm54aFhXQnQ3ZzBZdW5jbTBDSXFMOEpmNVhnVFRQUWpFSnYwaTR1amNBRE1GSGhqNWpXdkZFdzgxcXJPSUZiZGFCQ3loMXZkNUM2YmF4N21ib0l5ZFlzSGJBYUdSNkVZQm9FdFdZV0k9
+I've bought a couple of the cheaper courses with my own money. Highly recommended!,r/computerforensics,Z0FBQUFBQm0yeGNXVmNadGVFSzlIT01PSmJjOVdyYTFBZkVvaVh0b18zRllFODFRV2w0alJydnVvQ0tkOE1EcVo3Z19nQnZrWUtSc1J4QVdTbUFHYzFnMTktWEVMdGp2V0E9PQ==
+I will give that a try now. Thank you for your input.,r/computerforensics,Z0FBQUFBQm0yeGNXaTd0bnkyblIxRlc1dnlzU3VuY1JLaV9lRHNZUWVKZDNta2ZtSGJaa29yWm50Ykg1VmdXNHlHVGloS1liNmh3cG15MWdPOTJiLWRfdHN2SGFXZVdoWGc9PQ==
+Procmon might be a better tool,r/computerforensics,Z0FBQUFBQm0yeGNXS0NYR2VSRHBFWHFFUGtUYW1LSmVRTi1SY0k1bm1yaktIV09HOVlRRjNyaWFqV0FFMWFjSW9oaHhDTXdoT2dYNTY3aXpNd2lGOXRLbkZLNlBYMVBVeGc9PQ==
+"I was going to ask what your purpose for the certs was, and then I saw, ""... get new, structured information.""
+
+Something to think about...where do most certs get their info? And why do you assume it's either new or structured?
+
+Maybe this view of certs is a little romanticized, and you could do equally well by picking a topic, finding a couple of relevant sources, and going from there.",r/computerforensics,Z0FBQUFBQm0yeGNXbVlIblJJbXl3YTBpLTYwSWR6di1KdDZodUp5T2RydFNWc0RPMTYwM3dwWDYzbVJtbDNQS1FVQWdqb180OUlpWkNyZWk5SzBLejRvbUpqQ0E2SU01MEE9PQ==
+"About DFIR has a pretty good running list of available ones. I don't think any of them are pay to play, but I have not done them all so cannot affirm that.
+
+[AboutDFIR List of CTFs and DFIR Challenges](https://aboutdfir.com/education/challenges-ctfs/)",r/computerforensics,Z0FBQUFBQm0yeGNXSHhDeGtWcVpPOVRnYjRzNlctTFRJVHNSa2ZVYXB4NEwyZW00YURWbUxRMTlwcGVjVWFOWnREdXBPeU9jNzRkR1dkYWo0QXhaQWhPVEQ1TmxQYU1VUFE9PQ==
+"Thank you for your reply! I agree on this part, we need to have many samples from different formats, and we need to make our own samples too. Unfortunately, this is not memory forensic challenges, right? ><",r/computerforensics,Z0FBQUFBQm0yeGNXS2dmbXk2SlFwTnNzcFkwNW53OThVRUtrT3V0TXM5MDdNV3hyeExJbXp4N2R6Slhmc09hV2dpVHk5NExTOHlFQ29jVXNXV29GMUlxdHNCaVZPN1c2U3c9PQ==
+The tool doesn't do the investigation it's just a tool.,r/computerforensics,Z0FBQUFBQm0yeGNXNzhlRXRWY09FUjhkZ2hBb1JnWGJwdzJRZ2huSmVrSklYODk2dmZnQkhxcm5UVWF2dy1PVTJreF9qLWJGMGxyakhINmpHZnFoWEl0M1JNN1dvU21CRHc9PQ==
+"You're absolutely right.
+
+One of the cool things that you can get, knowing just the name of the certification, is to familiarize yourself with the topics that are listed there.
+
+Then you can start learning these topics on your own, using books, articles, friends and so on.
+
+
+
+I've already done this when studying directions, and I'll be honest, it works.",r/computerforensics,Z0FBQUFBQm0yeGNXTU9FaWtlVEJ0aU5DXzc0d2VCZjNFU1pWOGNUZUlIeE1MQURMZXhTRjl3ek9oRHVIZlZXQWp0SmNyU0lDWlNna1pvZmFDNVMzd3p5Vkw1OHpxbzUyaHc9PQ==
+"Depending upon the cert, this process may work much better than paying for the training and cert.
+
+Something else to consider about certs is, regardless of the company, who's actually doing the teaching? I know of instances where the instructor was not conversant in the material being taught...their specialty was network or mobile forensics, and not so much deadbox Windows forensics.",r/computerforensics,Z0FBQUFBQm0yeGNXaXg2TTlIcEdraGZGeWFSUWFCRmo5Y05NeDF0SWFHakZ2dEtjcHJpR3NDbkc1WVE0RVA4RTJLektnRnV1aVBJT05uVmQ3MFlMSTNxVE5EdXdMUEVvS1E9PQ==
+"Unfortunately I became acquainted with reddit recently, and am now maximally excited about this find.
+
+The community can help to avoid such courses and certifications, and recommend really good materials.",r/computerforensics,Z0FBQUFBQm0yeGNXZzU1eXdNQjdyTDRwaE85ampLYi12TGtkTnlDVXZNeGMtQlMtQ09lMF9tTGR6R1R1eUE2dDByZ0RwSWpIX2ViQ1pqWTBkUWFYVGxVNEI3UlcxVGhBb0E9PQ==
+"I had a demo and it looked decent. Currently it isn't doing full disk imaging, just triage images.
+
+One major selling point for me is that, as opposed to Axiom on-prem, multiple investigators can access the same case at once in the cloud.  No portable cases necessary.  That's about all I can say about it for now though.",r/computerforensics,Z0FBQUFBQm0yeGNXaEpSSTNWRHBUZDhOZXFveDJBS1dSMW1UcHN2UEx5aUp2SGsydDlZUXlqRGRRUzB2OHBDNnR2NGVvTUdxeVZOX1Jid1NOSjkxV3NTcFFMcDYzSGZ1b3BBdWZucDdVaU8yZVQ1SVhHRFpvUFU9
+"The suggestion seems to be based on the assumption that the malicious files contains the file name of the created file in clear text.  If it does, a simple search should find it.
+
+However, good malware does not do that.  If it needs a specific file name, it would either decoded or decrypted at run time, or constructed at run time.  The only way to catch those (? I think) would be to monitor OpenFile system calls with creation options turned on (and any related calls that can be used for the same purpose) for cases where the specified file name matches the one you are looking for.  Basically, you need to know or research the Windows API is some detail, and then use a tool that allows you to look for those details as the malware is running.
+
+And Autopsy is not that kind of tool.",r/computerforensics,Z0FBQUFBQm0yeGNXWjM3YTJqZy0zTHl2X0JFV2tKN1lySTAwaEt1NnRDaVZvcDZUN3ljSWVLcVU3NjhXMjBfYmRLaG1ET0l0cHh1SDYtUDFuUzlaQVZoblI0NDdYR2FuU0E9PQ==
+Cloud is an add on to Magnet Axiom. Are you referring to another product?,r/computerforensics,Z0FBQUFBQm0yeGNXWGFORExSc1ZLZVR0RzYzaEwwUURXYjRnSXVMUGpwX3NabXNKeGYtVjRGb05makJXTVpDUTg0RHN4djdPTWR3Mk81RTB0cjByQW1vQV83UnNlNWdRcFE9PQ==
+I like cloud for processing search warrant returns. We don't really do live cloud acquisitions very often.,r/computerforensics,Z0FBQUFBQm0yeGNXM1lDMnpOZUE0S1dFUmZ6ckd1anpiX0RKMHZPMzhlcklINmJSRm85VU8xNGM2TndiY1dDVVlEMXRqNlowb3lnZzBsU19SaVA4NXlGa0VBNWVXY1ZUcHc9PQ==
+If you work in eDiscovery it sucks but for just investigating and reporting I don't see how it could be bad. I love Axiom.,r/computerforensics,Z0FBQUFBQm0yeGNXVE1Tblg5SHZpYnozbW9kZzhEZl95TVVRRlpiM1RLS2txT3JNMG1kRkVtUGhON1llanR1ekNWYkoyb2VIa3c1OHlpTFlkaUUxbWJVOHh3TUVMX3ZkRnc9PQ==
+SANS does a holiday hack challenge that is fun. Got a fair few months until that comes around again though. [https://www.holidayhackchallenge.com/past-challenges/](https://www.holidayhackchallenge.com/past-challenges/),r/computerforensics,Z0FBQUFBQm0yeGNXNTdjMjdqNlV2MHd6ckx2aklYSjNXZHpnT1c0ZVVaTmlodTJzVVdFc1ZMMkZlNFA2SV9WZktKVjlGa0g2V0VqT0RpcmhHaW5aYWdEUW5SUU9jOERYeGc9PQ==
+"is this a hidden message, or did you drop something on the keyboard?)",r/computerforensics,Z0FBQUFBQm0yeGNXXzlJVTR4TmdSdDZzLUhDYjdyQWg1QUVhNGRyZmpWdmVyek9zUXNSMGpGenE3NWlkSEFJOVZwdGFzUldHVFZXZ1JMY3NYTXgzNFJsUVd0ZFlNRWhCM1E9PQ==
+"Cloud has really only been valuable for processing warrant returns and social media accounts of victims. Unless you are talking about their new product, cloud has been around for a while. Their new product, I think it's called review, let's your investigator manipulate an extraction in the cloud which is cool to avoid having to pass out flash drives abet probably still more expensive.",r/computerforensics,Z0FBQUFBQm0yeGNXcHFIWG9fbWplN05XdldFZ0lBOE9ybTRndUtGM0hMSy1JQ1A2bEQ0TzhOOGlwM1p3RW9Sd1p3cnlIXzFCTzBxOFl3UTQ3cXJ2Ykh3cl9KRVFzUEliNlA2Y3VZQ29zTWszVVktM29jVUQ0Rzg9
+Ah that could be. I'm referring to Axiom Cyber SaaS solution.,r/computerforensics,Z0FBQUFBQm0yeGNXNFhNbTRvWE4tS0Z1Ui1MbFludDhpelptd0dpbW5UNTNfeWhXNE80SmZNeFFiUG9wdHFMc2tTOHJ0NGFaR21CbDk2bUxLSFdJMDh3WEZ5OFdjWnFuOEUxWVZPWnRtajhGR3N3WG1hSDZFdms9
+"Can't say I've ever seen chats that look like what you have up top from Cellebrite. You get those from Native WhatsApp chat exports. I am curious to see what others may share, though.",r/computerforensics,Z0FBQUFBQm0yeGNXaXhKVEg2c2pIUXZJOF9ZeGN6aWJuVWc2NTR2alVxOEhUY2FUenRSTXlleHNzMDRSNmtZQ2JlMUpuMmdFUFR1OHJvQXB3TUVVQmZDSmxfdW1YTUNoTnZqZnJSNjZrMXFoWGR0UHFtTEUyYVk9
+Google drive takeout? You have admin in the dashboard no?,r/computerforensics,Z0FBQUFBQm0yeGNXMlREVUpTa2RtY3JGYVJSTWtZNUJwT0htdm5oSnhXMXZWd1VZbHpLYXo0QzZlOUFFeVM5eGFfVE5LZGtzNy12dmwyUnpsV1NmMjlIcnVZSVlOQjA0eTRraVhLQko4My1zQ2kzaVFzZXlIV0E9
+"Take the file out, put it on another computer you don't mind bombing and let it run. Use Axiom's free process capture to see what it's up to. Or collect a ram dump and see what autopsy says since supposedly it is integrated with volatility 3 (personally haven't tried it yet).",r/computerforensics,Z0FBQUFBQm0yeGNYcTA3V3p0blU4WnhpN1p1OW5HdFJRejRhazczQW5GNTZOUi1ITUNEZUhZYlRjZGRsZVlSYTNjWGpLMkFuYmFXSU9ENnlNZGlVdVJxd2l1dTd4Nm9yYjNONGRrX3BJbWtZMTNDLVBoNTdhMEU9
+Yeah realized that about their off network remote imaging tool. Nice to have but not sure if it's cheaper to mail the drive than to image then download in AWS,r/computerforensics,Z0FBQUFBQm0yeGNYMjJjSHdzeWdHZ0FSczl2d0lzMGI1ZTVXbUYtLTl3bXJhOW1hS0FKV2c3NWFpeVZ3ejZ6MmZ2SnRZay1pY2ZyS214N0VaWllaclJhbUZYU2tybXA0QktCSkZiV0ZrdnB4TVdKdHJpY2FweTQ9
+"I'm pretty sure that the first sample didn't come from a native export but from a phone image. 
+
+I wouldn't be surprised if it came from another forensic program, but since cellebrite is what's most commonly used (at least in the cases I get) and other pieces of discovery related to the same phone came from cellebrite (they have the typical Cellebrite ""Extraction Report"" header), I thought that that's what generated the sample I shared.",r/computerforensics,Z0FBQUFBQm0yeGNYNU80eTYyYnlJYXhNa1BHVU04S1ptczM2dEVMWC13ajlDOGtWOVpfcTg5NzkwM21ET180YWFBZVBQeWJpUkxRTkF3cWJXTGwzenV5U1J1QTJrUnozaXc9PQ==
+"WhatsApp can be annoying to collect from. Sometimes, we just have a custodian export a chat thread directly from the app, which looks like that first sample you provided - txt file per thread with attachments seperate if desired.",r/computerforensics,Z0FBQUFBQm0yeGNYaDdDOFR2TmFjVUFORDByMktpZk9nSEkyZE8zcVprNUlCREtHdXdpSjJSTS13bU1zU3J2bjVpeUF2Slk3SThrd0VNTDFFLW9vVEN2ZVcxSjl1WXh0bVF0aTBKZUpxU2UwamJ4WXFjNkMxTEU9
+Possessed keyboard. Sorry.,r/computerforensics,Z0FBQUFBQm0yeGNYVXZqMUlFLTFCUEZILVk0d3BOVnNmeDAybnpZTzJITkdiNldldUVhdDhneGdMUzhVMHQ1U25zSGVkVGFtYnVueEh4ZGYzdnhmaHU5dzItbk5qdnNLRkVGU3BFWmJPNDdKM1BkSEhTTG1CVzg9
+"As a collection tool it's pretty good, there have been a couple instances where it did what nothing else could, but would fail at simple tasks. 
+
+I have had a couple positive experiences with support regarding getting specific sources, iOS versions, etc to work. While I was waiting on other solutions to respond Magnet was actively assisting.
+
+I would consider it a solid secondary/tertiary tool to have in your arsenal, depending on budget. What are you currently using?
+
+(I'm in a non-LE, 80/20 Forensics/eDiscovery role)",r/computerforensics,Z0FBQUFBQm0yeGNYS0lLaWN3OVVCcWpieS0xWDRRTUFCbXdHS1c4dU5ONjVDbW1hVXFqem04Uk03MExxZWFTb3dfU1M3MmNTTk56OFlWZ2dMVGpBTl9NZy1OZlJUX2Uxamc9PQ==
+"I just did a Whatsapp export from my phone and it looks very similar, but the format's not exactly the same:
+
+    9/21/18, 12:00 PM - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+    9/21/18, 12:00 PM - John Doe: <Media omitted>
+    9/21/18, 12:01 PM - John Doe: tu primo montó una inmobiliaria
+    9/21/18, 12:01 PM - John Doe: en London Bridge!
+    9/21/18, 2:26 PM - John Doe: <Media omitted>
+
+The main reason why I would like to be able to get Cellebrite to export the chats is that the Export process keeps getting stuck at one image as it populates the report's ""attachments"" sub-folder. The expert that did the extraction shared with me that they've never had as many problems as with this one (1+ hour to just open the extraction, cellebrite just shutting down, export running for over 24 hours and stuck, etc.).
+
+At this point, and after running a few tests on my end on other extractions that I have, I'm having him try doing an export with the option to redact all images checked, hoping that cellebrite doesn't ""look"" at the images, but just creates placeholders for them in the report. (Before you ask, I can't be in possession of the extraction file itself, since it contains sensitive information.)
+
+Thanks for your persistence!",r/computerforensics,Z0FBQUFBQm0yeGNYOFUzcUQyOGpFdWsxUGtidEpPUUptdWJNOUNTdkgzTmJ5ZE1xQm1XeWU4bGtzN3V3eGdRbW81M0N5Yk8yX2RINjdHWl9iZjZLTmFVYk9SYTFsa1lPcWc9PQ==
+"Perhaps it could be a result of generating an export of messages via Legalview - The Cellebrite PA addon. It generates RSMF and/or load files. During the load file creation, Cellebrite generates natives of the chat thread. I don't have an example available, but the natives may look like your first option. I can't say for certain, though. Just speculation.",r/computerforensics,Z0FBQUFBQm0yeGNYT1N4VS1BWmVwUzR4VVgyTzROYVd6RmlsbThfVlpONEh5S21BamFfbWF3a2pxOXBnVlFvN2c5THlIdjlWWV9rSGNtMkpTSzVyd3BaSnRqTWlKTl82eXhGTk93T2JiVGo5UDNHRzhVOTlUaDQ9
+"There are a several ongoing attempts to make AI generated content identifiable. For example, [C2PA](https://c2pa.org/) and [SynthID](https://deepmind.google/technologies/synthid/)
+
+These will inevitably be defeated just as embedded DRM measures have been. However, there are different incentives and stakes at play, so maybe they'll get more mileage. Hard to say. And, of course, it will always be possible for people to generate content locally, thus bypassing any service that adds a watermark.",r/computerforensics,Z0FBQUFBQm0yeGNYdEJhNUphTmtfTlMzVnB5Z0syZ09EYzIzU3FhZVVTUHZBLTBvM1RXd090YnJ6TXo3N2RiT1l6YWkzM3o0SVpDQlZlbDZubDdoUDJNN05ybV84UmdyOXc9PQ==
+I've never done one. What does a forensic analyst do in a CTF?,r/computerforensics,Z0FBQUFBQm0yeGNYLXFTOHJoSzNrdW9TOGJVRFFRb0VsYXl0bGNpTTQ5NFlhR0czZUxBd2haX1FuNmxYYm1wZTM1Tmc1MDlkOTlmVlpCWUg4TDFrUEk3eGhrSlBuR0NSRU5mRlFNOHYwNktNWEE3ODRLOXlBSjQ9
+No using forensic email collector from Metaspike,r/computerforensics,Z0FBQUFBQm0yeGNYenJXR21RNjBzUVJyVW96bGRGVkZtU0JpTnFlZUt3MFY4RHRvQmtOVVJWdjVkbkwtUFAwaGtOVFI1ZTNBYUNMbUJqdnhZNUhBeWZ4dElweFM4N3ZqWnc9PQ==
+Thanks.  I’m at a boutique firm and occasionally we get weirdos that think the CIA is hacking their phone or someone is deepfaking videos about them.  Always some crazy person with tons of money to spend on pointless forensics work.,r/computerforensics,Z0FBQUFBQm0yeGNYbE85QWI3UU1melhMU1dJbzQ0ZGRPUFVwRDZhZ2ZRTFdPeTBXcTNBZ1F0R2IwNUhtMlFjdEVMNEFTRG5HUnNfWHMycld5M096bjZmVHd6Tzdhb1pqc2c9PQ==
+Message Crawler works well.,r/computerforensics,Z0FBQUFBQm0yeGNYZHVpaW5MSUJUTFNaTHJpQ0lYc1Y0b0R3UG5xaXI2N1dMVnFad3RnazlFZ0NYWngyM3VDdU83LS1DR0xxenlYeFpIRXNnRVlNU3NTYng5aFZ3ZGNEc0E9PQ==
+MessageCrawler is the most flexible tool out there and supports the broadest types of data. Plus you can load in a DAT or CSV of just about anything. It’s a Swiss Army knife which can take a little bit of practice to figure out but once you do it’s great! Plus the developer is always available to help you out.,r/computerforensics,Z0FBQUFBQm0yeGNYckFCR0ZFUEVCel9LbGFVakVBbU1DOUdwY1RoWWVvdXZuZkp2WktiWHdzM3ZYbW52ZEZEdDNxWEI2TVc3aFE5WTNKbnc4R1F2dm9VbVFxbXZJaEFVYUtqbDdtdHZWMkE0TTV4WmZuWTlfS2c9
+"A few ideas:
+
+1. If this is related to your security implementation, the first thing to try would be to run the same test acquisition outside of the environment. If it succeeds, you have your answer and you can talk to IT further to get to the bottom of the issue.
+
+2. If your test accounts are on Google Workspace, it is possible to disable the use of Drive API there. We can walk you through where to look in Google Workspace Admin.
+
+3. With the new Google Granular Consent, it is possible to give an app partial consent. So, you may be inadvertently not authorizing the Drive scope that is needed for the collection. Recent versions of FEC support Granular Consent and detect such a scenario automatically.
+
+If you are working with test accounts, feel free to reach out to our support and provide a limited token. We can run a test acquisition and report back 👍🏻",r/computerforensics,Z0FBQUFBQm0yeGNYc2xwTmdkbk1sMWNmeVZ0SEs3d016Q29fTXFfV0UwaC0xeV85UEpCVE1Wc0pidzh0clN4VWgzX09GU2o3cF9mMExBNFFNc0xLR283YU04VncwUzJkLUE9PQ==
+This sounds worthy of some testing. Maybe spin up a virtual android running the same aOS as your source device? Curious to hear what you learn!,r/computerforensics,Z0FBQUFBQm0yeGNYbnVoTTdneGRLN3pfX0NaM2ZadWltWWUyQnpxenVoT2ZZaGhmSDNLWnR1ZnFrazdfYy05ZTdiem5TNEUwMFI1SEppaEJxSC03cjFuOVFLV0djMkF5NzRfNzNYZkUwSDlXcFNtLXRZcXhzOTA9
+"Not a plug, but I believe this is what [Medex forensics](https://medexforensics.com/) specializes in. They apparently use the file's structure to determine the source of videos.",r/computerforensics,Z0FBQUFBQm0yeGNYNC10dndTdWcwOWp2MjhPaHladl9lX1pPNXFxbXV5SC1UMUdpS3R6RnEtb3ZnbDF6ZS0wWUVxQktPVldmTFVwc3RLcS1hcWxrZXdiWHRHTmxid0laOWc9PQ==
+are you able to try from a machine not behind zscaler? the boxes where we run FEC sit behind zscaler as well and I know we've been able to use FEC to collect GDrive.,r/computerforensics,Z0FBQUFBQm0yeGNYa21OOFE0bWQ5WXNnbWxPcjBhSWtobk5Ta0c2c3ltTXl1OWJ4YzBwRVMwSzNvT2NKTGtoSnZILWRuS2dDUzNKZDdUVVUzRkFwTEoyRkFqVmJpbEIwXzM4RW1pd0VMbEdRcWlrMFQzOUJ3LVk9
+DownunderCTF was last weekend. Full solutions provided in GitHub also,r/computerforensics,Z0FBQUFBQm0yeGNYeDNkR1hGWG5yOW9oaDU4X2M1ai1meGxoLXMxRU96c1VnMUp6c0h2ZW5QWXZhZko5Z0tBSmtQR3gtaGQzaERjQjhQSUdyYUdEN19kUk0wSGljTjZTaDJ0Mm9lY1ZITkJDRDdpVzZfVmdoZk09
+"Thanks for the share that’s a good list… I’ve done the Magnet one once before, it was good.",r/computerforensics,Z0FBQUFBQm0yeGNYWlN1V1dwbmI5NUpfWlppb01zaWVXLVM2NnBZZFY4bXZfYzA0VFFjNU91NWprbzBWbTRjZmV6eUE2NTRfQWFEc216dEs0dDJCazFqSzBkVEhLd2ZGS0E9PQ==
+"Similar to regular CTFs you have 2 types: 
+
+Jeopardy style where you would either get a disk image, memory or sometimes even pcaps and asked questions which are submitted as flags.
+
+Secondly live fire ones, where you get access to vulnerable network and asked to respond in real time as threats are introduced. This is more of log analysis and incident response than disk/memory forensics but there maybe some elaborate ones which are conducted over a period of 1-2 weeks where forensics might come in handy.",r/computerforensics,Z0FBQUFBQm0yeGNYVVZJQ04taWMxNUxiYkhRTGg5akt5X1E1VGtxaTluVXpBcUZON1ZWTWg2RFh1dUZuWnVJbkpEYUttQ0FsbUNlV1dlTzZQUTU3UlNvYjhLSjc0cFNWNHc9PQ==
+Have you been able to collect I cloud back ups ?,r/computerforensics,Z0FBQUFBQm0yeGNYM2pteHhfbldlZ2lPY2RKb1hwSTR2ektUN1NDdWJ2Um1OdnFWSGRhN0I4YzAyN3RuYlFnUDlleW5iVmZyMEVCTGdsRWE1bEN0c1FibV9JdWhUbVJpNnc9PQ==
+"I would check your lecture notes and other class material, I'm sure your teacher went over it.",r/computerforensics,Z0FBQUFBQm0yeGNYXzNWbFJOWm5JMzh5b25UUXU4TXRKY2tzZ05BQmktWEZHaFA5QjQxYXA1d3IzZW1WaGw5SXBOZGJDaUlJOHlGOGZ5R2RBVW5QWGZ1MVNlRVF1WTN5dFE9PQ==
+No unfortunately all machines here are tied and tight security I have my own personal rig at home but can't fork money for the license lol. That is good to know though! I'm just not a big network/ security person I know enough but never had these issues before.,r/computerforensics,Z0FBQUFBQm0yeGNYN0M3NHVqejJod0VSZHEtQXlvaHJQdUJMSXdXYThVU3BMZlJrNE0wS0FQS1ZVTE1xZ29rZXZyenFDS1dESm81M0hPQ1FYZ1ppRWRrN3VzLTdIVzZvSGc9PQ==
+Are you doing the export into what format ?,r/computerforensics,Z0FBQUFBQm0yeGNYdnN3LVlqLUMxQVo3WmlodlN2dHlDcFFoZ1hFZG9Pa05lV3JvTk5ub0tjQzR2MEpCWkczaVJNS09Ja3lXRmktS3V6SUFBcXFJUEtYRy0zUURjQXNnQ3c9PQ==
+"I've exported in excel, pdf, and html formats. The auxiliary files seem to always be the same, including the chat-xxx.txt files in the folders under the ""chats"" folder.",r/computerforensics,Z0FBQUFBQm0yeGNYUDlDc19qd0t6cEYtUXg2Mm5wOWtZSHg4MU1Hb0VzNzRMYU0zUWFFc2wyN3Vlc1RBNDUtWXVhT2JRNHpmNzNEanR6R0g2YmYzODBMQnVhMTUxbTE3Wmc9PQ==
+double checking this :),r/computerforensics,Z0FBQUFBQm0yeGNYcXpqbllGekNzM29iMDFkZFNpbVVrMnlaOEVhMUs5YkxJV1BCOHNrRW1iaGU3S2dLNVVScHI1VDJoN3ZDUFF3bzUwWWpMMnBWTkxJQXpDRThyTUFzdVE9PQ==
+"Analyzing the filestream itself will only work if you have access to the original file from the source. If you got it from any social media site, video aggregator, WhatsApp etc., the video will have been re-encoded and compressed, causing any potential info or signatures in the headers etc. to be lost. Best way is probably to analyze the video by its content instead and trying to find telltale signs of AI use, such as incorrect amounts of fingers, morphing body parts, nonsensical objects etc.",r/computerforensics,Z0FBQUFBQm0yeGNYT2JTeHN6aVZicTIxU05zWi1mZWN6RVdEZWlMRUd2ZXlXQ0pFSlI4M1ROY0oxQXZiTjNZX3YzTFBwLVZkam1RTTc3RU5mazJBU3kzVm9LVFR1RzcwU1E9PQ==
+"Axiom recently added the feature but it kind of sucked. I don't know if they have actively updated it since 8.1 dropped.
+
+Cellebrite's is a paid add on but it works.",r/computerforensics,Z0FBQUFBQm0yeGNYbzN4bGRncGNjX204Q3poNGxIRVl1SWpmaDkxd1hmc1pvZ3VscHhONkMzdnRnLWFhS2dma0R2YTdOLUh0c054aE8yZ3lYd1ZYekRCWC1jbkZERVk4TVYtQ2FJcS11Mm1tV2x0WUdkdGRUMFE9
+"If you can get access to Magnet's Copilot (idk if its a wide launch yet?) they have integrated Medex AI image identification into Axiom.
+
+It works as good as you'd expect, but it sure is better than nothing.",r/computerforensics,Z0FBQUFBQm0yeGNYY2MxWmRlVW9qSU9oU2dYTEllLTZscWpCTEY3WmNlbzNDeGNqWk41a0hnYUVkNkRnTlJuMGFKMlBsNGV4ZnZrVk95ckdGdnFTQmZCd0lrS0J3R0NmVy1QWmFqR0ZvbXByZ1RSVXkzTEo1a3M9
+Agreed that Cellebrite’s RSMF output works well.,r/computerforensics,Z0FBQUFBQm0yeGNYZ3k2RXdIUkx2QjBHcHprNlFsbVBlQkRmUTZUbkpuLWliUkg0MkRoQ0MydWtDVGtUN1NiQUVOZHM2T0dEZkVoY1RlUGd6RU1ydy1CcmJFQjJ2TjZPZ0E9PQ==
+"If you're wondering about mobile devces, I recommend you take a look at Magnet CTF and BCellebrite CTF when they come out each year. Magnet usually comes in March or April and Cellebrite runs some other time during the year. Belkasoft is also a good one. They have records of all their images so that you can try them out.",r/computerforensics,Z0FBQUFBQm0yeGNYWUZtM3ozLWhwc3dWd1k2Qkhzb3pfdE1QanVtVEhmOGtwTEdERnRZVFIyMHN5NzJmOFgxbWlPNnQ5dThJaGNzNUZ0OEVKdE1scktFME9wbkJnVzlYQ1E9PQ==
+"At the most basic form, I just take a screenshot of the AppWiz.cpl screen and paste it into whatever for customer. 
+
+A much nicer way would be to use MyUninstall or UninstallView free tools from [NirSoft.net](http://NirSoft.net)",r/computerforensics,Z0FBQUFBQm0yeGNYLVJ0MnpvQTJIaWItSFJaay1seHlQeVEtOFlKV2wzd0Vlb1ltYjZOYlFVUk5IQ3UwVWUzNG50TkN3M1JsMnNMZGdSVXlmLTd0T0J3VUt1ZmxydlZuRmc9PQ==
+Post is an accidental duplicate so it’s been locked and removed.,r/computerforensics,Z0FBQUFBQm0yeGNYMzFWeTB1R0I2Tkw4UldGaEVIOG9WempSTE5odi0yeUQ5YmgwcGVOOURHcjdkc1F3dUl0bnpOSVE1ODNoTm5JenRXWVVranJjVVZZemFNMU5VTHBXcGc9PQ==
+"From defensive labs like Hackthebox sherlock, you can get a good experience similar to the real world scenario and you can get a good knowledge.",r/computerforensics,Z0FBQUFBQm0yeGNYTm9fdU5adDkwaENwTVh5Q2JrQTEtcmxrRG9scVY4QWdnVjd1Umg4WGY0a082d011S1psbW1lMDQwdEJHemdXZkFfcEN3Ri1yc1VSRWp3ZkNBTWk0OHFadHFLYWNPTTJJN0JiYW9ySllTNEE9
+"We use Message Crawler, mostly because it will create RSMFs from a wide variety of sources (whereas cellebrite is only from mobile extractions).  It works - after enough attempts - but its far from perfect.  I’d love to try out the export to RSMF in Nuix Neo, as Nuix is one of our main investigative tools, but we’re on 9.10.  Likely to resist the Neo cost model until the very end.",r/computerforensics,Z0FBQUFBQm0yeGNYU2g2cWVISDdDcWR4SXVGMHhzWDNyQlRoUHluOHBsUHFqMy1RdTRNV1Q4Vlg3b00zcDV3Si02TmItQnJEclIyc1c0R0NJVUhnRHQzMUcwUlp3YndFSnc9PQ==
+"Shame those rsmf features aren't added to the lower price points.
+
+Sigh....
+
+We use MC. It can be quite a beast to wrestle with at times...",r/computerforensics,Z0FBQUFBQm0yeGNYTFZvQXVzZ1IwU1JiY2w3d0toc3BLNEg0Tm5XajZEQk1tUmtBRUp5cmw1Ym9STnBwT3lqT2VEc0VacXhJWU1obFlETmZCakVuQU5SLWh5WXpKcVhHcjV4UU1yeXl1TVN1SHBXeF9wUC1LR0U9
+"To recover data from the hard drive you can try on data recovery software like Tenorshare 4DDiG Data Recovery can handle all manner of data loss scenarios. Dropping link: https://4ddig.tenorshare.com/windows-data-recovery.html
+Thanks!",r/computerforensics,Z0FBQUFBQm0yeGNYbkhmVlcyd0M4VkZLMVg0VDdQMlhoY0Rta0JOVWYxZFRJZU5jZlpSNDFsWk1PZ2VEZGRvemZidlpqMHFnMG05SzFqOTVPQVRYRFdzZS12UGFaVmk4Qk5tRF9nZ3hldkJGZXJGekJRdlAxbDg9
+Legal view works well but message crawler has more customization as far as export settings,r/computerforensics,Z0FBQUFBQm0yeGNZS3hWMUFBcU43MHlKZFotZnpmQ3llTS12dFB4cWZEUE9CNTFyMXJxTzhQbWJoRzF3X3Foc3VJX0RkWk5CZWpsWDVNV040bkJSdmZaUFRIbFJUVGhSanc9PQ==
+We tested it against Axiom and it found quite a few less artifacts. Could be a one off issue.,r/computerforensics,Z0FBQUFBQm0yeGNZbkpKWHZvVndMeHNCZkhldzAzcVcwRWFnNzRNSmFFUi16cXhDdUxKRWJmTlc2U1lheTM2ZlVNY1BfUXBubERrQlBBUnhGd2JnQ1JxTHRhQ0tEb0VCZWc9PQ==
+"Data recovery posts go in the megathread.
+
+Your post was locked/removed because it contained a question that is specifically addressed in our FAQ. To avoid this in the future, please read our [FAQ](https://www.reddit.com/r/computerforensics/wiki/faq) before posting.",r/computerforensics,Z0FBQUFBQm0yeGNZdjM2YndBaW1BSFozVG1hVzJOMUx5SENvSl9ndk5FRlNwV3VfQUZtWTV2S21VbXhIZTFBM2tiS01yaWVfZlIwMmFfRW9odDNfZlFodU5LcHFxbmIwemxVWVR1YkN4NFZhdTJ3U2hBWmNkUkk9
+"Hello all, I have a specific question:
+
+I deleted a text message thread from my phone that I really need to recover.  I use a Moto G Stylus 5G phone with Boost Mobile as the carrier.  The default app for texting is Google Messages and I have never previously backed up anything to Google One or any cloud based backup program.  I know that Google says that once they are gone, they are gone, and there's no recycle bin or trash, but is there any way to recover them forensically?  I have called Boost, they can only give me call and text metadata, but not the texts themselves, and I have tried to contact Google with very limited, unhelpful results.  I've also reached out to a handful of private investigators, who have been up front and honest, that it's pretty expensive and either may not, or in one case, will not work.
+
+Just hoping beyond hope here, but getting discouraged.",r/computerforensics,Z0FBQUFBQm0yeGNZMjNvaUh2WlV3ZURJOGR2Mm9PUU1xQWFaamFjVGJUb3BLa21mYVEtRWNLRFJUeHotMVZTTHZReE82Tl9LTUNzQkZTb1R0XzNTbzVDVVNjeVZQVmpFd2pjSEJxaWduMXB3OUJUdXp5ZHZob009
+"I am having the same issue, tried that tool and no luck",r/computerforensics,Z0FBQUFBQm0yeGNZdnVCeW9rUDBkTFFSNzdRdGVSR0ZTTl9VNGg4QjFfeG1lV0RVWjBCSms1ekJULVZmTVVvRUtXVzBVRlI5anljUElBRm1yckx1Slc4aHMzVUkwc3VPX3c9PQ==
+"Respectfully, can you explain and elaborate? What do you mean by having tested Verakey “against Axiom”? Was the test device Android or iOS? Which artifacts were missing? Thanks.",r/computerforensics,Z0FBQUFBQm0yeGNZbmFfSFJPUDFuRGRnVDBYYmY5cnIwVmZ0U1JpSGhvZDFkX19ldUZnV0NEbVdfREFnMUphSksxbTd4S3RfeXdRT1BwTU41TG1PQ3RJc0l4RDBKR1hxT2c9PQ==
+"Are you reaching out to attorneys?
+
+Defense attorneys, divorce attorneys.
+
+One guy I know did a phone for a rush case over a weekend and charged $3,000 for the quick turn around",r/computerforensics,Z0FBQUFBQm0yeGNZSHVSWjhHZ2FLOFlaVi1lcW56TThxMFIxOGlpcVpMOE1RTTRyWUVxSk9FVEEzM3VKbjFLem9BT2RlTC1teFBrdXhEWC13MDlqLTZPOVc5QVJiUG1tVmc9PQ==
+I have sent cold emails without any success. Should I send mass advertising physical mail.,r/computerforensics,Z0FBQUFBQm0yeGNZUHpEb09McXdIQzhfSUpIeUd2WEVsSV82ZTFOUmd5R0FTUjJDM05EbGtTdS14aHVuZWd6RXZhR1pCMHY0T3JsSnc1cjIyX0tOUjdKZGl0RXktZFZnalJ1bzgwVGljQnlkajFjOVJwMlgzdjA9
+"For the private sector, I think the newer Cellebrite Inseyets is a better deal. Unlimited unlocked full file system extractions for both iOS & Android, better Android support and the ability to buy unlock packages. 
+
+That being said, I love Graykey.  It's my understanding Verakey doesn't include unlocking options. If it does, then I would lean towards Verakey.",r/computerforensics,Z0FBQUFBQm0yeGNZT0dxajhZOS1NeGZTNm00bG5iTVJjSV90bWpjQ2dFYmt5aXRTNWk0cTE0aDFDY00ydWRBZ192NXN1QVJUNTJTakJWMnpXNDQwYUhFWlhlX19UNUZ5RFE9PQ==
+"I mean... there is a chance it could work, but it's very likely something that would take in the thousands of years, or even longer.",r/computerforensics,Z0FBQUFBQm0yeGNZNTZMRGhUU292MjRFOVdiRlZPTnUtZUNPSm4wNGNuNGk1VFkwU2JEX1c1NnZNdExJTzZxclFvak4zWkNpZzNXSjVraVBwTkljMXlLd2YyUmRvT1VSRFE9PQ==
+Are there any other options?,r/computerforensics,Z0FBQUFBQm0yeGNZRm45Yzl0cjhucUQxV0p0ck95WGNKaVNvRkZ1NUFnamwtbkpuTGgwZ1RiSGxWOEZWbnhCRlBZSUdUZnhmMjU5LTNqYVJ6aS1UeTNJRkRPTDRxSVlIcmc9PQ==
+Thanks for your feedback. What's the current ballpark cost for Inseyets with unlimited FFS extractions? Verakey is currently $10k for 25 and $14k for 25-50 and (I think) $19k for up to 100 and then somewhere around $30-40k for more than 100.,r/computerforensics,Z0FBQUFBQm0yeGNZQXJIdTdXNnRzMWhVaklJSUl1MU44RF8tbHRIX1J2YVF5ZWQ5VlpKS3M5ODY5SktuRThaUFBIY2VWRTF5LVRMcFdNcmc1UzduUXhMUnduN2Vjb1FuQ0E9PQ==
+Quick question how do you get around the legal issue for passcode unlocks? Are you having them show ownership and sign documents?,r/computerforensics,Z0FBQUFBQm0yeGNZcWxXZC1OdkNkUEk1WW5nRE03WWpDMWppZjRSbTZVT3ZJSUlBVVJrUUZCR1Y4cmxIQ3JUWnh5QWVsOVhFanRPeFd1ZEw4Z05RSjBHME1HXzM3a2VvT1E9PQ==
+"This is really a data recovery post. Read our FAQ.
+
+Your post was locked/removed because it contained a question that is specifically addressed in our FAQ. To avoid this in the future, please read our [FAQ](https://www.reddit.com/r/computerforensics/wiki/faq) before posting.",r/computerforensics,Z0FBQUFBQm0yeGNZOWtrMkNiUDFzZmpEcHJpUVV1RDFPQlM4anBESmxtVnpnX1JodnhUQlNQNnhWTXoyOElXVGh3U2JLR1BwNDBlMXBXU05rQ09vUjRfNFZaZTZGQU5TQTgzRVFaWXFnUmxhOXhjMmJqZnVzekE9
+"Proof of ownership 
+ID
+Sworn affidavit 
+Next of kin
+Death certificate 
+
+and after all that I talk to them on video call to decide.
+
+My weakness is finding business.",r/computerforensics,Z0FBQUFBQm0yeGNZQ2xUREZlZXR0RG94eC1nSnR5MG1rbGZUSW9wRThra29DT1pxVmh2bnEyMVQtSU9KSnZULXMzOHVTcWQzNXdwZi12ZDJYSG5lZmdxaTVPd29JN0dVWV82RHppWHRld1R6Wnp6MW1SZHVWbkU9
+"I'm not really sure about pricing, but I'm guessing they are similar. I really hope a cheaper full file system option comes soon!!",r/computerforensics,Z0FBQUFBQm0yeGNZX2ZQbTVHdkpaLVBsVVJsQ24tcHJVaUtNT1pHMlRlZFFENkZfV0w3RVJraGU5bU9aSU1xQURRWE9nMFdVSHE5N3ppLTlUTFl3THpLZk5Ua01pUTJteWc9PQ==
+"Sure, so this was iOS device. Web related hits were 6k vs 26k, communications was pretty similar, media was 11k vs 63k, documents 100 vs 17k, email & calendar 100 vs 400, application usage 500 vs 44k, connected devices 6k vs 74k, location 1.6k vs 28.8k. All the larger numbers were Axiom.",r/computerforensics,Z0FBQUFBQm0yeGNZci0yMmc3VWJDTjY4WVNlaVNqVFZ5elEzWU4wUkZ1ZDhILUpUX2pFUFZ5bld5Y2ZhcWlOVXBpLXhVU2VwYUt3M0ZNcENUVDRPckxtaGY1NHBhU3N6T3c9PQ==
+"What type of extractions did you get from each? 
+
+Assuming they were processed with the same AXIOM Examine version? 
+
+When you say AXIOM, are you referring to Magnet ACQUIRE or Magnet AXIOM's acquisition platform via AXIOM Process?",r/computerforensics,Z0FBQUFBQm0yeGNZQmNETmR6VUdySEdpT2p5d0w4T3Q1Uko5Y1ROSm43LWstNVBLMDdudGNoWkNlSW1pZlZQc2tJZklnenZ1MTRrRUZUaDBEQjQwV3J0YXJXSFVNdGVjYWY5M01UX3UxcDc3Y2tFblJzWkJDcFE9
+"Do CTF’s. Tryhackme, blue team labs are a good start. 
+
+If you want to do SANS but don’t have the cash, scour their website. Download all the cheat sheets, watch their YouTube channel and download all of their posters. Then do your own research and play with labs. You will be a better incident responder by learning the tools anyway.
+
+So, step 1: practice using the tools
+Step 2. Stress management and learn how to be calm under pressure
+Step 3. Communication skills, written and oral. If you have these and can write reports and status updates you will be a good employee to have.
+
+
+There you have it.",r/computerforensics,Z0FBQUFBQm0yeGNZdjF4YzV2SW96dm9qMlhFZ2IzOERYYVgxWlVMRXlxdjlDdHBpQkdnTnJQQjdrc0s3UHp6NWNCOUpxYndKeXhZYW5BYkF6aEpiQnZxSGVYdzcxa2pMSEk2MU1abE9VRzdZc3FYeUlYTF9GTHM9
+"Inseyets is about €25k for Touch and €20.5k for 4PC for unlimited. The extractions are faster than Verakey - significantly, which can be pretty important when somebody’s waiting for their phone back.",r/computerforensics,Z0FBQUFBQm0yeGNZYUc3YnVRT2lDa2gyM3c1aXBkZDVxa3J4bnBvejh3SEtER3pHNkZzM3hON1RzQlpqOG9LSVNHcGxWeUJfRXRSMV9lNUhrYUpJNkJ1c05SeVp0M0h5elE9PQ==
+Thanks mate! Will start with CTF,r/computerforensics,Z0FBQUFBQm0yeGNZZ0daaVAxUEJoYTU4alhWLWRQNDVjMFRxaGlnRGdIQzQ2T3FzelU1NlRZMUM4RmJnbnM3bkVGUXBOc3d6RENuSnhtWGhTbmlXM3dwNjFZMFh3a1B5bG83bENzRTZ0UUFlQjdNQmR5TzZxUEE9
+"Data recovery questions go in the FAQ.
+
+Your post was locked/removed because it contained a question that is specifically addressed in our FAQ. To avoid this in the future, please read our [FAQ](https://www.reddit.com/r/computerforensics/wiki/faq) before posting.",r/computerforensics,Z0FBQUFBQm0yeGNZZ19sQVFKVlhOeUFPMTdPLVJlZTQxa21yZXYzMThSZzBsMlA2XzA1NG1qNU4yamdESHFoUVVHZklZRUFtSWN0TDRSNTAtc01RcWo2U2UwUFY2QUpuZTNtZk1OaC1Ld002aGt1SVNMMVA4eGc9
+"The top certifications are the SANS certifications and the CFCE, I think.
+
+""Use your e-discovery experience as computer forensics experience"" in what context?",r/computerforensics,Z0FBQUFBQm0yeGNZMlNGTFFHWXRFc1hhbF9IMENwR3Z1cm0yT0hIc2dwanNUOHY0Mk03SlpzYTRvUE5jMGJpTWwwSzlweUotNExxNVVLT2M2TTdydWNBU3REYkprejAxQXc9PQ==
+"Just having UFED, PC3K, etc. doesn't make a forensic shop.  
+In order to grow the business, someone is going to have to take a chance.
+
+What would your depo look like when they start asking about specifics in a case?",r/computerforensics,Z0FBQUFBQm0yeGNZR3pfekIyanRyQUNkV2FSLWdSTHpvY0hrTVBGSXVpelNNdWd5dkFoNjh5NExSOGstZ1lwQUhhcGxYNFlHMnp0R3YwN0FKSG52bHczZW1zYnowb3FNUFg3TU5zN2pkUnU1UUNJRTdkakwyQ009
+"You can use any type of experience in digital forensics You just need to know how to adapt those into the field. When I was younger applying for jobs I would say I have X background and I can apply that and give you a different perspective that would help you and your company. 
+
+You have to learn how to sell yourself. Being unique or having a different background could be good but you have to show the company how it applies to them. For example you could say if we get a e-discovery case or you want to expand and to eDiscovery I would be able to help. 
+
+When you ask what are the best certs The main question is what is your objective. Are you looking to learn, are you looking to collect certs like pokémon, or do you want to start that's recognizable in the field. If the objective is to get hired certs aren't really the best way to go.",r/computerforensics,Z0FBQUFBQm0yeGNZb0hyb3pDMmhVcTRYcnFPc2xMY3BhazY0RDg4UVJIMnM1SGl6LUk5Sm9DdWFOa1oxaHdnVjZ0ZmRXQTd0R0VzcFowVV9LbXA1WEJWdFBUNDN0S2dLdXc9PQ==
+Is there a place to learn more that you recommend,r/computerforensics,Z0FBQUFBQm0yeGNZZFNhSTdsNEdpbHNPemc2Yndoc1c4cFQ0a0ZOUWVzY1BrVUtPcHJJbW9FNHN3SHBfN2dwZ1JQZGRKeUp4TE1ucHE2Z1loRDFOT2pTbnhlZ0NibzFFcFJQcU9pbloyQTJDN3RUeVUzWXVSQ2s9
+"In order to answer that let's look at it from the standpoint of the person you want hiring you.
+
+Say you personally are charged with a crime and the data on your PC, cloud, and phone can all prove your innocence.  
+
+Your attorney hasn't had to use a computer forensic person before, so they google computer forensic examiner and call them.   They also find your company listed as a company who does computer forensic work.
+
+When you are interviewing the 2 parties so you can retain them on your case, what would you want to hear from them in order to believe they can not only handle your case, but also have a really good shot at winning your case?
+
+The answers you want to hear from them is where you want to start.   
+I've taken the PC3k courses in Canada, and they did nothing for my CF side of work, although the knowledge of firmware, boot sectors, PCB's, and drive mapping was interesting to say the least.
+
+I hope that makes sense as a hypothetical.   I can try to go into more detail if there is something specific.",r/computerforensics,Z0FBQUFBQm0yeGNZME1GNkxQRm1zR1hQa29iSVhtNTlxTnRWZkpMRnotSmVMd0dzYzJ5ZEU2Y3ZvamE4WklZQXAzdHZVLVpiVHVuanRWQmktR0hoODN0N1FLNzMzMzlGVjN4RFBOTl9oOXV1ek81aDNrQ3VZbTQ9
+"I had recently done some testing on this. 
+Pending messages were in the database.
+Sent messages were in the database but did not retain the fact that they had been scheduled to send. So fro.the work and research on the database I was looking at , I was not able to tell. If you find something else, I'd love to learn.",r/computerforensics,Z0FBQUFBQm0yeGNZRnUwb0tLb1F0YTBYR2RSOVEwdno2NEZEaUJzdmhLeERpU3lHenNqbmtzS0FZcHpXNjBFSDhhZllTS3lKV1VMajFhcHNONU5XLVBCclMtNWo1QjdyMUE9PQ==
+just execute any malware in your environment and you’ll get the best experience out of it 🤣,r/computerforensics,Z0FBQUFBQm0yeGNZMUNxbTlVSmxNRzlBSzVZLU1YbHNaa3FoWlJJaE1PSXNrMkhJVzB5N0UzMm1pMXNVM0VBMmlZb1otcWZhUldZeF9uT3NwUm0tM3ZZT1ZwWVRUXzdRY3c9PQ==
+Define basic IR? What type of alerts are you dealing with at this moment?,r/computerforensics,Z0FBQUFBQm0yeGNZN0pfaG5jVTJoanBEZzZzT09wSU1tZk13VjNTUm1pYno5X0hOWUtIalZzRTBIWGlOM3IzbTRBOW1Tb3pjODBmdURTVTBLSktPVUdNTWhsMzQ5Yi15d2tQenlYUU13cGVFcE05UlBwYkZuVUE9
+"what you're going to find is that there really aren't many of us in the industry. There's no solid pipeline for dfir work, but the work is there if you're willing to do it.
+
+if you can't go the gov route, next best option is MSSP, vuln management or SRE, try to pivot that way. 
+
+once you're in, you're in, dfir skillsets and the willingness to do the work is rare and valuable.",r/computerforensics,Z0FBQUFBQm0yeGNZeHRhSzJ1X3pCbWZ0N1RWY0E4YWtra0Y2aGZWVkg2ODZCQzVxejVsOEdMdmgwWWt4cFpvcXgxZF9QMW9fWVdUXzVoUzZ1TGZQclJaWTE4eUlNUjdremc9PQ==
+"In terms of alerts, our EDR typically notifies us if something is executed or if there is any suspicious process. We usually check the file path, associated hash, and command used. Sometimes, we verify with the infrastructure or software team to determine if they initiated any actions.
+
+In terms of Incident Response (IR), if any malicious activity is detected, we need to contain the host and examine the logs from our EDR to identify the root cause.",r/computerforensics,Z0FBQUFBQm0yeGNZQXZzc3BmYzBQUFJBcWhNVzBPOGZ6Uk9MaFFxUTk4dXZacUgyMkpxNWcxN1NOSV9KRzJzamU0aTlOczQ4RkFQZ0l5bkFWc1NJM2ZtQmxudGkzUnNJXzREMjM0LW9EMHAzTXVqa25fTURhWjg9
+"I would caution against relying on the file path and associated hash to prove benign unless it was a detection from the hash based detection engine. If the behavioral engine of your EDR indicated suspicious behavior, that should have more weight.
+
+The process could have been injected into by another process, loaded a DLL via search order hijacking, or otherwise been misused. 
+
+I would recommend Zero2Automated and Sektor7 courses (covering Blue and Red side of malware). However, there is a significant amount of information for free if you look into malware reverse engineering on youtube: John Hammond, MalwareAnalysisForHedgeHogs, OALabs, etcfor example.",r/computerforensics,Z0FBQUFBQm0yeGNZLW1sQkhuMkpjV1E1NFV4cTdGTHFRUVkwNGV1ZjZBMlczbHV5c1pZV2hPbXhwYWVtdk5iQVBhM19pYkxzWHFHd0pIcVp3bG9veGpyNUxxS1UyUFUwc0E9PQ==
+It’s not unlimited with Cellebrite. We got a 50 license pack.  Apparantly there’s a separate package to buy licenses for ffs on phones with no available passcode but their sales folks did a shit job of explaining it properly to customers.,r/computerforensics,Z0FBQUFBQm0yeGNZYVNNenBTbmk5T0taM0RSNGpBaFpiZXYwbU5kSzZXUEk4S1I2Vnk5dFZobVVJUGg2SHFvMkZsSW5zdlNrZTVFbUhGVWhaam10MlVFa3VoSVRBWWNUNnc9PQ==
+"For Computer Forensics (at least, what I mean by the term), you need to get closer to the software and hardware.
+
+Those parts that can done by searching documents and their metadata, you already know. But you (probably) also need to get security architecture under control, so you can answer if user U could have access to file F, directory D, registry content R and so on for all controlled entities (I'm thinking Windows; translate as required for other platforms) at time T (or in some period of time). Access control is not well covered by any of the usual books or cert training I've seen, and forensic tools tend to bypass it altogether. (Things change, though, and might have done so recently.)
+
+As well as other things, often related to malware (and non-malware identified as malware by overeager anti-malware products), and not infrequently related to imaging and data recovery.  CF is also (I believe) more divided into expert fields: a Windows analyst is not usually useful for other platforms.
+
+The purpose of computer forensics is to answer additional questions than those eDiscovery addresses. 
+
+For Windows, I'd suggest something like a sysadmin cert from Microsoft, possibly with security engineering added to it. (Those existed several years ago -- a quick glance through Microsoft's certification does not identify anything obvious, unless it all is subsumed into Microsoft 365.)  This will help you understand corporate IT environments, where things are not the same as in personal systems.  As always, time spent in sysadmin roles and such are probably more worth than any forensic cert.",r/computerforensics,Z0FBQUFBQm0yeGNZbFhNbmk0VE1PR1pfLVczR0t0ZUtHX01ILVpmcHVDVnh5bUNHRDJkdVN4VG5TWXRaeXlpQ193bERIbFBMVy1HQXBXMFZEQzJDbUFWRkZJaUpBU0xGYXc9PQ==
+"Thank you for taking the time to write a well explained response. I'm going to think about all of it again. I know I have a communication problem, so this may not be the field for me. I should probably stick to phone repair for data recovery purposes as this may be a long learning ride to become good in DFIR field.",r/computerforensics,Z0FBQUFBQm0yeGNZRVprMXNhbHAtNFVncTRVTHVrYnQtemNjRjlaZTA3RlZ6VmxrRTRmSkF6X1BWWTk5a3l4ZjV1VXVtcGRpdEpXZ3JiSGNWY3d3a1JkYXRWbEY5ckZtWkx4SURxN3ZORXp4UjVfa3E5bUZyWEU9
+"Im going on 6-7 years in dfir and to be honest it is hard to get 'real' experience in the area without living through an incident. The biggest thing I have noticed when it comes to the work is the fact that you just need to be versed across everything because you never know what your going to be given. My route to dfir was helpdesk for a number of years whilst studying cyber sec and then applying for a dfir job. I got the job because of my years of experience working in helpdesk so my boss assumed (in which he was correct) that I would have a very good understanding of what an endpoint should look like so when I get something thats off I can see it / pick it up straight away. This has worked for me thus far. 
+
+  
+CTF's would be the next best thing and I love doing them, but they are generally far from the 'real' day to day stuff. So if anything, I would say make sure you stay versed across all systems and get good and identifying what is normal so that you can show quickly what is not normal. 
+
+  
+Although given the money you currently on, I would just stick with it and continue bettering your skills in all areas and focusing on something specific that you want to pursue as a hobby. For reference my first dfir job was paying like 65k (private sector in AUS).",r/computerforensics,Z0FBQUFBQm0yeGNZRTMzSFZLQUhtNnBXMlYwa3loaHo0THBUTmdIVENFRFFkVTU0X2tUa21tUkN6a3g5U3VIV3J3d0ZWR1lvY1I2azljbWhvZEpycTNyOUNrLVlVZndHRkE9PQ==
+"I am in Australia too, and I notice that there are many generalist roles like mine. However, the salary for these positions tends to be capped around $140k-$150k, at least in my assumptions, I could be wrong. That's why I'm aiming to transition into a more specialized role.",r/computerforensics,Z0FBQUFBQm0yeGNZY3RxU3lZajFrbjYyM2huTVJISEVuTDRDMC1GaGM2ak5EYXNzWkxtOTRHckg4MWgwbVVRSFBMVzBtdkdrNnhhTTRXb1d3b01NMnhEMGFJbVlKR1JnMkZGTERHRVl4bnQzRkphbjdidUNPd0E9
+Yeh thats about right -- it isnt a hard position and the means to getting there isnt something that requires a tonne of particular study (albeit what alot of people look for). Im just north of 150k and feel for the work and stress put upon me it pays really really good. And I just love being the generalist in my team cause alot of the time so many others dont understand what a normal corporate IT is like and it hinders there analysis greatly.,r/computerforensics,Z0FBQUFBQm0yeGNZTlQ0VzA2Z0JaSnQ4Z2p5ek0waDdEU0xrWF9RMEl0RkhGWVZvTnZLQjVHdndKYVROaVlBMW85RTdwV1pxRU82V3FNLV9lb0JMbkZBdXl5bWZLVlltOHc9PQ==
+"Junior roles at IR firms usually pay way more than $125k, why don’t you want to move to them?",r/computerforensics,Z0FBQUFBQm0yeGNaUk5Fd1VLUExHT2F2X3IwWS1jeXZtNkRVTmtGUzg4WXR3eHhqMV9WZ2NSdFRaYlA0eWlVNHR6QmRvQ1JnUUFtQ1B6dEZPWDJ6LTY2cTZJbG9RYnBfcFE9PQ==
+The kind of job you have now is the kind of job I want lol.,r/computerforensics,Z0FBQUFBQm0yeGNaRXpiR3o3dWpmenB0ZFp0NjZYSnFuZG5oanFIWHRPcFB6TjhmbzlLZ1hOWDBvcGVIb0o0Qk9BTElrejJfLWoxT3p3RnZCakozSXRDZE9KLXg0TnROS3c9PQ==
+"Work for a virtual SOC that has multiple customers or a DFIR consulting type place.  Look for a small shop, sometimes  they are more willing to hire the less experienced. That's how I got in. I feel you though. I'm a one man forensic shop for a virtual SOC with multiple clients and we only have maybe two incidents a year that get escalated up to me, any other work I get are HR investigations",r/computerforensics,Z0FBQUFBQm0yeGNabG9YdTNHX1Z4WUszV3pWM09lVERvYjdFdG83YlluYWh1aHFiYXprR3pGc2ZwQjlaX2dpWHdCcHpUZU5VeG9ybUlWd2ZGam5vOWpyUkF3TTBrelFoMGFaWkdUNkVMM29wcFZ6MUZMMmtTLUE9
+"Experience is experience. It might not be directly the same, but it’s pretty relevant. The biggest thing with hiring is finding someone with any kinda of experience and familiarity with the tools. That would put me steps ahead in my training process. 
+
+As for certs, we require CFCE. We also encourage vendor certs for tools most regularly used.",r/computerforensics,Z0FBQUFBQm0yeGNaMmdzMmMwV2RJcE1vbzFyTTgweFowMUM2VWctTjVWNG1OMklyRXJkM1hjS1JwTExjcnRJZloweW9zbk1lelQydzExdWFvWDMxTm5UWW5GUHFJWU9ZMmc9PQ==
+"This, and attention to detail. Wanting to do the extra work to test your findings and validate reports.",r/computerforensics,Z0FBQUFBQm0yeGNaM09HZ3Faa2NaX0tuM0NsR1VqUnFWYjVDM0RtelJPU01yZ3U1R3RaUkNNSjJZWV9zbkdpS0VDcUNHVldLN2pQQVBkNkRmRVMwSzBuanJ2S05GTlEtVjZEbkZBLUtCeXl6aEVJUnBnY2VDemc9
+"I should also add, know how to use tools, but also have knowledge of digging in to the data without the tool or to verify the data in the tool.",r/computerforensics,Z0FBQUFBQm0yeGNaWHladjFuWTJ3SUJyOTNtdWd5VHdFb28yZ0MzTmgwSjNJVDZrU2lXenozZG16NzhQR2ZJX21mUVdtWHRNTWR1U3NWRTB1YU92dng3Q3B6TFBuYnl1SXc9PQ==
+I've been wanting to try the new DFIR report labs. Their reports are great and based on real incidents. Definitely worth a shot for $20-30 imo.,r/computerforensics,Z0FBQUFBQm0yeGNaQlI0NXVFeENOcks3TURxU3M1X25NcjJQODIwdE5YQ2toTlA1NWwwWDJicF9tb1oyeDlPODhKRFllODhQTU5wUVhwekFwVWQwNGhmcEFHOFlrWjVaTVI1S19mbmctVzVSZkJjWi1qTjB4Slk9
+They have the worst developers and the platform is super buggy.  Constant typos. Complete disaster since day 1.,r/computerforensics,Z0FBQUFBQm0yeGNaREVlZkpfNElvZXVaZllMc3FaTXVYWko4WWs4M2E1UF9YdzZ6QmJCcHZ6SEx0bmhVNnZ0Tnl5azlqOS1xUDRGZGN1YkpqNl8yVUpFWU5kdmJIeGhxTVE9PQ==
+"*GCFE - GIAC Certified Forensic Examiner
+
+Very good cert and training program.",r/computerforensics,Z0FBQUFBQm0yeGNacVNjOFkxeGNjdlB3QW5UcjN0MnNvbWFNbGtLSWFheDRhcFVWa1BNZnlxY0pTcW9NVG50VGZKemdkZTdRVW52eVVqd3hnQ2lRVDVNUnFSRWFmd3V1aXMxUVB2c3ZwcE5DZnZLekV4cmJtM1E9
+"It completely depends on the make/model/security patch etc.....
+
+  
+If you are having issues unlocking a phone that UFED says is supported contact Cellebrite support",r/computerforensics,Z0FBQUFBQm0yeGNhS3lKbjNvV1A3aFhTLVFiUlRZRkhzaW4za2oxa0Y4UUNwVnFmbGw3SmxWN3kzVlFidXdmN0xiempXWXY3S3E1V25BM1huUjBJNE16eTI0Ykp0cFRUVU1YdzFCaDR2MFZzOXJ3ejdUeW80VE09
+Would this work for mounting a Tails Data partition (if you have the password)?,r/computerforensics,Z0FBQUFBQm0yeGNhV00wbEZQSFdrWkZhOEdaZGhUeUdaSHVYSnVTcFhiMTR3WUdEb1BfZ3BWTDZtZFhJaUlaMXFFX2ZncnhMSjVfZ1ItejVXTXZfSmt2aWI1VTlOd0NROXc9PQ==
+"Can't say I've tried that specifically, but should work.",r/computerforensics,Z0FBQUFBQm0yeGNhcEMxU1JsaGV5X2tKOU1STzV6c3NDRHk0MzhBeUZPV2dXV2FIZGhfMlVJejd2NEI2ZlZXelRpNFoyVEM5dG9tYURORlZuX0NvVk01NWdnUDFGbTBXa2c9PQ==
+"UFED4PC has limted password bypass support and is mainly for legacy (5+ years old) handsets.
+
+The newer supported devices, particularly big brand flagships like Samsung and Apple, all need the Premium/Inseyets upgrade. You'll know if you have this, because you'll have an adapter brick to plug the phone in to.",r/computerforensics,Z0FBQUFBQm0yeGNhYWxFeEd6czhfRWQwR0JHdVFpWnVMSVB1SFdCNTRsS2MwYWQ0V0tIYTY5aXFxTU52SHBvcEg4M19HWThmNDRwVHVydHFIVktWb1dxY0JEcW5yS0pDVWc9PQ==
+You need Premium to be able to do that,r/computerforensics,Z0FBQUFBQm0yeGNhRmhidm4yblZGdFRnVUJRYi1IbDVUODcyUG5ld210d0dyZDN4T0JQQWltdmRhOEdmTU1RczZRa3RZdC12TGZleHpKNVoyZjJjcXljUG5RNDM1bnA4dWlsN3ZmMWtNeFI0ZENiT3lGVi1SZkk9
+"Hobocopy:
+
+https://github.com/candera/hobocopy
+
+And the creator also has replaced it with Shadowspawn:
+
+https://github.com/candera/shadowspawn",r/computerforensics,Z0FBQUFBQm0yeGNhSzdudHE5bzBkeDVXWHBhV3ZpX1ZTZ29BeEtCcHJoaGVIS2VZLXRKc21FVjZGbzZ6NDRWOTJpUVVLaGJ3dzgwV1VfaGtwUk5nVXlySHVfdU02YjY2MmxNZW9qNi1nMHBJZm95bXpJLU15b1E9
+Premium is being replaced by Inseyets. It's a small upgrade in price but gives you FFS extractions on consent devices and two free device unlocks. You can buy device unlocks starting at $5k for 15. It also includes cloud analyzer.,r/computerforensics,Z0FBQUFBQm0yeGNhd19NSGM4OHFCMXAzUlVJVmJjMmxqRzY3NkZva3ZtRkFub2RORE8xd2hlYjA2ZnJTZF84T3ZyM1Z0S2xHQi1Ka0RUdG00bWpHX0FuOGVJblhTd0todEE9PQ==
+"Also, have you tried running Robocopy as a backup user?
+
+/b or /zb could also potentially work for Robocopy:
+
+https://serverfault.com/questions/821644/robocopy-permission-issue",r/computerforensics,Z0FBQUFBQm0yeGNhQU41S1BIcExmV1BYQ1ozaFJITU5pbzJ4YnBjcExUMGdoUnd2Z1RDTlhELWJCTkg1b080cnVlVG9VTnJQQlJCMHlNc1FTOXV6WWJUTmtBaDJaaW5yWnZQU20zbG1PMjJJZzh1R2xKakJjZ0k9
+"Back in the day unlocking phones with the lock pick function or whatever it was, was a super low percentage chance. I can only ever remember unlocking a handful. 
+
+In this day and age to unlock phones you need GrayKey or Cellebrite Inseyets Unlocks (formerly known as Premium).",r/computerforensics,Z0FBQUFBQm0yeGNhRS1tZHFEMzRpbW5pTXdhQUN2ZVFnS3ZWY3J3cS1RWEtxLUZpSDFjRXZRUW5NdjFMamc1NWRib0Frem92dmxWMDh5ZGVXdm9venAwVFdGUXd5cHNVZlE9PQ==
+"I've used Lock Bypass on UFED4PC a few times to great success to get physical extractions. From what I've seen its for older devices at least 5 years old, I've not seen it on any newer devices, which is generally where premium or greykey would come in.",r/computerforensics,Z0FBQUFBQm0yeGNhZGhyRkhZOG1lSXRzSkM5VHhJcU04aGc4RXc1Sjd2R2VtZkdSYmxzSGwwYTVPU2R1NEtBYk5NdFpMa2RMb045VHVwSVF1S2s5MTdhLWNWbUxyaHI3Q3c9PQ==
+You kind of have to provide context,r/computerforensics,Z0FBQUFBQm0yeGNhWFZQTm94ZXR4LWtjQjNaNVZtNUt1dF9hUjhyY1FPUGVtU29WOW9NSnhqNmd1a05oR19JQlVGb1l6dmQ2ZXc0NE44RHFhZl9KTlVHX19PZnQ1amJDaVE9PQ==
+And they don't sell premium to everyone.,r/computerforensics,Z0FBQUFBQm0yeGNhY2hDZjRRNDNTSWVmZ29GWXJfNy1BZE15RkdHc3N3T1h6Z3FlWEpPOGN1djlUYVFlMVlYTTFBa3czYkNWUW80bEtzbHhHU1FFc0dVN1VIbGhJbE55NWxYeE9WNzhpMFdwXzdqV3FfZmhxc2c9
+You need to spend about $40k more to actually unlock phones!! Then spend another $30k on Graykey for those that Cellebrite can’t open!!,r/computerforensics,Z0FBQUFBQm0yeGNnUktCZldjOE5fMW41WGlaSkJ0RkxCSm04eEpndzdWVC1LN1o4WFdiVmFNZ2hieE9VdktDVVlkVHQxZ2NLcG0yZUpvd2JTTjNXeTVWLWFtSnVWeGNfS1E9PQ==
+Do you think being a system administrator can help one to break into this thanks,r/computerforensics,Z0FBQUFBQm0yeGNnSFljU0V4a1FUUUdqY2tWUkFQWFd2LUhpem5WbWE2NXIxQ0lXUnlCUnJzbkR4SDRwTWhZTUw5S2syUWZNY2hwN2E0dHFOdVpoYjYySVNkLUZMOXlmZmNTMEU0WU45ck5PVDU4VkFqeWlHbFk9
+"Echoing what was said here. I believe more can be done depending on the level of curiosity aside from the basic file path and hash. Understanding why it was executed, how it got into the host, pivot and correlating with your other log sources such as proxy and firewall will help. 
+
+Other options include reviewing relevant artefacts instead of relying on your EDR for evidence. You will have to prioritize what and when this needs to be done or you will be overwhelmed.",r/computerforensics,Z0FBQUFBQm0yeGNnU3A0ZHR1dW15bG10Y09ZcmEyRjMyNTBTNzlOeU1KbUkxdXdWRF9LSHdFMzlYMUlWU2pwdmZ0QlQzVWs5czA4MjdFbzZfVFVZNElyOTVELUxkc01oOUhZcTdzMm5SQzBES0lRRG5OcGo5N2s9
+"I've personally been thinking about creating an entire AD environment but all doing it mainly virtually and using my machine and laptop to do forensics on that virtual environment I setup and attacked. Getting Windows stuff is pretty easy, for a recent forensics intro I followed setting up virtual workstations through bluecapesecurity.com and following their tutorials. They even have Basic, Medium, and Advanced Labs that might help",r/computerforensics,Z0FBQUFBQm0yeGNnSFcyanVrTThJeTJidUpvY1dUU0VPYVRMS0VzODVFZV9WcnowTUZ4N3FqVUVHSUI5SkhQZDhIMEpaQllPVElzWkVfZ2F5NnNZV2xGUzZ1Rm1Sb0JubFE9PQ==
+"You could take a look at automatedlab, it will setup AD and everything you need for you with PowerShell. I’ve been using it for my labs for a couple of years now and for my needs it’s perfect. Let me know if you want an example setup script.",r/computerforensics,Z0FBQUFBQm0yeGNnazljUGJzN3B3b0I2U2VNRFlvOWNhbjhVUWZRWXE2VGJUUE8taHdibDVSNk5aRUZ0cG5LWmxQdVVPRkQwWGpfSVBmc19OVnNyNUk4X3V6S01oN0NZX3c9PQ==
+"Oh cool will take a look, thanks. Even if I have to do some of it manually I don't mind always good to know how to deploy an environment when needed",r/computerforensics,Z0FBQUFBQm0yeGNnSGNnTnJPdDZ5cDV5eHNqNE9KaWVFU1JjaEY5X1dfVmZKNUlRaTFvdDZqeXJGSWo4U0JCMUM5YU9UZnVRQmZhejNnVmN4REpWeUFKYUp0R3FKT2NZeXc9PQ==
+That’s absolutely true!,r/computerforensics,Z0FBQUFBQm0yeGNnNnRqOHI5Q096YkU5cUtrRnNUT3p0d3dfMUZVV3FpR18wTFZhTDlLbHhzcmZMeDFNTTlPUDZvUUVoc2Zoc3YzYjM1YjAzNkZreGRrV19pQ1VqcjdBNHc9PQ==
+Velociraptor (https://docs.velociraptor.app) might help you,r/computerforensics,Z0FBQUFBQm0yeGNnX0Q5VGg3MzYzcEE2MmpKY3M5YWNycjVaU05TQWE2YTJSNDdBSUE5QXlVYmpQOU9ZLXpTbGlpSGl2MkVKWUtlVV9zWGVlWVc1dFlfWmQtcnhXcG9Fc3c9PQ==

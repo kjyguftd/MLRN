@@ -1,0 +1,790 @@
+text,label,username_encoded
+"I'm not convinced this stuff is anything more than hype fluff. I'm not saying that AI doesn't have potential in robotics, but $1.5B series A valuation without showing any real product? Nah, that ain't it.",r/robotics,Z0FBQUFBQm0yeGNYaDNiQ1p0Q0tsSTRfWUEwLURodXpfSy00T29iZUpDR2M3bTg5TlZFWGYtdlpNOVRvczJ2c2JaWXBPR2tkUFlJczdnQWtEa0NOTUo1R0ctNW9MbGE4cnc9PQ==
+Temi has a feature where u pat it's head and it will follow you,r/robotics,Z0FBQUFBQm0yeGNYV3djRzZsRHY2cUJmY2NBU3lwWjJHVTFWakNjV0VxWXNrVXk4RnlBTmV2X1pHMTg5TmlsbWd3cDB3aTdJNV9wWGdERVVYMk41TkpLNWw1Smk0TzNIYkE9PQ==
+"Great, Thanks for the suggestion. It looks great, I'll check it out.",r/robotics,Z0FBQUFBQm0yeGNYTUNQZF9qNHdxMHJidkU2V0hIWkc1MWpsMW5Ld1gyRFFnTWktMktPUXBsTUJ0dzFTR0wxRjBBeGRwTVZlOE1iMGJqdzJhd0ppRHk4aEJYaGtnbkdkUlE9PQ==
+"Thanks, for some reason I hadn't though about drones because what I'm designing is wheel based, but I guess there's still things to learn from the following system.",r/robotics,Z0FBQUFBQm0yeGNYQjducEFxMjZVTmstak1qVGV3ZzdLMV9WT2JMMXlwMEJXQTEzN19yOGhqcXNGcFkydEJmOGRFOEZrT081M0htc1EyV1dNZE5FZzQ1RVpTTl95ZlFRcFE9PQ==
+"How does this not cause a ton of wear and tear?
+
+I’m not a mechanical engineer so…",r/robotics,Z0FBQUFBQm0yeGNYX3NKZzVCcDNuSkpnZDdiYS0xUUxBRW41QTdfUDBDSnJNeTdHanNBVzFkSjl2RzZ5RFhoaFQtUi1iWWw1Q1J3YTRoVTF3aVdtYkQwQjBub3lhbXNTTXc9PQ==
+"I would like to design a skateboarder following robot. The skaters at my skatepark take dozens of tries to land a trick, and nobody wants to follow them that long with a phone. It would auto-reset to the starting position each time. It could be really cheap and easy-ish.",r/robotics,Z0FBQUFBQm0yeGNYZGx2UFlROVVTbzdPQkpieHFIaW5zbjNzeWxaMzVpOEVldzNfRDY1akpWTmlBY29Rbm9RRi1YcGhYWm9nTnJaMFJtbENmb3pKa2hPc1RsdWdFNWJPLWc9PQ==
+"Form factor is the answer you are looking for. People in the industry hate having to change the environment or the layout of their installations or even purchase specialized devices to make room for some equipment, like robots, to run better. Why buy an automated forklift if we have dozens of forklifts around? If there is a humanoid robot able to work, navigate and operate tools designed for human operation is the real endgame, and it's a trillion dollar market behind it, it just too far away to be practical yet.",r/robotics,Z0FBQUFBQm0yeGNYYThiVVRld2hULV9UVXU5dWEwaVROaUpqVUdZZjdfR081ZnNwd2NIRTAwQW03Y2pGUzFXUEQ0REU4ZFU2c3hvZ3pPV1JkUkZrRlhDQ1l3OUM1anhvYkE9PQ==
+Awesome 😃,r/robotics,Z0FBQUFBQm0yeGNYU19vbW9jSy02M0QyWHdYN2tvX2JoSWYwdG5kSnlwSFdyR25hNEtuN0tSWDFjQWpJdGstTW0zVzdQUUdCSlMyUmh2MWxmMGQtQmF1V0JZMTFueV9OWXc9PQ==
+">General AI for all environments and any hardware? People are having a hard time mastering 1 environment on a very controlled set of hardware.
+
+Counter-intuitively, this is how deep learning works: it requires enough diversity and complexity, before it can generalize well enough.
+
+Exhibit 1: [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which was the largest image dataset that spawn the computer vision revolusion. Its size was the reason it all started to work.
+
+Exhibit 2: [RT-X aka Robot Transformer X.](https://robotics-transformer-x.github.io/) I quote: *""We assemble a dataset from 22 different robots collected through a collaboration between 21 institutions, demonstrating 527 skills (160266 tasks). We show that a high-capacity model trained on this data, which we call RT-X, exhibits positive transfer and improves the capabilities of multiple robots by leveraging experience from other platforms"" and ""RT-1-X models outperform RT-1 or Original Methods trained on individual datasets by 50% in the small-data domain""* - essentially, with added diversity of tasks, performance on individual tasks improved.",r/robotics,Z0FBQUFBQm0yeGNYd1E0N0N4RGQta05pOWYzczRlRGFfT0dnc0NFblNzb0NRS0tTb200eDVMMDU0YURybVZPUXcxVlpYZlNJNWlhQXVFdkhuemFVMDUwb0RIbS1WMlU4ZWc9PQ==
+This is awesome! Thanks for sharing. ,r/robotics,Z0FBQUFBQm0yeGNYT1hiQ1I0RWFBWTlDR2JMRWp2TTFVMDNhOHdKajFhQ09JNGFGeF9QSG80Wm9QcXJZX1dOSkVqQWpTWHVFaWhyLThHZXR1cnR5VWtESWY3cktWcm9mcEE9PQ==
+Do a search of this sub. There have been some discussions of this already...,r/robotics,Z0FBQUFBQm0yeGNYMk94SktjN2J5b3h5bjZ4X1Jpd21wZ1F3WGhQUFdjTmRBWmpvaFFudlZLQkhhZTNCZEZsUFozcms2VmNBU3Rzd3prOWpFanQ5ZktvbF8tWWFJcDR2NGc9PQ==
+!RemindMe 8 months,r/robotics,Z0FBQUFBQm0yeGNYNEpOMDZqY3lUbS1iYkFZbnhmWFdlaVlMcXRvOU84TDNkVUxuQklTbzVpLW5rVUNUTkI3Uy1ycUNlcnFTNy0yNzBGcEJmZGc5MTdNZjZaYzg4bTNTaUE9PQ==
+"I will be messaging you in 8 months on [**2025-03-13 04:23:28 UTC**](http://www.wolframalpha.com/input/?i=2025-03-13%2004:23:28%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/robotics/comments/18ksd29/is_teslas_optimus_really_well_positioned_to_win/lcy238v/?context=3)
+
+[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2Frobotics%2Fcomments%2F18ksd29%2Fis_teslas_optimus_really_well_positioned_to_win%2Flcy238v%2F%5D%0A%0ARemindMe%21%202025-03-13%2004%3A23%3A28%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%2018ksd29)
+
+*****
+
+|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|",r/robotics,Z0FBQUFBQm0yeGNYQU1IUkV5SnkwZHVNODJOaGh6MTZLUU9IcWxuVmlVTE1mRncyY2RVUDFnRU9yU0RHa0VzSmxlTHk3dmVlcUpwbENCeWZNZ3E4eXVNVUE1TjZ0WFo2cHc9PQ==
+"everybody is kungfu fighting 
+
+everybody is kungfu fightiiiiiiiiing",r/robotics,Z0FBQUFBQm0yeGNYZERGXzFMZ0lWNkdyTGdyX0w0VFlHZTNCcTVPQTFQRjI0NnVvSnJiLU0yeUl4ckVOb3czNkZFbWxXV3NkYTlYVmtweVdkbklfNGRma2NrVnNUWWlFRXc9PQ==
+"Just take note that Temi does follow a person but doesn’t track actively; if a person intersect between the person that Temi is following, it will switch target.",r/robotics,Z0FBQUFBQm0yeGNYZDNEQ1BWZG00M2cwdzBldWxydzJxY2hfYl9lZjRaWHhTQks3YTk4YU9sREVZNm9MZThiMHZ0OWlYVzlaS1psTE5fbm9WNWJSSThxdmp1MUhwR2tPLWc9PQ==
+I saw a person following a robot the other day.  Was kind of boring really.,r/robotics,Z0FBQUFBQm0yeGNYTmo5bkF4TUE3R3FjalJVUUt6VmFjTHF5VjlEY2dfRU1BRDdOazRGTE1TTTd2UWVEbnlWNnVYaHltR2Fxd3J0Vmx3dTN6NXcxcjNZMktDWjdiVkhsb0E9PQ==
+"Planetary geared DC Motors:PG45775126000-1928, if have to add encoders to the setup I can't do with 2 motors connected to a single channel motor driver. So should I replace it with dual channel motor drivers??",r/robotics,Z0FBQUFBQm0yeGNYTUd4dGRDRnZlbnBrNGo1Tk5VTS14d2xNdHRLMnA0dko1REFoOGNBczBTOEdfNEJ6MmhOazVNUzNYclVySTJIQ0JFbGNQa0JXUHQtRm1CY0F5SGM5d1NTb2lWbjBPNXp2NkdhSks0ekFzN2s9
+"Your submission was automatically removed under Rule 3. Your post may be lacking a body or your body is shorter than 120 characters. Please make sure to elaborate on your submissions (min 120 characters) to improve the quality of posts.
+
+If you have a question concerning robotics, check first the **Weekly Help Thread**..
+
+Please visit the [subreddit rules](https://www.reddit.com/r/robotics/wiki/rules#wiki_rules) and [submission guidelines](https://www.reddit.com/r/robotics/wiki/rules#wiki_submission_guidelines) for more information.
+
+For any claim or question about this action, you may contact the moderation team via modmail.
+
+Thank you for your understanding.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/robotics) if you have any questions or concerns.*",r/robotics,Z0FBQUFBQm0yeGNYejV6bFZYRWxDS0ZMSFVrNFZaVVJTaVNRa0FrY0VucFNxSUdVdkhyWkZwSWdpUy10SU41eHVxYWFISVcxWmhENnBVVlRndm5WX2ZFVVBYWjlmZ2Y3Q3c9PQ==
+"Your submission was automatically removed under Rule 3. Your post may be lacking a body or your body is shorter than 120 characters. Please make sure to elaborate on your submissions (min 120 characters) to improve the quality of posts.
+
+If you have a question concerning robotics, check first the **Weekly Help Thread**..
+
+Please visit the [subreddit rules](https://www.reddit.com/r/robotics/wiki/rules#wiki_rules) and [submission guidelines](https://www.reddit.com/r/robotics/wiki/rules#wiki_submission_guidelines) for more information.
+
+For any claim or question about this action, you may contact the moderation team via modmail.
+
+Thank you for your understanding.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/robotics) if you have any questions or concerns.*",r/robotics,Z0FBQUFBQm0yeGNYMEY2TXI4VUdiYTZscE5yTzNSUmxmWW9wX3lyXzZXVXNUM3RVTFU3VExDWjU2SV9qT2ppUi1Qc25ZeEdObWNxVjQ3di1PSHNOUER2MEsxb1RNZkl1SUE9PQ==
+No! My only weakness! Inclines of over 5°!,r/robotics,Z0FBQUFBQm0yeGNYOHp0R3dFYy12RTNEcGVxcjZzWGZ6MmptcHhmeVo1UzY4QlBfYVFCa0x4dHlneUpVeFhyaWdQVFJLTl90U0RTdHlENV9yblhoUzZ0eTI5YWJ3SHJnZ1ZEbm1aTkktRU4xN0EzZ2F6SlN6Z3M9
+I sent you a DM :),r/robotics,Z0FBQUFBQm0yeGNYTW1ZbzBhb0xqckt2RG0yY3hOQ2xCSzVYZlktalhzaHNjaGl6cHVGV0h2c0dEenVlR3NJMVBjNU1mVm40WU9sVTJtRF9QZWNNUHJ0TTdYNGhGRTJJcWc9PQ==
+If you're the first to get a UTI from a robot good on you,r/robotics,Z0FBQUFBQm0yeGNYVkx4dzVqWTU5ZmhWbFRmWFRwV0NzWDZtVHpGYjVOV3J5UG1yWXlJazBBdFFjVjd5UUtkaC16ZU9WcVQzZ1J3TW4ySHY1eUpqVGJwQmFqam1TT1o4Vmc9PQ==
+"You can still get a lot out of these courses even if they are not top notch, it comes down to your drive. Your teacher will be someone experienced in the field so absorb as much as you can and take the work seriously. No matter how good it is you will gain a lot.",r/robotics,Z0FBQUFBQm0yeGNYd3ZmZWdkX1I1WTJ2X3pwYXotb2VlRGxHRTlEMUw0dXhrRHVEemZJS0tTWHRKMU9HcFlwUk9aODRNc2RIQ1ptX1VYeXJUb21TYWp2a010MW5reFdka1E9PQ==
+"Hello /u/MasterDust888
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNYbFZ6TmRoc2pTQXBEdEwtRjE1SURjd0JFc0FXZHlJV3hUaHUtTWlTdVMwT2g1d3h4dGhOMVBqRy1EaWNjcFduV1Voclo2aXZRWnA0V2VEdnhsTVl1QXc9PQ==
+"Hello /u/No-Lie-3086
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNYWDlWa2NpNmZ4ckhfOGI0NjNyUGVFUzhUakFwU2dnUXp3TGJ1UVo3QWZYODFHdjZWWU0yWHNfY1JQT29zWHdkVlhyX2kwWjNjY3pPZmFDV2FEcVI1Umc9PQ==
+Does it have crumple zones? Why is it so low? How is it going to get over speed bumps? Why are the wheels so small?,r/robotics,Z0FBQUFBQm0yeGNYb3FneFVVM2RsbFRXNUdJb1hWU09TNkVQT1V3ZlpjdktnakY4cVVhWmJMak5sUnQ3YjVRZEhNUFlLU2JVU1g4VFI2UjFnbk5qUmhLdHRNMTliUzRZeHc9PQ==
+"Yes, I'm a person following robots quite often. Not hard to find us.",r/robotics,Z0FBQUFBQm0yeGNZdnNUUEJxV2FXNTBWSmpvaTZVcXpOb2tQWFlKNHFadUdoYmFKb1AtOWNqcDEwdTZVcWRfWFJ0V3U4LWZLeTdsamtkQ18zZURfQWhYRXFac1ZpME9TdXc9PQ==
+So cute.,r/robotics,Z0FBQUFBQm0yeGNZbGZVczNaVFkwcXJocGVCZW4yT3p1Y0dnb0JoYTdDRUxxdlU0OU12YVlTX0c4MjBUdllWY2J4aXRGbjlBcHlnUkZqREpEOVZGYjdnbmdxUktmdDBTaGtlNnFtYjBqQTFtTElrTlp0T1ZNSGc9
+"voice activated with ai powered responses 
+
+example: 
+“onwards 10 steps”
+“roger roger”",r/robotics,Z0FBQUFBQm0yeGNZOHF3WUkybURHajNBT3hhWlFsa1l5dTZJWjkyUFVIUFZuemtmaVgtSWswbVZlZkZndDBRZUx3azV6b3A4bkFEaUo4eHhNRGdyRXV4M2xqQjFocGVVamc9PQ==
+ardupilot with rtk?,r/robotics,Z0FBQUFBQm0yeGNZaXFtdUhRMU9JYVNJcU1ONnFyT0FZaDc0Z0FxWFZGLXdwSXZlelo4U0p1WXl6cEozWE54MkJUWGhvVFBQalowekp5YkRFeFFVVzBMZ29lMVBvcUFoTVE9PQ==
+"Not yet, the radio is a fr sky x20s with a td sr 12 receiver. I want to get the mechanicals dialed before anything else.",r/robotics,Z0FBQUFBQm0yeGNZaFNrTVpfYWpMWG1yVVJFczZlVC1PZUFfaXRxT2dHZ3JJeVlsV3hlY3JPa3MycmNBbmdrT2RHNWFQVDYzX1BWTy05djlXdXI3V0tDdVVjYTlURzBRLVE9PQ==
+"You could use 2 nrf24l01 transceivers, along with a second Arduino, and make a controller. They can be a pain to get working, and tricky when it comes to integration and debugging, but they’re amazing devices that work really well once you have it sorted. They’re a full guid on how to use them on [howtomechatronics](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)",r/robotics,Z0FBQUFBQm0yeGNZQ0JZcGpSUVJNWEpBc2pFV2Q3eTQ0YUhha1RPdW10Wl8ta2tac1djX0RmaFJiaFA2aFpiTmFnQ282QnNFTFh3YlY1d0s0aFd0TjEwX2ZJM3FYRkRNYVE9PQ==
+"Depends entirely on what you want to do with it. Off the top of my head, I’d say a closed loop controller featuring an oscillatory modulation algorithm for walking (which would require some reworking of the physical architecture), or feedback-driven algorithm for balance, forward/inverse kinematics -based logic for custom motions. The simplest option would be to target that last option and use something like the Copellia-Sim instructional materials to get you going with it. The math is a little intense at first but it’s not bad once you get used to it. The other two strategies are pretty specialized and may require an undue amount of learning.",r/robotics,Z0FBQUFBQm0yeGNZaGRKWHd3SHp5M3lYMjYzUVBscGV4S1NSZXJGcmY0ZUtudWRyLS02REp4cXRWVGhnczhLT0JXc0NCcGo5U0c0elNRdUNiakdIRzZjVWxIeGNNZWx4dVE9PQ==
+Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts,r/robotics,Z0FBQUFBQm0yeGNZM3VuQXEyd3laUVJTRTA3OTJfbUs5MUhWWlRndDlBWHd0MjBSVEEzRE9wQV9sa3FFelBBbWJRYkVUcjRCZGhvLWZ2LTN4S1ZuMHFyY1JoZi1TYm5hcENRNkNzeU1XTzdSMUZrSnhlUTZUV1k9
+"Hi Korhan, welcome to Reddit and to r/robtics! I'm afraid you won't get a very good response to your post though. There are a lot of people on the Internet who ask for money, who aren't who they say they are. It does seem odd that a 12-year-old has such a big e-commerce presence, selling courses on Patreon, etc. And even if you are, there are countless kids who would like a free InMoov robot, so why should people fund you, in particular? Maybe make a post showcasing what you've done with robotics, so people can get to know you a little, before asking them for money.",r/robotics,Z0FBQUFBQm0yeGNZMHJYNEtNbmJUSUtOMEFlbHJMTkoyRG5feEFYZ2l3MXF2N195d0NobGM1aVo4c2plbWNPSlJEMURDazFtbU9jaW9JQkZjcXRrLVE5TGlNNzRObDNxYnc9PQ==
+Aren't the legs a little bit too wide? For control I advice using two nrf24l01,r/robotics,Z0FBQUFBQm0yeGNZdVlvRURRclFyUjdKWXZwT2FvUU1CTUpFUlc5TjlqbnVjMGRac09RYk1PQUVSU2JJVFh0SDN5QlkxTkpYbUdSSDRqbklmdHhpSzJ1RGtWdW1hc0dLTUE9PQ==
+"Not sure if this is a troll post based on the dodge background…  also not sure if you mean ‘control’ like how to wire and code or what is the best conceptual approach.  If it’s wire/code you’ll need at least one other component to drive the servos (it’s not recommended to power servos straight from the arduino board as it can’t provide enough amps).  You can either buy an i2c servo controller or a servo hat or something similar.  As for coding, just ask chat gpt to do it for you! I use it all the time.  If it’s a conceptual control question, you could try accelerometers (sounds complicated) or a bunch of potentiometers that read angle of your joints.   An esp32 is probably better for this project as they all have Bluetooth/wifi and can use esp home to talk to each other.  Lastly, I dont think that thing is mechanically capable of actually walking.  Good luck!",r/robotics,Z0FBQUFBQm0yeGNZM3g2c05kTkxpVmJqNmFoQmpSMFhxQUZyNTh2X3ZfUDZRbWx6RlRSUFBjU2N4c1M2Wi1tMXFBaHNyb3RCUG1rbU4tbk1qSDkzY3RuRFgyaERZUk42cFE9PQ==
+yeah thanks,r/robotics,Z0FBQUFBQm0yeGNZSWxYWEt4WW4tMzZ5ZkhKVmdBYzRkdGQydkNFNkxoZjJURGp6VVVOSkRkdWdCZGFncDFFR1Y2VVJCVVM1QnlwXzJxUHNNX29nRTVPdi1DLXEtYjB2d3d4eldNNWNvUW5QZDM4SVVXMGJyVU09
+Yes I did,r/robotics,Z0FBQUFBQm0yeGNZY3V3ZTAyWHVfSWdybGxvdElwUUpyaG5odHExZHltN21UMDk4Vmx6MUpodVhlQ29wbVY0VVVBU1JtN0FQNTBzclNiem1adll2QW1pMXJjeXRrNXhoaVlpWUZOWnE5a2RWaGc0SkdGRVlYNnc9
+Yes. I am sending a static transform from map to the object by calculating the relative position of the object from the map frame. At first I get the map to camera link transformation then transform the distance coordinate calculated from camera_link frame to map frame. Then show the transform using rviz while map is going on.,r/robotics,Z0FBQUFBQm0yeGNZbVpUM0VBeElkSFBvQnFjZDJGM3NRejZaMGhzekU0YTRINmgxdUhCZ05paERLY0loUXVEcmhWaEFCN1hDbUV1OER1ZXhtYy1yanYzT2hqRlNOWnpGWkx2N0FUeDBRaXJJY3RxMjZMNThtaUE9
+Thanks I understood what you are talking about.,r/robotics,Z0FBQUFBQm0yeGNZNGNpT1QyZV9BRnFWUFN1aEZCTTY0YXNIYTJCcHRPT3pmSHNzN3FtM0R3MXQxMWpvUlJUWkMtQnR4VGQ3SHphNTEwcTBDTjVJU2JzMUpOb2l2TUpUNEppa0x3THMwcDYtb2lqTktnSTdtUXM9
+"How'd I know?
+I mean you're the one who fucking created this
+Wdym how do I control this?
+Just Sam from openAI doesn't ask the same question or else we're all doomed",r/robotics,Z0FBQUFBQm0yeGNZNzhBLWNvRUVGSVhZS2Nja0kyUFpwSlY0cDZGdmtUdTVTVGpTOHA1ZmlvbDZpQV9uTkUxWmNsbWFibXZjNmEzX3JkcmhwME40czRKMGhjTGFDN3R2SlBKdG1neEl2Q0s2emxXdlduOTZEeTA9
+Epic!!!!,r/robotics,Z0FBQUFBQm0yeGNZb1pmZTgwQzZuZkJJU18zMlNFVDI5bHlqT1MzTUZMZkY5REQ2b2c2WnljTVZyWTVjVzN6ZDZOUnk3d3p4MlpyVDBiaW9IX1hpbHJlbnVXUkdLM0c4cXc9PQ==
+"Abhinav, sorry, I'm sure you mean well, but I feel like these daily low-effort posts of links driving traffic to your own website aren't really in the spirit of this sub. Some have been removed already - see rules 3 and 5.
+
+The projects themselves are interesting, though most are rather old and have been posted here before. This one is from a couple of years ago, and was [posted already](https://www.reddit.com/r/robotics/comments/12h6g5m/youtuber_peng_zhihui_just_dropped_a_new_project/).
+
+Maybe you can find a different approach?",r/robotics,Z0FBQUFBQm0yeGNZbTZlcDZvN3lVd01VRGtXTnRfU3VUZWptcVBZcjg3YjFhYmVlMlVjVXYyT1RvOS1PdDlxR0pSczZtY3M1ZzVVRmxNTDdJcXl1eThkMXQ5UTh4b2NqTEE9PQ==
+This makes me think OP doesn't live in the US. In some other countries unpaid internships are the norm and you can't get any pay unless you have had at least 1 to 2 years of relevant experience ,r/robotics,Z0FBQUFBQm0yeGNZWmtVSUttbElTQXBpTkNFRmNEUmQzd2ExQVdzQ3JWNWZFdVh6ZDlrVTlJWVVCYmxscXVYck85bkdkdzVmRVNKS0d2MkNhVE8xbkNDVTlEem9vWUJUZE00WlRKR1JoS0V4dWliWGx0UHI3OWc9
+">Also: how the hell did you spend 8 years in college and not get a PhD?
+
+
+Maybe OP doesn't live in the US. In Latin America for example it is not weird for people to spend 8 years in college only for a bachelor's degree ",r/robotics,Z0FBQUFBQm0yeGNZelB2VnJUUG5UN1AzX2VqMHlUajF0ZGZkOGFET1JyalBtR3JpR2EwcWNSZ0FYeHNUM3FPRzAxZHU3enpsaUtDX3VpM0hoX1EzcmlTSGhDLV9SdkhDZ3NjckpEamE2dHR5YkVIRTRJUHJwMXc9
+"I'm impressed, so many things in just 15 min !",r/robotics,Z0FBQUFBQm0yeGNZa0ZIakE3ZmJPUF83M2NLS24tei1WTzh4TFN5X1hDZVl3LXZ4SS1vWmtMVmpLbENLMmhFYVRYVnVTR0tHMDhqV3hNOXp4akthODFva2I2cWo2RXMyaWc9PQ==
+"yeah, 0 thought went into centre of gravity throughout steps",r/robotics,Z0FBQUFBQm0yeGNZWVNGVFkyTjl3MG1CenFaSE9hb2l2MTFidWRpUHc3Y3RCM0ZjOUFxalNIOGNJM1Q0ZTNMbWlkR1BkRDFfQURuUjdMSGFxRVpIRGFtOWl5d2c2UmV4Wmc9PQ==
+AWESOME!!!!!!!!!;,r/robotics,Z0FBQUFBQm0yeGNZRWc3dnk0WUh2V1dFOVp5bjl1QmYzQWdTU0pldlA5eEdHcVdybTdNS21EODlEUm1PelBmVVhLOGhfaDFQRVQyY2psdF83WExqT3ZaVzR3YURGdlJFcXc9PQ==
+I start by plugging the servos in.,r/robotics,Z0FBQUFBQm0yeGNZaldBR3VsMlMwcDRoeVJVUzlrRTRjWVhob2pVbzdVYTI1YVpJa0tiQTl4aFZUX2FtSE5UdnNuQks5YTFpY2lxUHFMWWl4TjFsczNoREFUZkJzTmM5UGc9PQ==
+Maybe you could add some kind of motors under the feet for movements and then use the legs to curve and to do other various movements,r/robotics,Z0FBQUFBQm0yeGNZMDZsaVR6Z1J1UUhvMUlsWWJuSmVDbnFQQmprQTVqeVppeWVQZkk1TmZCdHlvUjJwQVZSYWtERTZKTHJ0U0FGOXB0Nmpta2FaZTJvcktpR2JXTlVWS1E9PQ==
+Kawaii,r/robotics,Z0FBQUFBQm0yeGNZa1hyU2laenBEbGVIeHdwRml3VmlURFZPck9jZ3laeDhvRXN3ZWVUblFDVDI3SlhsaFVxRnJMbllTU3ZidE9sdEdMVlJvNUNobWt1cU1oNDJsM2pvSUE9PQ==
+"That is the Metal Fighter by a Korean company called Mini Robot Corp - [www.minirobot.co.kr](http://www.minirobot.co.kr) . The best English information packet I could find was [https://www.slideshare.net/slideshow/mini-robot-fighter/8582462](https://www.slideshare.net/slideshow/mini-robot-fighter/8582462)
+
+Edit: Typo",r/robotics,Z0FBQUFBQm0yeGNZY1JuWHFKWkFuVlRsWXNZMDJMQXNLeG5qRlIwN1NVUVVBQ08yYzY3UXUtLWhtaW5XTGtQT251UWFGazRuWFlsVkRXcndzS1N5dU4tdnBJTDBtbHRkckE9PQ==
+"You can use a step down transformer to convert the 240v ac(or 120v ac depending on the outlet) to 6v dc using a step down transformer and connect it to a rectifier and use it , if you want to use the wall outlet
+
+Btw cool build !!",r/robotics,Z0FBQUFBQm0yeGNZR2QwRmYwd1JwTmJuMlRYMTFQeEU0eUdLU2VHU3B3YjllN0p3QmhnR01HbldhMlQ0NFVlbG9kZGRJeVNzU2RkSERaYXVVYWFjOHlKV3dhT1ZtUUhQN3c9PQ==
+This is why I love Reddit. I didn’t even know that existed - thank you so much.,r/robotics,Z0FBQUFBQm0yeGNZbzByanlUQU53UHR0NGZLM0twVWpUZWVmVHJFQm9wVEdNdExBM3BjOThBUWo5YzF5a0dwRGFqbGJnX1NNWk53WmljR3VzRHYyRjdGa0x1NXFuWk14bnc9PQ==
+It’s easy to imagine a splatter movie based on this idea.,r/robotics,Z0FBQUFBQm0yeGNZQmFNSTl1b0R4b1F3aHNkR18xRXAxbnRiV2V6U0lSdjY0bjFyWTFiWlVwRXVXb0RsZWdtS3dLaGpyQmlzMWkzUjduQkVDNVpETzR6UnJnTVVVYTR3ZGc9PQ==
+Glad it helped,r/robotics,Z0FBQUFBQm0yeGNZcVc0SS04cmQza1lnNVJXb19IMm9LdmlPRjRFakVNbmRCWmhmNkZrLUVWdHlPQm5BX2hDc0JJYVFCSzNrYjhYRkdnWHc0bDFiLVdnZ0otZzZIbW1IM3c9PQ==
+"Yes, you can buy a simple ""wall wart"" 6-volt DC adapter power supply. A 5-volt one is fine too, but the motors will move a little slower. A switching supply is more compact than a transformer-based one. You just need to figure out how much current you need. The best way to do that is to hook it up to the battery and measure it with a multimeter while operating. Probably around 2-3 amps will be good, if the servos don't stall. Alternatively, you might be able to use a 2.5 A USB adapter.",r/robotics,Z0FBQUFBQm0yeGNZMDVqWTNBemZxNEg4VW9rU1lUUWZxNnZkakhxdjQtZG1IRG9PT2lvaGswekFSS1R6THVpOTVVcmx1ZXR5TndZMVdzS0xVZFpRLS03Q01kdHI2ZTRxLVE9PQ==
+"It's a lot safer to buy an off-the-shelf DC adapter, than to build one yourself with a mains transformer and rectifier. I used to do that, but I don't anymore. I also prefer switching supplies, that work on both 240 and 120. These days you can get those really cheap, and it's relatively difficult to build one yourself.",r/robotics,Z0FBQUFBQm0yeGNZc2hmazZDb3FsNE1sdnFNaUg2b2JZWUxPb3BFUE9tOHNVWjA3NnJzQzMwaWk4cmVVSkwwY1AwSVJDV1dEZGtIZV9DbzJBdHpoY00weDJhRXlqTUNlU3c9PQ==
+Is there a failsafe?,r/robotics,Z0FBQUFBQm0yeGNZLUtoNDBlUjJ4NlFFWVl2YnkxRnlqYktHbnhvcENnRFZ3WFdJS01oa3JwY0lLaVpLS1BSLURRX0lZMTRkcmpMV0R0QjNpMVlLeFZIemJIczJFVncxcVE9PQ==
+Yep,r/robotics,Z0FBQUFBQm0yeGNZcDVNQ1ktNTEwV0oyd0lIVmpESFZnRWI1Q19RZmF6ZFg0Y0V2Rl9md3dNeENlXzNidDh2X0hFNU1hV0xZeHc5MEI1bVdVSnhrUmtCdWpKbl9MUW9iekE9PQ==
+"Interesting! So it sounds like I could use the wall wart and connect it to a DC barrel jack and use some wires to connect it to my power pins on the controller. I believe last year u was able to consolidate the wiring to use one power supply for both the servos and the controller, but will need to look up the schematics to verify. If I misinterpreted what you recommended, please feel free to let me know where I’m wrong. I appreciate the input greatly.",r/robotics,Z0FBQUFBQm0yeGNZYnVTc0JpSkZjNS1SQ1FpUENybHNYcS03STh2YlphLS1PcHlYNXVSWklQZlRucFE1dVNhVUNuV2ZOU2U0Q19zMWsxaUVmSFhGaWxSeHFYcEZqQU5zVHc9PQ==
+"As I’m considering taking the master class, could I DM you on details?",r/robotics,Z0FBQUFBQm0yeGNZSHFuWVhiTGV6eWNhcjlvMTVRVURPNkNBRG83ODN1bkEtQWhvT1A0MEJjWnM4TVh4eUxDZ2E3TEVxaHF6YWRpLXZjQV9ZbzFLRlhxUFFWTFlacTNpMXc9PQ==
+"Nice!  What actuators/ect did you use for controlling the steering, throttle, PTO, and such and how did that go?  Or are there kits for this",r/robotics,Z0FBQUFBQm0yeGNZMkFyN0dFYmI1MHAxd1poSm5NUmNmdTltWm1aT2NJcm5NWkNZX0VnZ3o3OHZ2Mkxsb1cxNWV0V0FZWWdtSURZTGFUSDVpdkpRNkxtUlVVVE44MFFvS2c9PQ==
+Burn it while you still can,r/robotics,Z0FBQUFBQm0yeGNZQ19ZSUFkREhiSWRJeEtOMEVFbmdmRkpiRElFemRYX2E5M194eU00Rzd0QkVIbEZJUkxHSkNtREdjWmw5TDZtLWxGa1d5TkNvU1Bjbk9JcXpNWnRibXc9PQ==
+"Yes, that's right. Or you could use a USB charger/adapter (assuming it provides enough current), cut the end off a USB cable and connect the power wires to the servo power terminals on the controller.
+
+And yes, you can power the Maestro from either of those too, if you want to disconnect your computer and run it from a Maestro script. But otherwise, you might as well still power it from the computer.",r/robotics,Z0FBQUFBQm0yeGNZNXYyZGw0SGxabUcwQ2dfLV9SN0NEQVEtMVFLZjkwMjZJM2t2N3lkWUYtNm1MbXUwVXhMdnRobWlETTJmNGgxNm9MeWJ4Q0JoZ195SklyRXZGT3BnZGc9PQ==
+"What's the power usage of that thing? I like using USB-C trigger boards for my projects, gets you 5/9/12(depends on charger)/15/20 volts from any power delivery phone charger, pretty neat. I managed to use one to charge my scooter",r/robotics,Z0FBQUFBQm0yeGNZQTFuQy0zSk1pd1NYbG1kYXdxNnB1RVFzQjhvRnJWWENGYnVrMnlVaDBSM3Z6RDFOX3lpMVNJaFZmdTdrR3hRakx1dzhwZnhWMHJxWDR6N3pHSVRUdlE9PQ==
+Hahahah this is a popular response,r/robotics,Z0FBQUFBQm0yeGNZeEZVOEpyVm1MNGM3Vk5Majk4MXlYTklDbXBxbi14UTZqVkVSSnc4NUZXZ19obnRreG1CMXdwUmtLZjZCX0pNV0FCMGhFbm85Smc5SjMzTzlZQ3dqUkE9PQ==
+Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts,r/robotics,Z0FBQUFBQm0yeGNZZGpRLU5OWEZzbmxnYUVzSDMzV1pGN0p3TVRWdHhnQnFWZldCRms5bDk2QUtLNFNZVlNJdHFOUF9rQzlSYmN4S2tCM2VRQ0tXVUREUGhBT3FFbTMzbTlJZVFkMDJ4TGp1dnQzVTkyeDh3RU09
+You could build animal themed animatronics to lure children and consume their souls as a form of energy accumulation?,r/robotics,Z0FBQUFBQm0yeGNZZWZsXzBoQ3Y5NFNGVzR2aUtZNDQtUnRNLVh2Mm82RlF2MnlUNTdBdUhLWFlZVzNsWDc3a3pFRHlaNTZkUy1mT0hTOHVXRzFxMlhNVkgwbE9oUHZWaHpjdmxFSkZwMlVjM1JYQ2RxbjZKTXc9
+Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts. We passed this post into a LLM detection tool and it scored 98%.,r/robotics,Z0FBQUFBQm0yeGNZYUVsbXhyS0EwMEhPOWtKeVp4Nmg0aW4xYjFfMWJpb2Z1YUpsaERIVHExVnQyVlFweGRTdEZXYzdpZFRoSmxnRGduVnQza3lzOFV2Uk5xRWNIWnFiNGRZdkNYekZHMVd5N29sTGtNbWktczg9
+yo bithch im robot i live in street,r/robotics,Z0FBQUFBQm0yeGNZNkI5aVBpZ3d5b0dycDItS0lIV1FNWnJleFJqSTZOY2kzVUdHa1QwV0hjRGJBLU9veXpabFQ1Q0FoTTNLRWVPRzlIblU0RmhUaF9mbll6QzAyQk9JczBUUE4zcXNwUk9OSnJxbnd3MVJIelE9
+How the fuck do I forget that I ever saw this?,r/robotics,Z0FBQUFBQm0yeGNZYThTbG50dFZlR2xFSmlfWkptZ3lxdjJsUGlMOExkRzQxMVdTV3pGVDNFa093MEQ4N3ExRjdKRkNfLWRrNEpLZEhGdTJhZXBmN2l1QldBX3p0dnoxNnc9PQ==
+is the switching of the lawnmower on/off also automated?  It would be cool to add some proximity sensors,r/robotics,Z0FBQUFBQm0yeGNZdzFpQ193UzFrcXpxbHhzdkdaR3gxWHVSemZ1TEhLSFZLelp3Q0xqaGluVFhQa1RfMk9VTGZaUWhfMV9YQ1ZlbmlZOU1mRnV6RTk4NHJKMzgyNnpMSDRfOWRYYzMwVG4tenFXbTFHV0Z2blk9
+Yeah the PTO is a 12vdc clutch. I turn it on and off with an RC relay.,r/robotics,Z0FBQUFBQm0yeGNZZHhIWTNBRm1yQ3BieGcyOGpXUHpxRHhFUzZ5a2RRTE95YUtxbUZEbm9ZVko3SUtmRVJENFhuMlZTWUwyQU1ELUNUM203UDBvUHBhQ2doNEhqNkRWUFE9PQ==
+"Just use chat gpt “how do i control this?” 
+Done ✔️",r/robotics,Z0FBQUFBQm0yeGNZZ0FOelBBeHVJSTNCLWNhbFlwMzByOWoxRFBydGYtWGo0RFAyTWRRUFg4Zk5CTzdENlpSTjZKREE2bmpmajRfeDhKNXhOQ21LMzZsejVYSXBXOVQ3UWc9PQ==
+sure,r/robotics,Z0FBQUFBQm0yeGNZQVRHUzNzN0VLeEdiZ28tMzY4d2Y2NVBsVjFJSUVaYjdiNTBJRGl4U3NYRmlYV0FtMDEwZW5yLUMtb0JKRWtRcGdUQWFRU0FmLXVjY1A2d1hVQlk0MkE9PQ==
+If you plan on making this battery powered: you can get a low power “human presence detector” (a fine tuned IR detector) and connect that to an interrupt that wakes up your board for use.,r/robotics,Z0FBQUFBQm0yeGNZZFc5T0ZFc1NNU20yTWR2Znc3YVhyblpLQTJMYWpWVktWeFlGazBlZGVRZjJjLVdlM2lHQUlJWl9rOERPLWpkeW9uRkdsaWNFbWRVTVVyZm5lMGY3d3c9PQ==
+"You’ll want to be comfortable with linear algebra, differential equations, rigid body dynamics and some systems theory. I doubt you’ll get through those without a good understanding of calculus. You’re not screwed but you’ll probably end up with a Swiss cheese like education, just like me :).
+
+Edit: just to elaborate I did a Ms in robotics but focused on controls so I wouldn’t need a strong background in EE or ME. If you want to do hardware definitely also get into physical sciences and master physics 1.",r/robotics,Z0FBQUFBQm0yeGNZOXR2dFBBVzR0ZTVheHpRM1M2NDNIdHFPaER4OWxxZWc4bE9jdEtjQUh5VXhodUdVTzBYa1NBaWpPc2RFMjAxZnlrQ1NtbGN0NURuYmVEUDE0d0VzekNmMzljT2w0Qkd1Umsxc093NERSaGc9
+"It will not walk without an ability to shift its center of gravity sideways as someone mentioned.   Even then, it appears to be designed to walk sideways???  The knees bent the other way.",r/robotics,Z0FBQUFBQm0yeGNZWklOWGNKOWI0Yk1wMDltS3lxMUlBZ3h1aVNGbUVPMmpBb0FlbmRONFdueWt6UGVTS2them5yNWl5cGxyM04xS2otQnZkZFluYlZMSERMUjM0RzB6Y1E9PQ==
+yo please upgrade to win 11,r/robotics,Z0FBQUFBQm0yeGNZN2h6dVQtekEwUVVnSlVGRE5lS2J2dTlrMTJpNzZkR1ZPejhJb0h5bElpSXpidnR6S2xuRWdaQXVLdjdJZzF5S2p1VEZjdzVsMXd0Z0JBTzRyNzd3dGc9PQ==
+"How much do you think I would need calculus for the hardware parts? Would you think just going through the videos is enough such as this
+https://youtu.be/HfACrKJ_Y2w?si=X7nDXN4Jr_m47nMm(freecodecamp calculus-1 12 hours)
+
+I am planning on learning physics 1 equivalent in coursera.
+
+But my main fear is just how good in calculus am I supposed to be is 40-60 ish hours enough practice for calculus?",r/robotics,Z0FBQUFBQm0yeGNZMzk5bXMtWlM5TGZ6dVc5TVJpREw1Z1NZNUVlem4zYW9QOU1QTFU1bUNDc09JZVktRmgzcjV6bVh6YnJ1VWlvS1FOS3p6SmhYMlU3RHFMZE5VWGZVU1E9PQ==
+"What you will actually be working on will determine which things are gaps or unnecessary. There are lots of topics within robotics and calculus/kinematics/dynamics only apply to some of them.
+
+That said, the kinematics course that I took in my undergrad, as an ME, was a biomed engineering graduate course. The dynamics exposure I got was simple planar or rotational RBD which was not terribly useful since it gets way more complex when things become 3D. Vector calculus, ODEs and PDEs have been very useful, although PDEs came up more for computer vision which are now being replaced by neural nets. So even if you were taught those things, you might need to relearn them in a new context anyway.",r/robotics,Z0FBQUFBQm0yeGNZRmFrTU9XQ0hMX2pEb3Jxd2V2RTdMZEtEVUdia2NPV2tWMzJJMV9PRXRmT0NNMkFTNnhoXzc1SEZDTm1pUkIyUGtPYVpGZXJYSjZIdTFSRUJkRHZoRFE9PQ==
+just opened the app man. scared the shit out of me,r/robotics,Z0FBQUFBQm0yeGNZcXRfTTVVa0VjN1l2eXV4dVUwMlRXUDRSOEpLWTdqRnZGY0NHclV3MDY2aEFpWGMxNjNzWXlwY2lwMEV5Mm5tOWlmbk1TSVV3bzRhMGU3Mm1lWVpZWGc9PQ==
+let me see this robot,r/robotics,Z0FBQUFBQm0yeGNZRDQtVTIwSFJKQ193T19xZXVDRlhVRFpVckh4Yjl2dm1wdmUtODBVR0Nvc29KX1Frd3NOVWxuVnp5d3kxMkdNalBLN0JGNlJDT1UwV1o3ZnVvVFZTVnlvNjBxMFZpemxfS293UVZNTUM5RzA9
+"I think the best advice is don’t rush into a program because it’s hype. Build your own roadmap that outlines the theoretical foundations and applications you want to master. You don’t need an EE degree to connect and use modules from sparkfun. But if you are trying to build fancy power/battery systems you probably won’t end up doing much actual “robotics” (motion planning, perception and control). There are separate degrees that focus more on the specifics of building hardware, robotics is more about the high level algorithms and systems theory, despite a lot of companies/programs marketing it as a fully inclusive engineering field.",r/robotics,Z0FBQUFBQm0yeGNZeFJ4eVRRZWhUd0h5NGkwNmlsRVpFdDhoaHl1b0U3R3FfOTUwckwxTUhjMHQ1ZjlldGswYUpwQmdEd19BdVBlQXJ1ZjJhRm1ZRk03OTBuakJRNlFnc1hJNFFfLXN2LUdBOWlKTXlDVFhHMXM9
+It won't work,r/robotics,Z0FBQUFBQm0yeGNZYmhUZFQzTUI0ZWJkUWUyUWZFU2gxVDh1X0daT2lhLUZURi1BRjVCZFFtYk1ZcS1PWFNnTHlWakNVY1JIZHpMVktxRTg2MmRCUXdmQ1NXRlNLVzQ3Z2c9PQ==
+"They promised us lawnmowermen, we got robots",r/robotics,Z0FBQUFBQm0yeGNZOXlMYktDRVhZZTAteGNwUVRGODJmVlNIMndrN0pwRDd6QXdPQW9tYmRaRzJ2am02Y1M2Ylh3TVFkRWx5NGE0cnF6SFBGZ3kyWm5mTGZpTXQ4alFRRWc9PQ==
+"Glad to see you having fun!
+By the way what’s the screen you are using for face?",r/robotics,Z0FBQUFBQm0yeGNZNzZUWTJLZWF4SGFtNTBVVjhRSjFBSklPOHNrVFBaMUJpZVZraHlvZTJ0Z0RnaVc5Zi1FMFVEVmxWQ25uazRVZjlHRUViZWxROHVTSGQ0NlNGQnNlT1E9PQ==
+"I would be lying if I said I wasn't interested in the physical aspect as well. My interests are not that much into hype, if so I could have gone into AI. What I am really interested in is how robots move and maybe the physical aspect of the build that makes it move. I realise it isn't a part that is mostly cs hence I want to study on the pre knowledge at least a bit as much as my free time allows. So thus was asking all this.",r/robotics,Z0FBQUFBQm0yeGNZV1IzZ0NBTnBMOUNTSVBuT2RNcjFCYkp2azE0Q1kwdHZFaWZCa2llZHV5N0FxMllzelZRR1hmbktYVEFBdWxWZXg3akRRNnlxUVJLTUZrLWtVdHloQUE9PQ==
+What do you think will happen once one leg starts to lose ground contact,r/robotics,Z0FBQUFBQm0yeGNZZjRUMmZzMzJ4Vk5wZDZPc0c4a1c3Z0dzczhGZDdsaVNXa1U4T3dZYmJlS3FfTnBtTnNJR3dCYkdYck5LbFVjME1HSTdfZGFLRS1CelRfU0F6YWJUOFE9PQ==
+It’s definitely fun I just wish it was outside since I think I’m getting pale 😂. That’s is his “MusicMan” face for music mode. He will have a few different modes but maintain autonomous behavior the majority of the time :)  .  The eyes and overall aesthetic and animations are html/css/js based . The audio analyzer and waveform behind his eyes are a waveform animation for whatever is playing.  The Internet radio and analyzer were created by a Reddit friend (I just don’t know how to tag ),r/robotics,Z0FBQUFBQm0yeGNZT3FQd0RLVW1iZFc1Q0h0YlpzSVBMVzQxaGZFVVF2T05FejhKUVJHQmUwbTY0TWg3eUl6Y1FtMEV4aEpRRUtPc0JsZ3VUVWpnemdJd1hMTUNsbzEtc0E9PQ==
+What I wanted to know was am I able to get by in a normal msc setting on robotics. I did see through the masters across many university most do have core module that is about movement focused and then mechatronics and I am honestly somewhat interested in hardware stuff more that programming stuff but at this point it is impossible for me to change or redo a new subject so just want to cram in as much pre knowledge as I can and need.,r/robotics,Z0FBQUFBQm0yeGNZME1lZGF4SHlWZjNJd0hJb255WWxwNGs4bTVxOFMyU0I3VnVYTnJzTkZXZHd6N1VjTGdmTFNCSGVfTER3ZVpzQ0FLT3BJMERrQXh5X1VLYTN6cVhCZnc9PQ==
+A taste of things to come.,r/robotics,Z0FBQUFBQm0yeGNZa0Z4Y3dZV1B6UFU0NWMxSWxBUVRrWDFEaDNWRVptWnN3azBNcmRES0xUbHFxQ1RiX2RWUnZHRmhTckl5WGlmM241SWJjM2FmVHZkNk1UdmUzZHpiNHc9PQ==
+"Yeah - that's one of those projects you do yourself once, to learn how it works and prove you can do it, and then you never do it again because it's far faster/safer to buy a professionally manufactured one.",r/robotics,Z0FBQUFBQm0yeGNZRGNDa3lXWUpPbVRDc01uQUI4bm1oR3NRbVRCYXhkdklvaGV1bE1UY2Z2TkM4MW1Wc0N5cVBKa1kzSHNQNXRBNkJMQUtIbnZLcm11ZkhMbk80bmE2QlE9PQ==
+"What I’m getting at is that you’re unlikely to learn much at the undergraduate level that will be directly useful to graduate level work in robotics. If you have the prerequisites to get into the program you will learn the other stuff you need while in the program, either through coursework, reading papers or with hands-on practice.
+
+Without the prerequisites you will simply not get accepted. In that case, if you still wanted to pursue this direction you will know exactly what you need to complete (the missing prerequisites at an undergraduate level).
+
+The only real exception is improving your overall math skills so that you can pick up new mathematical subjects more easily. So go learn dynamics, kinematics, linear algebra, more calculus, … if you want but don’t expect the specific stuff you learn to be directly useful.",r/robotics,Z0FBQUFBQm0yeGNZRllzenJza0dsWU9HUmhObnJMbmprb0k5ZC1adzBCNXVTR0Q1MzFlbTYyeWJrcHlNSVJEVjVfMC1STm56SWdlc0V6TUZWMl9XRVVPcDYtdVh1anhWcVE9PQ==
+"Is this a serious question? The origin of intelligence is only the biggest problem in computer and neuroscience. It’s easy to imagine a sci-fi robot, lot harder to build one.",r/robotics,Z0FBQUFBQm0yeGNZV1I0enJCMHkzNXZIYUxIWDUzMHcteHRsNTVrcjZjT3VaekJZSVUwMDEySkpid05kbXpPS3ZJYmVfRFlhUlRFenFwQzAzTXdXbUlTUlp4cmlUeTBTWEE9PQ==
+"Two main reasons,  put simply: we can't, and even if we could, it's unclear if we should.",r/robotics,Z0FBQUFBQm0yeGNZMm9OZjlkZWlBWkRmYkhxeExETlNNamR6VzhkbWJCTGZXZG1FcmhYV0owSGNXU2sxS050cXBZTFMwblMwZEJhYWdoNFY2UjVEZFNNWHZFVFI2aHFGRTRzazY1T2dqdjBJMXF0VG9xMFZDQ0E9
+"You have to mow right up to objects, proximity sensors would be a problem.",r/robotics,Z0FBQUFBQm0yeGNZTDlETTVFSEdDNDFlNTBjTVF6clVWbHh2NlpGWENTNzZpVHdzdE9HWFJaM0RteV9iZXlSb1ctdExjd09kS3cxek1pM3VibTFLc2ZaSFNYNU5jcHdjRkE9PQ==
+Simple. The robot has no laptop and no money with which to buy one.,r/robotics,Z0FBQUFBQm0yeGNZenhNMFp3VC1EYzZ5eTVya2YxbWp3OWZNd3JPY2FpRHdUR01SYnkwR2ZIdDJjUUs3WERMMTlMc09BWkNXdG8xWkFEWGZQV0hxWlcwT2gySzQ0aG9IOEE9PQ==
+Try asking after 1 or 2 decades.,r/robotics,Z0FBQUFBQm0yeGNZOGd4WWIxLWR3dFZ4QzFHY3I2bkVZT0NRNGJUeHFabWRMT09hdXlLWjBtdVViVk52c0VZQ2J1bGJtaEUtMnloWjcyYXZoeXZLcWk1bmx2LUU3U2xuT3c9PQ==
+"Riddle it to an electric pole. The bigger, the better. Better yet, toss it to your local district transformer",r/robotics,Z0FBQUFBQm0yeGNZN3JMeTZvVEk5RkM3bjAyMW5DU0h4Z0hyWmZTWHFCdW8yVDZlYmpNZjI2dmVPUXlmQWFILTdoeUJmUThZRVJ4ZXU2Rlh1dU9RTThPSU1ITDZhZ3JPLWc9PQ==
+Do you have any diagrams of your electronics or any pictures of them?,r/robotics,Z0FBQUFBQm0yeGNZX0tsMlB6NVpXWkd4emVVbHRlMXljTGlhcVFLbjU4a3NtV1lYZHJQN2ZpUHZHSVUxdjdMMkpWTnVqa2lrY0hyckpNOXJwTmN6VUZEY0J4RUNXNjd0ckE9PQ==
+"Are you asking why we haven't created true AGI yet? Because we have no idea how to do it, and the type of ""AI"" we are pouring money into right now (LLMs) is very likely a dead end.",r/robotics,Z0FBQUFBQm0yeGNZNmFuQ2dETkFuZm5RRWpnenJSLThNNk1PbUNaV04yazBTeS1KMWMzVWNHdnRXWjdPN21obUlWLWJNNnNrMmtpYWowTmtCb2NaNVdzcDZOYy1TZUdjU3c9PQ==
+"Depending on how much power you draw, within 10W you could get a 2A, 5V usb powerbank. A 20.000mah is about 74wh (and then some loss) so should give 6h. You could get a boost converter/step-up to go 5v->6V if needed.    
+
+There are plenty of other ways with large LiPo batteries with 2 cells (7,4V) or making your own battery with 18650 cells, but a USB break out board, a boost converter, a powerbank and a power limit of 10W is what i have found to be easiest",r/robotics,Z0FBQUFBQm0yeGNZX0o0QjhscG9qMTFvWnZPNGM3VVFyVldhb2MtT0tLYUZ3MnJ4dzd1NkZOZnU5SVUtLVRMTWlLS21mUTBWWENCWDh4Q1FndEZ1TDFNZFFmeER3aW8tWXc9PQ==
+Robots need different algorithms than what is being used for today's narrow intelligence.  The algorithms need to be online and consume signals (information that has a time dimention) as opposed to data.,r/robotics,Z0FBQUFBQm0yeGNZZkJobGlDY3ZOMmhQMXJVMnkxLVJ6dU80R0pWUXZWNXVqbWpLd3d6SnJKRjNaN1B2c0JKbVp5S3I1d2xjWXVRZ2VjZmljRzI1U002WUxjQXM5czMxRkE9PQ==
+Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts.,r/robotics,Z0FBQUFBQm0yeGNZM3hJZE4zOGNZY2JsLWR2bkU2SU41UVJPZXlncnJFZkhBTFNUeXVyU09Kck1pRnRRenVVOWlTWDFTUUltNVo1UjA2emNXSWh0dEw1NUNPeWJXY2tkdVNsU3lndUJlUGRaUWV2UGEyV25KdzQ9
+There’s a movie about that,r/robotics,Z0FBQUFBQm0yeGNZcVB3S3JWTEpVZzMweFdHdzNyZjRCY00yc2hveVUxRDJEbVRPNXc4dWUydkVMNm85RnBOZEIwZ0FIRmdIemxpVThmY212TjBMZHZrOHN4RzBYRWhKbHc9PQ==
+I'll get some pictures.,r/robotics,Z0FBQUFBQm0yeGNZYnVndDRvdk15N0Zxb2tsSk9GN0huazVreTk5RTZvTmdJLXROdjNLUWMwdVFOeVk2N3JlTXZLcXZLR1VEaGlVS3ZrVV8xSFExWGZsQWNhY2RURmJTTEE9PQ==
+"Thank you, starting on a similar adventure",r/robotics,Z0FBQUFBQm0yeGNZaVRsNGpFQmZiVTVSQXNVaUtlcG8zcTUwQnRDRXM3MEpNbFJBSDdwNGhpeFZINF9qRFZuQkRhbEw5TjNFUFh5VmhYZldNc2tzajlJSWNfTGtjNlBSV0E9PQ==
+r/eyebleach might repair the damage we’ve done,r/robotics,Z0FBQUFBQm0yeGNZamxwY2Zya2NmTHpUM3VGWWFNdWp3ZnBkRFJDWUVrRUZkelk3amEwM21XaHFLWXMyWTNsOEVHWm11MzhMcjdJNFUwdlNOLWdmM0VnSmgwa3ZhLTNITkE9PQ==
+Do you think I could also use that power to heat my pool? Think of the savings.,r/robotics,Z0FBQUFBQm0yeGNZTlF0bXZQbFNkaUQ5WjNnUElreFFqNGZMT1lsZnU3WGJhS0IxbkdlNWJQa19rVDJKcTJhTUJOWVBtY3FSWFVnTFN3R282NEM4SThWbUJTdXIxM1hXaVE9PQ==
+"Haha, understood. I've been setting it up over the last few days and am having a terrible time with the tutorials, mostly with getting the ROS bridge to work. Hopefully, it'll get better once all that is sorted out.",r/robotics,Z0FBQUFBQm0yeGNZZUlwaVNkN2hkUXV2M0RGYXFlVzNYUEZGSnlfa2tWeFVLbENrNy1uYzIzU3pBcU9KNW9Gby11RnhENFRfX2pMbXF2VDhqMmZlSU5HMlg5NG8xUGpPLXBHTk95dFdxOWdrNGZQYmozTkowOVU9
+"Seems like they're in the US based on their post history and they're most likely lying. The FSLA governs the continued existence of unpaid internships. Essentially, the student must be receiving significantly more educational value from the internship than the employer receives in productional value. Unpaid internships are common in law, non-profit, and some government work. I can't even imagine a tech internship where the intern doesn't provide some value to the company, or why a tech company would ever hire someone that isn't going to provide value.",r/robotics,Z0FBQUFBQm0yeGNZRk96Y3FaRkxKRktubFIyY2dLaEVBRkVpbmJ0dnczZlBwb2tIVEdHbHVFV21yZFFVRlN3RXdYX2ZyZmE4aENLQ2ZiN0F0bm56cElfSXRWbjlKVmIwcnc9PQ==
+"I don't know anything about the camera, but for JST connectors, you can buy them with wires already in them, bare on the other end, aka pigtails. Or buy jumpers, and cut the other end off. Otherwise, you have to have the proper crimping tool, and even then, doing it by hand can be kind of tricky, and if you solder them, they may not fit into the housing. That's my experience anyway, other people might be better at it...",r/robotics,Z0FBQUFBQm0yeGNZWHBwMjJxLVI4T3ZIUkFjTEVYaHBVYU1MN0VYZm9pWS03MkJrbFpHZm1peVJrOXFUXzIyMkxXSDNLcWZneW5nMGx2T3dhQ0xfWmh4MVRDWnNLN3ZieVE9PQ==
+"Have you tried sacrificing children and binding their souls to it? Worked for five nights at Freddy's.
+
+Edit: don't sacrifice children, that's evil.",r/robotics,Z0FBQUFBQm0yeGNZUFV3RFNxc0o4Y19zRHotZ1FWWnpZVnhEakdHX0czM3ptWHB0VkxWU0VVTENsSlFza2J1UURPbFBMd2dfel9UTmdiWFlVS243ckswbWpUMm8tS0xKclE9PQ==
+"Very  cool, still some work transform it from a kid toy to a real robot",r/robotics,Z0FBQUFBQm0yeGNZX2xWaU1nWnRSVEM5dk5JUjZVVGNKRUFJeW15X3pxVUUyWEtKOFFoam1FMm1YZVlxT296MlJJNkFJVVFMdnEwcnlHeE5hSEZ1czlaQ3FFb0VoR1BNT1E9PQ==
+Why it makes so much sound ??,r/robotics,Z0FBQUFBQm0yeGNZbGpHdlBLRTQtbDlaX0w0SFRfaG5wNjFOY0o5YVdGZGtBMlZIRDhOeGFyal9kOTRFbUd4SnRoc05UQlJCNUhqeFViMl95QVp4QVlLaktpcHJ0UDV3LXlCS2VGVjhEdG5lbHE1TnJrdkpNNFE9
+"Everyday Robotics did this already before they were shut down. 
+Can someone here from Everyday Robotics explain what additional advancement does Gemini bring in?",r/robotics,Z0FBQUFBQm0yeGNZLXZYRnU1UE5rRU9jdDFQcVhscEdxeVZPOFhsbGVhdmtURDNnZ0xsVmdCNjhPd2tIX0hZVFJzZmRBdHRwb0ZlOHUzSXN1ajdYUV9XU1J5Si0tVlhXUjFFWnkzajg5M2hRNXFnYW5NMEhLQzA9
+"Your best bet is not to use batteries... there are tons of christmas lights that are powered via wires, there's very little reason not to just run a cable to it. 
+
+Draining a battery isn't going to kill the motors or servos. Probably. Unless you really abuse the battery and it catches fire. 
+
+2x 6V 2000mAh getting drained in 30 minutes means you had 4000mAh of capacity... Draining it at 2c would kill it in around 30m. That's 8A average. That doesn't sound right. To me, that means you are not sure the actual power draw or the capacity for your 2x 6V pack was not 4000mAh. 
+
+So you can do one of two things. For 4 hours, you should calculate your average draw, and then get 4x that draw in battery capacity. So if you draw on average 1A, then you need 4000mAh to last 4 hours.
+
+Or you can plug it into the wall and use a 6V supply rated for your peak (not average) current. That would be basically summing each motor's max draw (or if you want to get fancy, group the motors into which ones will be on at a given time, and size the supply for the maximum of each of the groups - since not every motor is on all the time). Then it just doesn't die.",r/robotics,Z0FBQUFBQm0yeGNZNjFXQU1VSklyR2t5clBHOGQ2U0R0TWFDMG53Ynl3OF94S1Qzb1FnYXdJZWVOTjZHR3hhLXM1WUJhSWRlMFU2Ty0xeDg0ZUFuYWN3QnZ0T2dvczN4RGc9PQ==
+Please don't do this unless you make youtube videos and yell FULL BRIDGE RECTIFIER into the mic.,r/robotics,Z0FBQUFBQm0yeGNZcTAxQjctcFdfTkxxeHJXWTFUeVplUU9CNkJ5Xzdlb1VKWTRTTk1SczVUaUJFYjA1VFh2RG5iRndoMGV4WGZHUmZoVmY4TWpfWHpZLWExSEt0WTByZUE9PQ==
+You should not listen to him. Just get a supply off amazon or digikey.,r/robotics,Z0FBQUFBQm0yeGNZX3piclVXXzdMWHVfa1VGd1ota0RVLXhTN2M4N3MtTVdaSTNEWGpYTWtYeDNZYWtMckVCODBQcDY1bmNXUVExU05DM2VkRTZQNk1FUkt1SlhFOVdLR0E9PQ==
+AURRGHHHHHH ITS NOT FAIRRRRRR! I KNOW NOTHING ABOUT ROBOTICS AND HAVE SO MANY IDEAS I SO DESPERATELY WAANA DOO :<. I AM SO JELOUS OF YOU THAT YOU CAN AFFORD AND KNOW HOW TO DO THIS STUFFF.,r/robotics,Z0FBQUFBQm0yeGNZWkRmUkc3YzZtRFJ4eHVnUHFxWWlPdW5TTnJRb0RSdjhacHBoRnYtdmhnNkNVUXZNV1RpRjBidGYxZXQwc3JzcjZjUkYtbmlJU3JUTlFnbXBTU1ZKdGc9PQ==
+"I totally get where you’re coming from. Robotics can seem daunting at first, but trust me, everyone starts somewhere. When I started, I knew zilch about it too. I’m still a noob compared to alotnof what I see out there and I’m learning it as much as I can/trying. My pile of failures is huge sofar 🙏🏽
+
+Sofar his price tag on actual parts used is about 400$ and I’ve spent about $1300 total “learning” since February 🙏🏽.  I was blessed with a 3d ender 3 on my birthday which definitely did a lot to fancy him up.  Prior to that he was primarily made out of stuff I found in the house which added an element of fun and ultimately influenced his design a lot.   
+Randomnerdtutorials.com 
+And YouTube along with this group , esp32 and raspberry_pi have been amazing help !  Also big on asking chatgpt how to learn what I don’t know… I’ve wanted to do this my whole life and is only now possible due to this tool 🙏🏽 
+You can do it too 🙏🏽",r/robotics,Z0FBQUFBQm0yeGNZYXd4T296Ylg2cGtzcXN1bUNLdkVSQkZrZ3htX3VvM2JDMkxMMGtjbk1lUjdHR1lwVTNqamdzQTNCdEhxQVBDdnJwZ010V1BBOHJDZVBpeVFVVzZYM1E9PQ==
+"Then you'll float too, in a nice warm pool.",r/robotics,Z0FBQUFBQm0yeGNZczFrOGdKT25SbFdSTkpsVVJFeTRUcnF0X2s5b3VpaE54dlQ4Mk9saTJ4ZmVtaktHRHZocFNrNk1oY1JiOXRHYlpBMmZJa1l5MDRCbjhsU1Z0NFZTM2lXbVEwRUZYU1oycEtGeEw4R3kzUDg9
+"Linear algebra and trig was most of my work. The answer is kind of but not really, you just need to study. Get comfy with linear algebra and law of cosines and other trig. Do some statics and dynamics isn't that much of a leap. You should be able to do integrals and derivatives and have your basic physics formulas memorized and practiced.",r/robotics,Z0FBQUFBQm0yeGNZX09UMHZVc1dlZ295V1R1Y1pNWDBCLS1UX21UNER1MTNXVDExWmxMREVUUmJQRmM3QW5KbWtsWGV1WTJxWERLY1BOX3o4MXY3Nng0WllmR2E2UDFYTlE9PQ==
+"I do know of these since A-levels just that I did it 4 years ago and am kind of out of practice. Would you suggest going back and practicing would be sufficient? 
+
+Also to note I wasn't the best when in A-level as additional information. I know the basic formula for mechanics and know all the rules in integrals and derivatives I just have serious difficulty solving it without any proper 'cheat sheet'",r/robotics,Z0FBQUFBQm0yeGNZQzJqblUtc1NkQW9JcHF5SDlLc3RYbnctSGg5Qy1qWHJ0Qkw4ZzdQSUR4Y0E5ODFQLXVUODNFSlBUTVY1ckxnZ3dpU19XZ29GMkkwaW1TY3hOd0U3amc9PQ==
+Idk anything about that one but it's a robonova II,r/robotics,Z0FBQUFBQm0yeGNZQkZMQURyeGp0aWh0RC1WSHRybk95NzBlam1lME0yU2dHYTg0ZWQ1a0FWUXBFZXRYdkM1Z1JzMnNvN3dwQVl4ZWZqSzJPT1RSTG5hY2JEZDR4Yno1U2c9PQ==
+Top half could be super wide,r/robotics,Z0FBQUFBQm0yeGNZWVdsNmFtcGJKUTlEOWFvazM3ZkN1aFhvYm8xbU5xZ0hhaDYzMDVwOEdVN2p5b19tdkpZRFNiRWtlNmJqRGJSaGU0ZVQ0elpJZHpjZ0FYLVo2ZjZQTVE9PQ==
+"Hello /u/CertainArcher3406
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNZc1hOb0VWTGtoYXBWS28yMlgxYjFuZzU3aWxpY3JLT09pZ05HdGJOb3NlMXhlWG5MdURrWElMYlNwZkhTX0gzaGZicmVNXzZNbTUzck1wUFJzTFNHV0E9PQ==
+"Hello /u/CertainArcher3406
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNZcm5mQ1p4dVgzelR6QmlFUGk5UUNGdmFrWVExSzNQbTdYQkJoUHZlTTVaRG1KOWxFbFJLbjctRUNJaHlDT21mLVhhUW9RQmNTT3U0cDNzb2IzeUNOSGc9PQ==
+"Hello /u/healthgrind
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNZZG5oV0Q1Unpsdl9wS2VJMVcyUUhGRktMRm9CWXdoTk5WNVl0cWJJenZpSHdQR2lNWTdqRk1uX2IzYWUya2k4MUlzblNsWlhJMmhfdFVYc3JaOFdHdUE9PQ==
+"I was in the same circumstance. I did CS in AI, then did Robotics in the UK. The hardest part was the control theories for CS student I think. You can do some preview before walk into Robotics. Kinematics and Control are the main course you want to look into. There is a YouTuber called Brian Douglas. His control videos are pretty similar to what is taught in my lectures. Also you can find study partners who is good at robotics. Besides, you can select the course you are good at to get a decent GPA. If the opportunity is good, cherish it. Don’t be scared off by what you don’t know.",r/robotics,Z0FBQUFBQm0yeGNZT2tHZHRuQkxDaE8yU18tZ3ZRaVZOdWYzU3lrQmN4Z2pRT0V3MmhaMVlpdlJGMzBlc09YMC1kSkxvQ3A1T19CSWF2T3YyQ19JVkNvZGNVeFdiVktfdkE9PQ==
+"Your post/comment has been removed because of you breaking rule 4:  Beginner, recommendation or career related questions should post in r/AskRobotics.",r/robotics,Z0FBQUFBQm0yeGNZOHVEQ1NCcGxBbktRQUJOSldfYVE3ZnBYaTc4MkMyRVZGbU9kVjlvM0Fmc0swMUdvRi1FYThndDFKeUJ0SGlCWkNVODhidURTaExkSEQyMWc2U3ppY2p3UzhyaWxqT0E0ejdmQzdtcWkzU2s9
+"The whole point of an MSc is for you to learn the types of skills you're talking about. Typically it's expected that a candidate will have a background in a robotics related discipline, such as comp.Sci, electronics, engineering etc, but it's not compulsory, it just makes things slightly easier on the student. 
+
+If you think you want to do an MSc in robotics, reach out to the university and have a conversation with the admissions officer or get a look at the syllabus. 
+
+Source: I work with one of the Robotics MScs in the UK ;)",r/robotics,Z0FBQUFBQm0yeGNZM3ZaYV9SbVlGN0tJcG9GV29mT3JLb3NUZVVaX0pscmd6a09qTkwtaE4tNy1mUEMtVUhON09zQUxIeWpueFhqa1lOSzBWcVJLTkVsY2YzT3RCbHQyRkE9PQ==
+"I don't think I'd trust a commercial grade 27hp 52"" cut zero turn to a kid though.",r/robotics,Z0FBQUFBQm0yeGNZbWJSQU1FNHJ3NUZ0OGctcmJ4M0tRTG40RXhKVmVxdWI2UzliY1p4RHpJQ2hZN1lFbG82QXMzRXlZZlVXMUdOYVJPdkV2Q0JsVjQyandpWF95Mjk1UFE9PQ==
+What is M at zero configuration,r/robotics,Z0FBQUFBQm0yeGNZOGNtbXlFc25CZ3FUU0xaNzdwRDRnbHRwMlRjbnpTbGVXZmEtR0pBMUpDMVREOE44bkp2Nm1iek1EZTZXXzVNQnJtRU5JMGo5TXo2UXQwOGVnWUpZeFE9PQ==
+"Please, please use ROS2. There are many tutorials for it. Look for ""Articulated Robotics"" channel on YouTube",r/robotics,Z0FBQUFBQm0yeGNZZEktaHpXQThPdnlmcEdqeURpd3g1T096N1d4X2tKN3ktNVlVODY1RzdfRjNnWEFtR01ETDA4MWV5ZS1Mem5kdGlBV1JFWXZYT1F1bktYUkpreWVleGc9PQ==
+does anyone know state of the robotics market 2024 in the netherlands? i  wanna get into a robotics jobs.,r/robotics,Z0FBQUFBQm0yeGNZQnFRN1VZNDlXS2VzcjI0WVdTQUJkMmlXcWR6T2NVNTdPMDlpSnJBZ0loWWI1RF9IODNuRkktVjFPMEhtMTU2ZDlna2g4enRQX090dTc5UmNoQ1ZHbGI4OS00Q09weldJNzFQTHdWUXFMblk9
+"It's called a triple bogie. Two on each side and one at the back. It is the same system as on ExoMars.
+
+If anyone here is an EU student, we're going to have a 1 week robotics workshop with it at ESTEC in the Netherlands:
+https://www.linkedin.com/posts/esaeduacademy_esaeducation-spacerobotics-planetaryexploration-activity-7211670653127585792-vcOX?utm_source=share&utm_medium=member_android",r/robotics,Z0FBQUFBQm0yeGNZRTBMVEl5SGw0Wm11LUc3ajVzUXpFamQwZVZiYnJVNTdiZkdzdmN4ZlRTM29mOTNGejlEQmluY1lZZjRRdjk5Vm5MdGJLNzM3WTF1cm01eVpXSWlmSDVHODFrdnFfSDBYMURBbW1xdzNkakU9
+Makes sense,r/robotics,Z0FBQUFBQm0yeGNZVThXNWszdmRzQWRLdFRWcV9rX1pfTmZxQWRSbVN6MjViQ2t2ZFFPRFV0WnZjaGtfUzNSRTlIUTc3QmhrcG8wSzZzdTdrSDMzY1BXQ3lGR204VFVCRnc9PQ==
+"Hey, thanks for this, can you tell me how hard stuff relating to dynamics and maybe even mechatronics for you (if you took those related courses)",r/robotics,Z0FBQUFBQm0yeGNZWEVRY1FyaEhIOEZtVHZsNnJZUDBwV0F0NUhSVmRBTnV3QV9PVTdGN3F2cnZlM2ZKMjJTX1NXdGhOVGFvVEw2ZHZLOXZsUEFlX1FwRkwySHFNV1J2VUE9PQ==
+"Hey, so would you recommend me taking courses relating to dynamics and mechatronics if I am from cs background because i am pretty interested in those topic just never had a formal course taken (also not gonna lie my self study would at most get me atmost 40-50% in undergrad courses in said subject, atleast what I feel like so.)",r/robotics,Z0FBQUFBQm0yeGNZazhIMUd6aEpTdS1RVE5BdTVhVnV6SlBtdUFzNGc1azBqU3VpTnVzWllCYms4VkpwTnR6MEdXWmNaZWNrQ0F5aDIyeGphZHUyQjJvRGFaV1VtMmdqLUE9PQ==
+how are u powering the beast?,r/robotics,Z0FBQUFBQm0yeGNZQ25WaUpnTFVma3M5VnU3VVF3UllCbFhPbmhHRWpNbzJOLUVaWFhqX3V0RnF2bTVGOVBsQlJ3V2swTmk1N1hFdkh4Ym1WN1BzQ25CNUZQeW9OQWV6cGVyVnJjUW9IdURkMFRqTjFBWTc0LVU9
+"Hello /u/Various_Box4268
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNZOXdBNW9TUHRxSGxGbHlmdWtyVFRuZXVSNDJrZm4yaXd5bm5hM3dueWdQTUFRTWp5MGhYLTBxN0JwOWhsaTlwVnRWNjNkSzkyNFZJN1lLMWJfLXFTb3c9PQ==
+"Multiple mentions on relevant channels, videos of autonomous tracking, videos of drones hitting vehicles with all kinds of jammers on top of them - if you are keeping any track of the war, you couldn't have missed it. And why doubting that in the first place? It's a very basic technology (operator literally shows what target should be followed, AI follows it, if you don't need high performance - then even standard stuff from openCV package can do that). The only real challenge is to make such drones within $500 budget and from stuff which can be easily sourced at thousands units per month - otherwise, it has no practical value for the war effort",r/robotics,Z0FBQUFBQm0yeGNaakpWX1BjaVR4NjZOSjBiSWN6cWFNNTVQa3BLWE5FQXFLN3dBME1pQjhjQUVORE1JRDRNWmxnQTlSTGUtbUpkdDQ1Vy1Eam9vTm83Vkc3THlINkV2R1E9PQ==
+"Ethics is of no consideration for the war in Ukraine, if either side could use autonomous AI efficiently - they will. But right now it's not really possible, probability of mistake is too high for it to be practical (like, killing 9 enemy per 1 own soldier isn't good enough)",r/robotics,Z0FBQUFBQm0yeGNaNFdINnZQMm5laDlRUV9waHVfcGxsdmxMaTM3NjhFTWNKUXdMaEZfUnhNNC03UWhHRDJzUDdxQmZ3UEtkMUZFMUZFbHJjdGxfR1FmZnI4MlpWQVg4aGc9PQ==
+"AI isn't ""any time anything is autonomous""",r/robotics,Z0FBQUFBQm0yeGNaTklnZVpzcDZQSlp6ei1Ubkl2ZEZxdEtEWUNTSU5hVHhjbDl6Q0kyaVNkbG1LMUFxYjk0MDBqNHFSSnhQN21zenZoRXFMQ3NOcG9PbjBpczZJa2k5eXc9PQ==
+"Today, ""AI"" is how robts move.   The days of hand-codoing movments are begining to come to an end.     Learning about DH parameters and inverse kinematics is not a master's program.  It is a two semester class as most.   BTW the very best class on this is available online for free:  https://robogrok.com/. This is a university level class, not some random YouTube, The instructor is at ASU and if you pay the fee you get cridit.      As for Math.   Kahn accademy is good.  Thhey have Calculus and Lin Algebre that is ""good enough"" for robotics.        Do not believe for a minute that you can learn on your own to the same level as you would in a good graduate program.",r/robotics,Z0FBQUFBQm0yeGNacDE5WFQzLXJFdDlYSk9tTEhSUnZ3aFVnUi1TYTE4d080RmdUSklKQzZCTmJERGtCS1djM1FnQ0ZxeUJYUVk0N3QwaTJFWDhlR2tVN1VaSjFuaVZ5c1E9PQ==
+I'm not able to find the RobotStudio Student Version that you talked about. Would you be so kind to send me a link to it? Thx in advance,r/robotics,Z0FBQUFBQm0yeGNaRG1UTGt2Rnl1clJYUU1UZHQzVkJRblhHT1hPTzFxcklxZllXOU5KSklnZVZ6N0hQdmVtT1o0MVpMblVYWWxrOVVaTHlRT3pfWFZlLXVUSV80bVNHQXc9PQ==
+"He currently has a Marbero 24000mah power bank I got off of Amazon. I’ve been really happy with it, I want to upgrade him to their 64000 mah version.   These are cool since they also offer a slow solar panel I think I can utilize if everything is in deep sleep but I’m not sure.   His current battery last days tho 🙏🏽",r/robotics,Z0FBQUFBQm0yeGNaWFNFR2dLVE13djVaX3VhY2VHNXFZaWI0dzRvbUJwWDdMNTVWZzFGbmpLS21VRVcxV2lrM1A1SWJiX05Yajd3RW9UenRvSFhKYjlIS1Z3WjNmRWhIdWc9PQ==
+"AGI is not. AI actually is. Some people don't like this definition and I can understand this, but that's what AI currently means. Arguing about semantics is quite strange though - if you don't like particular semantics, it's easy to use words that have a more clear meaning",r/robotics,Z0FBQUFBQm0yeGNadkhHeTRrU2pmLTFhUF9sN0RndmxHSVNNQ1oxVGx6bm5NVUZKOHVzRXg4QzdTLVVHcTE5ZE1kci0tLWpPQ1NJSHpSRVR0eXBZRV9STlBnYzFLTy1jZHc9PQ==
+LOL buy one which is safe and does not burn down your house,r/robotics,Z0FBQUFBQm0yeGNabkVYX0RLNV9Wa21EVkp5b19ySlEtbVFUMmExOUh0Vkx1dUNYUFZOeVhzUHJnb016NTB0YUdqWW5TbE9BUUVaYU1aYVk1MmhiZnBPd1JocUp4VGNfLWc9PQ==
+Control disk.,r/robotics,Z0FBQUFBQm0yeGNaaUo1UWtYVVRGRWt1eEJuUWtVX0pKR2dpOTI0NEwydVNPZXlSM1cwNWJ1NXl3RUY2LVBzWUdNc19lMTlJY0U3dmQ5MllzSURQQmpLRlVXVXVIZnhOclE9PQ==
+Not to be confused with r/EyeBlech,r/robotics,Z0FBQUFBQm0yeGNaUzBRR25hV2w4M2NWUHF0SmZsd2wwYXJCeGl0SkRmWE1HWTJWNzBDU09ZdlJBOWxKM2pCb1ZfTFF4aFJuV0stYVhPYms3YjE4djg2djBCbndlRVVlWFE9PQ==
+Conky!,r/robotics,Z0FBQUFBQm0yeGNaSXZINFpCdlhBY3Z0MVVmUmEwZW5zMVpTMkxRR0ZzRGtMaVVNS2h3TTRrM3IzbHNsTjVORTFCUGdvTGZDZUtPUWFIalRUdV80WW45UG9RVndDTFZsYnc9PQ==
+"Is that screen + speaker component available online, if yes can you please provide the name of it",r/robotics,Z0FBQUFBQm0yeGNaeXp4c3lMUWtXME5xNy1pTzYzZVNwQXdNcFRCSmNhRENDeUtkN2lvcVFGeXlWQjkwUEk5YnVoWFZRY0hyWlpfaUtxbXR5QlVmdFBLdjZ0QVhncGhpS1BuemdTRkRWVExoamVJNkZndm5DYWM9
+"I did this just for you bro
+https://youtu.be/BYVopCGk7s0",r/robotics,Z0FBQUFBQm0yeGNaLTdkM2J4OGxsTmlLZF9jSmJzTFZwWFo3NFF3OGdmNkxvRmcxXzZ5QWFjc2Z0N21RZlpOMG9mQVVVVDdGRjM2UjBtbGdRc1FaMjRxcWNNSlc2dDN4NWc9PQ==
+"My advice, unhappy though it may be, is to curb your expectations somewhat. The idea discussing jellyfish tentacles and such IS a great one, but it's going to be QUITE complex to do. You won't be able to do more normal styles of kinematics on it (forward/inverse) because all the things you've likely been taught (making assumptions about your classes, apologies) will have probably assumed rigid linkages with specific pivot points.
+
+What you may want to do in that vein is start with ONE tentacle, possibly even slightly oversized, and get a design that gives you the flexibility you desire but also can be characterized in some way so your control system can make a prediction about how to get from A to B.
+
+Bonus points, if you really want something interesting with that approach, find a way to design your control system so that it can have a length along the arm specified for where to consider the end effector. Namely, imagine the difference between trying to place the tip of the tentacle, vs placing the space five inches further back, because the tentacle length at the tip is curled around things.
+
+Bonus bonus points, if your software/hardware can utilize different lengths of the tentacle for different usecases and switch between them dynamically.",r/robotics,Z0FBQUFBQm0yeGNadHZpTndrT2xaRjNoM091QkY5MFMzWHBJdS1JcUw0RVdLeHVoQ0lwNi1PYXRjSzJ4TlZKTmc1bEh3eGZhUjdHRzhVcnpvZ0oxSUxfOVRIYVg5TVBDYkE9PQ==
+Don't really know astro but you could put fiducials (like April tags) around and use them for localization. There are stand alone modules (forget the name but there was one that ran micro Python internally) that will do the full April tags stack for you and provide positioning data,r/robotics,Z0FBQUFBQm0yeGNaZlBGV3R3ZERfZWIzcTRHeWpEVThsRUstZ0h2MFVnVXVEZUd0c0xFMDFScFJHdzJhX3h5S0d1WlZjSUJZT1hibjBEU2VmbHAyamhhbGNXcHJGdFVjM0E9PQ==
+"I also wonder this, especially when so many of them also use belt drives. I would've thought that was asking for trouble.",r/robotics,Z0FBQUFBQm0yeGNaclBvTVhjaXlxNXBoeFFDR29rYmxzX3FtMkozY3hBV2szVHYwVTRucFEwY1h1Y0lMU0Jpbm01dDQ0Q0RpOF9sVHhMVkloU0ZLRkF1SnBJQk1hSWRMOS1Ud1QzV3l6Z2J3Y292b0dnUU5ILUE9
+"Modern timing belts are pretty strong and stiff, especially when they have fiber (glass, carbon, aramid, etc) reinforcement. And if you have an encoder/resolver on the output side you can remove the uncertainty from the spring constant (which again is already high).
+
+Just my guess though.",r/robotics,Z0FBQUFBQm0yeGNaa0tLUjVFR1dIejV6cUMtQmpDSUM4dV95VDUzNXVJZTV0WC1PRFVqU3VqaU9yV1lLT05FbFR3c3VyNUZrbDFIdVZfdVVBLTJranlxN21HUWQyeG5TWkE9PQ==
+"Modern timing belts are pretty strong and stiff, especially when they have fiber (glass, carbon, aramid, etc) reinforcement. And if you have an encoder/resolver on the output side you can remove the uncertainty from the spring constant (which again is already high).
+
+Just my guess though.",r/robotics,Z0FBQUFBQm0yeGNaYmZlVF9pQmJhLXdiNF9wOUljNUlRS1o1S3dSYmd6QzZMdnFPRkNkR1ZsUkt6Qmg4aEpFUlI1MWN6Q2dfTHdPc3lYaXk3ZEJBN2dabmhrd0h0cVBWQVE9PQ==
+"Tight tolerances on critical dimensions of critical components during machining is very important.  Initially, these parts are 100% CMM inspected.  Once the tooling and processes are proven on first articles CMM inspection on 100% of parts is no longer necessary.  Finally, every arm is factory calibrated such that all the minor imperfections unique to each one are characterized and stored locally.  This allows the kinematics to compensate for the variations and achieve the desired repeatability and accuracy.",r/robotics,Z0FBQUFBQm0yeGNadE9CZFR5elozWVM3bldOQlJ6NWtBdllheF85SVdyNGNvYl9SSEdpY0FTa1FfQjVOa1hGUG5qMDVaTkZTQThnWXV4TGI1RzliUDl0anB0bnVtZHZuOHJUbWZiYUF6ZE8zY0VRelA0a2tzWWs9
+"Here's a good resource: https://softroboticstoolkit.com/home
+
+And shameless plug: https://negshell.github.io/ I tried to write the Molding and Casting section for general soft robotics applications.",r/robotics,Z0FBQUFBQm0yeGNaMzNOT3pySzBzdGJBOHIxb0hZdUR5WC00Zkk5YWJyRGxXNy14TGhaUW1rZFZpWmRYUnQwaVNMYVEwc2Y2alJzYW1hNVVfNndRdkozOXdGUlEwOFZoTVE9PQ==
+"Very tight tolerance and factory calibration.
+Each axis has an encoder that is accurate up to 3,4, of 5 decimal places (1000th of a degree or better!)
+
+Before a robot is shipped from the factory, it is mastered using specifically designed jig, and the encoder values are saved to a master file, usually paired to the arms serial number.
+
+If you look, most robots, especially large industrial ones only claim repeatability up to .03 to 0.5mm. (remember each joint is measure to the 1000th or better.)
+
+This is important!  Repeatability vs Accuracy! 
+
+Most robots are taught using dead reckoning, which replies on REPEATABILITY. 
+
+You move a robot to a position, and TEACH that position. The robot will then return to that position within the given Repeatability tolerance. 
+
+Accuracy is more like, Here are specific measurements, go exactly there. Accuracy is not typically used in robot systems.  Even in most vision guided system, there is a frame of reference taught (dead reckoning) that reduces the area in which the robot needs to be ""accurate"".
+
+Belt driven axis usually use a very VERY stiff timing belt, specially designed for this purpose.  reinforced to prevent stretching. I have seen robots that are 20yrs old or older with original belts! (never recommend this officially, but it is not uncommon!)",r/robotics,Z0FBQUFBQm0yeGNaRHB6TVZKb3hsQVVUWUlqaUppUEsxVkQtd2IzTVhLS1dEUk84NHhLN2U3UC1FTE1MZGVOUXJ3UEh2bXV3b3pndGhEajkzYmNqQ1FJc3dnRG9OZ1dLbnc9PQ==
+Get a cheap 12v-24v power supply,r/robotics,Z0FBQUFBQm0yeGNaQVVWbWlrRXdzQzBlbkgxRmwtbDJScEhrQjUwX3JoRlB5eW1UaXhMLTFadHdJTDMyUkpmdXB1WnRwVm1ETnpWdlBzaWJ4ZFYxaFVCRmlBR1BmaGxzTGc9PQ==
+Get a cheap 12v-24v power supply,r/robotics,Z0FBQUFBQm0yeGNaaW9EcnVRaXZWaE5OUVZvY3lhd09UTzhhRmdIamR0dUZVVHpiM2tTV3cwRndfdDFXSG5Ha3VEckwzcFktZHJKM0hyMjR2OVJxZGF6OEVPVFQ2eV9HaFE9PQ==
+Get a cheap 12v-24v power adaptor.,r/robotics,Z0FBQUFBQm0yeGNaMWI2TkFJUEsteVN1d2gyaWJldkhNQk43WlVMeHphM0JGZ0lDMndfM083WGhET0dRbmxERVlmVkl6UkkzQTNKaVljcFZXd3lfT293a3dpeHU1R2hSbGc9PQ==
+"Most brands don't actually calibrate each robot's kinematic model further than the nominal model , which is good enough for most applications. The repeatability isn't affected by this, but accuracy is. Usually you can pay to have a custom kinematic model for the specifics of an arm, but usually not needed. For example, KUKA calls these HA (high accuracy) where the specific arm is measured for a higher accuracy kinematic model.
+
+Edit:
+Each robot will be specifically mastered, which makes it reputable to itself, but won't account for inaccuracies on dimensions.",r/robotics,Z0FBQUFBQm0yeGNaU3N1WkdobFdsMHZDVVhyTHVVeUR2WEF0TDFKdnJSSEJGbHYycWdwQTE0Z1hPLXVuVjhOaTBXWWE4Z2dPaWFmTjBzaU10N3lacWtfLUs0VW1ROEhlMUE9PQ==
+"You'll have a slight advantage if these things are in your head. Solving problems using energy, power, momentum, etc should be second nature. You should be comfortable with vectors. You will likely get a problem where you need to get a velocity vector of a 3 axis arms end effector or something similar, and need to know how each joint needs to move to achieve this. Inverse kinematics is a good search term for this.",r/robotics,Z0FBQUFBQm0yeGNaTWFqTjZleGo1RThDU3FPazZMUkJYVkJnV0Z5cjgzd3dDYlpuRlB4S3ZacERSY3BnRkZJd1Q1Z1ZYbFU4NEtDUk5KN3FrUXhaXzBjMjBoalNCZHBqVEE9PQ==
+"Interesting. I suppose it's just my incorrect assumptions based on working with linear actuators. The ones with zero backlash are always screw based. The quicker, cheaper ones are belt driven.
+
+I'm not mechanically biased though. I just program and wire things. Always happy to learn something new.",r/robotics,Z0FBQUFBQm0yeGNaRVQxU2tzMFphdnZmekdBeXlJcFo4d3dNZWNzQ1hYY1AwR3VJcUpGdWRTUzlZU25UX00xUUhtMTZmeHpObHFVc09UQ0NwQkNBR2M0TVVndVF6Z0NkQjJYY084ZHQ3TWIzVUdMdlpTdmEwaGc9
+"I'd recommend trying to make a soft robotics gripper. That would be reasonable in scope and cost for a college project. You could potentially make a series of gripper designs and test them all out, and write a paper on what works best.
+
+For an air supply, have you checked whether any of the college labs or workshops have a compressor? If there isn't one available, a compressor for car tyres shouldn't cost too much. 
+
+For what silicon to use, try looking here:
+
+https://www.reddit.com/r/3Dprinting/search?q=silicon&restrict_sr=on&include_over_18=on&sort=relevance&t=all",r/robotics,Z0FBQUFBQm0yeGNaSVZ2YUNDSjFQN3NYSEJDSXJMY3pSQzJxMmoyVTJrWFlyaUhOdUlRMXE4YWh2am42eDgxOXJ1RHBsMjdlRkRTX0RVb1hHTjd2cUlhM3RMMEg2eEp6amdUX05HQmJjTUJtSVZkYmVqOGpRbHc9
+">Before a robot is shipped from the factory, it is mastered using specifically designed jig, and the encoder values are saved to a master file, usually paired to the arms serial number.
+
+Can't say about anyone else, but Fanuc vision masters their arms nowadays before being shipped.
+
+Source: ex FRNA employee.",r/robotics,Z0FBQUFBQm0yeGNaLWVjdUxWYjU1VXhUYVpua3NhcTFjS1NXRXZQdG1sXzBocmxzdDhybTRJZmxmd3JTd25VMUtXUlZhRGVIR2VVelNpbjh3bFRBUllyQ1gzM3FmUFJDSlotYnFiSWV0MlhPTU1LNzFscnFidVU9
+"Yea belt technology has come a long way, you can get very good stiff and strong belts for cheap.
+
+Some of them are stronger than an equivalent mass of steel cable which is just absurd iirc.",r/robotics,Z0FBQUFBQm0yeGNackQyZ2dXTW5tRm9pNDRVNXJIUnc5LTFla05SR1h6NVFSQ3BuNDJTa1liNWVZWFFzYmtrdkZlU3hBSnpncEVQbzJoY2xoRTJwNjZmVXBsdHF2eHl0UWc9PQ==
+Cool approach,r/robotics,Z0FBQUFBQm0yeGNac2dPWk5mSFNMdHFwTVpad1RyZFFlcHdRUkhiTUtpRHNkRlNoN3cwVE14VDhJM1Z1cGVuWmx1bW02clZvemdXQXh0NS01UXJMYnBhODNObGUxZEVHQWc9PQ==
+"Had the same problem with air supply, a blood pressure bulb pump is really cheap and works well for anything that doesn’t require super fast inflation and deflation",r/robotics,Z0FBQUFBQm0yeGNaYTZxSHE0VWlFMmwwSVF5dU1UZG42aGVVYmxyTERBZFpQSDc3b25WSDJMRjZVQ25DeEQ4aGtoNVVDOFVYYXM3WFh5Y3NGRUZ0RDhmQkk4T2tjVUFDWFE9PQ==
+"Almost 20y in industrial robotics and I still have to explain accuracy vs repeatability at least a couple times a year when a machine spec rolls through. They almost always mean repeatability. 
+
+SLIGHT price difference in a machine that needs to be accurate..... /s",r/robotics,Z0FBQUFBQm0yeGNaNlBEeDlfaWgxb1djOUZPWVNjc2Z6QnJLNHpzRXV2UTFKQWJzc0lvSnpjdWFtZVpVVzU4YzVrS2RkNm1uQUx4U0NuYkc3el93dnRHYUtGa2xDYUNxa0E9PQ==
+I don’t think you’re going to make this work. For bipedal motion you need to be able to balance the robot on one foot with it close enough to the center of mass line to complete a stride before tipping. In this design it doesn’t look like either foot could get anywhere near the center. Probably time to go back to the drawing board.,r/robotics,Z0FBQUFBQm0yeGNaTlRnd3V5ZGFxRGZEdl80cF91Rm1XNWd1Mjl5ZzZ0WmdpUDd2X05ZcmRLZXR2RXZFTlVKbG9KOU5ZbTRSVTY3cGtkTlYzeS1DR3FBTzNrYVczVExYTFE9PQ==
+"Oh, thank you! I hope I'll build robots like you!",r/robotics,Z0FBQUFBQm0yeGNaV1FfWkVLeWp1S193Zjk0WnFJOFk0WDR6TTBOTm1VVzhvQjFreGRrS1pxMVVrM3JIc0tXQ2NPZHo1SW9ZQUtkT0swWXlYNm5ud1hlZEtYVHp2MXZtdnc9PQ==
+"The RoboDK software is AWESOME for the few demos I have seen, but I am not sure it is the best tool to replace an OEM programming package. 
+
+What type of applications are you intending on programming? What level of control will the robot have?
+
+RoboDK is excellent on path planning and trajectory planning. It is limited however in the full command set available for each robot.
+
+Simple IO processing, like turning grippers on, evaluation of part present sensors, no issue... complex IF ELSE statements, recipe management, system control proceaaing... this is much better managed in the OEM environment. 
+
+If you are NOT looking for lots of offline simulation, check with your vendor about software packages purely for programming.  Often it is the simulation package that costs the money, not the programming environment.",r/robotics,Z0FBQUFBQm0yeGNaMjBLZUxFdTVseG5md2Zpb0l1aEJib0lsNjJoNUlvZnRVWGlPSV84cE1PNENRSnQtNTJIVXlJdlVQYTFZd1FpSTJvbHNTbldua1pwQm15aXI5OEVseFE9PQ==
+"I know almost nothing about industrial robotics, but stepper motors alone are quite accurate. When you add feedback mechanisms, tight tolerances, and cycloidal gearboxes at the joints, the system's accuracy improves significantly. I'm sure it will be extremely accurate right off the bat.",r/robotics,Z0FBQUFBQm0yeGNaVjZpQ1JEcS16Rnhlb0EtM1p4VUpBMEZtSkVxUHNaTmZYVFVGcFFCZ21KZ0FlRmJvTjBMeEFick05TDJEOG5DN3J4SWZCakY2X3VLZnJQakpKRzl6T3c9PQ==
+"In the application at my work, it's calibrated after assembly. The resolution of the encoder is all that matters.",r/robotics,Z0FBQUFBQm0yeGNaQXNHUG1VUF9wTGVZWWFLdGhDZUh0azNyd2xZcC1RUUl6S2pIRjJkTzBlU3EwTEgwLU1BdEs2VzF0WGM2UC1CajhaX3FwQ3hUMy14Z0Y3c2o5OEd4dWc9PQ==
+"It's not so much the rotary motion that I'm curious about, the servos they use on these arms with the gearboxes allow them to divide a degree to a couple decimal points.
+
+It's the inverse kinematics whifh is dependent on the lengths of each link which can have pretty large affects down the road if off by even a little bit.",r/robotics,Z0FBQUFBQm0yeGNaNjdxUFp4S05EdjhFTWVXU1ZFc2hsbW1vaTNzc3lTekFMbUJEN2FmTGMzY0lqYWVMU3g2NFRnbTJCZmJMS3BINzc2SHhrekRfMDNGNDJ6YkVIcnZzS0E9PQ==
+"I think there are many good suggestions here. You can start with the Pneunet Gripper (Soft Robotics Toolkit), and for the type of silicone, you can use Ecoflex 30. If you need any help, let me know. I have experience with the Pneunet Gripper design, casting, and air supply using injection. You can also use SOFA physics engine simulator.
+
+Keep in mind that air leakage can sometimes occur, so it's important to seal it very well using silicone, but not too much to avoid blocking the air channels. If you need any assistance, please don't hesitate to reach out.",r/robotics,Z0FBQUFBQm0yeGNaaWdGZU1GYWFaWFhxaDZoRW1aemZscjA0dWxlSGllVWpwUm10UE8zSTlSR1pqaTdZam16aDE4NXZmeDBhMUM5aDM2UXkxeU16UHNraWY1cXRYNnI1blE9PQ==
+"FANUC integrator here. 
+
+The robots come from the factory with some default mastering either by a jig or vision (as another person stated above). When we get them in, we’ll usually run through our own calibration with their iRVision package to “fine-tune” the calibration to improve repeatability. It really comes down to what the application calls for. For example, welding typically requires more repeatability than say palletizing boxes.  The calibration we do uses a camera and essentially moves the robot around and takes pictures of a grid. We then run through several iterations of this program to zero in on better repeatability.",r/robotics,Z0FBQUFBQm0yeGNaT2tVOEZZM3Y5eDJYZjlLYzBkNmo3R3hVdmFydlRsYXphYWtMTWxJRDB0dUVjYUxoalY2MTBZS0pXMTUyS3k5a1JxVkVHMjRjSmJydDlrcDZPLVZPWWc9PQ==
+Is it repeatability or accuracy you're calibrating?,r/robotics,Z0FBQUFBQm0yeGNaOVlYVVQ0VHAxbzdERHNfQlBNTU4ydVJYamxDZm5FakZuX0ttbDIwYnhMNzBCVEZCR3hGV2tGZVVzWmpWRWk2MkZTSFF4UFRiSzlpUlRYRzB6NExKWEE9PQ==
+Repeatability. Really important when the robot is trying to reach a point when joint 4 is flipped 180 or something.,r/robotics,Z0FBQUFBQm0yeGNaRWVZal9sdGZnclAybmtWNDY5VkFSMkozLUtTSHlPUkRrcXFqT3JvWTVIeXZwU3VvS3RTZjZYOTJIUHNkckxRaFlRNm01V2ZmQXpxXzdsZFNmRG1nRUE9PQ==
+"I moved the slider on the right to change the voltage and it displays numbers for me (refer to screen shot).
+
+https://imgur.com/a/LMsGOPh
+
+However, the numbers don't appear to be the correct values. I looked at a for a while and my theory is that your method 'all_digits_off' is not properly clearing the previous digits. Is it possible you are missing a line of code in that method? If l understand your method correctly, it doesn't seem to physically write anything to the 7-segment display.",r/robotics,Z0FBQUFBQm0yeGNaRDZCOVdzLVR0N2VLZV8zTzZONHE0NTQ0LXdfcDJDdS1IZFdFOUctb2FwXzRRaVlTMTB2LXFOTVMtUENOWENXREQ4QnRpNnkwNTVHdzBDdTRvTkREQmc9PQ==
+Your post/comment has been removed because of you breaking rule 2: Robotics Related Posts only.,r/robotics,Z0FBQUFBQm0yeGNaaXp1amc3bTZOYjZMYlA4dDNoTjdVT0RTM3g4VEh5Nm9GVkhhUmllM0dqZi12M2RGY1J3em9lNGtjX1QzRE83WVotNUJKVU1RalZ1Uk00OHpsby1QSHBBNFhQeE8tRlVmZ3BtZUI4RzFVY3c9
+Aluminum extrusions might work for you,r/robotics,Z0FBQUFBQm0yeGNaeXZKQjIyc3NJSXpNV1gyaW8tZ0lQMGNtUHN3dXhmblpndTdMdVVXaVBJV3NWY3hFUXZKY1lEempYdTE3Vi05TFFtOTdOaXB5WF81NTItak1FZUlJSWc9PQ==
+"Thanks for the reply , thick extrusions is not suitable for this project ( but it'll be needed for the next ) However found the following .. I guess Aluminum is the way to go (although I think it is a waste to use aluminum for scaffolding) 
+
+https://preview.redd.it/tarm9f1chmcd1.png?width=735&format=png&auto=webp&s=ce45561e8ee4e4d92ff6c0c8718000b7963f6823",r/robotics,Z0FBQUFBQm0yeGNaV1lhTVk2dUNBSGlrWGhOdWM1a2o0RHRuQnF0dkt0aU1jXzU3MjRWeE5zZVhEc0tDM3lRUFkxTUV2aTFERXdEd0RkV2RzaktzSVh3SS1SYVZrR3k3ZlE9PQ==
+Do you have a link to the original video?,r/robotics,Z0FBQUFBQm0yeGNaY1o2SllDcTVzX2pmTG9BSXJ6ZkEyZEs3RldicWFUQmNpZ0Q2UkJMUzVqcjd1VnFrcW8zdkhLaEVXWlFPYjI1cUN1ajZKaHVHZVRsNW1ydEIyV3FVWVE9PQ==
+[this is the video from where I took the screenshot](https://youtu.be/Rwdd88E2-rQ) but I'm not sure that this is his footage.,r/robotics,Z0FBQUFBQm0yeGNacVc1S2VRRXAxYmxhRXF0bzFnMXRVMWZ0cDZHU29aUkFKQmtacFhlbFZGZXUtOFVIMzVxaThWSXVRYUpNZjNZSFJxbDl5MnZCdzk3SjlJTllKdzU5WmRGX1dRZTk2QjlpcnlOcDRwMldfVlE9
+"They really don't show any more of it do they...
+
+It's not the same but maybe this program would be useful https://github.com/mithi/hexapod-robot-simulator",r/robotics,Z0FBQUFBQm0yeGNad3JOaHRUUmJDVXF5cXE2ZVB4aS1uU1lJakU5UjRFVl9GWE5tb3FEMjlyYkZ3WjRzajE0U0I3bERIYXdZNHhiTjJJVUxwRGhWWmczaTdrUGVMdXNLdUE9PQ==
+"Did a Google search on the image, and it tells me “QTM Software”, but not 100% sure.",r/robotics,Z0FBQUFBQm0yeGNaYXRNQUZvV016TTQtVnNTSlNGc3c5bldLczJVTmF3NXZadlB6T0NMRmVNajh1dlhKdlM0R3g3bGJoOEJJTk1NMXk0TnNDX1B2U0kteXMyb1ZNeGFnNkE9PQ==
+"Hello /u/Smaira_khanna_6347
+
+ This thread was removed for breaking the following /r/robotics rule: 
+
+ *3: No Low Effort or sensationalized posts* 
+
+ Please read the rules before posting https://www.reddit.com/r/robotics/wiki/rules 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNaclhybFJKNERaMDFoem5RdWZkeTFCZDV0R0FBclpzUThhRkhTWm80SkZvdUZYRkxrVUxZTExwR2lnSTloZmt2OTBmYkozYk9zR2tCZ3pWZmwwNG45RVE9PQ==
+"Hello /u/Smaira_khanna_6347
+
+ This thread was removed for breaking the following /r/robotics rule: 
+
+ *3: No Low Effort or sensationalized posts* 
+
+ Please read the rules before posting https://www.reddit.com/r/robotics/wiki/rules 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNaazRmenFDRHp2NWRxYmF5UUJQV2hwUWVYaUY1REtGWUJCYW9DcG5obV9NbTd0WllpZ2FqZjRwZDFQUElCbk9vS2RlZlh5cEI4dndxSHZwMkZ0bmU5dnc9PQ==
+"Hello /u/alyis4u
+
+ This thread was removed for breaking the following /r/robotics rule: 
+
+ *3: No Low Effort or sensationalized posts* 
+
+ Please read the rules before posting https://www.reddit.com/r/robotics/wiki/rules 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNaQWlkMV9CQlJzWUhJamstdEdIaGZQSHk4ZElZZllhVWc2M0VDTFp1M20yT0wxQzJnWENlYkVLR3B0emttSUYtVlo4UjI1U000bzhXcjM0d2YtMjVDd2c9PQ==
+ Is OAK-D  supported by isaac-ROS?,r/robotics,Z0FBQUFBQm0yeGNac2FnQlFiRkVUSVpGZGJlcEJfdTVpcUM0QmRSa1l1Y2xNTzNFc08tWTNrS29HcXhCdmFBU29icWV5T1F0RzdIOWlPU3laZ212azVfSkNDdnBEVExvVWFkcm5kZE0tdXY3YnhUb243LXJCVEE9
+Now it is Bruce Lee Bot,r/robotics,Z0FBQUFBQm0yeGNacDE3dERpWUQ4QldiUS16eUpUdFZOTWMyS01kVUx0LWMwUEU3cGNWREFWN2RLWWxNbWtyQ2NVNWY0QUwwbjdKMENGaHZ2eFlxQ2E2bGk4SGlRZFU4NGVZMWdqSVhkUm1tWUtNVDJWQnY3WUk9
+Could it be custom software? the ui abit rough but serviceable for result / as viewer,r/robotics,Z0FBQUFBQm0yeGNaR0lVU0hRTzg2YW1DUFNKME5oVFZhSHpMVlZ5MHY1c0NGQmNfa0ZfQWw2ZnpRWlhycUlWZ0hXMDhRR0psQS1sekhFVGItYV9BaXNXVmYzdlpHUFJfNGc9PQ==
+"Yikes! Easy on the cream there, Jeeves!",r/robotics,Z0FBQUFBQm0yeGNaZEhKQjRROEFHWXRXUUk0cDNrb09YangyYXRqcG9vRHI0aWtLc3Bnd1hNQndNdnJIeUpTNnNzT2xRNjVSUVd3NE9ESEFwRFh6S0haeWo2ZjdtbHlVSlE9PQ==
+Well then you should stay on you tube and ebay for parts and start learning tooling tools bearings materials ect also some books on machining will get what you need forget the. Math we now have ai and a handful of neardy geeks to handle that monotonous bullcrap,r/robotics,Z0FBQUFBQm0yeGNaaUN6eXVOR3hyU0wtMThteTV3NTNGNXZ6R2ZkWVg5bTlWRTB6dVRGZkdoa3ZPTEZBSGNyeFQwaE84X244ckcxdy1RbHUwR1NXbWh4SWNXSDBKOU1tRFE9PQ==
+Poor guy is wondering what durtbag left all his wires out to get tangled,r/robotics,Z0FBQUFBQm0yeGNaNWZnX2xzZkkwZkpqSld5VENLcklZZTI4RHowUGhUUXVBcF9MSUU5eFA3M1o1TWVpWVRzYVlvSm9jSnBza0ZxX1BkVE1KcG0tY08tTnZCV0ZQVjFWR3c9PQ==
+"Hello /u/Odd_Average9100
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNaSjhYYTlyNmpHRXpfTUdUQ19RZ3pWbjAzeTFabEN0WkcwSThBOEZmcVM2bVd3OGMxcFlrc3BGRVp1X1RRTHFjTVJKRGUyOHFTazAwcGQ0cGxSNnQwcXc9PQ==
+These clamps allow you to build things with cheep EMT conduit.  https://makerpipe.com/,r/robotics,Z0FBQUFBQm0yeGNaNnZ6eWZudzFPekRseXN4Rko0WEFTdTI0cWFqV3dpYUpQM2tVRUZpeXVLTkN2Q2R3dnNqRHJhNl9va1VpYlJOV0NBdkRydDYyN0gyczY2RDJOaEJwbUE9PQ==
+"Did you try contacting the video source (The King Lab) to ask? Their About page has links to both a Facebook group and a Patreon account, so you should be able to message them directly.",r/robotics,Z0FBQUFBQm0yeGNaYlZrdDkyMGkwTm9TbTVsQ2FSMVREWHZSQzhXbXVQU0RnbmlqTThlN2ljNFYxM3JjTzhVUzNXSEk4dWlOeEVIdlN4b2VjT21MaFNZZkh2T3V5QS00OHNXa0RZMlc5QjdQZllxczAxQTlJdHM9
+"Something like , Please Check -
+
+[https://github.com/linorobot/linorobot2](https://github.com/linorobot/linorobot2)
+
+Once basic is setup it supports autonomous navigation .",r/robotics,Z0FBQUFBQm0yeGNaUktSZnduOWx1VGdHbS0wMmt6aFJmVkdjZ1pDRzhESmJHWGx3akhHT0dEWmhUY3U1Y3kzSkdzc3dWRTFFZldSZjlkckVzYTdqc2Q5Q2Nlc1d3MHF6OWc9PQ==
+"Off topic musing - I don't understand why folks go with a linear layout with a hexapod, rather than a hexagonal layout.  I'd be trying to imitate ODEX-1 or ATHLETE rather than an ant.",r/robotics,Z0FBQUFBQm0yeGNaY29WYTg3TmNZcjNhTzlqUm55dnVHQzM4SDNvbzFSZ1RueDQyNHN4T1NuUlFNWEdpYnNoQkhxNGJEdlRVT0I4RnlUZG52R05qaWdvNHFvNG42ZzdvWFE9PQ==
+I wish the cameraman was as skilled as the robot,r/robotics,Z0FBQUFBQm0yeGNaajhCOGxEdVl0SEp0b21FSlVxMWV0VWtBekhwY0hHbm1Id1VXQ2NoSW9MdWNuOVJ0OEttWTBKdG5qeHJzZnBiM05yNzJZcDhUTUthMWNKRTJtTzdheFE9PQ==
+"There is coffee machine but they seem to suck 4 some reason, they are giving out bad coffee",r/robotics,Z0FBQUFBQm0yeGNaSzdEWk5SNHhBOUNzdXB4b0hjdGpRMzZrb0FzR25ZNmdsN1VMdmlhZ0taeVM3MkFGMjBxU2ZOX3pmS3lqa2M5eHFIa25XSkhXYk9IdUh1d0pUXzVuSFE9PQ==
+"there will be lots of specialised robots required in your secenario...a robot for fixing the tires, another one for dragging aside a wild animal that was hit by the car, another one for changing a lightbulb, another one for refilling coolant or windshield-washwater, another one for...give me a break !  
+i am not going to mention all the things now that has to be done in the future, where complete different environments require new challenges.
+
+the high price tag you mentioned is an argument...let me tackle this one, too:  
+cell phones and even smartphones were incredible expensive when they came out first. only privileged and wealthy people could afford one. but they quickly became affordable, not just by mass production but by smart marketing strategies. instead of selling the devices, they were given away almost for free, but with a contract attached. in that way average people with income were able to afford a mobile phone. i see something similar coming for personal robots, not only will people consume them, they will make money out of them as well. if personal computers can provide a potential income by creating software for it then why not robots as well. the software market for robots will be magnitudes larger than the software market for computers we know today. now you certainly want your software to run not just on one specialised model only. thats why i bought a standard PC and not an apple or commodore computer.
+
+look at the current market for cars. they may look different to you but basicly the same technology is used - standard tires, standard wipers, standard lightbulbs, standard engine oil, standard fuel(where to refuel a car that runs on methanol or ammoniac??). there are some exceptions, of course. but these are not to the advantage of the enduser.",r/robotics,Z0FBQUFBQm0yeGNaU1FnaDVHR09xcTBNdlVZTlN3dlpPNUJZaXRIY0xOUjZIeUFRZUdVSjhGZHBEdGhOekx1alI5dTBTMUlYcks3dEZvN21aMEFEY2xfTTNheG94Uy15d0E9PQ==
+Which servo diver did you use,r/robotics,Z0FBQUFBQm0yeGNabVNaMFJpVkU5VUQ3emx2b2IyaVFSc1dQRWdoTWdNTlpQa2F6Sm9rNl81TVNTTm5ldnBZTWhsazB1OFZvWnE3X3pqMzRBSTN2LVZLUlluc3FXY1h3R2c9PQ==
+Only temporary 😂. I’ve never messed with servos before so just wanted to make sure I had it right.   Most the wires are going to be hidden in the arms once I extend the wires,r/robotics,Z0FBQUFBQm0yeGNaXzNMdVhqTFFnTy1TYm9WMkViVFhuN0sxa0JHZC1sOFRCYUt3dUFKYVNHaDctc1J0cVRjU0FxSU42ZUNHQ3pzcm1HVkwtX2NKNkxka1FlQTBKSzREN2c9PQ==
+"The answer to your question is less technical in the robotics sense and more of a socioeconomic discussion in my opinion. 
+
+The general public is quite hesitant with respect to robots taking jobs from people. The coffee shop employees would likely feel that their jobs are directly threatened.
+
+I’ve also seen that even highly skilled technical workers are hesitant to interact with robots due to being uncomfortable around them. 
+
+Robots are also expensive capital purchases. I’m not sure what the ROI on one of those would be in a coffee shop. 
+
+The only technical reason I can see for not having robots in coffee shops as you describe is maintenance. The videos you see online of robots performing these types of tasks don’t show you all the times the robot fails the task, requires human intervention, or is down for maintenance reasons.",r/robotics,Z0FBQUFBQm0yeGNaVWdpSzNqcGxkb2ZGZF9lTVNTMEFLNDk1STFfQjRrRWVYbm9Id29ObjdKbmwtNkpNWnVmUDJ5QUpqbDUtSVZVcWh6cGJ3b2t4bXAxOXZ1T18xclF3ZWc9PQ==
+can elastomers be used instead of sillicon ? and one more doubt is oven necessary for curing and setting or can it be achieved at room temperature and if not can a home oven be used ?,r/robotics,Z0FBQUFBQm0yeGNaaVhqTEZWM19FSU5Ra1RQVEo3VFpRWnMxUG5jUDVCQkdjUnJUTW9WaXFmWlpRWF9YMENfQ2lTOGFQdEd1N1NOMDJkZTNfc2NobFIyNWhCQVlKTkxuVmc9PQ==
+"True, and I wouldn’t recommend powering the servos with the board.",r/robotics,Z0FBQUFBQm0yeGNaNnhHSXJKUXg3TWstb2Y3M21GbmJQNDNPYVRIcDk5QWNqNUZsaDhDMjdNc1g4aEZjeFFsNmxrLTB3RWRzM2lwNWQzUXkyQUQ1S1Fib2RjMVg2bTRoT3c9PQ==
+"Yeah so… that exists. Just maybe not in the convoluted sci-fi focus you’re thinking of. 
+
+Automated coffee machines are everywhere. 
+
+They’ve made robot arm barista’s it’s just not economically viable because each arm costs thousands and is moser expensive and prone to issue than a dedicated machine.",r/robotics,Z0FBQUFBQm0yeGNaMlJwVHBhUFRMckswd05IeWJYX083c2hpSTlwSE9USzJHOENiRl9rS3VpbjZ2bW9veHU1NjNiTVRBVU1SYXRtM1ZZcVJlNVZpbExHcl81UjZMYnVvQW5xS0YwNy1YZEVMNGNpakV2OU42VkU9
+"I like this option, although a little on the heavy side it seems doable.",r/robotics,Z0FBQUFBQm0yeGNaOFp2WjVRczdFdDNnSENHT01VWExZUDVmeG5PeFJsUVRZMFR1ZnNDUXIxd1llZ092SG83RG1nbjQza1pSM1lpMFgydG5OUW1vcENxSkxqRjRxbFp3dlE9PQ==
+What's your concern with using aluminum? Misumi makes extrusions that go as small as 15 or 20mm square and don't need any special tools other than a chop saw to cut it to length. It can be taken apart after this prototype and used again in the next one,r/robotics,Z0FBQUFBQm0yeGNaRXhyTTZrTGszVW9Td2hNbjJIODdZRG5aVks0RTE2U0VDbDJ5U1B4a01MUUNLMTRreTVqYjlKLTVIX09aYlRiMVYzcTFhcUZzdnRFNHh2RDBtS1dIN0VLeTRDR3Y2NjRBTWNUQ1NxVk1QSTA9
+"You will most likely want to use aluminum as your metal of choice because it is strong and lightweight. 6061 is a common alloy and is used in a wide variety of applications. 
+
+An aluminum tube type product might do what you want. I’d strongly encourage you to prototype with 3D printing first since it’s cheaper and faster to iterate on designs than metal based prototypes in my experience. 
+
+Do you have access to your own shop for prototyping metal components? I ask because I do have a small home shop where I can fab small robotics parts, but often I find myself wishing my 3D printer was in service so I could prototype faster there before going to metal.",r/robotics,Z0FBQUFBQm0yeGNaal8zVTY3NEpfS3l0UXdISDJiUUp4YkZfOWJyRTlIOE96dFczcXlReWIxYkFSUV8xWjc1UXFRcHY4QWdadE5vSGIzMVVsUEh4Z1M5X0sxYV9NWGh3akE9PQ==
+arent these more automats or machines? is the robot term more marketing friendly?,r/robotics,Z0FBQUFBQm0yeGNaMGVwbnZvVTRuQ25UMnV5ajkzcTRLWWNzUm0yQkQ3NG95anE0ZjZuRnRqS1NIUmIzT3JLc3FuNUJFV1Z4VDljTnNZWndFVzBkMDAyYVYzUm5BNk5ielE9PQ==
+All that I used in this configuration were the pololu mini maestro 12 controller and the three servos.,r/robotics,Z0FBQUFBQm0yeGNaWEdJTFJuWXg4dGpjc1lTejM1eDVLRmtJM282S243WHpIS2JpSG51eHZzLUZzTDBxNlpvUUpkMzVnZ3NyRk5YZ3loWmwyU0ZnNUZEZ1dDd09VTk1oX3c9PQ==
+The servo motor sounds are amplified because the head is hollow without any sound dampening yet.,r/robotics,Z0FBQUFBQm0yeGNaREdRZ082ZE54M0FCY3FQNjE2ZW84a1Fyb2ltT3BHUmF1YWpjLW84SlJuLUpCQTdvRVR4TlZFd2ZETXVOY2E2R1hmaUdmV19OeXZqcTgwRVBFbGQxLXc9PQ==
+"Hey, thanks so much for this! I was able to grab a 6v 5A DC power cord, pop in the barrel jack, and then configure the controller wiring to power the servos and the controller off of just the power strip. And it works perfectly!",r/robotics,Z0FBQUFBQm0yeGNaUjZqdy1rYmpSdHpvZEpHTHNnRTNON0tsaDh5cVZjREoyNzBpZ2dnV0s5ZnJxZDFOdTAwU3RZZzFmMS1tU2NwTGpHdXp6V3B0eFRIdEhQdS1xSnNjLUE9PQ==
+"Glad it works, now you can creep people out 24/7!",r/robotics,Z0FBQUFBQm0yeGNaWmxSVWFLbzhwR2R1N1BhNFpBemlEaUlEQlVXWXl6NGZ5OEF2RHhlaXo0blVCVUdoVG5PNGRSV0kxVlV4SUdrVlZLX1o2bHZSZ0NERVhlZmo4czZ5WXc9PQ==
+Yes!! I want to make a turret that shoots Air soft pellets as my next project…but i dont know about raspberry pi at all,r/robotics,Z0FBQUFBQm0yeGNaOUEtTlpfTWxTZUgyXzA2RHdZZF9GWXlZV0tCQmpFbmpINE1jVDY4OGNVczlhSHdMRkY3QlNwUWJzbXM3cVBtdzlleHlJMTEyZXNOUThzQWhJOGJ2TDJCc3FRTV9fSWNnTVF2ajFBVE11Rkk9
+Seems similar to Mujoco,r/robotics,Z0FBQUFBQm0yeGNad3FDLXJXQmp5VWdxSVhLYlI0TW95bHZEamdNV3FuQ1lBaGJlNnNfNUZ5bnJmOXlBcWh0UkxkU0RRcFp6ekI0cE1RSFF0Ny1PY1lqSHZlYzhhMjJLY2c9PQ==
+Thanks for the info. My main concern is ; I’ll connect a series  of dc motors to a slim plate all dc motors have 5 drill holes l.. then attach it to an inner chassis. Thats why i want to avoid rectangular parts. ,r/robotics,Z0FBQUFBQm0yeGNaV2lTS2ZJbXVxc0lZZjVFYzBkMkRYRnpPVDFXN2FObUZ3Z3JpTmhuODFscjhBbnNpZmdqTlhvVUFab01hRmZFT3dQQ1A2SHR6X2JwNEJ6QkQwTGJZcXc9PQ==
+"Electroimpact uses a patented accurate feedback system, this is used with an enhanced kinematic model. Google:
+Robotic Manufacturing System with Accurate Control
+After the sponsored google results there is a good description of this system.",r/robotics,Z0FBQUFBQm0yeGNaSTJ5QVMzTkJxZjZTSjVxWF9TWFlsb0plR3lPQWFCTDh2Q3ZnZGFpTEpJX0QxaTNidFotSWh5ZjdQYW5rY2N2UVpzVGoyb3l4WkVxcF9VbG5nWFlPTFE9PQ==
+They don't have to suck. There is a range of quality available.,r/robotics,Z0FBQUFBQm0yeGNaZWdzanhpblRpa1BPdFM2cHJ0anRVTzlPUngzbTMxRDVBMG1GbTN0Zk5QSkJEX2JSWlZ4dkZDaHhfM2FFeGlLUGhoWHc5MmdQakhfcVV4YXg3aE9EMV93NGRWRDNnNEdLZEZwT3ptOXhEQzA9
+There's all those memes where someone has an overly complicated order and that's generally accomplished with a human touch. Offices have coffee machines that can make a variety of drinks but you'll still see people leave the office to go get a barista made coffee. Robots are definitely used through the manufacturing process though: [https://vention.io/customer-stories/compass-coffee-automated-palletizing-61](https://vention.io/customer-stories/compass-coffee-automated-palletizing-61),r/robotics,Z0FBQUFBQm0yeGNaX0ZpTHFQSi1HNkZpX3NiMnViZW9VcTI3bFR2ZHY2c1Frb1Qyckt4akVXbE44MGljWXlzUmxLbzBLOUhacUZraDlPZ2RXdzlZVjl1TTYxMGlYSjJya1E9PQ==
+I suggest you read up on silicone elastomers for prop making. Silicone elastomer is an elastomer. Curing can be room temperature depending on which silicone elastomer you get.,r/robotics,Z0FBQUFBQm0yeGNaZDVYSjJxWmw1R0JVLWRfbmFDbVM5LXNOYnd5dHNCZUJ3Q3JudVQ2dFVIRm55cDlsdzJYd1hQWW9ManF6cHlfZHZaUklIemFZWk5CU1lFOG1jUzM3NVE9PQ==
+"That’s about $40,000 to $60,000 for a robot arm where you still need an employee to oversee and prepare the more complex coffee orders. Not to mention maintenance and what not.",r/robotics,Z0FBQUFBQm0yeGNaMlRwaTNfRFp6ZFRrandRU3NwVXJiVkdrdEh2UGUyblRfd284NW1UQnBuc3MxaFFoZVVYZzFTN3NoWW5RX01HWFFYTjIzVXRqSG5QaVZrY3RrbVZ0X0E9PQ==
+"Bilateral teleoperation is a concept that involves two-way communication where both the operator and the remote device send and receive feedback. The operator controls the device remotely and receives sensory feedback (such as force) from the device to adjust their actions.  
+  
+The two arms are virtually coupled to each other, allowing either to act as the master (the haptic interface) or the slave (the manipulator) in the system. We are not using a force sensor at the motors but are relying on proprioception.  
+  
+All the code is here in the examples folder: [https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)  
+  
+Each arm uses a 2x Spectral micro BLDC driver + a gimbal motor. Then those 2 motors are connected in a daisy chain to the can adapter that is connected to the SPI of the Raspberry Pi. On the PI we have an rt kernel that gets data from the joints at 250Hz it then sends that data over UDP to to the other arm that has the same setup. Data is then processed a bit and the formulas that are described below perform all the magic. The latency between 2 arms is around 4ms on the local network. In the future, we will test the same setup to work over the internet on long distances. From the testing on the local network, we noticed that you can get RTT/ping of 20ms and still have good performance.  
+  
+We are using these formulas, we got them from Ben Katz's paper, the creator of the mini cheetah quad.  
+  
+ 𝜏1,𝑖 = 𝐾𝑝(𝜃2,𝑖 − 𝜃1, 𝑖) + 𝐾𝑑( ˙𝜃2,𝑖 − ˙𝜃1,𝑖) − 𝐾( ˙𝜃1,𝑖)  
+  
+ 𝜏2,𝑖 = 𝐾𝑝(𝜃1,𝑖 − 𝜃2, 𝑖) + 𝐾𝑑( ˙𝜃1,𝑖 − ˙𝜃2,𝑖) − 𝐾( ˙𝜃2,𝑖)",r/robotics,Z0FBQUFBQm0yeGNaVHFQOTJzOUZQMFhxODBiSmU3Tm9ORl9mcXctWnl4SWxSX3RnZTN4ZHBwZ1QzTXIxaXpQc0RiMWc2Z0trSXEwZlBicVR6ZkRZRG50aUszX0gwRGY5Z0E9PQ==
+"They do in Singapore were the wages are high enough. 
+
+[https://www.crowndigital.io/](https://www.crowndigital.io/)
+
+  
+Very common.",r/robotics,Z0FBQUFBQm0yeGNac3B3MUNZRmhxalVPcC1ZLXA0VThQVkk3cGRZTm1OT0Y0VWRsWjFyTElvaXpHajR6Z283TjhnQWZ1SXdfNDNWRmxub0p0YnJYNWlTOXdKX3ZZdHV4R1E9PQ==
+"Ooh 60k doesn't make since.
+
+Bet it doesn't take 1/4 of that to make a robo barista. 
+
+
+Robarista",r/robotics,Z0FBQUFBQm0yeGNaR2pKYURKbWVqeDRvZDBDZGlTS3N1dXc0eDFpZlN0ZmdNb0tCcEpPOVZESnBvNnJwVTRUbWw4MFU1UVc2VGpnVUpzQmYzLWc5SmczVmJZeUhBYzJRMWc9PQ==
+Some malls and airports in SF Bay Area have them: https://youtu.be/sch-YXTyxuU?si=ljY9Be0JkALPs_Cl,r/robotics,Z0FBQUFBQm0yeGNaQW9xZ1lac0J6OTdnSFVLMncwS1l5SUlIN3haMmpRRlR6TXVoTTdYSkF2OWJkNnFyS0ZVemRMVy04T180Vzg1YXg5TlBDd0lXc2tWMzdFemMxU2RiTFE9PQ==
+I mean... that's the price of the hardware. Especially if its a machine designed for relative safety when humans are in the vicinity.,r/robotics,Z0FBQUFBQm0yeGNhUmowcS1Jb244R3hjQlRxU0hYZ1ZHaTlsMFI4MDBKcWpyVDYtOTNibVh4NURFeFlfN1l3RGF4TDBhYmxUYjRycFd1NGZHbGcybThHQ0RzTENRMElyWmE4SFpuMHhiYTAxSGMzLTlYTVZjcWM9
+Do you offer internships?,r/robotics,Z0FBQUFBQm0yeGNhaXEzZ3I3am16ZXZVVFo3Vk5WQTRtTkJkYnRuVzM0eW81cVdvNzU2bU9uYUNjOURVNTRCOEJSMjhkV29TRDV4cmxFTkd3X0lSM0RxZDFncUJzb1hXTUE9PQ==
+Asking real questions,r/robotics,Z0FBQUFBQm0yeGNhUTNiQUpuZXFpMXlwVWdHNlExNkNOMEkxc1MwM2dLZDlOMWI2SS1LNWhqbEhoLVVvVElsZy1SR2s3a2k1a0UzZEpOa253c1ZqX3JXdXBDeVc2aG9ENmc9PQ==
+"That's a corporate ripoff of PaPeRo from Shenzen! Still, very, very cool. Where/how did you get ahold of him???",r/robotics,Z0FBQUFBQm0yeGNhUmVhTEhqTVhzdmdKUGZJTmxtXzMwdFdjdjhFNldpdDhERXhOQWgtTEQzd2diUnpzSFlrR1h6VVFobDgteHhfMVh4SEpHdjNrcmxXVzVKZEk4WHRZWXc9PQ==
+"While we don’t currently offer a formal intern program, we on occasion will offer roles for intern.
+
+I would recommend following us on [LinkedIn](https://www.linkedin.com/company/vention) and regularly checking our [careers page](https://vention.io/careers) for updates.",r/robotics,Z0FBQUFBQm0yeGNhd1pCY21MMWlDY2JMdFY4NDRLaE5SOHRKVkRnMGJMVjlzQWp4SGI3NnpnaWJDdVM3ZWx1NXhGOWt6VEtCTkJmUWVpTGgzSEpKdnpZcFBEUXRvd3B3LWc9PQ==
+"I have my own office , and I have an L shaped extension to my work table where I store my electronics , I also have a garage which I can weld / have a certain number of work tools but they are not specifically good for working on metal.   
+  
+My 3d printer is old , it is an Ender .. something , I have an unopened filament roll .. I should calibrate it , get it working .. yeah I guess starting the old 3D printer makes sense .. I'll have to use it at some point anyways.   
+  
+Thanks",r/robotics,Z0FBQUFBQm0yeGNheTBhMFdSVVRPRzJNYTI1MDNzajdpSENxZkVVY0FpNnRDcWQ2TVBldU1NTW4xdGxZV0xLVl9WY3V5blo3cFBFRlZkRUdQalM0Y1RKZlNzcjcxckZqZWc9PQ==
+"Not 100% on topic: but I'm just as impressed by your equation formatting in Reddit comment as I am with your robotics project itself.
+
+A+",r/robotics,Z0FBQUFBQm0yeGNhdmdLbDBkSlo4aDBBTFJyREV3cHhlbXJuMU01eHU0dklrWnM2ZFhzcXR0ZlV0LVZYeTJXbDBDak85QWRnUm8zM24tbjNVaE03RHdpcm5JTXMzNmxmWmc9PQ==
+"Yeah but it's much really, if the Right off purchase cost is 40k it's crazy. 
+
+
+If it something like 40k including maintenance for sometime I could understand but 40k for a robo barista doing one job it should be easily automated and not expensive. 
+
+
+I could be illiterate when it comes to such a thing but that's my thought",r/robotics,Z0FBQUFBQm0yeGNhSjdMM0d2MVF1VWtHQlBiY2YyWUJ0ekIyNS1adnNITlJQRUVBN29kQmt4ZE1CY2l2V1ppeWZMeVN3ZHZxNjRCZnBUUEdPU0RIZEFqUHVBeENvM0tGZVE9PQ==
+"Nice vid, thanks!",r/robotics,Z0FBQUFBQm0yeGNhUVhmc3ZtUlQ3cjlyd2xtMWMwaFV1ZldPUDVBNEw4dk5sN3Rlbk4zMjZKTU91ekRCaXlrWXNHN2l5a2JiNVV4bWQybWt3MXpyYjI2bnFSeS1EXzF4Unc9PQ==
+"They are copied from Bens paper hahaha, but thank you!",r/robotics,Z0FBQUFBQm0yeGNhOHpNSjBIdFlrMEFCR2xwY0RXbk00RW9VV2hTOVdQeWtaeU1YNE01Q19EZVZZZVlxdy12ZlNmcUdjSzd2NWJQbkdVeGowQ0FqUjM4TXUxQm5pamhWTnc9PQ==
+many many do.,r/robotics,Z0FBQUFBQm0yeGNhc3FHOTVRODlSbEhaRWJRUUJQY1hYZzdjVF9TNm42Vkd1VWFMYjR2aFExX2pIak9OZ1h1ai1sUzEzVUEzS0g3ZURYaWtWdVpmQTFBN2FXalBTOHFQSFE9PQ==
+[coffee vending machines](https://www.google.com/search?client=safari&sca_esv=a52fbd4ae900e90f&hl=en-us&sxsrf=ADLYWIJpRWP3ApxN5oXdml90ULzpzpfMBA:1721062811120&q=coffee+vending+machine&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joQcoZ-0Q2Udkt2zEybT7HdNV1kobqvEwEVRYBCltlBtQd5-pPeakpVgpgEn2RgmgzeZo15rltNMrDtoZe63sl46hHJXZmfPBeZdqdwrtlSxkvce3I&sa=X&ved=2ahUKEwjkpvjLwqmHAxUHg_0HHc4EDeoQtKgLegQIFBAB&biw=393&bih=665&dpr=3),r/robotics,Z0FBQUFBQm0yeGNhMHJldnBOR2ZQUlg0ckpFcTF4aWpkbnJiQmtLMkpYMnVUTDFxX3dqczdpbVYyYnhmTDhiN1FCYkpoMVo4WFVGbHdnV0M1MUdvNl9ZaFFPOEFpcVc0ZXc9PQ==
+It reminds me of the synchros we study in electrical engineering :D,r/robotics,Z0FBQUFBQm0yeGNhaFhBZzZJdXptLU1RLWYybEpDdC1tZ2dreWxCeGFkTVlmekd6aWhydFNfNndsNVRqb2hIbG5vWTNNdjNTaXRBczBVUWN5S2pCOGpxeEF2MjhxeHJfWFE9PQ==
+"If my coffee shop started using one, myself and everyone i know would start going to a different coffee shop. I bet a lot of people feel that way.",r/robotics,Z0FBQUFBQm0yeGNha3pRMEhmMEhTVF9nVU9YWVlKSXRacXh2V2JzVHlUbTY3TVR3QXI2NkpnM2hDMXVPakwtai1wZmdtcnhBYzFOWWNxTnd2Sl8wNlNmNV9WX1hyakl4Zmc9PQ==
+"The Muji store in Portland has a cobot arm that just hands you a drink made out of a coffee machine. Quite the entertaining gimmick, but definitely wouldn't fly in an actual coffee shop.",r/robotics,Z0FBQUFBQm0yeGNhd3NWSmdXSEJHbGlnemRBOVJGNUdidk5SWkZvVmU2VDd3b0hXNDJBVnBmZGpQc2E5Y0FfVkkyVHVtZ3c3cmI1N3hIM0diNEJRY0pEMHlSM2x3Ym9LZXc9PQ==
+"Yes, those are everywhere and certainly not what OP has in mind. The coffee usually tastes like ass out of them, too.",r/robotics,Z0FBQUFBQm0yeGNhaVdqVjBxd2R2WTZZc19QWGdJM2dVSnZ1TEQwTl9panlCdUVtY20xZi1TdkFKZ2hidXBxcXQ1cVdtM3QxLXhYMWdzLUJFMWNHUHBTV2dyRThzdFB6Nmc9PQ==
+This is a great gimmick for entertainment.,r/robotics,Z0FBQUFBQm0yeGNhNV9ONWZEa0pMRmN5UFl1d18xSjA0N3dvdzNtMjlHbnZjZkp6djBhUGtOM01MRlVSUld1NG9pSFA1TDl6NldwUWtXRUY3bU54YzJ6VzZiNTFhRE1ha0E9PQ==
+They're usually not cleaned as often as they need to be. The same would end up happening if you had some sort of robot handling things.,r/robotics,Z0FBQUFBQm0yeGNhTy1wV2YxSXFGN0w5MG9LZ1VqZmdpRUVpNDRHMkE1My14OEU5bFhqd3FlN2lMLTBveXJ2OVpXcG4ybjhqV0pySnUzR3lKUTY1bTI3WkEtU0NOUWV0eHc9PQ==
+"Hard agree. I think in the conversation about automation, robotics and AI people often loose sight of the fact that just because something is technically possible doesn’t means it’s a good idea.",r/robotics,Z0FBQUFBQm0yeGNhVDY0aG1taENOWExsY0hjelMwMzR4VUp4NGtaWUFsd3lsUTJzNVh5S0V2QmpoWi10b3dGSXRzYnZ3MWQ2Vzkyb0gxX3poQkN4M2JTYWFMWUVsRElONVE9PQ==
+"Here's one in the wild.    
+[https://youtu.be/Gz2Q2sTTxgY?si=Yesf4Mcb\\_z-Cffls&t=144](https://youtu.be/Gz2Q2sTTxgY?si=Yesf4Mcb_z-Cffls&t=144)",r/robotics,Z0FBQUFBQm0yeGNhQ1hrLTlvNUt1enZITDA4amh1RUtQdWtWaFVqckgyQ19lZXRvTkVldVJ5MlUyMjJTSFpJRmg1NDk1aTBkM3pubmhzUjZnU3pJV1FtbWRla0xPbHhMS2locUxxbmRLTHRMblRzUUhUMmY1MU09
+"My head immediately went to mech piloting and how the mech mirrors the pilots movements, but if the mech gets hit, it reflects back on the pilot as well.",r/robotics,Z0FBQUFBQm0yeGNhTV95UUZyTC1RV0xMYWNxbU1faTQtaFFKOURUT252QU9hQ2FrWkh2a28yZGF0VmxDNldqQkdRUUV0Z2hfSllHSnZsamRkWkFRMVpFQUtManV6MWNNd2c9PQ==
+"2078 - Alora corp, luxemburg.",r/robotics,Z0FBQUFBQm0yeGNhUXZaY2pBZUVKLUlBMG5NQ04wcHVVbFRKNTZXaTNxZ1otV1I5d3VGMDBHWW02bDlHeHFOV0VrTW5IOUhvOEVGeENKY3BSd0JpcTFhd1F5QjdSMzFzU1E9PQ==
+"The G1 delivery date for Europe was given to me as first quarter of next year. In the 16k plus tax version it has no hands and quite limited programming. For a full version with crude hands and full programming setup, it’s up to 50k. Still, I see it as a wonderful start, and who know what folks will develop for it to make it useful.
+
+PS: it seems to be aimed at schools and developers, not at end users.",r/robotics,Z0FBQUFBQm0yeGNhV0tLcmw3ejRWNE9OSmd2MnRpU1ZqajZBYjA3TGxrQlV2ZGZPOUNXeWV6UE1kQVdmdE1ycFFrcEpTLXZFaTB1dHJidF9GYUllOHVOYnhSdk1zTHUtVkE9PQ==
+Real steeeeel,r/robotics,Z0FBQUFBQm0yeGNhWlR6TXEwUDhQblBZY25FaThscHdscXpDTTNWaU4wbGtFak9ZR3d1aGdWdnJ0OTlZblMwQzkzT3dSdm5kaUhnUmtVTEVPUWxWT1JoaXAySmJ1QnFlUnp3cFdGa3ZOX2tDOXdWRTBvM2daS2c9
+"I've always wondered how this would work with humanoid robots, literally being able to control it remotely",r/robotics,Z0FBQUFBQm0yeGNhSklGZ0RqRTRQcWxNM2poSllNdEdpdExCUnhoX09lUjljSzVvZ2NiOWtRaWJCV0Q5X3JXZkx2NUcxUnY2dDNpa3VaVVp1VXQyV1RmX1NkRFozb0F1Wmc9PQ==
+"""i use my spine all the time"" same, i love i love my spine",r/robotics,Z0FBQUFBQm0yeGNhQ3llTWxCdTJjdTN4bXpoT21kb25vbDZsYVpzM3VfZ09LNTdIQS05M2VGUlpZcmc4NWNTQjZyb0g2WHpGdDFnd2EzVzZCY0NOY3VPVEM3T3ZlX2pURUE9PQ==
+Having experienced Unitree's past products... it's going to end up costing schools a lot more in repair and replacement parts than just 16k,r/robotics,Z0FBQUFBQm0yeGNhMkZTM1RaaXNoM0ZNMTNiWkNvR0N0WXJBSlJHeUEySk9SV2dTRGdlSFV2NXNuUzZteDlVZFJ5U0lFdHVneVo0REcxaGl6WG82eGJUdkZ6cWdqYnpzckE9PQ==
+"Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts. Your post is market speculation. This is a technical community, not business/investment focused.",r/robotics,Z0FBQUFBQm0yeGNhc0FfSmNZZkVMaHNIQUdTMnpUcjM5NTFPWFF3MmJleXRqY2ZsckZIZmt6ZmNNcHo2NjZXUkZ1X3IycV9qWHZtRzNDS0tZNzVkTFNTNndiX2dWU1BzNjFfWEkxUU5SRG14SXA2Z1IxUVlLT2c9
+"Thanks for that clarification,  then it's clearly not what I'm talking about. But seems we are getting closer and closer every day, like all the pieces are coming together and yes i agree its a wonderful start, this is just the beginning.",r/robotics,Z0FBQUFBQm0yeGNhM19jaWRFZHZLNmgwUWNNYkRvMlpqTEVXRV9VU1FndGx2YTFKWk4xYmJYcDZLS1VTbDdTdjhHV2k0ZEVmbjctVEVTX1E5TTFYa2ZualJES0lwcEpFTllxaW9UUS0tM0NjNEhremhRM1hKV0U9
+"Nice, Where's it came from?",r/robotics,Z0FBQUFBQm0yeGNhcllRcUtJaGhsWmxRRTNSSmVoRi1mbmMzOXRFSUs5T0l2c3hydURYUlJzdk1LS1hkRXVlQ2ZLOW9yX0R3d1J3WWZzRTlWb1NxbWZfY3lkYk9JUk9nN0E9PQ==
+Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts. Material choice type questions fit. How to set up your 3d printer to make parts is not. That's specific to your printer. You should check out those sort of community forums.,r/robotics,Z0FBQUFBQm0yeGNhN3BVMUpnNjVIdy1pVDdYRW9TelFNanZHYXV1Q2UxYTZiNGVYbXM2NzBrMzZ0NjVLNDNtR1hna2NoWVZMMDhUaWRaVm5JdkNNQnRqTGZlZV85SDJJUjQtYmdXVzZPc3VuNEQyLXd0dmRUWGs9
+Yea i really want to do something like that haha,r/robotics,Z0FBQUFBQm0yeGNhNWR2THQ5TWxMX0g0MWlnUnh3YVNGWDM0cUJEUm83WnVKV1ExN2RDSnByalhxV0t5NF9hNDBtRFh2S3VnTU1Qa3pQUkVndmxEQ0NDdHNVTnFHUHQ5aUE9PQ==
+We are working on it :D,r/robotics,Z0FBQUFBQm0yeGNhcEQtaTFhNDVxc29XVUVCQnJ0dF80Z0NoM0MzY2NHVHpCZlMwRHBTQXhWM1NPMlM4b3pNNHh1eUJ3NFkweFNuZHNOUkNoa0Y4WXA2Yl9pNUhBd0tuLXc9PQ==
+"This is late, but could you also send it to me. Thanks!",r/robotics,Z0FBQUFBQm0yeGNhNlIxMVpSSUhwSk9qNzg4azdobVU2ejhkUGM0UTR5cllaUDhkUXRnUExQQjNGUXdxaDlnLXA4b2dMUXQ5azM2U2l1REZYZnlOdkZadzZmNXpldV80ZENUcGtFQlBmZV9CZlRXdndFVUxUenM9
+Your post/comment has been removed because of you breaking rule 5: No Spam or Advertisements,r/robotics,Z0FBQUFBQm0yeGNhZ1FpMERXcFlEQnNselYwc1RuRDRyRG5SWE0tM0RIbmtUQld5QjFMSW1CUmVtZElxVjZ0akNKSVFLZ1BqUHExOFUxNF9YZUo2S0VJSzNVSnpaWS13NjZwb0ctSDRnR2pGT2tVczNIRXFhNXc9
+Your post/comment has been removed because of you breaking rule 5: No Spam or Advertisements,r/robotics,Z0FBQUFBQm0yeGNhV1Q4SHpxUGM1bS1jRjN2cHVJTTRSSGxLclg3OFdId2w1VnRscm1mYWlIcmdibEhPQ3NqSHY4a1pPTWVPV1U0S3lhcHdmYm9BZW9UZW5JQmlKNG1WZGs0QUJwdzZ4V0hHdWVTcUZHVHZnUWc9
+"👏🏼👏🏼👏🏼 11 years i’ve been waiting for this momemt. This will be remembered for generations. You are my hero.
+
+Low key your snap on clamp with actual snap fits is super impressive! Keep making stuff :)",r/robotics,Z0FBQUFBQm0yeGNhZjFWbFI1Wk9nZ3gyWW03dzRzdVF2NmJqSjJFTHE3V2lHZ1ppNXR6bU9iNGpyMmRJR3dYVDNRTzZRc2hxSGRCVjJyVWtKY3VPdzVLbWY5VllGbFZFZVE9PQ==
+"With your code, Bert.",r/robotics,Z0FBQUFBQm0yeGNheU0zOFZjV0N1TjlpbXQzMlhnNWxha1JiTC0wZWpKZDlxZ1duQkI1X2dUbUJ1ZHlyVy11amR0VVlrVWl3eFE1bG53Rks5Ym1lZmZycjA4R3g1azFDcmc9PQ==
+"As an avid Coffee shop goer (real shops not StarBucks) I would go to robot coffee shop exactly once Maybe twice, but never again.
+
+I go to coffee shops to have a shared human space so it's hard to want to go if that's not there or encouraged.",r/robotics,Z0FBQUFBQm0yeGNhM0x3QlBmNF92ZmRscU90NEZfSnlRYnl1aVZ0ZjBjTGZ0YjVUT05xbXF3amhHRnhzTWlsc29PWFNYZGxHMmVSQTNaMEdiNWsyREQwY3pHOTZ3UEVMUzNBaXJMOXR1WjhVNjd2cVk1NGpiT0k9
+"🫡 Bringing closure to an 11 year old reddit post is what I'm here for.
+
+Thanks for the kind words and award, I'm working on it lol",r/robotics,Z0FBQUFBQm0yeGNhdjJkemtrYnVMMG5XbFhQQ3prazRXMEpHU2daMmJuQjc1SU5ldURjcVJRN3VtQnNiRVAzTEhTQlR0UjdsanF1SjZvckQzQ291aHJXM1Fwc1pvRTRXTlE9PQ==
+"You have to use the Tesla approach:
+
+The first model will be a $100k unit that will appeal to the rich, and give you enough press coverage to attract enough investors so you can build a cheaper model for the mass market.
+
+It has to have enough real features so it replaces a human servant or three. Clean dishes, take stuff from the dishwasher to the cabinet, do the laundry, fold clothes, clean the house, do yardwork, walk the dog etc. Guard the house at night or when you are not home. All the mundane stuff that is easy for people, but takes time. And is currently very hard for robots.
+
+A great benefit of a robot is that it can work 24/7, which is 168 hour work weeks instead of 40. (It should be able to swap its own batteries with the other set that is sitting on the charger. )
+
+For anyone who has a big enough household so they actually use hired help, a functional robot will be cost effective quite quickly.
+
+Who? Some Silicon Valley startup that then quickly get bought out by one of the big guys.
+
+When? Hopefully in the next 10-20 years.  By that time I'll be old enough to really need one.",r/robotics,Z0FBQUFBQm0yeGNhZUY4ZEN6VEhJQW45Y1M5aEpOOC1sMkI0Mi0yWm5kdTU5V2JDMjJXdU5qRlpvSXgtUG1iQnVQdzZGYjFaeEFmalJ1dlFLVjRWTTZ3eXJUWVZVMjlwSXc9PQ==
+"Would it be acceptable in your use case to update the environment model more slowly? If so, maybe you can get away with taking a good 2d lidar and rotating it slowly like they did on the PR2 robot, but that would require some additional implementation to work properly.",r/robotics,Z0FBQUFBQm0yeGNhdDdHWlF3ODBTRzNxNExLSWxqMnZQVkFwSjYxeGI3dVVQNEp0SVp6LWRtSUNRRWllVTVsSGpNb0pYWjdkUFdWZk1WZnV1aF9OUDJHY0dMWmVHSW9PbXc9PQ==
+"Your question doesn't really make all that much sense. What kind of servo motor? What do you mean by motherboard?
+
+Really simple hobby servos can be connected to arduinos without out any additional control boards in between. Advanced, industrial servo motors can require dedicated industrial PCs or PLCs to control them.
+
+Your second question is even harder to parse. Onboard computer for what? Like a controller for a servo motor? What kind of motherboard? And what do you mean by unprogrammed, meaning it doesn't have a BIOS or operating system at all? If so, then yeah you won't be able to do anything with that.",r/robotics,Z0FBQUFBQm0yeGNhOXBzNGVweUkyeEZ2OXpjeUxrcW1WbGs0ci1EdFd4bmJVZVVWZ1M4Z0JkbXJibklfZk1ZQmpzTnZBdm1pc0ptTFlZcWR5VnhYb1JHZElCYWxNeUFqZ1E9PQ==
+"Robot arms are expensive to operate and teach (program) and even more expensive to integrate sensors into to reliably handle drinks and interacting with people and machinery meant to be handled by machinery.
+
+It is far simpler to make a machine that can load the desired cup onto a turret, and deposit the exact amount of whatever liquids or solids have been loaded into the machine from the suppliers.
+
+But it's even easier to hire people to make coffee, and people tend to prefer human to human interactions, rather than poking pictures on a touch screen and having a coffee whizz out.
+
+Food processing machinery is also complex to clean and is only economical when it can run nonstop. Robotics are also unsafe around people.",r/robotics,Z0FBQUFBQm0yeGNnN3lrenFELXMwUDRqSW80NTZJYWViWVFoeXFnV01iVlJuck4xSDlvcWVmRkplVGI4R2JpR195Rmx6dlZTcDdXVkt6a3E5d3dTR2FCeWJsWkRhODFzQ1E9PQ==
+"Why? How does a robot improve the coffee?
+
+Baristas seem pretty efficient, and have good knowledge about the beans. I enjoy a quick chat about how things are pulling today.
+
+I don’t see how we can replace the human and produce as good of coffee without an extremely expensive robot and a lot of sensors.
+
+It takes some skill to account for the age of the roast, today’s humidity, temp, etc and produce a quality, consistent, espresso.",r/robotics,Z0FBQUFBQm0yeGNnT1otN3NfdnZhZGhfTWV0VGFRNTZMSTVfTDZ3dUZLZnNxaTVzd3hYb0hrOHdGZElobDhjUGRpNXNJV0hYRDduRWFoMnQxUW1nU1FzQ3ljeThwajBONnc9PQ==
+this is so cool! do you manually set which arm to be the master? i’m wondering what happens when you rotate both at the same time in different directions.,r/robotics,Z0FBQUFBQm0yeGNndkU2TWs2ZFhNWnlmYS10T1ZrVG9kQ2lzN1liWV9fVlVZRXBlVEZaekpOM1E4VHNjeWdmTUkxblZ2RXFPc0FMajJ6a0ZHdnN2WUQyMmgzaDRScVRtdkE9PQ==
+"This has been asked and answered many many times on this sub, do a search...",r/robotics,Z0FBQUFBQm0yeGNnNlVWQ0UzN3M3WHd0bXk3UGpWV0d5SFVfYS1lOEFPdGdIZk5pQjBwVGphaHlDOU52dFp0NVBubGI3ODlTY0NrVVRFZkVZZTNCTHYwOXYzSEpxbTFwcnc9PQ==
+This worked BTW,r/robotics,Z0FBQUFBQm0yeGNnaDdhSENKV3NRX096YVR0UUVoUlFoMWFKZFpPc3R4YXBNclhMaF93TTlVQ1BCZWVsTUpjTFh3bVBHOEZSOWlEUXhZMnFuRUlxZmNfMHV0MTZFTkw3OFE9PQ==
+"I have a box of these, I love them. Haven't figured out a project for them yet but they work great.",r/robotics,Z0FBQUFBQm0yeGNnMFJ4REdQWEM4LXpiemFfSEpmc1lScUtFZHpFaXlsZVltWWprY0ZDa3d4cWVKcXE2dUkwRjhwWVEzYVZjcUl2X0RTWVQ2SDVQcnNZSkNHQTVkMmVuMlE9PQ==
+"I know and I've seen a lot of answers, but i want to know the main difference between the languages(in depth explanation) from someone inside the field. And thank u for replying ☺️",r/robotics,Z0FBQUFBQm0yeGNnZFZ4aElpSUZZZTZxeXJLNnZzSzU5RjFNNVV0TmZ2QlppZkRGVWJHeEdYOUhOWU9pSFVHVTUxUEVtekcxYlR3NVhmWmVpcVloVVNERWFFeUJPTkVDSHpXczBNcld4d1JVRzdhZ19QWVVVTFU9
+My mind immediately went to having sex with someone on the other side of the planet,r/robotics,Z0FBQUFBQm0yeGNnYVd3c3VuekFrY0p3aVZtd1A5SUp5WWZuLVNlZ3JmbnU1ejBxM1pZXzFEQ1V4M01hY0NqdmlqQ3pweXFGQ1J4N2ZJNTlXQXJzbTZGVlRrRmVVR1VMSVE9PQ==
+"The lower level the better performance usually, python libs are often c/c++ wrappers",r/robotics,Z0FBQUFBQm0yeGNndS0tZVhGbDVfdWpaYkJRNXpyUjhzdWNEaEZGN0tPZ2tNQ1NBUjdndkdqazlnUlJvQjVTRVJmZXNEZGRUQ3hhQWtNRXVPWF9FLWtwdnllbUFSeGpidkE9PQ==
+"I have a 12yr sister, I brought her an Arduino kit (just Arduino uno, some simple sensors, LEDS, and breadboard) as a gift and she likes it. And it might be difficult because it contains programming and such a thing but for a 12+ the challenge will be so exciting (especially if they like this stuff) and will be rewarding. I think it might be different from what you're looking for but it could help though 😗",r/robotics,Z0FBQUFBQm0yeGNnT0xPUDNudnFYa0VYaTZnNU1GeWctQzRxQ0tLSkRLVlEyQWdmT01fSG10SDZEc1MtZEp5TmNvVmFfbldCN1ZFU0k2bGFIR2NSendWRXozUTU2OG96N0U5N2hOLXNkRXd1SXFiUlFaOGd4Wmc9
+"Your main differences are python being interpreted vs compiled, vs C/C++ being compiled, python having some unusual syntax and c/c++ being closer to the hardware with more nuanced control. Having experience programming in both I can tell you with absolute certainty that for basics getting into robotics Python will be easier out of the gate and allow you to do more faster, c/c++ will be a much more serious learning curve but if you have the time and technical knowledge how to plunge into that deeply, it may ultimately pay off in terms of more nuanced software control over your robotics and increases options in terms of hardware.",r/robotics,Z0FBQUFBQm0yeGNnNjhUNVRMcU1nLWlpSHRaeUZJZ1hoSE1IRWphWDJnM1F4bW9fbGlhejhoc0xZOS1PNllqZ0l0RF9lelRtU1BEcjBzbHVCVUlZcGhtYUxITXp0bGV6RHc9PQ==
+"I bought a yahboom kit off of amazon.  Pretty good, it needed a raspi, but all told that should still be under budget.",r/robotics,Z0FBQUFBQm0yeGNnbFZOdXNReVFKcGtIeDE3UDBUSnR1QU5NSXY5ZU9aRTFXZDV4SXd6ZVJSNFRidjBHUDFDZGV0YkFQUVF0SDBFbVFfU1IwSnZrSjZrVjgwNmRGZVRHUXc9PQ==
+"Thanks for explaining ☺️, I have a really good basic in cpp and programming in general even i was explaining for the other students at my first year 😁 and i made some respectful Arduino and esp projects, so i will learn cpp in depth and dive into it",r/robotics,Z0FBQUFBQm0yeGNnVlNBcHNvR1pDLTVtbmNsSkZzNzk2NXR0SWs0bEpncWJWNnJxcXhZSzc4a0g1dG4yRnBDdllyOEFRLXV3a2dFamRReG9fYjQxSzZ1VGZ6OGlOZ0NUUzVYc3ExeHFfUzVJRGM4R1Vjd0NJTk09
+3d printer.,r/robotics,Z0FBQUFBQm0yeGNneE9SWVJzNVI3NDQ0NTZYQi1fWExGTTNTa2FIdVM4SGdQQzRRVWhFcHR2TDR3Smw1MUczV1g3QVpONm5MTGRWYVBEdVJqbnpGVERPQ1p1cHRFMTBUZFE9PQ==
+Your post/comment has been removed because of you breaking rule 3: No Low Effort or Sensationalized posts.,r/robotics,Z0FBQUFBQm0yeGNnU3FOQVBYNWdvdlM0Ql9wODdiMDhDNE1zZ0Njb2lWRUpMWkJQbDdiR2J6OHVVemYwN1JfcHJmMXRraWd1MEdiRkluNUFSRjB3TjQ4RUdUNWhtSlVodXczcV93dXhDUFVMcmtxMXVVcDVrTDg9
+"Try Mark Rober's subscription boxes, try the teen ones. I think called Hack pack",r/robotics,Z0FBQUFBQm0yeGNnWU9KWFdtQ29LOG9hNVFuaHFlSkQyWkVwRG5Tc1UtM3hPV3p5THJoRUF2NWwtTlZzZXlUS0xWVFFZb0NyejF1SWNKR3h5RklxYzV2VndfcFE5MnVka0E9PQ==
+"I second the suggestion of entry level 3D printer. For this age, It has the ability to teach a lot about engineering things.They have the ability to print more parts to make more things. Legos are notoriously expensive.",r/robotics,Z0FBQUFBQm0yeGNnN0lnLXEwTmY1MEo2QVI5akh5b1V2b0Fjbmt6QTZZdGpPekVJaEJORXNxdE5KZTdVNHVuTUZfQTRGVkV3S2hsNGdsbC1DWUpuN1phQXV0Q1c1WjRGYVE9PQ==
+"Counter: why not just grind beans, boil water, and make your own coffee at home? Or why not just get a Keurig? It's hard to get much more efficient than pressing a button on a Keurig. It's cheaper too.
+
+Answer: because human interaction is actually large part of what you are purchasing when you visit a cafe. It's what many of these brands are built on. As a barista I'm encouraged to learn people's names and ""get to know them."" Really, unless I'm making something very elaborate, I'm paid to stand in front of, really, a fancier and more expensive Keurig, or a blender, or shake things together with ice. I also clean, because it's a restaurant and bugs are nasty. But I'm in large part evaluated with the customer surveys which give us a ""customer connection score.""",r/robotics,Z0FBQUFBQm0yeGNnUEhsUUYxZGE4S0NKaDhBenFhQS1FXzh6UnZpcDJWS1JfcWR2UURQaGhMejNtQ3ZtdkNYRUhnWVd0ckowVHFtLTZ2eWhPckJ6aXV0VHZsRFUzaC1PTWc9PQ==
+There’s one in Muji in Portland OR. It’s slower than human baristas and the coffee is less customizable. A conveyor belt with machines along the way (a la factory assembly line) would have been faster and cheaper. The robot arm is still just a novelty.,r/robotics,Z0FBQUFBQm0yeGNnRHJLRXZYMGFNMW5qM0xybnVxZUZrTVFIRm1KLXROSVlJWkctNkZGOFFHN1dlVXZ4RFN5VnZxMGpzQnZNX24xb0pPT2poOVRQUElVNk5uNFkwaXM5blE9PQ==
+"I am confused how you achieve the bilateral part. If I push arm one, there will be an “error” between the angles of arm one and two. I can drive arm 2 to reduce this error to zero. But then when I switch to pushing arm 2, an equivalent error will be created in the arm angles, and so how does the algorithm “know” to start driving arm 1 instead of holding arm 2 steady?",r/robotics,Z0FBQUFBQm0yeGNnRFpTdW1ISEtEN0JRRnJIcjduSXZlX1lxckhsTWhPTGN5Z0xQQWE0VEY0SU1mQ0VIMDNoenRMNGRTaWUxUzdOUTZTbzJaYkJKVU9KalZxZkFDRENmZTM3SXF6VHRrNVpGUkFTdWZ5ekVTclk9
+Isn't it the robot arm?,r/robotics,Z0FBQUFBQm0yeGNnN1JsWVZ5Sy1TSWpscGg3ampLZ1N4RXZhZ0Zsc3VXd0pwN0NOcnpWdDJaQ3gtaWEwNG4wazBLX1JFS3hOWUlsVXREb2hySlVvX2NJeFNvZWhxRExMY2c9PQ==
+"Quantum mechanics theory prove 😎
+
+Seriously potential application for long distance relationships ✌️",r/robotics,Z0FBQUFBQm0yeGNnazVMU1ZEZGVTY0xJcVhydmRzVVlDaUJ5U3pXSlBhVFNfbm5LZFpROEJ1ajFlTnNZQVBiRnpBM2JOVlQyMUQwSkFIV2VqNHhGZHFTX19Va3EwbG5FV0E9PQ==
+Isn't it already done except the force-feedback? Like that's how we've been collecting datasets of demonstrations I thought.,r/robotics,Z0FBQUFBQm0yeGNndDEtUGdYdW12cWpGX2xGOXEzTzlyTWRPT3o5b3QyTVdDTU1ZWWEyMzRJZXRDS05fSWV1YktmMm1HM096eGFQd3BNMXFFTzkxZU5kT2FZVHktQ0t1ZFE9PQ==
+"If a motor's encoder is sending feedback that it's being moved while it has received no command to move then it's being moved by the environment -> set as master.  
+Otherwise. you can check the current used as if I move the motor it should try to stall and so the current should spike.",r/robotics,Z0FBQUFBQm0yeGNnWWtWYXZTNTB2V09Ta1hXbGl4cl9udXQ5QUFnVm9uR0FJZzVmZjZMeUVyUm14Sm52blN6WWFvWFozbFZTdU9HQ0ZhTGVOdEJ6ZmkwLWNiZ1UyWHBrM1E9PQ==
+Could maybe use a 2D lidar with proximity sensors to fill in the blind spots.,r/robotics,Z0FBQUFBQm0yeGNndEVVUG00QVNiRkJSWU9EMlRSQlRLVDJHdU05LTdmQkJVejZqMEhURlJzSjlqZTNTLU80ZFUwT054Qm42UnVudXlIZFItQkUtQXlEQ2RNLUhBRHZ6OHc9PQ==
+Looks terrible.,r/robotics,Z0FBQUFBQm0yeGNnNGZnWms0S2Izd3ZGcDFIX1g1THhMTC1FM0RPc05aYUd5ZDJFRTV5aGR4LWNIcS1Hc19zODBfV2xDRmpON2RMY3JiZGd1dkRJakVDakFSZzJOdEJKc3c9PQ==
+"hey, I think the best way to approach this is NOT TO BUY A KIT! 
+
+why? A kit comes off as expensive and there might be so many components included in the kit which you might not end up using them at all. It can also create confusion especially for total beginners, I can't imagine staring at relay modules, transistors, IR sensors, diodes and a bunch of motors all bundled up in one box while I haven't even lit up an LED, this can quickly overwhelm someone. 
+
+You want to choose a project e.g a line following robot controlled with an ESP32 and a bunch of sensors, then note down the components required as you watch over a tutorial, then order those components as a bunch. You'd save money, and also the kids(age 14+) would develop an engineer's way of thinking, project-based, modular, saving up on costs and only going for what's necessary - it also makes it simpler to learn robotics imo. I have mentored highschool kids in a robotics competition and it was so hard for them to do anything because they were all staring at these ""starter kits"" with all sorts of components. They were very basic components but the theory behind even an I2C LCD module can get you scratching your head.",r/robotics,Z0FBQUFBQm0yeGNnazBrX0NsRXV5REZuX2MtVV9BRWk2cjE3eWlYQ0hzV3Q5Wm5waHhnOXpuTDk0d1AxM0w3SVNodHZOUkNVQnZ3bmVVYWFfTF93aFh5YjV1d3pZYm55Znc9PQ==
+"totally agree, best approach",r/robotics,Z0FBQUFBQm0yeGNnLWJFV1NDMG5SdHpLYUFrTEpQQjRFTWQxbVF3QUh4b1kxVjNJeFhRMFhsbmpnOFZROVpLMHVQbmlqVXV3NWNsV0hQM3pRVjlCTjNSTjVMYnVLUGRBUGc9PQ==
+yep think so. just wondering if we call all machines/automats now robots - i'm not judging.,r/robotics,Z0FBQUFBQm0yeGNnNUt4YkNRRjMyYWlqSXB1OTkzUmU0Y2xXdWt0Nm9OWV9UWXBnbXJBeTZRRlBHU3BWajNvRkRFb29UdDEza0xzRXFtb0R0dGFWUXM5Ym5mT0VMTkktNVE9PQ==
+"For scaffolding I use aluminum extrusion. For the actual robot I found them to be too clunky and rattly, so I 3d print the robot body in one piece.",r/robotics,Z0FBQUFBQm0yeGNna3ZEUTZycE54b0J0WWxDYmxkaEVDX2xNSGp2cFBnQmZyWTJMRTJuazRGZldoaV84RmpaLTRLTW1NTG9YUW94aEowZllqdGlWMy15NUY3R1BrZDA4dFE9PQ==
+"Misread this as ""bilateral teleportation"" and was very confused for a moment.",r/robotics,Z0FBQUFBQm0yeGNnM1JsRFBvaFAzdEp4dHpqSHB0MUVxYnI2dVd3YzJzazJVLTdTS1had2dOOGx4NDV0MkJ0aVNLREM2TTdTVE5YU1o2TjZVT0NNRnlEWkd6Y2Qta3pTdDd1Sl9pd2xucUlEdjgzYWFYZG5PVjA9
+"Something using raspberry pi could be a good choice. I am a robotics PhD student and it is raspberry pi that support my early exploration. It is cheap but enough for some control or AI algorithms like face recognition or working as a smart assistant. Also, Python is quite easy for kids compared to C or C++.",r/robotics,Z0FBQUFBQm0yeGNnd0RmRVF4VGtKWmZqYjRjYnRsTElaajVxam5wVWp1ZDVBWXB3WHkydlZlMDB0N3FQeWVjZmJZdjRuQ2NlWE1pcjhFcmR5Z2F5OWlaWXpkRTdsdmRWTWRudkFqbzdqSXBTbEpVdkllV2RTLW89
+Your post/comment has been removed because of you breaking rule 2: Robotics Related Posts only. This is not for general hardware hacking and repair.,r/robotics,Z0FBQUFBQm0yeGNnTDVWQnotampyVG9DUXdOYkFRZ051XzgwdFRzSVNpZEVvRHdla2NFMGl1aVhURGtXTm5UeXMtMnJJMWQ1MzF2S0JoajFFVUo5SHAyX0NpVlNfTHgwWFpqX3Roa3M5cnNReHlnQnhRYVA3R1k9
+"Your submission was automatically removed under Rule 3. Your post may be lacking a body or your body is shorter than 120 characters. Please make sure to elaborate on your submissions (min 120 characters) to improve the quality of posts.
+
+If you have a question concerning robotics, check first the **Weekly Help Thread**..
+
+Please visit the [subreddit rules](https://www.reddit.com/r/robotics/wiki/rules#wiki_rules) and [submission guidelines](https://www.reddit.com/r/robotics/wiki/rules#wiki_submission_guidelines) for more information.
+
+For any claim or question about this action, you may contact the moderation team via modmail.
+
+Thank you for your understanding.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/robotics) if you have any questions or concerns.*",r/robotics,Z0FBQUFBQm0yeGNnQ3JiU2hzNWNNV25Ib2F1a2FNT1dUUzA2OW9qbXlWbm92SmdzeU9aXzhlMlY0OVhnQTdpVEVvT0tYZmYtbnp5MV9LZ3Z0MzZabzBWS0llZ3ZCdDdTYkE9PQ==
+"I'd say also, there is absolutely no harm in utilizing both, no reason why you would need to limit yourself to just using one. If you try to do a specific task and find it's too difficult to accomplish in c/c++ it does not hurt anything to try it in python and see if you can make it work there.",r/robotics,Z0FBQUFBQm0yeGNnMVFBZ3l6VWJCTGN3WWtrMUtGX2UtZUFiZGhBUWQ1b29qdmdkR2ptLWcxektwYnowY0RoT19VYnc4OUNTdGRkRVNvT1dmcGN3UjFJekVCLS04VEVlcXc9PQ==
+A lot of AA Admirals lounges have them and they're constantly broken.,r/robotics,Z0FBQUFBQm0yeGNnSm1aNk1yR1ZJVjN2NF9hRFQ1X1FPWXA3STM4aU0tRTFvQVRCWnVnYjN5QmxLLS1meVptRDJuY09ERG45d25WRXFEaW9razZlWHctaTlYc3lyNUs3eXc9PQ==
+"They are not going to use blender as it is not a parametric modeling software (you cant go back in  the timeline and make changes). They probably use fusion360 or solidworks, which you could probably learn in a month to get to a sufficient level. Not sure about the coding/software stuff. I’m guessing they will want to see completed raspberry pi/arduino robotics (or just electronics) projects if you want to work on the hardware. Not sure about working on the frame. Good luck!",r/robotics,Z0FBQUFBQm0yeGNndXRiZGJBMHdNNHFYeld0YlZNVkk5Zy15LVBfeVhoMGZCcVM2UFdsSG9YRVUybzA1MEZ0dU42U0tTcUxFdkVUeS1sYURNWE5saVd0YUFjaFoyVTU4ZXc9PQ==
+Are forces conserved? Eg 1 Newton * meter excerted on 1 motor equals to 1 Newton * meter excerted on 2nd motor in opposite direction?,r/robotics,Z0FBQUFBQm0yeGNnZXlRWEt3dGliSU9mZ29Ra3RTaXFUdWRUZVpPUkJMTmRwM1c0X3BGUnQ3Wm5PMXVEUjFvVHdhTlV5TzdGZmVzbXlnT04xaEYxTmJSZ2VYRTM4XzFXQkE9PQ==
+"I know there's no solid definition of what a robot is, but I've always liked to think of it as an automaton that can react to external sensory data.
+
+In this case, I think it's just picking stuff up from a programmed position and doing some programmed moves. Not a robot.
+
+However, put a camera or some sensors into the mix, and it could be a robot. If it could detect that the milk level is low, it could do a ""steam milk"" subroutine.
+
+As much as I love the TV show Robot Wars, I don't think being remote controlled by a human counts.",r/robotics,Z0FBQUFBQm0yeGNnSmRaYVgwSnBGbFpCWGJLcG9tY0hnNXF0VUdRWkh1ckZia0JtRTFVZHh4aHlDVERrVFJKZ2FULXZJbEpmUjFPT284TkJ5SUpreTI2WHFpaEZSZFp3Y2t3QnNXbm52YjJfRHM3T3pscHBKRnM9
+"Hello /u/No-Lemon3337
+
+ Sorry, but this thread was removed for breaking the following /r/robotics rule:
+
+ *4: Beginner, recommendation or career related questions go in /r/AskRobotics!*
+
+ We get threads like these very often. Luckily there's already plenty of information available. Take a look at:
+
+ - [/r/robotics wiki Frequently Asked Questions, carreer advice and other resources](https://www.reddit.com/r/robotics/wiki/index) 
+ - https://www.reddit.com/r/robotics/search?q=beginner&restrict_sr=on 
+ - https://www.reddit.com/r/robotics/search?q=how+to+start&restrict_sr=on&sort=relevance&t=all 
+ - [AskRobotics](https://reddit.com/r/AskRobotics) 
+
+ - [Our Discord server](https://discord.gg/sbueZeC) 
+
+ Good luck! 
+
+ If you disagree with this action, please contact us via [modmail](https://www.reddit.com/message/compose/?to=/r/robotics).",r/robotics,Z0FBQUFBQm0yeGNnUVF5M3ZoSlZCM05YS1NmdXg0VGlpQmE5ZG9ZNmpkOWpDd2ZVX0tWWEY2Z0RfVXZFV2hLNC00RGwyVWFZTzMydkk1YWJQa2N0UXAwMG01VmFTQmpYc3c9PQ==
+"Research ROS. There are free beginner-level ROS courses available online, so if you have time, consider exploring them. You could also undertake a small project at home using a webcam and OpenCV. For instance, you could recognize Aruco markers or perform facial recognition and add a clown’s nose to the recognized face (or another face add on like funny ears). 
+The most important skill IMO in robotics is being able to solve problems creatively so be sure to highlight that in your interview.",r/robotics,Z0FBQUFBQm0yeGNnUTVpSG1lSS1wc2tOUU1jUEp2NWZ1ODBmcWhtallxclRQd2ZvTVZhbU5Gc1NWZUIyb2YyakF5MURwSlVTN2NkczRzRGFvUF9nNGJxUGtmTDgzQ1dWMTgzeFNhS0o0MUxueURWc1d6M29LMWs9
+"There is no master/slave. Both are same ""rank"". They fell like they are mechanically connected. If you rotate them in different direction you will feel as if something is pushing on both of your arms.",r/robotics,Z0FBQUFBQm0yeGNnUThQa0pMMEUzQ3J0OWN6dnZ2d2ZmR1p1SEZTMjA0aFFKWTBVRVRic2p2bDl0cTM2cFMtaG5QbzdjejRxMkhuR21nb2pKQzhqaHVXVWpyVE1TQkRZMHc9PQ==
+"Magic is basically in those 2 formulas that are described in one of the comments here:   
+𝜏1,𝑖 = 𝐾𝑝(𝜃2,𝑖 − 𝜃1, 𝑖) + 𝐾𝑑( ˙𝜃2,𝑖 − ˙𝜃1,𝑖) − 𝐾( ˙𝜃1,𝑖)
+
+𝜏2,𝑖 = 𝐾𝑝(𝜃1,𝑖 − 𝜃2, 𝑖) + 𝐾𝑑( ˙𝜃1,𝑖 − ˙𝜃2,𝑖) − 𝐾( ˙𝜃2,𝑖)  
+Inputs to the motors are not position commands or velocity but torques. So both systems are trying to keep stay within commanded torques.
+
+You are correct that this works of an error and to get a good working system you need to have these 2 arms communicate fast enough.",r/robotics,Z0FBQUFBQm0yeGNnb05yRUxyNWlnSGZ0UjVTTk4yZzdNTW90SlV5V0dVbWdmd29zX0tLazZ1UW1GUVk2NkthSUw0aDNDeVZVelg5Z050MjY1UWEwUkV2TTI4SkJWQXVzZ1E9PQ==
+Yes they are :D,r/robotics,Z0FBQUFBQm0yeGNnTWRhTV85QjhPWkMzcy01dzdTeXpaaHZZVU4xczZMcnN0M0FIRnBSanVnY3luOUJ2bm82MXM4VWxKU3BxZEpnYjN1ZXd5bFFVRmJMZWhCRF9xVXlLS1E9PQ==

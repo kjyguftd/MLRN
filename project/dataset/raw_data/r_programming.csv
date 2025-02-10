@@ -1,0 +1,1108 @@
+text,label,username_encoded
+"Ah, Bogosort. There's a whole family of silly sorts, that one would be the best known.",r/programming,Z0FBQUFBQm0yeGNYQUJZOVktYzNQazQtLVk3SlhfdmJZdUVTU1lRRkxRZnhuWlFoN3p2ZWtkblZ0VmFXX2xRakJkQkEtcENTLVlXcHdaTUJ0Z29wQjIwd3hwdHhtSngtOWc9PQ==
+/s,r/programming,Z0FBQUFBQm0yeGNYQ3VOd0hJR2JjT0VReTdiVk16a3J0RjBTc09LVzhNUC1oektSVWJ1VTF2NlZGc0lSQm1rZzZWNVE1R0Jic3FxTFNJVV9hRVVoUHZkWlRyZS1NOGtSRWc9PQ==
+"I imagine there's a lot of packet loss, >1%",r/programming,Z0FBQUFBQm0yeGNYM2QyWFluVkF2Q2tkbEo2QkZWb1hQdHo3Z21mVjlyVmZPUlBpa2p1T21wcTcteUFROVoyMzhicXZrd2p3SmtuS3JUcTNNWEhhLXJuVUMwOV94ckQ0Q3c9PQ==
+Fix it in a future bug update,r/programming,Z0FBQUFBQm0yeGNYY3VPM0NnQjhTVXJFMkxEMHYtbTA2cU1nUEoxa2E1R1lhZGNlNVd4ZFZ6cW9WS0dKVUZLVjEzUlpxVEU1dGNrR0lNOUxheWVGUDJJSTZsdEtONUNLb1E9PQ==
+"Yeah, beyond the ""[what every programmer should know about Unicode](https://tonsky.me/blog/unicode/)"" posts lurk the actual languages that are expressed in these strings.
+
+To give an additional example, Norwegian and Danish share the æøå letters, but we sort them differently. You should also sort the  expansions as if there were the letter, so in Norwegian words starting with ""aa"" would be at the end of the list, but preferably only in the cases where it's actually a replacement for å. So if the foreign word ""aardvark""  (jordsvin, earth swine) has entered the list somehow, it shouldn't be treated as a variant spelling of  the fictitious word ""årdvark"", but Aas absolutely should be treated as a variant of Ås.
+
+People are accustomed to some incorrect sorting these days though, and, thankfully, usually have access to some search rather than having to manually scan a list.
+
+Because sorting words is likely no easier than [figuring out datetime](https://www.youtube.com/watch?v=-5wpm-gesOY).",r/programming,Z0FBQUFBQm0yeGNYelN1R3M1YVljYWdmX1A1WnA3TWxvRFE3bFo0UmdEdENCTUF4bHZvUldIaWZjenhxUENza0NhRFJ0QXVQemU4Q1ZtbFNpd3NGY1BJRGFOWlNtcGJBWXc9PQ==
+"Thanks. I’m going to ignore all the bits about how popular React is since that’s not in question; when I talk to clients about frameworks, one of the first things I say is that it’s easiest to find developers and resources for React, which is an important consideration for the longevity of any project, so the advantages of alternative frameworks have to be strong enough to outweigh that.
+
+> There's a lot of talk about React ""not being optimized"" and ""having performance problems"" but mostly this just boils down to inexperience with and misuse of the framework. 
+
+This is simply not true. React is slow because it bypasses the web. The rationale for doing so was comprehensible once upon a time, but this became unnecessary a while ago.
+
+> It's capable of both simple and complex client-side applications (SPAs) and you can get started extremely quickly with tools like Vite.
+
+I’m not sure what about React specifically makes you feel this way apart from your familiarity with it.
+
+> However, isomorphic apps are not foolproof and have an enormous set of footguns. SvelteKit in particular has an enormous amount of issues. I've evaluated it for several startups that and every time there are problems with its tooling or with the framework itself.
+
+While nothing is perfect and I’ve had my struggles with SvelteKit in the past (two-way binding is still a major issue that can’t be ignored), I don’t really know what to tell you except that I have used it and continue to use it today for many kinds of projects worked on by many kinds of developers. With a couple of exceptions, the problems I’ve encountered have been limited and fairly quick to deal with. In contrast, React’s limitations are by design.
+
+> Additionally, it doesn't help that the Svelte community is as defensive as the Rust community. Sometimes pointing out Svelte's failings on GitHub ends up with ""well achkually"" moments, which just turns people off.
+
+I haven’t seen this, but then I also rarely argue with people online about whose is bigger, so I’ll defer to your experience in that department.
+
+> In re: to Lit, the web components ship has sailed. Web components are mostly a failed experiment and while there is somewhat good native browser support for them, they have their own problems.
+
+Alright, I’ll take a moment to address popularity here since that seems to be a recurring theme. Just as React is being used every day by multi-billion dollar companies, so are Web Components. I don’t know why you consider them a ‘failed experiment’ when they’re a perfectly functional, widely-supported, and widely-implemented means of encapsulating behaviour (even with their shortcomings) that’s trivial to use in a much wider variety of scenarios than React is *and* can fit right in alongside any number of alternative approaches. It seems like they’re a victim of their own success.
+
+> The reactivity and data binding model for web components is not straightforward, and CSS can be a massive pain that requires its own tooling. Ultimately, most teams end up removing the CSS boundary and opt to use tools like Tailwind with a singular stylesheet to compensate. As a result the learning curve is super high with Lit and web components.
+
+It’s odd that you say the learning curve is high for Lit and Web Components in the context of React. I need to point out that if you think React is easy to learn and understand, that’s both because you’re already familiar with it and because a lot of people have put a lot of effort into explaining it (which I can’t say for SvelteKit or Lit). There’s nothing inherently easy or straightforward about it, in contrast to something like Web Components, which build on HTML, CSS, and JS—technologies which are still easier to learn even taken together, let alone individually, and have much wider applications than just one framework… *and* are ultimately unavoidable even with React. It always puzzles me to see developers run to Tailwind to avoid all the supposed complexity of CSS while gleefully embracing the likes of React.
+
+The bottom line is that, without intending to attack you personally (given that you’re hardly alone), this sort of contempt for the fundamentals of the web and love for reinvent-the-wheel frameworks like React are a big part of why the online experience is mostly bad today: brittle, slow, unreliable, inaccessible, and hostile to the user. I prefer the approaches of SvelteKit and Lit, but I’m not suggesting they’re the ultimate solution; just the best we’ve got right now.",r/programming,Z0FBQUFBQm0yeGNYbGszVWJ1VXEwRUY1OTgyZjJ6ZHpVTWJWRUxxREdoejhlY3lXZE9FQy1pdHM1S3YwUmFvaWE2Z3RXRUNoLUl1YkdyTGFSS2FDczgxT3NZcEc1VTE2TUE9PQ==
+"Noted, TY.",r/programming,Z0FBQUFBQm0yeGNYclA0N0dLdXp0QkNnS2t0N1djUGFnM0docU1UX1gwamQ4WmZ2S3Jrb2tvRlRVY1E5SmpSUmgyRmZCbVdrby1NclE0YndYQ3pieUhrNndIVHIzS2RPcXRvcW1CVEtqcE9PTTRkSFR2R19JTEk9
++1 I would recommend looking at Server-sent events before websockets. Btw with google firestore database you get sse for free.,r/programming,Z0FBQUFBQm0yeGNYUFctS05fSEItNVR3eFRQaVNuOWNkLVdPZldraGVPNDR6Z3FGaUR4UzRHbzg5bEhNR0x6dVdpUDViUmdEaUVKT0tFWVpfNE5mMC1ObGkxOXE1UGxkSGc9PQ==
+"If it's worth doing a memory tradeoff, it'd be better to rewrite the bytecode as lumps of native instructions and translate branches using a temporary lookup table. The worst possible JIT, if you will, but it doesn't take much to beat 4 cycles of L1 cache delay into 4+ data-dependent branch delay; that's tens of instructions' worth if they're straight outa L1.",r/programming,Z0FBQUFBQm0yeGNYV1NZRHloUm4xRllQS1FxY2ZzTUp3NGp4ZU81bGxVakRRSnhwcXZ2OXFRcnVwY2k4aS1OWW52UDZ3RzNwZmNMZURwQi1ZMF9EV21TZktxNEpGaFl3MEE9PQ==
+"So what if I only need to store a schema timestamp so that multiple copies of the webapp can ditch their local cache when the database schema changes?
+Feels like a massive overkill to use redis.",r/programming,Z0FBQUFBQm0yeGNYdHFxOTc1bWNSYndKdkVsUzBWRWE4NlVVR1JJRG1BTnRSTU9CY2tHODBQYmhZdUNKazEtRTg1SDZUR0d3Y3lZcHhlSUc0MFR1ZWF3QVI4c29oN1lxSnc9PQ==
+Airbnb and unicorn linter (lazy to find the link). My team has some garbage coders and we need a strong and opinionated style and rules,r/programming,Z0FBQUFBQm0yeGNYZjhLZmNlQ0g0ekV1TGs0UVZtU2JKRHk3RlJCZS02Z3ZJZHg2bnNsV1RRczBLM25OQlNQNTVRWVRYMU9IaWU2cklqc0VjX2tSZjRpMEh2MTJ2N3EzbFdDbDV5YURreUppajNsa2RsN1FOQ1k9
+"The blog presents a highly brittle attempt at beating the microarchitecture by turning a data speculation into a control speculation. In the advantageous case computation would proceed with the value that would've been loaded from ""node->next"" in any case, but some 2 clock cycles earlier (i.e. L1 cache latency minus two for +1 and fused cmp-jcc). In current pipelines this means that where previously 16 instructions would've fit under list-walk L1 latency, with this tune-up increased latency will be observed starting at half as many.
+
+The downside is that it does the opposite of branch-free programming by disrupting correctly speculated program flow. This has the effect of reducing instruction window fill and instruction-level parallel execution in loops where the amount of computation per node exceeds 16 instructions, i.e. most application code that isn't a sum of native-length integers.
+
+File this one under ""summer ideas (2021)"" next to the optimized bubblesorts (, and heuristically entered loops for linked list sections that happen to have been chunk-allocated and then pointed to one another consecutively).",r/programming,Z0FBQUFBQm0yeGNYSjkxRk1SQ3ItbzdxbEY4OHEwSEZpTmFNZDRUaW9HeVllQzN4amxCcXg5VnA1d1hlSGlodkpid3pON1VfLW4xUTdYdzNUdzNjS1ZjQmhNbUUwdVpNUFE9PQ==
+"Of note, jump-threading can be implemented without assembly, if the language supports _tail calls_.
+
+See https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html which describes using `[[clang::musttail]]` in C++ in a parser.",r/programming,Z0FBQUFBQm0yeGNYUkI1YVBNYnduQmdNdlVBamIzWHNyS2ZidzBBbXJKX3Y0b3BhSVNEVVFWSkRvSjRRZDRXNms0OTNnOUMwMUJPdjJfVV80ckxrWExWVVBfNlNuMWJLQVE9PQ==
+Would it be better to use Web Assembly for something like this?,r/programming,Z0FBQUFBQm0yeGNYUlI4c2N5NU00ZUozU3BJWHJfTVlrVEgxTDN3eWRJYng5NFhubThPY0IzdmtIVHhWMWR6SFlwbXFxSVpCMGdjQmh5YzRaTGdxbXE0QWJ5Z1ZwdnJBa3c9PQ==
+I didn't entirely get your use case. Btw Redis doesn't have a schema. You only have a schema for relational database.,r/programming,Z0FBQUFBQm0yeGNYU1FTM0pRNXdCSzhMRmJERFFkYW5lMUpHSGR3dnVWMVNnUmw3b0kybzFtR1RuUWNZQ3BxV29RMnRLUjBUSEdhYTlhaWg1ZDc2RnQ1c25MOTJvVGc3OWc9PQ==
+"Basically i am ok with caching data in instances, but I need a way to signal between instances that local caches are stale (like db schema changed or user permissions changed).",r/programming,Z0FBQUFBQm0yeGNYNTV0bEozR244R3NUYUs5TF9zMk9MQ1AzYldYYTA2YS14STFjMElVMnl1ZzN6RHN1UF9hamtiaktwNnIyUDRIalB1bm1tQkw4eWRrdXk2RzhESTNqZVE9PQ==
+"Perhaps, your use case is coordination on top of caching. You might have to use a solution like zookeeper or etcd to solve this on top of caching. This doesn't come in built in the caching layer like Redis.",r/programming,Z0FBQUFBQm0yeGNYWERKRTRmMGh1MXh0OEtHamJDN2E3YS1CcU4zMWZYMkZ3d2UxejU1UGU4QVNVMnhCWjRpWTNPN1NsV0pjbUY4RFhxYm5mMHdBQlVETWdTYnFOWnBfOWc9PQ==
+"The way I look at it is that Redis is your cache layer, so that most of the backend is stateless. If you have state in your backend and multiple instances, you have to figure out a way to refresh the local-per-backend-instance state. One way would be to put a version on that state (like schema version) and keep that in redis. This would work well, it just feels like a massive overkill.",r/programming,Z0FBQUFBQm0yeGNYOWtjOExBNEZGbW81WU8zSE9VY0ZiQTFTS3FVYUtTbjNXUklfWDAtS0o2SFZHQkR3RmJZemhCZHlvWmpxeTFjam9ocXp3NDdORDJUSVpORVloSnZNSkE9PQ==
+"The most optimized sort is Parallel Bitonic Merge Sort. It's optimized because it can sort any list in the same amount of steps every time. So it doesn't matter what state the list starts out in, a random list will be sorted in the same amount of time as a list that's almost in order.",r/programming,Z0FBQUFBQm0yeGNYRy00bEwwbmRidGtFRTNTMjJVa3NzYU9KWC1iUkJEbVdrZlBxTnIxYzZYVTFYbzNtYTdnSXYwbjVlQ2FBbTVZc3BRNmdLazhEa0NLcTljcUp0b2czdkE9PQ==
+"They can't be bothered to explain what a DBMS is, so I can't be bothered to read more than a couple paragraphs.",r/programming,Z0FBQUFBQm0yeGNYa2MyR1Rhd2VqRUxuMGZsMVg2Tm5Kb2lqOTJxWFVuZ08wSVQtZjE1eENUVkthLW15MGxLWjVsOWxVSDlzUzE4dlBCamkxZ2loTm94azBoQ0NyeVM1alE9PQ==
+"In the first sentence, they didn't even explain what a paper is, or a title, or 2022. Unbelievable. Stopped reading right then.",r/programming,Z0FBQUFBQm0yeGNYaFlKakQxUm4yelp5OVFUQllBcFBCSkRxWE5DSDlPdlNIRU5rbFplNnBFYTdwU2gxNUZwajc3LUtIeHZ6LXdEcERIQmY0YUptV0V0bzFUb0F1VHJsZVFObWJDVjNvS3BiZ2NyU05fQ0kzYXM9
+Say you didn’t read the article without saying you didn’t read the article.,r/programming,Z0FBQUFBQm0yeGNYUlRoR2NCZGhfWS1MRzhYTVJUdDNuSS1LemNVTUVrYjAxeEZ2eGtvTWdYdlhLbE0xdkdiV0pVN1N6aGpqM0tiV0pEdVc1bmpYb1FUX0RVelpOUDA0d0E9PQ==
+"Haha, happy that I can make the world a bit happier, so quote away!",r/programming,Z0FBQUFBQm0yeGNYcnI0XzkzVVZxbjMtZW5pdUtObW5OaHhvVzFEYXJzWXZsNFNXQUtza2FOdGhwanZmVWYtOWpKTEJxeFY3c3U3QWhoNmw4NjYwX1JHSTl6MWJfd3BCOGc9PQ==
+So can we finally write kernel-mode drivers in JS?,r/programming,Z0FBQUFBQm0yeGNYaG94NDhlSHFjZWJ4OU1WOFRBOGRGem91VlFPTUU2Z0lSU3hUd1ZXdzB5cm9mM0VyeWJBQkVWZkQxejROQm0zZThpXzNNOGZJMGxDeWRhWklPa1RCTlE9PQ==
+"Laravel and Symfony are still widely used and I prefer them 100x over most node backends. In the end PHP is just a tool, and it has actually evolved quite well over the last few years.",r/programming,Z0FBQUFBQm0yeGNZbGgtQTBncEZMT2Jpemt6dHJEcG9GRXF0alVSV0Y2dHBkLU00TDdPWXNKcjd3YUJtc2xCUFd1WW5kbVlnbi1rNXpNazlSMzJ1SUwxUm1Qd2hRLXlUT2c9PQ==
+"Result: There are dozens of us, dozens",r/programming,Z0FBQUFBQm0yeGNZaGNqUVhPMkJJdVNHcnprUjdGYmp5ZHRoN0JfTVAxU0JhQXl1RUFwYS05aVBXWFRZUUg2UmY2Ulp4MzdSNUZfWjFEb3g2eEpSOFljWFNpWkZ4LV91YWdLUmVHazFfZnV6MjJ4ZzdvZEtDZkk9
+"Thats still not a valid point why i should pick PHP over the other alternatives. I agree node (when its vanilla javascript) can be even worse that PHP, as its easy to write really bad code.",r/programming,Z0FBQUFBQm0yeGNZeUlvZlE0NDRUVTJMYU05SmhqeDJfWWFoLTE4R3pHNXEySDBCVWdfeHNMSUdOOUlJenhuNzVjeFM5WGRDVG9ubDlNalp6VDh5bzBuWmhnczNfdWdxS2c9PQ==
+"Yes, most optimized for our precious time.
+
+Now,  why did I spend so much of it on this thread, sigh.",r/programming,Z0FBQUFBQm0yeGNZSjdwSWJ5bldFbEhiMVpWOC04MW5rMGIwTGJBMkdfWkQwcmVGNklwd19PeXVxc1lOOG1JUzV5MXktdVNhM2xjLWlvTVpQQnBSYjZvNnlyYkoyM1k4MEE9PQ==
+Awesome article!,r/programming,Z0FBQUFBQm0yeGNZRUVCV2dzcTFFVTBCclZqMmVVb2lnRkZ5SzE5bm9nT1g1NDNJejQ3ZlkwY2JpQmRvclYwd3JMbENlQmtybV9SbWJKVE1oa2NBQWdiMWY5WGNjY2pJUmxMbnpsaDJBY1JQdGVLclh0WkRUb1U9
+"Is this suggesting 95% of most distributions are C or another unsafe language, Hard doubt.",r/programming,Z0FBQUFBQm0yeGNZaFprRTY0Z0R1ZjJ2R3pYaTFIVTZSV0pWb0FxeC1KeUh3XzZvYndtNG5hVjRGWHlVUEJReFg1X0JZdE82YjloQmhsY3hUUDJLbHluWDF1akxMaXhrRXc9PQ==
+"- [Espruino](https://www.espruino.com/) is JavaScript for microcontrollers. Runs on a variety of Nordic, ST, and Espressif hardware, and maybe others.
+- [eLua](https://eluaproject.net/) is (an) embedded Lua project (there are others, such as [NodeMcu](https://www.nodemcu.com/)). It runs on several platforms, including hardware from ST, TI, NXP, and Atmel.
+- C# comes in (to my knowledge) two flavors; the older [.NET Micro Framework](https://netmf.github.io/netmf-interpreter/) that runs on ARM and Blackfin hardware, and the newer [.NET NanoFramework](https://www.nanoframework.net/) that runs on hardware from ST, SiLabs, Espressif, TI, and NXP.
+- [DeviceScript](https://microsoft.github.io/devicescript/) is TypeScript for ESP32 and RP2040 boards. It's a little newer, and from my bit of time playing with it, a little rougher around the edges, and at the same time, somewhat ""higher level"" than some of the other projects here, in that you're really supposed to be playing with ""drivers"" that are already built, and not bit-twiddling  output ports.
+- [BASIC Stamp 2](https://www.parallax.com/product/basic-stamp-2-microcontroller-module/) is a PIC running a version of BASIC. It's expensive, it's slow, it's very limited, I wouldn't recommend it.
+- Java seems a little neglected lately. [MicroEJ](https://developer.microej.com/partner-renesas-mcus-mpus) for Renesas hardware (and others such as ESP32), [pico-java](https://github.com/minirop/pico-java) for RP2040, Parallax's Javelin Stamp.
+
+Of these, my experience is deepest in .NET Micro Framework, and specifically, with devices from GHI Electronics, who used to be (at least) one of the commercial partners. They had/have real clients using NETMF for real commercial products, to the extent that for us, as hobbyists, it was a bit frustrating that they wouldn't move faster and take advantage of more capable hardware, because they had to keep things stable for their large customers.
+
+It's worth pointing out that if you want to try this stuff out, you can get (from the usual suspects) *very* inexpensive ESP32 boards (I recommend ESP32-C3 if you want to use DeviceScript or Micro Framework) that'll do the trick. Cheap, like $2-$3 per board. If you decide you *don't* like any of these, your boards will work fine with ESPHome, so they're still not useless if you're toying with Home Assistant.",r/programming,Z0FBQUFBQm0yeGNZbUluSDNjSnZ1d0ZsYUxpbl9vblUtX3RPNEJzQkxVYWJSY2RVM2pXTlFkc1NtRFB0OURYRzJOMHNSeURvYnJxckZQLW9Wa3lVaVZReVl0cUFEWjFjYVE9PQ==
+"I use Typescript and Vue mostly currently. I tend to go with whatever the community behind the main library I'm using goes with? Now that means eslint/pretty/stylelint with a lot of custom Vue rules. \\[https://vuejs.org/style-guide if anyone is curious.\\] The whole idea behind a ""style guide"" is consistency through consensus, as long as you're getting that out of it, you're good.",r/programming,Z0FBQUFBQm0yeGNZd3NkUk9TVUZQcGJPNlozeVZrZzJZSzk3SnVZWFdNdDdBd3hmZE9jT044cmxkbXJzUFJEQ2ZJWjVsSG5yWl9XVVVCNEZJemU2d1hXalhJTlR6ejc3eHc9PQ==
+"Alright so this is my first project (I've uploaded to github and not to media fire or didn't just keep it on my pc) and I want peopleto check this out and tell me if they find any issue with my program btw I know of my typo in the post Not an ""add"" idk how to change it :D",r/programming,Z0FBQUFBQm0yeGNZOGhfWlRTOWdBS0FqdXppbFo0aDZ0SGVmQ2VOWU9xTWpkdGktcG5mcmVmbFZ2N1BacFZTemI3Vy13dC02UjVIRmZrMUpqSFZNc0tueDBnMFREckJxTy16Z25tUVRZZlladmVlM05Tbk5TQnc9
+Great little teaching project. Learned some new things!,r/programming,Z0FBQUFBQm0yeGNZRGMwaVQtalFTYXZWTEQ3anJGczh6YmJNNU1WTE1PdFBuNHBXMmJ0Z1lIZi1rdDJUYlZ2emlGeGtWZld3UmNHWVBZVVgtaDRXQ3NuU0ZJc1B1alZMakE9PQ==
+Tólf í tölvunni!,r/programming,Z0FBQUFBQm0yeGNZZklfQUR3d29tY1VyUmZydE4tTXVUbElfdEpoS1dYQTNpS3lQV0E2dTJJWEpqek5jRlRKMjEzZXp2MzFyTkxwb25Bb0g0QkxqUmxlSXNnX2U1ZnBjRVE9PQ==
+"It'll be interesting to see how quickly different industries take to free-threaded python. Given how long it took us to give 2.X the boot in VFX and gamedev, I'm somewhat pessimistic — but that could change if multiple ASWF projects start targeting it early on.
+
+It's one of those situations where Autodesk or SideFX won't rush to throw it into their DCCs without seeing movement from projects like USD and rez, but those projects won't want to push towards newer python versions than whats supported by common DCCs. It'll be interesting to see who moves first.",r/programming,Z0FBQUFBQm0yeGNZTkh4N1V1ZlBEUi0tNGRLZDljbktvWXVSWkt1ank5WmRpRTNlajN3ZkJaV0JUTzJXdFdFU09PQXN5bnlZWDBrTUNqSmxFVWtzVU8yWFBDTWNpSjZ4WGc9PQ==
+"If the program only runs on Windows, that should be documented.
+
+Don't upload zipfiles to github repos. Github repos are for source code, not binary releases.
+
+If you want to release from Github, use the [releases](https://www.reddit.com/r/github/comments/1ay0a16/how_can_i_publish_my_code_as_an_executable/) feature.
+
+Use r/learnprogramming for beginner questions as it says in the sidebar rule 1.",r/programming,Z0FBQUFBQm0yeGNZZEMtZmRuUHVKYU5lQ05SYXY2R0Rtc0pxOXNYQi0xOGhyYWtBWUZNSVdjTTVSYkFlSFY3YWJmeHVUem5GQXlMMHY2UlUzVXFhTnhiUm4wVTlkb1NxbnV2MVJWaEhhUXR6d0stQUwxbE1RLW89
+I don't have a graphql api?,r/programming,Z0FBQUFBQm0yeGNZb19YVklOeV96UHFmSE9kazVaOWtrR3JxNHVoMHMzcWZhbkZrUExTWkptR2hodjRPWkozVV9lRlJuejZGblJneTVIcVhsa05uSFZUbEtmYXlCV0dRcHc9PQ==
+"alr I just sent it here so if I did anything wrong, thanks :D",r/programming,Z0FBQUFBQm0yeGNZZ2d6aDlLa0tXZzJFeEpsdmRwb2U1MlJWUGoyY1JMakw0enlKakZhTzQxdFgwak5iY3lBdkUxZE1adHIyZ0FKZ09va3Bsa3pqbTBqcWJjZ01WMTVqcmJqdFhkNmRSUlp4YmtocHlMOTZNUEE9
+"I'm not doubting you, but can you elaborate a bit?",r/programming,Z0FBQUFBQm0yeGNZX1o4NU11Vm1jUW0tSHhmQU1sX2lxNjNnNnhSU3FBcHV6bTZfX2xISVlrUlF4T2J6OENleG5VOVVqN0h4TFRWbnVxU1ZwQXc0bmsyMlp3Z3NMeXNkUFE9PQ==
+"There actually is a most-optimised sorting algorithm, but it's hypothetical since we don't know how to implement it.  
+It's quantum bogosort.  
+Basically, you shuffle the list - which is O(n) time.  
+Then test to see if it's in order - O(n log n).  
+If not, destroy the universe (the part we haven't figured out yet).  
+Then in every remaining universe, the list is sorted!",r/programming,Z0FBQUFBQm0yeGNZS3U4NzNFamdrdUJZbXMtZzRHcEFZeUItcTlBTWNtZHFpWDFMXzZRWWxUS3h1RUR6emUtWURkRjVLV1ZJWUV3RUxuUDlPOTQweGZqNHk4SGU4NnRaa3c9PQ==
+"* No available source code.
+* Asks for special administrator privileges.
+
+I'm not saying this is definitely malware, but from the outside, it's impossible to tell the difference. Anyone who installs this in its current state is a gullible idiot.",r/programming,Z0FBQUFBQm0yeGNZdnNHNk5KMzBMTnpMYmFUb01JZU90c3RDR0ZFQ0Z5WkIzQzJNYlR2cTNDWWdmVG1ZcGcyQ2FoTlBOQlhwUW5waGwxMThvcExqMDhLUlpDQ1FnX0VzUnc9PQ==
+Learning is good. We all start out doing everything wrong.,r/programming,Z0FBQUFBQm0yeGNZUXNCUkxBa3VCNmRuU3VPVEZSS1luSnBSMVdKdmtQNkVvc1diak5sZEFmcFFFV1RPMEZuZnFqQnNacTFEVTluYy1LTXlhT1I3Vmc5d2ZUM0dBUE1VbUVvbmxJbFhqX0w0VnJsWEFCdDc0MzA9
+Not sure why this was downvoted seems to me a good recommendation,r/programming,Z0FBQUFBQm0yeGNZMkhfZTdqNDZIVkVmV0xVYXlJeWU5SDZPZm5rS21jNzhhakF2WkNENUFRZzNIdWUwVUtRNFN3d3FqSmp2Z2ZQQXNDSjdUS0RhQWVfV0FPYmYxS2VzRHo5OXRHa2l6SHNEXy1SdXVKRE1TVms9
+"Interesting. 
+
+1. I would never expose unauthenticated graphQL api.
+
+2. Yes always monitor your queries, anything taking too long or producing a lot of data should be investigated. 99% cases it is a bug and your users will be happier, 1% might be something more sinister.
+
+As a sidenote, unrelated to graphQL, but related to query apis in general.
+
+Microsoft powerapp metadata api is public to all users (if I remember correctly). Salesforce on the other hand only returns metadata for objects the user has permissions to read.
+I always found that a little paranoid.",r/programming,Z0FBQUFBQm0yeGNZYmRCUi1qay1ELXFmUGJfMlBzZ1UwZ3VGRXZnSlF6MGtjT3pGbllnSzhKNEphb18yX2JtTHNDX3BoNzZUdG80dWdoU0s1dUhDaDRNR2VWWlNOX2JUZHc9PQ==
+"The problem is it’s from Microsoft. If Redis is rugpull, Microsoft {{product}} would be chainsaws at ankle level.",r/programming,Z0FBQUFBQm0yeGNZd1o4VW5iZ2RKeEgwejRzQndabXBOeVlqejZHTS14SkIzZEpGazkwTDFDckk0VXQwaTlTY2x5WnUtZU14Vk0tSFJPMzBtRlUtNktsMUpla3FrLUpFYUE9PQ==
+"Another thing to note with the comparisons to the StackOverflow survey (or [githut](https://madnight.github.io/githut/)  for that matter) is that Iceland, as a small nation, should be expected to be more of a statistical outlier in any direction. That includes both in the direction of volatility / dynamism, or legacy / stasis. So I think some graphs over time could be interesting as well, hoping the survey becomes a yearly thing!
+
+E.g. it's hard to tell if e.g. PHP was never much used in Iceland, or if they transitioned away from it. It seems to be on a downward trend in general, and it wouldn't surprise me if that just happens faster in smaller communities and job markets.",r/programming,Z0FBQUFBQm0yeGNZQktmVEt4dDRIeE5YTXZsLUszNXYydUh3N3drZVlUbkdQZXlWNXFuakVXeHVWZzZabUFPQVVZNng0V29RX2hCcEU3ZnlqZUltRTAySEJWejJQaHExNmc9PQ==
+"There's still games being made today that use Python2. I'd love to get rid of it from my system but I keep finding it. It's infuriating really, especially with projects like py2to3 existing. ",r/programming,Z0FBQUFBQm0yeGNZUjlvekM3OVdheTE3U0l0ZDEteFVCMlNIUkNlRV9hZFc2WHR2MDkyQUl1SUVpNm42XzBlUjFKYk5IN0hVbFM4T2JzVk1Ka0o1UWdrM3BIaVpJcUR4VVJmWGlxbE5DWkJpMEN1V3JMd1dHcEE9
+"People use swagger and autogenerated docs and its alright, but you mention GraphQL introspection and everyone loses their minds.
+
+Sure, kill your graphiql playground and teach people to embrace security by obscurity, then proceed to get hacked anyway",r/programming,Z0FBQUFBQm0yeGNZbzdvVVlKYVlqUVVBYXFhQ2ZVWDJrZzI1SmNDZkJyNXVqS2YxbkVOVWdJN2xEY28xU0haV29QdnFZem5zQzh5WE4zQy1VM01ab3V2U1o0LWJlM21yUUE9PQ==
+Don't give them ideas,r/programming,Z0FBQUFBQm0yeGNZY091ZGVlSl9aMmdwNVJPY2gyYUNVeC03MzFVeTRuWmlJRTlDVlNZdTh4NmQ4RFQzV0VjM1haNFVUNWd1RGxPcXlyWFlzMjdGY2c4bHJnNjBLU2tuYnc9PQ==
+"In some scenarios, specific queries require authentication while others do not. For instance, in an e-commerce app, the landing page can be accessed without logging in, but viewing the list of saved addresses requires user authentication.",r/programming,Z0FBQUFBQm0yeGNZcEtUd0JRbG1mX18welhMM0pMNXFKbjRyNTg3dUctUzBubW8zdzBzVVpiUW5FYklfU3BGdlp0VkxUUklhTzVzQW9xbjlwTHJiaWZLVGF5MUFlT3U4WHc9PQ==
+"For the unauthenticated e-commerce part i would do as static html or generated and cached on the server. For performance, seo and security reasons.",r/programming,Z0FBQUFBQm0yeGNZaXBPQVFzaUpnR0U5dlYyZDBIR0tnQ3RJSmo4M3FOVUNqbEY0dmQ0OThiNEU3UkdtZHZEUUw2TTMyVWg3RHhPWWNrZTIxbVNTVTdrbllDNlV6YVlmS1E9PQ==
+"The rugpull is a license change that is basically Redis going private, which violates its previous open source license",r/programming,Z0FBQUFBQm0yeGNZSWc3LUJYWnBQdmlUY0xlNWM1THZlbXFWWUZ4cGNIc0lzMXhHb29TUG5fRlB1dmlBbDVkdVJwaHRhRjhmUC1RZ1dQeHhlTjI4WXJnd2swUnBsVlVCNXc9PQ==
+"> rule of the challenge is to use the CPU only or as much as possible and to stay in js land so no wasm.
+
+Literally the third sentence in the article.",r/programming,Z0FBQUFBQm0yeGNZOXFqR1daeGgxT2RhRjJoTUdTSHNIeTZyMmpLa3NNaVJNQ2pldUE0bmR3Z2tJV01fdU10SzB2SVF6Wm9BQml3SDJzX3ptek9FVUQ1UW4xMGl0eDRsQnc9PQ==
+Isn't it with MIT license?,r/programming,Z0FBQUFBQm0yeGNZRXpoUE0tWlhpdk9WNnVMamhiUDJfUGFycFRCTlZUdHFISGttcDMzNUxMYlBYLWlsTEFaUmRmcFZDUzE5VHlDcnVtRVJkellYajN6MUJ5WmxHTjIySWc9PQ==
+Great read!,r/programming,Z0FBQUFBQm0yeGNZb0NZVWtsemJFUlp3QjZwQ0VKQzk5X2QwcTk3TDlEZGhzbWJDc1BvRzY1ZWNIY2doUlVzSGFzVDViVXozVnU5QlpOVEJKQmstQjk2WTM4dm1tbzY1aFBQYWJtOGNwQTNVNjd6ZS1lNFE3YW89
+"For those who would rather just read the paper (released 2023) https://arxiv.org/pdf/2309.07181
+
+Also note to OP: this really didn't need a (AI generated?) video, and you forgot to actually link the paper like your video says :(",r/programming,Z0FBQUFBQm0yeGNZSlB1NjRaVGUyd2NaeDNkbkY0bWVSeld3TnJTT2V3Mkg5LTZCb0xLTmRKekRvZUxoanFtQl9kUmdCeWRDbHRrbjIxd3RpQUJIZWdzUHlwT0UzcGp5c0E9PQ==
+"This sounds like a caching problem not Redis problem. There are several patterns you can use around caching, depending on your use cases.",r/programming,Z0FBQUFBQm0yeGNZYjdMaDhGQnJ6WGZGMUgxd0VJSHZWWERlRmZPbmZVNHItYm9EWXFlX3VZeGFveDVLUlo3MTVqN0RKUzJEX3R2WHRrWWZPZkpxcFVseS1LUlV1dTA1cnc9PQ==
+Or do you?,r/programming,Z0FBQUFBQm0yeGNZVFh1VURoel82XzBSOHdQbTBpZFNnM0xQOV9rdWdKTVdMUkRLMXVHQWpqMUxxRzB2cm5rVTRUZEExWEU5dFF1cnVMZDZTVlAtMWlfMTRGcjE3ZW16aFE9PQ==
+Most of these were surprisingly slower than I expected,r/programming,Z0FBQUFBQm0yeGNZZEdZb21hWnd5Vnp4Unl0Tjcxb0EwSFY3X1p2YTJtb2F6ZDNRd0N2TkRfS1Y1R2tfTEV5NldicV84ekRzbjZvcUl0a0RYZHJjRmY4cHd1VVRGZDYybmc9PQ==
+"uhm, well the scoring thing doesnt work, it shows wrong answer for the first one. i click 100 million and it says wrong, answer is 113.003.580",r/programming,Z0FBQUFBQm0yeGNZMDF2U0FkZ3FleWdzOXJMS3AtN3kzZS0tZDNrbXl3akRoUnpndXd0WnNxdWZqZGVSMTdZOFZoN2hvWGVJR0xzUzFwZEV2NXJ0VkhEek1qbGFPd1Rjcnc9PQ==
+"Did you read the preamble? The answers option buttons are order-of-magnitude. The answer shown after you choose is a point estimate of the actual number of iterations in a second.
+
+If I click 100,000,000 on the first I get the answer _correct_ (green) and then it shows  `Answer: 113,003,580`.",r/programming,Z0FBQUFBQm0yeGNZbGNZalJoM0RLMEJMdlpOaEZmWlZIUmhmRDUtY3dsS1drYXdCdXpERlh1ZDZCNVhXVDdGb0JiQjM0RW9pNFFYMWt3QkdtSExjakxhX1pyOVhxZkVjMkE9PQ==
+"The Python or the Rust? This is a recent Python 3 version running on a very powerful Mac Pro Max, so curious which you think should be signficantly faster than reported in the quiz!",r/programming,Z0FBQUFBQm0yeGNZbWJWbHluQU93dTlMNzY5QXNaQjdPcUtBT3hqN0JobHFubUtWZVBfT05YWl9fUXdKRGdydnpVS0x3YzJXWGFrQjgzb21xQ3NtUGFubDNkc2dkQmRObkE9PQ==
+"i get red https://i.imgur.com/ZOoTAQ1.png and further down i get this abomination https://i.imgur.com/hDNKT2r.png
+
+im on a german computer, so perhaps the writer of the site does not know that we use comma as a decimal seperator and not dot and that fucks with the math somehow. also am on firefox but i dont think that should make a difference",r/programming,Z0FBQUFBQm0yeGNZQi1HemxUb3h4ajdvbzRCWXdrMkxnTDhTZ3E3NGNxcFRpaDF0MU9pQ05pbGN0MDMtR0R0STI2OG1pdm9KYlJsYy1Ma09rWENNcTlhQXNncGQ1UFh5U2c9PQ==
+This is valid.,r/programming,Z0FBQUFBQm0yeGNZSFZxTFdKeW9GVGd0dVRZUkNzQVU0WF9YU0RfanluOXF1WWd3RVE1SjFlaGg0OXFURzJtQm82dDRpaG41T2tIRC10ZVRSeDdqdFA1QWlfbDdKeXNsTWc9PQ==
+"Text posts are not allowed. Note that r/programming is not a support forum, see the side bar for details.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/programming) if you have any questions or concerns.*",r/programming,Z0FBQUFBQm0yeGNZcmRobENUQzdRazdtTGx4TEp2MzAxT3dVRE5qVmRLbEdTWmpJVjBoYWZqNnZZNk53aS1kd0t6emR4MXJpSG1qc2NJWTdTT2pzbEZRNmo5cmpMQ3I0U1E9PQ==
+"Free open source turns to paid. While generally, its not negative thing per se, but this case is something different.
+
+https://www.gomomento.com/blog/rip-redis-how-garantia-data-pulled-off-the-biggest-heist-in-open-source-history/
+
+https://youtu.be/o4QEwAqV0BQ",r/programming,Z0FBQUFBQm0yeGNZZnFiMnEzamVCVGR6aVRnNGdWT2pXWDdaVldUd2ZRRjBCMUlqdlZKS0FzVGFBWTM1NGd0ODRYWkhDbEJnamc0cWVSSUZaZXdfSlNqNEtVOGkyU1Nqc2c9PQ==
+"I got most of them wrong, am I a bad computer scientist?",r/programming,Z0FBQUFBQm0yeGNZMUQtMTFXeTh2T2VGOHJ0VmJad05udk5nMUk5S1dyVlQ1ZEFiMUJzcF90a0pYWHlweGdQeW9NOHJRSXlMRGU3VklTT1B0X1IyR0Y4T0t1NHlEWkgyd2c9PQ==
+"Not at all! But I'd recommend going through the napkin math resource I link at the end. You can get basically all of the questions right by linking what's in the source code to the right 'latency number' in the napkin math repo. 
+
+For example, with the first Python question, you can break it down like this:
+
+* This is the simplest `for` loop possible. In Assembly code this loop would be only a few instructions.
+* A modern CPU can execute around 3 billion instructions per second. (Actually more because of instruction pipelining, but we don't need that detail here)
+    * This is the 'napkin math number' you need
+* Python is an interpreted language so the actual assembly for this Python `for` loop would be _a lot_ more than a few instructions.
+* Let's say that Python is at least 10x slower than a compiled language because of the interpreter VM overhead. (The overhead will be a lot higher actually in cases where the code is not as simple as this)
+* So that means 300 million loops per second not 3 billion.
+* The answer is 113 million, so we're close enough to get the question correct :D",r/programming,Z0FBQUFBQm0yeGNZTXczak1ySWR5X19mckRXbnhGUXFLZkVDN21OMXRhY3plNHFTWE9BNTVpYllPNGMtUzJrLTM2UGtxR3hvNUpNOWg4OU1WOTctWnIxLTRDanZPV0JVR3c9PQ==
+what did you learn ?,r/programming,Z0FBQUFBQm0yeGNZVTlIUlYwS3U3RFd2bVZuWFBVZkZjZ3FmbUdfU051X0dsUERtYVdzMmI4cjYzWFByemtmcVhqRWRFcy1GbjBab0FBUFhXZ2czUUpDN3NCX2R4VllVT1I1enZLUjJlOEw3bm80OFFRNFBuWHM9
+"Let’s put it that way: mold in a flat would be a health risk, whether the creator could sue you for making penicillin out of it or not",r/programming,Z0FBQUFBQm0yeGNZWnJSaWdNNmNWbTBFRGZkTDRYZWJ1WXZFSHNmbzJ6Z0ZFaXg2ZFJWcGFhVThoNTV6TllNV0JqM0ZjTUJDY1ZKRzhHZUFNMTVwLTYyWFRncURYWktDekE9PQ==
+"Oh damn! Yeh it'd be some JS function that's mis-formatting. 
+
+I bet I can test and fix this by switching a setting in the browser.",r/programming,Z0FBQUFBQm0yeGNZRzgyU04tR1psUXNuN3dUcmxfQjFybWdsZ2FJbnYtbG5OT19RRHNjaTlOSDQtbEsyd2VzaENJR2M1aHp1VFlVNFd0NDRFd0ZBUHl6VHZkTGp5TFhONGc9PQ==
+"thanks for your honest feedback, and I'm sorry you had to Google the paper yourself; that's my fault. In the early days of new channels, it's hard to include links in the description due to spam and abuse issues. I've now added the link in the comments.
+
+This is not an AI-generated video; only the sound is. I know I can deliver good content, but it was so out of my comfort zone to start, so I began with text-to-speech (TTS).",r/programming,Z0FBQUFBQm0yeGNZZENGNVNYTzR6d1N0RHM4YjB1a0lyeFRTY3RkMG5PM3U3Wm9CeXRHaW1kR1R1Wm4wRnF5M0g0YzFaY3d5NHMyU05NcGZJNW5Zbk43alc5RllLQ3hGd0UxblZXVVVGYmRIUzFqZGtrZWUyMm89
+One trick that hackers hate.,r/programming,Z0FBQUFBQm0yeGNZZUpyb1VpSWZHNzVPVHU0XzFZa09IQ21NLVZDbXVoSDRfUEVEWGFGbVNzQjVQcDhjclptd2EwM29vcUJPT1U0ckxBYjN0ZWRlWERycW5xN1ZTYXczWVE9PQ==
+"Doesn’t seem like this kind of thing would be IO bound, so promises only add overhead.",r/programming,Z0FBQUFBQm0yeGNZWDBZVWE4M3dHWWFkM0t3YkpWRUpnRDRoZjJ0amN6akpzZUw1SWhRaldwWWR5WXJHclVuTkFuLWtyS0xaSkQ2ZHhIRzd2Wk1WOTVhWkctbG1GUDZ6dVE9PQ==
+"The download web page one, wouldn't that heavily depend on your ping? I'd imagine even wifi vs ethernet might impact that, depending on the quality.",r/programming,Z0FBQUFBQm0yeGNZbVJqTWZPQkpYUlpRa1hGMXZrM200SnRNdF9oOHRoMGlqQmNnZmE2WmdWdV96elRUNUJhXzU1dEJfSUZLNTVzSmNaQ3N2T3AtT29hLXlJRlphbmNGMFE9PQ==
+Pushed a fix that fixes by forcing comma-based number formatting (en-GB). Thanks for following up with the screenshots 🙏,r/programming,Z0FBQUFBQm0yeGNZR2JwSXNfeWdING95eGN0STg4STJiS2lEWVAxSWhhcnp6WDBVZ19CZzR4cGNfbFN1YzBMTUZWa2FCUDNqdS1ZYXRjNDRTbXdHdm1fRWM4eTJLREtJSXc9PQ==
+"Do you think it would be enough to affect the outcome by 10x? Google has globally distributed servers so you shouldn't hit a situation where your ping is >100ms. 
+
+What _would_ affect the outcome by 10x is not doing DNS resolution and creating a new TLS connection for every request.",r/programming,Z0FBQUFBQm0yeGNZRXp6dTU3bHJyX1hhRzVQc2xJNk5qdkxsNXFCZ254dGVVRFNmUVNsRmFmMGhZa3JEMVo5WGt1aXFES0hnMmxrZDlHaU13MUdfTzlpamxRenVoYlpTTVE9PQ==
+"assuming you don't want to do any personalization based on information from the browser string, like language, locale, browser type, etc.  Sure, you can generate thousands of pages for each combination, but then you lose the whole reason to do so in the first place",r/programming,Z0FBQUFBQm0yeGNZVGdmZ1BJanVMbmJOQ3RkZTl3ZGdwVVVNMnFLZy0tSS1PODJGWmdBMzN4dWwya1hMRnIwWHg2cHptVWw0ZW1fcTlGZjJuY0l3dnk3ekJJdXlicUpLOUE9PQ==
+This was fun! thank you!,r/programming,Z0FBQUFBQm0yeGNZMEJiekRFNHFMdzZ4NjJFcExhWGdfYnV6QWM2TUo0Z0VqMVVTbURMdGlBNXNzSEpGT25XZko3bWVoemo0Ulh5dUloVnQtdUFVMHM0MUVFalp2RzlRZVE9PQ==
+"Is there recent precedent for MS doing this, or is this bog standard r/programming not knowing what it's talking about again?
+
+Reminder that vs code is MIT.",r/programming,Z0FBQUFBQm0yeGNZaFpfeDNWTHp5b0pGMGU4QU5JcWVXMjFHSWFSakNSdmdEcWxQR3ZyVXZvTDlWYXk5VGFiMGd2SjlxdnZtQ18tdWRZVS1oN2pTNmtiU3BCeTlDVE9yeFE9PQ==
+I mean whether you have a ping of 8 ms or a ping or 40 ms would have a 5 times difference since the actual file size is probably inconsequential. The current result in the quizz is exactly at the threshold so it can probably easily be the next higher category.,r/programming,Z0FBQUFBQm0yeGNZNlZhVkZlX3dENG56eElkRE9IRXk0LS1YMGs1QW1ySWEyVVYtX0Q2cHNuZWNMd1pBeVFlOUpSenB4bFZCeERyQUdmQmpNd0NocmZVTjVBUEt5N1R1TEE9PQ==
+Redis does have pubsub out of the box which you can use to invalidate local caches. As well as streams.,r/programming,Z0FBQUFBQm0yeGNZOUU5YTFkSWlhR1EzaU1qUl9GYmpIZEp2UEJiVmVmSE1ZYjRWcUVHcjBCS2wzdjlWbjFpeGRRVWtpMlZzX0xYTkR5RnZtZFhJZ3Nkc0ZjbzFtdDJBLXc9PQ==
+"gcc: hello.c: 27 errors, 34 warnings",r/programming,Z0FBQUFBQm0yeGNZeExxcXVhV1FELUJYak1uSi1wXzIxWTR5b2d1Q0VuV1VTblVBZlFfYjVVSU9rREQyXzV6SkJqeS01LXlvRE5MUFIzN1ctOGh5UWt4d0ppdmxnRXg0dFE9PQ==
+"that’s awesome, thanks a lot for the detailed response!",r/programming,Z0FBQUFBQm0yeGNZTndqZ2REenprM0ZOUVlIdml0SW5ET0hUUldzUHFEaHh2TDhPbU5GbS1fRjl6NkZJQjBsdngzdXJucElmRVphQTJrNkg1VHhqLUwwWlJtbGpXSFFjenc9PQ==
+"Common there aren’t that many combinations, for a normal shop. Still the part of generating on the server and caching still applies. For language, locale and responsive web you can still do static html.
+
+Anyway what I’m saying is that exposing a general purpose open api ( like for example graphQL) to the public is a bad idea m. Maybe your particular app needs it, but thats a 1 in a million.",r/programming,Z0FBQUFBQm0yeGNZSlcxN05QRlpXN3RmcXBpOUxfSnVJTDd1em5IaGV2YzZvSHJ0Q0hiNUxfcXdsYlR5SHZEU2hadmRfSG82akh2VUo3Z2tLMlo5d2xiWEtMcVJxa01tNGc9PQ==
+"Well, they don’t lock the door. It’s free data.",r/programming,Z0FBQUFBQm0yeGNZMjlmMC1WMlNjWHpJOFMyVFZTajR2WGxxN3VuTHdzWF9vRGIzbUdIZWVYVWI2cjc0bHdHVVhHcldoQlFPblplVm9FZGxJdnFhM3FhYnBjWDVJek1NUUE9PQ==
+No worries at all :) I was planning on writing those breakdowns for each question but it was too time consuming and I just wanted to get something other there.,r/programming,Z0FBQUFBQm0yeGNZQWc1RFZZdWhYTGdLZDVzYll6T1ExMFJDTTcwZGRVcDd3dEE4SXg1X1E0UzBwWUpXV1VmQnR2bkN5SGJxVG00a0VyZ0REcmRISUhjSVlzYWFNS19pRXc9PQ==
+"That Rust write to file speed is impressive. If my math is right, that is about the speed limit of the fastest m2 nvme ssd.",r/programming,Z0FBQUFBQm0yeGNZZkhlUU1aeV93cUdjT1lUUkZlc0s4QlQ3T09qSVQ2VTA1RDRYY2RBRHZRbXpVcDh1WGxEY1hySkowaWhmWV9IcFdqX0ZRZ2ZkUWM1MU9OUF8tNmJYOFE9PQ==
+That’s what makes this so diabolical,r/programming,Z0FBQUFBQm0yeGNZcXFSTHNkOVFjUHdVY1JVQlNpVnlrai01N01yZXlxaXFmdUhzdFVfTmx2RTdMZ2VGSXd1VkFyX29YaEE1YzRzR2lOWVFlZDNTZGZrVXNuZktsYlRsNVE9PQ==
+Oh fair if you're ping is as low as 8ms then that's a enough to jump a category. My `ping google.com` in NYC is 20-25ms right now.,r/programming,Z0FBQUFBQm0yeGNZY0EwcWswRENCd01iLU5QZi1taUhkbmJhNTZtM2lmUFJwWGxsX0xoWkRYYkRvdnZfVUF0czg1S3BGVXhWdk56RTdfNEhZNHBKcTVJMlRGNEVjVlExSHc9PQ==
+I'm still seeing the same issues currently (German locale).,r/programming,Z0FBQUFBQm0yeGNZOFVLSFY5N0RSQU12REhDX1ZncnU3WTBBYlB0ZTRVMXVtVmp5N1VBZUlXX0daNms5eGI0c0M4Q3ZVYW5zd2owRG83aHFFVDVaRi1hdWM4Wm9PaldUZUE9PQ==
+Persisted queries,r/programming,Z0FBQUFBQm0yeGNZVDFkUVR2UExjN3FDdFA0YnQ2WWNaS1IzMUQtLWhQZTk1MTZEQ3FiNzU0ckxjYUxiaUpQektyR3hzWTlCa3dtS3VSUGVDWW5LWkNPQ0JHX0xLSW84T3c9PQ==
+"I got anything between 9 and 44 over a minute.
+
+Edit: that is via WiFi on my phone. I'd estimate my lan might have a more stable 8 ms",r/programming,Z0FBQUFBQm0yeGNZRWl0SnltUGFMUDlYS2JnaTZ3Qk5ydHE3ZFBuTVNtZVZtbDRrVFNyeDk5YnFOZmhtcmtTcDRVd2l1dmdTTDdTWWJlMjJfcDZTcm9lNVBmMWtTOWNjMUE9PQ==
+Redis was on a perfectly acceptable license until this year too…,r/programming,Z0FBQUFBQm0yeGNZR2VzdWFsQXRVVlpRQ2NXNnJMQVVPQ3k3Ykc0OWtfVlFreTVaakxjZFpEWVgxS3ZZSWxUdmdqSS1rdXhaRThVZlJuSHNzMDlUaUt3M3BYRmdCd3ViWFE9PQ==
+seems to be no difference for me,r/programming,Z0FBQUFBQm0yeGNZTmZOWEVhT2QxQmVtVVNlc0ZrdkpvYlpJOGxfY2gxRkpBWGxoS0dNRTYwM0tJQ3ZvUjc3TEh0YTY0NmdOaDhHTEdnMl9HTEx2VFB4M2lJSllMbnRoN1E9PQ==
+"Is that first loop seriously executed? Any self-respecting compiler should optimize that loop away, so the answer is infinity.",r/programming,Z0FBQUFBQm0yeGNZaXFqdllrZk9hdnVqTXJHUXNXNlNsaVBwd2lrTzJkTEtpTkJ4Q2VyTVFlb2RMR2lIRTNIcTd4NUlWSWJxNENLb2NSa1VKSWJJX2NqVEQtQlFienBRelE9PQ==
+I think ThreeJS and instancing meshes to take advantage of GPU threading might be your best bet,r/programming,Z0FBQUFBQm0yeGNZYWpNTUFoN0k3Q0VPSW1iWVo2ZU1Hd09RZDlOdmYzRllQQzdpY01sbUZVUEFSUUNGLXViMEx2RWJUWkZKV1pQeDAzSElRbHV0V3NkX19IZ3JuemtWd2c9PQ==
+"Python uses an interpreted VM and doesn't optimize it away. Using the `dis` stdlib library will show the bytecode executed. 
+
+Rust's compiler of course does really want to optimize it away, so you see the `black_box` tool being used to force the compiler to play ball :)",r/programming,Z0FBQUFBQm0yeGNZekNVem9WMnVVRmY2bHB3cHVIcEhvSVhJOGpTMUp1QXFXOHVDaHl5bldkUThLd3k2NE5aUVJ0WU9oOTdzc2xVMFA5d0JJOXJnbXJseFdIazdWWHJJdWc9PQ==
+Optimise it to what? If you remove the loop you change the behaviour of the program. You also probably can't change it to a sleep because maybe the programmer wanted the process to stay alive,r/programming,Z0FBQUFBQm0yeGNZUXZSV2x2YlNMeUNJNmFkUHVBOTlJVmpSMFoxSUJ4LWVfT3ZTZ3hROHd6Vl8zcGZjX2J5Smt0eXkxVUFoR0VCYTV0XzR6ZWVmaElidFV5YzJMNE5hQWc9PQ==
+"Hmm you seem to have uploaded a zip file. That's not necessary since GitHub zips files before you download it. You can just add the source code as is, this way no one can check out the projects because the code is not visible. ;) maybe update the repository and I'd gladly check it out ^^",r/programming,Z0FBQUFBQm0yeGNZX0pscFBFblV0NGdQT1lFbzVMSEZJU0RBZHZvUDZST0Q5QTQ1X0FzQ3poblVfVGNxODUyZkpXOEdTNzN3aXZWV2kzNno2R3Fnd2RrUGlKQmtad2tzM2c9PQ==
+Redirect to a site that instructs users to paste and execute scripts in PowerShell? Really?,r/programming,Z0FBQUFBQm0yeGNZRVUtOXNoVXdLWGRWVWc3dEZTYW1CdjhLYTJ1LXBiZTB4UDBlTEUwTHF5elh0U2V3WUdtcjhZWE8zWUV1R2NNZ1RsZmdaSTRLQkNkUUQ3cmVLcVFjelE9PQ==
+"It's an empty loop. By the definition of the language nothing changes if you remove that loop. Input & output are exactly the same. Pre and post-condition. 
+
+Process staying alive? The concept of process does not appear in the definition of the language.",r/programming,Z0FBQUFBQm0yeGNZSWIzSmY3eDJxYmpxcW13UHV2NXJnc1NOZHlqRV93R3hURG5OMXpPcWhfMHI4RHllVGZncGctaHU0ZnBtYVBHdFRBTHdhcEx6M0ZNZzBlRUlydVMzTXc9PQ==
+">paranoid.
+
+If there is no graphical way presented by the provider to see the metadata in question, then it should be considered authenticated data, regardless of the method of access.
+
+This isn't anything new for a REST API; what makes it any different for GraphQL other than it seems like most GQL people get upset there might be something they don't have access to even knowing exist?",r/programming,Z0FBQUFBQm0yeGNZX2hjSTdCSDFIb1pnQkdneUpwczRaS3lWQzVUSFhJSFBma0hSbXY0dnVKVm12OTZjc2d3REdKSk1pOGdVeFVjS1dWd1hhSjRFb3JFeEdCeENGNXV4UXc9PQ==
+// TODO: FIXME,r/programming,Z0FBQUFBQm0yeGNZam0xU2hXbWEyMDVxUEpPVUEtSU55YzdJb3pRVXZ5Z1Q1SFREajF4eFE2dFRNVTJaOWwxNGk5MnBjS1o3X1NwSEJUcmo5ZEt2WHhmOTd6WWFmeEVHSkE9PQ==
+"> Microsoft powerapp metadata api is public to all users (if I remember correctly). 
+
+Can confirm that this is accurate. Plugin assemblies are also accessible at the very least to anyone with offline permissions (which makes sense since they need to be loaded onto the user's device). So a user could theoretically download the dll and decompile it to learn business processes so you might need to be careful what you put there depending. I've never had a customer take a major issue in my years on consulting on the product.",r/programming,Z0FBQUFBQm0yeGNZVnYySlpoRTVsMy01VFQ4OGI3cWdsRS1NM3c1bnRUemI3bXRMbHppZ1NWdTlQMDdIN09IUVVVSFhISHFKM09GWkhDX0NDMzVGOThNVFlzV3Jwel9Dbnc9PQ==
+things!,r/programming,Z0FBQUFBQm0yeGNZbEdRR1JPQ3N6RXVWbVF6Q2sxMWhhUndha01zQmdSRUk4YjFhV1FNYm9GUnU3cGNQa3R3Z0ZQRXRxaTJGRDdEWmdkRHBJSFNlc3dwZ19YU2hIVTM1ZEE9PQ==
+The python one is pretty much predicated on knowing how terribly slow a `for _ in range(n)` is. Which most python programmers know ofc. but I think one of the questions is bound by using such a loop.,r/programming,Z0FBQUFBQm0yeGNZVTQ1SWE3RC1tRFBHSXVoVWZWUGxxS2Rmd2pHYzVLOXJLVHMwLWVhQUcyV3JrdDRBR3hKd1pTMGo0bTg1TmR0NmkyRmE1b2V5V1NpckpGRnBPRHNTZXc9PQ==
+"There's no reason to tell a user about data they can't access, that's not paranoia.",r/programming,Z0FBQUFBQm0yeGNZQlpQdTZXRE5PNjhmM2h3aEd1eWF3SEtFa3dfSFFtSm5DY2VxeGtSWVpQQzdVSWMweHI1bTdEQXQ2R3pYa2Q2VkxqMXRLV2pBVG0wZDFpOFdXcmxaRVE9PQ==
+"Good idea, I've made some updates.",r/programming,Z0FBQUFBQm0yeGNZMXVIUVZVT0RidTl4WnNjWDZPS0h2T0pkd0tkSkNmNmNFdzQxUGFWekgzaXVwN3JLRlgzUFk1ajZOYUZHNU04LU92cng1VjBOY2dHd3lBNzRSYjl4aEE9PQ==
+The web request was much slower than I expected,r/programming,Z0FBQUFBQm0yeGNZUUl4RXJBWDBadVdaaVZNTk1ac213MGpkWVFVUm9SNUdrUTMyVi1WNzJMZWdWNFR1a29haGZHNmF6ZUJhcmI0T1dKWTJZbHRaUEFQNmVmUjVJQ2tEb0E9PQ==
+"Sorry, I forgot to mention I was talking about python. Like why would simple loop would be so slow.",r/programming,Z0FBQUFBQm0yeGNZdTU2bXdtWmFEbVdiRXRLWFlvWUFMUTliNjdHZFYybVJaNW1HNk9pRjAxZWE3UHJ2Uk9DTTZGWGh4R3hCYnJoLVRmRERBX0N3YWhzR281dVIwbDFJZ0E9PQ==
+Are you asking us? We don't know.,r/programming,Z0FBQUFBQm0yeGNZS3BZTHBYa0dFclZYM3hKLUxScHgtTmlaN1lhRll3bG9vTDVtZDFfUjR5LTl2S2IwaWtkemwxcEJ3aWlOYWcwa3RZN0pKUzVwenFFVU5ZQXpBOEZ3YXc9PQ==
+"I've developed a web app that enables remote uploading of .stl files to 3D printers lacking internet connectivity. 
+
+the project is ""old"" and  incomplete, but you can access the panel to upload .stl files remotely from your PC or smartphone.
+
+In my GitHub repository, you'll find all the steps needed to correctly configure the project.",r/programming,Z0FBQUFBQm0yeGNZVTBCNjk1bzVleDlieEpnUU12TXIzYWs2OExZSG5DSUdYYlRtTHZubzJQaHJvMDFGMGxVR19EdDFnQUg4SnlhaHBjc1B1N3dWSlY1bWlFZUZJZXhxZ0E9PQ==
+At that point might as well have a REST API.,r/programming,Z0FBQUFBQm0yeGNZV2NEaW9NVUhPaXRqaXFrajUyRjlUdy13Q3FPMGJxYzZwV0xFYWRuS0lIVFRLQzRmT1lwVDd0US1wSXpXR1Q4Rm9Qcmg0blM3NjJxM3ZWNWxYaUVGSlE9PQ==
+It's more likely than you think.,r/programming,Z0FBQUFBQm0yeGNZV1lHU1QxU25tR042aFJ6aFo2bXpaWnR4aGxuc29oangxZnUyZEhZZE83YzlaQXYxUk5hdGRBeG5zN1kxaUJqMmk0eFZ3QW9fVnZWcTZfY2tvdkgyaHc9PQ==
+Are you reading a different thread? That’s exactly what every comment here says. Even the ones that name an algorithm are either joking or demonstrating how dumb a question it is,r/programming,Z0FBQUFBQm0yeGNZakNKWlRMb0taLTgzYWo3aGFVek9oUU9WWjBmTks2Tl9fdU80V0hBTkJSdWdHR19HdDUyczBHdEwyNXo3Z0lGOEtZVi02a1U2XzJadFpOQUJMemdxbEE9PQ==
+Your posting was removed for being off topic for the /r/programming community.,r/programming,Z0FBQUFBQm0yeGNZZTVSWjd5blg2azZNNFlHcGNQX0J2UFN4czN0ZF9jSmRRNEh6eE9TdUt2ajlnTHFRM2E4UjhLUVhRcXhyeGg3Q05MSHZ0aDd0dUQ0MExfN2lFZmQ2Y3N3UnUxZDBJZ2NFN19NcVRqQ0VVdXc9
+Your posting was removed for being off topic for the /r/programming community.,r/programming,Z0FBQUFBQm0yeGNZVmxyb0xsMTF2WEJob0M0dzJfaWVET2xEZzlYYWtKY0VQRl9lemVqRTJEVFZjMjhWVTJ4LXZGajZDUzU4ZmV4Zlc1NnlMcHpzcFRBLWZsY1htaW1nMjU1bDhHNF9FelNLYTl6R2N4QnhUMk09
+"10/12
+
+I am computer.",r/programming,Z0FBQUFBQm0yeGNZWkxTZUtpV1dNTUExZ3pBNjEzYzY5cmw2aENOcTIzNW9rSGZCWUFhNFhNbzVibTc5SUpXQU5YRDlPWHJKc2xyS2xER3pPMEdIQWhtamZIZi10dFJFSEE9PQ==
+"Hard disagree. This is a super common need and is a particular weakness of graphql. 
+
+For example, any e-commerce website-- let's take Etsy for example. It's a product requirement that users can browse the shops without being logged in. So they need to have access to basically all inventory and pricing unauthenticated. 
+
+This sort of setup tends to force graphql to put authentication around every _field_ as the front end client largely controls the access patterns and the shape/amount of data coming back from the backend. Super painful and easy to screw up.",r/programming,Z0FBQUFBQm0yeGNZR2tqYzE5MFI4eDF2MVczeXFTN0hRQXA0S2haOUdzcjdubjdFeHQ0WDlxMkdSSTZkSmF0aHA0d1Qzc01Nak9WeFEzd1MxdWk2aGZxSUNMSFdfNm5YSEE9PQ==
+Does sha256 in rust not use hardware acceleration on m2? [Phoronix](https://www.phoronix.com/review/apple-m2-zen4-mobile/6) says it gets ~8GB/s under linux. The MacOs number should be in this ballpark.,r/programming,Z0FBQUFBQm0yeGNZWHlMcnFiVlJxOG9QQTJPb2kxQ2twdFNWWWlseG84dGxCN0ktX2ZlRnJOUl9ycWY4cF9HNVUwSUhoQ0YxWHlZSUdTbmJOOVhzSnlJNUkwLWVfcmI1dUE9PQ==
+For education theres [Microsoft SmallBasic](https://smallbasic-publicwebsite.azurewebsites.net/),r/programming,Z0FBQUFBQm0yeGNZZ3FIRGVPYTZTeWJzS1M4WVIzaDA5T09RQk5majd0T2JWU3Q4Tnc3ekkwb01ndUxyU1I3empjcndKTG0wTjR4U0prOVJHbWRyU1Ftby1JdWN3bm1MeHc9PQ==
+Currently still using Redit but would probably just wrap the Redis API and use my existing  Postgres infra.,r/programming,Z0FBQUFBQm0yeGNZeW11WHB0WE1vYy1GVjFBQlVGbVlSZ2Y2R3NZdTdSNmdaejFMWnE5V1VVSDc0dDdtYTRKajc3UzdSaFVhR0U1NnNzR2JfcDVQRjRRTkhlMmhKUFU1Q1E9PQ==
+"I understand what you mean, but I have never found a shop that queried their db from js front end. At the very least that would make it trivial for anyone to download your catalog:D so yes you need powerful filters, also powerful limits, validation and sanitization. Are you saying graphQL has that built in?",r/programming,Z0FBQUFBQm0yeGNZeGo3bzU5bTlxN0FNSjQwSHlib0tsbjJNNVZMZ0JlekZCQ1N4MlNFOEJIZnJOVEgteGFuVGNsYjQ3dzJEUDY2Wm5vZ2p6QTVTTjJCSjFUanl2QXRGbnc9PQ==
+"In truth, they relied on only the most basic of culling. 
+
+How on earth does any developer release such poor code when there are years of 'perfected algorithms' and 'best practices' openly available on the internet. There is NO excuse !!!",r/programming,Z0FBQUFBQm0yeGNZQzNNM1NWRzVNS25hYXVLRHRwa0RJMjY2a1NkVElPOXNKcDZEUWpyRUlFclo4dFNFbTk5VlVmNzRyQWJmeHIycE5FWVlYblRqNzEwRnJhT1RaMzlNZ0E9PQ==
+Finally some good programming articles. Good shit,r/programming,Z0FBQUFBQm0yeGNZYzgxNFV4aEp0SjB1dE0xRUdUWlRMaUx2MkN0NU05ZjBhbDNUbXJBWnkxR1Nzbno4Q2FpM3ZDdGVJSFJicU9pRE8tVm9CeEh5ZmdTRjF4allrcGt4c1E9PQ==
+"Unlikely, but I could have read over it too quickly. I saw multiple people mentioning specific algorithms without any additional info on how the question was flawed.",r/programming,Z0FBQUFBQm0yeGNZdkhyWkRlZEpULWU0RG9QY0RCN0I2Smd3bUxhUGNrc1JsQ3hXcUR2SUd1SUttX2cwU3JJLW5jRXd2YUtoN3NkSU1qc2Z1UE1XdDNBd3V0YUM5WjNIVmc9PQ==
+"Microsoft has other revenue streams, and explicitly built it to be an alternative to Redis.
+
+
+Does Microsoft has a history of changing licensing for existing products or frameworks? ",r/programming,Z0FBQUFBQm0yeGNZTEFGbU8wdXpyWG9mRWkzaTNRcUM4bDJCbTJrU1RCU25SYVhzZTJFclcwanRPenNKdE90b29jTXFQQWdXNDZDa2Z4eHY5YTJQaURaX0NCMkdobE93Nnc9PQ==
+Doesn't work on mobile fyi,r/programming,Z0FBQUFBQm0yeGNZM05DcnBNY3BNVEd5RTdka25lYVpQWlo0V1VtX2VZdVRWMmlHX3NYZVhPb2l2TTZxR1pKQVVwSFBQR1BaSFRqRzJDQmRTMDZTc3BZOHFfeUg3emc2YUE9PQ==
+"new things!
+
+I was an English major with zero formal programming training- so nothing is obvious to me. I love well-written small projects like these and it gets bonus points for humor.",r/programming,Z0FBQUFBQm0yeGNZRTREMFJ6YnhOUGY0VTN1cXBORWphXzd2ZjFobjgwbjF3djFaU3JJZ2lrbXhKX3NEeU43cWgyRjBvZEFURFNXcUhaRHFBYWNnQ2xFMTBCSjIxRDlqNnc9PQ==
+Thanks for letting me know. This tool is designed for desktop use only.,r/programming,Z0FBQUFBQm0yeGNZNDR4eG9wSW9yTUZCcUdZQmRpbzAyY2dsV2pxZ0ZUQUtXV3lkVnl4RFdMNDJ5NmRPTjI1NDkzZ2lYY05aVTlTNWZIeUt0TU5Ja0hHcTFGbHdtR3lCRXc9PQ==
+It mainly solves the problem of payload size. Yet another thing people misuse in their rush to embrace security by obscurity,r/programming,Z0FBQUFBQm0yeGNZNUQzc0QySEl6UjNEMUJjbVhuU0lPb09PME1ib09lNHFvSVg5SXZSU3QxWVdHNWdQWFFKRTFQWkg2emJiWmpmUnRORHhsakZERWJabldFNDhEQXowRHc9PQ==
+That was a solid read.  Cheers.,r/programming,Z0FBQUFBQm0yeGNZUTVGelJCblp4RzV1SVdyNVNZbjRlWU16WHlJMHI5YTlrcGZUR0hQRmduX2xWSng2eG9jTl9nLV9VSVMzTnpMVjRJWDRFMmFDRjVZckc1ek45bWVLeWc9PQ==
+Have you never searched for something on a shop? That's most certainly a DB request.,r/programming,Z0FBQUFBQm0yeGNZeDEzQXpxdFVNZWhhWDJhWmI5Mnh0aDQ1am1NSThaa1RoVnBCczZCc3hCMFNxWTdXZ1lvOWZreEZKV2dTNC1IdFpIYTVjclhLaWVIcUNsdlRmMnB1UGc9PQ==
+"There's also a method to block all queries, except the ones that are already verified. I wouldn't recommend using it because it goes against everything I like about graphql.",r/programming,Z0FBQUFBQm0yeGNZQjgtOURPcGk5bUYxdjVUWFNJaTFvT091SXZZSDMwSzJFOFFJUGQ3ZkNCUEYxV0V1dWdDcUpWNE1xeHY4YVBfZm4ycjBRQzUxN0hzSHlkaUtlRVBVcHc9PQ==
+"Ok, not sure how hard it would be to put the ""render"" pane underneath on mobile instead of side by side, and have the project list on the left be a hamburger menu",r/programming,Z0FBQUFBQm0yeGNZTDlwY19WcWJxaUlySFNZU1pGaVBKNjhTajRDYWJLdXVMSkNYMlpZVGwtTEltWWpsZmJRbERlUlJEa1hOUGNXRFR0TkhfbE1pRTUxWjlLcGg0NGRjaFE9PQ==
+"Certainly, unless that search/filter is common and is cached. What I am saying is, that the search/filter will have a special api or will be just rest params with a *lot* of limits and validation. It wont be graphQL",r/programming,Z0FBQUFBQm0yeGNZczVjR2RKMG1yZ2syVEt6Wjd3VkcwbDMxV28tSjZEZVo2Zjkwd2VXamk3ejYwM0xJOTVIbllJVWtZNUY0ZmdBX3JtWTN2Ny1KNlVISVh0MEFSclZnRUE9PQ==
+"This quiz feels less like ""computers are fast"" and more like ""Python is slow"".",r/programming,Z0FBQUFBQm0yeGNZY0lNT3R4WVBqXzB2MlJsVVNlOE56QzVlZzdDS3dBZUNkWGlNR21xd0FfcXZ6UnJpOFJITWNBVzVoQjVoZ3J0Q1NWdDhmQ0lOdTlMcXJxZmtwclB4WXc9PQ==
+"I will add the features you suggested next weekend. Indeed, there is a need to view JSON on mobile devices as well.",r/programming,Z0FBQUFBQm0yeGNZdTY0bThXc3VWWm5fWHN2LXFlaWVaaGRNRFNMVlhTWlV6UUdVWHNYOEF1WC0yS2NSMjBEbXY0aE1PMWJPc1VtZ0RWTl82TUNVTU1IOG4yT0lzNk1LNGc9PQ==
+"I don't see that it has many GUI features. Yes, one can still learn about computer drawing and art, but I miss the instant GUI nature of VB6.",r/programming,Z0FBQUFBQm0yeGNZSHk2ZDh5azFuaDJPdllkQm9ZWFJKQjMtbFkxdW1oak9WYWJLMHhVdWpqSFg0a0dTemg4X1BEQ1hhbmVyQmMwNHNyeHlneHBFeWx6NEJtb3RZZEJETHc9PQ==
+"Nothing ""works"" on mobile.",r/programming,Z0FBQUFBQm0yeGNZWHlOOVZPaFBzckNxNmxMQTBZdmdFWWtBRFY4dWxiaHFrTEFZbW1jX2RSYUMwZUJBRHpiZHpibTdMclh2RjdRU2V1SExEZ21LcVl5YXNFUkJpMU5zMnc9PQ==
+"I am not buying the result for drive write, synced writes to your storage is not less than 4x slower than plain writes into your memory.",r/programming,Z0FBQUFBQm0yeGNZSGV3cWFYaWFsVHJhcmRrVFZ4d2kyaXFGUVdVUGtlUURVQVNpUmJHT2ZIMDBYb1RvTm9OLUNpLWk4UDV4TzZNZFpHcm9XZllMX3phNm56NHluY1d5V3c9PQ==
+"The overall functionality looks sharp! Well done. I""m not sure you really need to be so aggressive with the font colors in the tables. (see my comments below for the actual color values)
+
+I love the use of SHIFT to recursively expand/contract. Nice to have, but not critical, would be to change the chevron under the mouse cursor to 'bold style' when the shift key is down, to just confirm you're holding the right key down. 
+
+It would also be nice to drag the divider between the views so I could see more of one pane (vs the other) 
+
+What's the purpose of the ""tree view"" in the right pane? It appears exactly the same as formatted view with the addition of copy icons. Could you just put the copy icons in the format pane on the left and just remove the tree view? I'm sure you have a good reason, Just saying it isn't clear.
+
+In the format/tree view the use of RGB for the font colors feels odd and too much. Something more subtle like having the labels be dark gray and the values be something else, say dark red (e.g. #AA0000) would be a bit calmer. It's not clear to me you need to show INT/Numbers in a different color, but if you do, a more subtle #008800 would look better as well.",r/programming,Z0FBQUFBQm0yeGNZWktCYXk3S011dDE0OWhuUThFZE1KR1pZLWV3M3FWbEtDallHN2p4LTBUT0RnUjN0M243Wl9Rd0VBWEppZVozNVhkemtNNHVMaWdMaUI4TU9FNU1OY3c9PQ==
+"Sorry, I'll be working on making the tool compatible with mobile😂",r/programming,Z0FBQUFBQm0yeGNZX3k2N1VMaFl2T2ZwVXh5cEdyMmFOckpGNzFqNzBPeHJ0aHRGTVdOeUQ2NHYwWFVERzdReXQzZGR4QjhZd3huaDZqNVRWMFMtekdyM0NBaUJ1U1NRY2c9PQ==
+"What a weird article, it should just be a single sentence:
+
+""Don't forget authorization and access control!""",r/programming,Z0FBQUFBQm0yeGNZQ21VczEySFM1V005OGRmVGZzbUF2aDVpZVBsRTFmc0xzVS1FUWNzOUhiOExXdVM0TkZpazlOazJxcVZZNnZLTktRdWFaeHlZR2hBUU9HS0E4dTJodVE9PQ==
+"I personally worked at a multi-billion dollar e-commerce company that had a graphql API for its shop. Of course we had caching, but our main product API was definitely graphql. It was a pain. We sold digital assets (think images, for example) so our catalogue was over half a billion items.
+
+Edit: Now, was it smart? You could definitely argue against it. But lots of people who are moving to graphql don't want to keep around a separate rest API as a lot of the goal in moving to graphql is to move faster-- sorta defeats the point if you need to duplicate your backend endpoints. The tendency of it all, since authentication had to happen on a field by field basis, is for business logic to move into the schema level, which is probably not ideal.",r/programming,Z0FBQUFBQm0yeGNZcW9KR0ZWbElNaVMyQ3M0MmxXekZtM19WYXF1RUI4b2ZNN2x0ODJJdWN4V3RhQUYybU05YjUycklKeUNsWFBwUkpBZWNmNUtCRzNzVUVxTTYyalB2QVE9PQ==
+"I am always amazed at folks who say this or that doesn't work on mobile.
+
+Must be the same folks I observe everyday walking around on busy city streets with their nexk crooked down staring at some 2-4 inch/.5-1 cm screen, oblivious to the traffic around them, sometimes with children in tow who mimic parents oblivious to their surroundings.
+
+Long gone are the days when parents can honestly tell their children to not play with toys on busy streets, to pay attention to their surroundings while out in public. Might miss that extra-important Facecrack update...
+
+How the hell are people going to legitimately view formatted JSON on a screen that fits in a human hand?
+
+Props to you for caring about creating software for mobile device users. You get useless ""down"" votes for your efforts nonetheless from the mobile device user crowd.",r/programming,Z0FBQUFBQm0yeGNZZmkyemdyZEoxTHBfNFVvUDBWRGlDVWthOFV4YU9QbnAtNDhsSUdKUi1uLUJ0T0tEQzNCQXEtVERyb2E1OWdNWHZlT0pJSEczb01UZUNmVk01WFlfb0E9PQ==
+And that graphql was exposed unauthenticated to client javascript / publicly accessible? Or just used from nodejs on the server?,r/programming,Z0FBQUFBQm0yeGNZQ3c5WXNqbjVPNkpxRjFjWVhEdkxYOXU5Vmc4TS0ydGswckJlSVNBLVkyYjdwRlpna2h0WkpZUHk5WlRPT2xUUWRXTTRPY1NoaklUajh4MDMxZ3haUXc9PQ==
+"As a software developer hoping to emigrate to Iceland in a few years and contribute to the economy, learning that the technologies used in Iceland strongly overlap with my skill set is very good news. It means I only have to learn one language, though it is an interesting one. :þ",r/programming,Z0FBQUFBQm0yeGNZYy1jb0Exa0NjNXY0ZmJGT0o5X1VmUTVwazBiUjd6d2ZxMVFINzg2Y3JnVUJ5eEtFekhsV2h2TUZyd0pCVF8xdmxNQU5VTWozVmk5RC1LZkZfNWFuVEE9PQ==
+"I haven't looked at it years, but back in the day Python's Timsort was absolutely magically fast for real-world sorting scenarios. Like O(n) for already sorted arryas with smooth performance decay for slightly unsorted arrays. It was so good that it was adopted by Java for their default sorting algorithm.",r/programming,Z0FBQUFBQm0yeGNZSFJncV9tWkpMNVhnNVB1NUQ0RFVjOF9uVGp6TTFGVEd1d1o5ZzJ3NWZiZTAtdkRBdGhEMEJsSGNJaV9SbnIzeUFMZ0xPUzJqZkdWaDRkX3NNaVNjRHc9PQ==
+"The loop has no observable effects except time, and the compiler is allowed to minimize time.  The loop can be safely removed as long as you account for edge cases like n<0. ( I'm not sure if rust has wraparound behavior)",r/programming,Z0FBQUFBQm0yeGNZVmZBWEFLZ2R4Qy1DaThLSHJzcU9SNDFWc1RDRk0yZzJIVXFlcFNvd2dNVGpaRjlzOEJ4VkRqc3Y3amF5a0h1TEVCV3FtY210RnA3TV92SkUyTzdoZ3c9PQ==
+What does flpc stand for? It doesn't sound like a regex library at all.,r/programming,Z0FBQUFBQm0yeGNZSHdhOHMybXgtXy1CbWQwRUpKZ3UzdlBfNzA0NUZzbHhScjg5OHB0SENDeE9YNE5QR203MkMxUlZSa3I5LXJwUmJoTkloNk9GVkM1OThoR1RUWEQzOEE9PQ==
+"Thk, and then
+
+1. I‘ll add expand/contract mode today and design shortcuts
+
+2. I felt that the drag mode would increase the mental burden of the user, so I chose the single and dual-screen switching mode
+
+3. I'll consider redesigning the font color, maybe using off-white",r/programming,Z0FBQUFBQm0yeGNZYm1tSnBBQzhwM2dnak1DT2RKMEhpS0JaN0NWdjdmdkROd3B1Q0FWOUh6ZnBZWmZWSHl6bXVaSGFEVGpEYmxKTjRnZFdlajlBMW40b1lidUtJQVlKSVE9PQ==
+"> That's why to find ""a good idea"" need to find ""a good problem"" which can be solved with a product idea.
+
+Sounds like the Hegelian Dialectic. Create problem, propose solution, achieve synthesis.",r/programming,Z0FBQUFBQm0yeGNZZGFsVzVRVl9HaVNLNDJIRE1BbzdTeE83UDBfcnhxNjM1OUpSN1NaVmI4X0ZSaG5XM3Y0ak5BRDVJUGh0cEpsVWowS3RxYms1Nm5jeEVjYTBzTnM4X3c9PQ==
+"Ok, After I optimize, I will return to get your thumbs-up. 😎",r/programming,Z0FBQUFBQm0yeGNZOHplaE9JZmVBeVBpSmszTW5UT2RCWU04RkVwM0dUY3VpQjFHeTZNWnlnWjhaeEIta1hlSjBlUmtMXzZ4Ykxqbjc0bklrMWlHa3NFS2dEZGtlRTg5S3c9PQ==
+"Lolol, and it jumped the shark and went completely in the dystopian direction. Hahahahahha.",r/programming,Z0FBQUFBQm0yeGNZcUpmTGtrUmRYWEJYZ2tyYk1kdnR0eTRCc1c4alJHTW1MZWNjcHJ4MDZMTHFRSjhTLVZtTDZNb3VrZzBKQXZBWk1EUWdpcVdSR0tLOXYzc1NHQlJxYXc9PQ==
+Facebook?  Who's still using facebook?,r/programming,Z0FBQUFBQm0yeGNZNzlNVkhTeFlHMWtsMEYwT0h4N2F0ckI3c3E3dmZvTlp5VXZMREJiaDY4bWFaVGNlQnJQcFl0c3FmTmNpc0hFSFRFaGJldXFpWlhoSWRFcnNQRlcyVFE9PQ==
+"FWIW You already got a few ""thumbs up"" from me, for caring about viewing formatted JSON on a screen that fits inside of a human hand.
+
+FYI: I have *never* cast a single ""down"" vote for any post, comment, or content, nor blocked any user, on any board on the Web.",r/programming,Z0FBQUFBQm0yeGNZeE00UUQySUg4TFlRcDg5a2pkSlJXQzdGbXIzYXpjUlRURXdTVnZ5R1pxNkFDeWV5cXQ4cGtlZVBBcGt1S0d5UElkRjJCY1hTUFdtOHZ0Vk1CbEFqSVE9PQ==
+wow!,r/programming,Z0FBQUFBQm0yeGNZZGJrTURnS0FkeGxzdWM4dEpTRVVZdkZIR1U5aWp2WXI2ZDhBanJKdzVnOGZMSzRYb09VQkUzbzFrRUxkYzZ4dXBBYmlzX2JYMHhuSGdwcnZxS09IeWc9PQ==
+You fucking suck.,r/programming,Z0FBQUFBQm0yeGNZdzlMLW1vTFQwcS1GSVdzTlpxeUdvOG1jNlpkS2FDT29hcXgyeFF2a25wbEUwM2F3OGw1QkVzZ1RVYVZkMGtianlQbU5MZUN2U0V3bThyT2UxMnByVFE9PQ==
+"Facecrack, Reddit, whatever.
+
+People who complain that they can't see or do this or that on a mobile device so easily forget how novel Internet access was 20 some-odd years ago when Kyocera placed one of the first ""smart phones"" on the market, I know because I still have that device from umteen years ago.
+
+Then there was Palm Pilot that I invested in an flopped. Then Blackbererry.
+
+Now a person can't walk or drive down the street without observing the bulk of humanity glued to some device in their palm, oblivious to the world around them, as if they are consuming some very important content.
+
+And the parents indoctrinate their offspring into that nonsensical behaviour, in part to just keep their kids occupied and not ask them any questions, in part because the parents are doing the same thing, not paying attention to the traffic around them - *even when crossing the street* - and don't want to be hypocrites as they scroll through useless feeds.
+
+And sometimes dutifully obey the garbage in the feeds. 
+
+Shall I mention how people became aware of ""COVID-19""? 
+
+How they wore stupid ass masks for a couple years? And now the same folks who suggested to wear masks to ""save lives"" are supplying weapons to Ukraine and Isreal to destroy lives.
+
+Now if on on one of the very important feeds people are consuming on the mobile device some gov-ment says this or that is a crisis, they just repeat that garbage like little sheep, without vetting anything or caring about formatting.
+
+Religious folks used to be concerned about ""the mark of the beast"" in their palm. 
+
+Then forget all about that as they peek down at their Reddit feed in chuhch... Too much.
+
+But hey, it's a free world. Do what you do. Carry on...",r/programming,Z0FBQUFBQm0yeGNZRGtldlRuWUcyenFUMnRHX2J0UEc1ek5vbzhWRG1XaVU1YzQ4eDZhcEVwaGxEeEtVTUZ2azdnWVZTdjhtRnVDQTZzUGZnb0swQ1Q3NnpyeW5SelpkdlE9PQ==
+"That's culturally insensitive, you twat. Go push my dick down your throat.",r/programming,Z0FBQUFBQm0yeGNZQ0xSejF2bjRueENYN0cxVDVzM1k1cU1IYm9GempHNW9SeDN1RzcwWjdhTlRTTUUtZGpHLTlXRElULWpvTlY4c0h1MWZlMnRTT3dvNXllTG5VWDU5dFE9PQ==
+The website doesn’t work well on mobile,r/programming,Z0FBQUFBQm0yeGNZb3ExbXpzQTJfYkgzMElMM2pDSkdRdzJyY0pQVUN0a1N3SXRLQzdtTk9KSVZmV0ltb0JZSWJqUVd6OUpaOXJ2NUNGSWZUdVhuenNsbnZ5YWRNWWFlZnc9PQ==
+What a horrifically stupid pointless article.,r/programming,Z0FBQUFBQm0yeGNZemNIakpQSjFwbHM4UTYwSG9RWUROZEQ0VGN3b01FaFVUTllXQ2R6Rjk3dGE2a1ZIR052a2NKNkthTWtaZzhmc3NVQV9zaFU0UEhSMXc2MVdteUdtS1E9PQ==
+Why the heck are you comparing locale dependent strings instead of integer values?,r/programming,Z0FBQUFBQm0yeGNZNkJ2ZFA2QWh4UjRLcmU5SXFJSXZfT2g3M0JMZzAxeEZFTHEwTkhGaUJRb1NYdGZ4el9LaFpSRFJUdVpHZWJYakVFSnB3VlBrNFVkU2VBTnp5WElMRmc9PQ==
+When the user clicks a button I grab the text of the button and convert it back. You can see the HTML+JS on my blog repo it's not pretty :),r/programming,Z0FBQUFBQm0yeGNZYmpUQW1PR21Oa2xyaU5Mc3ExU3cwNGNoNW9mRVJQLUxCQ3JWWXhHRjVnZXlPd0VFRnpBVkY5SGJ2aFV0WXpuWF9tREZ3ekkxZXBnR0VhcUkwblJCMnc9PQ==
+"Just add a data attribute to those buttons and you’re good to go! Like data-value=100000
+
+Always separate values from their representations, nothing good ever came out of mixing the two together",r/programming,Z0FBQUFBQm0yeGNZbGlZajUzX2I5Q0ZVM1VCV05vT3Y5QS12S0EyY0tKTWxSaVlCUU9LM0RBeEJzdTdjcnpxREZ1bGpJLUxtQS1tN3JRTTFubGRIRjZVOUdqRkVQRnhpVEE9PQ==
+"Yeh does seem sus, OSX may be cheating on the fsyncs. The code is linked at the bottom and you can try it yourself. I've been meaning to run on an AWS instance and check things.
+
+The Python fsync'd file creation is also very sus.",r/programming,Z0FBQUFBQm0yeGNZX0p2ME9WSUpRWFZIY3BnUVM4TmQtQnAxQ3Nqc1lNOThNM2Job3NHckVFejlyb3lDNWZIcGoyQkNXVzlaOWo4ZEx1aUs0b0MxZVFTWHlZaENlWDkxdGc9PQ==
+It's so slow because it's doing DNS lookups and creating a TLS connection every time a request is made. Very inefficient. Should be able to get ~100 if you reuse the connection.,r/programming,Z0FBQUFBQm0yeGNZX2VCUVdZZy1NUGQ3Z3AyRHJQakRZamFUOEVCb1ZNa3hjR1JuVEYxUExOc2wydmFHVXNYM0JuNVZ2RU5WMmdINTdiM0piQThORlRiUVNOMWJVaDd0YlE9PQ==
+"The crate used does not no. There's definitely more juice to squeeze, but 8GB/s is definitely suprising to me. I thought around 1GB/s was the best perf you could get.",r/programming,Z0FBQUFBQm0yeGNZQktXejFwVVZheVlrV2RybUtzVTU2Nlk3QUo2OThGNTJ4LTBPMzY0cVh4b0k1VkVnN1R3RmJwWWNnX3VVdV9uQlVqWnRjS2R5czBLWnN2REtkYmZPUHc9PQ==
+"Nice, thanks for the suggestion. I definitely hacked the JS.",r/programming,Z0FBQUFBQm0yeGNZU0lyMHBNc3l6Mk8xTjNWbFlHdlRVeTV3SlBEV0NXZElScFhUZEN0OEo3LVc4QmNncjVsVG9zOTdaTkZqejhNaEZ5eF9iQ29pZEI0UGw1UFR2Wllzbmc9PQ==
+"No, its not the same.
+
+GraphQL is most valuable during development time. 
+
+-	Write your queries against an open schema.
+-	Generated persisted query manifests
+-	Restrict the public API to those manifests
+
+You got the best of both worlds with this.",r/programming,Z0FBQUFBQm0yeGNZay1xbXU2eG80T1ZEYWlJbkQwaFI0UENoU202dHIwTmZwalJTWnBmSFI4QUhKWXl1TXdDYmpTQWhFVHZBZFRqWmZTc2hHd084R1BQTWxYSWtQTEkybEE9PQ==
+"This post was removed for violating the ""/r/programming is not a support forum"" rule. Please see the side-bar for details.",r/programming,Z0FBQUFBQm0yeGNZRHZhYW1jRmJ0bVZCSUJSdEZmTGR2LUhsckhLTlJpNjBmOC1seXAxV2VkSHhWLW83ZnJfOVRLRWpGdFVSZFpfeHZrd2dkWEZRUmhOOFpDSlRHZWk5SVU0MEN3alVrMldxUFhNZDJCdzE0Nk09
+"Neat site, was surprised that writing to a string is faster than writing to an array.
+
+Am curious about the performance impact of print() and logging, I’ve been told verbose logging can really slow down a program when in a tight loop.",r/programming,Z0FBQUFBQm0yeGNZUVZNU01NNV9FYy1lanNnakZoUk80THlScUFnaXRKRExyS2VGUUp1clNIdkc0N0lWMWRSVWp6QUY2QTI4bzRxMHhORXEtSjZFNnl4Y1pBdUpFSmdaRHc9PQ==
+"Terrible style of questions.  Every one of these is a potential 'gotcha' question.  
+
+What 'computer' are we talking about?
+
+They ask about drive write speeds without giving what type or interface.",r/programming,Z0FBQUFBQm0yeGNZdm1ncHBKZHFxc1ZZVkxubUxWMWIwSjVlRFd6RHZJOWpDZmozZUJoRS11RUxtSFJzUmlucHJ4Wk9VaGxjYlVMYW1YZVBVSVdRa2lCX1ZOYjFkZDJrM0E9PQ==
+"Awesome. As an old enjoyer of Emperor, this was a great read",r/programming,Z0FBQUFBQm0yeGNZQWwwZzdBQWlkdjM3Vzc4bzY1ZUFLUi1vaGEtT2FkVVVvakN5djJsTG9iSVRjNmhKd2FNSExDZHpubGQ0QjNlaklSTmxab1EwdVd2LUlQaTEzaGxrUl9LZWt6U3BaRlo3SENWVUY1Z2JrNDQ9
+I cannot grasp why anyone would want coroutines in a language that allows multithreading.,r/programming,Z0FBQUFBQm0yeGNZQV84RWxJY0I4X0NfUVM4eHdVN1pzYWZ5cDdOejdET256TnRlbnNMbkMxRXRkNFV5ckxMV0VxR20xTnFGWmxRd0o4NjJ1ZGNWXzVYelkxalc1SDktYnc9PQ==
+Fantastic write up. Thanks.,r/programming,Z0FBQUFBQm0yeGNZS0xiQmppMXdYM0JSdU5ReGF3TGxwSE93dkpsd2JpRzdkamJiU1Z2bVhQMFIzeHhEeXdqVmlRXzVZM0N3UXJFWlhrTU5vTHJSODh1NXRLbHpHa3Fha1E9PQ==
+"Multithreading introduces a whole lot of complexity, especially regarding thread safety and data races.
+
+Whereas, coroutines, you decide how/when to schedule them. You can run coroutines in a thread pool (like C# does with async tasks), or once every frame (like Unity does, and like I demonstrate in this article), or only when you receive some events in a queue, or whatever pattern you can imagine, since you are in control of the coroutine's scheduling.
+
+Each tool has a purpose, and multithreading's purpose is not to spread a task across multiple frames in a game loop. Coroutines fullfil that job quite elegantly.",r/programming,Z0FBQUFBQm0yeGNZYVBPZW40OTItWTdvX3FYejhPNnZXSW5HaU5ZRW84OU1qZGJ3Qk5obzBueVFnSndRZE1jOF9GTEJSNGoweXhBeFcydTdzNk1FQzRDdzZqa1lCd21Da0E9PQ==
+" https://github.com/peng-zhihui/Dummy-Robot 
+
+a bit confusing for native speakers of English: its name is ""Dummy"", but it actually does claim to be a functioning robot arm.",r/programming,Z0FBQUFBQm0yeGNZOFZXTFZBZ1E3VjNvVzhlM2xwd2N3MHQxSlFxempad3pMTE1LSFhocUNqZGF6T01FVkZCMDdnRFN4dFNqa2h6ODk4Z3VUeTFxODBDdjFySTFEY3pEUHc9PQ==
+Vought industries have been implanting graphql api in tech startups,r/programming,Z0FBQUFBQm0yeGNZaDFDMDhEbERGeEVTN1pDUnNQSGxEVGhKUmdiZVFIU282Yk1tT1lEaVBUSVN0ZExpRU15aFlVUTdVSmRIVFNNY0h2ckZyRUMtdzBPeDZ5TEJCbGc3d3ZzcUgycmhpbFBndklXbnI5MGxOSUk9
+"Yeah, but the question still stands. What would the gains be?",r/programming,Z0FBQUFBQm0yeGNZdzFjeDhnVzNxWVNJMkdyY3dCaTBrREpsRThGckdlbVZHQ0c5OUdjT25wamsySWtDam5WWFlSdkRGR3N2NVhxU2MyZHpWU3oyVlItc3JleGluemFnc2c9PQ==
+"> We know computers have different disk & network & CPU speeds! We’re trying to understand the difference between code that can run ten times a second (10 Hz) and 100,000 times a second (100 KHz). A newer computer won’t make any of the benchmark code run 1000x faster.
+
+> That said, the results are from running on an 2023 Mac M2 Max with Python 3.11.7 and rustc 1.78.0 (9b00956e5 2024-04-29).
+
+I got most of them correct by just assuming a ~3GHz CPU and a ~3GB/s SSD. None of the questions felt like a ""gotcha"".",r/programming,Z0FBQUFBQm0yeGNZRFNXemwtelZETHBsOEtOdWxQMWtSaDNYSFNCNVdoY2dPQVdYZno5cjhJdVdycjdOSk1jRnBrclRKUHI0dFZHbUhDZUJTSFg5dER6bWExenZuUmZYX3c9PQ==
+"I'm quite capable of using my own GraphQL API against myself, thank you very much.",r/programming,Z0FBQUFBQm0yeGNZc2UwcHhKU1V0YVBVWjRBYlp0X0FfVklrakVheG1adUVFVWRKVVQtclZZYnZhQXJESFhLYUt5ckpDaktxNlFQZGxTVjVaV2tGeDB3TTZkWXR2SzlvWmc9PQ==
+"Yep, lame.",r/programming,Z0FBQUFBQm0yeGNZdzlVVTJUZlI1YjJSeG5HUlNnakxsemNhejBBelF5dElHR25ybG9QWmxHTHBDcE9nX2VZQmhyUlp2RFc0NUE0SzYtd3VhVUkwUjRnYjlzSUlBVXowM2c9PQ==
+"For real, the code snippets have very little to do with the actual questions as well. How fast is a computer is the question each time. The hints have nothing to do with the code, and are only about cycles in a second. And assumes you have what hardware? Something in 2024 I imagine, but that's a wide array of PC combinations.",r/programming,Z0FBQUFBQm0yeGNZaXNWbDZoN3ExSk5MdkNNZjF1TWVXNjdGdDMxeDBRNlBiYndqRFBLamZkQnBQZF84dWRqVFNNLVctUUgxQXBiUExyNTdNYVhUNXJCT0Ezd2hNTlFKa3c9PQ==
+"> I bet I can test and fix this by switching a setting in the browser.
+
+Still broken.",r/programming,Z0FBQUFBQm0yeGNZdnNKUVRmRHNjT1EwZzY5SVQ4NjF6NzF0NUlYWkdRakhwUVlnZjlZSlMwX0tINGlSMjIteTl0dXh3MThGbHhKTjE2R0JTaE1HNE44QmVfV2N6LXJxeGc9PQ==
+Need karma for posting please upvote!,r/programming,Z0FBQUFBQm0yeGNZcWJMZER4eVdMWlhwUjVaTVlveW9BQVoxMXNCSV82azJsSVI4N09HNHZmaVpCUy13UmNGVlJ0QWpGVEEwQUxIbXpSeEFWelU0am1XcXJwemRxWnB3Q3c9PQ==
+"> Multithreading introduces a whole lot of complexity, especially regarding thread safety and data races.
+
+That's not a compelling argument to me.  Multithreading is really not very complex.  Follow some pretty simple rules and you're set.
+
+Meanwhile, coroutines can bring a deadlock risk (tons of search results on this) and make code hard to follow.
+
+> multithreading's purpose is not to spread a task across multiple frames in a game loop. Coroutines fullfil that job quite elegantly.
+
+No idea why you wouldn't simply use a state machine for that specific purpose.  inb4 coroutines are state machines, you know what I mean.",r/programming,Z0FBQUFBQm0yeGNZem8xRGZNZnpYM1VORy1SVnRBdVpmT24tYUJBb1ZvYnVIODdLT2NVbmhPZWp3Q1hPaXRCMU1rUEh2aFU2bjlUaUNHdDNrZDc3VUpSM08tQ2MzTEVIWVE9PQ==
+"thanks for sharing this with us, a very detailed explanation of the process 👊🏻",r/programming,Z0FBQUFBQm0yeGNZMnM3UmxUbndmLS1rUjloZWp0QVpJb1FueDN3ak9LUXlXRTk4YmNZcUcyQ0pxU0hHQ0h1RGcyaUR6bEN3TVFTanFtcmo2bVFfdEZ1dGFhQW9paFVIcXc9PQ==
+"You realize that two out of those three steps are exactly what a REST API does, right? And the first step is the part of the iceberg that you happen to see above water, the rest of the iceberg is someone having to write a crapton of resolvers to give you the 'open schema' with all the nodes that you might possibly need. Here's the alternative I'm suggesting:
+
+- Write your frontend to query for exactly the data it needs
+- Set up a dummy backend to give it that data so you can test it easily
+- Write a real backend API that gives exactly the needed data
+
+No GraphQL security concerns needed!",r/programming,Z0FBQUFBQm0yeGNZc1NCRmY5Y05lakM2QkxqZENWY25JUEZHanRoLTZQMzlPQVR6SHZSWFpPZzBsQWMxaU8yZ1NCNzBHbEpBaHBkWEJJQmVSSnpQeTFhQjBXUjB6Zm1LUFE9PQ==
+OMG(E)... 😲,r/programming,Z0FBQUFBQm0yeGNZc1hsWG9GdFNCajI2dGItOXAzMENHMDVwMVBtVUhvZlBHWjBETnBfblZWckd4SG1qNmFkTkQ0eTA1NU4yajRTb2VlUUVLbGdVRUZNcnFuZ21qMHZLTUE9PQ==
+I drink and I know things,r/programming,Z0FBQUFBQm0yeGNZVGtHYW43S3pHWEk1bTFBOUVaUGJNck10UEdDVkp2UHJReXZPRjlybkxfbklkLVZsa1o3ODZxUWIzbjdOaHdwbHFaaDVTZVIzUGdmU2JiVTZLVy1qdmc9PQ==
+I am checking it out right this second and I like how the boxes are organized by colour.  Next I will look in the GitHub repo.🦆,r/programming,Z0FBQUFBQm0yeGNZOUV5WTJNa2RBVEstTzc0bkZqVDdaMUJYX09aTnkzZC1PS0xqOUNtdVh0dC1FbUxrckg0Vk94X0xxY080c2NSNm1FekptcWpwSmtIY2FWTXRjVUwyNFp3Xzk2eGtsVkcwdE5NSHZoYnpjajg9
+"At the very least Linux is well known for fsync cheating, and databases have to work around it. I don't really care about OSX enough to know whether it does the same thing.",r/programming,Z0FBQUFBQm0yeGNZRG12UVNZUTdtaHZ3SHdsLW9xaWZ3RFJvWFNUbzhDOGxrVkp3V3JWR3ZkbUVIMU9ZSDhZNjNsdTUyTHpKaWZaa3BrMEs2QnFvRXVzVklmTDRpRVBhUGc9PQ==
+How is turning off introspection in a production environment considered 'security by obscurity'? Just because it's a saying doesn't mean it applies to every scenario where you want to reduce information disclosure to an attacker.,r/programming,Z0FBQUFBQm0yeGNZS2phajBsY0pFcU1IZXNxOWJISm9DWWZPWW9OeS1FVDA2XzBvbTJXRFhrbExhUXpTSWpsS2Rtbm5SM0hjOXVKcWgtZkZ0ZFFaYm5zVmluRFFlQzRvbHc9PQ==
+How so? I think it's full of very good security advice for hardening your graphql api.,r/programming,Z0FBQUFBQm0yeGNZZXBBWnJQTWhYREsxT1JWMmZvazJIbWhCT3gxYmpaNEJyWmVUdjlXaWdRSkx0Smc3TFVRU2g5ZTN2dWc3a0QtZjhtTzRldk9ibjh4Y2s5Umt2OUxWTVE9PQ==
+">coroutines can bring a deadlock risk (tons of search results on this) and make code hard to follow
+
+All of that is also true for multithreading plus actual race conditions. And coroutines are arguably easier to follow than threads.
+
+Coroutines are the simpler form of multithreading. They are less flexible but easier to use.
+
+The best language / framework implementations offer a coroutine surface and do threading transparently. ",r/programming,Z0FBQUFBQm0yeGNZYWdCZXFHY1JOWmhGNHhvMDdQWjFZRmw0R3lDSGlPZDdjWjJBd2F5ckVWaDZwRXUyMnJUWVRxRG1oOThmQXZZU2t6NkRsZ2lEZVQ4eUdLeHotN1QxNHc9PQ==
+"You can run coroutines on a single thread. Multithreading is a different thing, and it simply isn't always the solution to everything.",r/programming,Z0FBQUFBQm0yeGNZOG4zcWxWdzBwS0dFamk5ODdrQUFNa0V3OE5OZG9zY2ljcGR0blBlbGJlc2czelR5X1R5UmNCQ3dscy1nMzNNZDc2a2RoVjN1cGtMdGhRVWIzUFZkX3c9PQ==
+"> That's not a compelling argument to me.
+
+Not wanting the overhead in complexity and safety measures is not a compelling argument? Then let's agree to disagree.
+
+> Follow some pretty simple rules and you're set.
+
+Easier said than done.
+
+> Meanwhile, coroutines can bring a deadlock risk
+
+Threads are not immune to deadlock either.
+
+> No idea why you wouldn't simply use a state machine for that specific purpose.
+
+Because writing a coroutine is more elegant/readable than a state machine, which matters a lot, especially in gamedev. Just look at the example I gave in the end of the article.",r/programming,Z0FBQUFBQm0yeGNZQ1FpaUswQXVCQ3dRY1YzOGUtLUV5d25pLW0xRmlqNXYzeHRYOWJ2eGU2cG1BNGJDMXE1NHJXNmlCLVpid2JTYTQxTDROUERRTDVSNEg1Z1d6Y016VXc9PQ==
+"Locks bring a deadlock risk. If your coroutines all run on a single thread, you don't really need locks.",r/programming,Z0FBQUFBQm0yeGNZWUNqbXUxdVNTS3g4VWNteS16SXRxN3M3ZWg2Y1NRS1hXQVVIZUNfQVFjdzNRYnNseUlxTGIxWTdJOTRNX2dzekxuODBPOW1VMXBULUIycUtEcmdBTFE9PQ==
+"coroutines take less memory, the minimum stack size is a page, while a coroutine is how much you want it to be. Rust for example allocates exactly the amount needed for each future.
+
+You can read more on my blog: https://tontinton.com/posts/scheduling-internals/",r/programming,Z0FBQUFBQm0yeGNZdFhMWURwMktoZWpIdWJ5WkRJRWg4bmlrUDI3a0ZCaVBrN0MxXy1qSFBvZnZ2U2pJQWF1VnE4S3UxbXdVbTc0WmlWN0I4cmFWSHpVaFhOOWlSMkJMbmc9PQ==
+Are Hackers Using Your Man Pages Against You?,r/programming,Z0FBQUFBQm0yeGNZNjF4TEgzaEd2ZEc4X0VlTnMyc3E3dnJTbDVqYzJnazg0aGpJbXowVTNZeU9kVXNERTM4T0xUYUZ0aTUtY3ZZWFVIbU5kNll4Z2xTdFhlbW5maWVoZVE9PQ==
+Any title that ends in a question mark can also be answered with No.,r/programming,Z0FBQUFBQm0yeGNZX1B5MXRfT1pKa2FrQm5ITmVoUFdrVGpSV0NNLWRCODl4QnJIYm93dUw0MGRxQmRucV8weF9aRUtkYmhHMG9xX21sZ0FFRk1EVVlyQUtMYVl1bEQ5MFE9PQ==
+That's just plain insensitive,r/programming,Z0FBQUFBQm0yeGNZdHhyT295NkxILUFBUDEtUTVocnFaQm5iLXhaN0R5SjJyVzYycUZkdkVTaFQ5YUZsc0VJV1VCT2N2M08wTjdFMk1ldEx5c1hqUUZhMHZxaUVZUzh2T0E9PQ==
+"On my m6i.12xlarge
+
+* write_to_disk -> 500MB/s
+* write_to_memory -> 2.64 GB/s",r/programming,Z0FBQUFBQm0yeGNZeEN0U2hlNEtMVDExd2MyUWNLWmZKUG5SSmgwMnktUUdxZWMxbkVvUDQtX0RId3FsczB6Zk1MeHZ4VXRDdko5empDS2l3blVGRFgxQ3VNMEQxQ3ZhOXc9PQ==
+"Pushing bytes to stdout is pretty fast, but the slowness comes into play because it's behind a lock.  Acquiring the lock and then writing data does cause significant slowness in a tight loop.",r/programming,Z0FBQUFBQm0yeGNZUk03QlN4SzU1cWtxQkRqTEpFTDZMRTRMZUZkdFo3dXFROEx0UHVmUGdGNWJSd05Damt2OV9nblA2YVZLZnlxTWZiNnVVZ0NIcXJpQWpqMzhwODZlX3c9PQ==
+Why is for i so slow there? It is just because it's python?,r/programming,Z0FBQUFBQm0yeGNZN0otN0lnaVVKMHVYRUVLY0lhT0hUQ2dyMUJyMloxTXQyd01EWmlKZ3ZXTFY2Rmp0a0FmempNMUR2YlBfQzM0MTBqc3JvV25HRERVWmNScXE3ejg1d1E9PQ==
+"Damn so weird to stumble upon such an old thread, hope everyone here is doing well 17 years on!",r/programming,Z0FBQUFBQm0yeGNZallVdEI5QmlGVnRkWnVmdHRTTHJNOGV1eWU5akd0R1hNbnRiRE1HaGVEak5KSHpVSlpjdjJEMUVmU3BRblc3cTMtUXdWNFc3S2FxRkZ1cTVHS0NweXRabHlwODl1ZXk4TC1LTFBhcFJTN289
+I just talked with them at HOPE this year.  They seem more alive than ever tbh,r/programming,Z0FBQUFBQm0yeGNZNWRnUHpsSk5sbk9zenpMd2xvNlZwcER4M2c4MDNiSVFBM0lKSFl4d0JlMHJjSlVzQW54VFFqajlaektLcm5LOVB3R1hYeGFjMXNjQlc1SlpEZDFId2c9PQ==
+"Should post to reverse engineering as well. Nice work, I am trying to do Lego Creator Knights Kingdom, to modernize it on the tech stack, but it is super hard for me to understand, coming from a not so C background. Ghidra, x32dbg and Ida have been useful, though!",r/programming,Z0FBQUFBQm0yeGNZeldYQmlGeXR0WlAwbTlYZFRWbWZ4djBXZFl2aGdnU2x2aHBzZUw4U3FhTHRPaVF0aDM3ZC01R3pTZ0VXLVhTWkxpQW9VWF9ORUlNQlRTNElCUmpWenM2VWdYcGR3cXVfSG1ILWMyMUQ0LU09
+"It boils down to ""oh yea, duh"" type information.",r/programming,Z0FBQUFBQm0yeGNZTUhibFJ5WV9WRXdaVDltYU51ckJKNXpULXdpM2J0YnJ2ZVRUXzZyOGRkY2ZCRTQ0Y01pLUNmN3hoZDJuUzRhalFyVEZ6Q0xTX1VGMURuWE9ocEtJVXc9PQ==
+"""The Guild is _always_ ready!""
+
+I need to play this again.",r/programming,Z0FBQUFBQm0yeGNZT1dMUHRfSEZyazVGcnNaQ1VlRkdnNmUwMnpnSEhFdWFoenJDRi1qS0pxM3Z4SWktYkhLZm1CTk1RdXhRM3ZhWTlvY0dQVXJOU0NvOFpCR0ZQSmkzM2c9PQ==
+I feel there is sometimes too much emphasis on memory safe languages that it sometimes blinds folk from other pretty major vectors of vulnerability. A memory safe Rust program that pulls in a poisoned crate is as unsafe as you can get. I worry more about the willingness of folk to pull down random packages or gut hub repos with gay abandon but fretting about memory safety.,r/programming,Z0FBQUFBQm0yeGNZcUFKQUpNbjBXZFVmMzh6c05POWltUll6MmRJZlU0Wml5RldyU1JMZnRyWk44LVpFcjhRbmZrZE5CTVBnbU5yVFBzRXVIdi1UVFdCZmM3UkI0c085c0E9PQ==
+"You can get really tight control over scheduling besides what others have mentioned. Like if a high priority task is waiting for some event, you can immediately start the high priority task as soon as it gets signaled by some other task. No need to wait for the OS.",r/programming,Z0FBQUFBQm0yeGNZQlhBQzBNZktBQTVGRVU0clhjQnppU2NGS1hqalF1WmxIYWtsNV90c3lJcnJLby1mRmJfS2pkNWVza2ZCUVdNcjhuaWdrR1NaZS01a19xTmFiaFRGOVE9PQ==
+Doing really well thanks! Never got the glasses or compass pants though.,r/programming,Z0FBQUFBQm0yeGNZUUt6Q0pOVlN0V01mQ0phQTVGa3poU1V1eU9qUXBoSUppbjdMOEU4QlBqVE8yQ2dkc2lzMUNJY2lkbm5UbHppWWlqTFpLRkppOUYyc1BXZEQwN1hyZEE9PQ==
+The other thing multithreading doesn’t handle well is the whole ‘await’ concept. Let’s say I’d like to do non blocking io and then do something once the io completes.  Coroutines with await Let me keep this work ordered.  Multithreading doesn’t really offer a solution for this.,r/programming,Z0FBQUFBQm0yeGNZWWsxeXB4TzhOeTRMcmR5SXF5NXFHR2dHd21DckJsMkF1RjFXZnZZRU5JQmdUa25FU2lKc1Exd0Z3Q0hwV2wtaEpxY1lDU1g1d1ItOF82OVZYZGljSUE9PQ==
+"Those write tests seem wrong.  
+The rust implementation is using unbuffered file, while the python one is buffered.  
+And both are writing to /tmp/, which is *often* on memory, making the entire test useless.  
+And to a lesser degree, your memory write test also counts the vector/whatever python uses reallocation time, which is not insignificant at this size.  
+
+As for my results, I was mostly within 50x of the correct answer or better, so I'm satisfied with that.",r/programming,Z0FBQUFBQm0yeGNZZzBvZWUxNWlXOFc0bFI5RUJQZlFFYnJOUnV1cExhUmVib1BUaUVIX3pJckJaMjJzcWNmbUlYS3hOaDY3ak1lVC03VnlPUFZHX3BpZDBaanJNUTEtV2c9PQ==
+"Good catch, though each write is 1MB and on Python the default buffer size is 8KiB. 
+
+My M1 doesn't mount a tmpfs on `/tmp/` and neither does my Linux machine, but you're right that it isn't unusual to mount in-memory on `/tmp/` so I should clarify that in the quiz.",r/programming,Z0FBQUFBQm0yeGNZbXhKd2R3cUlVRG05YzIzVDNtMEZGTDZZbmc5Tzg3V3ZKMVJUb1FiQVQ1a2tkVkZjTEJNcE1weXlEc0dZaGdiSU13UjQtcG8xRzN1ZVZ3bjFXd3phUkE9PQ==
+"> The hints have nothing to do with the code, and are only about cycles in a second. 
+
+They very much do have something to do with the code. The cycles in a second _is_ relevant to getting that question correct.
+
+>  And assumes you have what hardware? 
+
+That's listed at the top :)",r/programming,Z0FBQUFBQm0yeGNZbTlDOW12anlTazFwUmlpSnlFZDVPbW0zZ1MtbUhfR0ZRWE1WWFhMeHRUNU1vbU5weE02ZGFVUU10QVRhVUxIendfbEs5WnZOWGlTMmU3T3RQcmh5RkE9PQ==
+This has absolutely nothing to do with programming,r/programming,Z0FBQUFBQm0yeGNZdjU2aV9jYWZlNHdrVF9qSzVXcms1T2t4WF90QkJKZUZtMHlnSk5Da2VFakZVcjVMR3NmQXVKLUtqTU8tRmdodjJSeWxpcGg5T1ViUzNQa0FGMXQ1OUE9PQ==
+"You have a point, with such a big write size it shouldn't be such an issue, I just checked and rust also uses 8KiB by default when buffering, so I'm surprised it's so slow here, it certainly can hit the SSD write limit just like python but that's at most one OoM higher so it's acceptable I guess.  
+tmp in memory has been the default on multiple of my machines so I'm a little surprised by that.  
+
+Anyway, cool quiz.",r/programming,Z0FBQUFBQm0yeGNZWHdLVk5ZWEs4d1gzT1hCMERrTjVlT3RSMDJ2Vy1NemRndm1vclR2dE5pQm9SZ19uZFdPX1VZSVdqZ2gybWkweHRrLXdTSGl0QTdBM202MFdZSU1wdUE9PQ==
+"Sorry, you're completely right. For some reason I thought it was an infinite loop",r/programming,Z0FBQUFBQm0yeGNZZGNLb0FjY0hveXdSb2JNcEhoR3ZlOXE0T0VWMEREZU9wV0RQQWQxbkExQTdxblRoMUZydXNyQjZVcHRncU1TcWk5LXBZUS1fYkREd1pPc0tYaXZwSmc9PQ==
+"Having AuhN/AuthZ is not hardening, it's common sense.",r/programming,Z0FBQUFBQm0yeGNZQWZjZnp3ZDR1Y253XzkyZjdocEZvNlJxZ3ozazhHc3ZQRmRMUGRTaUlBVFZyMmEtdm5MRS1GR3A1R1ZkQVJ4WUE4bWY0YjhBNkc2MDhqZ3RPVFlHdXc9PQ==
+"Rescheduling doesn’t require a trip through the kernel, blocking interactions are verboten or pushed to the very edge of the process where they belong, you can implement exception and resume semantics without `longjmp`y nuttery, etc.
+
+I did up an async coroutine-based runtime for supercomputing a while back, and we were able to beat throughput records with just a TCP networking layer. (Obviously updated to Infiniband, but for a prototype it worked surprisingly well.) Part of the fun is that you could work out on-the-fly where capacities were and how much load any operation would impose, and either push data to wherever the meta-thread is or route the meta-thread to where the data is, just need serdes info to be filled in, and because functions were abstracted around, the runtime could integrate GPUs into it, and flip between CPU and GPU execution as availability dictated. It required conscious management of state, but we were working towards something that could handle hardware threads being knocked out entirely, which most threading runtimes treat as catastrophic.
+
+And of course, async coroutines is how threads actually work under the hood. Somebody has to implement threading runtimes, either in user mode or kernel mode, and until you set a bunch of stuff on top of the basic register-swapping mechanisms used by the kernel you don’t get threading.
+
+So you definitely need a layer on top of coroutines if implemented in C, but beyond that they’re perfectly reasonable.
+
+Also, multithreading is *optional* in C.",r/programming,Z0FBQUFBQm0yeGNZVzh2UnA0MVZHRGlycl9rOXhtZE00WDNlZlBDazVlcXowSnpxRTlBelpuVUJHSWJtdFk4RExnUjMzSGNrRmV3UzNWa2tNWUhsOFNiYnBNdXhUdzBhWEE9PQ==
+"I am also surprised how slow the fill array one is, it's much slower than hashing and writing to an expending vector! While it should pretty much hit the memory speed limit.  
+My main suspect is the if clause causing a ton of branch mispredictions.",r/programming,Z0FBQUFBQm0yeGNZc0M2VTJHLTVpRlhnYnJjczVjSnFkY1NHT3NzNEh6YjBIMkhtZGJGcmZCcGw1S2RvWkFOdk05aUF4d05kQUJaQWtIc0IyTDdNQVlmd3dvV0x3WVhUVGc9PQ==
+"You don't like sorting calendar months alphabetically?
+
+    04 - April
+    08 - August
+    12 - December
+    ...
+
+It's always great advice to separate the data and its representation. Aids in localization, testing, everything!",r/programming,Z0FBQUFBQm0yeGNZcS1paXR4WHM3WHJGNWdjZDhmelJMLTY3YXZodmJQOXBaOVVBSk14ZFgwQjNscWtoWTZ2SFhxbGx0OXd4THVjYkltZXl5ZjUtSWdEeGR0dUpNY1owWWhMN29KbGczdUtZSV83X3B3MDF4Unc9
+Excellent Hackering well done!,r/programming,Z0FBQUFBQm0yeGNZSlVGRTRqN3ZYQTBtNWhBS2lBOVVLYlM5MUVORVpoYTBsR1pJck5RZHRlNlpqSkNSUUdQRGJyYWw5NFh0SFR4YnFTQUVjbnNDOUpZT21WVEVLYldUMXc9PQ==
+"Exactly. The service makes a call back to the host that has that had been acting as a client. 
+
+People make descriptions too complicated. There may be *more to it* but no need to circle around the crux of an idea endlessly before coming out with it.",r/programming,Z0FBQUFBQm0yeGNZVkg2Z1JlWEo4dS1vWUc1UzN0OHRzZnZVdHAxRUo0dXpLZmhVaW5IVnVWaGhkaURfbGx3aFJsMTVGdU54Qm5YNTFtVVI3dHVXaGZPMWVxdFZvM3hZTVE9PQ==
+"dude, great job!",r/programming,Z0FBQUFBQm0yeGNZa2tIaG5UbzZmSVZ5azdZS1ZhbF9wXzNsQWhHLXg4STl0bGpBeUczaFJNb2c4WDlyOFU0MWsyX05KQkZLajVuM1dVd3Z0eW9PVzFXNDB0VXdMYjU5NlE9PQ==
+"You must not be a very creative engineer, then.  They have fundamentally different use cases.",r/programming,Z0FBQUFBQm0yeGNZcFR4dzBxWmJvNmdXNjRsRXJrWFZKS0dPcFVVaS1XWkhrdXdlUE5mODhGbnNlR3Z3Yko3TW5xclFZQWE1aTBuLVhFcGhDZkRfblVjWTV4MzVmcko5Snc9PQ==
+">And that graphql was exposed unauthenticated to client javascript / publicly accessible?
+
+Why is that so unbelievable?
+
+REST is just a convention. So are XML-RPC, SOAP, etc.
+
+I personally interact with an unauthenticated SOAP API every day at work.",r/programming,Z0FBQUFBQm0yeGNZYXQwbHZZcUZGb1dQOHRreTBSd2RtdFkySnhrbktyUHZxVGZhNWo5YTBpVWd6MTI2Smc1QXVlOC1BaFBHUFRMamF6c0VWajlYUzFnTFRhWUhXZjV6dkE9PQ==
+How is this different to having the OpenAPI document for an API?,r/programming,Z0FBQUFBQm0yeGNZcWxKVURCQ2VNaDkzSEs1bmlOblZxNTNKMkY1RlFpXzdWVk0zbWdKSXNmOE5VTDFFSG9JZEdtVVkxbkh4S2RXUk9fZGxyRVhPV1dWRTlXV0FFWDhXanc9PQ==
+"Well there is soap api - get the first 50 products call. And then there is the graphQL of arbitrary complex data query, that can dump your db and/or overload your service.
+Anything non-authenticated must be guarded and limited, otherwise it might just kill your server and not even on purpose.",r/programming,Z0FBQUFBQm0yeGNZMlNTM3ZyWEVIdGJpQjRQbG5CU3BxSmQzU0o2YTVMWWZhZ21zbDBUSE01QTU4SkplM0pCV2VjM3pxNTRiRnNfT2t6N3pVV0ZVZW95OUhjdEg5dzktS2c9PQ==
+"Because it doesn't take an adversary too much to reverse engineer your API from the web requests (your public API was scoped to only what the consumers needed, right?). For a complex API, it's probable they get 80% of the surface in days, weeks at most.
+
+Security by obscurity is for marketing to sell to customers to make them *feel* secure. It doesn't _actually_ help anything. If your API is juicy, you're gonna get probed both by people with nothing better to do, people with half a brain, and APTs with many people and lots of money. They didn't need the playground to explore, all you've done is bought some time. And you can never know when that time clock starts, and never know how long before the clock runs out.",r/programming,Z0FBQUFBQm0yeGNZVTF6SzdpMEJtaVlIaWx0N0hfeUF2VXIwUHIzTXFiRjBRT3lBaTVJUUplM1E2ZEpwWC02V0lRdzhlZDg0TkRpUHpsS0hBMUM0T2c5ZlVaMlI1dlFESEE9PQ==
+"> No idea why you wouldn't simply use a state machine for that specific purpose. inb4 coroutines are state machines, you know what I mean.
+
+Yeah, but they are. Except it is much easier to express and follow what you're doing. Ever written a complex gameplay sequence that mixes animations, sounds, particle effects, gameplay and so on? All while being programmatically driven, so not a cutscene.
+
+I mean, if you've never professionally worked on a game that had these kinds of things, I'd understand why you see no value in it. But I don't understand why you'd then dismiss it when you have no basis by which to do so, given that the article very clearly articulates the benefits in games.",r/programming,Z0FBQUFBQm0yeGNZd0xWa3p4R21CT1d2T2pHbUtMeDlUUGxGdlJ2ZjdqbnhIUXEzQUdnczBRdkZPSlZnR1FUdGdqbjEteGdIQVVjWnlvQTFhMDBHN0h1ZWlJWldTaFRrbEE9PQ==
+"Why does this sub insist on arguing what the best solution is?
+
+Its a trade-off.
+
+You buy easier integration between teams for the price of a more complex system overall, and more work for the back-end teams.
+
+Also, there are no “graphql security concerns”. This blog post is garbage. If you dont use auth on your REST apis, you get the same issues as an unsecured graphql api.
+
+Is it right for everyone? No. Does it have a use-case? Yes.",r/programming,Z0FBQUFBQm0yeGNZa2t2N2dhTlI1dzBQbVptS0hTV1h5d01Uc3ctWTZaQnpjZUtBOE5oeERkQTZkbXNlQXVYSWZiVm00TWZmc0RPSHhJU3dnQkI0ZWg2bmpHY0xJdm5uYXc9PQ==
+Are you from 1997? 😂,r/programming,Z0FBQUFBQm0yeGNZNXI5N2Faa2thU1B0VzFyTUpTSjdKZVF1REdPV3c3S0dEQzE0MXctcjEtZlFFMFc3SnlCZTc1ZWpJZUNVVHNMcVRGSFdzOS1BclNvWWFTT2RKN3JzbzdEbE1oNHlTVUdYRThva21ia3laU289
+Good idea - done!,r/programming,Z0FBQUFBQm0yeGNZNGRMUnR0dnJya1Y0SzNiN1FJamZSNS1EdWRyN1VRSnIwUWRERmU2VFdBNGFxUlJIRWctaFBvaS0yU1ZPcnFUTWlrMFB6QnNKNVZNZTdrNjRxM1lLY2c9PQ==
+An amazing article even for just the part on multiplayer.,r/programming,Z0FBQUFBQm0yeGNZeENwMkpCRkhqUGVlWk9raHZKa01DWElmMWt4OERrYWY5OGF1U1hOdkhZWWVRNzctbTFOYnN1U2JlOWQ1bWJaZUtqbllwak1scXZSM3RxN2ZSWW5Fb2c9PQ==
+I remember this game!!!,r/programming,Z0FBQUFBQm0yeGNZak1hQ1Q3VEE3WnUtTFpuTkJlWkJfaE1nQVFvNkF4czJDV0xKWkdrR3Njb3pfTWRFT3htbUF2NlF6YXpLUDVGZVJTSF9MMHUxcWtTVG9CQUlzV3NRdnc9PQ==
+"Kind of does. Software and hardware companies are constantly trying to create ""new"" products to ""solve"" internally created ""problems"".
+
+Recently GitHub changed the UI, to ""improve"" the UI. Nobody wanted changes to the feed. GitHub management reply was their decision was for ""broader platform goals"".
+
+StackExchange ""announced"" in an alleged question-and-answer *only* platform that they would be incorporating Google's ""artificial intelligence"" technologies into SE searches to ""improve"" ""user experience"". Of course nobody in SE management could answer the question about precisely *how* using ""artificial intelligence"" would *""improve""* user searching. Users overwhelmingly replied they did no want any such contraptions on the sites.
+
+Browsers use ""Google Safe Browsing"" under the auspices of ""security"" and ""privacy"", ignoring internal Chromium source code polciies such as *not* using exclsuive terms such as ""whitelist"", and reply with such inconceivable claims such as it would be too difficult to remove that patently racist language from Google Safe Browsing. 
+
+Not too long ago Reddit management claimed this or that application was no longer going to be capable of being used on Reddit. A bunch of moderators protested. Reddit didn't change a thing. Looks like in preparation for an IPO, even though it's my understanding Reddit has never made a dime either way.
+
+It goes on and on. Because ultimately humans, with all of their greed, vices, and perhaps belief that the common person is stupid, make huamn decisions for base human reasons that wind up in software and hardware - programming - as ostensibly solutions for internally manufactured ""problems"".",r/programming,Z0FBQUFBQm0yeGNZaDhyQmxwQkp4UWl1aHlQeVNfcnR5SFZLZG4yTi12S2hrb1VkVy1abFJlbUhXeFF3T3BOYlBDcHVZYzgxWWJreXhXdzZWanpaUG9INXFURDQxeUp5UkE9PQ==
+Fast as Lightning Python Crate is my guess. I know crate doesn't really fit for python but I don't have a better guess.,r/programming,Z0FBQUFBQm0yeGNZNWdGbFh1b2pESzNGdUdhQVp0ZE8xUjdMSkV1eUFzTWhoQ0tSRG1oVWtBMWlyd1NsclRIUkdkaEFoblViLVBwTUlsWXRqSmRCTUtDNUEwaXQtZGpQakE9PQ==
+"This is an article about business, not programming. There is no code, there is no technology discussion of any kind.",r/programming,Z0FBQUFBQm0yeGNZMlFRaUJEcXVLOFVZSGZsc3k1RS1PdWJMSHphanV0Q3NKNFprX3paRXZBMmlNU0xxZXZJMDhMdHdKX0doU3JBYm90YnJGaUZ3aTM5dWtsUFk1UkRMR3c9PQ==
+Great work. Now I kinda wanna play this.,r/programming,Z0FBQUFBQm0yeGNZOHMtSnpia1pFT25sZGIyMDg2Qk9JdEFvNmRFYnRXZDlXQUp4M05PNElqdnVlaVJJTWJpaVFRcVV4ck1sMVEtQklTN0R6ZGpGbVloZ3laeUxGbW9tVEE9PQ==
+Pretty much all OSes cheat on fsync,r/programming,Z0FBQUFBQm0yeGNZNTRNczFTU29idnpFbllHM2ctSnFIYnF3V3phblFIZXUtQ3IxVWdqTExOdWJ6dHlGdzNRem43WC03N1BicHFIOVNlMldMWm1oVk5FSlJQTnZmaHZ2SVE9PQ==
+"> This is an article about business, not programming. There is no code, there is no technology discussion of any kind.
+
+There's dozens of posts on *this* board that do not contain any code, that talk about how this or that philosophical approach or business model serves N amount of users and makes X company billions of dollars, or makes company Z fail.",r/programming,Z0FBQUFBQm0yeGNZcFF0U05OTDUtcmhGSENXX3VnN19MOHcxcXM5WWU0Mml0YU9hNEVsMG44dXYwVDI5RlhvR0c3eUNOZ21QRTZlSmZTM3h4ZmU2aWd1bWV1VUxWWWR0UXc9PQ==
+"And I down vote them all, as should everyone else. Pick an appropriate subreddit",r/programming,Z0FBQUFBQm0yeGNZVUdHMkZERmpveXBWZUp4d2xvcm44azhZSVFnenk1ZGNQZ0E5Vmk0QVRKUktvZXh6UktwSUhGaUVKbFhFeGRTbVlHSmthd2wzWGZrZXFpR0ZfbW0wQlE9PQ==
+"> And I down vote them all, as should everyone else. Pick an appropriate subreddit
+
+I have *never* cast a single ""down"" vote on any board in decades of Web usage. 
+
+Frankly, ""up"" and ""down"" votes on social media boards, and really in any domain of human activity, are completely useless, and have no inherent meaning or value.
+
+People do what they do, anyway.",r/programming,Z0FBQUFBQm0yeGNZU2hZSmZVbFUyV3BaNnkzS1VMQkhJN2dZejhuYzhXMlI1QTZncUZzczFkYmk4S2pQdHR5Y2NDVGN5ZGZTa3pOSGNBQWVuNjBFZm8ybHN1cG9CNnRJOFE9PQ==
+"Not everyone knows, what is ""oh yeah, duh"" to you is new information to others. Newsflash, you're not the only one alive learning and working with this stuff.",r/programming,Z0FBQUFBQm0yeGNZT01jM09ESEJXbmFDa283S3BYLU9QS3VxcDBlTWgtUmRMOHN5eXlLaWVMT2VyNlA5ckRmWFlUSU9GSGlELURVNzBMYkRpUVV0SGltWi1WRERuRDREU1E9PQ==
+Common sense isn't actually so common. I don't see anything wrong with sharing information like this.,r/programming,Z0FBQUFBQm0yeGNZQjZubHVySkV4YkQ2Q0h3U0lvcXZtOWU2MGR3bFRIUFZ3UzJQeTFJeDQybDQ1WjFHQ0N5SDllWkVuMDlkUGVXQV9EZ3llcUdjVEU5dldJa2gySVJuNkE9PQ==
+"But... it literally says NOTHING useful. If you're to the point of standing up a GraphQL API and you don't understand how basic auth works, then you're already in over your head and you need to back up and read.",r/programming,Z0FBQUFBQm0yeGNZQ1puV2Fhd3ZVX3RpblRMTFFzQlFfTm9WZXBUdm1Cd2Y2eC1pelZiTktMRTZ5cS1zVmNsR052TXBjLW85dUhaVGhOTHZmWDlGdHN4Tm9PTWJmSkQ0SEE9PQ==
+"> Because it doesn't take an adversary too much to reverse engineer your API from the web requests (your public API was scoped to only what the consumers needed, right?). For a complex API, it's probable they get 80% of the surface in days, weeks at most.
+
+There's also not much reason to just hand them a map of the API so they can skip all of the legwork... Security is a game of effort, the more effort you put between an attacker and a vulnerability the longer it's going to take for them to exploit it, giving you more time to discover and patch it. Information disclosure is a real problem, definitely low impact but still an issue that should be considered.
+
+
+Security by obscurity is just a catchy way to say that obscuring your system does not prevent an attack. It however can delay an attacker and place barriers of effort which is valuable time for defenders to respond appropriately. Defense in layers my guy.",r/programming,Z0FBQUFBQm0yeGNZUjR3NkRsMDFKdTBWeHQ5M1R6NU9rcHdoVWdTbllsYXRJVVJTa1NRTXQyMTJLYXdiNzZSSUhHdUNKcHVZSnRvWEZ6dUQ0V3otU1hTTnIwZWtjSGhmZ3c9PQ==
+It's an extremely common need if you do any sort of localization,r/programming,Z0FBQUFBQm0yeGNZOFk0MkxKeUtuOVB6RW9BQVZ5MjNGb2d2dzk3NWVUNXhOWTFTRklKWnlCZG9EekZPTFR5alF1eG5jdGlmV3NuNkhYcEU5RHMxM0VUUU9YR0pXZF9OR3c9PQ==
+THIS!!!! you and me both,r/programming,Z0FBQUFBQm0yeGNZeGl3bmk4UWlNMGpiVEJRSmR4QlREQm1XQmRjR2FjQjBtWGZjaXJFWEdNdmtTZ3ZoUG5tMDk3MDB4STFpTDY4R1VuUTNUU3FodklsYk5CNGk3Qy1mM2c9PQ==
+Ping should never be more than 100ms?? Do you have any idea how shitty the internet service still is  in many parts of rural America? Much less some of the poorer areas of the world,r/programming,Z0FBQUFBQm0yeGNZbndLTmE3U0kyTWlXRE5tQmtLWW95cTJBZzFuZ3FKUUV0d1FJSEUtMEo0UDBKYV9GRDJhV3o0UGloZVBZdkNWalVNRTIxeVRKTXhNRDg1bjU4MmJSZUE9PQ==
+"Nothing useful for YOU.
+
+> then you're already in over your head and you need to back up and read.
+
+Back up and read what might I ask? A quick blog post that highlights some concerns with graphql introspection features maybe?
+
+Jesus Christ, if it's not for you then move the fuck on. I don't understand where you get off thinking that your opinion on whether or not something is useful matters.",r/programming,Z0FBQUFBQm0yeGNZdGhON2RnTDdMQzNGeHNPSFRlWjhrd3VraC1MM3JDUDV4RHFqM2NFcGNsM2VsMnNXSHB2cWxNVGlmeFhvbVlSd2VGa1FyLXhpc01xY0FzQVBaamlRSnc9PQ==
+You missed the opportunity to call your dumping tool Toilet.,r/programming,Z0FBQUFBQm0yeGNZR2NqbDlNdTdmUndESXZRdld0YVpoTnByRThiSnV3ZUs0NUNsdjJFMjRkZ3JDUHV3bm04STlyVmhIRlN2Qk1OVU9oamVVcnlGVVFMMU50Y2RvUjhlcmVUSzF3cmxSVmVXN20zd19QSm9rZWs9
+"I'm positive you personally wrote this and are butt-hurt that its just fluff crap. There's better ways to share this information instead of through a dumb needlessly long blog post. Its like having a blog post about 1 + 1 = 2. This article SHOULD have been written as ""How to implement basic auth in your web API"" or something like that. Not how it is. Its fluff crap.",r/programming,Z0FBQUFBQm0yeGNZTUphclpyRzlVa1RiN1lHMEVvWU83VGxoc3p1dzU0QWswYWhmVW5sWTRZb2pxRDg4cGlSN2R6QkdQbTVhcWUzUVJ4NWVZcHNsR3NXNlZra3JzZzdkaXc9PQ==
+"Whatever you want to think. I just work in security and I recognize good security advice when I see it. Turning off introspection in production and having query allow lists is good security advice.
+
+> This article SHOULD have been written as ""How to implement basic auth in your web API""
+
+Then go write that fucking article you jorker. Clearly that wasn't the point of the blog post otherwise they would have titled it and it would have been a walkthrough.",r/programming,Z0FBQUFBQm0yeGNZNkpQQUQzX3FuMUxSdWhqMGNUOVI3TjlnVndmT0xieVRQZjJwTkZwREctdXZJOWhnaDRSdDgydWVmS3k1cEswT1J5bjBnUzgxX1pYbWlVbTVaUEhkeGc9PQ==
+Yes! I had the itch for this for a while and you've gone and done it! Thank you!,r/programming,Z0FBQUFBQm0yeGNZSGVKSmVKOWdiZ3RNZkV6Ql8zVzBRWjZ5MGktdVBSaUpfOEZicDIxV0FSY1p3TVVSeUl1ZHpGN25sNWltb25XLXVBNW8tVWJLc2FsN2IwQzZVSXR5SWM4cnNvZjF5WmtYNUI4Vl9yeTBaQ0U9
+"Thanks for sharing it, in the repo I see that it was created with C, it is one of the best languages ​​to create games.",r/programming,Z0FBQUFBQm0yeGNZRDBtR2JpT3Z6MkdIdWYzY09NbXA2YzZsMFo5MjBMcXZ2Nlo0M1NYa2pxTXViMHlOeTczR0J4ZTB1eEdCaWZfajh3dFpNR0p0Q2Y2aDNBRU56anhZUWRCVVNxUFVTTXBGQVBkSC1jX0JyTE09
+"> A newer computer won’t make any of the benchmark code run 1000x faster.
+
+
+This is true for some values of ""newer""",r/programming,Z0FBQUFBQm0yeGNZQXp2RXZhbjR0Q3NaRVdUSEVuNmJQcU9QenVqdzhTc3JiZWpnQ3NrUWFhLU9zcmMwWWxjR0ZYU1RUcERZNHVKeVVFdlNTeWhaVlJyOTNybEJzS05BY1E9PQ==
+"For an internal integration service between teams, sure that makes sense. Everyone using the service is internal and trusted (presumably). But that's not the context of this discussion. There are plenty of security concerns with exposing GraphQL to the outside world, this is well documented: https://bessey.dev/blog/2024/05/24/why-im-over-graphql/
+
+At this point trying to convince people that there's no security issue seems like ostrich syndrome.",r/programming,Z0FBQUFBQm0yeGNZbFBLTUx2X0ZlQTA2eDdnRERKU3h0dGw2MGFVZ0RvWUlQdkFlbmkwOXVKSEc2WVN2dzFZMTFBWmJEa3YzdnJpcHdaNUtKak5yLVE0TFUzZ3lrZHNtNWc9PQ==
+"I guessed this one wrong because I read equestrian andwas thinking bytes per second. I didn't even look at the code, which is dominated by these other factors.",r/programming,Z0FBQUFBQm0yeGNZSDEwUDJ3X3poR2NhUzJtY0RUODE4TWZMMzJFclA1UjcxNG16ZGJhUXVfbUphdkVQOEZ0SkRZOTlncE5pRmttNXAwSXlKUGZPSUtpMGtnTm1YOXVTM3c9PQ==
+This feels off. Wouldn't writing to disk have a lower throughput than writing to memory?,r/programming,Z0FBQUFBQm0yeGNZMngzRVNYOUNmMHQ0Yl82cm4teUx3aVgtdkM1NURDb0xCOV9PWmRKcGhqTkdRajFFSWZrWE1kZEljLUZwTW9kdy1ZMTVzRDc3Q0NEcVVyV1RvMVpaUnc9PQ==
+"Actually it does. Programming is not just coding or technology using, but problem solving instead. So the definition of the problem which programmer should to solve is essential in the programmer job. And I as software engineer explored this during learning product management courses. This article was about what I learned on that course.
+
+If programmer don’t understand what problem need to be solved, the result will be adding new framework, refactoring, new programming language or DDD instead of collaborate with business and solve real problem.
+
+At the end of all business pays money for problem solving and not for technologies or code.",r/programming,Z0FBQUFBQm0yeGNZZjlRVEFXZWZha1FGdDF3T0F2d0MwaVhLcDdzMUpwT1BwQlVpd0x3NjVjMl9LN0xJWFdxU3o5QVFISm9SdVZyME85aUIxS2w2OWpBUjBzbXB0aXk1WTgzRmFiR2tYVEY4a1ZkeHFGMEk0U0U9
+WebGL2 + instance rendering + quadtree partition,r/programming,Z0FBQUFBQm0yeGNZdjJtTzlqZDdaMUZ3eloyQVdYdFJmQVFHU1cwZVpHRWE4UEU0WEhnYXFCYWdCdFI1NEhQWDZhblItLUE3SVNYNnBlNU9iMW5SeWZzSzlqQ2czMGlKRmZUTlMwSVJteWZvanRUVnNrSzNGN0k9
+"Persisted queries solved half the issues in the post. (Dont need to expose schema, parser, etc).
+
+N+1 problem in graphql has been solved for years.
+
+Auth at resolver level solves the last of the auth issues.
+
+All of these issues were actually real as early as 5 years ago. But they are now truly solved.
+
+Anyone who botches a graphql implementation today would botch a REST implementation just as much.
+
+Needing to argue this is ridiculous. My company (which is a very juicy target for these types of attacks) uses graphql extensively successfully, with no issue.
+
+Yours clearly doesnt.
+
+Why is it my burden to prove to you that graphql is not broken?",r/programming,Z0FBQUFBQm0yeGNZOW5GS2NOdS1NWE9TUjF3SEZyZldEVzJNQlhfaXpKcFZfZFd5V29Tc1I3c2d6SjZPTU5haVVZZ3JTYi1BTFA1cUlQMHpTNmtZXzJMUzlrUzVTWUtJcHc9PQ==
+"There was ""Protothreads"" a long time ago as well.",r/programming,Z0FBQUFBQm0yeGNZTnhrd2ROUnVEMURBTnhwdzFoUzJuSF9Eb052cFl5VDluSjRIenRrTDBGRjNSc1pVXzRNT1hJVWdXZ3FvQjBOWHltSkhQLWY5bmt2UDJHb1BsRmt1SEE9PQ==
+"This is super awesome, especially given NT is unicode compliant and a good bit lighter than a lot of Linux with complete unicode support making it a reasonable environment for turning these machines into a well featured remote terminal for modern machines.
+
+Would love to see slot-loading iMacs covered.",r/programming,Z0FBQUFBQm0yeGNZZG5hRFR5ZndJLWwtRDFteGVFLUdDMlBfZkV5dmVJUUdxc1B5bnhkSy1NV0lZeVhFa2diRDUxTlBobDhuU3hkaFVySzRGeGwyNC1iQ0lrcUtvbTlRYmc9PQ==
+"Rust ranges like 0..-1 are considered to be empty, so removing it entirely should be safe. Of course, in most cases, an unsigned type would be used to remove the possibility of the nonsense input of negative repetitions.",r/programming,Z0FBQUFBQm0yeGNZcG1aZDI5SGFXMDVqaGhXRWduQzd0T3l2b2xaZXZyZFB0ay1rNThQbkhnX3h0cjVnU21BRjBwX3htS0h0dldDS25qalROLV9NWkhlVjRjaUc4ZEl1N2c9PQ==
+DARPA,r/programming,Z0FBQUFBQm0yeGNZcnJjY3lTQXVtM0J6TzJmOWJhSzdvS1VFaTJNQUZCR1VtRHJ6V29UMjhLOFJmbzR0Qm8wNmQ1TGw3cXQwVXFDMVhRNUwzek1KbG1nQVJKS1A3M0VldWVmX3NUd2FldEI3TkFKcnB4UGtJYjA9
+Did you actually read the post? Even the introspection query can be weaponized if it is exposed because attackers can make deeply recursive queries. GraphQL creates a bunch of new problems and you are claiming that the fact that people had to solve these new problems means that it's all good. How about not having those problems in the first place? You can't botch an introspection query in a REST implementation because it doesn't exist.,r/programming,Z0FBQUFBQm0yeGNZMFVVV3ZiOWhQVkpBTVhQMWpZaVdEUVpUZ2tUMGY4Vi1menRhWGJ2R3lZUWZfdUhlOGZYNng0bU1COTl3X09vOV9jU2IwcXRuMnl2V0xMNHlpeUFtT3c9PQ==
+Undoubtedly but its out of scope if you're trying to show how fast javascript only can be.,r/programming,Z0FBQUFBQm0yeGNZNFdWOXVFLVdCT1MxYzQ3aVNyVEkzbE1IaEZiOUlReDdlYjhPcE10d25HY29tQTMzbktYUFFMdTBCM3JlelZMOWdyTDhkRXlPV2NNZ3J2ZnZycXJYZmc9PQ==
+That was a pleasant read. I can't help but think about a post i read where someone explains they say the wrongest shit imaginable here and on stackexchange so someone will type up an excellent counter that explains all the things they wanted to know. Therefore im upvoting you both lol,r/programming,Z0FBQUFBQm0yeGNZQWJwMGVjb1BrQ0R4TS00bEZCNXJ2YnBfUFZBT2h0RUhjbExVUy1JSHdybE4xX2JJN0xJZWNkLTJkaEJUX3N3bTA4NDhrR3ZleTEwMFd4bGlRVlRIdHc9PQ==
+"Coroutines are not multi threading, they tend to run on a single thread, it’s similar to C# async/await for a single thread.",r/programming,Z0FBQUFBQm0yeGNZUTlweU93Z0Y5WEhmUVBrNnNRbHpIdzBXU1VXWkRpYTRienJXNnJNVXFPbjlnWWhRSFE5X1ozSXJYTVNjTG9EU29ZNVJQT3d6Z0ZaNnVPRXEyWE9LUUE9PQ==
+"Text posts are not allowed. Note that r/programming is not a support forum, see the side bar for details.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/programming) if you have any questions or concerns.*",r/programming,Z0FBQUFBQm0yeGNZanhfV3ZFTWp2cW9VRVNiLVJqWUZWRWx0Tk9vb2E1azMzaXBNaG10a0ZKcjNuQXlFaWVNYk1HSnJkZUkwZmxtRTlTM3hlbllKNGxtWXM0bkZMSlltREE9PQ==
+"""Wow this guy is an incredible programmer who knows so much at the OS level, let's check the rest of the blo... he... made.. FUCKING FACTARIO? Okay I feel better about myself.""
+
+Great article and also you have taken countless hours of my life so both I love you and i hate you.",r/programming,Z0FBQUFBQm0yeGNZanZ4NlNpR2JJLU5COGNwQzc4dDJzeS0tMF9fcllHRmY5aE0xLTFmSFdTdTZ0OWNqRkY3eDFWODNxSTlqQzZsb0ZQS0JqX3dCdjlpbnRyNG55VHVQbnc9PQ==
+[And the drives / drivers may lie too](https://devblogs.microsoft.com/oldnewthing/20170510-00/?p=95505),r/programming,Z0FBQUFBQm0yeGNZOS1SVkp2TzRNR2ZlQXZjZkZ0YUxkOXN3S3hTclZlR3dPVHVNbmhad3UyTl82T2M4Vl9lMDQ3elQtTVBJQVd0d21Wa1M4UG5Bdk0wcS00ejlpYW82N3c9PQ==
+"Attackers cant make deeply recursive queries if you’re using strictly persistent queries (which is standard security practice).
+
+Persisted queries mean that attackers cannot write their own queries, or even see the source of the queries being run.
+
+Querying is restricted to a known set of hashed queries, that are resolved by the server.",r/programming,Z0FBQUFBQm0yeGNZQ1JuUXJkNnhBUlA0aW13VndKTnoyT0ZrREdFY1dORll2Z3lLV2ZndGJrZjFQWVpFVmpHekdWRVJnM0wtcXdHVlkteXFpaFlMWXpybnZlUG13SUNJUmc9PQ==
+"I am talking about the _introspection_ query, the one that you make to ask the GraphQL server what its schema looks like. But if you are talking about persisted queries, we are right back at the starting point: a REST API is basically a bunch of persisted queries anyway, and you get a much simpler security model _and_ you get free built-in caching semantics.
+
+People _love_ saying there are tradeoffs everywhere, but sorry, for some things the tradeoffs are really just quite obvious and one-sided. GraphQL is just unnecessary as a public-facing API.",r/programming,Z0FBQUFBQm0yeGNZWFJValdramNWeVFrS0wwTG84X0hVY1o1NnJlVUw2azNRZUUzSWdQdzJFLWZzTTh6cGpXSkxvTUdnT3Z5NnRBTHhhdEhFTk5OMzdyRnVyWHN6Nnk2eEE9PQ==
+"Why are you leaving introspection queries open to the public? Its trivial to disable, and only sensible to do so.
+
+And yes, you are back at REST, because you dont need dynamic querying after deployment.
+
+And yes, REST is simpler, technically. But graphql is simpler organizationally.
+
+I very rarely talk with the backend teams. The backend teams only talk with each other when they need a new entity type exposed.
+
+Caching is more complex because its moved to resolver level, but it gives you uniquely identifiable objects in exchange (which is a godsend for keeping client state in sync). 
+
+Are you know what? Sometimes its desirable to have caching at entity-level. Doing it with any REST architecture is challenging, but I digress.
+
+From a public pov, REST and graphql are near identical. If they’re not, you’re doing something wrong.
+
+The whole sell is about development time, and iteration speed.",r/programming,Z0FBQUFBQm0yeGNZX0tyTGlRY2lTd2hITlNSV2ljQ3VZYlRFWDBjOHpubkRGRjNrZXVzSm9XenJNM0gtSWZjYzI2X3V1VnhhaWJMcnp1TklsT3hMV3lmdkFFNV95ek5oaFE9PQ==
+"For a less long-winded reply: if you dont see value in the trade-off, you’re probably right for your case.
+
+My case is 5 frontend teams working with a common API that is built by a dozen back-end teams. Graphql absolutely makes sense as a trade-off for us.",r/programming,Z0FBQUFBQm0yeGNZWDdqZGxJcjZXWGRDS2xpU0tHclFpbW5GMmdMMVpVODRZQW8tUWlkSmwxd1BIeDlQdmRzcDMxMGdBYVEzbXpMZktsNEEzd1B5a2hVVEJ4Ukt3UlFNVlE9PQ==
+"27ms from a proxmox server here on a 2.5Gbps LAN fiber, 33ms from a wifi Win11 PC.",r/programming,Z0FBQUFBQm0yeGNZbF95M0RNSG9iZXlvX2JnRkVoUVk3X0hWLVlwb0t5WFVPNGVGSWhtR3NhR2Y1MFRubWpWQmFhTENUUU1MckF4ZzZjU2FhTHVuOVg0VzM4NUwxbnVDZXc9PQ==
+"Damn, nice job! Spent many hours in Dune original RTS in the 90s, would like to try this one.",r/programming,Z0FBQUFBQm0yeGNZSllCQ2Y4R19iS19uZ2JNWFdWa0loMDNKN1JQZzRFYjlwaVh4eVFrYUE0Zk02ZzlvQ0hMSEU2Z2l3blNFbTNaZFpCb2c2UktVR1BnNmtqdlNpZ0V5bEE9PQ==
+"You are a git newbie. Are you also a virtual computer newbie? Despite the file size of virtual computer image, I think, it's not easy to use virtual images the first time.",r/programming,Z0FBQUFBQm0yeGNZQmdiak82NWxyYTg2NERPaW9nLTRRcFg2TmlYSXBNeUJlTTB1QVV4dm1fenhoc212UjJmQm9RVHRzaklhcEl0LXIwMjVuVWtFekxjM0pVRjJnQ3Nhb3dSZ0YzV1RuSzltSE9icC12MzB0U3c9
+"I've already done this https://github.com/mandiant/STrace/blob/main/Rust%2FDriver%2Fsrc%2Flib.rs#L173 Rust driver that embeds a no std web assembly interpreter into the kernel. You can compile JS to that, and many other languages too.",r/programming,Z0FBQUFBQm0yeGNZTm1mM3dnYnk3eU1VRlRFSjBlajFsOG9vdklmZlMzNDRjbDl1SFRmeUI0aUdRdnNILXNwYTBiSDhJTEdEVm5iVlpmQmdlQmpwa2RKdVVhTU9TaE4tVVE9PQ==
+"When I had webpass, my ping to google.com was 4ms.",r/programming,Z0FBQUFBQm0yeGNZTWp2LXUwMWo5aE44T09XN2dRMm5wNWQzMFBhU2taR2hYOXNLT0J3NEJDWmVPZVUzRC1TTWxSVGM4dG9ZckdaZUc5RTRTWVZtLTNBeDZkZ0NlT2QtckE9PQ==
+Waste of time,r/programming,Z0FBQUFBQm0yeGNZeXpIanpTREk3MHNCaU5CaHVudVBZRWhSUUFzMmVXMnRIX1JXb05Da3hqTmJCN0VlZ09DZExJSjR5MGRhSnVocnZ3eXctMV9kTlhRM28ycXNfSURvVFE9PQ==
+"OSX fsync only updates the drive cache and doesn't sync to non-volatile storage. There was a lot of discussion in this 2022 thread: https://news.ycombinator.com/item?id=30370551
+
+Linux fsync actually writes to non-volatile storage.",r/programming,Z0FBQUFBQm0yeGNZS0NzTE5mNTFkZnFtRklqZHdQemI1RnZjX3RRN3lMMmNUem4tYlR1ajR5NFV3RXMxeTdTay1ZTWp1MUdHd1dCRWZnSWFjem9mYk90NmNaT1FWWTBNZFE9PQ==
+"> rejects the test suite before running any tests if the code isn't formatted.
+
+Put that shit in a commit hook and don't waste people's time.",r/programming,Z0FBQUFBQm0yeGNZVEdxampSTlJkd3F4ak54NWVRNWoyV3BTdHhDY2Nac0ktNUxaRExERjcwTkZMWWJqWkNrTGJTdHZtdXdpVVBOTUNtaWl6VlhINFFoMHFrQjE1WmpKeUE9PQ==
+"OK cool, now you have just centralized the bottleneck to the one team that is responsible for the GraphQL server. Everybody else depends on them to add nodes, write resolvers properly, take care of auth, caching, etc.
+
+Now imagine instead of a GraphQL API this team was making a normal REST API. What really changes? Nothing much. A few queries have to be slightly redesigned. Organizationally, everything else is the same.",r/programming,Z0FBQUFBQm0yeGNZWDNUNzJ2MVlDcjdRRjk5a3FFRnFPaU9CZTJFdk5vc0FmTGYyUkppY1dNeXV2RVdTUC1jeHVEdFpVMGNzNGxtTEN6M2NJZW9PLTVNS3RBYUpHb3QzMWc9PQ==
+"Could be mistaken, but this already kind of exists through gnu portable threads doesn’t it?
+https://www.gnu.org/software/pth/",r/programming,Z0FBQUFBQm0yeGNZRUk5SjFDd1VQNVRRRXdXZXpKcjJmcUlNTGM3QU5iNG5BMExVUHhUTVpaMUFpeGRGY1VTSm15cDI4Z1A1TnVVZG5ieFZHUWZRSmFKSmlwbXpCSkExNHp1WWNkOWZMQmlMOFRIWmhWeE16Zm89
+We do both. Defense in depth,r/programming,Z0FBQUFBQm0yeGNZVGZVU2FzSWpHTUxvUW13eWY2V2VOWjBKbDlPOVlmbmw2NkZXVmx6RnE0V3hRNHdXdVZrM1ZUTGllYnhVU0ZmUWw0UHFpYWlrbWxCSFBfczZVUDJkM2c9PQ==
+Great work and great blog. Thanks for this.,r/programming,Z0FBQUFBQm0yeGNZTVp5M0FEbFJha081V050d3JZQjI1VllDYk1aQ1BIN3owYUo4SzdKMDJWOUdYSHBPWFpGeVJ6ZmFsanlCM0NSbXNYczR3X2ZUYXhCV1NkMVMyRzdtVGc9PQ==
+No. I don't think they do.,r/programming,Z0FBQUFBQm0yeGNZVW56RWFtc2k5ckctOGxwcTRKa3BqSVFpaVRFbHVidTRGWGZLRWpCd2dySjk1LW9oNngtekJsWVlkQVFvdUQwd2dFR01LQnFlQnBSOFRMQzhhdGNwdnc9PQ==
+"Hey I remember that game, pretty sure I still have the discs and jewelcase somewhere. Didn't particularly like it but it wasn't bad.",r/programming,Z0FBQUFBQm0yeGNZVUx6TWFjZG9IbURQbTg4UWhGY25PMHhWSWJ6TVlnZUZucVVPN3pYWmtHZjF4MHV3NUcyZXZGU2s2MkJSMHM1VjljaU0wb0VDM1h2Q0dOalJ3Vl8zc0E9PQ==
+"The ultimate destination for a graphql server is a service mesh. Each team owns a group of resolvers within their domain. 
+
+Their inter-operation is entirely schema-based. Nobody needs to write integration code, or even talk to each to build integrated services.
+
+So no, the development of the graphql server is decentralized. You can have 10 or 100 teams working on it in parallel.
+
+Airbnb is built on this idea. Impossible to tame all this distribution within REST.
+
+Absolutely not the same.",r/programming,Z0FBQUFBQm0yeGNZU0RPQS1xQ3R6RUxycmFQTkJaSjhKb0hiQlVWcjljQjg0NWRISFdhOWxBSTdubWV5TUVNTDRGaElEVnlKZFQ4RG1VV0I2ZnZNZHRFbkZrU3RQNk1FOUE9PQ==
+"As I already said, this is great for internal integration services! It allows a holistic view of an entire organization as an API. But exposing this federated schema to the outside world would be, imho, suicidal.",r/programming,Z0FBQUFBQm0yeGNZUEVRUnZiNkJablc2Qkh6RW1LYVZidHZZUHVOZG5ra1RvZ2Q3SkN6ejhNdTlrLUxpNHNzZjdfNWhNajFWYkFsY0Q3S0Z0eldvNUQzdnhJdTE2WDRoY3c9PQ==
+"You dont need to expose it. GraphQL works fine without publishing the schema to the world. And even if you did, you dont need to allow arbitrary queries against it.",r/programming,Z0FBQUFBQm0yeGNZMU5oVVhZMFdBcU14aTVyYkJodS13UGdCdjI0LU9yX2RkY3ZpZnFFSFZpQWNGVDZvTHhxWDdKcnVTNnhKYkRBQzc4ZmpYUzRkc3NIaHgtODJ1TG1OaEE9PQ==
+Cool! I have the box for this somewhere. It was such a mysterious game to little me. I want to try it again now; your work will be appreciated!,r/programming,Z0FBQUFBQm0yeGNZNDNVNVVuZ0dFQVpRTDdPV1lQeW1GVklFZkpvQ20yN2hQSEkzRUdQbHM3VkNTTnJKNC1tV2VNc3hEQUFmOV96cHJqcTItOERfMmNLa3d4UTlRa1pQWFE9PQ==
+"I see the demo running in a browser, is this a web component or a native plugin for chrome?
+
+Excuse me if I’m blunt but when would you use it?",r/programming,Z0FBQUFBQm0yeGNZeVFpc0laMWVnMHlGQ0hSWDdxdzdObDVhUDladXBKRTFyNVFUYW0tUXdWdmlBc0VyNGN0djRxdXFybXlDY2dxY0NWNTZHLUljQ1pxLURDVVJuT1VLdWc9PQ==
+"> All of that is also true for multithreading plus actual race conditions.
+
+**That's the point**.  You get one of the biggest risks of multithreading with none of the clarity.",r/programming,Z0FBQUFBQm0yeGNZbFQzWkllWjU4SGczOHRtSXRBelIteG5GTjQ2b013YXhORzRxSHl2SDVfUEEzSjJacTNoeFY5ZlNfazhnREJ6LVBaWTFjaGhnNGtMV2Nzb21Bejd6SHc9PQ==
+"> Locks bring a deadlock risk
+
+Yeah, you completely failed to understand what I wrote.",r/programming,Z0FBQUFBQm0yeGNZNGFqd25ZWHJSQ3dqNVpfZ3dKbE1OVkdFcTRORTlJTTFycVg5dFdvZTB4cEdsejlHWUhnN0pwaThGck1CbkpjRDd0a2JGWEhzM19zWVY4VVo0QnotUnc9PQ==
+"So, only for esp32 and PC?
+
+Let's talk again after all the Microchip and Atmel microcontrollers are supported.",r/programming,Z0FBQUFBQm0yeGNZd0cxbFEzVHNXbDBrZVhvOVVkcFFJRmY0RnBwNzRyWWVRTlZ1eW02bThIRm5XWi1KN2RwSThISVJRcVRjemFWOTFQYUh1X2VBQ09IbEcwN3ZfSEVMd1E9PQ==
+"> Yeah, but they are. Except it is much easier to express and follow what you're doing.
+
+I disagree.  Direct state machines are preferable.",r/programming,Z0FBQUFBQm0yeGNZdjN2RFRkNXhwOFZ0dGF6YkthcDhNMUI1TjlDODZob2JFMTM3RE5IT0tvLUtBX0pYQ09PeWM1SHZRTGs1Q0hVWjdQTV9McXBGTWFuWEd3UXpYOGlhVGc9PQ==
+"> Not wanting the overhead in complexity and safety measures is not a compelling argument?
+
+As I already explained, multithreading isn't difficult **and coroutines maintain at least one risk factor**.
+
+>Because writing a coroutine is more elegant/readable than a state machine
+
+Strongly disagree.  Coroutines are just state machines plus magic, and magic isn't readable.",r/programming,Z0FBQUFBQm0yeGNZODhPdkhhMGFwOUZDc2ctZnRnbk1QSHZuU0t3dTJsVGNvZ2lHMTZUTENBSHptUmExNm1TenFfUnRxYXIwYV80d19hU1Y1V2U2cWgtUE5TT0JHOHNHcmc9PQ==
+How is this easier than C?,r/programming,Z0FBQUFBQm0yeGNZaGs0bzB4TzJwQ2toZzlZT3Y1bExCeWJ0bnFtOEw1cDlXR1pmQ3hXNFE3UFBQSktJdUR4a3Bscm9JT3RlYUp4T3RaLUlqVEE5VlBZVVI3djgyZmZzeFE9PQ==
+"NgRx and effortless in a same sentence?..
+
+These AI generated articles are getting out of hand.",r/programming,Z0FBQUFBQm0yeGNZNC11anJvcll1Wk4ySlVQMkR5Zmx3ZUZSQ0ptdjdTdURNbTBydmstWVlNRGM5bmtKd2YzMk42eGNDcFVkOFdEZHNNVjBXWWRMSGRJT1lZY09DQVdBamc9PQ==
+"I'm talking about publishing the entire federated API, not just its schema. That is just asking for hackers to probe your API for weaknesses at every single node. If even one of them has less than perfect security, the whole API could be compromised. Everyone thinks they're great at security until they're hacked, then it's 'we have been breached, but we pinky promise to be better next time'.",r/programming,Z0FBQUFBQm0yeGNZTjlpZnZsNUZUMUZjVVVyQVd1aldnYWxxQThOMnlNUlg4ejV3YTdjQjdBZWlzX0VvVkhWNDd3NU1MclRIVHI2M0tuLVNZTDNFRGo3TGwzTEdhRVpVbkE9PQ==
+"Every new .c file I add to the project, I also make a -test.c file with unittests in it.
+
+How many tests remains to be seen...",r/programming,Z0FBQUFBQm0yeGNZVDAzRnBNdjhhTWs5QTdlaGFERHpNeHdPS3o4VEN6cVFFNDlCdmpYUHgxNXM0VFJqN0F1RS04SnF6Z1dHb1pkMEwxYVZsNXlrdXBoeWhtQ3FXWDUwQWc9PQ==
+Nice point of history.  Thanks for the share.,r/programming,Z0FBQUFBQm0yeGNZR2d5R3N4VjVETWN3WFgzcTltTzY1MTlGc3ozWVFvQjNqRkFzYUJodnB0ZURuclllZ0lmVXhYc3VLYjhZLW1Xb1U2Nl8wNU1LRTByU1FPdWVzdDFBNXc9PQ==
+"True, but don't describe in your comments what the code is doing. Everybody can figure that out. Explain why in the comments, and why in this way.",r/programming,Z0FBQUFBQm0yeGNZdmRoUnJpdG02dHlvb3NyNzAtTnNxVm5fVGNtd3g5VTdPMHQ3Si0zbmFxRmRYc2hmeHFhUVNibWdoeTljc1pYa0ViSUVCRndwN2ViYXNOVXU4Sm5HX3c9PQ==
+"Actually I wrote this Blog,
+
+I understand your perspective that the content might seem overly simplistic  for those well-versed in the subject. However, it's important to consider the range of our audience, including those who are just starting out. Take the concept of `1 + 1 = 2`— it's elementary for someone experienced, but for a novice learning numbers, it's foundational and filled with nuances.
+
+This often requires laying down foundational knowledge first, much like teaching someone to count with `| + | = ||`.
+
+I believe, what seem like fluff to an expert is often essential scaffolding for a beginner, helping them build a solid understanding and confidence.
+
+I appreciate your feedback and understand your concerns. We're preparing a series of in-depth articles that will delve into specific aspects of the topic in a clear and detailed manner. Here are a few titles you might find interesting:
+
+1. **""Setup Guide for Your own GraphQL Security Lab""**
+2. **""GraphQL: Understanding and Protecting Its Attack Surface""**
+3. **""Preventing Denial of Service Attacks""**
+4. **""Information Disclosure: Strategies to Secure Sensitive Data""**
+5. **""Field level Authentication and Authorization""**
+6. **""Preventing Injection Attacks in GraphQL""**
+
+Stay tuned!",r/programming,Z0FBQUFBQm0yeGNZNGR4WElCVjBJWUtFUmc2MmJhWmFiRklDR0ctS3NtVTZ6bThNMHBZc09jSDB4OF9sWVl1Y3dEUUtGOEVyOFcyOW1DRlFtU25KQlNNb1FQQzVkQXAtbkE9PQ==
+"Yep, I write retarded code, that's not efficient, not small, and does not run very fast.
+
+But I do understand it while stepping through it with my debugger.",r/programming,Z0FBQUFBQm0yeGNZNV80d0hvMEhhRHFmc1pwNVFmUlJ3dDZCdnJ4MWdDR2JjN1NPQ2hTOHRUZUtJdllhTEtCR3ZONzZNQ0c2bjFLYzE3R2VYRFh1SGZqYjFkSkU2ZmNDS3c9PQ==
+"""cramming a lot of logic into a few lines of code""
+
+i spread out my code out onto as many lines as I can. Makes setting a breakpoint much easier, and lines are free, nobody will hardcopy the code anyway.",r/programming,Z0FBQUFBQm0yeGNZemtXZWtNbDMwdVRPYno0V0M0SzExNG5NdEZuLVFYMHZQWXM2QXZaWnUxbGsyZkpVS0RFY2JzR29CNk5wZk5fdC1VeVBORnNEUklpYzZ2LU5LbFNqLVE9PQ==
+The fonts. I can't even focus on enough of the page to understand what it's talking about.,r/programming,Z0FBQUFBQm0yeGNZcm82WGNOVW5EMHo0OGliVHNkMTlBLXY1dC1za1dwVkJPZzZ0Ri1xXzRTTkN0eUNyT0ZGblBNNmpLV2xQRFQzRU1EYzZISHFlTWtOZkZicG5IWXl4R0E9PQ==
+"I've easily gotten >1500ms pings on flaky 4G connections.
+
+I also can't imagine a connection tunneled over Tor would have low pings either.  And running it from within China would be an entirely different story.",r/programming,Z0FBQUFBQm0yeGNZbkZFY0NrYUJub09Hb0dVM1FQUEcyeEJsMmpWRWpTZl95c2JyZTFYMTRGa3pNVlY2al9YT21VVWlrTnlfbzhwdHNXa2x1eGlfelIwM3Q2SEdqRXRhbmc9PQ==
+Microsoft has changed you know. Now they make billions off open source software,r/programming,Z0FBQUFBQm0yeGNZNjNNTzV5QWFoN0F4VlNDc0tDcGtjLXpoN2J6aFl0MDlmNVRad0Z0SlFGRGJ2eFMyTUo0c2FlZXhtZ08zbkQ0NkdTdHVDdnRvc1VsOEpVR3FVTFBEVVJ3QWVvaUJveU5GSWF1YXpIbDlBS2s9
+"I wonder if their test is multi-threaded.  SHA256 shouldn't be that fast, even with Intel SHA-NI or ARM's crypto acceleration.
+
+I get ~2.6GB/s on one core of a Ryzen 7950X via OpenSSL3.  Disabling SHA-NI, it's ~688MB/s.",r/programming,Z0FBQUFBQm0yeGNZMmxncVpyaDJub3czaUwzcEdhUGIwNWNDelhhUUNJejctdWZxdEk5YUh6RjhMbFdkSEVNeF94N0c3aV9GT2RtbUROQ1padUFxYV9SVzZLTHc5M2VfQUE9PQ==
+"Fantastic work, couldn't get it working on Linux via wine which is a shame but might pop into windows and see if I can install it there and copy over.
+
+If there was a way to point to a folder instead of it autodetecting a disk that'd work",r/programming,Z0FBQUFBQm0yeGNZMFZfS0N4V0FvdU1Ma096cGZCa3REdWZEaHZZdVBWYTlGZUtIS0xmS3VxMkN6enhNcjhycEV2SnNlOGllNTlKNmZvTXEwZkd3WU9vY1FqcU9JQmE3cVE9PQ==
+"Very impressive, well done!",r/programming,Z0FBQUFBQm0yeGNZZ21TZnJjT1VWbm9IQlAtRi1yM2tUdEJJM2thSjVHdkRHVmtmWHNWMXhXRVNzN0JfaEhybHZjdjFBWmFaalU1eXN0cUZfN0M0eW5YdDBwb0ZtSV8yVUE9PQ==
+"I've answered this before, but you can't probe nodes if you only allow persisted queries. ""Querying"" is a dev-time feature. It's impossible for attackers to write any custom query in production.",r/programming,Z0FBQUFBQm0yeGNZVWhYVk5hUWNxcVZVMU1mU01hM093VXJyYzZqeGhVeEZoay1BNjM3dGpibmtJdm95V1Y3OFdwRFpRVEs0UldLVWsybWZwOWxNNzIzY0k1YTY1TnJzTXc9PQ==
+"Very impressive read, and work.
+
+As someone that remebers when Dune was fresh delivered in the computer stores, and how a new concept it was for the time, this brings me down the memory lane.",r/programming,Z0FBQUFBQm0yeGNZV2toRXBuX2F1WkhqdUZxMHRseVR3TTZsMFNBZXpWOFhvU1BvQTc0SzUxQWhiMHdJY2ZLMGR3cTdfbi1RMVM1bXVYT0JwTWlzZG5qZlhfN1k2RTNEVHc9PQ==
+"> Coroutines are just state machines plus magic, and magic isn't readable.
+
+Prove it, rewrite the example at the end of my article with only state machines and no coroutine ""magic"".",r/programming,Z0FBQUFBQm0yeGNZclVJbDFSbXdPSjF3QXNyVllmTTFNS2JNOXk1OG5vYk01c3ZHOFhrb25xeGdCNFJUalVGd3V6RmJvM2llajdJU3lmY0EyZ1FlZDdabGdYYVVIOENkMUE9PQ==
+"beat the compiler ❌  
+beating to the compiler ✅",r/programming,Z0FBQUFBQm0yeGNZV04teE12eWVoQ1M3TlM0cUUzN3p1UDhueUgxbExQVm5zRU5BUnFQLWprclNjWnJETVBTUGNXM0NCN0ctQkl5dEZsRFZlelNtbXM5VkhJVGQ5RXZ0ZEE9PQ==
+Im faster,r/programming,Z0FBQUFBQm0yeGNZdzhFNXhTYmY3RXJsSjRobl9YSFFCdWtSYnB2OTRFT2ZkWnZNN29pVXZEc1g2bGY4Zl8yeXByUHR6Nzg5RWt5bTJkTlRMQTFxOXg2UEdwLUd2WjNuS1E9PQ==
+"The mangler/nat issue with the emperor's multiplayer seems identical to what occurs with red alert 3's lan coop. Did you consider creating a generalized launcher that could apply the same style of edit there?
+
+Regardless, I love seeing people keep these classics alive and playable, great work - I gotta dig up my emperor copy out of storage now.",r/programming,Z0FBQUFBQm0yeGNZMG50UEVOVnVLVDlReDdaWU9iTG5NZ1M1TVZHbVRXRjlheXhoX1pueUFKYUtxSmVOZUxCZHhfOXNDWDZsaVAwN3Naa044Rk96OHVkREQwdlhvZTJVSVE9PQ==
+"I've had a shit router that had a bad local DNS cache, that by itself made page loads take a good amount of time.
+
+The download question... There's a shitton of variables. That you don't even attempt to clarify some assumptions, like ping, bandwidth, DNS response times, perhaps more than I'm missing right now, just makes the question hard to answer. Not to mention - I'm running ad blockers, and if Google.com has server side ads, which I wouldn't be seeing, this could increase the size substantially. Then there's the fact I just don't visit the website, at all.
+
+You also have seem to ignore the *wild* range of hardware still in use. There are people still using DDR3 systems from a decade ago as their daily hardware.
+
+Then the SSD question... SATA has at least an order of magnitude more latency then an NVMe does.
+
+Write to disk... I'm assuming that's uncached? A local drive? What kind? SATA? NVMe? SAS? Single? RAID?
+
+Overall, a neat test, but fucking naive when it comes to anything outside the CPU. Which... I guess is typical of the industry.",r/programming,Z0FBQUFBQm0yeGNZZ3JpcGxrallNd25vN3NHMVo5RjBIa0Jlek00NlJGUHpwOXZQbldyZU4tZU9DWkdoVFN4cGNPbDd0endYN0VMMU5ta1FmQzlIa1JHQWxaYXdWOGd6aEE9PQ==
+"Well this is great work, if this is the core feature of your business and you want real results, using a compiled language like Go, Rust or even compiled Python would go a long way to avoid all the require delays in dynamic languages, large container sizes and will give you more lower level control over your application.
+
+Well this most likely is a huge rewrite it would be the correct long term solution and was clearly an oversight when deciding upon the correct tool (language) for creating this application.
+
+Possibly a short cut would be investigating if there is any compilable JavaScript tools available 😭",r/programming,Z0FBQUFBQm0yeGNZMGhDN1pmNEVfREpnLUljSGFEeE5wWU1JcE9yTUhubFFtV1l4R3RlclVhZUltRVhOVFFIYWg4Qlc5bTdqYTdxMVREYUlJUzVXWkx4MmFqSFNSSk9zTVpSNHRvZlRIUmlaSHNqYnZDdnJnMEU9
+"It is both.
+
+It is a core part of what JS is... that is simply undeniable.
+
+And yet by today's ""best practices"" the prototypal programming style is effectively considered vulnerable by design.
+
+But don't forget that the vulnerability scanning tools of the npm ecosystem produce lots of false positives either way... it's common knowledge that it does.",r/programming,Z0FBQUFBQm0yeGNZQ0g0SlN0S2FMSEgzb1BLNEdiYWhlMVhNNGcyRlJfM2h3MEo3MC0zN2NiVERndHJDMlNnS0RlaW5lMTVVckdKQ0FCWE9aNEl1eFQ1Z0NWU09zTkRkYUU3VklDZjc4NkNjYkFBTmdnZW5SQVk9
+"I also found this strange, the design of having an always on service sounds great, the reasoning of having problems with scaling for requests and cleaning up requests are poor excuses, k8s is meant to both scale pods and actual instances, they could simply scale by no. messages in SQS or a combination of cpu, messages being processed…",r/programming,Z0FBQUFBQm0yeGNZa0otY1pYR2NTMTM2RnZYcjk0cTFTblRNMEdwUVVmSWxKMWxZdXpPeE4yNEZuZjlSa2hUQVd3cnlmUm1kQlExeVJSczNZaEJhN3c0OFhlY2dGNkk5VW1PbVRLaG9fVDNEZjdocDZ3ZU5vN2s9
+"> Unfortunately it is user education that most orgs miss. I’ve seen competent senior devs enter their credentials and mfa on a forged site that was shared with them from a fake microsoft account.
+
+A secure system would prevent this. We even have the technology: Webauthn / FIDO2. It's impossible to share the private key on a hardware token with anyone.",r/programming,Z0FBQUFBQm0yeGNZM2drRnhzM2lUS3c2Z3J1ZHdlZno0dWVKRkR4T1JrYUpHT3huamhWY1prOGp6UTQ0b3FGSG8zVE9WR2lHaW1VaGpNcXlieERBRHB0VzY1b3VscWVxbHc9PQ==
+Nice article and tips!,r/programming,Z0FBQUFBQm0yeGNZbWhtTkxyaFdmdXVUa3VzVGxoNzJOa3N2R2ZtdjZyb3RJWE9QbG5CMzhUQ0lNckRBTTVGdlNqMk5sOXoxX1JXdnBkam1CYjVKblFEYUFXZDVTOGN0aFE9PQ==
+"Yeah, Im amazed at some of the comments like 100k LoC for 200MB deploy size. 
+
+We have well over 2mil LoC monolithic backend and our start up time (*not including running EF migrations*) is about 15 seconds at most.
+
+Whats even going on with  these guys jesus.",r/programming,Z0FBQUFBQm0yeGNZSzdfRElwRWJmdG5pSUNjWWQ4Yk1jWDEtWlN3cEQ0LWs4YjlkQVZMdWRBZmktY3doTkp2UXRtaFp4VzdleTZHR1JrczlSMy1Zb1B5aGZpS3NCeDV4UkE9PQ==
+"Yes, we definitely had some good progress in terms of frameworks, rust, devops, and so on, that make it hard to the wrong thing (and ideally easy to the right thing) instead of some LAMP stack that made it way too easy to do the wrong thing.",r/programming,Z0FBQUFBQm0yeGNZTVZlR3U5enVLdHE2a2RhWFhxRkpMUWF0THc1cU9xdTZaNUpLdUpWaXVkWkNyRU9vT044SElDaWJBR3JEWkEyMXBQWGlqVEp3aHJJNWdPQlN6VWNSeGc9PQ==
+"Of course I want every machine in my organization to be different, installed and maintained by people whose job is not that. 
+
+I want Windows outdated and misconfigured, with every possible door open. 
+
+The article must be written with ironic tone, because it's otherwise...",r/programming,Z0FBQUFBQm0yeGNZMXdUT3JrWmxyZ1M2cEh3YmE2RVg4VXNFZW9UR1BOMTZ0dXh3dVlRdUl0UW4wTzlqTUtfOUw3NWVKbjhKNUFQMHRQN1RpWF9nOFdQUHVKZjg3UlFZUUE9PQ==
+"Maybe it would prevent it, but educating users how to work with hw keys is still user education;)",r/programming,Z0FBQUFBQm0yeGNZcEU4SzZiYjRZMFlPMXFtNWUxa0Vta2JqbDBqVkE2aDk2Ukxvek84czhDaFJtLTVvc1hpeEdsdnpYaE5oeTZ0elVKYThNMlAweXFwZTNYWDZoWVNPYVE9PQ==
+"Weird, my experience is getting told to drive the truck then people acting like YOU'RE the idiot when you ask for a map and flashlight to help navigate the labyrinth that some well intentioned moron decided to hide the keys in.
+
+YMMV tho'",r/programming,Z0FBQUFBQm0yeGNZM1o0ZXpWTVN0LU1wSFdFdVo3TE4wcy1uSGphY3RURnZyQzFyZi1LWVlncEVOYzVXY2pPeVQzeVRtRWtrTXlmSDY0VEpwSHUtMzU3NVFtbTY1dThiS3c9PQ==
+"Maybe that's just me, but I find a Yubikey easier to use than any of the five (not kidding) authenticator apps I had to install on my work phone.",r/programming,Z0FBQUFBQm0yeGNZbEpBUWJGSWFNem5zRU5DNWtxbEd2UDZvX0RFLUM4S2FDdkZtRkQyNGo4T09RcC1FWTJjbU5JRkE3NndZYm1VdkVCaWhXWEJEa09Vbzd5N1FOa2dkZXc9PQ==
+"They were trying to do that before 2005 too, but it runs into basically the ""worse is better"" phenomenon, where it's possible to deliver some desired functionality by playing fast & loose. As with other tragedies of the commons you have to regulate them out, so we get stuff like the GDPR, or the White House stance on memory safe languages.",r/programming,Z0FBQUFBQm0yeGNZRGFORmhGaG5QMzg5MnMyVmhTWmpJcV80NEs3bjJzcnhEQjl5YTNsQVZaME5IQlpXckhLZy1nZ0xDNGtLZGxlS28wUzl6Q0FSeElheDgxM1Zxa0RaTmc9PQ==
+It doens't say SSD (SATA/nvme?) or HDD or ram.  answer was about 4GB/s .. which is between NVME & RAM,r/programming,Z0FBQUFBQm0yeGNZczZEd25fTEFhRUFwYWFRUEpNeHprdHM4MUF6WnVXZkV3OG9XOUppbnJzZ3FfSXBORUw3N09OdmZmTnBLTjlEVWNUOUZOMFZLWFNaLVFVMUItRmtKNkE9PQ==
+"The rust write to file is 690MB/s.... This is very slow.
+I've expanded on this in my other comment.  
+Arm Macbooks don't have HDDs and OP says /tmp is not in memory, so it's SSD, and as far as I can tell, apple uses their own connection method.",r/programming,Z0FBQUFBQm0yeGNZYjlQVzQ3ZnJ0elg5YTJFeWZDSURySk1wZ2VENkR4MFdZNEVRMlJRaWxZVUN1MEZjRFo0X0dMVnRtNV9pb3JZb0s3QVZvaDRQb2tzZ3lKTGpMYVRRWmc9PQ==
+Wrong. Xorg is still being actively developed.,r/programming,Z0FBQUFBQm0yeGNZdHdJaGtObGdUaXRUNl9yRnlNYW50WVluYnZMUmQ1eUdNMHdqNldta2E5eG9tMVFWSndzd1hSbmQwSlB3OXJuQ3ZRZjZERXBXSjhlN3dlQ1FTenZJMnc9PQ==
+"Fine ideas. In my job this kind of info is crowd-sources in confluence which has the additional benefit of integration with access controls, accounts, and ticketing and search ( and I wish git but we haven’t done that for reasons) across projects works more intuitively.",r/programming,Z0FBQUFBQm0yeGNZQ3VrbktqcGRQZ0hGeTRhbHY1NEp1U3I0Zlhmbm13YVJQMG9XVl9pb1QzelYxSElyaEVrb3dtalRxZE9FVE5BVXVrZ1JTUnVXM0t0aGI3WWoyNjhIVlE9PQ==
+"The ""hacking is cool"" vs ""good engineering is cool"" segment was more about the social aspects than the technologies IMO. It's not a particularly unique idea, as I think some people have been missing the idealization of NASA and engineering in general for several decades; there's a lot of discourse around it and the portrayal of ""nerds"" in media.
+
+As for the actual engineering practices, in 2005, both [PHP: A fractal of bad design](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/) and [the wat talk](https://www.destroyallsoftware.com/talks/wat) were 7 years away; [MongoDB is webscale](https://www.youtube.com/watch?v=b2F-DItXtZs) was five years off, which is to say, the kind of bad tools he's angry about would continue to be on the rise in his foreseeable future. FreeBSD had jails, but cgroups and containers (that allow us to _contain_ shitty programs, not necessarily run microservices) were still in the future, and would have their share of teething and design issues too.",r/programming,Z0FBQUFBQm0yeGNZLVdndHRhZEdRS183OFFiR3B6U0FoelB3Mm55Qnlwam5IcEcyUU9XRTZHZ0NwNEpkcXREWWFHb0lTRjJFZFlSYU9YSFVTSDVTZUFzYjFneThmdWFjcXc9PQ==
+Any system devised to prevent security breaches another person is out thinking of a way to get around it. It’s important to use the best security but it’s a continuous process to keep a system secure. You can’t just write the code and say we’re good now.,r/programming,Z0FBQUFBQm0yeGNZeTc1MElLanZOdEpsb2p5dklmZ09LdkVBdUxKMXhBbS11ZWgxRTcxMmlHNlNGeWVHdWtHdjBHSDBmdWNtVE1sdnR1aUk0NDFMa2VkUGx3akdIY2JhYkE9PQ==
+/me mumbles something about repeating history,r/programming,Z0FBQUFBQm0yeGNZRndVazdSNEVzQTZuUU8yTWRBeDI3Wm9QSTBxTzFiN2J4Z1JHM1ZjbjBlSms0S0R4TUxSQWtMbVVETFl1d0FxeEZ4c1p1N2xXY0RCSTNxMGQ2REM0b3c9PQ==
+"I do some of this as a senior.  Maybe slightly different.
+
+1. Use a file to tell what I am doing today.  
+
+Usually this is just a text file (markdown) for the month, but it tells what I worked on each day and the progress with any notes.
+
+2. I use jira board to track tasks
+
+I dont use my own system, as usually a team has a jira board for tracking progress.  Maybe salseforce teams dont track team progress?
+
+3. Use a wiki to share information
+
+To help guide and share information, i write articles in a wiki.  3 ways to do it, design/ architecture, status updates, runbooks for support.
+
+4. Lastly, i summarize the year in a separate markdown file to make writing year end reviews easy to justify that I did do stuff and what it is.  Tracking oncall tickets, conversations where I helped, and stories I completed.  
+
+It's a good habit to keep.",r/programming,Z0FBQUFBQm0yeGNZVVloYmRpZU8ycUNRdUVWSkF2X3QxdXdiWThJOWxIc0lhVFg1S1BRa1lkN3VmTDg4cHZ0TGdCaHl4bl9YbkJwaVNNa1NQVnZNSWJmUzZWZU05elBEMGc9PQ==
+"> I think it’s safe to say that hacking became cooler than ever.
+
+Maybe you had to already be a computing professional at the time Ranum wrote this to be able to see it, but no.  Hacking hasn't become cooler.  It's become militarized, and a tool of organized crime.  Which, of course, changed it dramatically.  But if anything, individual hacking has become lamer.",r/programming,Z0FBQUFBQm0yeGNZQ1JRWXBoTlZWOHhxaW9RcnJQZ0hITFVURFRFUW1zWU5UUVpIR2daNTJvVTBYZE5DeFRjRHJhWkNpdjhOS3A5cXFUUGF0WGJ3endpMGcyLUFOOXZNUEE9PQ==
+Good ideas for starting out. I can recommend obsidian for notes and ticktick for todos. I'm always split between personal notes and confluence. ,r/programming,Z0FBQUFBQm0yeGNZRTVsdEhZM2dIQ3FzUTB4RGFrWUhJUHMxMkVBTU00T2k1ejhQbThpYlRZZXpQMWdmUHRZX1RTYjZCQVpucFdLVjZjb2FYLWVzbDF2RWVhMXBubGZnYnd0bDgyaHUtaTdWcmtRLVNqbmxZeEU9
+"Both can be true, no? I was thinking of things like Hack the Box, which is a complete gamification of hacking. There are more people than ever on Youtube, Twitter, etc. that want to learn how to hack and know how to get into pentesting so orgs like hack the box started to monetize that demand.",r/programming,Z0FBQUFBQm0yeGNZb3pLZHIxc244NzNzZVJnS1k5WFBiVURaU2RlbVZJUUt5MDN0bUp5UTZhekw0clBUT3pZZ3NoR0ZTNkZZUDVZWGVuQi1vaWhDRXBkUUw1amZLZE1IY0E9PQ==
+"> educating users how to work with hw keys is still user education;)
+
+Not in the way Ranum means it.  He's clear about that:
+
+> The real question to ask is not “can we educate our users to be better at security?” it is “why do we need to educate our users at all?”
+
+Teaching people how to use a security token is nothing like teaching them not to do Bad Things, especially when the list of known Bad Things changed every year.",r/programming,Z0FBQUFBQm0yeGNZWnhBdy1McmNfNnRIRVlJTWptQ0ZrQTc2cEZyYjl1Mk1nZWpsT3F2clV6ckJTMkU1THBTeHFuUGF1T3NNTHMtRlJmdXYtTzUxYjdiUnhSVEFKLTZrU3c9PQ==
+">Obviously, make your systems secure the first time around, but that is easier said than done,
+
+I say this a lot in a different context, but here goes the geezer rant:  Back in the Good Old Days, we tried a lot harder to create correct programs, rather than on fixing incorrect ones.  Our tools basically required us to spend more time thinking about what we were going to do.  Heck, for the first couple of generations of programmers, code was written on paper, not keyboards.",r/programming,Z0FBQUFBQm0yeGNaam5rY3kxekJhRVpzRUFyZEY4bW9VSHpUSzU3cVJWNkk3N2lEd09MSDRIZlpFb0JnRVNneUNFUVI3X1dnODdxTTFSLXh3OWVBd0VXRFFHUi11aGVISnc9PQ==
+I guess we need to agree to disagree here:) i don’t believe there is a technical solution that you dont have to understand at all and that bad-people can not social engineer you to give up. Or find a workaround.,r/programming,Z0FBQUFBQm0yeGNaYkZtdEZnYjI0N2NKN1pWVklORzZGcnFzUDJnelJkc0c4M0N3MkhZNHkwUDIzTXhVQU1BQmRwQ1BSVXVMUWREcGxCNzVSSUM2VFdwOW9QSlFUb3BNdWc9PQ==
+"> it would be pretty foolish to assume your system is secure without doing some sort of security testing.
+
+In a programming context, it is generally understood that you can't ""test quality into"" the thing you're testing.  You can only determine if it is present or not (honestly, you can only detect if quality is bad, and hope your testing is strong enough to assume goodness).  Likewise in security, you should obviously attempt to confirm goodness, but that's not the way you make a system secure.",r/programming,Z0FBQUFBQm0yeGNaX0pTSXhkdWRncUQ0elhfZmt1QTJRSzJvbG9Fa0RwXzVtUlVrVE82OHhOczdhczN0Q1dQSWhRdEJ0Y244YWNXdXhfT0h3NkpVVGN1R2t0R05qZ3VHeGc9PQ==
+"Does support for decimal numbers have any bearing on which languages are chosen for POS? My understanding is that binary floating point can cause rounding errors.
+
+As an example, COBOL was designed for business and used decimal numbers, which caused problems when porting COBOL code to languages that didn't support decimal numbers.",r/programming,Z0FBQUFBQm0yeGNaYTFZd05LNU1QSWhEOW1nNTNxcThMdk9BTTV0RnpNTndWbG9iaks2SnVBMEpLTm5mTmJXWm9icWhhb0cwVl9jbk82NmRmSm5od0hBNDBwTVlQcksyLUE9PQ==
+"I’m far from the first to make the observation, but I was saying 20 years ago, if you actually follow “favor composition over inheritance” and “SOLID” to their logical conclusions, you arrive at pure FP.
+
+Conversely, it’s reasonable to ask how you implement “program to the interface” or “data hiding” in the popular OOP sense in a language like Haskell. That leads to posts like [this](https://blog.sumtypeofway.com/posts/existential-haskell.html).
+
+So there’s something to the point that OOP and FP aren’t mutually exclusive. In my case, what I found after a 20+ year OOP career was the reliance on convention, education, and taste to do “good OO design” didn’t scale with the size of a codebase or team. It wasn’t that the principles were bad—it was that the tools weee actively hostile to the principles. Moving to pure FP (first in Scala with Scalaz, then with Cats, then in Haskell) made all the wisdom of “favor composition” and SOLID explicit and first-class, even clarifying some aspects (e.g. the “Liskov substitutability principle” is just contravariance).
+
+Flipping back to the other side of the coin, if you have to work in OOP, you might at least want to take advantage of others’ insights into how to do that effectively, e.g. with [Object Algebras](https://www.cs.utexas.edu/~wcook/Drafts/2012/ecoop2012.pdf).
+
+Finally, some languages have specific FP libraries you may want to explore, e.g. [FunctionalJ](https://www.functionalj.io/).",r/programming,Z0FBQUFBQm0yeGNaVE9IbUpuLUFGLW5pVm9KYmpGUlhxTWhTdHZGMV8tQzA2MUxxZlRlbVo5MkdTOTJ0VVR3Zk9WMm1VZW5QTzlScWx0dDNNQjVVaXFXeUt0VEFjUnNxR0NEeUxwRVpQQlpUV2hEXzJUUlpya1k9
+"Everyone should be running one of these when they add a new dependency:
+
+https://docs.npmjs.com/cli/v10/commands/npm-dedupe  
+https://yarnpkg.com/cli/dedupe  
+https://www.npmjs.com/package/yarn-deduplicate  
+https://pnpm.io/cli/dedupe
+
+I don't think it would've actually helped here though because the aws packages specify a fixed version instead of a range.",r/programming,Z0FBQUFBQm0yeGNaNnlKOU14TlVPT09pTXNZTU81UG9qSVRvTkJndkUxb25lcGtJWkVCaXZvVkNUeDcyN3FqSENFRERpR3Q0WS05R0ZJNDd3ZXFUM1BBZl9pRFY0c3dsX2c9PQ==
+"The code on paper was solving much narrower problems, without having to deal with input from untrusted parties. Instead of solving some math equations, today's code is running the world with data coming in from billions of systems. A program's state today can easily take up terabytes instead of perhaps a few kilobytes of a paper program. The comparison is unfair.",r/programming,Z0FBQUFBQm0yeGNaVUdfdGxaTGkwbEY1eGRJWThFc1doNWZOVElmRlBPTmU4SkM4SzktRFhYS0twQW5OWE5fSkdiTjRZZWZYWklpajQxQ0NjS3pkQ0Z4dTEzUWYwdzl2b3c9PQ==
+"You’ve actually hit the nail on the head, pity you got downvoted.
+
+Originally there was lots of stuff like assembly scanning going on at startup, which when running on developer machines which are very powerful, didn’t have much impact on startup time in seconds, you could observe a big spike in CPU usage though.
+
+As soon as that code is placed in a constrained environment where each instance of your service only gets a slice of compute, the real impact in seconds is much more obvious.",r/programming,Z0FBQUFBQm0yeGNaOWZ6LWhFRGZadXFNXzdWS0ZYWnE5aU1zdE5qQXpLQzBlOTJwOFl4bEpmajRkczNBem9GRjhwVEh2SWJlZVdjMXQwZU9vLWdvMWpiSzlsXzROLXJjb3c9PQ==
+"Self contained
+Trimmed
+Ready to run
+
+Startup time for net core services should be well south of the 1 second or less variety.",r/programming,Z0FBQUFBQm0yeGNaWXFHQ253MkZtaTBHNFdPd3VKS0RPeThtbm11cFY4N2tiY2V1aFdRZzdPcXdPakFQbjZTMVpkM1ZnR0ZLT1ZtREg4WVowblF0Z2w5WU1WYXhLa1QtYkE9PQ==
+"Yes, self contained, ready to run, composite ready to run (which we disabled due to regressions between .NET versions).
+
+Trimming unfortunately not, it caused too much friction for the average dev. We could get it to work, but then not long after someone would add a package or do something that would break at runtime, they just aren’t used to thinking this way.
+
+All these things did have a significant improvement on startup time.
+
+I would also add, these things also have the negative side effect that they dramatically increase compilation time, so both the local dev loop and CI pipeline time are increased dramatically.",r/programming,Z0FBQUFBQm0yeGNaTEotMFJQaG1NUEp6bHBxUl9rUTB3TmI1NzBKTHFhNXNjR0NkY3JJWHo2R2VPTVEzRFUxTW9lVWd6MTZWTjVIN19UVU9GaXhoUjJSV2FJNk5RVUw1VGc9PQ==
+"Look, your main complaint is that it is JITted resulting in slow start up times. You’re not going to get a thorough analysis in a 30 second reply, but you sound like you are supplying excuses for design choices, CI/CD choices, dev choices, etc.
+
+Personally, those things belong in a dockerfile and you set your standards at a pipeline level and move on.",r/programming,Z0FBQUFBQm0yeGNaNW5DNU84N3diR0ZhUWo1ZjQ2VDZhQ082cThjYTVHak9zUnE5U1g1ZS1XZmQ4LTdWaXlOendlaVdhcUlaS1JzS1VaSF9vTkhLMnZLMHlndTBadnRIenc9PQ==
+"If you allow only persisted queries, then having a huge federated graph becomes meaningless because then teams can't independently deploy their own queries. You again have a centralized bottleneck.",r/programming,Z0FBQUFBQm0yeGNac0F5a0hQNm10WXJqMV94Mzh0N3BnWVRuTTUwbkFuTUVaUGltQUdvdTdXU3lCVnpBeWE5OUxsRHVCb3pndUhWT3dnRzlwVEZoNjR2NlRZcU5BNHZxWXc9PQ==
+"Nice, this game was amazing",r/programming,Z0FBQUFBQm0yeGNadEJIcVFBczhrRWdQdENZOWU1UE5pajl0eFE5Q3Vsa056bTR1dkQ4VkROUVhtSkI2aGtkUWdiOGdlWVVZMWxmal9HZndnb2RETWxtTjNIN3Q3U0k4ZWc9PQ==
+I work for a company that makes Point of Sale systems for the postal industry. We use WPF/C# and a proprietary back end tech written in C++. But the UI is WPF. Our mobile version is currently being migrated to MAUI,r/programming,Z0FBQUFBQm0yeGNac2l2QV9td3Jod3htRVV6ZkhIYUlvY2F5U2tJWjVtWU93cmIzb3lCR1JMV0VvTTdGRzk4ekMwRDNobnhQbV9XTm5vYXQxcHRzWDNPVDc5V2l0aUpCOW5fR0M0UDUxNFNoQ2x6dU8yeG5oVUE9
+"Where I work they do this. There are regular simulated attacks to test if anyone will fall for them. I'm 100% so far, partly because I'm completely paranoid (hey serotonin is good for something I guess.)",r/programming,Z0FBQUFBQm0yeGNaa09lTG9Ia3FLY2lQM093eUV3anF2Y3Vic3ZvWmhYcHh4RW5NMGRjY29fb25Ta2dPTk1yWjBOWUk1WUpLZXFkeVJ0NzJZV0wxMWxhWS1aUW90bW82YkE9PQ==
+"Honestly though, the number of programmers I know who give a rats ass about security in their software design is limited to... Well me at the moment. Ok and a handful of others. Most of the others are far more concerned with meeting the requirements with a bare minimum of effort. 
+
+
+With even a modicum of concern for security while writing software, the pentesting would find a lot fewer issues. It's why I like programmers who have a broad background and understand a bit of security, a bit of accessibility, etc. The end product is usually much better.",r/programming,Z0FBQUFBQm0yeGNaZDFnYkl6MWVDTTBudkUxXzNlY0pNTm82ZzlQY0dmdlNzeGxGeUJIeUhSRU41QjlEWHdFWTVGZmVYMGFJNXZTQ3ZMWTBHMDFkM0lXWkoyUmdfdll4V2c9PQ==
+"> It was written in 2005. 
+
+So?
+
+As /u/mpanase also points out: having umpteen different machines, each administered independently by people who's jobs are ""not that"", with varying levels of skill and conscientiousness, in a network environment, was not and is not a good security practice.
+
+We had solutions back in the 90s to deploy and maintain monolithic images.  We had Citrix virtual desktops and Terminal Servers.  It wasn't the stone age.  He should have known better in 2005.",r/programming,Z0FBQUFBQm0yeGNaY0pWOVB2V1VwVzJINEF2dlNabmszNE04ZE5hNlZrZTh1NUlzdjZZbllsZmpQY1dTdnlyZzgzcWFEbjV3cGhnM3JjVU1NdzJjNXhORVlEWVZERExNSExuQnBxRXc3SldmU1JEZ3JGaVVGVW89
+"> Software is designed by humans
+
+Let me get one thing straight: software *should* be designed by engineers. Not humans, no ppl who did an udemy 2 week course. Lots of software would be more resilient if companies hire actual engineers instead of “full stack react developers”",r/programming,Z0FBQUFBQm0yeGNaQmlvYUt2Q0VMVDYwVWU5a3hHMTNTYTEwM3pvU2pmem15NGh5UGlILU1PX2VDYzVCM2VIRUhNYVN3cnkwVHZBYTRlMEFXdDltTjE4OFVLbEhyVGJrX2c9PQ==
+">  The Martian and Hidden Figures 
+
+The Martian is a work of fiction and things like the Ariane 5 disaster show that ""Hidden Figures"" isn't universal.",r/programming,Z0FBQUFBQm0yeGNaUFdWQXRLeUctQWh3OTh2NjZjN2d0dDkxeGd3WmpRVUp5STNHdDdLYWRiUWpPbEJBN3Z3UElBSmVqaFBxSHpfclZCV1A1SWE0T0NWSUIySzZlUWNxOElVVjlZb0g1OVV6X0FBRmNCb0pQdVE9
+This is an amazing piece of work!!!,r/programming,Z0FBQUFBQm0yeGNaSzhmcDJNWmxkamhTNUlOMEpWTENkMGFoUWIwaUx3NFIwZE1ScmR1WURDLW4zTDBSVVFBOWtsLXZ3ZXJmb1lNRThBeVNBYTFJMFZLRnkzd2RCS0ZVRkE9PQ==
+"The UI might have version control so the business owner can roll back to previous layouts or pricing. There is transactional information that may need to be cleared out, modified, etc. Pre-auth on cards, communication with a printer, appending tip information. Table server login, or at least profile so they can access their tables easier, and manage their specific tips. Lots of information that persists, and then needs to be exported for quickbooks or communicate directly with quickbooks. Sure, it can be done with a web UI and local storage, but then you still have a bunch of payments to handle.",r/programming,Z0FBQUFBQm0yeGNaNzFpMkJCSmVvV1FjemxmRlJiRUxqWTBvQ2lpZXFNMzRQYzN2aEc3Tk1ZMlo2QjgxVDl3NlE0YUFwM0I3T3FZZEw0VlNEMUNRejJPcGg5UmhGaUN1dFE9PQ==
+There's also pnpm's new-ish [catalogs](https://pnpm.io/catalogs).,r/programming,Z0FBQUFBQm0yeGNaZmFqbi1ScEE3X056SXNDYUxSY0hNWk9XY3FOVmZPcWZyNzZvQ1lUQUhPOW1fdlFkRWFiaHlnTkp3dGFUejlmRktEZ01sWTdZUGdBM1owa05qckRjc2c9PQ==
+"I've known POS systems being written in BASIC.
+
+I guess all that matters is support.",r/programming,Z0FBQUFBQm0yeGNaMGVPdEZFWWFlUUFjUXM5MXdqVjBHeXBhcWh3NTFIdElRNU5nVzhfUUlxQWc5UWhjQjl3NE9PVWFQWmw4cFNmWDhnS0pTQ3NaYWVxWjV1S00tVVRyZUpSTkFYWnNCOGhfTXFsY3d3Y01uaWs9
+"Actually, JavaFX UI toolkit is pretty darn good when it comes to these requirements.",r/programming,Z0FBQUFBQm0yeGNaQ2NBNG5ZM0d3Rm1CQm1mV0dkb1kyR01RNndndkdZbGtaOXdkcnVBcUtnUVYxR01IZF9GR0FPSXpxdW9kdjRiQ2FlTkNmUURtU3B1YXZ5VzRWTmVReFE9PQ==
+"FoxPro too. Pretty popular. Also, once I spoke with a guy who built a POS system for a pretty popular retailer in my local area. And he said he wrote everything in Cliper.",r/programming,Z0FBQUFBQm0yeGNaRm9ya2JnWjZlRGJuZjJGZ2lWNy14Y1Zmdy1wdlRJZ0RFZXM2Z09tNG1VSm1PdjU0TnhKcV9oOVhIWElSYWduRUc4ZG0tLWpyX014Qk1qLWYtSDFhanc9PQ==
+"The ones i worked on were c, c++, objective c and fullstack js",r/programming,Z0FBQUFBQm0yeGNaNkxnQnhVOXNRN25uMGpBNG9oV21Ea0oyVGJCTVRmOXNnVm1oWFRSUzZuaXY2eHhVanU3SGJ1aDd0d2k3S09tVzlsZ0t6aU1TQWczbTVta01DczZBQ2c9PQ==
+"I wonder why they decided to write everything from scratch in c++ instead of rust. Don’t down vote me, I’m serious!
+
+I’m not trying to be a language snob, but a browser is a tremendous amount of code and you can bet it will be riddled with security issues related to memory safety whether they are senior c++ veterans or not. I’m not even worried about the founders- I’m worried for people that contribute to these code bases who don’t know everything about it. I’m worried for the founders years down the road when they forget about some weird consideration that made sense at the time. Code reviews and unit tests don’t catch as many bugs as people think they do, and this code base is going to be complicated.
+
+IMO using rust for open source projects is awesome because the compiler will almost completely prevent any contributor from creating thread or memory safety issues regardless of their seniority. The mutability/borrowing system keeps code readable from top-to-bottom and prevents people from getting clever with holding onto references to things beyond their intended scope. You can prevent things from being mutated without the infectious consts of C++. The potential for null reference exceptions (ala options) is obvious in code reviews when somebody uses .unwrap(). Error handling with discriminated unions is great compared to exceptions. Refactoring code in rust is such a breeze compared to other languages because of the mutability guarantees. It has seamless interop with C if they still need to dip their toes into unmanaged code. Rust has a good standard library.
+
+Personal preference but I much prefer that Rust has unit tests and documentation built into the language. It has an enforced code style, fewer ways of writing things, and everybody’s code looks the same. It has great iterators for functional programming styles. It has a package manager, and I don’t need somebody versed in the dark mysteries of cmake. I don’t have to periodically re evaluate includes to make sure I am getting the best compile times.
+
+I could go on! I just know that if I was starting this project today I would not be choosing C++",r/programming,Z0FBQUFBQm0yeGNaZ2l2cnVzekJGVkF0aEtDU2pncUwtVVZKQWw4bFBpY3NtZHp1ZjVOQnZwLU5xTGxNYzBvLU1DVlF6ck1MLWJHeWpwV29tRXNsTlR1N01CdlA3UmNTdVE9PQ==
+"I like the doc of docs, but I think what we do is even better. StackOverflow Teams is free for small groups, and it's basically just an internal, private SO instance. Our policy within IT is that any time one of us has a question that takes more than 30s to resolve, we search the internal SO, and if it's not there, we ask it. Then someone, usually the asker, answers it, and next time it come up, it's there. We ask things like ""where is the documentation for X"", or ""how do I do X"".
+
+It gives us a single starting point for all knowledge internally, and it's constantly growing. Plus devs are super familiar with the SO format so it's very easy to use.",r/programming,Z0FBQUFBQm0yeGNaaVlDeTB4OFRVWWFnbV9NazFucURjYThCcm5tLVg2cTVubUw5TEswYl92RzE4Vlc3NEdORmdwemVtOC1qc3RvdlNkT0VIN3ZjUVZJa0hWcWxzemVadXc9PQ==
+"Aside from some very inefficient assembly scanning and reflection that was happening at startup (which was mostly fixed), the main reason is compute is constrained to what the service needs at steady state under load.
+
+The startup JIT CPU cost is substantially more than what the service needs under load. In traditional deployments where you install it on a server and there are no CPU limits, we would see what you see, probably around 10-15s seconds of cold start. On powerful dev machines, they see about 10s of cold start.
+
+When compute is constrained however, the cold start blows up.",r/programming,Z0FBQUFBQm0yeGNaWndOelVXOXB6X0pndHVuUGt0VUNsSjUtMkJXNVFPMW5VM2EzSlRSYWNRcm5HTzlIMUFxekh1Ry1rZDk2T2gwRWxQRFE3cjF5VnNrVlQwLXU0SlI1TWc9PQ==
+"To make sure I understand, you're saying that each ""site"" (by this I assume you mean merchant, not individual merchant store/location), would have its own backend server which includes a datastore?
+
+I'm not sure how a centralized POS backend is ""needless added complexity"" when the solution you're proposing would require literally thousands of servers and databases to manage. And each merchant would require at least 2 servers for redundancy. That sounds like a nightmare to me.
+
+A central platform requires far less resources (and therefore costs less) and is far simpler to maintain. I do think certain larger merchants might require their own backends to ensure SLAs are met, or for strict security requirements. But I don't think this would be the norm, as most merchants are small with transactions measured per minute or even per hour, not per second.",r/programming,Z0FBQUFBQm0yeGNaUWh0a2xqb05hbFppbl9VeHEwdmdkbjZOY0Qxb1FBSzVUOF93OFVYd2xjRUVXV24xZGNDZjlabEk2T2Ezd2d3Zjcxcm0zU0pNek40dWFsY1FIVjN2ckE9PQ==
+"Ever dealt with a bureaucracy that didn't have your precise case in the ""valid path""?
+
+
+ I agree in principle, but it's important not to treat users as button pushers without agency or authority either.",r/programming,Z0FBQUFBQm0yeGNacEVaTzNaOU9XNmExOEw4M2tWWEJ3NzVLNUpWN0RRMmk1MTdpTExIZTVIMmFyMVMxTHhQSm5MXzRCQVY3ekozZXpjemctTExSSmJLUTdMOXdHMk9yTGc9PQ==
+"I'm a software engineer for a major POS system in Australia and this is very close to how we're doing it. Local backend services are critical for many venues that lock down their outbound traffic, or those that experience frequent network disruptions due to aging infrastructure or poor IT management (Stadiums constantly have issues)",r/programming,Z0FBQUFBQm0yeGNadXp6ZkVYX0lORHRyOEdudU5QR3RHdWV4UDVNTHIzN29zbExKQjBQdzNtdHRlNWVQVElUWDZtU0pPbnBieHRnd1FnSmVDcFRfQm1md09UZ3dobVRlOEE9PQ==
+"To answer your question, no, decimal support wouldn’t matter. You’re right that you shouldn’t use floating point variables for money; but most languages support integers and that is likely the most common solution. 
+
+You multiply all of the values by one hundred and store the numbers in cents or by one thousand and get another decimal place of accuracy. Some call the latter ‘millicents’ though it seems inaccurate.
+
+Calculations might be performed with an additional decimal place for rounding.
+
+An alternative is that some languages have specific number types or you use strings with a lot of fiddling instead.
+
+In many cases you’re using a special currency library that has specific math operations built in.",r/programming,Z0FBQUFBQm0yeGNaNldYeHhldUxhclF4NThoMGRwTnRZWVVaRzByQXo5aUMwNXFCRGZLYUtFSU1sZE5wYzBvNjZwZjlCT1ljdTlxR2FOeUY1WVBxc0gzN2o4NVJGSEtVbFE9PQ==
+When will the world write an OS in something other than C variants to get rid of boundary tracking problems? I would have thought it would have been done by now all things considered🤷‍♂️,r/programming,Z0FBQUFBQm0yeGNaVWpFWmZCd2RIZUZMSE51bXE3a0N0Wnh1cjYyUEtCWWUtUVlWa0tPRjMwS3ZDQkZWVUpiYnZPZmJvRGFVNWFJeW82dmQ4UTZvWG1KUDFWOGFlZzNuTm1IdW9GWG5mcDhzYVAtNThWMlNMUjg9
+Awesome to hear Groovy being used. A favourite language of mine. Used with static type checking it brings much of Python and Ruby’s expressiveness to Java’s ecosystem but still strongly typed.,r/programming,Z0FBQUFBQm0yeGNaRzRiRkxYMW9lQzFNYVgzSHFWYXFlOTJsNkl3RE4ydTN5TkxOVFRVRVE3U0ZYRnl0clR4WTRPVkU0MGdkSDlBOUZrRnlqT3VOcWFLYWt6Qmp5R3kzTXc9PQ==
+"Groovy is my favourite JVM language, but even the most enthusiastic Groovy developer would admit the future for the language is not looking very bright.",r/programming,Z0FBQUFBQm0yeGNaRW1fZDFFaEhqRzdxSDFNNmN0cTdmcnUyTTJVSnhLNmJNX0d3c2JKeUl1T1lIQWxPMkN1aHNTb0hTTmVUU0RrZGxqbHBRQ2pPV25zVU83TjZKSjBRREE9PQ==
+"You can still end up with duplicates of transitive dependencies that way though, it just makes sure all the packages in your monorepo have the same range specified.",r/programming,Z0FBQUFBQm0yeGNaR2pSREl1SElLb2xSbWdnSnZFNEJWazVBY1BaY0l3LW8wbThyTDJyalJwNkhKX0s3SXdud1JLUTh3eEhFZlNITWpseFA3U0xmTUdiaU9VUmVnTl94Wmc9PQ==
+"Oh but you said it: the user has a legitimate reason to do it. If so, it’s normal that they have a way to do it, either with an explicite warning, a restriction on who can do it, or adding a validation of some sort for operations with high impacts.
+
+But many software just add a plain big button in the UI to do something that only a minority of people actually need.
+
+The need of different teams / user should reflect in different user experience. Many enterprise software fail to do that properly and users either get too restricted or too permitted.",r/programming,Z0FBQUFBQm0yeGNaSjRZdWhHUjFMVHRSYVpiaF9hcnE0Y2pqb2hXck1nVGNIUHNUZk9CMXR1N3pwZnU2UHFCLV9vZEphMVZ5UFR3d0h6aWt5aEFCTTdTUDJQQjdYeU9qWGc9PQ==
+"Most ""hacking is cool"" narratives are fiction. Not sure what point you're making.",r/programming,Z0FBQUFBQm0yeGNaU2ZVZmNjeGR4Rlo0TkxOckUwTnh2MlVxSXZvVUFxdGFRZlNuSU0ta29fWmFqUVltVjJtT0pUZ0JtSllUczQyX1lONl9rUGVhOTc1ejA2R09ybThjYVI1T2VTWlQtdWRBOHIwRExfWDBtcUk9
+you gotta put up way more than that if you want me to touch asm bud,r/programming,Z0FBQUFBQm0yeGNaT2tGaFAxU0s0QXpTM2Q1VVpEN08xMDZnOEhIQnBvOFZ1RTAwZFgxTVR0NWNUUl8zQVJnaFhNYkFvSjNrV0UtRDNmSHBYSXh1Q25vQ2l6UGNkMXhaMlE9PQ==
+"Funnily enough one of our biggest selling points is that we offer a complete 'on-premise' system. Many retailers have been burned one too many times by online only POS solutions.
+
+The name of the game is resiliency, not performance (within reason)",r/programming,Z0FBQUFBQm0yeGNaXzFIUDRaZzZ2dVBkdWVLZXlIYzBsSVdqZzYzVVZlMkQ4NHRtM0xHSmRleGE0ZU1hcnBIZFJTZlRoOXBiTExkTklGclRnQ3cwNlhrV2lUdmJ1THgyQUE9PQ==
+"Yeah, it's not much, just to give an initial motivation to people who already have experience with asm.",r/programming,Z0FBQUFBQm0yeGNaOXh6LWt1bFdPVWY4TUlXR2pCS0FnQ2pTRTd3NE1uZ1p0c2s3akRJdTlqbzVVQVNSOWhEMUJfdUN0b2cxUHROLUkxX2RoZ092aWNHVjBfSE5rYS16aWlPSFJLZ3R5YXlaQkJjUk4wVGJmWEE9
+"“Millions per day” means dozens per second. Still seems unlikely to me at that range, unless they’re doing something that looks like fastcgi. Which it now seems we will reinvent every fifteen years until heat death.",r/programming,Z0FBQUFBQm0yeGNaQjhYdGVEY1RVRDVYbjJmNkU3eUxnUEE5dkljVG9CcFNBNlBDaE5KLXhDczFQcnNjZEpVZEdmMExvM1dqMENlcnVyMjFHV3VUd2d0QUF2V2wyTTNReHc9PQ==
+yeah i know was just making a jab :),r/programming,Z0FBQUFBQm0yeGNadzF4d2tMenZ5d3NEc3ZYbEp3Sm5CWFhkenVDUy1qM1pITVdmWUhOVE45cmVFY3JlUzc2MWptdHpBeE5ibWtFUk9OaGlvdzRyekM5VFZvNXd0VEFlVVE9PQ==
+"The worst is half transitive dependencies. Your deps use a library, but you use it too, and they fight over version number. Worst case is you end up with n copies. More common degenerate case is you end up with n/2.
+
+My favorite is when you use the library one more time someplace and the balance of version numbers shifts and you go from three copies to N.",r/programming,Z0FBQUFBQm0yeGNaVjVCbmxKRDNvdy1BRVpZa1E3R3ZYY3A4R3hnOUFXU2V4TWp3RmdXRW8wOXEzV2FWaGJsQ0d3ZktwVUhLTzJncGV4QXJ3N2ZLZDVMYkppMTdMM0xRU0E9PQ==
+Hardware vendors should be shouting this from the rooftops but at this point they sell too much hardware to hyperscalers. We need defectors to get back out of this situation.,r/programming,Z0FBQUFBQm0yeGNaQ2pTdWtYYjlmZGduNEM5bGE0QW9WYjRnMHU4QWhyUWNUekg5RnZ1ZWVRUHJITHl4c25OVmxvdTNRTTluQWZ6WWlyNWdSS1BFWS1TSnF0d1VLNHhtU1E9PQ==
+Never actually looked much into it. Thanks!,r/programming,Z0FBQUFBQm0yeGNaUmlReTJieXFaSktVaGI3Y1pYclIwOTRHeFR3Y1JpSFZXSktUVlNHeDBZM3M2NXp3VV90eHpiQ1hGVDJhdHF6bzB2bm5WcFhITmNDcUdfMk9KN0Y1cVpYTE5NVmtTNWg5TEZEYXBGOTJfTDQ9
+"the article makes it sound like a ""check"" is a pretty hefty and long operation, if that's the case then I guess spinning up a pod each isn't too bad. But then again, if that's the case, then the cost of spinning up a pod should be negligible compared to the rest and they're optimizing in the wrong place",r/programming,Z0FBQUFBQm0yeGNaN3dHWVBVbWUzY3ZGMFJ5MVVhaFhQMzFpUVFuTk5SdTF5WUd0cHI1UW91NVJiU0dpM0Zwd0Q1YmRvRDk0SUp5b3hpVnE1MEZzUERaWlREOFZTYjAtOUE9PQ==
+reticulating splines?,r/programming,Z0FBQUFBQm0yeGNaajZNLUFIZ3V5ZjZWdnY2bjM5R0lTRHg4MWRRVHlyeDVkUWxZT3RBamczLUN5ZW1Db0RGTGd3Ym1PejJtUC1FWnplUkdDRE5hdzRyQ2psVXZUc3RNWmc9PQ==
+Most of those systems are just Android. Toast for instance is using Java/Kotlin up and down their whole stack.,r/programming,Z0FBQUFBQm0yeGNaeVp2bUV6bkxnME9oS3N4cE53VkF1dTI5SEhJTnJJR2lNSUNqNktEa29KWXUzaGJyeTg3U3NlWWczamNOMVlDcV83Z2N5NmdWaTJKSHE0M2hsQnNOdWc9PQ==
+"Wife maintains a “coffee shop” style cafeteria inside Pfizer in PT. The POS works all local and has sync capabilities to the outside. Mostly it’s configured using TeamViewer style app (it’s some wierd thing that came with it, it’s not actually teamviwer or vnc or windows remote control).",r/programming,Z0FBQUFBQm0yeGNadl9sVXlXTG0zd3JleDZvT3N3RER4SmU1OE1CTWhsN0ZGbWc1bVN5WGxyMGdHdUxUbDFUd0o2aUVLZTdNSXlRUFNpQnNZdjlBaF9aeWNseDgteDR4WU1YYVk2RkpYbHlnVHpfQ3ctZ1pWX1U9
+Instructions clear: bus factor 1 wears glasses.,r/programming,Z0FBQUFBQm0yeGNaU1RldmQzYzRDdzlOM1JTNlR2emNQblp4YlBHQ0lFOGVLS1htdy1VM3dhS1REQmp6Tl8wclpqYUk5amhQWWR4WEZIMWpub3RyLW9Rdnp3cm9ZRW5DV1NuZVhTdXo4dUNCMGJ4UmZRY0pSQVE9
+I mean if it’s an IO-bound app (most business crud apps are) then picking a compiled language won’t give you much. It can use less CPU but if you’re just waiting for DB round trips then the difference doesn’t matter too mich,r/programming,Z0FBQUFBQm0yeGNaVXBuN2RqNUE1dWpXdGJwUzJRUTJETEgyZUFoMlV4WUN1SWVxZkJJU1dDc3Rfa0lQVjFjdmw0eEtZaWQzY25vLXJ0ZWR0SnNmVjhWZFJyTXlhMUZ3Zk0xdGZxa1VZZmxCTk53SmkxOWhlRTQ9
+"Sure, but I don't think any general dedupe tool would've caught the case from the blog post; It looks like AWS mostly uses [pure wildcards internally](https://github.com/aws/aws-sdk-js-v3/blob/main/clients/client-firehose/package.json).
+
+With catalogs, you could at least write a script to populate `catalog:aws` with the same version. More lazily, you'd just `pnpm update -r --latest ""@aws-sdk/*""` to make sure they're all on the latest version.",r/programming,Z0FBQUFBQm0yeGNaSnJvMVQzbTdjakRBTGgxTlIwanN3WUNnMHZpX2M4WGRsS08xbEpYaVc5TFcxMkVQaG0xa01kTjZCOWs3eDEzOXFpX1l0N3V3X0tCZzJWWndVaGpIR1E9PQ==
+"""Starting the web-server is 5 lines of code:""
+
+Yes, but those 5 lines are not the entire webserver. Those 5 lines only enable / configure an existing webserver.
+
+In my embedded programs, I don't use any standard C libraries. So if we don't use the standard libraries in Toit, how many lines is the webserver really?",r/programming,Z0FBQUFBQm0yeGNaaGo0S2ZlVER6cGx5aDJKX2hLZnRPWXNUQWo1NFJ2OFVHdG9Icl9ER0FTX243MThDdnVGaWpJRVQ5YjYwY0VKVHZTdUR4ekRWMl9xSXRjUE9pTEZqckE9PQ==
+"This isn't exactly an article about ""Dumbest ideas in computer security"", which would be a list of ideas that computer security experts promulgate and other security experts disagree with.
+
+This is a list of ""ways you can prioritize other things over security."" For example, default accept prioritizes ease of use of the system over security. Action-oriented-ID prioritizes technological advancement over security.
+
+This blinkered author seems to think that security should always take priority over everything and is exactly the kind of security expert who says that every corporate laptop should disallow any code being run unless a security professional has signed off on it.
+
+Yes, some companies need a much stronger shift of the balance towards security. But no, security cannot always ""win"" every debate on the basis that nothing else matters at all in comparison. The safest business is one that is just shut down. The safest network is one that is turned off. Eventually you need to give something other than safety some balance.",r/programming,Z0FBQUFBQm0yeGNaSHQxZGJZeHp4NXhZbEtpTGtHQXhYVkhWb2daQ1FnY3p0dHJtQzNFdjByN1BXUlZNLXBvaExra2RlTHFtcnlJNFRnSFlYTGRVbVBkdTNES0dIc09MTkE9PQ==
+"""Toit is more platform independent. A lot of the code in this example could be easily developed on a host machine.""
+
+I disagree. For unit testing I have ported the C code running on the microcontroller to my PC. I only had to do two things: A) Create empty functions that used to talk to the hardware. B) remove all the absolute memory locations, so the compiler could just any location in RAM.
+
+Granted, for further testing I had to emulate / fake the hardware functions, but C is very much portable.
+
+If I was tasked to port the C code from one microcontroller to another one, I only had to rewrite the functions that talk to hardware.",r/programming,Z0FBQUFBQm0yeGNaZkVIWlVYb2VQUmxnYi1nMzIwZHdpUmZESUo3N29KT3ZxZS1WdEo3cmNlSHZXUFd5OHF2MEJPYU5iTkRMSjllZE9rckNqdjcwOVJnVEFVYkE0UUV4aWc9PQ==
+"everything is dumb and stupid. my solution? what solution?
+
+article is just a rant",r/programming,Z0FBQUFBQm0yeGNaSEpFUloxQ3VXR1djZ0NEZ25MQkJsb0tTMmVUQmV4a19YbzhZYU5sbi1jbk80akRMSnF1LVA3cFlFYVVWQnlNVDlJcndOTnd2eEJGZFpJV0trY1oxOXc9PQ==
+Serenity OS has a strict not-invented-here rule. Which probably complicates using Rust.,r/programming,Z0FBQUFBQm0yeGNaSkd4VFFTbE1EVkxtS1JwbzIyR2h2U3g4dmx5UURBMVVBRUt2S3FHeFJMRGhKTU8tTHVaOFVram9DeEZaVl9BaWVtMkRraWxxRVpxcDFWcjJqUXRWUUE9PQ==
+"I work on an opensource project that tries to embrace many, if not all of the values in this piece. I'm surprised I've never seen this particular post before given how old the article is. I can relate to much of this article and I'm blown away it's nearly 20 years old now",r/programming,Z0FBQUFBQm0yeGNaRHVSRTV6S0R3NXFKRndiLWp1R0hyQ3VDMG1BRUdXLXRPazN1SGIyajVMdUNGWkYySVRYV2pfVXFfSDFqUEZYVk04MGJLazh2UjdQQjFFeElEWXpubVE9PQ==
+"Ping is the delay between request and response. It's not like you are requesting every individual byte. You send a request once and incur the ping. Then you get an open connection and start downloading. It's a flat offset, not anything that scales with the amount downloaded.",r/programming,Z0FBQUFBQm0yeGNabHgzMHhfWXBQY3hqcTZBQ0U5VDlyNHZ2MkNMR0FmNk15TktRSG9EXzM1U1dvN1ZLMzhZMndtTFlVMzliVmFWektnQ0dUWDdmaTlEX0MyamZnaHNDLVE9PQ==
+"I think most of us developers are probably just scared to care and be wrong. Overall though, as someone trying to get developers to give a rats ass, it's amazing how hard it is to convince them to care... TLS is good enough, right???",r/programming,Z0FBQUFBQm0yeGNaRVJtdFJaSjEwWFNfN3JkTW5xRUdFanBjQkw3Sk5wWjl3UGVwRm5vM1NvVzFiZTEtRWkwd3E3YmZCMG9WeEt0aTVTMzNSNkFYVjctNTl5ejlqcUxhNXc9PQ==
+"It doesn't scale with the amount downloaded, but the more is downloaded the less relevant ping becomes. If you download something big that takes a minute, the ping is irrelevant. 
+
+(ignoring the fact that a bad ping light be indicative of a bad connection with package losses which is correlation not causation)",r/programming,Z0FBQUFBQm0yeGNabUZjUlB5eUpUalE4T1pPOUtlQlRhZTFyX0pETFdsWF9WR25DUXM1QjY5TjFXcGw4ZUpaelBUcHRNVDdPemd6OXRITE1DN2ZFcGs4WUpCZlE3ZWFCYWc9PQ==
+"I know a lot of POS systems run Windows XP. 
+
+Yes, that is a double entendre ;)",r/programming,Z0FBQUFBQm0yeGNaQ0M5V0tuSzFPTlBhajdtSTFlek9aWXhwMFhKT2VreEdpS0U3LWFUcE5uNmdZNlp5ZlhtdE1ldEJMUnREbXpDNllrbWZnaTVMb2hjalVrZTlIZWVtempUWEVvZGQxV2dvdXV5Y2ZOd2pJRTg9
+"Yeah, fair. Nothing to argue here.",r/programming,Z0FBQUFBQm0yeGNaT2g5WC14MTRFOGtKeTRXVXBVT2o5N0t1WWFzMDZub0RQXzEzcFA4bzAyckJITWxXOTZhY0ltUkt5TlBwZ3NsQll5b3hORDAzVTh1ZjhGY0FiNXhkUXc9PQ==
+"I don't think you actually know enough about how things were done in the past to say that. They were doing a hell of a lot back then, not just some trivial math equtions.  
+  
+There is still a lot of value in design first, code later.   
+  
+And while modeling the entire program flow in exquisite detail is probably an exercise in wasting
+time, that doesn't mean you shouldn't have a high leve overview and maybe some further breakdown of individual parts",r/programming,Z0FBQUFBQm0yeGNaMzJVOWlpWDExaHVsbFRzbnFfX05sMzVQQ0N4OGUzY2E3a0JhVF9abDllVDBvZEdkR1dDcS1aLUF6b2htMmo3QWN4S2ZlaVpxSkhmb1ZuVjNHWWhVa1E9PQ==
+But they invented C/C++? Weirdest argument of the day.,r/programming,Z0FBQUFBQm0yeGNac0ZvNVl6anRmRXU4WHdObS11Vm5saDZsZmdhaFZtYmtxc05CWWg4ZkM2TFQ2eTVWeU1hRFoxd0pSZm9NSlZ3R0lMejJVbWtiTnFmXzNjUlhyTEhITEE9PQ==
+"It's equally important to recognize what level of security you *actually* need vs would be nice to have.   
+  
+And as others have pointed out, that needs to be balanced with usability of the system and the degree of access needed by users.  
+  
+Too much security can come back to bite you if it kills productivity and your own users start trying to circumvent it or do unorthodox things to solve annoying problems...",r/programming,Z0FBQUFBQm0yeGNaRWVWV1Zhc3BqcUFLMnJpWEpfT1Z3OFItN2k1c0tPZVVJZFdjUGxFRDEzeS04aXpHSVV1cXVzRWlHcDhrODRHRnFiT3NSajRPVzV1bWNVbXZWZjdOWUE9PQ==
+"I dont need to write the article, theres literally a thousand articles already telling you how to do it, hence the ""this is a pointless article""",r/programming,Z0FBQUFBQm0yeGNaRXZ5dFlxZHQ1NzNHbFZwYXRGanhSaDFYUFMxN201SEh4cVRrQkZfcnZURW83aGp4ZWRSNWxhNFQ1SFNHNmNSazhpREx2VGFNWU1fZ1pXY3hvR1IwWHc9PQ==
+"I dont know that you really need articles for those. Those are all easily covered in the Graph docs, man.  All 6 of your bullets there are basically the same thing. ""How to set up GraphQL correctly"" - which, again, is covered in the docs very straightforward.",r/programming,Z0FBQUFBQm0yeGNabklUMVpKbWZyVEFYY0hWaF92cExUbEpyUnJXVFZ0ckhNTkNScUxSSVd2alJYZFVrOE1WU0I0U1gxSlpGQWl2SnBjNmpFWjE3S3FlTEprOGNmQ2lwckE9PQ==
+Right I agree . Somewhere someone said something about being hacker proof forever and my point was the bad guys will nee exploits and the good guys will find new ways to fight them.,r/programming,Z0FBQUFBQm0yeGNaazk0SWxLQnN1UGpSQUR1d0t4YkxhdzFOaTN4bHFDRWRqbnJhUWRsNUFXUmx0aFRmUW9wM0F0aUtvT25TMFFwR1R5NEdJWmZzaWZhU1VRT1FnS0NKM3c9PQ==
+"Speaking of injecting into old games to fix issues, I recently did that for [SimCity 2000](https://github.com/friendlyanon/simcity-noinstall). I find Detours way too heavy of a dependency and MinHook provides every feature that is necessary.
+
+SimCity didn't really need this many patches, but it was fun making this for it nonetheless.",r/programming,Z0FBQUFBQm0yeGNaS19FOXFkUzlvY0FyZFdOR24tZk5BS281RU5EME43TTJoc3NTQkVaTmJ4M01YYmdKbE5rMmhIX0RnTW1rZ0FhVHpJa1U1eVpETEZIaGtvb2RGdjVucGc9PQ==
+"2017-2021. He worked on Factorio, and didn't make it.",r/programming,Z0FBQUFBQm0yeGNaeWNJUFJoQVRUVFIxTkgzMlp4Sm9USUNxd2pNbkItQnBmZ1I5VWJlU2pnbTBpS0tNOHhiNTBPemRsMFl5aURpeEpPNG5jY2x0RGRZeV9Bd2hzTkl0X3lIa1VHdkpZbFc3cVA5T183MDdBMHM9
+"> Possibly a short cut would be investigating if there is any compilable JavaScript tools available 
+
+Back in '97 Netscape called it LiveWire.  Source: I'm old.",r/programming,Z0FBQUFBQm0yeGNaRlV2blB1Wk5PcEE1QlZoSTIyLWpuQWN0T0xtalhUVjlRM1JIZFBuN1hxRUlHaTZzOUR3dDUyQzN1UHZFZXRxanNoMGdHdEF3elFia2xiZ3MyMzJFdmc9PQ==
+Used application logging (without runlevels?) to track it down,r/programming,Z0FBQUFBQm0yeGNaRlpMOC1GMDFCcXB6bU5vdkxTN0cyOElpRklXWllueFo4ZEJvNHpMWjNXT3JmYThyR1o1b2RhR3Q4MUVsc0FYQ1VtbmdyVndqMmlueFlrNkJEbjRzaVE9PQ==
+Because Rust is a shitty language for shitty programmers,r/programming,Z0FBQUFBQm0yeGNaMW1Pdk9QcUZDNnhGTVMyNHBpLTVleEtqb2FaTGlwWEFTNnJ2UUJXMnZnOXNJSWlsa1M5dXh6b090d2VWMTZvQWdRRWd1WEY2QjUzYnlya25WUW5ZT1E9PQ==
+"They started working on Serenity before Rust was really widely used IIRC and the main author is more comfortable in C(++). 
+
+
+Also YMMV but most tutorials and resources assume you use a C-like language, and while Rust's correctness is great, it also complicates initial development because you can't just say ""It's unlikely this will happen so fuck it"". ",r/programming,Z0FBQUFBQm0yeGNaX3NpYUxyeHJDZGphRllIa3F4M3ZJN1Z6MVpFdEQ1QzhJeFRsQ3ZVaTNnOUFHV25OMVptam9MaWlMUks5OFdOclFtSTZ0YjI4aWtfNEgxcjBuNFVqSkE0RDQwU3NmaWQxY3pFRUdDVEFNak09
+"You're correct about it being a nightmare. 
+
+But most POS systems are built with a backend server that is local to the store, this is necessary because they need to be able to process transactions without internet. Lost revenue just from losing internet access isn't acceptable to most chain merchants.
+
+There is literally just a backend server in the closet. Bigger stores might have redundant servers, most smaller operations like restaurants will run with 1 and pray. They're not big, many restaurants often run them on consumer hardware.
+
+However, ""corporate"" still needs their data, so there is usually some periodic system syncing sales up and new product offerings down.
+
+Even newer ""Cloud POS"" systems often are just bolting a web API and a communication layer on top of that legacy model.
+
+Even ""Cloud first"" systems like Toast still have at least one device functioning as the ""server"" for the site that syncs online orders down and local transactions up.
+
+So yeah, all that added complexity is often there anyway.",r/programming,Z0FBQUFBQm0yeGNaSlphSnl4WlFNdFU0ZTlVOEJuSkpUOW0wSzVDbkpMNUpGQWlZOHB3UFpKZGtQUnI2YjJSa1BsN2xjTEYxc2xzWDdkWVUxZGdiRFFiYUhyVjd1NWMyUlE9PQ==

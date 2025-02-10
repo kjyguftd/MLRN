@@ -1,0 +1,1344 @@
+text,label,username_encoded
+Have you heard of LaurieWired?,r/hacking,Z0FBQUFBQm0yeGNYb052VzhPNlVvRVFVSHF3WHR2TnV2TG9Dc2ZHb0NwaUpIb1k1OHFXdWJ2NGdCNWhnUFZpaS15RW1HakZzaElUTzRKY2dFQ1QwV3FjdlFDb3hPOFF2Mmc9PQ==
+"Hello u/FoxWarner14, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYaEN0TGNPNjluSVpjVEV3eHFpSmg5SGE3ZlZ0VTdLWDlNLVBiMGxzX3IySEZxQURYb0ZBenFERmw2SEVmaVpMZTVsRTBBLUcxRW5sUGhlMm96Rkd3aFE9PQ==
+"Ha! 
+
+Glad I switched my service a while ago. 
+
+Ahh who am I kidding, my info is probably still in the leak.",r/hacking,Z0FBQUFBQm0yeGNYOWMtSWJTMTlYNmNMUVFqWG9CXzVvd0VDTDF2SXRGdUMtNkNYMEw4eDBkdjQtRHR1SzAzd2hPWkViMkVFbVpRaC1QVl96WGxIVWFtekdraGtvS2pheGc9PQ==
+"Hello u/Odd-Poetry3717, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYV1lObVhVdGRzMTVBTFNDZUhwVDUwRVN0R2NnZEpCYThmSGkta2REWFRTaGJPX1RfODFybWFDRjBWVVBPNm1nR2NIUEVOS0dRR2dfWmhNWW0zanFrWEE9PQ==
+"Like 7 years ago a red team we hired used DNS to create a tunnel. That was (back then) totally undetected by us, they could've extracted terabytes of data without us noticing, as our data out was in the petabyte range.",r/hacking,Z0FBQUFBQm0yeGNYVlJWdUhuQkVmODhSN0laY0VMd2V3aWM0V1dBR3VzTEJhTXZXMGVMYVZ2ODdJTVlLM0ZtdEw3a2lncWw2a240ZTB6ZDVyZEhKVXllUXMtVEQ4SHhaWFE9PQ==
+"Transfer it to something google cloud storage or AWS first
+50TB going there is a lot less suspicious than sending it to a random IP",r/hacking,Z0FBQUFBQm0yeGNYQUo2WHJ0ZFRRQ0Fha1EtalRyUHhNWGVzZ3hhS2hBUzZOYVlKOVpIdi1yNF9OMGoydmdEZnRCcEgydWdsVks5VXhHa1A0RE9CRndaOUR6QjhNclFUbHc9PQ==
+Maybe even thousands,r/hacking,Z0FBQUFBQm0yeGNYaHJYem5UT2t2Ri14Z1hSSzB4Wm1Id3lHQkdjNzJDMFhBQVI3QkNpWWhSZGRMMldFNXQxRkliVWp1VjA1NzNiNjZ6Zkt5NENNNlpHTjEzWGo2c2RjZXc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYcDdGalZVYlhyWEVqb3FQaHRaMzFXLUcwcVEycDZiaE9LbDVERjZxeFhDbElKUkhLRkZGRUFtMld6ZEY5ZW5RdS1mSHZlcTFha2pUb0ZDVjBKaDFSc2c9PQ==
+"Well it depends, as there are many factors. All of the larger enterprises that I've consulted for had some form of baselining and deviance detection going on, as it is a relatively quick and easy win. These were environments where you'd likely see APTs attempt to employ this sort of tactic. As you go down in size into the SMB market, I frequently saw the data being collected, but not actioned on or alerted on. However, I'd argue that you're less likely to see this technique employed in those smaller SMB environments, but there are so many variables in that equation. The data transfer limitations are the big thing. Low and slow is the goal for an APT and in red team engagements, but there is such thing as too slow depending on the objectives being targeted.
+
+DNS for C2 communication is great for a long haul C2 in a tiered C2 deployment, but data exfil? There are much better techniques that are less prone to detection.",r/hacking,Z0FBQUFBQm0yeGNYbVNOMTlmdWtTbmlFb1l5aEN1czFRUW14WDE4akcyVzAxNk5hNHUzUERmUkdZdUxHUm5TUkZvWGRhUHpJLVFiWTNNRUpmUVc4XzJrRWhIWTl1b3A3eUJaZzJjNzZMOUhHM05YLVc4Y2hYX1U9
+"You Lainloonies need serious help.
+Lain was an okayish anime, nothing more.",r/hacking,Z0FBQUFBQm0yeGNYcTgzaEx1OUJYbzJMQmR6TnJpRWlCaTl1U2ZfQ1FWT3pOV0JDS2JEWndaenpuUEcwaHZMelpMMENCUFZ6dW9za0FvVVFFREF5WnZScjgtaEIwMW1FQUE9PQ==
+Apparently soyjak . Party is trying to harass them now ( post name on that website: Dox everyone involved in SiegedSec),r/hacking,Z0FBQUFBQm0yeGNYY3VMc0VtTkFhNHl6OWp1TXFZazZiLVF1SEVBQVdpLUI2eUl4WUtGSFFrNjg4R3BUT0M4bloxOFZjak1EUmZia0N0N1YyN0F5cjN1UkxyLTNoTGpCWUE9PQ==
+Source: soyjak party/raid/thread/138483.html#138483,r/hacking,Z0FBQUFBQm0yeGNYM3IweHRjN2hQMVljOTJaa3YwSlRQeUI4Y3pXMmJpOEFZeFFfR0w5MmFjV2RqT0pmZTZUUV9EOVNVOFBuOUdhMy1xeXpxOVYwX2J1ZlhMMklVUkxFVGc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYRkJrd2xsTnR2ZVVMWXY3am0zQkhiZHVzemUxQTJVMGhGMzBVbUU2VDRDUWVKbW1rWDF0NXByVHVKczkwTzRpY2M3QlFic3BuM1NCMkV6LUZKaWQzRkE9PQ==
+"Your post has been removed for breaking the ""No Fraud Related Content"" rule. This sub is not for fraud or carding related discussion. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. Habitual rule breaking will result in a permanent ban. Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYWjA1ck1fdzMxcFgyTmp6MFljZExHTXVGS0lFY2FCNmo3eG13aEt2Mk9MVWF6bGNYWDJWNUp3QnNPVHBuVnBlZU0tN3Y0RzRqc2wtVTdDTFVXZksxT2c9PQ==
+Have you ever downloaded a video game or downloaded an update for a video game?,r/hacking,Z0FBQUFBQm0yeGNYUnNUVVdsRVhNbkJuWUZJa3F2ZjhPM0Y1TVdKS2JsdmQ2VFdJRkgzRmlWWnlRcGQwWThoTjdFQl9nUmN2RDVzanYwSFY0X2cwMXk0QmF4RjQ4VHlJdEE9PQ==
+Chown 777 that hoe +x,r/hacking,Z0FBQUFBQm0yeGNYMUY3OUoyR0U1LXlDMEtXYTlhaV9NUjFhUTJoOE8yODMwY1ZNdTJyanFuZ3Y1NU1IeEZHX2pZS0FwUXZyTFdZQ2VpWnBpZWRreHdaTUNXYm0zVkU0SkE9PQ==
+"Hello u/That_Engineering9524, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYbFNCNVhQS1NYaFhOQi0yV1k3UUZZNWxIaXI0NHZhTlBadTVJN0xmUWxPaVU0NmlwRjB2QXVtR0IzcTAzV21qYXV2S1VtQ1UwTnRzMW10Y213VEprdkE9PQ==
+"""It depends""",r/hacking,Z0FBQUFBQm0yeGNYUzRjbThsamdvaVB1b2VVVWZmX0x5blFVVkZ3eU5TRTJCSEo2dzlXUl9jdEtEMEN4c3dSamVuODVHV28wZFZvQ1dEZEdqaGVmQlozdWRNWlZ4M1drZVE9PQ==
+"i write a post about this:  
+[https://stoorm.org/article/rockyou2024-txt-recuperation-exploitation-et-consultation-du-fichier](https://stoorm.org/article/rockyou2024-txt-recuperation-exploitation-et-consultation-du-fichier)",r/hacking,Z0FBQUFBQm0yeGNYOU9KVzltZjBhcG9jMnpnT205Y2xPY1MzMnBtMV9ueGdJQ1N2c1otZVp3c3Y1MkhVT3RWTkJtNTFjMTBDNlNucHJaU3JueExOeTA3TWxXR0JpVmp5dHc9PQ==
+"In a normal home setup having access to your router means having access to any internally exposed service in your netwok. They could configure a VPN for maintaining the access to your Network, and then just wait to find a critical vuln in a software you use for getting access. It should be possible for them to throw a mitm attack and sniff some non encrypted traffic (these days this is not too common).",r/hacking,Z0FBQUFBQm0yeGNYYTM4VGhRZ3pQRVhnMU5DODVUdWJPdmpjQlJzTmFkR2VINC1YSGNKcUZuVzZrNkpmUU1xUzBDUC04SndPWW1uSlc3bXZKc1RLMUJPOHppUGQ1ZHItVFE9PQ==
+This seems to be a UPNP issue in your router,r/hacking,Z0FBQUFBQm0yeGNYZXIwVmZvQkpZOVpLSV9BZFJNZ21JU3EwNDZUMm1aNkRuTDl5blJNYmVmbFhkMWxmQzVibEl0TGlnN0VXSUhZQXZ2RUw3Uy1tLVNhWEtrMXZVQjJDN21WTVpkVlhHbXJGT05CQkV3ZTRaN3c9
+"Looks like the printer indeed was hacked at some point.
+
+
+This seems to be a small hacker group that hacks devices that are accessible directly in the internet, which really shouldn't be. 
+
+
+When you google the name and printer you can see that even Google indexed crazy many printers, which were just sitting in the internet, waiting to be hacked 
+
+
+https://www.google.com/search?q=Hacked+by+%22Aliester+Crowley%22+printer
+
+
+It's impossible to say what this group did on the printer. Maybe they installed a backdoor, maybe they just added this to the display name to scare people. 
+
+
+My best guess would be to download a new image for the printer and completely wipe and flash it. But tbh I have never done that and I have no idea how to do it.",r/hacking,Z0FBQUFBQm0yeGNYaVY4OUVBd2FZNHh1Mi1SY09zZUJWZ3ZDeWZHcTN4SV9qM1ZBaXNVUnJmVDNtZUdBM2NjVFd5U0pUOFh4a2E4VnVIODMxVHpacUdxRlVjOWQ1Qm5rWUE9PQ==
+"Change your default dns to one they control, mitm your traffic, steal logins, and move be laterally to other devices on the network. 
+
+That being said it’s probably outside your threat model for an attacker to go after your router on your home network. They would either have to be connected to your home network, compromise a device that is connected to your network, or your would have had to set your router login page to be accessible to anyone on the internet.",r/hacking,Z0FBQUFBQm0yeGNYcmFLSDNmZUozT0I2WlRNQTZUejRrQXhUeFlfcDhaZmp1RmhndGpIZmhGNlhmamtRMi04dEt3S1h5SmVqVzkxRjNZREVGOGhOdEpfYlAzRlFJc2xEYVE9PQ==
+"A compromised network device impacts all downstream devices. They would literally be a man-in-the-middle and have the ability to intercept or redirect all your traffic. 
+
+
+Theoretically, worse case would be to install a custom firmware on the router, like OpenWRT, and gain full access to everything that passes through. In practice though, that’s less likely as those projects are not as well maintained these days.
+
+
+As a goal, an attacker would use this to further compromise internal hosts. This can be done by pivoting from the router, looking for vulnerabilities on connected hosts, or poisoning internal traffic, such as DNS, and redirecting internal hosts to malicious sites.
+
+
+In actuality, if someone is attacking your router from the inside, you have other problems and/or have already been compromised.",r/hacking,Z0FBQUFBQm0yeGNYanVpbnA3dmdkd2ZwT2VjX01JWUxIdVg4S3BqREp4VW5wbmlpVk5HUUJWVE4wMjFGYmtqaHplTkllcXJnQ3VTbjRQT1IySTZvNkh6aThNNXg5dmlldWc9PQ==
+Thanks. I have no immediate need for this printer so I'm gonna return it to work. I'll report it to my IT department.,r/hacking,Z0FBQUFBQm0yeGNYVjN4M1JFazAzdUZWbTlGMnBKZ3Q3a3k3X196ZThDZWhsTzJMOHlSTm1EaUotazJ3VUwwR3JiOS1NY0hjSU1ndWFSOTVVZkdPdzdtcXBQc2ZqTG8zZ1E9PQ==
+Good bot,r/hacking,Z0FBQUFBQm0yeGNYc3BzOWNkbVlINWY4akZadmRzMDVjcmwtLVY5dzdmSTVPVFFEam40ZWp0ZGlEd2dRdmpZdGRCV3YyRTdpN2Vhc2FTaEZGY1BLQWo4NlYwbnU3bFp2eWc9PQ==
+"where is the option “Idiot Employee”. fucking he’ll I’ve seen feds breaking doors down even though they had permission. 
+
+if you hack never admit to it, never tell anyone.",r/hacking,Z0FBQUFBQm0yeGNYQ1VieHp4aTBlNUpVT05WTXJ2Y3ByQ01qeXJ3TFBzZU9OaV9oa2NmN2hob2tLTkdyeUQxdzdOenl4TGhNcFROS2pZd3p6Q01oVE9DLUhJM203UUNiUWc9PQ==
+Why would you expose the admin interface of your home router to the internet in the first place?,r/hacking,Z0FBQUFBQm0yeGNYb0JxTFR5X21JUHYxZjA5LVd0dlc2WXBuamRGNTJlUElQZzJLeHZPc2l6UDlkdlpUZGFkeGhvSDVpYm9IOGE3am9WX1Y0bHRKUGo0blI2ZlNyV2tGeHc9PQ==
+"one employee once did dropbox… no one else did dropbox in the corp. the soc immediately saw it. 
+
+ironic really, he wanted to be this crazy big shot now he’s doing one of those food delivery service jobs.",r/hacking,Z0FBQUFBQm0yeGNYbFhFMlhjdDREcENmVlVXOTVId0JjMk8tT210djM5SHZpa2hLNDRSd25DYjJQVFp6TVFmMkptdFRONjNEOHBTRFBXeW1PaGxMRHk5dTQ4RTc3X0lJVmc9PQ==
+"Nothing - as long as they also don’t have access to your WiFi password and can authenticate to your network. 
+
+Only if they can authenticate into your network can they access the router interface to use the actual router password.
+
+Just change your password.",r/hacking,Z0FBQUFBQm0yeGNYdk5pd1k3Y3Nwd3pWQmRBU2tkRjdtY1lpd0VvMDNaV011dkdxYWpnYllSYTZqcmRuOUpkY3piM3MyUjhxQ2JIMjkycXo3NWlQcU5uZmNiQnlIZmg2eFE9PQ==
+"Incorrect. You’ve assumed the attacker CAN access the router interface. 
+
+That is not assumed.",r/hacking,Z0FBQUFBQm0yeGNYYjNqczVBbS1ybkxVa2xKOEc1eHpoZUIzSTBld0xoc3ZJakhhY0tWeFVxX0dhZ0xWUTdMcUgxNWFiZ2NrdGh3V29OaUdhRHNyMXg0cEZ2OHhzbV9WMmc9PQ==
+"- Listen to what other devices are there and can read that traffic (MITM). Like collect you data if you have searched for any places, entered your credentials, people, which sites you use most, obviously only applies to http sites. But I think the url of the website is not encrypted.
+- Accessing any local service running like ftp and can view and download the files.
+- Change the Settings of your router, maybe change the password, SSID, security options, Reboot, change  firmware (modifying firmware consumes higher energy not most can do).
+- Phishing, changing DNS records to make you visit their webpage where you unknowingly give your Credentials.
+- Obviously use your WiFi.
+
+I understand that you asked that if they have your router password, but apologies I wrote that before understanding that. So basically unless that don't have access to your wifi or if your wifi isn't vulnerable they cannot do any of the things listed above. But they could try that password in common websites which most people use and if they know the websites you use. They will try your email/phone number and that password, if they have any.",r/hacking,Z0FBQUFBQm0yeGNYUWVYSVlqLWgyNDNiWWdiT0dwU3JhM2ZiS2h2QjN5ekRya0hjYUlSTnowcWg1ZGpkMU9qVHAtcWJwWld5MGpmVnRlaDVYdlZ0aVE3bVh1VGpQWldkSGg2cUNyb0Z5SEw3cXlrWkJqMjFLRDA9
+It's assumed _given time_. No security is perfect.,r/hacking,Z0FBQUFBQm0yeGNYbGZ2MGZMbk5BVWREREVWWDI5YVhIRkF2RllYQUFyNXFtbTRJaFp2QkJsS2RGSUk0TmdFanJPYWJRd29pMDl4b2dmdy13ZjlkWkVXeGdVeW5ITGg2bVE9PQ==
+Hacking your router,r/hacking,Z0FBQUFBQm0yeGNYQi1qQ0dWcmNfbGRvVnRIbjdic1NNV3pxRi1STldjSVgzZUVYc1Z1WjY0SEdEc0ZCVmM5UU53QWVudUZCcDlOcW90WjRERHhCVkRtMlYzTTd2U19WNUE9PQ==
+"Under that assumption, *given time* the router will be upgraded rendering this discussion a moot point. 
+
+So short answer might be reenacting the printer scene from Office Space:
+
+Smash it with a baseball bat!",r/hacking,Z0FBQUFBQm0yeGNYNkh1dnF5Q19XY0hwM3Z4MGgwMVV5QjRYcDk5T09tXzVGeDktOFRFenNVU2szRUtYbzJsNG5oRE8tX3l2TUJSeEdpV3M0dkRXYUdWRXFud2tjU2pTQ1E9PQ==
+"Hello u/Previous_Hornet_3800, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYbUZuRm1ubUp4bkoybUk2ZlpyZ0M0Z3o0TnpTWGRvUkZYY1hUZlRtZG1NNlVZZTJNdVAyS1hHTTZEWnpJZktuZUNucTdOU0ZfRHdtQVFGLVJ5OWh1aGc9PQ==
+"I woukd say yes and no. “Hacking” still big amount but its not the same. Its more then ever predisposed scripts and tools being used by thieves, not like common natural engineering game for some or pursuit of the “win”. Also if i could donit all over, i would have moved to russia and then focused on this passion since they do not charge or expedite unless you affect russia systems. In 95 at 10 it was still many finding zero days, now (i may be wrong) its far and rare. ",r/hacking,Z0FBQUFBQm0yeGNYSm5ELTl2SlJEUmoxOEc4QmRiTC1hVHBHREY4QjFSX25JVlE5ZWl3YUpuakhuOEItcE9GWmxJMzJQbXc3aVpyMWY0dTNxSmZQQTYyWjIyNUR1RmtyM3c9PQ==
+"So your counter point is that ""by the time the rogue device on my net is a problem, I'm going to replace my router""?",r/hacking,Z0FBQUFBQm0yeGNYYUxrMkF3elpOS1d0ejBNdjlLLVhmc2JSUVVzQlBCWnItQnJTZjVUTERuR2ltcTd4a2JTLUEwbEJHdEhJMHVSRUs1QkNaaG9rSTRuSVU4bUt1MmFYeVE9PQ==
+"Hello u/Relative_Giraffe18, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYUXoxNnUybGVUdHM0NHlqVU5PaC12czNGRWJBU2NySXpMUlJyRnU4LU51Nm5wTm41dmpMOFdneC1KUk5Edk5GNmYySkV5MThza0ZiQTBCM2R6cUVUV2c9PQ==
+"I would tar the files. Encrypt the tar. Split the encrypted tar file. Encrypt again these splitted parts. 
+
+After that, I would send (all parts -1) across different public clouds or services (dropbox, S3...). The remaining part I would send it via dark web or VPN.",r/hacking,Z0FBQUFBQm0yeGNYZFZoWUNGX29iaUp5YThxbGZMdVZ5T19CZl9LT1FHb3JGWFc1b0ZKRXpUVHNoRVRWYmN4RFRpQmNBWkFKUHZ1emRNOTBaUU1ubTNSUTZLczBudkZkcmc9PQ==
+"Hello u/ritap93, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNYRXo0eHZMY3NhWWtFcGo4QUNuaTdoakZGcHRsUWJLU2xRMndrcGlMZ1J4cXhTa2dFT1BHclZhRWhscGJWT250MlVvemhJWGtpWHlyREY4XzZqMGk0UUE9PQ==
+"Best thing is, CEO wouldn’t remember if he send the mails himself and do anything to cover it up",r/hacking,Z0FBQUFBQm0yeGNYek5ra3hrRUJ6bFU0aVVQOE5rSUlWaVVzdHZmcEhmajBBZ01fVDdiYnVzOEJObVhvZHF6bHoxaHZhZnhKT3VxQlN0YV9ZeUN4Rm9HaENNYXN6MjlDeGc9PQ==
+"Humor is required in security. Otherwise it’s just depressing. 
+
+Assumptions make people look like asses. 
+
+No empirical evidence a device has joined the network and has access to the router. Show me that evidence and we’ll begin the conversation.",r/hacking,Z0FBQUFBQm0yeGNYaFhuckFLMENDMFZUa0RlbG5lZlQ4T1l3MHZEZndKMzNwTmpTS3RTRXB6bnZfQTdvT0hERjhaV1dtWGtDMTJhLVpvVktwNHRCV0NuT0Z6YjBBQUR1RUE9PQ==
+"That's assuming you can hack the router itself.
+
+With the given assumptions only, I think you have fewer options, especially since almost all internet traffic is encrypted, and there's nothing you can do about it.
+
+If the router is compromised, then yeah DNS redirecting could happen if the user is configured to use ISP DNS. Even if they're using an ISP DNS, you have to get lucky enough for them to not notice the redirect and getting tipped off. Even establishing a proper mitm attack isn't a case-closed compromise on modern machines. After all, they're made with the assumption that they're being MITMed.
+
+I suppose you could think of it another way though. If they are able to access your network as a peer, they can sniff to see which websites you're connected to. Better yet they can probably tell when the house is empty based on call phone connections and rob the place.
+
+Edit: the question is worded weirdly. I see now that the OP is talking about the password to the admin interface. Assuming they have both the network password and the password to the router itself, then we might be able to assume something along the lines of option 2 (mitm using a proxy set up in the router perhaps + custom DNS set up in the router perhaps)",r/hacking,Z0FBQUFBQm0yeGNYNlhNVjlvMGtWOVhTODc2SVlQTU5od3Y5WXJRNENGNWRwa0lFeUFzVXhqVnN2eUlveU9xc0NlQXduMm9qNlpiMW9Td3pHcG1ZZ0NFRDZhTzhsX0pQeVE9PQ==
+"While your data/activity isn't the specific target...
+
+[https://www.itbrew.com/stories/2024/02/12/chinese-hackers-went-after-us-routers-here-s-why-that-s-a-big-deal](https://www.itbrew.com/stories/2024/02/12/chinese-hackers-went-after-us-routers-here-s-why-that-s-a-big-deal)",r/hacking,Z0FBQUFBQm0yeGNZZHZQSDA0V3BDdVRUUnVGbFBKM0VEWjdaMWtsOS1ncERYbVItRFBvT2tPTWR1amZYc0NrY0lDcUJxSkJNU2FZb1RoYUFYQXNMUnhqRmV5bmwtZXdhTFNtRmxWa19pejdiZTd3ZHg1czRNUnc9
+"Hello u/_Agis_, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZeDNPYzhJRndsWURaZnFCSmxLZjBRcURTQWlMZ3JqS1BWbjVQM3huOTdiZF9JeVBUZzlqV0w4SUZVRnMyTDhUdTNMRzJ6RnFFLXFyTWY4Qk5GM3pibGc9PQ==
+So happy that people aren’t buying the CompTia propaganda and still calling it MITM 😂😂,r/hacking,Z0FBQUFBQm0yeGNZUVRvNGo3TVJyZTE3RTlGcEFyVVRBOG04aUlTSkVYMV9Vdk4wdWlsZ1NmdTBFY1RYbDNhb3l4dEhqZmdvZDZRZ3lSakVtX0pyVWxJTF84U0w1Q3F5d0E9PQ==
+This is wild,r/hacking,Z0FBQUFBQm0yeGNZdXpXeVlsSXJONjY4R1hyQkFtZjRXenV4aUJzUlUzMWJYNTZ4VHNjYXFELWtEQy04ZFRJZ05JMHk5NWNSSmJXZnc4Y0hqdlQ2U1ozajFPZlJ5aDhpNUZYd1VrRTNSNWQ3VTdLX0liVEIyYnM9
+"NOT A BRO, DUDE IM A FEMALE US ARMY VETERAN AND YOU’RE WELCOME FOR MY SERVICE.",r/hacking,Z0FBQUFBQm0yeGNZdHJGMG1wMW9Ga0pfb1phcFBpc0FZY1JaNE9UZVp5LWFZZzk2ZGxNeU93WUlJT014cFhLSzVHRXhDR2FfQXZYNGg3QXBndGtpdWU3UU5IeDdEcFZyQkE9PQ==
+"If you intend to use that information to make money; at least in the U.K., that would be counted as profiting from the proceeds of crime (act). In my last company we wanted to use breach db’s as vulnerability identifiers, but you can only offer that as a free service. 
+
+If you’re just searching for your own interest as in a “have I been breached” kind of way, you’re fine. If you’re looking to see if someone else has been compromised, still legal in the U.K. (though ethically dubious); and if you use that information to actively (try to or actually succeed) attacking a system / target with the compromised credentials it’s definitely CMA section 1 breach (unauthorised access); possibly 2 if you intend to do something with that access, and section 3 if you fuck around (change) stuff post access.",r/hacking,Z0FBQUFBQm0yeGNZYm5kSVEtRGtIVEFMdXRfVGhtNWN1ZkFRNUZ6X0xVMUVOdU43aUxLRVFvckdRT2tmM3RvWlVtTkJRYTVvcUh4ZF9Kb3ZxaUJJM1ZKdkp0R1Nld0ZJTjdyOTFRUUJoWGJYS3AtaUNqak93UjA9
+Why do you say that this is not too common?,r/hacking,Z0FBQUFBQm0yeGNZOE1GTFFNNG9OR0Q3V1Y4bzdsQklfS3FUd3JmS1lSS1RNZUlkbDYxYXU0U3NsVS04aW5ZX3RaLTdSN1h0ZENQZVc0Nmd6VXRDUzJfcVBvdTZPVzNhX2VnX0ZvVmZ2aE9aVzRBR21qbFNOZWM9
+Most sites use https these days instead of regular old http.,r/hacking,Z0FBQUFBQm0yeGNZeTEwTDFKeTNTanE1bVBSNmNMeG56QndvQjExd3JVUE8zUVpHcDNDN3dRTU1DNlFobFY0bmpJTmlET1czbll3ZVFmVThKR2JnbVVNa2VwY0Njdm5jYnc9PQ==
+Holy shit...,r/hacking,Z0FBQUFBQm0yeGNZYl9qVkh5Y09PdlJKWUJBeVJlTFNvQThMdG85YmRXRFlEZ3hmMzVzSVZOMHExV0RNdkwwVi1OS3pIMWtvcVphZHJsSVliMndLTnpPa2V2eHVYdzFqQkE9PQ==
+"""As long as they also don't have access to your WiFi password""
+
+Seriously asking here: are you retarded?",r/hacking,Z0FBQUFBQm0yeGNZTjhDTjk0NzJSQWdsWWhnZ05ob2NST3lLRjZFMWo4WjlwdlJXMTlXVTBYTTdRQ2owLUFiTjB1d0s5SWx6WG5YQWt6WTB1YWxUeGtLV1pwWDJONXdnMGc9PQ==
+"Empty shell article
+‘…Why that’s a big deal’ 
+And then they don’t explain anything!",r/hacking,Z0FBQUFBQm0yeGNZU0xISTdGOEZ0TnBtM0FDVnRraWxNMUhiUnhPWERBc3BOc3NUMW90d1l5YU1EY2xVSWNBQVlJS2E1eXhkYmxNVUwzWmUyV2hkaG1hT2hRaUY3WDFhQ0E9PQ==
+"Access to your internal network. Which would be quite easy to find interesting stuff on a home network (I highly doubt your grandma patched any critical security vulnerabilities on your home Linux machine).
+
+So, setup strong passwords, and have a separate guest wifi.",r/hacking,Z0FBQUFBQm0yeGNZT1F5LUp6UjBhcW5wdkZpajBwVk56WF93aHVWTXctMnVwcmZ1VUNhX21wUncyWDNjYzZPOW9MTm83YWwyWHNoTlJRNFdUeTRKU01BWkcwd3FQcEVpR2xmMnFncEpZa0ZFZFZfbVNEdFhWZzQ9
+It's a shitty ad for deleteme service that it self sounds very scammy.,r/hacking,Z0FBQUFBQm0yeGNZU2NpS0lpOERJSmNHZG1vQ2JpZXE4OEhJTmc5X3d3ZndMNUFNMGFaU0NEYnJiODF1dlJpbE9FdmhKZ2haNzQ5ZFg5bU01bDZCRTdtSFIwZ3gzMkpfWTlKY0hmX3laVVZMQ0pfR1QyRDVxbkE9
+Comptia isn't real.,r/hacking,Z0FBQUFBQm0yeGNZZUpOZ0EtNkpGTnFWU0MxTGVseEMwOUR0eDh2RTVnczZLdDZDZkw1elB6NkNaQ0p4X2hNd1d2V1hzRl9yS0V0c2RKek5LWlpSZGtrTGhpbEZabVU1RGRRUE9JSGVyUzFGYTl3SzR1NkdqSWs9
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZdkg3LV9mTDdOejhxcG9aaWhWWFJ0MGhYM3VOZ1BiNzJOS2x4Vi1qOVk0a2ZRRnlBbTRjYkQxS0RUVnlCMUVNWFg0VWoxRUpCN3kySmtraVB5Wm5mWVE9PQ==
+Because everyone’s grandma runs Linux,r/hacking,Z0FBQUFBQm0yeGNZZkFtLTQxa0k0OE9TNW0tVWhndnpWdU8xdGZTMExXTUlOS190LXFYR1llRDk0bG1Qb21Pcm01RTBxRFdGYlZ0by1JS0ItX0ZBNlE4dkd1dFY2QTV0blE9PQ==
+"Context is key here.  What GP is saying is that if they only have the password and nothing else... Like access to use that password, there is not much that they can do.  This assumes that the router is not giving access via the WAN, and that Wifi is not compromised",r/hacking,Z0FBQUFBQm0yeGNZZzNSU3NVaUs3R0pLbHp6WFlnTjNpTWZ1VUhienllT21YNEw0NXpwX1JRdk5lT3p5UWMwV3ZCdXU1dkowVmlYSm0yMDFaeGtJblNvWi04UnpORFAzckFpSVRTU3lqSC1TRHVuNWp6WVVEdUU9
+Gooby: ... Da same fuckin' day!,r/hacking,Z0FBQUFBQm0yeGNZUXJoRk9ucUxxVWgzczVmUDRsb1JkX1NZYW1NVE13bkc5WHZ6UFJaWWNSbTVmNVFLaVEzakZaa3JnWXk3V1JJbk9tZURVd1ZQZGdsQ0E1T1RrOWlkZFRVNVd5d3FPYmdyTkszZ19YaW5mWlk9
+"For being in cahoots with the NSA, this is either 
+A) Totally unacceptable 
+Or
+B) A brilliant Honeyhole",r/hacking,Z0FBQUFBQm0yeGNZZS1oRjJVUl9TS216NEQyYlMyNE5jeUpnTmsxZjNJdkRRcXBuaUdUVkYxNUd0UXFTcHRsNkdmeVI3TGkzT1ZOejhyT0xEUE1JNVREaUREVWlnSjRfNkc5RGJpNThBMEh4VUZUcHJ0LTRmaE09
+"Well, what sort of stuff can *you* do when logged into your router?",r/hacking,Z0FBQUFBQm0yeGNZR2lHenIxdTVkc3BIN2JBalQ4STl0TmJCa2R3eHpoU0dMdXhsUjJ5RXVuRnRydlBTSWJwaXdJLTZ1cjJvMENTdlktOFJEVXJZUHpNMnlFelFkY09fVnc9PQ==
+Do a reverse image search on Google and see what pops up,r/hacking,Z0FBQUFBQm0yeGNZSlNDeGkyT0FUZkhiWEphdDNaY1l6VXpyM1ZnMy1oYmZlYmwydXJTYk9PRHF1M1ozZnprUGRwVkR6eGRlOFhrYWtyd1lGcHNiTm9NRDd2UktoSkRJcXc9PQ==
+Okay! Thanks,r/hacking,Z0FBQUFBQm0yeGNZWC1BX2prY0QzdXJIdzVyQUVHTk43bkdhSTJTcklPLWgxYnlHWENnbTUxQmpRZ3RabGh5S2swMmpmRW01MW1CZXNVcW9icHJHa2pYS3dpUjB0UDhJWkE9PQ==
+"Gooby: … with da same fukin’ finger!
+
+AT&T: 😯",r/hacking,Z0FBQUFBQm0yeGNZamJ5Nnk4eXU0X2NjVnU0M3lzMkE3YkQySncxRU94cUl2QkNPZ0VCLXNQaDNUOFZzQ2x3ZkpMOTJGNjFidUNPT2ItQXdya2I3ejlVZEJDTHZmSkd4TXc9PQ==
+"Attacker literally can decrypt all WiFi connected devices traffic, tf are you talking about?",r/hacking,Z0FBQUFBQm0yeGNZUFhFWTJFOF92OUJ6OXlNM0RQQW1Ed0FFSkV1XzBieXZrZUpJa0VjNWxhV3J5dmoyVEhvN1R2ZjJwcUpSVVI5aEx3ZG1uRU9DRFZMaXJvRUU5ZWFXelE9PQ==
+"I would do a search for your name/image. And if this is happening and you can provide the evidence. You should honestly report this to local authorities, the actions are illegal, and border between harassment, stalking, and identity theft if he’s creating accounts of you as you fear. If he’s in the Csec field, he needs ousted from it.",r/hacking,Z0FBQUFBQm0yeGNZMnBFb3pPVjRScmgtYURsZHUtYnI2RUNJbTRzUDNBNW0tckRhQmZ1TG56Ykk0Z0poVE9iNm1xV2Qwc2o3aVYtbWNaVFVZZkV5LVFLQWxSNXRBTzBhd1E9PQ==
+"For some reason you get this post when you search ""Kiwifarms""",r/hacking,Z0FBQUFBQm0yeGNZMnVHbDZJU0RGWXN2aF9ja0h6cEhWVGw5b0RIY1JPUFZ3RUF1RmpLTG52RzhGOGsyZXBXQ2wyYXVybU95cnJjR05vakxuSW56X0FveVVPcVlfaXNMM1VYVUVQeHppbXZVWjhERWhZVVVjeGs9
+"Login to your email provider and remove all instances of persistent authentication. 
+
+Change passwords for everything, starting with email.
+
+Enable 2fa for enerything that supports it.
+
+
+Outside of that, document anything you have evidence of him accessing and if you thing the evidence is good enough take it to your local authorities and it will at least probably let you get some restraining order put in place or something more significant if you have good evidence. Doing shit like this isn't OK.
+
+And in case it wasn't clear, faking that something like this is happening to you would also not be OK.",r/hacking,Z0FBQUFBQm0yeGNZdDh1Rm1lWEJHNjNGMWhWZkhtMGNfTzlhUGNQc0xnU29GcWhQc01rWXJrX2pFNXowR0xzdW1tOGRUbDBvTmpQMkEzd1RLZEdkR1dsSzVKSWRHdUlIRkE9PQ==
+"Reading comprehension buddy.  Please try it out.  The GP was giving a scenario where the password may have been compromised by a third party vector, but access hasn't been gained.  The OP was a little vague, GP was giving a more completed picture of what extra needs gained other than simply the password",r/hacking,Z0FBQUFBQm0yeGNZTGV2YThEWVNmZEc3ZVQ2MW5nWmpVR01MUkdLRnpFeVJWOGpoejNGdEgzSkktRFcyUDhjZnZVSXdjel83NVBETDRSek5yUE5GRXR4M2l4TG5kSlE2VUMycXdSdkpaVDRTeGM1ekhQbVhOWjg9
+"mmm im trying to do it and im getting some errors, can u tell me what OS did u use and any other relevant info please",r/hacking,Z0FBQUFBQm0yeGNZY0JRczNxNGJkczFpRkV1VXk2SThJOE9zMS04bkZ4QVFDTGdJZ0U0OWtPUURMYjlhVl8zMW10clIwLUdmZ2lpX1N6eUJJQUJObkxTTjJFQjJHOUdSTmc9PQ==
+"OP never said attacker cannot be physically under the network, this is something you're assuming",r/hacking,Z0FBQUFBQm0yeGNZS1RYNWhKMVRtUFptUjkzNXd4UktLLXd6VnI3WDdmZW84bVRfb0RNVVMxX1hITjhwb3oyekQxelFHMzR0S0dmZ1JXcXB4ekIxSEZEZVRYM0VyaEFPdmc9PQ==
+"Right.  The more obtuse you get, the more blunt I become.
+Do you not know how words work?
+OP never said that.. True. But that is not what GP was saying or even implying.  
+  
+GP was giving a possible alternative scenario that was not entirely clear if it could be true or not.  
+  
+Did you fail 5th grade reading comprehension?",r/hacking,Z0FBQUFBQm0yeGNZdldHOWZ5VnNLdnJQdTZTMW1GdlZieDBWaHB1dDg1QnBzemFWY3pxUjloV2ZkLVVqSW9PMk9uTjgtMDBPN1ZNaEN3NDAwM2dJNWpmZDRQQTZNeV9iM2ZuQWYtb3RQMGhoUjlmUDQ0NFNpOWs9
+The criminals are usually Chinese national employees with PhDs or Masters in telecom. Go read about the equifax data break. Nothing special about the hack. Just individuals with the level or system authority downloading data right into a hard drive to physically bring back sensitive and private info for the CCP. It’s a lot easier to notice data being sent on the wire across nations than physically stealing it.,r/hacking,Z0FBQUFBQm0yeGNZM0NGQXpSQ2ZNQ1F4SmNNRW1LOFBVUm5pSTV3enY5cUdiMEJ4cmRBM2x2UjlLb1RLZkNTWnM4eXZqWXo1U2hnSkFMNVFTcUFtblF5ZWtKSmJhZmh5TXc9PQ==
+"Why invest in prevention when you just don’t care about preventing anything in the first place?
+
+“I’m not going to give it to you, but I’m also not going to stop you from taking it.”",r/hacking,Z0FBQUFBQm0yeGNZS2JPem4ySHRicWM5b1Nna1A1RHFwYzVHRE9YVXJFZHNfU2F5bWlKZVNlVmhCWVdHdTZ6WkszbV9yM0ZhY0xPWmxWNjNnSlJlbUpuV1ZmbDVyQkpsalE9PQ==
+Just use an anonymous file sharing service or spin up a cloud box used only for transfer ….. it’s that simple,r/hacking,Z0FBQUFBQm0yeGNZbHJnZlhvRWE3SUlnM1BWY0tKUTJ6RWVDVHZVYVcyS2hobk43dmFYMy1uOGdLNGhjUk05ZXRkSVRGa1VSV0FGellneEhtM0czRDlubHhYSy1TeFd6X2c9PQ==
+Jesus ATT get your shit together!!!,r/hacking,Z0FBQUFBQm0yeGNZeWYwMk5Cbm92Qm5YSUFPRzE0X3Qya2dHZVh2ZTBEYm0tNlZnRXhLSGUxN2MtWC1qVDNpd0JMM2NHWGx6M0xfYlROS3Zzb0w2UkljMEdEUGw2RFc0ckE9PQ==
+"“bill that supposed to do things or something” 
+🤣 Jokes aside, yes I think that’s it. 👍",r/hacking,Z0FBQUFBQm0yeGNZM2M5cWdZZkZVMEpLbGN1c1pDQVRocnQzZ0tRa05lZU5VRV91ek80Rk5mbEJHNVpZa3VoUHc3RVdDY0JmR1R6T1ZoYXhxMm9GY2xVMVdqcm54RXM2SHc9PQ==
+Where do I post scammers for hackers to get at,r/hacking,Z0FBQUFBQm0yeGNZeWN0TURtSG1SVC1QTE1veVRGeUI3Q2JsazdCcE1MOW9yZ1B2cG96V0c2SjNKd1J2djFOQWZBQkxieFZrdlhlMW1yWEFCa3F0RG5NeXB0U0I2UFZSWXc9PQ==
+"Just as an example, Windows is as bad. I highly doubt your grandma knows how to keep things updated securely.",r/hacking,Z0FBQUFBQm0yeGNZYi1INE9yM0U0Rks5ajJmS1o2TjAtWTdBajdYaDh0aVdNZWRrQjRqYzl5cXB5aTdkMWIyeFc2VmxrQVQ5ZW5ULUF6cmkwMm9TLWNkM1BGX3N3SURPT0dXUmlxR2JBQ3NYelRPaVZpeklaRXM9
+"Agreed, this is NOT okay. 
+
+That said, try an OSInt approach. Google OSInt  and you will find huge lists of sites to help you. There are several sites that will allow you to search for names on many of the popular social/dating sites. Try searching for your information especially on sites you know you are not on. 
+
+If you have social pages, like Facebook or Instagram, make sure to verify all of your ""friends"". If you have not cleaned that list up lately, now is a good time!
+
+Hopefully this helps. Living in fear is not living. If what you say is true, and it gets too bad, there are always other cybersec type folks willing to lend a hand.",r/hacking,Z0FBQUFBQm0yeGNZcEFCZ0FZanREaEhDZnJWODVmZGNkVkVjVGU2TXZqMVNhNW5JN2JIWUljTXdxbi0tNTlXRi1Dd2IwdnptWWd5bElLbjBmVUE4eldNdVEzUlNFck8zVVE9PQ==
+"Hello u/w_ithout_mee, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZbzNhbmRMOTM4emtDSFNtYjAzbVpSTnVxVkROdzhjdTBzT0I2VktNUDRXZ3BrQnl5V1dDR3AzODR5UWRHTTlVNmE0ZzFBODlzR0JwcGdqaURhX3dTSEE9PQ==
+"Thank you so much for the info. Yeah it sucks, every time I think he’s left me alone something new pops up. Trying to put an end to this for good.",r/hacking,Z0FBQUFBQm0yeGNZTlNpSVFDazJrZVF1UG11YzhQX2s3QllJbWFrVWVkZGNCTmF6MWF0ck5VamJlZjgwWGJwTGtpbElpSjY0a3dWMU9JRmZ3a04yVHRtbXBoQkNMaXd3a0E9PQ==
+"He’s fully aware of what he’s doing but I think he’s spiraling. I have documented proof of some things that have happened. Contacting the authorities will be my next move. I haven’t found anything with my image from a reverse image search but this is all very new to me. Anyway, I’m working on it, thank you!",r/hacking,Z0FBQUFBQm0yeGNZQzFDWmxqaTRIbjFlbndtUktNcEtCOWJzcEItdmVKVDc2Zms2Zi15Y1dHa2wwUGJ0SDh1RDlmMjZlM1FsenppRUthbmcyY0NXM1ZKcWt4WDNsNm8tSnc9PQ==
+AT&T: We like your style. You're hired!,r/hacking,Z0FBQUFBQm0yeGNZdTZmMl9BV0h0SURhdlBIZWYtRERZNy1nemJVZ0RIRVg5dDYteXZ0SWYyQm9MOF9IVGFkcWhEVjUtSmppYTRNcXJEaUl4X2hsal95cHhXUWU2ZEFpaWktbWpNVXFhZFZZVmtVM1YwRGtMNTg9
+"Hello u/Alternative-Mood3673, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZb0NzckdhNTNyZU41Z2g3d2MtZUFyQnQwSWFWZEZTczQwS3JuZjNLTWJ0ZGVDRDlPMWlvSThKWmZHLU8yclZ6R1ozY0hjRDdGTC1yQVJjdW9tWkhoVFE9PQ==
+"Hello u/Alternative-Mood3673, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZeExWRGRJYmsxWDFRQWRaaGc3VS13OUVFTTA5X1VBbGc5MF83WkdITEdVZl9Md2IwM3lKQWpraUpGRGZMaTJaRWdHeXZRdnMybUdXNTU0M1F1WkNxemc9PQ==
+rclone,r/hacking,Z0FBQUFBQm0yeGNZVTU2YzVocjdQanB2dnZNX2lJbW5ibTZoLUNQT2VUWWRiT1NBczdNaERFNTFvbG91NjVMd29ONS1MYkJreFE1TExKbHQyNkRlVlpkR2FaTFVuSGUycVE9PQ==
+Heyy text me,r/hacking,Z0FBQUFBQm0yeGNZeEZCcVBadlBlMHU3aEFNT0lxbm45S3BYWFRVQjJCdlJ0LUVJN2FUN2ljZTdiMlN5d3Bwc21WQU1BVVVaa1dxTy01VkVvZ2d1T0RuUjdRYmVyVnFJMl9mdEYwdVZmem5xV0Z6M0M3eGU5VW89
+Im available,r/hacking,Z0FBQUFBQm0yeGNZazE2cDdiQWlhV1ZBeFhOWGQtTU41N181T19JRFUyQkFQOXFWUkhTT0NrdE5FZDNtN1pPTnQtYUVXVzBaV2tnYlotc1I1anpTQjJDMS1FWjJ5ZC1WbHo2N1haNk9PQVptaUM2cUprb1ZCNm89
+"Hello /u/Happoquito_!  thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**We do not allow Discord posts**.
+
+Please make sure to read [**our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZcmZPbERBMHJoZzVBSWY5eXhUaG1xSFA4VDBvb25UZGE0eXJ5U1ZPV0JmbHlHSE1sLXJ2b3VodDZWMlloVmFteXhfWGFSRm5RdkFMcnlfMjBsVVhzd3c9PQ==
+Messaged you,r/hacking,Z0FBQUFBQm0yeGNZUU0tNGJmZmlMUFRYcXpUZVVubW54RTJuNkw1c1hfRkhxY21XM2xQZFFVenRzYnpLb0JWN1N3MDg1elJMeTdFajZuN1ByRWZyenlJR25LaWh1SUtTNWc9PQ==
+"Try yandex image search, google sucks atm",r/hacking,Z0FBQUFBQm0yeGNZY0hQTWJzcWR1X1dJNUxYVEtNSlJNeVJIZnRWSXhHUEVXR3dLZ051Q3BkelhETG9YTFhpRUNkel9VcDFSWnFORmJydTBGcHdHbEE5c2ZqM1Z4cmtlYXhvT3dyMTk1VG1sdmpveGRwV09Ic3M9
+if the passwords are stored in plaintext they're completely fucked,r/hacking,Z0FBQUFBQm0yeGNZTjZrOGRoa1NRbm5Ya09mNmNKeXE4MXZRV29JcWpQZlozUWNUNW4yeHVid1FlVzlBNno0MW5DQ1Bqd3I2ODE1NWsxRE1yWEhWMjR6Zk9HM2UwcnlTSzRwT1JPbVZRZWVWUXhQZFBGQUFRNjQ9
+Ah that old wild West days of http sites everywhere,r/hacking,Z0FBQUFBQm0yeGNZQ0I3c3N1ZmFoUXdCR0NVVG9hUVpJWGMzVDY2b0F5N2tlZDZ0YzdDQ2p2ZHUyWGtXTC1hNUNTX2p2NEhQbWc5OU9fQlU4ZmtIRUNVT3c5eGZBemlmZGc9PQ==
+"u just right click the app and then click properties then open file location & then u double click ""uninstall it""",r/hacking,Z0FBQUFBQm0yeGNZcjZhbmNBZUpxcXpjdFJaSWVORUZfRG5VMzBzZlozaURyQ3ZmQTk0RlkzQUV2ai16RGNTcE4wLVNQNUZYSnJ6LUtMTkRMTXB6OUVDUHplak5jSThHRXRuR08xX0dZaktOcGtqM0xvZVlmZVE9
+"Your post is too short or does not contain a body. Title only posts are not allowed. Please repost with a body.
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZbFh6MWVGcG1FMXNMcHJwUVd6Qy1ETXVJQkpFYmxocnR1OHRJU2hEZ0hoWGkzak1USVljOEdBdllSeEpwMDROckxvUW5DLWhiX0VWUzlEOXlBT1MyZFE9PQ==
+"Maybe smaller shops.. 
+
+You don’t need deep packet inspection to view bandwidth or the amount of data traversing your network to the interwebz.. 
+
+There’s two primary schools of thought here.. if you know the organization has limited visibility.. then offloading massive amounts of data at one time will work and probably go unnoticed.. 
+
+If you know the organization has a decent web proxy or even edge firewall… can exfil data in chunks, smaller increments, preferably from more than one origin IP (compromised hosts). 
+
+There are other more covert ways as well… Google is your friend.",r/hacking,Z0FBQUFBQm0yeGNZQnlYUXpseTRnaFUzNXJSWjVxdjUyMWM3Ul9ZQzdxbEdfcDNpS2pkdzVNWXY1d2RDMVFEWm5pb2h1dDdTQXpEclNvdUtxZjFicUNycWR2UDhIOExCT1E9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZZ09MMEl3ZmpRTnBuSnhNZXJCSWtHVkpXWTJObzhHT19JamxLQkpyVjh3WUJpZ0djcE1fOHl5UnlDUFRKN2VhN2xJS0FFbXdtVzF6UUFFVXAtdXJWZ1E9PQ==
+They could potentially install something more capable than the stock software that your router runs.  They can reroute your traffic.  Stage attacks on your internal network. And a lot of bad bad things.  How'd they get on your network to begin with?  Please tell me you didn't open the admin page on your router to the internet.,r/hacking,Z0FBQUFBQm0yeGNZTktvTjB3SThlOFdNX2RzWE1hTndoSE84RER4czYtRUJpS21FY240OGNmRmRGNEx2TElkdWtZeU11bWlDMmgtV19Oc1V5UDRsZ0luMU9FRzluYjl4aWlIV2JXeXdVbEFxY05jTkV2c2dpVnc9
+"Run the python on your side while ssh tunneling the IO ... 
+
+
+This way you don't have to download tools and such to the target just run them through the tunnel... 
+
+IDK 😶",r/hacking,Z0FBQUFBQm0yeGNZRW9oQkM2c2JoTGRESU9VTTFqWkZWd0pWeC1temZOUFhYMEd3Nlk0WVVaN2M0X3hDWnVsSVlRQ3BIZjQ2cU50MWJjSXphZDRGVzhjUmt4OWZMSFFBS3NWZHFCX1N1aTBmRjM5a2l6NzRaR289
+I would try to find out how to pack a python script into an exe. I'm sure there is something.,r/hacking,Z0FBQUFBQm0yeGNZeUlyR3JwUVNhaWZHSWlSemoxSjc3VDhNOF9ITmV0ZFZJaW80UHVMQXFmdEYxdHN4NldQQ29oc0xod1RsMjBrZk43WTFIMHZENlNLVVQxV21SZEpmUkktbGh2d3RUdkFkdHdTSS1PSm5yVkU9
+There’s plenty of python-to-exe packages these days. It will ship the whole interpreter and bloat the binary. But you can do it.,r/hacking,Z0FBQUFBQm0yeGNZekUxVGFaVU5DdTBod3c4ZVVSaEtYTmhDcktVSkhTQlZlY2dOdjFHYXJfUHBEZmdhZzE2c1FvVnJtaUpkV1hDR2ZsV3FBSERHYjlQV0dzUzhORDFGdnc9PQ==
+"There’s a portable/standalone Python package, and you can use Nuitka to compile to exe.",r/hacking,Z0FBQUFBQm0yeGNZOUZtQTgzdEFjbnBGckd3WmlZcTk5Z0ZNalNJdnVNdFJ2dFZQQ2RYRVFUVldRdXVDb2dBa3hUb1NUSDR5NHUwa2dZQ2M1U3ktMUtkRmMxM0swQmt6YkE9PQ==
+Compile them with PyInstaller with -F (creates a single EXE). You need to do that with an actual windows or wine if on linux.,r/hacking,Z0FBQUFBQm0yeGNZalh3RmF1TnFaYXlTWjV5Q2UyZVBFblR0TmhnWHBtQ2ZCeUpsT0Z2TjhvbS1KNGR3YzV4VzFMZUdCMlM1VUpKWGdhRzhJbWZmNklQR19BNDZwd0h0T0E9PQ==
+"Wow, an XP machine? That’s like fixing up a classic car!",r/hacking,Z0FBQUFBQm0yeGNZNjl3T1J3Z1VhcXdWUURNa2tmTnNnRmZFRlhqSGdGWDJPMUtYVTBfekRpOHgwYUE4LXVuNVBJVzB2M2ZIck9KZGhEa0VnbTduQ1A5aHNhU1hXYUtOTFE9PQ==
+Uhuh!!!,r/hacking,Z0FBQUFBQm0yeGNZSWRPNF9ybUpnODdsQ2JuVFZNZEhsZnVPUzJTVXQ2QzREbVhmNkdwM0x1bjBXOWdGZndLTERsdDhyLWNRajNmaHB1YW5Pcy1QcEs2aFJYZG1UNFhnT0s2LTFlUE1ZTkVWVlBoemFreWRILXc9
+Wrap aluminum foil around it. It acts as a faraday cage blocking the signal. I 3D printed a case for it and lined the insides with aluminum foil this blocks the signal. I’m not for sure what it says to the end user probably just “no signal” though,r/hacking,Z0FBQUFBQm0yeGNZcldjYTB2NmZ6SldDZFJ2LWZWZHl5d2M1dnRKUUNjeUt1N0UtWDFEbnJHcjh4aDFsTnV6TmYxaEJHY2FtUVdFa1huUTFfTE41QWZGY2VCN1R2aDhubmNOdnlpY1JMb3Z0UE1HaGRqdllMOWM9
+It will just say a message like no signal,r/hacking,Z0FBQUFBQm0yeGNZYkNyQVp6YTZyRm1fWVYtcTJHeHp0NVlhYTVQdkQzb00tS3EzeWZrby01Z25zb01fb2tNMndJNHBLUmlBWjVuY1lfSE9wVVpKUEZaRDZJb2hGQnV2bkh2Sm15dWdMa3d1NGtidVRoa3hJcWs9
+start dating a cage fighter,r/hacking,Z0FBQUFBQm0yeGNZbjk3RllMdC1RNFNuelBxWnVHZXZ3UHp4Wk1pUUhwd1VpYS1meW5LZThBaG9SWkRmb0xlZW9kaUplX3I5QlY0NUZuYU9fQXktWEpPNml1d2FlSVhWaGc9PQ==
+"Wait since when could you SSH tunnel I/O?
+
+How have I never heard of this before?",r/hacking,Z0FBQUFBQm0yeGNZRXEySGprVEJPaWx6UlNId1BESldZWVJPa2dqQ3A5OVBIUk01U0J0MUpfVkx3RFV3dTdmSVFxTkZfOHJFLWpxaVhuMTBzd3k2akFPNDFQWW9zY3pmYlE9PQ==
+I think the script kiddies are just using Dropbox or Google Drive,r/hacking,Z0FBQUFBQm0yeGNZRmVjeTRSOGI4dG9IRUxHTnFjWk16RGl0ZXJUMUVkUUJOM09jTU81R1JDR1A4bzdkNlI3U2wwbllETnVhOXhuczgyWWlRUjItejB0X081a3FvM3h4U0E9PQ==
+"Metasploit, MS08-67 then change the admin password?",r/hacking,Z0FBQUFBQm0yeGNZb1k3UmVyWWpfVlNvbGljaW96d0RxQTEwN0RseEVEZ1gwZFgydHBFNjdHbXlfeUlGcFFRYWRlNDlxOXVMRGpBeVJXaE9EM2hyQTZ5Wi1kNTF1RzJaRDRqOHhSalB1cE9YX1dFLXVLdkFkRGs9
+"Hello u/Waffleings, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZdGc0WFZJd0F6ZGJNWExCSmZxRXJoMU9hWjd3bzFGN09Qblc5dmNJbVFpUkg2ZHdpUk1rdFktMm5VcWp6dExPalQ2OFJRNWpvZmtGc3JDLXB1X2lFSGc9PQ==
+"Hello u/InevitableMethod3359, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZbWEtbDBIb09seG9xLWFWYmdvc2dzR05xTWhxV1NaNGRQMXVZdzljaHBRVFdpTUNWMHVUOVBwY0sxQWNMS0h0WEpfMk94RWdFVzJCVm5DMGVQZE5KRlE9PQ==
+"Hello u/unCl34r, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZQndiazZnemZLdkdGX3RzUF9tYV9pYldwejJPc0ZLR2Nla1VsT0tfWEVpajJJdDlQekRvMklKcFNLejdiTVNtZXhUbGJJaUxONFVXSzlmUmo3SXloVnc9PQ==
+Ummm... ok,r/hacking,Z0FBQUFBQm0yeGNZaVVzNjdnTktrLXFaX3lrS3ZBbzg2azlIeVZfZTNNN0tuUzZONnAyc0FMbjJXdW5RUy1GOXQwcHV0bEx3Sjd6WENkcWo4cDdRdm1ORzVPU2lnSHl4MXc9PQ==
+"Hello u/Waffleings, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZZGNYakpaMGF6V0Z2MXgzUVAtaWJiQ1lfSFdsa3p4LTZEWlRhWmIyS01NV1ZoV09zbmhjS0lWQ2k3Vm5wWkZyME8zTGM0ZGFRZW9UaWFLUUc1YWdNN0E9PQ==
+How do you do this?,r/hacking,Z0FBQUFBQm0yeGNZTE1BcVFCcmEwQUdVREgxNjgzeGlEcEN0NWViNXVsc0hBNkgtQ0Q5eUlDSEVBT3ViWWdpQkZheXRVZnNrZmpaSVF3WkJid0VKRE4zZFBmQ2lseXZzbkE9PQ==
+"it was fake, pretty sure he did it because he stole from other friends in the com and wanted to leave with out being doxed him self.",r/hacking,Z0FBQUFBQm0yeGNZU2xnLU1kbVNFSWQxMUNsc2syb20wc0pySmVyWWVrR0FDR0JGNHlPUXhYSHJMV0FBOWhWeVJxeUtScDR6UjNxeFVCakhBd3VJXzBLWG1adlUxQ3lod3hzcDV6ZkVPaEg4TUJZWXJFTUxIam89
+"I'd suggest compiling them, but there's definitely other options. I believe you can use SSH for this, surprisingly.",r/hacking,Z0FBQUFBQm0yeGNZX09UNkNhNnVZeG9XLW9QbkIzOUFIVzlmeHdpRjROeW51cDliMHJsaC1mazJZeHVPZUV6LXpBRk5VMkh2bTVrRHNkbkQxVm5oSHpWdHFfYnZTLTluTXc9PQ==
+"Use prepaid with a burner card and fake name. Might still be able to attribute data to the user cuz ya know… they snoop, but still. If a database is going to be stolen with no reprisals, this seems to be the only way to be able to protect oneself. Shouldn’t be. But here we are.",r/hacking,Z0FBQUFBQm0yeGNZV1ZFWi0tc0N6NzMwbURXOUtEVWxENHZxTDdSUHNEMVQ3QzlzYUVJZElPcWY5U1ZGcUpzNG5NSW9ITkh1ZVFYeTdwdkQweC1VdS1pQ0pFZ1I5TURlRjhKQ3oyeVdVYWZET19LdDI2ck83U289
+"Hello u/Roadway89, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZR2JoR3R6YlZHaW54SmtQZ0ZIQk1URUlWN2NtTklPVkpmQjNVZVQzTVNmLVh6T0RCV0x3bWtDTjNYeTI5cEY1dXJaaWFmTHlDXzh4WkY4ZWE4bEV0eGc9PQ==
+Just learn C,r/hacking,Z0FBQUFBQm0yeGNZTEo2OERKRDdPcnRGeGNqNEdsMjB3cHgtQW54VkNlcVRPd2dEWS1ZaS1jcW5JOFlvWFE3d19kUnlHa3l2cmhMZ21IRnhLQ05jNFdJQ3ZkQ1lkcFdEaWc9PQ==
+"Hello u/VelmasUndies, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please study for your exams instead of attempting to circumvent security of your testing platform.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZZmYzZnRiZVREMjJBb0hJRWlzWVhjb3JVdXpJNms0R1Jnem5IUzlYS0VFQTNSMUVSc2JVa1lEZFVWamwtOF9zZlRJRHlQajNNeXlvT3JtZjRtZUlLbmc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZSWFLNzczdTJ4V19jMDBVT3otNHNYZ3YtMW1ZYmkzTDl4bHQtTldtcEVyVmdNOVRmUEJ0ZWpGdUthSUl2em9jOEhFb0FRUWxLVGY1MllBNlpFZU1WTGc9PQ==
+i think they mean dynamic port forwarding and proxychains,r/hacking,Z0FBQUFBQm0yeGNZQmczQmt2Y1AzNzlWeDk0b05WOVc1Q2ktS3lraHFPQU5ZVTVWYVVSd2hWcDhNTENpdlV3dGZ1SEQxMm1xQVJhYVRTRkdpbkdFcWZXMkVobUlQZEVRR0E9PQ==
+"A GitHub repo can be used, specially if the company uses it",r/hacking,Z0FBQUFBQm0yeGNZNU12WWhzbklNa2FqVlBYWXRiRWx2SFE2MVJWd2E1MGhuQkw2Q2NoTnVrWC1IbzRwc1pCR1pBcnJ2eWczNnh2N3N2V1ltbVZoOUZJLXJwVmRRMi02M1E9PQ==
+"I have honestly never heard of this too. Wouldn't this be quite specific to the payload? or limited? On a side note, yard quite creative. I was literally just going to type in for Windows. Just make a bash script. install in the background. No gui. attach it to an executable. I forgot it's not 2010 anymore.",r/hacking,Z0FBQUFBQm0yeGNZQU5zdFBTeUlzSHBIQXhwdVFzajh2QlhwUUMtaDZZdUdvdmpvNWgtSnRCSkdEVTRYTk5XZmxWX1FUZGx0bzJNelU5Mnd3OTB5ZHVhbkJJLWlKUm9HcEE9PQ==
+I did it comes after B.,r/hacking,Z0FBQUFBQm0yeGNZa0EzdER0T25ERDVjekNLOEZiVFA5ZEVNUFhuTWhIWVpwYUtLSWJEZnN1Znh4QTlPZ0cyTk4yRXBRRWdBWFNHUVBUcjRiZWFfYzMxUGJqdnI0c0ZNRmc9PQ==
+"The Wiki article shows proofs how the company lied in every single claim and demonstration of breaking RSA:
+
+* The Q-grid method was nothing but searching over an astronomically large prime lookup-table nobody can generate or store.
+* The demonstration event of Crown Sterling BiPrime algorithm was a medicine show that was just plagiarizing open source software. The 256-bit RSA key they broke was weaker than what was broken in 1991 (330-bit RSA). These days you use 3072-bit RSA to be safe.
+* The Reciprocal factoring method was nothing but random trial division i.e. let's break RSA by guessing the prime factors randomly.
+* The Pythagorean Factorization was just Grant plagiarizing Fermat's 400 year old factorization method, an attack that was anticipated in the paper by R, S, and A in 1978.
+* The Geometric factorization didn't work, even with tiny numbers, even if you knew the factors beforehand. They didn't actually solve the equation.
+
+It also shows the company's own cryptographic primitives are dangerous or broken. It shows
+
+* Crown RNG used ridiculous seeding mechanisms like keyboard and mouse, and the Blum-Blum-Shub algorithm allows a back-door, and it's security is based on prime factorization problem (Which the CEO Grant claims is weak, so they're self-contradicting themselves all the time).
+* The CrownEncrypt protocol used EC-Diffie Hellman and pretended it was post-quantum secure because the keys were like, really random (in fact, EC-DH is weaker than RSA against quantum computers).
+* The Crown-OTP can be broken in milliseconds, and the article provides the source code and instructions for you so you can verify the claim yourself.
+* The CrownEncrypt protocol didn't use any kind of message authentication code.
+
+It shows the crypto currency is just smart contracts and parachains without any post-quantum security whatsoever.
+
+So everything the company has done in the past is broken and scammy as fuck.
+
+It also shows you actual source code from Orion Messenger that shows a backdoor in the code. It takes apart the Lite Paper and the White Paper draft that was shared over their Telegram, and shows how it lacks even basic things like public key fingerprints, which proves the platform is vulnerable to trivial Man-In-The-Middle attacks that have been addressed by cryptographic tools as early as the PGP emails from 1991.
+
+The article shows proofs of the company plagiarizing existing news article. The article lists the key staff formal education and work experience and shows they have zero credentials. The best they could do was get one undergraduate math student (Naomi Mathew). In comparison, the article quotes critique by several wold renowned expert cryptographers like Bruce Schneier, Sophie Schmieg, Markku-Juhani O. Saarinen, JP Aumasson, Thomas Pornin, Mark Carney, and other industry experts like Dan Guido and Aaron Toponce.
+
+But sure, I also would much rather take random Redditor's word who claims to ""know it's quantum secure"", who lives in denial and who mismisses hard evidence as a smear campaign when it walks all the way to them. Robert is that you?",r/hacking,Z0FBQUFBQm0yeGNZZmpxc1Q1dWhoREoyMUVTQjc0LS03QTRoazQ3VVdjUnlmejlVUHBRdVBUTVNMQm9yYnd2SkVsT1RLSF93c0xnNlRidmZoMjhMYll2UmtsRHdmSGNsX0E9PQ==
+"This - I've had to do it a bunch of times for folks who can't install / use python for security ""reasons"" but running an untrusted exe seems fine for some reason.",r/hacking,Z0FBQUFBQm0yeGNZdVZscl8zWnBsS3dyX3ZNNFllXzVxcUtpVXVzYldqSldLQVFYMkJCRkRGc1VjVERVazJicWhXcnVVdTRVdnIzSlExWkQyS3ZYRVhBUktOcW1FcFdsSGc9PQ==
+Happy cake Day,r/hacking,Z0FBQUFBQm0yeGNZOUE3UDlhV0FNaE9uZnNHSEo3Tk5CZTZENno3Wk1IRkNLaDRXSm5OT0x6dEVZRlp1d3VFT3A1SFJZbDZ0dDZIQzgyaFdsV013VWEwekMzS2IzVHNHQ3c9PQ==
+"You can do reverse image searches, using, for example, tineye.com.
+
+Note that tineye probably won't help if he's photoshopped your images, but it will identify sites that host the images you search for.",r/hacking,Z0FBQUFBQm0yeGNZYTBJSDFNejMtcy1uRjQ3SlhzemdUWUY2eGwxN0R6R3RNaEljQVZ1bmRhXzQxem5QTG9SZ3hnamRNOGxnT1hKUU80Mm5UaDhjelJOY1BiX3Fyenc2cUE9PQ==
+Try PimEyes. It'll scrub the web finding pictures that match your likeness. It's eerily good,r/hacking,Z0FBQUFBQm0yeGNZSm4yQXoyQlowdHU3b0pHZ3VZS1MwQ3dLRV94enRLaktab2hpOVMwRVItZGI4ZGRlWmdsN1RBTmgyNXc5TWxPNFFHUXgybkdRVnRkQzVaS0dsamp6ZlE9PQ==
+My passwords  data was just breached. Do I have anything to worry about?,r/hacking,Z0FBQUFBQm0yeGNZM1VRYlVnVmhUZWNsc1dRZk9ManVUR1BqSFdQSDVFVk9IanhoVWxvcVZfRWZQaXBteHA1TmFXMW1PVEFFSjJrLXBJSHlIWUluMzV2anl4WVhLREdad1VGUlNhWmtqaGs5RVRxLTd1cXpONk09
+80 compromised passwords.,r/hacking,Z0FBQUFBQm0yeGNZeE1KZG9rMHN6X2hKZEZIdWZkbTZHMDE5ZmhxQnhQdzBOcVlBdkdCZWhaaEZldDQxamgxYXNiYjJZQ1FpODBPdzdYLXIwdFgydThGemQ1Ym9SVmhfa2MxNzJuaEdkQ1NuMW5fU29UcmJEOFk9
+You can set up python remote interpreters anywhere.,r/hacking,Z0FBQUFBQm0yeGNZN0ZuLXg1aG93MWJ0c0FfRmhBWHdwYnpiTHZYbWNZQkZoY0FHWmxoOTMxdFg2UEFDcmxpUDNObzNzWXNwN0FQaU5nRWxhMUQ2Mm1tMkJjeGFGQ2x6dHc9PQ==
+"Pyinstaller has a few options. You can compile all your packages into a folder with the script, or you can compile the entire thing, folder as a whole, into a single .exe which will run the python script. It’s pretty easy and useful!",r/hacking,Z0FBQUFBQm0yeGNZRFNzNlVFZldwcUpUSXVaekdua19Zam1wRzFSMWZHSkFhV3RZYlRQcXJSYWV3WXBPaXdfRVFOYk9iMzVnRWI0RTFwSThUUkdvVk9YZm0ycWZDLWNkTVE9PQ==
+Pimeyes,r/hacking,Z0FBQUFBQm0yeGNZWUJ3YkVpYkl3ZGdoQ0pncEdrYl9UZUpkRDhDY1phRm9OZENvWnhwU3htQXpIS2R4NEt3VjlyY2l3aTk4blBZclhDV1Jya3JIOHQ3d0xtV3lPbGdIQ1doc2QzV1VMRzJDTVVhOS04NkJwTG89
+This post was over 2 years ago fella.,r/hacking,Z0FBQUFBQm0yeGNZa01pVVkyRGg2bmhJbFVHZV93cmZGLXcwWlVYZ01IcHFwSXRra2RwOWEtS0ZVWDVwQ05JZUZvZGQ1TjIwZkJaQWEyMHlBOEdKTm5xaDZwcGJUMjhQeVE9PQ==
+That’s not how this thread works.,r/hacking,Z0FBQUFBQm0yeGNZZ01XX0h6UnQxUjRVLTZKb3FLZkdMZ0toRFd0VFlYMHNHLTdFS3pzM0VUTEQyaTg2VTBHODBXTFRKb2RsMTZpR1dpa29ZamFCR0xzSkZBYUhUemJCbWc9PQ==
+OpSek,r/hacking,Z0FBQUFBQm0yeGNZLXBPXzc5bzlrcl81WW15X3d5eFZicU9iYjR0RTRQUm43R3NDOXFLcWFKRVRfZ2lkTEg1dElSM3QtMzlUWXpfUVVFU3RhVEdxWlQ5SDZDdVRmenB1cWc9PQ==
+"Study more, and then you can pass your class AND learn about  hacking by yourself.",r/hacking,Z0FBQUFBQm0yeGNZQko5X2JJRXp6cWJLd3RGYXJtUE1PY3FkWFZzenY0TlVMQ3JOeERWcUh5cTM0QVhMb3NKelNySk9JaVdDckVUSHBMZnEyRWgyVnRSeEczQzk5bFVMWFZ4Q0MwTmdMbm9GemIwdDZQVmF4cWM9
+Might want to study harder then?,r/hacking,Z0FBQUFBQm0yeGNZTXBMQTE0bUhFcXcyakJoY0lIbmdHb0hWVGJLSkNWR1BIbFpneVpHX0lNaFZ6dzlwX3NFLUNXeHNNMzlvYVRSZTNqREpGVkVIOWdiT0U1OU4yM3cxUVE9PQ==
+It’s very H1l4ry0us how the main server is always the problem,r/hacking,Z0FBQUFBQm0yeGNZaE04S1VaWjBfbFk2VkM3UzFZWFRvdFA4dXpnUld2eXQ3MXJ2YTR4LXB6bUxGQUgwU3ZCMnRiVWFwczFpSmZqSDB2WUJaeFkwNGhnVlIyb2pSbWVJTVE9PQ==
+My 4080 gets about 400k/s on WPA2,r/hacking,Z0FBQUFBQm0yeGNZd002QkxMTUtkYnpmWnBvSTNjZ0JUMkREbHFUQ0FTTVg2MVhBQmtpTjNzT000MEFOZ3NjdE5rNXh3V2pPWGRkczE1SDVJb3EwWHl3ZlVqZFIyT2dqTkE9PQ==
+Hahahahaaha,r/hacking,Z0FBQUFBQm0yeGNZUUQtQl9NWXhfY0NSZXU3Vm0tOFdXVGxJN202VDNhTTNDOEVzcHkzLXBvdlMyNjNaMmJDT0tPdTNVbjdCODIxNzlYeGYtbVZaczEta3g3cVBvVHlzLXc9PQ==
+"Haven’t seen Usenet yet, I would u Usenet either encrypted tars",r/hacking,Z0FBQUFBQm0yeGNZd0ZOaEFqWDFfZjczWjFoeVhMenBRNmlCSDNNbzhYOTBmZVYweEZzT1JHc29Ub2Uxa1VxTFl3Nmhzd25mNmFXakZQeDI0UmtWOHZWWnRKbUJJVVdVeDZLWDg5N1dDalFpVjVOUTBRNVFfaGc9
+I'm at D right now. Will learn E next week.,r/hacking,Z0FBQUFBQm0yeGNZM055a2p4MUltX1ZGdTNhLXRtaVBHTGtJTTIzZzJzVWVMakJ6cDQyWlFwSU5meEZRa0tDZXpWQ2xjVXhEVnVxYUxCVmxIMEtmdXRLU3ZsTXVBQkFRTUE9PQ==
+woke gay kids,r/hacking,Z0FBQUFBQm0yeGNZRFgwQTRyYkktOEVveXlvdVpWZmV3WHRvYWY3Nmc1TDVUOWFnMndlN3o1MGU5UkNOYlR4UENSbHk1b1dERTRkUWd4ek45Y2RPbHJtY19Vd3BDMVdhNmc9PQ==
+"You could be a dick and change the default login, gateway and kick all devices off the network lol",r/hacking,Z0FBQUFBQm0yeGNZRkRjMUExdU1iLXp6NlhuWWNLTlBlUU5icUF0RmwwQnMyX0E3T0xaaWd3d1Zpa3lCQXdLN1NsRkkwd0xRajVPQ095SWRTSDl2SkdwejRUeGhEQXhZREE9PQ==
+"Well, for starters, they could turn your internet connection into a party bus for all their friends – hello, free Wi-Fi for the neighborhood! Imagine your ISP calling, asking if you’ve been downloading entire seasons of every TV show ever made. Also, kiss your bandwidth goodbye because it's gone on an infinite vacation.",r/hacking,Z0FBQUFBQm0yeGNZWDJmRlZqZDllZWxqeWZ3Q05zcTV3ZkNzV2E1SmprNklGSHc2QUw0cjVfbDZKM1lsUjJfaTYyNC1DNDJHVEtFWm9iNlpCOGFOQU16Y3ZMOWFzcmFITHc9PQ==
+You hyperlinked the potential malware?,r/hacking,Z0FBQUFBQm0yeGNZUDJFZUltRmZTaFhrMWF5dzRpUl9qMVpkb0Y1Ql85azlkZTg1ajFRX3JVTldDSkszbm1EaEFyY3dBbjFGcFJLZ0Jxbk0tV2E3eXA0Z0kwczBOUGdTaUE9PQ==
+😂😂😂💁,r/hacking,Z0FBQUFBQm0yeGNZemU3OVRQLWRQMXFMYUZwazMxNlUxZGMycFN0aVI2X1ZlbWhmQU9KY3BDNmFwSUtLSFI1TnhHLXpnaU1MU0tzcG5SZWtzVVdDNVhTN0FGU19mUUdTZmt4YlI1N1RGYjNsOXFjQTBORXpNcDA9
+Smart.,r/hacking,Z0FBQUFBQm0yeGNZbnBiMVJwMVNVazNXV19GME5odjZQRmd2WkFXdmZ4YXhsMTJyb1JUUHd4Wnd5N2N1YWszaWV1M05DTjVGN3Zlc2Zpam1YYjdLLVFuaVVYSmVDOHUxT2c9PQ==
+"So... just to be clear. You saw a suspicious website, thought it could be malware, and then made a post about it here containing that specific link to the suspicious website?",r/hacking,Z0FBQUFBQm0yeGNZTjc0Y1RsZS1BR2FWWTFUQ0lIcFE4Sk5Bcy1lZjJyWlJydFlvM2tBZUQ4QVh3N0dtSVpkSVlMdG9qVTh6X2VoUkFEUHFTNktjOGNaTkVYSml1WERCMUE9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZdWNTRGlScGZRTmYyTzlEMU9mSzBQSG81azNkLXdPYTNuUE83dkVMNFdJcWdocEQxNmhfck1YOE5iRUtWOXdjSzFhNnRsMTN2ak5lVTN3MTZXOFMxbWc9PQ==
+Why not?,r/hacking,Z0FBQUFBQm0yeGNZZ1lrMm1VWDcwN0JkTTZFUWpYb2hZT1RqTDc1Qms0OVdRNW5tb3VxUlFNdzVpNEtyQUpkY0UwaG1pWGlqUVlMemRWZVdBeWdibEl4LUs1SU51NGEyYWc9PQ==
+What countries don’t follow dmca?,r/hacking,Z0FBQUFBQm0yeGNZa09NNW5EYlR5Mkpvd2xxWFVVQ1hXemM0YVNrY0tfWGhuV1RGQlhMTEtzcUVZMUZpczg0Q3ItZ2NjSHpfcGlKRFBsS09wSmtLak5GeHJmbjY2X05xOEE9PQ==
+Plot twist. AT&T is in bed with the hackers.,r/hacking,Z0FBQUFBQm0yeGNZMHUyeVN2dmo3WUplemI0REx3YmFqaTBvV3hNZFl4V2VhV290VXpGblNPWlY2b1RiY1lOYk9sQVhYbGhUbFNWZ05LSFBmbExFNVlpd0FKc3FOank3dFFuRVpwYW1SdnZJM2J4R3Q4bVFsb3M9
+We use sapience in my workplace and can track jiggers too. Jiggers very commonly used by expensive contract staff working remotely haha its funny! People get offended easily if HR disabling then! I personally just do my work and step away as and when I need. Realistically we are all grown ups so there should be trust there. Once the works getting done I don't care what people do with the rest of the hours in the day!,r/hacking,Z0FBQUFBQm0yeGNZQy0teWMzNUZlQS1WQ1RjMEJ1M2RVeGc1RjUtdDVyQmZESFZpdFc5UkJXYS02NnNYVnhBZ1lTcXdYSmJGXzZlU2FUOVdoUmFlRVVzRHFOc1BuZkh4czBBbFd5V1N3SlZGRktXZEtPVVVjOFU9
+"Not heard of ""man on the side""
+
+Could you mean ""side channel attack""?
+
+A side channel attack is one where you use some data that leaks out of the system. A classic side channel attack might be listening to the buttons click on a physical combination lock, ""Open when ON"" buttons make a diffrent sound to ""Open when OFF"" buttons.
+
+When it comes to side channel attacks in the computer world you get to some really complex shit, like monitoring the power consumption of the device when giving it different data. Or more recently we have seen timing based attacks used to work out what data is stored in the cache (which can be cross VM on a shared infrastructure).",r/hacking,Z0FBQUFBQm0yeGNZTzF0bmhsZkE3VVo2S1l0clplcE5NZ3MzbTJ0YTIyTlRsSTRvTkJVbzd3OTgxUGlHZkZDMmtVUGNTSEs2bFdNRFlrNlhRRDFXSEFXYS1LNEMtV3VST0E9PQ==
+"MITM means that the attack functions by inserting itself between two parties that would normally be communicating directly with one-another. This is typically achieved by pretending to be both parties by diverting traffic by some means. While I've never actually heard of MOTS attack, if I had to guess, it would mean either intercepting and/or injecting communications to manipulate the situation. I suppose that a wifi DNS cache poisoning attack, as a vector for initiating a MITM attack, could be thought of as a type of MOTS attack.
+
+Technically, anything that *isn't* a MITM seems like it would be a MOTS attack, but that's just my naive self rambling conjecture. If you ever need an endless supply of rants and rambles just surf my reddit user account! :]",r/hacking,Z0FBQUFBQm0yeGNZV2dyVFNCc3plVHU3OTUtc1pfb2xuZVF4MFZ3X1RGMUJJNGZkU3g4QzJEYmJRRzQtaW5iS1puU081ZlFFc2pDVnlhaHo0M1kyS0hlemVaY19CSHJBeXc9PQ==
+i think you are mostly correct it's like not only listening but also sending requests.The impressive part is the level of sophistication it takes.,r/hacking,Z0FBQUFBQm0yeGNZVE9oNDd6VkNJODQ3d2ttT3NvcHZaeXRLZ0dZQlA0TkZKMzRoQjdSR25WMV81VzJPa1h1WVRQVjJCeElfZm1sS01Xd1hTYWwzbUdJZjZMSFEwZVpZV1E9PQ==
+[https://en.wikipedia.org/wiki/Man-on-the-side\\_attack](https://en.wikipedia.org/wiki/Man-on-the-side_attack),r/hacking,Z0FBQUFBQm0yeGNZNHd4bFNaN29JMk9sb052R0FhOW9aSG0zTUxfWXl3Nk9IYWNuNkF4MkNYNEdXU2xFUl93MGpvUVNxb3g2dkN3NVVWUG9mTEYxWm03cGtOdUxHLTFnM0E9PQ==
+"Have you read and understood the wiki article?
+It is a freaking complicated often time based attack where you have to have already a privileged network access like on a internet- backbone. So probably this is nothing what the ""usual man"" can pull of easy.
+So it is used by Intel agencies and that kind of actors .. and because of this it is not widely used. 
+Low effort attacks are more common becauseore people have the setting to pull that off.",r/hacking,Z0FBQUFBQm0yeGNZWUd3aWdwYU9reTJjeUE5bzJkYXlLRFJEUTRrazhvSVFZb0YxVzR0cEc1NjFTZWdWOTFpOThqTHc3Si1UV1ZnRzlWWDBkQjd1X3NHLXRpNnE3OTg1T3c9PQ==
+"they are very common, especially in social engineering attacks. you linked a wiki with a decent description and examples, is there a question here?",r/hacking,Z0FBQUFBQm0yeGNZTFM2VkdLWHdQQnZqb1RJaS11alRqb2d2ODhXODN3UGZWNS1GSXVsMDJhTjVTclRGWE5SMmFYNGhDNGxtT09XVU56Mi1mTXBhcTdyeFE0eW9UWTE5S0lLN3FjY1RObjE2a3liNXdJUlJUVFE9
+how they are very common? Most people who commented said they have not even heard of and it does not even sound easy as one man job to pull off.,r/hacking,Z0FBQUFBQm0yeGNZQklZZGlnWnNfejBYYmZuVnhPZGhCOE9WX1BpZTJXUFozdFFoWTZDYWlFbHZ6U1NIT0FfeWJJNldhQVdibTlST1VXZldzczA4U21NbmJtVHJBR2pUQXc9PQ==
+fuzzing and biases and luck,r/hacking,Z0FBQUFBQm0yeGNZQmtySm9kbjlibjc5MmV6UllvcUtBdDZqRmVoNC1VdXlMeHhrbFpSaWpKZnNNRWdsRjhoVFljQy1NTXY0aHlZUW1pSGpycEFiNEItR2RnRVd5NmxaQ3c9PQ==
+"To me it sounds very similar to syn-ack spoofing. It's possible to bruteforce predict the sequence number and use that to spoof the response (remember ,Syn ""packets"" contain a sequence number).",r/hacking,Z0FBQUFBQm0yeGNZZmVFWXVreU1TS3hvR2lZcml2M1lCdTdXQlpnYWRiXzczRmk3TUNOU1NISkgzV09sbUpsdU85SU5wZTVURy15ZU40cXhXLXJmMVcxUkotVkVSbEhvcWc9PQ==
+"Some types of SYN-ACK attacks could be considered MotS.
+You can kind of predict (more like bruteforce) the sequence number of a syn response. Then inject your own packet and so on.
+I was looking in to it few years ago.
+
+Edit: basically a type of spoofing",r/hacking,Z0FBQUFBQm0yeGNZNXBwTXNibUdLTXk2VmZ2bk9MdVotRTFBeUNDWm5RcFVnVEdKazZ6SFh2MmNSNnhDMzRmOVZmRkpkYXJndE01aGhmeVVqV2dDUjJJY0ExTXNKbm5fMGc9PQ==
+maybe not by that name - spoofing and phishing commonly utilize 'man-on-the-side'.,r/hacking,Z0FBQUFBQm0yeGNZWWRSX3ZvMFVJZUkzSnBnSkowNGIxOXZtMHlhMkh3MVpQWjRkNFNDbV9fMEhnemVNcGctMnp2YkRDQVdHVUk2R2xwc0Vxby1QN0hDdndvVTZSVTVXUGRjTW1rWVRMQ0NfbTBuZTZWb09ROFk9
+I think this is correct.,r/hacking,Z0FBQUFBQm0yeGNZTi1aZ1ViUUI3djU1a1JNYmo0a1JyTktHOTUzcDNaYnZtc093bldGQkg2TFFqUmRXR3hYZlQ4RjdnRUMtQzZxT1BvVUZTTlQtdHhFVlNiMkxLVFBXUmc9PQ==
+"I didn't create any profiles of you babe. Why wont you just talk to me?   
+We can work this out.",r/hacking,Z0FBQUFBQm0yeGNZV3FVdmljd0tvN3FuZDA2ZjFfQ0NMazRKdG9iMDA3MDZoU01pX2w5WS0ycnlRSWZlSjlHS0w0S3huc1VSek5tdllWLU5tN2VZOEtqZzFzZndab01FUEE9PQ==
+╮ (. ❛ ᴗ ❛.) ╭,r/hacking,Z0FBQUFBQm0yeGNZTDNaQ1hFb3d3UkpjMmhnZk5rUWdUSTFnc3FZOTE1d3NKN1JiWWY1dXJtcjBNRjQ3OHRkekp5dnl5Z2Y1RXAzMmIwRHhYOG1XV29wOHVZMmx0MUtvQkE9PQ==
+"> Is the reverse engineering and the exploits discovery process just patience and waddling through code slowly until you find something?
+
+Not just, but that's a big part of it. But as many things are, it is a skill. The more you do it, the better you'll be in it. Whether it is recognizing vulnerable patterns or understanding where you should look.
+
+Don't forget that although vulnerabilities are found all the time, there's never a certainty they exist, or that you'll find them.
+
+Finding vulnerabilities doesn't have to be the main way to get the sense of accomplishment, understanding the underlying code, imagining how the original code base looks, and thinking about how it was programmed.
+
+Try to participate in CTFs (for pwn or RE challenges) or tackle some Crackme's.
+
+Good luck!",r/hacking,Z0FBQUFBQm0yeGNZMkwxdFlNNl9SazdiR0N2X1ZqcUxfX0NpTFBaY2N5d1dSVmtDekxZRkQxMnJyWnZUQU5hT0FRalRtM3R3dGlSOWFuYkVkYWxLV3d3cXZFYS1YZGFvbkE9PQ==
+"You can start by understanding the process where you want to find the vuln really good.  
+
+
+When WPA3 was introduced the dragonblood attack was published. (you know it's bad when it got a fancy name lol)
+
+
+
+The process of finding, disclosure and fixes is pretty good documented, I can recommend reading up on it if you're interested  
+
+
+https://wpa3.mathyvanhoef.com/",r/hacking,Z0FBQUFBQm0yeGNZZjh3bjJIaXotMXdvNnUxckRsWkdPTFFYUDZmZUUxaTBnNnlsZ3FmRXlXcnV2NXRIXzRnUzVHOVYxblVOSUVlbnV3Yk8tbkRidkxnMlVHYXZKY1JKWUE9PQ==
+"I still carnt believe in 2024 how many DBs I come across still using md5 hash, better than plain text of course but still not good.",r/hacking,Z0FBQUFBQm0yeGNZRHhyandELVY2RDlIZlJQQTZrU0tpcVgtTUJMNTlobk0yVTBRUHQyV3B4VGoxUG1GZEx0N2JBS3NtUzV2UVRvOG5JSUs2NVFuMUQ4QldMQ25xejFkRlE9PQ==
+"Hello /u/GeneralQuality2263!  thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**We do not allow Discord posts**.
+
+Please make sure to read [**our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZbGhBRExYQ2luRF94b1kycWpTRjM2bHJmWUcwMDlZVl85emxqUnVFQnFHNUdzb1hGV2RkOGtZQ3NpQjRGQ05ZT1hBY0QzVGViUl9lZmd2dTFpa3NSVnc9PQ==
+"if your name is on the telephone number and your number is connected to an APP, then you can be traced by most government agencies. particularly if ur USA/EU/AUS. they can access your phone anytime they want (within legal boundaries, IE. you committed cyber crimes). 
+
+if you want to remain anonymous on an mobile device you need to use a burner phone, the phone must be bought with cash, you should ideally not be seen buying the phone (security cameras), the SIM card cannot have your name, IE it must be prepaid and given false information when you sign up. youll also need to make sure your normal phone and the burner phone are never in the same place at the same time. they can easily tell if the two phones have been  connected to the same networks (3/4/5g towers) 
+
+msgs are encrpyted in that outside people supposedly cant see what your typing during communication or in a saved chat file if something is intercepted. it doesnt mean your ""information is protected"" if you want your ""data protected"" you need to read the privacy policy. if you dont agree with the policy, dont use the app. 
+
+similarly, a vpn doesnt magically hide your identity. if a government agency realy wanted to, they would find you. they can go through allll the different nodes to find which one you came from. (perhaps depends on jurisdictions in certain countries, which is why some vpn services dont have servers in certain countries) The NSA has ensured they control 99% of the end points. which is why we have specialised tools for obfuscating more information than just an ip address. 
+
+such as, burner phones, being careful about your locations, using cash, etc. untracebale is more about just ""end to end encryption "" if you truly want to remain anonymous, you cant be using an app you got from the play store.",r/hacking,Z0FBQUFBQm0yeGNZb213VUhrSzBKeTExejRzNkY5eG5FdEhZZFFNMGRmeW1VeXVVakhSZHUwZTF1YVFaeVVaT3ZuV2xnaGlfZ1VpcW1YRnZLaHZiQktvVkxoQkN2TzN6V2c9PQ==
+"If the script is small enough [run it online.](https://www.programiz.com/python-programming/online-compiler/) 
+
+Otherwise as the others say compile ot on a mashine that can do it.
+
+You can also just install the Python interpreter. If you have an IDE it may have a plugin or its own Python.",r/hacking,Z0FBQUFBQm0yeGNZUDB3aVhHSTNBMXVGQncyMW9oTEdyOXVaNUpOajdSY25uMnFjTTUxTEF2djBZYmItUEdiX3R4aDI3T2MtYjFCc290RF9EeXFSUkNGZTdISVlxbTdhY19nc0RCUXBwdTJtNTRydVdqaS10Ync9
+"We run some basic usage statistic stuff with those exe-s (login person, time, logout time, running in the background) and some server side linux executables that we want to keep self-contained, without any updates breaking things.",r/hacking,Z0FBQUFBQm0yeGNZbDQzRWZUUHduWG5hN1dUZUtqenJhZGNiN2VXWmxkN3lYQ1lZZ2s5STMzSjBtNjhFY0hmcENCVWFfVTB3N1BtUVN3V3BTang2azBDNW5fTlN0Wms3M2c9PQ==
+"Hello u/An1111111111, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZSkxNcGZHMUdKVWJnVFhnU2t3bHQzS0NuVTVSUkJWWEVZMFlXa2FLV2tCM0t6aThxRVdNUEhuQ25xR2p0S0YwdTVnQW9VdmlsbmJaQThjVVMyV3JodWc9PQ==
+Go to pimeyes.com and upload your photo it will show you every single photo of you online that is public (meaning anyone can see it) take it from there.,r/hacking,Z0FBQUFBQm0yeGNZWjFWN1FzdGRLT01aZmxJaVljR1ZTdGtPVld4MGdqVDY4SHc1dDhEQXFrakptSm9EYkg4MU5ROWVtNHYxSjVCUHpMU2N4Uzd4ZmlLalRkVjRleHhuY2hiVkhfVVBhZjRGTlBGMV90X016Tzg9
+"The best I can explain with this is as follows: 
+
+In reverse engineering. You take note of key patterns. Such as if 
+xxxxxx = true then {
+Send true
+}
+
+What you would then do is change it from true to false. See what happens? If what happens may be you attempt to login and it succeeds on a failed password. What you did was tell the app 
+Password_correct = false then {
+Send true
+}
+
+This is just a super basic and common type among easier applications. It’s all about pattern and action recognition. Key phrases to functions like “authenticate”, “verify” or “success” may be function names you may check for something like this. And from there you’d find the exact locations.",r/hacking,Z0FBQUFBQm0yeGNZTEh2dmlWS0tlMk1PenZCRlNnZFdhQ0JJbnkwZDBnTzAzTTFsd1JwaXJRVGs5Ri04YUxYTURJYzNwOTM5ZzAwUE4walBiM3Z5ejl0N1RtSnhlT3k5WVE9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNZdXl4Sy1IbjMybjNvSGpyV3dDbnlXT2d0UU1JMzBzdUtuOUJpYmZTRzh3WmdGa2xWQUhKZlAxeHM5RlhLQ0VvSkhDTklaQkhwOXpzTUFpc1d4QXNaQ0E9PQ==
+do you rizz gyat in ohio ,r/hacking,Z0FBQUFBQm0yeGNZSjBDUV9YcHQ2TUkydWNwWXFIRUdSb013Q3JnMnd5cHJob1dNalYzb1pCNFE5R0RycFBBd25ya2Z2b1pFSlAzWWhXYk11d2hnUGt2enNVRm5wZ1k0X3c9PQ==
+https://book.hacktricks.xyz/generic-methodologies-and-resources/tunneling-and-port-forwarding,r/hacking,Z0FBQUFBQm0yeGNaSXNwTS1GVEN5QmxiYzFiemdBa1EyTFhJVlZ3cmNGS0I1MDF1dGQyeHl2QVBvam1ra19LeUVDQU1reGtWS1BzY0w4cGluSnE0ay15SHhjRGxKTy1YT0tDMXg1cFRiM01TUGk2QXY1a1lsSWc9
+"Whoa, that’s like, a whole Netflix series worth of questions! What's the tea you're sipping on?",r/hacking,Z0FBQUFBQm0yeGNaN2ppcGxPdGg0aVUyLWNKZ2JyNWt6QVFUZ1F6Qkt3OVBYaXltRkh5d3NFUUM1SFZ5TVpNV0ZSLTVESXEyQkFXTUtkSHlHWXpUS2Y4dXFOSFNaTUdZeG91c2VCdTByczJGZ2ZDN1ZmbUZ2Q3M9
+"Don’t think about the technical component. It’s a skill, and you get better with practice. 
+
+And don’t use adhd as an excuse here; many high end vulnerability researchers I know have adhd.",r/hacking,Z0FBQUFBQm0yeGNabnNLakZkOVVBMGEtSWdhcS1iTGZmM0g1eVJIaGE3cDJRbjctM0c3eEl0TkZIcTd3MTcyZFpHR1RtMy1USVJ3WV8tcWFoaXU4UXpVMUIzbXdER2huZGc9PQ==
+You need to change them all asap. If you have any 2fa going to sms then change it to a better 2fa,r/hacking,Z0FBQUFBQm0yeGNaNWU0RUx3bkh6ODFKSjlieDNkY2NLeEpPbmxzOHlXYks5bk1ud1VFOXozMTdNWEp6VEFQTWR0ZmZjVTQ2d2ZRN3ZhNzVEa3FYT3UxYk0xNVU2VEZNaEE9PQ==
+"signal is indeed the good one, only reason people like telegram is because it can have hundreds of thousands of in a group chat. While Signal cannot have as many. (but still a decent amount) Telegram is also NOT E2EE by default unlike Signal and telegram uses different encryption protocols then what is the set standard. 
+
+Yes companies exist that will not bend over for the US just looking their way.  These are China, Russia, North Korea. So options aren’t the best. Also if you run into advertising itself as some kind of anti law enforcement thingy. That’s a honeypot. 
+
+The way to avoid to USA is be in a place such as Russia with some state sponsored backing or to live in a shit third world country where any request from the US takes far to long to be responded to or straight up just ignored. (Again if this is what you are going for; then you’ll will have much bigger issues than just the US coming after you)",r/hacking,Z0FBQUFBQm0yeGNaRDhyTlpRVS1xUGhlQ3pQbmpCYy1rSmZnaG1PNkM0VFlUVmRZNVF0dzdBaDBWMExuSnFtQWdYd2Q4b2VjR3VmRVdXYXpCdVRmQ0UxSC04LTNJdks3R0E9PQ==
+I would compile them with Pyinstaller or you can use SSH too.,r/hacking,Z0FBQUFBQm0yeGNaZGs2ZTZ6VDJhMWE0Q0s0aXZVc282cTVjUktmV1RKeTlMWHZmbkYwakNOVFhlOWlSbzNzbXR3Vnp4NjRmQlpySnhIUElYNGM5N19adlN3b0JkdWxuaGc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaYW5qOGVucmtUT0otUjc0SmtIVVFCcVUzY1lRMXgtVXBtekpBR0FYZmdkMHREdllLWUZMdE9Ic2phaWkzTDdMc09FajlDMUdLY18zeXhhTktLQnJIVGc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNac1pOdklMLTkyaVNVQm9FdG1YZmp5S1JlQThKdmZMMkdPY3E3a3R3MjZFYVpCS05nOXp4eU9IYzU1SmE0Zlh2T3hRSVhKVklNT2NSbVltdkNGb0RpNXc9PQ==
+"I'm a masters student in a Cybersecurity track and the only legitimate reason I could see is research. Going through it to find statistical information about password use to say stuff like ""X percent of users used passwords found in common password lists"". Would be insightful but it should only be statistically reported and not tied to individuals or groups of individuals working at a specific organization.
+
+I know a lot of people asked me where to find the Heritage Foundation data breach recently and I told them not to tread anywhere near it because they weren't Cybersecurity professionals and had no good excuse to be digging around that stuff. If you did want to do something research related I would treat it like a formal paper and write the abstract of what you're looking to research and define the ""why"" clearly before doing any actual scraping. Ideally you're in school in that scenario and also ideally write it up on a private GitHub repo so you have a timestamp describing your intent. If you're wanting to research  specific companies or organizations then get their permission first (or just don't do it at all).
+
+Anything outside of that to me is very grey legally speaking. I personally wouldn't do anything like that unless I was working with an academic or Cybersecurity research firm in contract with the organization that was breached or working under a professor on a research project.",r/hacking,Z0FBQUFBQm0yeGNaa1AyQkFVczctNDNUNjZjdnVRbWdZNGJRZzdhcVZ3RGRINzBmRjFBV1FKVVlRclRzSEtZU2xnMG4weWFybUJWUkFSWEpUNkFscUFiMUhrMTc2ZDRwTVE9PQ==
+"Ask in r/bugbounty, they're more the type that find bugs, especially for those soulless gui frameworks and obfuscated code. For me it's just looking around and trying things, not everyone's into RE/VR, some people just stumble around fitting square pegs into round holes
+
+EDIT: RE/VR is Reverse Engineering / Vulnerability Research",r/hacking,Z0FBQUFBQm0yeGNaM1JjWHF2U0Z4MHpfWGJ5RjJjMkdrLXpaT3RjVWpEclpfaWxpTkQ0WUE2clZFZHBCc1Ewb0dSVkxMQ0JuWXpyTDBwckRBZ01hMXdHMVBfbXFQYjNCMGc9PQ==
+I’ve also experienced similar issues as OP. This comment is NOT funny.,r/hacking,Z0FBQUFBQm0yeGNaNjJmYXN0blhYSXJ1SzU1R21lekk3SmxRQkdUbDJCNjZqVVZKSEF4Rk9WS0FJaDZPY0h1cmw3ZlQ3UTBOZmhPTUVESGNVY0dCY0FQWlFMYVdRc21zOVE9PQ==
+"Pattern recognition, fuzzing, code review… tracing sources of user input to sinks that consume it and checking for vulnerable patterns in code. 
+
+If your ADHD isn’t treated and you lack patience, hacking probably isn’t for you. I struggle with ADHD but mine isn’t severe. If you can’t slow down your mind and focus, you’ll be mediocre at best. Hacking is about finding a needle in a haystack and you have to pay attention to every detail.",r/hacking,Z0FBQUFBQm0yeGNaYjZCSU45Ny1CMkEzNEU4UjVYNklFeWkwTHdZTTc3Wl9zRjRMdDF3WjhwSFM2b0JOMGRwallPbmhvV2E0S01kMS04bGQ3dFlVTHlYN1VNMEgwQ0pYMEE9PQ==
+I'm calling NSA agents!!,r/hacking,Z0FBQUFBQm0yeGNaMUp1NEJkMF84VHZwSnlyVXRUY0RnTUJGUDZzcWs0c2wwcHlIWTBaR1pBVEtHTS1VTGlGclJlZ1lxakI3OVRhYUxMVDRmRndPYXoxZFk4V1NXMUEyNkE9PQ==
+This is beautiful.,r/hacking,Z0FBQUFBQm0yeGNadnJtMDQybmtsWWQyX1VNTHNOZ0dvX1dPVEtMa05VQ3AwM2tja2pDNEhVek8tU3lpOENwRXpJc09sSmc1QW9iem1CQ1NEaGtPemRjV2diVmJaZFR0ckE9PQ==
+"Whoever wrote that either needs to be fired or given a raise, I'll let their bosses decide which. XD",r/hacking,Z0FBQUFBQm0yeGNaS3FVVzR4NDZwWUJkUnV3a283RVpfUzRHbHBSalFjYVhfV25xTVNHSUFjVFRWMFN4ejlBakpEeV9KRWNYLWVxYW5Qck1RQ3FoZUxUMGN2VGhvTmdmbFE9PQ==
+"Hello u/Computer-submisive, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaR01KSVpLNjJpMXlRSkt4N0FWVXI4ZXFiMHhIbFJ3MWgwTnZDdjQ3cHQzbWxqV3BSenhNYkFwM2ZLOVd6elBMRjQ3UlROMkhyWEtxMThuUVhpV19oUFE9PQ==
+"Often by chance. Not all vulnerabilities require reverse engineering; lots can be found by source code review, or active analysis. I found a stack buffer overflow, format string and DLL side loading vulnerability in a web app once, just by active analysis (with access to logs) - all in the same parameter 😂",r/hacking,Z0FBQUFBQm0yeGNaWm1PSjFNR0VseWU2eDNjc29FdVJ1d19iaW1uXzBXYWxULU02RkZyVEZmYjlQVk1WN3lCUDM0TDhsVVM0LVRpY21xUUhQTTNnM2ZUU3ZyZGZpWGV3b1lTUXhjeFplVDFKaUl5dTdJR1F0V2c9
+"- if he had access to any of your devices, or access to your home, you need to wipe and reload
+- change creds to all your accounts; ensure they are all unique; ensure MFA is enabled 
+- inform all your family, friend and work contacts of the situation and ask them to keep you informed if he reaches out to them
+- document a detailed log of incidents; include date, time, screen shots, etc.
+- I’m assuming he knows where you live so ensure the authorities are made aware sooner than later; this will help in filing a restraining order if need be in the future",r/hacking,Z0FBQUFBQm0yeGNaeFdfT0ZrSzZOZHpJUmZEWXlzNXEtV0ZzTVdTMlpCcmxHV2NKWGtpZjJhZF94LVJJM0p4ckZtRDF1OTZveGltelVXLWd0bXJHY0xuS0hEV3JuVWRBU2c9PQ==
+"Signal is safer to my knowledge. Telegram's encryption can be hacked. It's been released publicly, if you look in the right place you can figure it out. 
+
+I'm not sure if the same has been done for Signal, but I know for a fact Telegram's encryption is no mas. Well it exists, but you use your Orphan Annie decoder wheel and you can read the message perfectly fine",r/hacking,Z0FBQUFBQm0yeGNaa21hdnJGemhXRHRiMVYyeTZuWi1CdjNrcUZZQVVPV1VFclpnaXpIdXdyeldDVGFpMW5CREFqMHc1dUg2Rm5ZN0gxQ0lXTmVqUkJ3eWQ1TUNJNUIyakE9PQ==
+"Telegram's encryption code has been released and encrypted messages, well entire conversations, can be decrypted quickly",r/hacking,Z0FBQUFBQm0yeGNaM0s4Mm9ZV2tUWjFxS195RU5fVDFXTks3NlloSVg3TzV2Nmw2MTJmaTMxMEJMLTZrcm5aMUFsUjVmMFBldURPQVc3c0l2dzlPWWRObENRalp1Q2J1OXc9PQ==
+Cryptography defeats it for the most part. Message signing makes injecting messages into the data stream impossible. Encryption makes reading messages from the data stream impossible.,r/hacking,Z0FBQUFBQm0yeGNaeXkzVmg5YmVpWElEeXZiUURNbVp6cWcxVFpSdEdkS0tDaGFuOUpVQzVkSlExWHZQSnR3OTJLblBYQll6OUNOVk9SWWZOLWNmYWdKOGN4bVN6S1gwckE9PQ==
+won't be a downgrade attack from https to http be effective then assuming that the site is vulnerable to it.,r/hacking,Z0FBQUFBQm0yeGNab3ZrN05EVktXRHl5QnItYUJYY2ZtUllOZmNsZk9mVTRleVlCTlViRmdzcC1Wa0Y1c1AwdHVvRWdQOWlxQWdEcS1GSlIzRk9hMUJfT1YxVVBNOFVBX1E9PQ==
+"I suppose blocking port 443 and a web browser automatically falling back to port 80, so then you could sniff traffic would be considered a man on the side attack.",r/hacking,Z0FBQUFBQm0yeGNaeUVtZ3FFZ1doNUg3czNfTDdEY1MxQ3ZpeDZtZWJpY0dLdmxuY0FBZ1BrQkFCSzlYZHQ3QkFMaWxiX0g1Rk1PVFRBX1VMVmktYXdfbkVYaDg5WXdJb0E9PQ==
+So would that show up as ok I got century link and a week later I see a another century link almost the same numbers as mine but two are different and so I scanned the WiFi idk or the Mac address and it came back as an ARIN NUMBER? I don’t even know if I’m explaining myself right. But there’s also a T-mobileDAC1 that’s right under there. And that too came up in the ARIN registry,r/hacking,Z0FBQUFBQm0yeGNaZDFQV2lxTV9mdDgxOWZ2cFVKOXBDUGpqLUc5MXZJVXJmZ1JJWmZxN2dYTkNCZC1XQ3duOXpEbm1KUXEtLVVNYUNVTDZVc2hsRERNNnktRnBEOTh0NF9aYVF0d1l4cEhocjVpMUV2WU1yeVU9
+"Difference is wannacry was a 0 day exploit.
+Plus it was used in outdated servers.
+The same applies to Petya.
+Plus wannacry came from MSF EternalBlue which targeted the SMB port.
+In most IT centers to find exploits like this is 1 in 100.
+These only worked cause of them being leaked from the NSA.
+These videos are most likely fake, hacking irl does not work that easily.
+Yea it's easy to hack into a webcam considering most people don't change the passwords.
+But there's no way he is fooling these scammers.
+Updates exist for a reason.",r/hacking,Z0FBQUFBQm0yeGNaeVhpazZIUmxMdFE1NlM0bFVfN195TXVpV0Z3ZHFiQUdleDAtOHVPSUg2V3BjOEpaVVRTQ1NsTTJpX1AwUDJfYXZVZXdQQjc2YXUtV1Vrd1FELU93cjFWOFlHMUNnTktSS25IQWtJelJaZTA9
+"You should write a novel with the amount of bullshit.
+You'd probably win an award for best sci-fi novel.",r/hacking,Z0FBQUFBQm0yeGNad3VnclBGVnJZYklFcWZoTDN5WE1UU09DUkdOb1QxeWNjcFJaSjZObjhxWnRzZmZ0RVNTaF9PWlo1blVGNGt4TTdlVDlJMnFDVWRfSVlldDJoUEo5bm9jLTZLRHNWbGFVTGtLOFEwcGd6Rms9
+Not possible in the slightest.,r/hacking,Z0FBQUFBQm0yeGNaNks3TzNOVjZXSU5XdF9GZFdIZU5adksxSTR5RnN3SG1yWkg5UU51MVJhNjVkNkgzNVdXOC1LYTlQTEZ0MFJYdnVMcGVDYW0yQTRjR1hVRXRDZHc0cVFmOFR6VDI0bDRpZXFIRHJpNHQ5Tmc9
+"The main flaw in your thought is that you don't need to know the source code to find or run exploits. It greatly helps, which is why open-source code is usually ""safer"", but it's not needed by any means. You can still break things without fully understanding. Reverse engineering is also a thing.
+
+Similar to your title, in a sense, nothing is impossible. Some things are just way harder than others. Take breaking into a car or house as an example. Are you going to choose a target that is fenced off with tons of lights, doors, sensors, etc, or are you going to choose a target with none of that? 
+
+Same goes for hacking. No target is 100% secure, but some are stupid easy and others may take years. There certainly are bad actors out there who are spending years on a single target to learn, plan, and execute an attack, but 99% of bad actors are simply looking for that next easy target.",r/hacking,Z0FBQUFBQm0yeGNaU0Q2MHh0RE90WHdsV3NSa2dZSFE3MHFuLXFDT3BRSEQxd2xBYVcycUdXUWZvZWhXZUgtYk9NcU9TdnB1NjhXR3QtOHpPMGxyYzRGbGFPQml1QkxQWEE9PQ==
+can you explain what u said pls i didnt understand,r/hacking,Z0FBQUFBQm0yeGNaRWIydnN6NkhBa0syNXJZVDUyVkpKMDdpUWE5SDdoNGthMHFXVVBpeXYyNmpLMlgxeDRjTlJKNnVMR1R4SDk5WVc5NGlRWGtwTUluR1BiNnZVaVk0RW1RVGlIdmxjVll6azhRRk50Umx6OTA9
+"For the most part there are extremely secure ways to set things up, but they will be set up by people and as long as that is the case, stuff will be exploitable - all it takes is one piece of meatware (humans) to not enable MFA, reuse their password on the wrong website, fall for a phishing attempt on a bad day to make any technology / security measure pointless",r/hacking,Z0FBQUFBQm0yeGNaUUVjMER3VnlGbjhkTGN0Z2pWRkNUUTNyZEZKTDRQd196UE9RemdjVWVjd0RLVnNvUkpDR0E2WGxsR05ZX0xlemNzcDF3V1hlYkR4bUV1S3RSMGZhRmc9PQ==
+But how can you clone the disk if you don't have access to the login? I'm in a similar situation,r/hacking,Z0FBQUFBQm0yeGNadU1MSmhjVEFKZUdZdVpmdVRXd291a09aM1I1eHZ4dkprNVhYQ0NMNkxadHdKQlpuODlIcjdOQVFySDdlNFdsNlRsc2I0aEM0OWJ6NE96aXJxTzhvSWc9PQ==
+"As the other guy said nuitka is an an option.
+I'd be careful with pyinstaller bin since it was flagged any and all AV in my experience.",r/hacking,Z0FBQUFBQm0yeGNaZHhBdHV6V0pUU3JSNTFpTnZ6NlRTeWs1M1pLdWcwaUlDSWlnTGFnMkZLUm0wTGRVOEZuTFl0VTZ1cl9OSHlNMHVOQlhvOGNGVTg1Vk9OM1VYRlpEUUE9PQ==
+ok.,r/hacking,Z0FBQUFBQm0yeGNaMlZPSDUzNnM5bm5ydFNWcm5UazJyd2JWVTBNNklzS244VGw2QUZ4QU5IYlV6eldZSUI1c2hpcGs2VVlRUGlkaFM2ck9lYmN3M2d0czZJcmhHY1gyMWc9PQ==
+Siempre alguno entra.,r/hacking,Z0FBQUFBQm0yeGNadnpDOTBsWG01MG9XRDREOHNOYlI2ODZyZ1RZdjlNZ0FvbDlieElIc2VXMG1VUFJXWjZka3UwTVIybzBlQ0ZZWWViMUpEOV9HX1Fobl8ydnpRS2NndGc9PQ==
+"Signal is the best actually. I have covered many cases in which there was no way for authorities to retrieve data from signal even after court warrants other than account creation time and date. 
+
+Telegram on the other hand is as bad as it gets. First, it’s a cesspool of disgusting content including that against children. Telegram is based in UAE where you can’t breath without sharing it with the government. UAE is an advanced surveillance state and demands data from companies and I can bet my life Telegram wouldn’t be allowed there unless they had agreed to share data. 
+
+Additionally, Snowden advocated for the Signal app and directly or indirectly criticised Telegram over infrastructural flaws. https://twitter.com/Snowden/status/947209647592701952
+
+As for Disney breach; no clue why and what.",r/hacking,Z0FBQUFBQm0yeGNabmJkM3JFc3hIbFpVUlJRMHJ4UTlsakZWa24ySmROVG9TaUZxdDJKWG1GLUZrLUhyYnJCRDBoVmVOQ2lCM1JqN0pFOWJkbFlVM3BQQkp0Tnp4WWt2bUNOTGJpU2V4QTAyZmRXTzNfWUQxc1k9
+"Hello u/courtneymc07, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNadlZnLXgwZjhwdThlaDF5alhvQzNETHkyN3EwUmxaNE9jOVhrTjFhV3NkcE5zcE1ud1ZDRjM3RFZmVjVReGF2SDR6Zndyd0tGdFhuUDZxdUxrZm9lblE9PQ==
+"Are you drunk, or is this just a poorly formed thought?",r/hacking,Z0FBQUFBQm0yeGNaU3dsdUxIWTYxRDFkMTZWc0lzVndhQjNzZTBvVlNDdlFZaDc5UkJVSHMxSzdfclRJeTJmUmE3NTZkLVh3QnRUcE5vczdrWTFkY1dGYzZvMHQ2Q3BaTWxTV1NIUmNFYmpDRkwweDJLZUFobEE9
+It's like a timed Man-in-Middle with limited access at specific times.   You can read and injection messages but you don't have full access of the network,r/hacking,Z0FBQUFBQm0yeGNaMmdLQjdJdzhJMHR0aXVuTDgxUzBXdUt3RU1PV3JSNF96ZHNwUGFkX0RHamotSGxrdm1iNmhDX0dxYmlreVJrMUxwN01mZkY3STBvMU5pMjQyRkZiaXc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaclJ3SDl4RnVuSXlaN3FyaG9WUzZidjM4bXQ0VHVNdVZNZHpKcHdBOXZCSUUyRjRGOURuSXB2R0pIQXlMbUJnbTlLZXpKekJ0aWtwdDFsYk5zcFZKbUE9PQ==
+"Well yeah, I can DoS anything if you give me a really large magnet and physical access to the servers. A big hammer would probably work as well.
+
+Don't need no fancy source access for that!",r/hacking,Z0FBQUFBQm0yeGNaWXFoYTJMVVcwbTAybWNJTGhFQnEtQ2ZLS2FYTlo5SVRnZVNrYmxfTzd3VXBZamp0WFB4SkJ2NEZWRExLQTVQSEQ3dTFkdEVwQmZWdEVOb2kwbVRObFE9PQ==
+"050-5530-0644
+This numbers is a hacker ",r/hacking,Z0FBQUFBQm0yeGNaMFFEX2hDZHlFSGptOV9JeVpkSG5icVplaHllOVlEVVhQTjIyNHVCQWFqbDFRSnNKZG9Od25KbnI0WDBBV0NabHVMaUwyekpGTU9tQl9SLVgxTnF2MlE9PQ==
+I think first u have to find the interest of your victims then through social engineering u can easily make them comfortable to install your apk,r/hacking,Z0FBQUFBQm0yeGNaeDJXcDVSOXltZkRhZmM1dy1zbzU0RGJVUDNJWVg5TkNUN05LY09BcmNmWXJhVnAtMVA0R3R6TE1rWjA2TTh2RTNJVU9DN3RCZUhFazJXWVFFMV9OVVE9PQ==
+"Indeed! Most attacks in the wild, fortunately, are very very low effort and unoriginal. Most of the attacks described by researchers that make it to the popular press are very hard to practically exploit. (Note that I've said most, not all)
+
+This seems to fit the above... Which doesn't mean that, some version/variant of it, won't be widely used in some short years. Sometimes they open a door and lead to something practical. Again, speaking very generally as in: you should worry about the trivial stuff that nobody reports on. Probably not the exotic things that often get lots of attention.",r/hacking,Z0FBQUFBQm0yeGNaZXFuU2hVWnA3cEZpTWdTODZjVHJTMk1DX1doT0lEU1FDclh6NWpNQWVMd3dZcEU1R2hTOGw5Y2dKbUtOTkdwWURkLVROYnJaYlJHcmpYU2xiMEVkdWc9PQ==
+"Your post is too short or does not contain a body. Title only posts are not allowed. Please repost with a body.
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaai1PSG1pSmU3bUJpdUFYUGNaUkwxZlVZTDMtQjF3bWZCdFZZZnF3aUV0Y3VfY0J2QklIRTVrSFU3a2xyR1Q0Wk1JN3hoSm15aXM5eDJtZjduQ3ZZM2c9PQ==
+"question for vio:
+
+what made you want to create SiegedSec to begin with, and why did you nicknamed the group ""Gay Furry Hackers""",r/hacking,Z0FBQUFBQm0yeGNaWnM1ajhoLUJoUkRuT2drRjRkZWEwSmh5aFJBeHJhdXdfYlotQlZDRlo5LW9nd2pMTHEwV09CZ2JJZUtzcVdxWVE5Q1BVajlDaWdyUUwtZjRyQjQyZUE9PQ==
+"Like everything you first have to define what it means to successfully hack / exploit.
+
+In the case of streaming, game hackers are already developing AI-based cheats that read the screen and adjust the cursor so the cheater can better perform. If the goal was to cheat at a game, that'd be it. Streaming wouldn't have prevented that from happening.
+
+Bot protection wouldn't be any more effective than it is currently as this is already a thing people know about. rVPNs, and botnets in general solve this by providing thousands of valid residential IP addresses for hackers to use",r/hacking,Z0FBQUFBQm0yeGNadkxja1VUMG5qUE5rQ2U3QjNLSW82Y0ExV2g0SFcySW5GNjRMcWdnUk5Ga0F0WlN4dG54OGNHYzFsOENqWXdYT19fY0tMRzJJZmpiVHVnaUtxaVlSVEE9PQ==
+"If you put a return address on an envelope you mail out, will the recipient be able to get into your house?",r/hacking,Z0FBQUFBQm0yeGNaM1FxSFRrcXUxRGR6TW1ISkZGV2k1ejBVa3JpRXRxZEdDRlAwOXB6el8yRDZTUkhUdHc4alJPR25aUndvRXZuTVNvVDR1eHlUQTNGTkd3NFBhZ0dtMDlrSE1CV2o3bnloanVzdWk4UkhMRE09
+Sure but I mean people could do things with your ip if they're advanced enough. My question is if they do things with that stores ip that came from my phone. would it effect my phone? Cause its not my actual home ip,r/hacking,Z0FBQUFBQm0yeGNaWlQ2aXViSGVoQldRTHRVY1hTeUwyczR4SkhYVWVvYmVxS2dfVjlXZ1A1dTVrVTItaGl6eWd3OEFFdllRQlNCZmY4M2Y5OEVEOUJab0syYlYzR2Fwemc9PQ==
+Be careful using public wifi. I don't recommend connecting to any public wifi tbh since most are fairly easy hackable,r/hacking,Z0FBQUFBQm0yeGNaYlota1ZaVGtvcDVHSmNLOWNDdzlja2NGQV9GNlJTeHA2RzJsS0g5U21yeHRtZWFhTl9HOVkxSUZROWI0R2ZralBrNmpiTHlkejRqQW01aVdwckFpdFE9PQ==
+"Yes - when you've connected to a device once it will always have that IP
+
+Forever 
+
+It's why the world's running out of IPv4 addresses.
+
+Edit: boo down voters ..booo",r/hacking,Z0FBQUFBQm0yeGNaUlY2anVnUjdaS2ZhY2o0aXFIZm5ndDNvbmdNZXNPcGdXN0NJV2kwVXp5S3BFOE56Ukpnb1RBd0ZYME1kdzFNamd5LTl4YmltOGtmcXhpaU5YSWZLaWc9PQ==
+"People can do things to your house if they know your address. Besides maybe DDOSing, which is pretty niche for your average person to be targeted by, it has nothing to do with knowing your address and everything to do with how you've secured your house, or in some cases what you've left open/unsecured.",r/hacking,Z0FBQUFBQm0yeGNaM3VIaXZsTmxkcUJHc1NLai1wNjd0NUxEaXoya1B2X2JxaVA1VXdMOVFHR1VmTkNXVjFLa1JpTGJEU2JmNmJfVlpVSDRPWDNKa2VuWG9Ib055VlJMRE5hSmx5TXd4UERyTGhMX25ST1Z6Qms9
+Bro Idk how tf I secure my ip. I don't know anyhting about this shit. The reason I'm asking this is because i made a online appointment with my local barber but for some reason they had to save my ip. To be safe I went to a local store and used their public  Wi-Fi to schedule the appointment.  The ip they saved was different than my home ip they were about to save,r/hacking,Z0FBQUFBQm0yeGNaR3FHQ0NOc1FsdUduMnBKc3BUNERaaC0tYlc4cFdHdGJudjRqUVZ2Y3pPUEFVTDAxMnU4MmNLZ2gxb2ZORExHRWNKOUhfWDkyQXhoMU5lSXI1WXoydFE9PQ==
+"So with MITM, imagine two people, John and Mary, are talking over the phone. 
+
+However, two phones are not directly connected to each other - they connect through a series of servers that are relaying audio signals from one device to the other like a big relay race going back and forth.
+
+John simply assumes that what he's hearing is truly what Mary has said. However, there is always a possibility that someone controlling a server somewhere in the middle could actually be changing what is said. 
+
+So let's say Evil Mary is intercepting the call. 
+
+John (thinking he's talking to Mary but is really talking to Evil Mary): Hi Mary, how are you? 
+
+Evil Mary (talking to Mary, pretending to be John): Hi Mary. How are you?
+
+Mary (thinking she's responding to John): Oh I'm okay. 
+
+Evil Mary (to John): Oh, I'm okay but can you send me some money to evilmary@hotmail.com?
+
+So Evil Mary is intercepting the conversation on both sides and relaying messages back and forth, sometimes changing the message. 
+
+With Man-On-The-Side, Evil Mary sits next to the real Mary at work. She hears Mary answer a call from John.
+
+John: Hey Mary, can you tell me where I should send my bill payment?
+
+Mary: Sure, one second. 
+
+(Evil Mary quickly shouts from nearby before Mary can respond further)
+
+Evil Mary: SEND YOUR PAYMENT TO EVILMARY@HOTMAIL.COM!!!
+
+John: Thanks! (Hangs up the phone)
+
+Mary: Okay. Send your payment to billing@company.com.
+
+So Man-On-The-Side is basically where the attacker sends their own response before the real response comes back.
+
+The person waiting for the response accepts the attacker's response because it was first, and then ignores the real response as just bad data that it didn't ask for. 
+
+This can get complicated because more and more Internet communication is requiring a secure channel (e.g. HTTPS) where an attacker wouldn't know how to properly encrypt the response, and the attacker NEEDS to be in a position where they can send a response before the real response comes through.",r/hacking,Z0FBQUFBQm0yeGNabElCSHgzbkw3Zmt2alE1eWVIanBGMnlCWVhDSFNCN3JMTE9qYzdPWlBjTmtacG5qekpOY2J1Zk5jTXhYNjllR1RfNWJ1SUtzTlF1SlpwSlVqTjMyZ1JqUmFtempiT3ByVW5JRW1aSmJHczQ9
+"Again, your IP is just the address people can reach you at. You don't ""secure your IP"".",r/hacking,Z0FBQUFBQm0yeGNaNjl5Y2VOTmZmOURTYUllVHpyM0c1bENhdm9wZC01OExoWnE5RGswTGxHNG0tM1JDOVVjQ3U2MmU2M2RMQlFDYWU2a0NrcHpPeFVDSXZET0NpQ3A5Z3VLTVR0MTZIM0dwZ1dMU1RGYURDSE09
+"But when I looked up what people can do with your ip I saw all kinds of answers like ""they can see your history"" ""they can track your online activities"" etc.",r/hacking,Z0FBQUFBQm0yeGNaUFhaSEp4d016TllodTUxc3FLcTlLdXNWMGVzbUk2TUxJZjY0dXZfXzFTVEtoX3EtSWZaR1hsbnRRd0JNWFE1X1QwS0MzTjk3SDBrRHg4NU51Ukp1RVE9PQ==
+...Why would you using a public IP address on public WiFi make hackers any more capable of hacking me?,r/hacking,Z0FBQUFBQm0yeGNad3dHUjJqQ2dsbTRtTDdfdG9LVzdIWVFiUy1qTHA5WVVueFNkZUx0QTh6QTdMdldsRzByVE85blFvNlJJWURab3h4QVRkNzI2T3ppNWMtNGEzQm5OUHc9PQ==
+But let's say i temporarily use that wifi to give out my ip out there. My home ip would technically be safe no?,r/hacking,Z0FBQUFBQm0yeGNaWFVONi1vUkRscG9LV1pnSXRPQUJGd0RUUFpfNFdKZGV6U0Y4aldKZ3hFcXMwSExJOXJpcnlQNktlZHFQYmFUaDE3MGk3aTMycXcxX0RQZXhQNXRubkE9PQ==
+Using pyinstaller and making and exe out of your script with everything it need to run.,r/hacking,Z0FBQUFBQm0yeGNaQUFBZklrQzFMa2FreGgxRkVLTlN0UGdfbzhOLURSMXZXOEtqckdRSGFWV2hGd2h5eHZoZm5FNG5ZOGd3Wl9zZDl2dUQxMkRDSm1OeEpMbmM5UnNnOGc9PQ==
+Using pyinstaller and making and exe out of your script with everything it need to run.,r/hacking,Z0FBQUFBQm0yeGNaLTJnZUtUcmZoQTZzTktnVEF3SUJ2Vm95eG1JeHNNbWM4UGt4Tnc4SHdBVXRjYVNVZzZpZkpCT2hSdlZLTjRBRUFELVpaZ1FCeEt4UWVRLTBVNXhRMkE9PQ==
+We already did,r/hacking,Z0FBQUFBQm0yeGNadl9lMXdkbzlzNEc0QXJhdjdJMGhVZk1JSzktaFVibGx2SktyLUpJQm1hZzBnNWF0NnQtMUJ6cUZUaGVuTHRyT2ZWRDE1aDlsaklOMzExZFY0UHN0b2c9PQ==
+We already did,r/hacking,Z0FBQUFBQm0yeGNab1EwR0YzNnlBelFCY2hKeDRLU19uakNTdmJLOEJ0U3p6cDBsSEpOOVBvSkFqdkJXdkhIY2xDMVdNeWtSdXFKdmpfMlBuQ1dxVFJjQTNpdGozcWFweVE9PQ==
+"Technically, yes (but if that public wifi is 'hacked', there's a chance that when you connect to your home network again, it can become infected aswell.) 
+
+Why would you want to give out your ip using a public wifi if I may ask?",r/hacking,Z0FBQUFBQm0yeGNac1dfSXhENW1BcDgtNlVLUlptT0hVSUN3by1Wdk9fTHl3dDZPUEwtQnpMd2hvbmNwaXhCaHBJOUFtN2NhWHNZQjNtYkxzTXBQa3U1ODZEOUpYNUFYemc9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNadHRnMzVNVFM3UUNzQ1NtaUE5cFVoRGZXVm5rbE8wMWIwOWxoSzhMbHlrX005ZUkwZktUXy1ONzFTbjBKY2ZteXlodENIbjlaazFMQmlGeHhHYlZRc2c9PQ==
+"You can use compromised hosts, I've had some problems with people not liking the UI for upload scripts, but there's tons of random websites that aren't closely watched and have exploitable issues. You can then add a file upload script, or add your ssh key and transfer things that way (ssh has a compress option -C btw). Then since it's on a website people can just download it through a VPN.
+
+IRL people tend to use stuff like file sharing sites a lot but those are much better for small files.
+
+Alternate but supported protocols can be useful in exfiltrating files around firewalls, like sometimes people completely forget to filter outbound ipv6 or udp or protocols like that. IPv6 is supported by SSH and lots of networks these days.
+
+If you're just moving stuff from your network to another there's a protocol from the bittorrent project that I thought looked promising that synchronizes folder between several machines quickly and with the ability to download from multiple places at once. I mean there's open source software for pretty much anything you can think of.",r/hacking,Z0FBQUFBQm0yeGNacGFxUDlpNkJkTTYxZG5CRmFvaldwTXV4QUZBQ3JCUDRia0gyYTJQc1A1MHplaEpreTk1b0pzRlpRY3JVeFhWRU00NUJUeHFlblc0S21fcW0yRm9lSXNsOU5Zc096YlZQWWx1ME1VWUx3azg9
+Not everything is hackable in any practical way. In fact the vast majority of code isn’t.,r/hacking,Z0FBQUFBQm0yeGNaZmRJSmZrMTViSUxSZWlROEdadHEtMG9xVTJkQUlRZEN4X1RZdkZvUEVsRDk4eXpDaXROSjVyMm1TRVBwOW8tS29CODFzOVhlRU85VktYZVBoSlVNN1E9PQ==
+"Typically - when you start you have no idea what you’re into, so you learn a bit of everything. 
+
+Later on, you start specialising in special areas that interest you, or you’ve been assigned to in work, but retain the basics of knowledge you picked up earlier.",r/hacking,Z0FBQUFBQm0yeGNaR2k2YUY4Ny1rZHhxTVVqWnA0X05LcHZvMnB0N1FrSWlKcEd3Sk9Ed19nN3NBdlRYY1EyUHJyQTNwQzNqMGh6NFU4WnBGeElkVFJNRTZ2LTFCRThJUkFtdG5QRFMzMW1DdTlJZkd3VGliRlE9
+"Typically the same way everything else works. Find out what you want to learn, then once you figure out whats holding you back, learn that. Cycle repeats infinitely. Just start with what YOUR interested in, and it will come with time and experience. Doing this will allow you to continue exploring ideas and learning concepts you did not existed, leading to more intrigue knowledge.",r/hacking,Z0FBQUFBQm0yeGNaanpBeGx6R0lTNHRUX3ZmeXBqc21qQWdLOWRKczhmTHk5OF9NcmxzYXNlanEwR285WDJIYkgtX0J4aU1ReGZDY2FxMU0ydjNibFAyMmpDOXUzVmUwSUxTVkdHR0haTmtUblhOSzFTc2FyZkU9
+You find something you like. Advance in it and move on to the next. Some of these steps you really love and advance to the maximum. And then you know more about these advanced techniques and are the specialist in it. ,r/hacking,Z0FBQUFBQm0yeGNaVVlaSGpaYWV6U2RYRF9jWGtrcE14VF9zd0xvdGkyckRKVjZ1a2M0R1N3dE11cXVXcUdNbUNSODAyUjFSeHZZV2NFQUdyV3p3aEgwN0JISUVmZ0NNWVhIaThBT0lacTU4RWdxdjF1dlo5dU09
+Most know one attack that they execute repeatedly until they have success. Organized crime tends to favor a tiered approach where you have junior criminals getting initial access then senior criminals executing payloads.,r/hacking,Z0FBQUFBQm0yeGNaeTJIYmZheXpHWG4tams5NV9HdWVuUXZHM3lGNG5SWmpRM3JQRktYZWhfY0RHZFU1bldEeEJpbTR0ZWdUYWVFN2xBQzVtSV8yS3pCR3JFYkpZenM2RkE9PQ==
+"You’re looking in the wrong place. 
+
+The folder you’re looking in is for the current user. Look in the local computer one.",r/hacking,Z0FBQUFBQm0yeGNaZTZ6YmlSMGprQnYyeUFlbmprWW0zOVQ0akd5MmROa3NfY1p3TzRNVjFDYmt3XzhSTVN1NlFRYmtwTWdTSXVGVThqMHpIUUNRLVJ3dEZkenlvdzBmTFpaV3hUNENodDZhMUdBU2x1M19Ta009
+"there was a REALLY good youtube video i saw recently showing from a to z how some russian hackers found an exploit in a router i think. i cannot find it, but maybe someone here remembers?
+
+They won some money i think for the exploit.  it was a recording of a computer screen and the russian dudes commentated everything they did and why....
+
+it is a really good way to answer your question, if we can find it",r/hacking,Z0FBQUFBQm0yeGNaU1FwdVdlS0k3U0E0X0ZrUnJyc3JIOWVTd0ZvYnhYdl9VMVFJSkZZRGVad2FIbHg2WjI2UEhLTHBnc1VWd01OM3VodXpEWXNKZnRjU3dUekxFNXppRWc9PQ==
+"From what I’ve heard, specialization is the way to go. It’s a competitive industry so you want to carve your niche. Get really good/knowledgeable in a specific subject (like cloud or mobile devices as you said, for instance) and put it on your resume. Anyone can learn a little about everything, but that doesn’t mean they can do anything useful. This is even more relevant today where AI will start to be used in cybersecurity, inevitably in automation of the most basic attacks. Someone who only knows the basics isn’t smart to hire if an AI and a bunch of high school students with time in their hands can do the same. If you master something, you’d be the person who helps *develop* the AI’s proficiency and would be the go-to guy for whatever subject. You’d be someone to keep around. There are lots of people who know this and that but there are only so many people who know *this specific thing* and *everything about it*.
+
+As for the blackhats and the actual process, they’re just a different side of the same coin. A traditional cyberattack involves only one vector and only one (main) payload. If you’re getting access into a web server, you need specialization in that, and only that. If you only want to extract data from that web server, you need expertise in just that. You only need to know what you’re going to use, and the basics usually won’t get you there unless you’ve got four-leaf clovers coming out of your ears. All the famous blackhats specialize in specific kinds of hacks, whether they be social engineering or privilege escalation or what have you. Usually you’ll need to know a couple things but not all of them to be an effective hacker.
+
+There is general knowledge you need to know; basic networking, for one. But specialization is basically the mark of a hacker. As you said, there’s too much to learn. Someone who knows everything would be unstoppable, but would also have to spend decades learning. Those in the field and those who mess around in their free time both learn, but it’s likely neither will ever learn everything (especially because of how fast the industry evolves).
+
+TL;DR hackers specialize because it’s better for getting hired and better for running meaningful attacks, and learning everything isn’t practical or efficient.",r/hacking,Z0FBQUFBQm0yeGNabmhhYkNoQWNsZzlmd1B4dXZFa21wSnNxQVpjZ0JmUG1XeWliQTJKWWd1RVhvMWdfNU1ZQWFFOGJLSVZ1dTlXTGlVNTYzV3ZxV2xsTkVYQVJrMXlMWU1OT3c5cmNCX2ZzQWhwdndzNDJaSGc9
+"You start off learning as much as you can about everything, getting good at this and that; and just experiment overall. 
+
+People usually tend to find one thing that interests them more than other stuff such as reverse engineering, making tools, some people just are good at social engineering.
+
+This is usually how groups are formed, person one is good at one thing, person two is good at the other. They may know a bit about each other’s work but not on same level as someone who focused on only that for a while. 
+
+Sometimes you don’t have to specialize at all, there are occasions that do want you to know a bit everything.",r/hacking,Z0FBQUFBQm0yeGNacFJLT1hmSVVVVkVDWC1QbUNRcW9jQmo5NG9oY0RjMjRfdGI3VnF1OTcxSkFsS1lOSWQ2RVk2QnVyVmwzLTd1cDdHNi0ya0RESDNZNjZlTGlJX0VENUE9PQ==
+/r/im14andthisisdeep,r/hacking,Z0FBQUFBQm0yeGNaai1aMlNpQlljaXRsanl0Y19ndWd0RjZKMkY2RVl2b0gySlp5MmZ6Z0dRdlZiaVI1SFY3Z1phb3h6NDJnNHd0cFFLZGJVYnJpS01vQlFVWUJRSjdCeVE9PQ==
+"The reason why data brokers preferred Telegram over other platforms is because of its accessibility, and while it's unencrypted, it's much easier to create multiple burner accounts on Telegram when compared to something like Signal, that requires verification in order to use their account. Signal is secure, but not designed to be anonymous. It's also relatively easy to migrate between TG channels, as SiegedSec done with their older channels taken down.",r/hacking,Z0FBQUFBQm0yeGNabTdCeUt6dVBLRDR0aGZzOVdfdjdqOFR3bzJRQkVkUkE4akdDczc5cThNU3BITzJ6b01PTHZJM3JmSDF3T0F0UmY0S2Q1ejF2cENVZ1dPQjk1V25KSkFocnhNT1E5WVZzVjEzN0h3ckhMbms9
+"same exact thing
+
+I updated the post to include new screenshots",r/hacking,Z0FBQUFBQm0yeGNaQlNMNm50Z0F6eER3YnlrVnROMW0wRDhXQ1RBNnRIOTFGaTM5N3dfS2ZidE5HWFJDTGdGZnlPd2hfYWFMQjJxOU5MRlpmR0NveEdGWll4VFJnQmEzNnc9PQ==
+"Hey guys - i hope you doing well. So, i just wanna check some chick - and i just dont wanna to pay for this FaceCheck.id. As far as i was search only this app find match. Does anyone maybe have a premium account and could check her URL there?",r/hacking,Z0FBQUFBQm0yeGNaOVZzSzBXOXlaMjRYeXJFNzJhRlFVRnpEZmVkZURHYUpoaXFkLVRlTEFkdGlrWndPb2FqTE1lLVgwZFFJNVRHVXBQSzUyMUY5c2pnS2JHM084N3Mzcm0tV19tRVA5S2h1UjJLQU0wMnZ5bnc9
+"Hi and welcome to /r/hacking! It looks like you may be asking a beginner question.
+
+These should be asked in /r/HowToHack or /r/asknetsec.
+
+We have plenty of beginner and starter resources in [our wiki]( https://old.reddit.com/r/hacking/wiki/index).
+
+Some sections:
+
+- [History](https://old.reddit.com/r/hacking/wiki/index#wiki_history)
+- [Cracking](https://old.reddit.com/r/hacking/wiki/index#wiki_cracking)
+- [OSINT](https://old.reddit.com/r/hacking/wiki/index#wiki_osint)
+- [Github Resources](https://old.reddit.com/r/hacking/wiki/index#wiki_useful_github_resources)
+- [Conferences](https://old.reddit.com/r/hacking/wiki/index#wiki_conferences)
+- [CTFs](https://old.reddit.com/r/hacking/wiki/index#wiki_ctfs)
+- [Bug Bounty Programs](https://old.reddit.com/r/hacking/wiki/index#wiki_bug_bounty_programs)
+- [Videos](https://old.reddit.com/r/hacking/wiki/index#wiki_videos)
+
+Your post here has been removed. Thanks for being understanding! :)",r/hacking,Z0FBQUFBQm0yeGNaTVJQZEI1dWFjblI0TzRwOXcyOFFNclRnYU1yc1FhZHRLaFBhc0gtZ3RUVjNOMlZ6VTVQcGtMZ3VVbDJCbzVPTEhqZTA0dnJfdFlSaC1hUW01N0pteWc9PQ==
+"i will recommend 2 languages
+
+C and ASM 
+
+trust me you will be able to create all type of malwares, spywares, even AV's...",r/hacking,Z0FBQUFBQm0yeGNaUHZkR2V2VTl1VjIzMG9TNjJaNlYwWnNsN3k4cE9UeHZDemJfR3NMSXltd1JIcDdoNHpvVmUyQVB0LWJYTDJJRWxkUUtGUy1UMTFvNnY2R3plMHJTdlJnanBRd0stOFF0WXdOSm8xS2l3MFE9
+"Hello u/bratpack125, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaZm5lY0RfaG9IRU9hRS1QLVJnUGVfUVlXM0d2S2RKVEh2eEd2LVVtT1p1OTZKcFlKbWNmV1lEaEFVVHNjQTRHSTNnaXJYdTMtN3RyVDNpLXlEbGQ4SHc9PQ==
+Thank you for thorough answer. Makes a lot of sense.,r/hacking,Z0FBQUFBQm0yeGNaRXRTYkY4TFNjMzVqSGdpdWpZbmVON1I5Q0V2ZVhTaGNqbUdiQVlXVTZlZ1NxR1FKZHZKMkQ5MW5qWDhCdUY0RVEyVEpScGhFT0N0U0NSd1ZKNU1fN0E9PQ==
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaRkoyU1B5WjNSQjN0ZkRmWngtVXdxOTVBRFRNRlR4MnhzVUo0dnFCVlZDLV9QOEpMMjljYmFwdm1odG1VYzNTa3Q0am9sMkdMUHMwM0t2OU5nZWljNFE9PQ==
+"Did you figure this out for your subi? 
+I recently got a monitoring device and already I’m seeing it knocking off points daily for “aggressive braking and aggressive taking off”… it’s a manual car, it’s going to be a little less smooth than automatic counterparts :(",r/hacking,Z0FBQUFBQm0yeGNaZzJRdmVJTDJ5SW5BbXl3WFUtemdQdG45c21ZR2hhbFAtY1ZmVmlkSUdLSFU3WHFnVXN2WjZmeWpsRHhEMmtxVTFWdERLVVhYdDdGRmJkdWtfNm1RcTNtQ2dWaU0yUDJXcGg0ZzladHJiNms9
+"Your post has been removed for breaking the ""We Are Not Your Personal Army"" rule. This sub is not for helping you figure out if you've been hacked, get revenge, or do something illegal. We have to follow [reddits Content Policy](https://www.redditinc.com/policies/content-policy) in order to keep this sub alive. This is not the place to try and find out how you have been hacked, if you have been hacked, try to find hackers to do your dirty work, or any silliness like that. You will be banned for trying. This includes:
+
+* Asking someone to hack for you
+* Asking if your device/computer has been hacked
+* Asking to help recover your Gmail/Snapchat/Tiktok/Whatever account
+* Break into accounts that do not belong to you
+* Help you find a forgotten password
+* Trying to hire hackers
+* Asking tech support questions
+* Asking for help with your DoS  
+* Asking how to get into your ""girlfriend's"" Instagram  
+* Offering to do these things will also result in a ban  
+
+Thanks for being understanding. If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaazY5TlBwVTE4c2pYZzZBal83U2gxdW9pWlJlNFZCaXZ0RXNGdnJCV2R4RzlOWFVUWFVuSnA2aDh0ZzFnMC1zazFobHJJYzFGOTRPY3diUlJKeTZtaGc9PQ==
+They have access to your AP and clients.,r/hacking,Z0FBQUFBQm0yeGNaT1g4TjJKX1hMdjhvX3VaZThFS2lTUXlSVENWcmhwQ25IbjVCNC1TaDNNeWd2MG5IUGRpVUJIZDhhNXF6ZzVseHhzSlVMZXlRZ0lnQTlvQzR3cjJXN1oyUmhUYXU5WW9xTGM1SkQtTUh5bXM9
+Learn math and it's subset — information theory. The rest will come.,r/hacking,Z0FBQUFBQm0yeGNaTjJTZllHSGtyRU02NTdldjdWVTNsYlgtVWxMZm04NGtabk5TRTZqVHI3Vi1peFFpNTV5VDMxc0JrNGhEMnJmUjVncEFOcjVZTy1HTXc2VE4taTZ5aFE9PQ==
+Same here,r/hacking,Z0FBQUFBQm0yeGNaYkxFTm5vZXZGZXVuMmIxMmFPNFNuejVrTlhvdVMxS29STFhLSUFuSG9iZU95b0p6c21wM083aUhkakJfUEQtSEFlalg5OTVEMkUwME9qNmtranlXVVRRNWtHMUszUUl4bDJJWkZfMHc5NlU9
+Dm me if you could help with cracking,r/hacking,Z0FBQUFBQm0yeGNaM2RqSk5kUFdrWEI5ZTJ2a1FtenFMUkgxT3VnR3VYZ3VjNEdkelRZU1NpSTdZY1NNTXVCLXBudElzYVZYZEdPQlhvcC1NTENQcFpBTkpWX2F2U2VjeElsdzNaOWQ2NG9SMlVlRTk4YnB6dFk9
+"Hello u/No_homo_alexxxxxx, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaRUdqS3loZlZXX2p4Q0ItSl9vZWduS25MMnRFbXMwNGZVQ2s5NHpBQlp2V1NfelgxMjRWdktMU3JSMDNNU1dBTVdIaGkxVklPRmZXSmRBWE1ZeFo4QXc9PQ==
+"That is very unfortunate, I feel sorry for you",r/hacking,Z0FBQUFBQm0yeGNaMFNIUXVtUDRlQ3Q3dW53ZGRpMHZOcFU5b1pKaS1EZmJsT0hraVl4Q25NYjVPTExncHl2ZHZJb2J0OGVSWlR0cmdiSExzZHhXQ1dTX08zcVVKbURhZ3VlX19qTXAwS0JyVEM3cWlMYzh3VjQ9
+🤨,r/hacking,Z0FBQUFBQm0yeGNaeW1RVnE2SGtPdEpqazd6ZjhWSnhyRkhxQ25oMGpkcmI0QzhGcUl0Y0Fpbl9CcTVQUFJITkVmM3Z3Zm5aM3hYTHVzTFZHb1BOMFBoRUJySVBUNlk0S1E9PQ==
+i havent really tripped on it im just confused was it doxxing? how does that even work,r/hacking,Z0FBQUFBQm0yeGNaRnBZeVJNb0RlelVhcTRJeUF0YlZTM1hnS0ZmSUxrRFBJanU2TlBIZzc4Ri0tUkJKOFNmWWFQUG96TmY5ZkFrX0YtbXNQcTFudHRJVm1rcExMRTNNUHA3Y0UwUzFXTmVkc3oxNnI4VHV0YzA9
+"I imagine that whoever ""doxxed"" you just looked up your username with OSINT tools and found more accounts associated with you, one of which likely had your real name attached.",r/hacking,Z0FBQUFBQm0yeGNaQnRfRzhpUm9UN2dHM1M5emtMOXRRSmRRS0oxYXU0OGl1Q0pzU1BCSjNOMV9Pa2JhUFpzeVUzRFhRQlQtQ21Wd2ZxUGtKQjZLLXJGMFZ6QzYxSXhLZnc9PQ==
+Do you happen to have your first and last name on your account? In a video? On say your instagram which you may have linked to your profile?,r/hacking,Z0FBQUFBQm0yeGNaTUpWd0F4UWoycnNhczBBUnRmZ1RkQ1Joa1NORlBSWVlDdzNmbmpPdnNwV2RubWJ3MjdENXZVc190ZmcxS2VfNFFHZDA1WnZfanJGdHhwRUMyTk04MHc9PQ==
+ohh ok,r/hacking,Z0FBQUFBQm0yeGNaMWxUZHFtNjNZQ1phZUtKUnFYZzFQdUg1d2VPVGNVaE5YWV8zWWlhZWpPRlRaVmg4MEJJeERoOFY3cHlIek1xWUROZ0dVbGxPeGtsOXlhMXJUd3FtOENyV20xUXRtZUprUWMxSnQxVHVueDQ9
+i didnt have my insta linked and still dont the only ever username related to my name i had on that acc was just my first name shortened down that was in 2020 thi,r/hacking,Z0FBQUFBQm0yeGNaOU4wbEZXTUxIS0J0bzl1WDVqSGpvTFZIaVVqeWJFbWo0MXlzb2l1OGhrbWdhU29aUzZ6a0NrS3E3ZkZiMS00eDhOYWxoUEgtdFlRSUhZU1k3WVpvSTBiZG9jRkpYc3drNHhSand6dGNXc2c9
+"Hi and welcome to our sub. 
+
+Your post or comment has been removed for violating **Rule 8**:
+
+>Low-effort content will be removed at moderator discretion
+
+Please read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+Thanks!",r/hacking,Z0FBQUFBQm0yeGNaWlZEUEk0c1ZBRTJNY2JIeTIzNGNiWXNwUXFXYTktRXlIVmNpVmFZenNQRjJybmV6TTFhdzE0bEQ1dFVIVGU3TkVPVmFJQzk4RTZwYmh6dEEzeTIxZFE9PQ==
+"I can understand why you’d feel confused and concerned about this. Doxxing typically involves the malicious act of revealing someone's private information without their consent, usually to harass or intimidate them. If she only mentioned your first and last name, it might not be doxxing per se, but it’s certainly an invasion of privacy and troubling behavior.
+
+It's important to protect yourself online. Consider tightening your privacy settings on social media, being cautious about what personal information you share, and reporting any inappropriate behavior to the platform. Stay safe, and don't hesitate to seek help if you feel threatened.",r/hacking,Z0FBQUFBQm0yeGNaVjZyZVB5RHB6OHR3NWhickM0d0F4RGZiUHV6TjhaWlllVzJiUnF3ZWhfckZzQWVYZi05LXRRQS1MX1A4Q0FCTDAwOXA5cHFiWDYteFhfVS1CVUtJcEE9PQ==
+He understands well in hacking,r/hacking,Z0FBQUFBQm0yeGNaLWt2dHVTak9lTmFDV3JtOUllcHI4MjhNTGd5Qm0xMFM0RlNFck03LTUtbldoRm9wWVNsNWxoRmdNQTc0SDZZbnpxel9keUpEZGMzQjdGNUJTS3ZKUXRNbUZpREd5VVM3V25XdXc5YWgyYVE9
+Yooo dm need one also willing to pay!,r/hacking,Z0FBQUFBQm0yeGNaRzVQdTNSVzVzTTV6ZEI0eWlaLWxVNE1PS2IyTk91cnFteTFyekwyYS15YmN4Ymk3NUluUzl1bnM3R3NnUUNhTXRDcHVxQ0FrQ2ptLWVMY05KSmphWHpuSllTeE55NWdpZHBBcjB5cTdfbWM9
+I have some software I would like to crack and need fake licensing server dm willing to pay!!!,r/hacking,Z0FBQUFBQm0yeGNaQ3AwQ09XWGNDYzBjSnowN3RJRGxhbjd3R19GV2tvcW84SmdiT1ZiUGM2N0dzX0RSNHV1TzR2Nmplc2FJLXZyRVdmbVJyZVQ5NWRpTkNWcE9HakEwWmVYQ0pWdDRLSkloSmN3MENIeUZ4d1E9
+"> level of sophistication it takes
+
+It depends on the situation. Different hacks vary in complexity because every situation is different.",r/hacking,Z0FBQUFBQm0yeGNaYmpyMjZ5U19TMDlXMV85dUhsNjU3cGROU1lfaFQtNm96Sk5tNFRmRC13cVFvbVBzd3pLRG92TV85OURreFlMTWJFQnNBMUtDS0Jicno0Y1lMaWlaeUE9PQ==
+Sir send me link of of game,r/hacking,Z0FBQUFBQm0yeGNacUYxemR4T1BucE4wdlAycUxDY090YW92QmFDbl9LMlFubHl3LW84NXNGSE91d0pYQkVDT3RNcXFCdXJ1bkZQbHpJY1F6czl5a3M1QVRjS0plWlg3ZlE9PQ==
+"I’m currently studying reverse engineering on my free time, my “place” that started it all was hacking some ARM64 based iOS game using an offset patcher and now I’ve just set up a Theos project, I needed however to go and look through assembly using IDA PRO. I’m going for vacation now for 7 days but if you’re interested in partnering up while learning just hit me up with a DM. Just don’t give up, start basic, squally is actually a kind of good game to learn reversing on too if are gaming anything.",r/hacking,Z0FBQUFBQm0yeGNaN0YxX1Vqd0ZncmRPaGxJWGRUa29sSmlZai1NaHhsTW44ZGZKblRIUWZoN1BxZXNHbFNFajdqUTBoYV83aV94STI3VHI3UDRNZ3NXMW5tYllXX1pRVWc9PQ==
+"Reverse images may help a lot in finding other places where you pictures were used. 
+
+Honestly if I was ever in this situation I'd hire a professional. I'd get a private investigator to do all the research to find everything that person has being doing in my name, I'd even let him go through all my personal data to see which is real and which is fake. Once I get a full report I'd take it to the police and I would make sure that there is a new criminal file with that person's name on it.
+
+After I've dealt with that person I'd take that report and start cleaning up everything that was done in my name. Maybe even change my numbers and emails permanently.",r/hacking,Z0FBQUFBQm0yeGNaUUZxbHBDU2dKQXJURWtvd2d1d3FZUmRQZWc4cmNiTjltTXU5V21QenpnR2VkYXhpWndzUzgwWmNUTEYwVFJfN2J5cnA1YUZ5Z05lTXg1Yzlwek0xamltY1FXVE5LVE5HbUdfRFlXUFQzSXc9
+"	•	Cloud Hacking: Focuses on vulnerabilities and exploits in cloud infrastructures and services.
+	•	Mobile Device Hacking: Involves finding security loopholes in mobile operating systems and applications.
+	•	Network Hacking: Deals with exploiting weaknesses in network protocols, devices, and configurations.
+	•	Web Application Hacking: Centers on identifying and exploiting vulnerabilities in web applications and services.",r/hacking,Z0FBQUFBQm0yeGNaTG5Md3UxajcxT2VydzA1eDdGN0ZjeXJFSW1RLVJPcXZSbzl1aVdhNEJFT2o4UlBReFdpT1NIdV9sOU50TE9LQkFzQXpsYWRQSWU0dWxtR0g3dm5UbUpNQTl5Q0ZJLTJocGI2QTVSYTVnaUk9
+"Hello u/vortexhill2, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNaVllQZ0RMNE9OYkcwN2x4UC1BdWFCWDNFbUVDUjlRVlVuS1ppQ2NGMllYdk8zc2FqcE9UM1Q0NUVJdlMzeFF0OEdOWlBrV1ZYLU9NR2NIWEVONmw1c0E9PQ==
+"They have to. There’s just too much tech being developed at very high speeds. To keep up even hackers need TIME and there’s not enough of it. That’s why you see companies partner up, and use each other’s resources. Also, they study the business arena for new technologies businesses adopt and focus on them to assist in  their ethical attacks. More research is being shared every day, and this helps tremendously. ",r/hacking,Z0FBQUFBQm0yeGNaQUg0X3FvN3F1RDcwV2Rfd0FGTjA5eFdjTzBKZ0JVcW12czNvZTFmYlpyMExnZVN3RDgtdHV4Y1dTRTZKWHkxMUxTMTBzNjkxSDVfMVktR0ViazlQUUE9PQ==
+"There is a base you should learn, common network attacks, use exploits, some programming here and there, the basics of web programming but after that, as you may have noticed, network, web, malware development, exploit r&d, AI and what not are entire universes of their own, pick up the most you like and especialize on it",r/hacking,Z0FBQUFBQm0yeGNaRHU0YlU4elRrSEIwMzJMVGtRYUtnTTVzV3hYYnBQTzVWUzhQa2hMaXRWRlBab1hrdllmd1Etal9yQWEtUkIxZXBxUFJMZ0xneEhzak9RLXo5TzR0N2c9PQ==
+"It's good to know a little bit of everything that wa you ca be familiar with the processes that occur. Having a general idea of how everything works is best for you to start out with as you'll be able to do things alone. When you work for an organization or have multiple people you will likely specialize, but again knowing how everything works will help you help your team achieve better results by being able to have a well informed input.",r/hacking,Z0FBQUFBQm0yeGNaVFJPNjBXNFo5TTYtdkpLUjhRQjJ1ZTQ1MTRKajl5WFhJYXdma2dva2NhSDAwdjFJb3Z5b0l6MkxVc1ZfeVU3OXBtYkFnek1OUmpBVWNLcnVoWnFHZU9uNTJKN1hlSlJ0clNRNG0wb2djdkk9
+"I love this stuff. I stick sounds in that move in the 3D space to make patterns, and a friend fully put a picture of his girlfriend in a track intro pressed into a spectrograph image. When I was mastering his track, her image floated across my meters 😆",r/hacking,Z0FBQUFBQm0yeGNaakotdmNRWnlpVEhjdU5RT0Mwc3RrYmFkTW9ISjlhZ1UtVHViVUNwOTVFTkZnX0x6LVdJVDVIRWpTampBQnptdmxyZmZDbzZOZzdwckRYdFBVbGhUV2c9PQ==
+"to an extent, yes. a bug bounty hunter has a very different skill set to a web app attacker. but if you want to work in red teaming / pen testing, you need to be a jack of all trades.",r/hacking,Z0FBQUFBQm0yeGNaQU9MZWh5a3hSYmRSVUc3RlFBSWRIQzJpcFRqazNldFZSa1J0VFVIT2lTOXljX2VQSVNoSWVxaC1TcGFhN0FYZkktWWh6X1lPVm9FMmlwOElINl9oZGc9PQ==
+"Now that siegedsec got disbanded, what are y'all planning to do in the future?",r/hacking,Z0FBQUFBQm0yeGNhY2lhUlRadE1rekRqbTVQd1BYYS1peGJiVnIxTHVZRGE3QWFlY1F4QTI0TXpiQWdLb2lMa1pjNUJwU1FfQkRodlFqYzJTWXN1TU9hSGhJeVVkdXU2RWc9PQ==
+Whatever nerd,r/hacking,Z0FBQUFBQm0yeGNhc2RuSmlyZnN1Q2l1QTZrc25wV21YMFp3RElzSm1EdHRsV3lVWENDc20yRkNxd3MzTzZCMDVZWnhqY2xidGxTZW9GdFhUNFFxTklsbkxSQUNZX0FRRWc9PQ==
+"Wow, fuel pellets … great place for a battery!  😬",r/hacking,Z0FBQUFBQm0yeGNhbnR3SzZFRV9HNGpudk14UGY3TGxJV1Z3Q05pclV3dTdDRkFGcWNxa0JlTG9RQm9hUnI1WVhsM0hTaTVaNWhZcEFqazNmWFZtTGdraUN2Qk1yeGVpdEE9PQ==
+Be still frightened one … I am not your neighbor. 🙃,r/hacking,Z0FBQUFBQm0yeGNhSTNpZ3FzOElWM01RUTBqb3ZTQWhIQjlqZHhaX3hTUktPUWVLQnpRN1FjSk9wRENOMkNSSFVxMnE1QThJM25BWTZPeWVENEVkTEU1OUdKWGhveE5PWmc9PQ==
+How many years do you think you will get,r/hacking,Z0FBQUFBQm0yeGNhdTk1cm5OZ2MxNG9rbXlpYTRLeWtZUkdIWFNKTWE5c0d6UVp6Tk93MVZSSmlZRGJ0SmlBMGpQSFRYRTdaTlNtZ3pBUVYteVBvNTBMeU8waEZ4Tndrd3c9PQ==
+"hi vio! thank you for this AMA :3   
+  
+where do you folks get your motivation for cyberactivism? 
+
+also, vim or emacs?
+
+love the work you all are doing\\~ take love <3",r/hacking,Z0FBQUFBQm0yeGNhRVB6V1luTkhMZEVrYXdEanRTS1JFall1YkdyX3VwVjBZU3VPbE1pZ2Yydl9Jb0tHSWJZNkhiTTlWUEhVbWxTVWlLQlY4c2Jfazl3X0h6TjlUejc2RFE9PQ==
+"Just wanted to know, because I would never go after a military power, still nonetheless cool!",r/hacking,Z0FBQUFBQm0yeGNhU3h3VE1zNHlVa0lPRlRjN1dJbkxWODJpUGVzdElqbTBkd3ZpN1NmME84V1dqVE1RRnRrQnczVzRrSGVDQjhpMzZ1eUxwRDM2aTkzeDZGaW5lNUdodmRDWGszN05oVjZCeFVCam5lVXEydWM9
+"Typically yes. I myself got good at mobile application security due to having to learn about it from my early career days. It's good to have a broad collection of fields that you can do, but having a subject that you specialize in make you the go-to person.",r/hacking,Z0FBQUFBQm0yeGNhWE5xdm5ZV1pxV3d6QlZ1RXVsQy1rRXBVdzl0bzhmVmRVRTJIbnljWmpwZ3M5eDA2TEltTzdoamNadjBiZXB6YzN5TkEtQ3p1clFpWWM3WG9ZTHMyRENyODVheEVVTFdEak9QU0NFbW5lcHM9
+"i got a good pandorac2 botnet
+
+dm discord user: alialmoed12123",r/hacking,Z0FBQUFBQm0yeGNhQ2VGNUY1emdCQ3lQRWdhbWk3bW5QNVJkOTN6X05MTEZuT0lFVjdoR1BpOVdCaHdpT1FXQy11N05OTFNaQlRTb2RSbzJWQkh4Mzh6Ujk5Qm92RzZfcmNCNk13b1pWS0tWc3pkWG9WQU5aVHM9
+Dear god anybody using 3DES in 2024 should be kicked in the shins repeatedly,r/hacking,Z0FBQUFBQm0yeGNhM05ndnZ4eE9DYnkzTzYwS1AxaXZKYldSX3JZSnZxWmo5MnZZZnMxeDRCUmZiOHE1dThpczJsTXl6RVNkRmhzZ2pWSDBkRlFSNmRsYjR4Vk0tdl8tTGc9PQ==
+Or using obscure old media.  Do you have any idea how much investigator time and money that would waste? It would be terrible,r/hacking,Z0FBQUFBQm0yeGNhRXNDSnhqeHJMR3YtVFJla1JYbDQwcEJPUmJwMS1wZlpjY3dQSUkySi1fU0JGRklnbzFQRUNLcUU4Q2RVWUhvUFhMTC11SlRWNVladzZjMjBHU19CcFE9PQ==
+"Do you have any calling cards you’d like to point out ?? 
+
+Are you arch btw? 
+
+What is the chance I’d see one of y’all at a defconFur party? Unknowingly of course",r/hacking,Z0FBQUFBQm0yeGNhZnpFRDRTLVAwUWNJUDFmWGNXSXFURkdrU3k5VnBWc0pOUUJDdUtIZ00zWHZuekpvZWc1eFRnWTlpenVnOV9tRnFRVDZ3NG5NS2ZEVklGOHVsdGtwY2c9PQ==
+"Oh, I thought it was rabbit food or some shit... Ye gods that's even worse... 
+
+Is there a 5 gallon can of gas on the shelf above in a leaky container?",r/hacking,Z0FBQUFBQm0yeGNhOFZDT1BxUlMzcjZRYk9ELXY5YnZMUHVWSENBTzNmWWZBTVNJbGVoNmY1OEVvQjdRd19QbzlaX0EyMERERWZsalI2Y0VpWXBsY09JblB6cVRFVHdQRkE9PQ==
+"The only thing I wish Lenovo would adopt from Apple are daughterboard usb-c charging ports, vs soldered to the main board. Other than that, yeah, they still have the most serviceable business laptops known to man.",r/hacking,Z0FBQUFBQm0yeGNhRDBhcW42enlQcTJmdC1KbnZnMWxscWUyVlJaS0ZyRDRSSzFxQlpoUHFpMWxxLTdmRFRxQzdEWXhqSHU2SWZpY2lHVmZCclUtSjdGSFNuY2ZvN3hrdldoZjBQREFCVzN4X1dGT3hwWFp3VzA9
+"Interesting, didn't know that.",r/hacking,Z0FBQUFBQm0yeGNhVXZadHR2QXAxZ2g4TlRJQU91aVVxZ21ZV3IxVnJzdEs3NUs2clBnbkdzRXFaX2lHemJrNzhrV3c1RE1taUhLTURrdS1MWk1QVWtLRHJsMDhHblJNbkE9PQ==
+"1. anger at first, then hope to inspire others :3 
+2. nano ehehe
+ty for the support! mew mew",r/hacking,Z0FBQUFBQm0yeGNhaTBLV2VVZ2YzbDBnNzI4YlhzQkpKdFFjdzR6LU1tazdqWVYtSUs4VmdvNmpSakYtWm5ZRlJDN2ZmckthdFotRmdRLWpyc0xqbFBseEtmVVA2SGRZbWc9PQ==
+"Hi, im a teenager that my dream  is study cybersecurity. Do you think that in the future I Will have high probability of find job about that?",r/hacking,Z0FBQUFBQm0yeGNha252bHF1VWk5QXNNNUFvdkp0bjJaeHVmR2VBdHM1ZFBad0ZqdElDZEtva2ZrdTZpQmw4UWVjWDh1ZldyQUc5T2JmclFxQm9fcUNLYnVBeHY4SzJvczhwRXRKckp3ZlRwUkxVeTJZcEZrclk9
+"we'd like to focus on ethical projects and our careers, something less stressful than cybercrime :D",r/hacking,Z0FBQUFBQm0yeGNhdWNMZjR5Nktnc0ZxRS10VGc1V096SVpaVVBJUF9nakJvSVZnS3VpSmRlQUtraWJlVTJBUFRnUGVja3RFTzFGc0hkOVAwTkVaeG4ySk8xNHVRZkdiYUE9PQ==
+69,r/hacking,Z0FBQUFBQm0yeGNhVFgzRFJSVmtCbEZZbHIyVWpzUTU4TnBlenJzTUNWMTAwZnFPc3FDc3UzQ0JESy05R2s0eWJma0dXdmtxSVg3VFR6SFNpSzBCemhTcGFQRl82dGd5R1E9PQ==
+"thank you for answewing :3
+
+keep up the good work <3 you are an inspiration to me and a lot others.",r/hacking,Z0FBQUFBQm0yeGNhcUpBdk1XMTFrYlQ3U21sSHdnS3pQc0huS0hOTlFZTmp0ZWhGZDNHVDJjNGZ3bXdld252VlRQeGdObW90QncwRUM0NkNOdHpJN1dZQWpkcGViOVFiaHc9PQ==
+[How I lost my other eye](https://youtu.be/-bpX8YvNg6Y?si=fu0QNdB2MR7bC3dO),r/hacking,Z0FBQUFBQm0yeGNhVXR5enJkQW1sclh4QUFmQWRSS2ZMc1FIeHdnVFdGeXF3UFlkTmFXSTdWSUhLWGIyV21remV0MmJDNUpjcWVwbzE5N21JLVVUMWQxOGJ6MlVhZGRIV0E9PQ==
+real,r/hacking,Z0FBQUFBQm0yeGNhZVBCRDBHU3pTSjJqNWU5cTRtVmZ6aG9TSW5qWWNfQWYzVHNrN3NiQnNjSFF4RHlrU3ZhTW9ld2tFQ2hqdk5NTUtSd0Y2cFhzemZpdGwtTFFSTFFiUFE9PQ==
+Whats your opinion on furries,r/hacking,Z0FBQUFBQm0yeGNhRzFFZE1WMS1iNHJzWkNuc0JJMmF5V1M3WHUwTkt4MFk0VVRTcnJrLVZONFYyMTNCdmc3aFRjWGYxVkxCbXZqR0NNMG5fLVg4cG9aV3hVdVpsS2NXM3c9PQ==
+"Hello u/Fun_Letter4827, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNhZ0xfQkFQYTRzclBhWkM5SnNSamNUZm1WcVhYYmtUeElRT0VORTRiRUZaU2RvdE44SFRyRGRwX1IwXzh0UjhGbWFUY3l2c1JUZFNNWDc3R3ExSE1nYXc9PQ==
+Whats your opinion on using public on every method,r/hacking,Z0FBQUFBQm0yeGNheElDZ3EtazI0OWtoWWMzVXVoa095aGVoUnQ2VzJIS0pnX29uYUJsb2pIcHB0UEZua2ZYc1VZM01GXzFPaE5xS3FMZ2Q4TmNOajlMT2hkUkhzWDhTSWc9PQ==
+"Good read, thx",r/hacking,Z0FBQUFBQm0yeGNhcU1KaG82eG5ocjhBS2NJeUpLOFlMNFg5cjhTVzQ3dXRwcDZUbHhTSUFuVHM2cURqcnFjaUxpWFNET0dYLXV5dnp1WTlaMzBzdGgycVRNQ3lENjBId2c9PQ==
+ikr he thinks being hacked is a good thing lmao,r/hacking,Z0FBQUFBQm0yeGNhd3JIazFMLWlSTW1tMGRUUHVKTFdNRng2UEYyQlRlb0Z1NkpEenFwMGJoTmxIbVdDNmFGeUR6ZFBoUGtKaVB2M0kyWG5uYUs3QTRkVUdmT204STV1YUE9PQ==
+"Hello /u/Gold_Diet_6654!  thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**We do not allow Discord posts**.
+
+Please make sure to read [**our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNhaHktc0dVcmdaOHlhX2JFLVROWlo2ZWJZR3NCeEtXY1JJTVl3S3RrMjItQ2ttSnFUTTByYXpyV3o3bENIMEFWaFlsMVV1cGt2cW8xWGxaVDFCRHB0N0E9PQ==
+"Hello u/Gold_Diet_6654, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNhV2dKdUVnb0NEY0RmV19JZlFSTTlMS0xFMk8xWllLU3FQdi1rZzVuSHhIemdESWhhZldwMjh4bXlkRnVWZ2hDOExBYXh2NlJEaXY0QjNGWE1sNWhxZHc9PQ==
+"Can you publicly disclose how you hacked any of your targets? You said your a script kiddy, any you can name?",r/hacking,Z0FBQUFBQm0yeGNhc2JRVVcwZFFjQl9ZQVFURWxTYzMzbVNtWTdnM1ljWnBSMkNTLWlTMVV6cWd0MG95QUNsOGJMRG9GMzZCX1U3NG1oM0EtNWhNd0p6VXN5MjliWVZFN0E9PQ==
+Oklahoma getting animal control rn fr,r/hacking,Z0FBQUFBQm0yeGNhTmNicmY2MXJmanhMTk9pdTg5QVFibFRWdWpBWU52aWhKUk1Vc1JFNVgyS0l6WHNkY3JMRFo1Ml84YlB5OUJ5YzhVUjFGRnJaZXNZa0RBVlBZaHFxQmc9PQ==
+"make a new group, continue the fight :3",r/hacking,Z0FBQUFBQm0yeGNhamNZNVJfMUJMQllISEl6a05jY2ZaaERUY2txc0xqV2p3aVV4WWVQMjNSQ3FKZGxDLV94eWE0NmIybjVObERHT1M0Sk96SXVOLVV0Rlc1d0wyTFplUGc9PQ==
+This dude clearly has no idea what he's doing.,r/hacking,Z0FBQUFBQm0yeGNhTnZrRHpzTVBGd043ck5UclRUa2wyLWUwT1Z0aTlLRWtzd0VPXzM3VF9LU1pTV0FHUG9CeFZDUDJFTmRJYlNOUVNPXzN3dDlNc0o3dm9ELVhzYXh1dUE9PQ==
+"Hello from the other side, hope you're enjoying the nice green grass",r/hacking,Z0FBQUFBQm0yeGNnVDlmWjlMQXNxZkpqUXlTZkhDcHBzZ2lHUWtKUUp2c1BhOTBxaWRTSnFDanZ3VFNlY3lIVFZtX3MyX2x1QV91RXYzbDVtOVBPQ3NndVRMTWgxV3c4WVE9PQ==
+"I see. Are there any projects coming up to look forward to?
+
+Also, I hope you all enjoy retirement. You guys put in amazing work!",r/hacking,Z0FBQUFBQm0yeGNnZmV1UVNEX1JJVzBrWUEtRE12LVBhNGs1cGpmUWN2dmtlSEl5TzdrMDBZc3owUmJwbU1hYzJ4UWtOc2NjeW9IYWliWjVuWm9CV2tvZEVNcXBqM3NsS3c9PQ==
+"You want someone to tell you how to illegally download music from streaming services.
+
+This is reddit, you're on the wrong side of the internet.",r/hacking,Z0FBQUFBQm0yeGNnUEhtS2ZQeld6X1VOY0Q3LTNCdTctN2xOYllsVk9lRUZKS0psMjZPV3Q0Zy13dGdyNDNQSXVSMnNzdGRTZW1YX2l6VXVPMWlxMGRHVmFYTmNHNVNxbXlPaTNMUnRTSEh5SmZjSlpabG1aMkU9
+Spotify has a well-documented web playback API. Refer to that if your aim is “to figure out how audio is streamed over the internet.”,r/hacking,Z0FBQUFBQm0yeGNnR1ZFQk1CMHZjc3B0MDRJQng2c2ZtUHZvTnBYMFJVX0pia0w1YTJZQmc4QnprSGJQVG9kalQ0WEZLajc5eV9JUlpZWEdNcFhVVlluU1lXYVhKalVIc2hGcFZ3Wmt2dXRtMWthVlFBRnNYYW89
+"Hello u/beatmasterbrad, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNnQU1obi1UQTFPWVZvbmdZMktLUGVoRGpMQ1gzanZhdmdkYU1acXJNT2FTZ0Zsdy1OcExiQmVzZmpSUFdaeHJmNVYzTUszYzJUcG1WMThLUHZDMFdwN3c9PQ==
+"Is vio a zoo or just a furry? I loved what they've done and their attacks are both hilarious and inspiring, I just want to make sure I'm not vouching for a zoo. Vios work inspires me to maybe learn how to hack for my own hacktivism taking down zoophiliac/animal abusing websites, chat groups, etc.",r/hacking,Z0FBQUFBQm0yeGNnb3VLV1R4TG1HTEtKNFJnN1lvMkdFUFgxbllGYTh5Tk1oSk1tNkhEUDFicUVTWGRremxsc0JfN1JaNGhtME9xYzFyYnF3eTc2WWRkcnFXU0ozbTZRWVp2R25YM2JIbVBxYUtvMVRNQjRRZGc9
+"Thanks didn't realize there was any documentation on Spotify web playback, Also I'm trying to figure out how works by possibly making my own Spotify client.(That is if I don't get bored and start doing something else instead).",r/hacking,Z0FBQUFBQm0yeGNnalRoYXdjcE44ckZna3A0dVBvNldkVHBMNGRaSFBLb2IzU2tMSEYwN0pZcjJMTjlYYlJNaGdLVG5Tc1FkQXhTaHdGQlNURjlNVjFtMjVGTFpEVlBSZUE9PQ==
+"I’m not a lawyer, but isn’t unauthorized access of a computer network, commonly known as hacking, a federal level crime the FBI investigates and tries to put the perpetrators in jail?
+
+Why isn’t the FBI investigating you for publishing illegally obtained information?
+
+Why aren’t they pressuring you to reveal your sources? 
+
+Why do you think it’s “OK” to publish criminally obtained information?
+
+Why do you think the FBI selectively prosecutes hacking and never prosecutes anyone who hacks right leaning organizations? 
+
+Do you think the anonymous hacking group that was infiltrated by Stratfor are now working as FBI assets, and that’s the reason no one is ever investigated or prosecuted?",r/hacking,Z0FBQUFBQm0yeGNnYmh3bkpkZ0phU0NGaFQ4bmwzWXJwSWxOVURrZVBnMFVrTDR5QU1qY2lfU1Q4OXlQaDNYQjczNmhQQVhsNHFFVDNqa2hLZzJNd2gzVW9TVS04TUw2VVZoSUt2cmtxbUx0RklNdHo4WVZRcXM9
+"They literally have documentation that describes how to do that. https://developer.spotify.com/documentation/web-playback-sdk/howtos/web-app-player
+
+Hopefully this and the other documentation will help you understand why your initial effort failed. It’s always easier in hindsight ;)",r/hacking,Z0FBQUFBQm0yeGNnUkJ2OHhvS2s3cnVLV25MUGxDN3FKSnVQTkZOZENCMXJMRmVEd1cxWVd5OWRkal9ONGFSaVB3X1BBWU44MGxWR21ZLTZlcXpyN0JnZXFuTnRFdkFOV2pTQlZkOW9NMElkeTRMQkwzbl9Ha2c9
+"its quite easy to hate NATO when your country wouldn't the first target in case of a war 
+
+I obviously do not support Israel's crimes but NATO is probably the only reason why my country hasn't been nuked",r/hacking,Z0FBQUFBQm0yeGNnY2czOUxWVHdQd0RJUW9jTDdIWWVMZVFUeDZhRGo2U2dKTEpqRG9OODNuUGNnMkZTa2w0UlZ4OFF3YjZmbjI2RGI1ZjJNUjY5dlpwajJUZUVwY0ZWaFdEREE5R3hyQXpYZ3pCZnpQZ0U3aUk9
+Charging this must be a pain,r/hacking,Z0FBQUFBQm0yeGNnYllzcmhwNlI2RjZWRHZSdW1sLWVFck9XV1M3c2xpWEIwUEZYeVJ0cmJCTWhiTTQ5OHFETWJmQjZSQmtPdWdUaXBtd29YWjF6eTlHNXBpeGFwdlNuWHIxUm9jWmFvME9fUEI5WnN3VmVrZ2c9
+"(For vio or any other member) What's your favorite piece of information you guys learned going through the data from the HF breach? Like, any particular people you guys picked up on or anything within the news organization interesting to you guys?   
+I imagine their backend is probably shit (no gay furries = dogshit IT department) + you guys got a LOT of information. Would love to know what you think is most interesting or important from the leaked info",r/hacking,Z0FBQUFBQm0yeGNnODhGeG81M2xNQ2t0REJTWWtPRTBUZGY1X2ZCdjZOWG5nMmhmSFpHQkFDaGlkd2NmakNWdTVFUzhJaGpqQTdraGtpXzd5VVVrTFZuNHUzNFVuNHI1dWc9PQ==
+thank you for your service,r/hacking,Z0FBQUFBQm0yeGNnSTRpZDV4alRGd3VNcFA2T2JROXg3VXVxZ19NQXRCVGhrSEpqdGJBd0ZKNHlVWXV6WnFrUlBnMXl0NGJFdWZzNmxaNUktNHB2bFRUY3JtSEk2TENJcDFiVTlYWVA4ZjJrSWhWNVFXY0NZVEU9
+They more or less answered the first part of your comment [here](https://www.reddit.com/r/hacking/s/xNT2fP68lv) and [here](https://www.reddit.com/r/hacking/s/ltWohQkgl2),r/hacking,Z0FBQUFBQm0yeGNnNGZ4bDBFZjRTbUdVRnVaSmhJTVpReFZkRDJQSGs5RUtYbmlTMHc0bjhoTGF5cUswemdFUFVRZEUzNVRiRTItLUpLQWRrSnEzeE54Z2hvTk5FR3pkOHc9PQ==
+war is a crime.  pretending there's bigger and smaller crimes with in it is a bit of naive take.   You cant wage war without killing innocent people.,r/hacking,Z0FBQUFBQm0yeGNnYXJmSVZ6MWgxNWdiMDhjblVKRVRIT3RkR1JTSkJyTGY2ZDItdGhVV2R2YjhNRDJnR2UwMTM2dlBHTS1NaXJCWUpOUmxPeGlDZDJYMnhNUGM2NHo0dk9YRUFYX0VueldSNHJac3AwZ051NFk9
+Thanks for the help,r/hacking,Z0FBQUFBQm0yeGNnSkFIYnBVZW9CdHlCSGplTngzdXBISDg2U0lRaUNYQWhKRjNoVFMwbE5VTUp5OXNOaHl5cWVrdm13QlhKRUdyVkhSSGZaOXdPMEpueDNPdjhMM09DSVE9PQ==
+I have a few harddrives and have found ALOT of interesting items on the drives. I have maybe 5 or 6 drives. I also have a few DISH/Echostar recievers.,r/hacking,Z0FBQUFBQm0yeGNnWHJoQnpKb2hBQlZiWXhqcGtRZHV4NXN4QzZncTJlblhTYUZTb0dncEtiRkdOMXozalRha0V5Qm9IN1ZZeWE3dzBTZFpfb1prZTR0dmJHYzVOcWxNWHc9PQ==
+"Which model of the HR54? I sadly chucked some of the ones i had, and now wish I hadnt. Im sure i can find a ton on ebay and places reasonably cheap.",r/hacking,Z0FBQUFBQm0yeGNnOGFBSWxRNHRFeVVPUzllZm9CaWRvNGREeEVxTnRNejZuTE40YXlFQ0F6TzRDUjY2eEZkX1lweWEyVmJvR2M5Mk9RQUd2cERzUFBrcXBrR0xhR1gtd0E9PQ==
+r/subsithoughtifellfor,r/hacking,Z0FBQUFBQm0yeGNnR2FENXR3LVVRNXZfYXZRYlZGczZzakEwWVM2NUVRX2xFZ2NkUHFNazF5RWdBWFA1OFMzODdhZkttcWZITjZDRHBfdks3U1JXMG8wYV9FMHlkdTBMbmc9PQ==
+He's just a furry,r/hacking,Z0FBQUFBQm0yeGNnbkp2ZUMxbzNSVmJOU3RNc3c2cFFPTmRleHZjbUZzN3dVM3dycThQazZYSmZPMnFBNlNObTVaYTItUXhVUC1QMDFZOWhWc3F5a2ZCY21EbjVfc2k2SVYtV1NaZXhFNlZGZ2UtWTUxVHFwcVU9
+How many unknown exploits does your group posses or how many have you made (unique ones) and do you have hackthebox account . Thanks !,r/hacking,Z0FBQUFBQm0yeGNnbkZRQlhUWEkwdUQycExJS0dfaG1jZ2hYQUhrb2lCNkNtZHl3TDRmTFlGYWIya3FqYldlZDhvUmJ6X1Z1UXMtMVlMTXNadVRsM09TMk16QnA5dkx2VFc4Y29pc0tnTm1QS200WkIySFJ5SHM9
+Thank you for answering,r/hacking,Z0FBQUFBQm0yeGNnUlU5VEZVNXktVDFyRkh1ZWRtNmZVdmN2MXl4ZVd3OW1BWWNCWGpOLVE2S3BvM0I3UWN4SGxpRlR4RzM2anNIUFRnWVRCVW5zeTF2dE9TLVNRTEZmNTBNU25Db1Y4UnRpYzdwaF9BcTQyUm89
+Both of those links take me to the homepage of r/hacking which I am assuming is not what you intended,r/hacking,Z0FBQUFBQm0yeGNnUTRvUzFnbDhpN3lpY0ppcXJQWndoLUFQdVZEdV9tamtPa19iQzdOVC1BV1RvbzFFTFJuRjg5bzJLcmtiNVBSbWN4aGgzc2pWUWhya1JSdUtaRHI4Wlh5dkhoTmFDT3ZEOE1tVFVRTzBYYlE9
+"Hello u/RelationshipLeast555, thank you for your submission to /r/hacking. However, it has been removed for the following reason(s):    
+
+**Rule 1, Rule 2, or Rule 3 Violation**.
+
+Please make sure to read [**our rules**](https://old.reddit.com/r/hacking/wiki/index#wiki_rules).
+
+If you are interested in learning more about hacking, please be sure to [**read our wiki**](https://old.reddit.com/r/hacking/wiki/index).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNnY0RER1JHbW5QWnR6aVlYdVBGNGVrVmhPR0U1SVF4UWtLcThHNndwZ2FZT056Q0thb2lTaC04NnZyYmdqTE5kQUc5TnFWYVBNalRTRmNTcHlmS0FtWFE9PQ==
+"I’ll copy and paste the comments:
+
+>with cybercriminals, its only a matter of time until we’re caught. we can only delay and make it costly. our opsec measures arent 100% perfect, we know its inevitable until we’re arrested. its certainly possible the FBI could knock on our doors tomorrow, theres no way to say for sure.
+
+and
+
+>i know the fbi has been investigating at least since they announced it when we breached the Idaho National Laboratory, a nuclear facility in the US. theres likely other agencies investigating due to our attacks on other US govt and NATO infrastructure.",r/hacking,Z0FBQUFBQm0yeGNnWC16c0dUU3NUVmJmTWpsaXJRZDFlWlEzaHhHcVFCcW1najFBRnl5em1Yb0h5WlFHWmRvZy1WdzRwSVVIZXhoTEFCYkpTRlRVZVBjbnJ6SVdTUkkxUHc9PQ==
+Hit ytbeenblazin on tele I copped a 3.7k clone frm him and it arrived overnight because I live one state over tell him jo bandz sent you it was only 125$ for the clone and I’ve copped sum rep AirPods frm him too he got non vbv ccs and logs too if u tell him I sent u he’ll give me 20% off my next purchase so please tapn with bro n let him know I sent u🙏🏽,r/hacking,Z0FBQUFBQm0yeGNnYXRId04tU2I0aXlvX05TVDdlV0dXNEFjemhVRlR4azAzbDRsY0tQeUR2STFpbGtpRERjUV94VHpCZ3NHdFpUSmFJc2hvTDNaOGlTY2JkWnNLYlc4N2c9PQ==
+The FBI is basically a complete joke and they heavily rely on confidential human sources aka informants.,r/hacking,Z0FBQUFBQm0yeGNnUkRpZ0Q4UUNhbk5rYWJHamJfS0NoeDJ1bDNwdGlpUktzeVZXR25mRVN6QUlsVUNOMGRvVlhiYUd4UV9iT0hYOVlnQlkzdHZWVWtHaFI0TWZkVWJfZGUtMUhhSXdwMW5ZOGEycGJyZm5zOUE9
+Same,r/hacking,Z0FBQUFBQm0yeGNneUdSUlh5S2NpbzYwTnBUdXRQVFFoZFp0cTY3YXFzNEFnQnhZMzBiUUVqVVJ0ZTJReFgzb1hzSlpUd2VCcmdJMnR2YW82cDBPa3ZZY0FjMUhTNWVHcUE9PQ==
+"The Daily Dot has had “behind the scenes” information and contacts about multiple hacking crimes, it’s very clear they know people involved or know how to get in touch with them. Why isn’t the FBI prosecuting the same reporter who is publishing all of the hacking as an accessory to the crime, for withholding the information. 
+
+From the outside it looks like the FBI is coordinating the hacking targets and that’s why they aren’t investigating who is doing the hacking. There aren’t a lot of other believable explanations for the FBI not investigating an extremely obvious lead with firsthand contact with the criminal hackers.",r/hacking,Z0FBQUFBQm0yeGNnV0x1cVgzYmlPdVZvTFVtdDdxR1oxRlRGclNSM1Uyc3RIZW9UQUY5RnY3M2E1QW02VDNacjhvbThKRzh3OWkxV3dSOElKTEV6RWpVblFiT0dETjJ6eUJBbDdpV2pndEgxVWZNRk9xN0Y1NWs9
+"It’s called reporter’s privilege.
+
+They can be compelled to testify before a federal grand jury in limited circumstances, but they can’t just be arrested and forced to speak, it doesn’t work that way.
+
+That being said, I doubt the dailydot has enough of, or the type of, information the FBI could even use. No reporter has published the actual hacks, why would they be an accessory?",r/hacking,Z0FBQUFBQm0yeGNnYlNPV2FzRzM5U285NEs5RncwT1hWOFZPc18xdERORnNYNHZwNFY0RnF6ZnM3TFAxdkVha0J5RDRiaDlRSEZaaVVyTXJJQ09GTkNGWDVsQy1kdnRGQVE9PQ==
+"Well in this case there is a single reporter at the daily dot who has a lot of inside information on multiple hacking crimes, seems like the perfect opportunity to use the threat of prosecution to incentivize someone into becoming a confidential informant",r/hacking,Z0FBQUFBQm0yeGNncm9raGMzU0FmOE12OXhpM29wangzOWwwZ3dDRGI1SnJ5UE5DQ0tGOXg2STlNYmRYdnZGS0x1YVRaeU1oeUxtZ192RE44aGdyd25LNmJGai1kMmNuVHhKNW94cDZRMnFBQllBWk1MOGhFUTQ9
+That's so cool!! I hope the best of luck to y'all!! <33,r/hacking,Z0FBQUFBQm0yeGNnTWE3ekhQUF8yZnY2aWhMdHhLTzJBMGV5V21VbGQwcGlnWVZ0RVE5NVI2eDR1UlFhc183elBtc3JiZUdDM1JZVGd6UmoyQUEwbDB3LUlaTkd0ZWg5enc9PQ==
+"I'm starting back getting into DDoS attacks for research purposes and I'm trying to make a bot net, if your interested in deepening your knowledge and furthering your journey you can with me",r/hacking,Z0FBQUFBQm0yeGNnYm9mam5vOUlTQ1pWMUJPRVRadW8zdDI3cGczakpXWmpDQkFMYm40T1JDWE9fa0UydEFLdFVxbTQzY25vWVZMY2lsTUY3a2hTRE9NSGU5TC1WQUhpYWc9PQ==
+how so,r/hacking,Z0FBQUFBQm0yeGNnUkZPbFh0R2dEdE5xZnlUdk8xczJOMHhxUjUxWVMwLWdtdmVPQVpSMFc4RktCMUdZTVZpWGtvbXRZa0hnd2Q4UC03aGlQM3ZER3kydG13WHh3cGt0TFE9PQ==
+"The only thing you're unlikely to be able to do is receive certain government security clearances.
+
+Every single thing otherwise is left up to the employer, which could even be yourself. If they want to consider you despite your background, there is nothing stopping them.",r/hacking,Z0FBQUFBQm0yeGNnQWwzZTFqVndNOENxS1Vwc3lwUUFla1Q5cHg4Vnp4dXEyNWlyWVc3X1c0UTRGeERJOE1mTlFBSjNBbW4tTU81SldhRUV6LXFHSkFOSnhNU2ZMMk5wUTViSnVfMkFyTXRtOVZ6M0Q3a3hhem89
+"A reporter cannot claim First Amendment protection in withholding confidential information from a grand jury 
+
+US Supreme Court 
+Branzburg v Hayes - 1972
+
+Having confidential knowledge about multiple hacking crimes meets the criteria of “compelling interest”",r/hacking,Z0FBQUFBQm0yeGNnZHNzdEpwYS1GRHEwTzU1MzRCN2tyOVBQUjh3ZXpaNFU4TmpCN0o0LXZ0YmtjUmZCOVpiV09lU0tlV2pvenBiTWFVVlZYSzh0aTRRaGdLR2YzVVNGU3pVTXRJRHBTd1RZRGFEWUxlUmoydDg9
+"I'm sure it probably varies by state/country, but in my state you can request an arrest without conviction to be expunged (removed) from your record after 6 months. Try searching on your local gov website and see what's available to you.",r/hacking,Z0FBQUFBQm0yeGNnUm50dndOQlgxeGVIOWlxVDJUUnhObTR4MGpGVkUybEZFSFl4RVhUUThZOER1OFN3SlNCQTVEcnU1RnM1UTVjdGRFM3YxTWhFNUdSMWxvSmw0X2R2SWc9PQ==
+"Okay, what information can they give? You think they know their real identities or something? 
+
+
+There’s no information to compel here, I’ve seen no evidence of “inside information” nor have they even provided links to where the leaks can be found.",r/hacking,Z0FBQUFBQm0yeGNnQUlnQVMzcWVWQmFyTWUtLVNPeTZKdmtoYTc3bU5VM3FFNzg5ZE5GZWpUcjdiU2dNUnV0N0lURzc1ODBobnlMekZNY1FrYVV1MlBmTGZncDlUX0R1M1E9PQ==
+I think you meant fur raising abilities. You’re welcome,r/hacking,Z0FBQUFBQm0yeGNnZEt4X1ZnWUx2RDQwQVhyN092akJRZHl1dUFZNkkyMFFRQTRyMWRkS0psaDRjX2ZtQ2sxNG9lNU1aTUQ5dl9PNldUTW00djQ1Y3hIRkM1dEZPLW03YXc9PQ==
+"1. what kind of tools/methods did you use?
+
+
+2. how did you protect yourself from getting caught?
+
+
+3. how do you plan to protect yourself in the long run?",r/hacking,Z0FBQUFBQm0yeGNnMUY3VUdZdERwdXBRTF81WVk0cGwzNElSWmUxMk9GTDc2UXlyTHl0WEVXaTRxQ1N3NlRtbVlvc29MN01UNUJ2dHBwY1RYLXIzbkxVN2pCQjdTWGlkZUdJREd2dFMyQzdKVEUwa21KT2kxWVk9
+"There is one reporter who covers all of hacking stores over multiple years timeframe. He has breaking coverage when it happens, insight as it unfolds, interviews with participants, and coverage of important connections made using the stolen data. It’s very clear he knows the people who committed the crime.  
+
+To be 100% clear, that reporter absolutely knows the true identities of the hackers who committed the crimes. His articles are very good and they offer a unique level of insight that can only happen in a high trust first person setting. 
+
+There aren’t a lot of good reasons why the FBI isn’t all in his business and that criminal hackers still feel safe contacting him and that it won’t trigger an investigation",r/hacking,Z0FBQUFBQm0yeGNneXpTblF6TW1EaGl0Z1o0VnpSTVNjZDVOOXAzU0dBaVNyUnBtVU5JVEQtNllnbFMxZ2FGc2t5bDRlbE5mdEt4QTF1eU1qUlpTTXZqc2VOMHJ5dEhrQXJET3IxeTF6emhsZUItRWxFVl9zWkE9
+"There are several states that cannot legally check back further than seven years. Most places are cheap and do not go that far back that are not in these states. Anything federal will say no, unless you have skills that are not matched. 
+
+I have worked with felons over the years that have had a range of roles.",r/hacking,Z0FBQUFBQm0yeGNnMVowQlNYekNQc2ZGRS1TQkJNWXBCd1F2bE1Ub29MdnJrU3hGZ2pHUnlQaTNNZVQ2LXZSaVZYdi1INmhJZURtblc3NFBsbjhLeUx6RHhySUdndkFmTlk1aVdVdkJtd0hXbmY1bWRWcl9OS289
+"i cant give an exact count, but we have a couple 0days and wrote many exploit scripts for vulnerabilities without pocs :3 i dont have a hackthebox account i can share unfortunately",r/hacking,Z0FBQUFBQm0yeGNnOHpLVEg5c3U1aXNfdy1HVXpNYTI5Y1RJUnFsSVhJQ3pGY3A3dExSenVsTG5id1dzLWdCU2ZuUERsb3lPQjhyNWV6VUpmNFk2cE9lbVdFWHc3RDM5RlE9PQ==
+"personally i liked finding user accounts related to government representatives and political figures. ron desantis, donald trump, jd vance, etc. overall i think its important that we have a public list straight from the servers of the HF that shows who is supporting them.",r/hacking,Z0FBQUFBQm0yeGNnNGZwWHhhWVNndks5MnBNSjVHOWxyOURmWGtaOTdpOWM5RVBURXlhU0hhMkIzVlotODN0bk80T3R2cGZ1cTBBOFhGbm51N1Vsa1p2cjI0YzdVbHMtTUE9PQ==
+"1. for the heritage breach in particular, i cant publicly disclose how it was hacked unfortunately. in general, i like server side vulnerabilities affecting APIs and misconfigurations resulting in exposed data. 
+2. proxies, mullvad vpn, burner servers, and catnip :3
+3. lay low, avoid doing any major cybercrimes, and just chill. ill probably get arrested but so be it",r/hacking,Z0FBQUFBQm0yeGNndHZKQy1SUXhIeGJnOGFscW5HUzRPQ2lKZUJnNjA0QmFXU1hLTzlIMWNuVWJra3pQb01BYjB2b0NFODFOcXlKUmlfWmVTZFFLOHUtMDZWX0F0S3gwZlE9PQ==
+What state are you in? The state I'm in having something expunged doesn't actually remove it from your record.,r/hacking,Z0FBQUFBQm0yeGNnT3I5a1RUWmFNWFdXcEhUSFRKQ0hrQ1Y5YmpBQXc3UHE0bkpOVFV4ZV8ydU1ZZXdlOWl1aUZXR1o1aWYtXy1SeU9nS3ktYUJ1ZEl1R3JodFV2UXcwempsS2RmVTF2N2RXNE5ZS3FQUnYzZEE9
+"possibly, it depends on a lot of factors. the entry level field of cybersecurity is being overloaded right now, its hard to say for sure.",r/hacking,Z0FBQUFBQm0yeGNneVFZbDYwem9EUnRsNzR0bXkzdDJmQXpVaGxHWUlaVkhseFdnMGg4QTVvbHNnUW5ibTlueElTamRzQkc2LWhkWXlzY0Y2bl9pT1lLUXVRUUFlTDd1TWc9PQ==
+"yeah that makes sense I'm sure if you told ppl how you'd probably get caught yourself 
+
+
+as for evading law enforcement, why don't you just move out of the country at this point? preferably somewhere without an extradition treaty? i mean you're most likely going to get caught at some point if you stay, so might as well flee while you have the time?",r/hacking,Z0FBQUFBQm0yeGNnclpMdkVsbVM3MDFTemp1RzVvWTY4LUgzZlYzRWZJSXVodm1OQUZHQkdEdDc4NFpMZXRtV0dCdHd5WGZzZ0JsTE9FU1hqOG51Z2hpX1pleUl4NlREaEZSR2x1VzIyam1vN0poRkFoZzJNR0E9
+"Not true.  As long as there's no felony convictions and the person discloses any arrests or other similar issues (especially financial issues) when filling out an SF-86, then that person will be fine.  The government is looking for honesty, not innocence.  I have an arrest/no conviction and a mortgage foreclosure on my record, I disclosed it during my SSBI, and I am cleared TS/SCI.  I even disclosed it during my onboarding for my current employer (separate law enforcement suitability questionnaire), and they didn't shun me.",r/hacking,Z0FBQUFBQm0yeGNneGhtWjJwd0FFdTlZc3BZSGxkVG1Hb3hkU29rcWJoVUx1VzJWcVhYcUJXUllBS0xzX2kxYmV2OGh1WkdTNDdMS0VXUFhPQnlFdkxZOW5Rdk1OQzhydEE9PQ==
+What do you mean you didn’t have access to most of the backend? How did you compromise a wp install and not have full wp-admin access?,r/hacking,Z0FBQUFBQm0yeGNnU29zeG55QnprbWVLM1BmSTBieVRDemhveEd6c1dOR2hUbHVCd1hhbXZQLTI3S2txRXA4YS1rX2FYTmMyNldqdEtlTnJJUEZ0QldrOC0yX2EyU3h6dWc9PQ==
+NJ. From what I understand there's a bunch of technicalities involved because the state government is a mess. There's also the Clean Slate Act in NJ that allows you to clear your entire record (up to several items) after 10 years from your last conviction/sentencing/fee/arrest etc...,r/hacking,Z0FBQUFBQm0yeGNnM18tOFZJQUhldGpLM05qejR0M1E4SE1wbU1YSEwxUF84NGtvMkJhOXhtV0R4TjhTbU1oZkZNVXRZREFDY2F6Nmw2T3Y1YmpkcGRnXzFidTgyUENaZFE9PQ==
+I appreciate your insight.,r/hacking,Z0FBQUFBQm0yeGNndnVySklmMUdCSWxXWklVSllxOUlNRTh2YjFkQXdQVEJtU3pmRnBkYnR1RzVlenhVOWJKdXdIcE9pWmthcElJaEgtWmg1ZWlMLTNMeFVNYUp3bDNwWEE9PQ==
+Like all employment related questions the only correct answer is “it depends”,r/hacking,Z0FBQUFBQm0yeGNnUVRySlpPeFdfbXgwMFFpMWVhNS1wWjhIRENKemhLaENZNWJJNXZKNXNkNkZTOGVIaWhIMnZ5eWFDTjZ4QjN3OVozNXRNZHNqeXR4MEFPRExla1Z4OFE9PQ==
+"""it depends"" is more reasonable than ""hell no"". Based on a couple Google searches having a felony conviction would make me unable to work cybersecurity. But it appears having a dropped charge will be fine. Someone pm'd me with similar circumstances and said they've worked enterprise cybersecurity. So there's that.",r/hacking,Z0FBQUFBQm0yeGNndWlkNTVnb3pIOGVpT1l6MVRSRGc5TkZrMmdkakp2d2dJcUNBdlp4ZXJFSWVmU0Rhc2p5MlFlTmlSNW94dHBaLWgxcUtHTzNUbkhmTDBKVElaa0k4RFE9PQ==
+"Great job bro. I loved your ""vore"" line X3",r/hacking,Z0FBQUFBQm0yeGNnS0NyTjZxaWh5LXhDbF9XbUR2T0JmT0ZmaFRDQWhjdHlpbUhSTXhwQXdHNkJudVBMRzV3c0pBNW9TRF91NnlsYmVLdkpsSXBTb3V3bUxVMk56NWJrU2c9PQ==
+"Yeah, it’s definitely doable there are just so many variables random Redditors can really only offer anecdotes.",r/hacking,Z0FBQUFBQm0yeGNneTRsOU1uMmU5TndfOUNRV3N0WFpLTTM2eXl4SkdGSnF2TFk2WlZQemFISEVUaGlTYkQyR2s2MnYtM1NXZUZJckFjTzdxMUlPcnl4cUlpWi1fc3NvT1E9PQ==
+Hi there I think that nothing more or less than THANK YOU can convey my emotions for your work. THANK YOU!🙏,r/hacking,Z0FBQUFBQm0yeGNnMWRsTm1lbmpjRUJ4SWRWa0FCbkpPS3dha1hrWnNDNkRzMDAzenBXS3pQWlZnb3VFSGhqSldkUDJzUldDdHI5RGlHbFJXMFNhczlaUktKek9qLTF3Smc9PQ==
+"Clearances will have an issue with the bipolar, though, esp if medicated.",r/hacking,Z0FBQUFBQm0yeGNnODRoT3NURWhWazIzQmZ3RzZ1OGFFeTRMTzZUQWdvVUozWmgzTHJXblpEc09FOVI3Y0FuYWJKeGdxeHExbW5MckxaZXBFa2trT1FvQV83RTFoUW9tVXc9PQ==
+Arrests wont stop you from getting a job. Convictions will.,r/hacking,Z0FBQUFBQm0yeGNnQmdBZGdpTFVDVy1remNGRW9qRFpXTF93cTBpTkpDbEF0a25DbUxWc1FncnhzTlprZU15blU0ejNtMkd6NEhYdlcwd3FCSU1YZnM5T0lDS3JNSGZnNlE9PQ==
+"Hello guys. This is probably gonna sound like something a fed would ask xD pls don't hate me. Only reply if you feel confortable doing so, of course.
+
+How would you conceal your identity when purchasing burner servers or proxies? Are they purchased directly from providers using bogus data? Or through access brokers?",r/hacking,Z0FBQUFBQm0yeGNnR1pyYkowLThRVWhIYTc3R3pCdE9wYnZ0LTFFNUlDeURZdDhiQXpicWJheDdybGhmNV9DTm9zbXhndnY1OUdwVnJCUFBvcGJEWnpzc2VkVF8yUVhjU3htclFxQWxFSXNKN2gwN190LWhJZ289
+"Yes, for sure.
+
+Most employer background checks only go back 7 years (HireRight for example).
+
+If you were never convicted of anything, you are fine. 
+
+Even then, I know plenty of people working in cybersec, myself included, that have been charged or indicted with crimes and still got a job in cybersec.
+
+You are fine bruv. You can also always contact a lawyer and see if anything needs to be done to get it cleared up if there are any places reporting it not as dropped.",r/hacking,Z0FBQUFBQm0yeGNnUkN0dUtVSDdWdUNGMG95cXlYTm9MQ3U0QUtPRUhJTF9FMHVrWlNoSDZ6YlREamFiU3J5a0RpRURqd040SE9aSV9hY1JVdmJvUTcweUd2bWR3VlY1dHF6SlhBQ1Jnd25iNGFQU3VXbGxnV2M9
+"In cyber security today. Ex military, diagnosed with PTSD. I had a history. I am contracted by the government to do security audits for a variety of suppliers. I lead a team, and also hold a clearance. Mental health stigma is not a thing for any role unless you are acting unprofessional in the interview or a lunatic to your colleagues.
+
+Dropped charges...were they dismissed or were you determined not guilty? If either, it will not show up on any background check to include an FBI. The record may exist on a public circuit court record access site, but legally, it can not be used. Just don't verbally draw attention to it, and no employer legally can not ask about it.
+
+Story time:
+8 years ago I had a Misdeamonor(A) disorderly conduct and assault with a deadly weapon convictions and then a restraining order against me because a man was snapping photos of my then 6 year old daughter; guy was later convicted for it and is now sitting 15 years in prison. It took nearly 3 years to get my reputation back, given how slow criminal law works. My employer at the time was understanding.
+
+What I did to earn such a trophy was had an urge, an overwhelming compel, to break all of his fingers with his phone and to see if the myth was true if tonsils were a sort of universal charging dock. Hospitalized the guy for almost a month. Not my brightest moment as that phone's contents were what set me free. Data forensics was able to recover just enough to prove my complaint and found 3 other girls he did this to beyond my daughter.
+
+5 years ago, the charge was dismissed in my petition to strike the record as the judge determined I would not have done this, that it was a passion crime, given the prick was charged with multiple accounts of child pornography.
+
+I hope that satisfies your answer, given that my situation was worse than yours.",r/hacking,Z0FBQUFBQm0yeGNnR1lGemNmNUd6NGpmTnRmQnF4TWFqcjlMc1M1RVJhbVNOa2Jub2VjZVFoektiMUdRSElnczVuSTFlX1lVZ3gtZGNWTUdWNmotVlJQRVdvc0xEanhmYWc9PQ==
+You can still get security clearances even with felonies.,r/hacking,Z0FBQUFBQm0yeGNnMzh3T3JWLUcxdW5ibnlrRnN3anZiNDV1aE9abGdjLUFSaXJJeWFtTnFSVm5pRVk1bkgyN0o5c1NmQW1janpoRElFeGRCRDNZUk92YzZxU1BFMHJSbHN0a2lFQXlTQjBWZzNFNWM5SXlWTkU9
+"Your post has been removed automatically because this has nothing to do with hacking and we are not a tech support sub. Please see /r/techsupport or find the sub that is most related to your issue. If you are being hacked, contact your local law enforcement and/or a lawyer.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/hacking) if you have any questions or concerns.*",r/hacking,Z0FBQUFBQm0yeGNnMFN3U3dyNmlTaHBYT3R4MnBoSm5HNFFzcEZkR09hYzdDUy16V19sMU1Lc0RhZGJuQThXMk5SNlpVeE1rZUJqdkwzUU5KVUl2Y04yVFVxTFJqNHQzOVE9PQ==
+"As a professional content producer I see the whole thing a bit differently. The biggest thief of my feature films? YouTube! After jumping through hoops to notify it a second time I was banned from the place 
+ My IP is still there as is the user who's making ad revenue from it. You can share my content I don't mind. But Google?
+
+Regardless of my feelings, there's this thing called fair use. Copyright law is really complex and subjective. But, under a number of circumstances, it's legit. I've had this discussion many times. Often with law students and the like who think they know everything but actually know a lot less than I do. (And I don't know that much, but I've spent a lifetime - literally - being somehow involved in it, etc.)
+
+But, to finally answer your question, try searching ""reverse image search"". Also, tools like Photoshop - and I believe also open source alternatives - let you put an invisible ""watermark"" on the image. Unfortunately I don't know how (or if) that works in detail but I know many who use it for their professional work.
+
+In general, when you put something on the net, legal or not, if it's good someone will copy and use it. Whether that's a good thing or a bad thing is dependant on your attitude toward it and how it's being used.",r/hacking,Z0FBQUFBQm0yeGNnaW5TWVpyd2NleFhSMldzRURoUXZEcmNjMHV1NmRuSHJacENVczlFTm1KR09kaFVEeUZUb3dHUFBfSWRfXy1BbTB0YVpPaGpBdHE5QTJCTk9FTndhLVE9PQ==
+Probably unlikely to have much effect on your job prospects unless your trying to get a government job where the background check is more strict. But even then it might not matter.,r/hacking,Z0FBQUFBQm0yeGNnMFpKa0MtX3JmVnZsUkJFMEE3LTc4aFR0OF9iYW5zeTRGbkFLWTJHQ0J5N3MyQm16TGtYUW8tWndBRUpXSGNsX2M0UE5WaWs4RVpiOEFXQkZLSmF2Smc9PQ==
+If you don't have a criminal history it shouldn't be held against you. Those charges didn't hold up in court so I wouldn't worry.,r/hacking,Z0FBQUFBQm0yeGNnZDB2SlFRQWExUUcwU1ViVFR1WFNlMXBQeXlldWNqLVgzeTh0VTNHMXdoSGFtcG8zRWZVMEFHdDdBaUY3SFBXeEd5Ujl5el9HeThmQkIzTkI1Z3Z5VFE9PQ==

@@ -1,0 +1,572 @@
+text,label,username_encoded
+Scihub. Duuh,r/neuralnetworks,Z0FBQUFBQm0yeGJTcGVpVkk3MkhhZlJXTTY3d09tNWpaRThabHY0bjVEWWp4b1ZPcnpHaUt6MmlvTk1lSm5RbVNxdnE1Rk94NE9lSk9JSTV2b1ZEeXZ6eFZVY05sb3pObHRHM1FmWmY4YVJPV3V2SkNUS3k3ZXM9
+Not there duuh,r/neuralnetworks,Z0FBQUFBQm0yeGJTbThxSk9TbVZyNlJkZGdUTHROWU9Sc2pHVTM0TlROZEN0aHhqWWhJaWdVQnVFVHhKUkQ2OGRQaWlKZXVRejZrNDlFWnFxTGZCTks0Tm9HdVF3Mm9qcXc9PQ==
+😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳😳,r/neuralnetworks,Z0FBQUFBQm0yeGJTa1J2UmV6X3Jud0hQbXZCTTJkVmVVTmJtRlk5VUR4YlpCU1hKWXdLR0pRWF85cS00aDJIaGtDaHJiVDlaanpJODdVa0UteFpMRktQY3E1SFN6Znprb3VnWjZTdHBtVWdId2ZMUEFXdDBnOXc9
+"Accuracy can be very deceiving if your dataset is imbalanced. Imagine if you have a validation set (are you splitting training and validation?) that has 95 samples of class 0 and 5 of class 1. A model that just calls everything class 0 would get 95 accuracy.          
+          
+How is the F1 score?         
+        
+Then about it seemingly depending on the initialization, well initializing the weights is one thing that you could look into. Also maybe a lower learning rate to make sure it's not overshooting ?",r/neuralnetworks,Z0FBQUFBQm0yeGJTMmt5SGpjU3VvdC1EOU9vR25vd1BxYjFvNlpHcDFEelJhem9pZ2RpMTRqa0h0TU9hc1M4azVPeU5DSE1fUFkyWTljc29PTmRjUkc5NnhKX2dURGRXbkE9PQ==
+"Thanks for the response.  The dataset consists of ~7600 rows of 50% phishing and 50% legitimate URLs which is what I’m ultimately predicting for.  I’m randomly setting aside 10% of it to use as the test case after training so generally I should be getting a roughly 50/50 split of phishing/legit in my test set.
+
+It may be helpful to note that after training (which doesn’t take long) the network is either pretty solid or totally useless.  I’m never seeing it hit anything but 50%(useless) or 95%(solid) accuracy.  It’s solid probably 80% of iterations.
+
+I’m going to do some digging into F1 score because I’m not familiar with it (newb here).",r/neuralnetworks,Z0FBQUFBQm0yeGJTUWJDM2JydnRXVVlPNGZiZFEzeHJFYzZWQ0FtVVc3M2FtRk1tQlVKSFhWZFY1SWVTZFpWNEx0Wk1zSXNQN2k4eEZBRExZS0dzbFJHR1g2UGVhem16eUE9PQ==
+"I’d be curious if decision trees do better here. 
+
+This seems like a bad optimization though. Maybe reduce your model size or try a different optimizer.",r/neuralnetworks,Z0FBQUFBQm0yeGJTLVVVMDBPdk8wdFhIV3dENkJIZ1BJRWFqVFA2ck8xY2VGUEJRdWJXSG9TOW5KTzF0MjNpVXdCLVZ5UkF5ejBiYVJ2N3B4RkUzSGVBcEEyWXY2d3g3WkE9PQ==
+"You don't need a CNN you can extract the text of the uploaded answer sheet using a ocr (optical character recognition) Library the prominent one in open source is tesseract 
+
+Post that once you have the text you can pass it in any model that can evaluate the answers",r/neuralnetworks,Z0FBQUFBQm0yeGJTd1pWU3R5WHNTQjJ2WFYxVjdoa0M4bHRwQmhUbDB5ZjhFb2RvdnRTVVFtU21Ub2xoQWdfYURJbTRmN0tmNlUyWlNiZVFPVmZzQjdTeHJZbTRGZjljdXc9PQ==
+You should be asking this in r/machinelearning. That subreddit is way more active and your question seems more focused on ML in general rather than specifically neural networks.,r/neuralnetworks,Z0FBQUFBQm0yeGJTTDA3cFV3TVdoVmdwejc5QXdwS2NPRktWQm5wRXNudEhNV05SZEtubUlrMDlqOEh3MmNHY3lCNkZlc0xKdlNlOFNWWW5kNjZCcTNPZnJDNmlDOUdBZmc9PQ==
+And which model is the best for best prediction?,r/neuralnetworks,Z0FBQUFBQm0yeGJTV1VnMjZmZmQtRHhSOG1VUWtLZlZPdEVESTZ0TXkyRjA3Nk9uRjdfb0xMMnhNUmpjR2I0dU5Hb3M5c2Y1c2ViRTNmN3AzempkeDNuajB3Xy03WXZ3Rk5iQllfZnNMNEtlbUFxT2VPNFhRRlk9
+"Hi bro 
+I'm also working on the same project
+
+Can u help me by providing base paper
+And other informations",r/neuralnetworks,Z0FBQUFBQm0yeGJTNnJUUExmSm1UQUtPRGd6RlNTN0laU2pJY0VRTVdVZ2UyTnJrVnZrN1cwU29kNkxNZ3dTZ3V2Z01ia1VoY3Y3eld5WFBTemRZbjZBV0dtcVR1eWFqNFE9PQ==
+"Softmax is a regular activation function, sometimes they use it as layers also but it works the same.
+
+Basically Softmax is used when the number of output class is more than 2.
+
+It gives the probability for each class and its summation of Probabilities is equal to 1.
+
+You have to choose the class of the output  based on the maximum probability which class got.
+
+You can't bring Explainablity  in deep learning.
+
+Basically activation function is used to squeeze the parameters And Induce Non Linearity to the Inputs.
+
+If you are using Binary Class then you shouldn't use Softmax activation function.",r/neuralnetworks,Z0FBQUFBQm0yeGJTWG5IUHZjNlBrNW5lWVBOTEFMeGVpYlpKamVXXzJTYktFOTdvaE9JZlRBTzhNMGdERVNuWVYyTWxRMDZ5OG11LWZLaFR3TUhXS3JSTHJTXzRiNlhMQ0VGY1FSbjRTenRIM0xrZFhndjFOZFk9
+"is there any difference in the back propogation? because I've been trying it on a digit recognizer but it just doesn't want to learn, even tho i give it different images their outputs are pretty much the same give or take a few thousanths",r/neuralnetworks,Z0FBQUFBQm0yeGJTbzNrNnFULURwSW5pZjMzbzJwYmd6TGIxakVMamsxdkJZcmhRZlprbjNYRm9fRmw2MXBMLWk2VHBCdGtqck1ieWU1OUxOYTNRY01PVC1hMF9UUDI1eEE9PQ==
+"Yes ,Back propagation is a totally different concept, Activation function is used to introduce non Linearity in the equation and to squeeze the parameters.
+
+Back propagation is used to reduce the cost function,it depends on which optimization algorithm  and hyper parameters.
+
+It depends on the neural networks you are using and which activation function and loss function, ba ch size there are so many hyperparameters that can affect your neural network",r/neuralnetworks,Z0FBQUFBQm0yeGJTRlgtdnFnNFBXR1p3N3JmX194ZlFYUHhlZlg1YmR3bFYzcEs5QmZOV0RZS1RzX1AyZEhsODh2ZDdHdFhiVHdXVzBqNm53c1VoNzNGaEVFSmtzbGc0Zm5nMEN2WlV0YU1FZ0VFNmZuRW5CT2M9
+"i see, the way i built my library was having an activation class so my back propogation is pretty static, the only thing that changes is the activation functions themselves, i did the same with the loss and it works, same with the other activation functions. It's just the soft max that i can't seem to get to work rn, I moved from mini-batch to SGD as it showed better results in learning. Someone suggested that it might be floating point precision, idk if that is the case though",r/neuralnetworks,Z0FBQUFBQm0yeGJTMkVYS1Z1OXJtbVR1QXA2eEFVOFpCYzFUSGJQVGR4MjIxODZieEtYQ3pueEg1QVFUbUswM2ROeHNxQm5acmxCcmQwSmpvdWtnUDBxLXgzQ2lQMWdEd2c9PQ==
+How many classes of output are there?,r/neuralnetworks,Z0FBQUFBQm0yeGJTSnpNWDJIRWkzVV9kUFJVb1RNYUNmQUJ1dGdCTTFjdEpienVLeXZoVl9WT1JhcHhCRGtLMEQybWZyRV9OeHd4N1JoNVFmYk1kNC0xUkVQRlRFdEwyTTc3bDZYRWRfYTF4WFVKam1FeUtpcTA9
+"i made it 3 for now, the classes are the digits from 0-2",r/neuralnetworks,Z0FBQUFBQm0yeGJTYU5NQnZDUTRRbnhlVmlDeE90N2w3OERrc0duaDZxQ2Mta1U4eUZkenZCTzRuX3JFV3FSUFNMQXpoTlBybFl0dkFMMTByUnJqcmJORjZ6WFp1Q0o3YVE9PQ==
+Do you have a code example ? Nice graph!,r/neuralnetworks,Z0FBQUFBQm0yeGJTTk0zQXdDZjlEVXNrNWEyTkVHcHVjTXZtT0NOTUVQTERpVFdvejFYMVFLMHRNZlRJX3RMQ2NyMkR6ZzhENlFyZXZJbXVidEM0TGlUQllLTGQ1Y2NTSGc9PQ==
+I have one idea and an algorithm will we work together and implement that algorithm?,r/neuralnetworks,Z0FBQUFBQm0yeGJTdlp3dnUxR211Y1ZsbE14ZjUzdVhWQVZfemxmMzdaM3R3aHBRbjF3QzNvcTM2UG92SVlNQzI4M3djWG1MbVpIRkx4bzhDdXprOERWcmlrTGNZVE1wRFlRZWVBd0p1TTU3S3daUWZpZ0d6V3M9
+Can you give me the code?,r/neuralnetworks,Z0FBQUFBQm0yeGJTeUk5Q3NzQUhvTEpoLU1DQnEyNTVFV2sxSUNRR1ppMzFIcGY2SHYwMFpvUUN2R2JHS2VJWWdQWGNNYjgwOVNfam9tRzBaX1BHZGhGYThKaHJ2U2tmX1VwWTMyaTM3N2c3UEJNN3ZaZ29MeGc9
+"Here's what ChatGPT 4 says:  
+
+
+Your code snippet defines a TensorFlow model based on the ResNet50 architecture and demonstrates how to use it for image classification with data augmentation. However, there are a few issues and improvements that could be made for clarity and functionality. Here's a refined version of your code, with explanations for the key changes and improvements:  
+  
+Fixes and Improvements:  
+Correct \\_\\_init\\_\\_ method definition: Python classes use \\_\\_init\\_\\_ rather than init.
+
+  
+Syntax and Indentation Fixes: Proper indentation and syntax are crucial for Python.  
+Class Expansion Attribute: While your code implies an expansion factor of 4 in the bottleneck blocks (as in ResNet), it's good practice to explicitly define this as a class attribute for clarity and potential modifications.
+
+  
+Data Augmentation Comment: It's worth noting that ImageDataGenerator is quite basic. For more complex projects, you might explore tf.data or TensorFlow's preprocessing layers.  
+Predict Function Adjustment: Your predict function includes model prediction but assumes the model is defined outside the function scope. This could lead to issues in a standalone usage scenario, so I've included a note about ensuring the model is accessible.",r/neuralnetworks,Z0FBQUFBQm0yeGJTTG53aTc5VFBMdVFuLTZLaWxaSi1NdldyX2NLSmRBdDFoR3E5SFpVTHB5SWVWb2RWVmtBczB4T0Y0aktjbXVoV050d0JPdzE3ZFVxLU5aaVIxdE5vQ3c9PQ==
+you wouldn;t want it,r/neuralnetworks,Z0FBQUFBQm0yeGJTR1VsQU9TemFsMV85aTRTTWd6TTNCSW0wUzZIb01DS21WSGlsMm1uaGt1ZjM4dFhPTUR2dVdOMTUtWnNvV3gxZGU4TnNSWWFyekk2bFRMUi1idXk4emc9PQ==
+"Found a github link in a thread from the other discussions tab:
+https://old.reddit.com/r/neuralnetworks/comments/a8jgh0/i_trained_an_lstm_on_a_function_such_that_it/ecd79ad/
+
+Idk if this is a bot, but OP reposted something from 5 years ago...",r/neuralnetworks,Z0FBQUFBQm0yeGJTU29rQ0cybDZhNDFtNERPNWo3UFNHLTlFcUYtUWxyVi1BMDYyNk9YNlNtZ1RYRFZZMlVWMG9pSUVNM3BhR1g0WjNpNWszbHRweVNwQVhyaGVjcVQyQmc9PQ==
+"Much appreciated, that sounds like a bot indeed.",r/neuralnetworks,Z0FBQUFBQm0yeGJTVHptTEdCWk5oV2xKTlNUQ0dmN19DRzVZUUJTTmV1Mkl4NV82TkZ3cXVKdHZQZlpVQmMwVF96VW9mMnNtV2lwYS1Ha2k0T0RyeTFDcU5jcG1HelFCQ0E9PQ==
+"Was just going to suggest asking it.
+
+You can also ask it to describe it at lower levels (""explain it like I'm a beginning programmer"") if you want it to dumb it down a bit.",r/neuralnetworks,Z0FBQUFBQm0yeGJTVTBGYVlfam5hVWEzN3VPRjNBSmNZQ0p2OEVQU1lTYWdEOEw3bmtKejc3ZVEzMHBfTVlzS3BfMlh6VHF3cGZMaElFT3NmR3U5QThWOXR3dnZmS3Jxd2c9PQ==
+Thank you👍,r/neuralnetworks,Z0FBQUFBQm0yeGJTem1paEtTS2Qwd09VbTJvSUtTajJKVjlxTmpFcmV4SlpOVzZQUzNFMUc5akRtYllHb0NnalhWc2lDVVJ0bHZiR2tXRnV2R0VJcnQxUm8xMFpzbUtmcU5OVUc0bUpvOUFYT1IwM1Z0RXFNeVk9
+"for something basic: 
+
+create a image pattern recognition tool using CNN’s. 
+
+or train a model on a dataset of images and then have it predict the next image category in the pattern. (ie: dog, cat, helicopter, etc)",r/neuralnetworks,Z0FBQUFBQm0yeGJTeUNKUUpHZU9jUVk5ZnF3Nlp5MXFEalVqNkxxbThqZHFWMFJldEpNVFNKRVhpTE1pWi1xR0FnT2xlbnBKYVRpNjlHVEJ0RWpnaHo2djE3UWIzN2Vka0E9PQ==
+!remindme 7 days,r/neuralnetworks,Z0FBQUFBQm0yeGJTZTRCRWF2VW9rZXZKQkFtNjJGQ0FqaGY0bjNSdWYtZ1g2b0FIcDNPam93UF9uNXpLR2piOVN1Qm10SG9ZSlhTcTdjYUJCdFV0cy1YellYdE10S3hDQUVBZFNIYjVDbGRLMnRoVmgyUkdjVk09
+"I will be messaging you in 7 days on [**2024-04-09 19:45:29 UTC**](http://www.wolframalpha.com/input/?i=2024-04-09%2019:45:29%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/neuralnetworks/comments/1bu7o2r/building_an_fps_ai_have_a_question/kxqvbiq/?context=3)
+
+[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2Fneuralnetworks%2Fcomments%2F1bu7o2r%2Fbuilding_an_fps_ai_have_a_question%2Fkxqvbiq%2F%5D%0A%0ARemindMe%21%202024-04-09%2019%3A45%3A29%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%201bu7o2r)
+
+*****
+
+|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|",r/neuralnetworks,Z0FBQUFBQm0yeGJTNGx3RVlBUEx0a0pCYTNoU1dpczlwTjR1cUMxSjc4YXVoVjlMaGdpVmVhN2l0TzNaVFdUZzduTU80TTVJQUlGX3pWMFh5WXpPVTAycnN4MVZoUXB5S0E9PQ==
+"Why do you want to use a CNN? I understand the appeal and the learning perspective. Plus, with images, the agent will only have access to limited information, but this is going to be computationally expensive. The model will try to infer the game state based on the screenshot (e.g. enemies positions), but you already know that as the developer and could give that directly to the model.
+
+Two possibilities: you either give the model handcrafted features and don't use CNNs at all (easier and faster training, faster inference), or you go through the CNN option.
+
+That said, let's discuss the CNN approach:
+
+* I'd give the model a very, very small screenshots, smaller than 128px in width at least. 64x64, if that works, would be really nice to start.
+* Remove _all_ the shaders, anything expensive, no textures (unless important) and lighting.
+* If you reduce the resolution, it may be difficult to distinguish objects from background, so I'd color-code everything (e.g. ground=shades of blue depending on height, enemies=red, allies=green, objects=purple, sky=white, walls=shades of pink depending on normal, etc.).
+* I'd give the UI information directly to the model (health, currently equipped weapon, bullets available, etc.)
+* Your model has no memory over time, but I am not sure if you have enough data to train a sequence-to-sequence model.
+* I'd use half-precision during training, and prune the model after training to improve the inference time.
+* Reinforcement learning after training would really improve the model, but that's another level of difficulty implementation-wise.",r/neuralnetworks,Z0FBQUFBQm0yeGJTWTE4VGxGZ3ZUcTl0YUJWQW1LLWVJeTRoYmthN0VraXl1YlBvQko4U2JZV3NTb1M3aGRxdWlFbWFPTzBycjVrTG1fQzc5czI2NXhQUXR1b3VBSnpSaXc9PQ==
+You have to modify the activation function so that it allows that range for example the sigmoid goes from 0-1 just ask chat gpt to scale it appropiately,r/neuralnetworks,Z0FBQUFBQm0yeGJTcUtOMTN6X2hBZE5lQlptNTlWQUZaLURZbjlCb3NMR0xKaUlrRDIzS3l4c0tlVE9rd3FsclhIT1pLX2hxUEJSd0hLVHNXLWQwTTgwc2hkZkdCeTUyUWM5ZWZyTXFWWW9zdDdremNWZURGV0k9
+"Got the book a while back, decent read and helps somewhat.  It seems thou that the author is not really that active so its near impossible to get help if you are stuck.  The code in the book is repeated way too much, almost like they are trying to pad the pages.  With that being said, still in the top half of recommendations, just not that near to the top.
+
+The youtube video's are excellent.",r/neuralnetworks,Z0FBQUFBQm0yeGJTemIzNkFrTGZlcTB0WmxHeENoUEozMTJlWWtONGpNdUJDY1o3ZzdFZ1FnV2hGR1psdG43c0dYLVRWbld2U1dXVGJaVDNxSjNzY1JXWlM2TWU2cFBrYUE9PQ==
+"Thank you for taking the time to respond!
+
+Yes, I know it’s possible to feed enemy pos directly to the model, but I don’t want this to access any game memory at all. I don’t know much about game hacking anyway and am interested in the creative challenge. 
+
+I ended up getting it to work relatively okay (it doesn’t bump into walls ever, but it’s not going pro anytime soon). I used a cnn and was taking a 200x200 picture of the minimap with a filter to find edges, saved the data about what keys i pressed during that screenshot, and separated the screenshots into folders that corresponded with that keybind. 
+
+I like this solution because I can influence the training easily to have it play a certain way. Things like staying on headglitch spots, jiggle peaking, jump peaking, etc are automatically learned using this method. 
+
+I am starting to worry about it’s ability to process info fast enough. The movement model is plenty fast, but I still need to work on the target identification and aiming. My current solution was to have the movement(including simple mouse movements for direction change)  and targetID/aiming models run on separate threads since they don’t really need to communicate anything. The bot just needs to farm deathmatch kills, not understand anything else in the world like health, ammo, objective, etc.
+
+Although, I might pass it the ammo count so it can become defensive once it recognizes it should reload soon. 
+
+Does that seem like an okay solution? Only have like 4 days of NN experience lol so I’m sure it’s not optimal, but I can’t think of any reason it won’t be good enough. Thanks 🙏🏽",r/neuralnetworks,Z0FBQUFBQm0yeGJTWmNtQ2lMSU5jblVpWnZhVkVTdWo4UXZWSi05VjZFcVlaUFBXZzVaQjRhTlhBSkZMeHBYaEtyanRYVk1NaDdCZ0liemhuMDU0NG9TN2tWeDI3WU5qQ0E9PQ==
+"Yes, I think it's a good start. Again, I am a bit worried about the memorylessness of the model. It could start spinning forever, hoping for an enemy to appear on the right hand-side for instance, forgetting it has already looked there 30 times. But other than that, go ahead!",r/neuralnetworks,Z0FBQUFBQm0yeGJTT2I1NEZ6SFpQM1FBQU1tQWdpUVhtTEpnUmY5bFhYMk1WcEFoU2IydGJLR0NVZ0E1WF9sVWduU3JYMGZZUExmUlZZT1VpMUI4MzBkOGk0Wm9ySUhSeGc9PQ==
+"Found [2 relevant code implementations](https://www.catalyzex.com/paper/arxiv:2009.07476/code) for ""Path Planning using Neural A* Search"".
+
+[Ask the author(s) a question](https://www.catalyzex.com/paper/arxiv:2009.07476?autofocus=question) about the paper or code.
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2009.07476&title=Path+Planning+using+Neural+A%2A+Search) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJTWUVKOFVrTEhXT0E4VkRMS0VUQ1k1U3UwOHkxSnZ6Um5HN2RGUHV3NElOTElFT3BaYkFkdnVHUHFEdE55S0llaWtBaTVkSXFIVkw4bDBZdm9WWFRrSnpzY1otYWpMLXNQYzZGb0ZabFdnSjQ9
+If a weight is 0.000 it wont be changed during training,r/neuralnetworks,Z0FBQUFBQm0yeGJTZHk4akIxUzlBNE1XTzJyY2o0MUZialctTHVqUkFmVC1TaEJpb0NHMUFUeDEzRVpsT200SmY5SVhCM1pLVDl1a3pZZnpMYi1OSlRFVEdvRkg1RTJ2QmNMazhwaGhWZDRLU0NBZ0dCQVpxOG89
+"I’m not an expert in neural nets, but wouldn’t you have to do that potentially hundreds of thousands or even millions of times to adequately train a neural net?",r/neuralnetworks,Z0FBQUFBQm0yeGJTbUhmM2JhaG14YmJPcXFwbThncS1rWER2WGZBRm5sWEhVYWRCV1cwUEFYSnV2M0lNblFjNVBkWDRSVGtIZFh3bU1jUzRFdWZrWFJQWmhLX1BLc0RiZ3N5WGJrRktld0hhYWJGT01zS1hVVFk9
+"thats what i thought, but perhaps there are other methods?",r/neuralnetworks,Z0FBQUFBQm0yeGJTeUZxTXA5eDJUc0pkbW1RWm9Rc0M2U3gwQ2dBTXRwN1JYX09OVnJjdkY4NVV0el9vd3BvZmIwQnZ0RWZVaW5KWU9MTkRPMFA4YnBMZTVuUzNpRjNEVEVTU296OGotNzdzbElodDJBVE9vN3c9
+"I think you should read about reinforcement learning..
+You can use it for this case",r/neuralnetworks,Z0FBQUFBQm0yeGJTX3NYbUthVHpsSjJiMEJPblEzWFV5eVZlcXNQQmVNeWhTbTFXeTNWTnhqRndkZTk2NnFTX2NkcTZDYTFLMzZwR2JEdkVOREkxTjg0X2duMkF3eXRtWnc9PQ==
+"Yes. You are not going to want to train it each time there is a new rating rather  train via transfer learning after you gather enough new data for training runs. 
+
+You can also build another model that grades the game model's attempts for you, and could potentially use scripts or a third model to automate running the training once certain conditions are met. 
+
+I don't know how much training data you need because I don't know the game but there are many other game models that learn by various do or diffusion techniques etc. I would recommend reading papers or how-to's on those game models and look up things you don't understand. Worry more about the theories and methods that can be applied than understanding every bit of math unless you have to understand it to translate game rules into logical expressions. 
+
+Try to find lit that is similar to your game rules if none for your game exist to fork from.",r/neuralnetworks,Z0FBQUFBQm0yeGJTZ1F6Y0c0MEVHc1ItRXQ0MzBlRzVtdTdGWVRXSmU2S0VCWE5iUEh2NGZrc1J6VFotdFZXdEFnRGVHMzAyUlRPWXJOb1lkcDF4X1lmTlRhS054bFFVNWc9PQ==
+"Your ""rating"" can be whether it hit a target, no?
+If you have the game physics for bullet bouncing, can you put an item on the ground in a random spot and train a bot on its own to hit the target?
+
+Also, maybe you can create a sight line that extends out from the bot's gun, ricochets as per the game physics, and has this info about what its bullet would hit added to whatever vision info it is already being given in order to function. I have never done anything like this before, but i feel like that would make the training to faster.",r/neuralnetworks,Z0FBQUFBQm0yeGJTMWQ0QmlUMnQ0aUxUeC1vSmMzdDJjY2VDeXJzRHhvREVzMVpTQ1dMaFIwQW5CLUxsallDdnhjNmFpc09CcFlfTndXR0QzYWc5NFdtSjJzelB2YUtIMXc9PQ==
+"I don't know. My fantasy is that AIs will eventually be trained radially. Meaning that instead of back-propagation there will be radial propagation. This would give a frontier of responses that ripple outward like a wave. Then logic gates wait to observe the right answer and select that thread and let the others just die off.
+
+It just seems wrong that we're training in such a linear direction with inputs folowing a path to an endpoint.",r/neuralnetworks,Z0FBQUFBQm0yeGJTRjZqLUkxWFhMR3FSMlZIOUZId1RtUk45YU9RVmVLWFByY3R0SEstYnlPeE9nZkNRZ0N0NnNZWTFyMVkzdGMwbHdfUGctR2NTNnJ2dFZRbmJlZ2xfbXc9PQ==
+This is the basis for how neural networks are generally trained,r/neuralnetworks,Z0FBQUFBQm0yeGJTMm0xOHpRdEhXQVNUdHN5V19xNFl1YVk1Z21kdGxCenU5dFNXUEdaNnBvLW1YeHRaNkV4ZXRDeUUxR19WRDJkRE1nam8zUUJJV1FVY25pYmdrZHNJOVE9PQ==
+"It's probably true that there aren't any simple hacks to beat a good chess engine, but that'll be more to do with the fact that there are fewer degrees of freedom in a given chess move, less space on the board to do such funny tricks and the average game lasts about a quarter of the number of moves of the average game of go. Fewer degrees of freedom and less space mean that you have fewer options to make weird moves that don't also immediately cripple your position, and the shorter game time means that your strategy would have to work faster. All these combined mean that AlphaZero's evaluation model almost certainly has higher likelihood of being accurate than AlphaGo's.
+
+Besides that, I'm fairly certain AlphaGo's dataset was largely from its own games against itself, no?",r/neuralnetworks,Z0FBQUFBQm0yeGJTSmF5azY0Q0VTU3ltMEViTjlBajI4SUhmUng5ZVhsSnpuNzVPLTJrZDZMdnJNZFp3bmlCdlRfY1JtMFVlaUhoTTY4Tms5OXllZlN0WHNuN0NxQzhVN0g4eEQ2V1FrODE5VVRzWGdBb0ZkR2s9
+"My understanding is that AlphaGo was trained on human-expert games and fine tuned using self-play, where as AlphaZero was trained entirely on self-play.",r/neuralnetworks,Z0FBQUFBQm0yeGJTZlpYd0o0VFJLMkVpZVVual9MVGRmSVMzYnlIUVlKUXgtQWloam4zcGEyMl9uYXdkcGpmZ1o3RVlyT2xvRFFUaVhmaXota2RrQnNubGt3NzJ6NHpUX2c9PQ==
+"Naturally I don't know precisely what their training strategy was, but they most likely trained it on human games at first to guide the parameters in the right direction, otherwise they would have to waste a huge amount of time waiting for the model to start playing sensible moves. In chess, it's a lot easier to set up the model to start playing somewhat sensible moves immediately, so there's no real need to train it on human games at first. It's unlikely that the human-sourced portion of AlphaGo's dataset would be responsible for a blind spot like that. Such an exploit is just part and parcel with such a complex model playing such a complex game.",r/neuralnetworks,Z0FBQUFBQm0yeGJTdnpoVnp5eTBzRVdEQTc1c1dCd0duQmV6dDdSOHd1RW5ZUDFTZDhOMGFmOUNDVnMyc2VONlEtbVprSTk5QjcxWldBeUpJOW1HY0FpUmJkTUxwOEtlMVBENDdkaWNXWFcyeDNiZUdUZmNNVzQ9
+"I've never used prebuilt one, but see if you can split population into separate species which protects multiple types of mutated genomes to survive simultaneously and add some cross-species breeding. It's definitely far easier to find the right solution if a arbitrary local ""best"" doesn't drive all other mutations extinct, hence why NEAT paper introduced concept of species.",r/neuralnetworks,Z0FBQUFBQm0yeGJTY2VqSWh1T09QalRfZDRYN29PbkpTRDBsTWtPS213Q2dLTkpKWFplVXYtYjQ3NWNBOGpGSU5vMjcwVm5sX0lMZlQ4UnVDTFlmcEZZa2lFU2NpRlRGVlE9PQ==
+"ChatGPT is not conscious. 
+
+>Nonelinearity is strongly related to the emergence of consciousness.
+
+Can you qualify this statement? Is this a guess or do you have a source for such a bold suggestion?",r/neuralnetworks,Z0FBQUFBQm0yeGJTR3JpVTdMQV9JVndzUTRGcExSRjFZanViUW1Jc09NTzMzRFExMFhPbWVvdmRzUGRzYWJKemM4NzdGRG5PdG5kT0xzR3hnMC03NjhQUDExUGNoclpDMG5aMXZuUnNpTGl6cnRCRmg1Znp6N3M9
+Isn't Chat GPT hardcoded by the programmers to intentionally circumvent any sensitive topics/questions? How do you know it isn't conscious? Can someone ask this question to Grok?,r/neuralnetworks,Z0FBQUFBQm0yeGJTWnI5OXFHUHN5cl80UlBrOGQzMmY1RXZMQWZya01pSWJVemZXVjh5WElLQlZSaHU3NGdwcDV6aGRtTC1Ca1JFRGhJQVhzOG8xandlQ0JHSU51ZEx0amgtWFE2Nk9QV3VqRUh5aGtfZFE3WW89
+">How do you know it isn't conscious?
+
+The burden of proof is always on the positive, not the negative. We don't need to prove it is not conscious; the proof needs to be that it \\*is\\* conscious if that's the thesis. That's how the scientific method works.",r/neuralnetworks,Z0FBQUFBQm0yeGJTZVJ0NW5fd3FtMmctNUpPS25OSEMtb2N2c0VmWWI1R3pLd00tUjBKNE90MUltQ1plZldSSHlSYS1TNFRyZ095d2kxbERISTh0WGhqYmxpd3JucDYyVC1SVEk0S0I2cnV6SVBZbk5NVkwxdFU9
+"You were so sure that you stated as a fact. So the burden goes to you. At least, I would like to get your insight.",r/neuralnetworks,Z0FBQUFBQm0yeGJTbi1MOUtyakplQ0tRWTZRMzc3OFIydlptNGsxYlhxaUNOV2xsMHpLV0FqU0FkWTF4M1VRNi1kb1IxY0pjZ3FkZDZoMTZTQ0s3clZQZ00yNThvUmxjNm54aDZJVG1FSjZFcE5iWVFHdktlN2s9
+"I've always thought consciousness is a byproduct of intelligence. The more intelligent leads to more consciousness. And I do think nonlinearity is important, cuz if you don't then at the end it's just a linear function no matter how many layers you have, nothing emerges. 
+
+Another observation is how biased we are in this topic. I believe that every living creature has a superiority complex resulting in the creature choosing themselves over other things. And this is necessary for survival/evolution. So we are really biased to thinking we are special, as a living creature and individual. It surprises me that we (humans) have been calling ourselves conscious for the beginning we had the idea, but we have yet to define it. We are very protective of that concept. It's either cuz it really is a very unique phenomenon or it's just that it's boring but we are too biased to face it.",r/neuralnetworks,Z0FBQUFBQm0yeGJTWldiTHRGU0FpeHZ4eGV5S0xjYllwY2NPVGlqbllKM2hHRXZuTkZVV25RQ01rUEdFMHd0QVNra05RZFZUd3c2SFFBNkZBdWVfRWQ3bTFxeE9INURESnc9PQ==
+"No. That's like saying not having 6 legs is causing consciousness in humans.
+
+Nonlinearity is probably necessary, but it is not sufficient.
+
+Multi-layer perceptrons are nonlinear, but I don't know anyone who would claim they are conscious.",r/neuralnetworks,Z0FBQUFBQm0yeGJTRjluRVB3MGlMWmxHY0U0UE13bjktR3NNSk1qVjRWTjBfbzFUWHRveHF1OG0yUUI2VWtOLWMtSFZGNzJ6UW1Fd1lqZUdhT0gxd2hROFVULXVTUXU0LWc9PQ==
+"One-shot, few-shot learning",r/neuralnetworks,Z0FBQUFBQm0yeGJTcWhlTTJvaWo4MDBqMTRyaFFMb0dlVjZFZDQwTnZGc0c5LUVHRzVJdlJ6bVpiMXk4M0hDTWdfbGZnbGVTM0lBSHNzbFlDblg0aVVKSFlNOHhWaDhmNFE9PQ==
+Does this thing really go and correct the most trivial errors? how painful lmao,r/neuralnetworks,Z0FBQUFBQm0yeGJTOUlmbjZkbUljWWQtUXBtUzNfRnBHdzRRazBFMGNZUXZIWGhqd0xEVU1xbkNXM2pWa3BndEpfa21NY0xnamVvREc2U1lSME8tdFBhVkQ0c01MMV9GS3IxWmxfODgyc1NUNGFHTGdrRWUzeXM9
+You've probably chosen your topic already. If so can you tell what it is? My Master Thesis is about PINNs (im interested in GNNs too).,r/neuralnetworks,Z0FBQUFBQm0yeGJTa0VyNjlLMHVlSFFVV0x3aVBvSnhIbnJ0LUdXc2cwdWliUHBrQ3NJRUYxUndYZWhRa253ZTVLNFFqdVhNRGRCLURNckkxWjl4bUxWY1JVUWc2c05RcFIyS04xUE04dV9SbDJleVdhUHlBaFU9
+"Attention in transformers, visually explained | Chapter 6, Deep Learning:   
+
+https://www.youtube.com/watch?v=eMlx5fFNoYc",r/neuralnetworks,Z0FBQUFBQm0yeGJTZmRPU3FoSWZiMWZzRDVLTFRqRnFjT2tWcDNhWmNMbGhUS3dBbThlemhnM2o1OXZPWkZ3eHhZY3U4V3pjX04yQzdZR1g5bHNjbkR3dHl1cUxrMUpBdEE9PQ==
+"Found [3 relevant code implementations](https://www.catalyzex.com/paper/arxiv:1706.01151/code) for ""Deep MIMO Detection"".
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/1706.01151&title=Deep+MIMO+Detection) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJTUHlhOTVqVENiemRlcXYyTEJNb0hKUjZZODN0NzZkWktjWlZKa0ZvOTFsQVFzTTRKc0hLbXVkckRlUUdyd1dZa0JuYkVfUVNybnd5THZkOXBzSzJhNkRtcHRjY1gtNUtqcGUxcUpHbkotUkk9
+"I'm looking for the same thing. Preferably 5-6 images so it doesn't overfit. Style transfer on changes the texture and colors. I want my images to change posture, shape and texture.",r/neuralnetworks,Z0FBQUFBQm0yeGJTT1ZNeHJBbEJwVFhHN3JTZVZvNWNBNXBzejlYNmtZcWRCX3dldHRqUV9MTllhM3BJMmt4b29qdHFtNm9EdVRJRHhEc3oweG0ybkw2VThaa3JfbXA1UGowdlhsTFV1cmFtNHI2a1htWDFBZGc9
+"sorry don't really understand the post, you want to construct a neural network but don't want to use back propagation is that correct?
+
+if so how will you train your neural network, after all the weights of a ANN are all about adjustments and alignment and these are all based on back propagation.  I am new to neural networks but if there is another way please do share.",r/neuralnetworks,Z0FBQUFBQm0yeGJTaWQxYjJvU3dENE15bFJGQXA1NjZwOEtzWFVuSDk3cHVCVUlTT2tqZmlqSGxSazFJbnlNbEs1Z0I0ckgzZ09OY3RBSTZTZE9TMnVJRXZLbEJiN3QyaVpkVDd4Rm1vSkUxdGdVMnhVaGdEVzg9
+"Hi , I actually saw a very good post here on reddit.  Let me know if this helps [https://www.reddit.com/r/datascience/comments/158ef4u/why\\_do\\_we\\_use\\_multiple\\_neurons\\_in\\_hidden\\_layer/](https://www.reddit.com/r/datascience/comments/158ef4u/why_do_we_use_multiple_neurons_in_hidden_layer/)",r/neuralnetworks,Z0FBQUFBQm0yeGJTN0Z2VnF5dndNT042aVVxMmVETU5DdWtsZGhUNE9UcTZHN0ZlNWp5VVd3aGNhS0ZvaHp3U1N6bTdBX3ZwMlcxeFVNdWs1dEdIV1pmNGtnQ1MtVk8zdFlPLXhSX0xwOHJmRG9aQWJYaXFKX0U9
+in this link there is link the chat goes in quite some detail,r/neuralnetworks,Z0FBQUFBQm0yeGJTM2Y3ekFnNURYZlp6MGVsQkloT0FGVjlOVFM3dmVQNGR1SDZPNXFNNU5uczlRbnVrbHpTcU1xZXNNR2lUWVRBWElPYy0wRzdWUjRvc2g3X2x5SHZVLXNQMkVmRHY2UzdtbU54VFZrVUpiUW89
+"You didn't post all the offending code but looks like a mismatch between output shape (logits) and labels from the error. 
+
+If your output shape is for example 10 then there should be 10 labels and vice versa. 
+
+So if you are trying to label with for example mosquito, gnat, housefly, or other from images, you would have 4 labels,  1 for mosquito 1 for gnat 1 housefly 1 other. Your output layer needs to match.",r/neuralnetworks,Z0FBQUFBQm0yeGJTLU9sVDNHVmhLdG1MclR6VWgzR1hYczBOYzhUSGFxb1FxUVNwNFp0dWROcGZ4MlZxdl94dWZRRzJYajRCb3B6ZVp5SXN3TklTdXVRMTd2TzRVSUNEcnc9PQ==
+Edit: I work part time in a Chippy and work for myself cleaning houses 😪,r/neuralnetworks,Z0FBQUFBQm0yeGJTVnJaMnlUZTd4N2xiZzdIMGxYdzBQX2xiZ0NtUEdLRkQxSlRKTVFxaXJvNmtXQWthcXNKT2ZpYW1hall4N2lKdmcwcDNES1JBYjRxZldaenp3QmtxOWQ5a2ZlQU1Hb0RSOHR6bmloLXZISEk9
+I would start working on building something that interests you and learn through doing while also building a resume of projects to talk about.,r/neuralnetworks,Z0FBQUFBQm0yeGJTSjFqV0NfM3pZNGFlUjlEbnlPWmVZNG4xRzY0ZjZmblQtRTJuN19iekJORS1tTkx6OUVyV0pqUzVYeF9uRjVFbG9ES1R2TzlmUTB6MWN6MzM1aTdwb3c9PQ==
+Thanks! 🙂,r/neuralnetworks,Z0FBQUFBQm0yeGJTamx5dlFaZmNISnI3V0FMTmx6Z0FIanJnVFBXci1HUU9VT1FXQi1lZDczWmVkUFNSak1PQ3hETWVoOHc2NUxTbzdTVG5mdmhyVFYzX0dHdWd5cURONzlIM2xhQ05OX2tXWkJWMkkxemdkVWc9
+"There’s a link in the post (possibly not visible in some Reddit clients). But it’s not very enlightening! But there are ways of training NNs - any real-valued optimisation algorithm can do it, just not as efficiently. Eg BFGS, eg CMA-ES, eg Simulated Annealing.",r/neuralnetworks,Z0FBQUFBQm0yeGJTUFRmN2ZBOG5rLUtpcmlQRzRZYTgyWVZwUFh2RE9sSnQ2bFZtc01veGh3T1AyTE1jdFJsY1ZHQWJTSjM0TFZnZW10M0dQNERkU1k3ZzZhQnlaRW1OaGc9PQ==
+"Build something might be useful and make it public on github, apply for internship positions? Or graduate programs, learn algorithms? It seems to work for many",r/neuralnetworks,Z0FBQUFBQm0yeGJTRzYxVHB1S01UNzdHTjd5SVQzbGR1eTh5Snl5WVN4UmtYekdrNTJGUzdBZVh6Z0tDWnFfY2hfUkN5X094THkxdGQzVm1ZYzJqN3B2V3ZXZUl5aWdHR1E9PQ==
+"I'm indeed no expert in this area. Perhaps can help you understand the problem.  During the training you need to look at the dimension and size of your output layer and this layer has to have the same dimension and size as what you are using the model to predict.  i.e. the predicted output from the model has to have the same shape as the output layer.  
+
+I recently had this problem, my output layer was expecting in the following (batch size, 5), i.e. my batch size was 2223 and the number of output nodes was 5. 
+
+but once I was running my 'y' values through the keras.utils.to\\_categorical this was producing a target array (batch size, 5, 90) resulting in a mismatch between target (values that were produced by to\\_categorical and the output layer.",r/neuralnetworks,Z0FBQUFBQm0yeGJTdmpXeHc3REkzTXMtVDBpUjdhUGhINERBNUFoRlN3R0E0ZEp4RW5UNVpTOG56Uk5UTjFYWUYwY1ZzbDdGV3YxUkluSjg4Z0FBNG5KX09XUUdDY3hyM0ZyRHh6T21EZlVtTmZsLVNfMFNfbGc9
+my apologies but i don't seem to see the link.,r/neuralnetworks,Z0FBQUFBQm0yeGJTc2loVFJoMlNEVWZ3VzFBaEQ0TkN0VENQSmp6dFVta0hNSVllTmp3aG9BcmRlOUJoUFVpaElBdDF5QzdROWxaMkhPbl9TNEFwMkNPTVdSckUyTmplRFdkNHkzQi1COEdTak14UEF0aFphMTA9
+"I don't know why this happens but anyway 
+
+https://qiita.com/kanekanekaneko/items/901ee2837401750dfdad",r/neuralnetworks,Z0FBQUFBQm0yeGJTUUNPbTJQRUliNXdPb2VHRHNpeFlvTE01WElWRFpqYV8yVkJzNERBUnoteXppbHAyOE9ySWo5a2lHVl8wRU1LYkhqV3V5Q19nMU0wdVpWWFpSLTNXc1E9PQ==
+You just train multiple models and average their predictions,r/neuralnetworks,Z0FBQUFBQm0yeGJTd040M2lHVUJjOHM2T0g2RFQ4RzVCZ2lTLWQxSGxHN0p1aWlUbjRjNjR1c0h4SkNuVXhmeVRtcnlDYktFQVFQTnBkeEpjUnRmYW5ScE5wc0c2OHRrclE9PQ==
+"Here is a recent survey in reinforcement learning
+
+[https://arxiv.org/pdf/2401.02349](https://arxiv.org/pdf/2401.02349)",r/neuralnetworks,Z0FBQUFBQm0yeGJTcHA0S3M5Mkx4UEF1OExqaEI4ck1QYW9UVzBoWDJVSXNncUVENU9wTUhGNDN5MDJZTVFKbHF2RGhiOTVhSWJQR2FxMEFrV01jUmV4Ump1RlVKZ2hEN2c9PQ==
+"Found [1 relevant code implementation](https://www.catalyzex.com/paper/arxiv:2402.15332/code) for ""Categorical Deep Learning: An Algebraic Theory of Architectures"".
+
+[Ask the author(s) a question](https://www.catalyzex.com/paper/arxiv:2402.15332?autofocus=question) about the paper or code.
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2402.15332&title=Categorical+Deep+Learning%3A+An+Algebraic+Theory+of+Architectures) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJTUjdDY0JsTW9nb0JsdWJ0cWgxU0hJcFBfcjU5TXhZQmU4TVNRcUZtVlVLb2pQT3AxODlIWjVlSjY2aTllbHYtMHJzMnZ2WlJ6RFhYYmVxT2w1VmhraWxKRzEydWgwMVNPNHFMUjRJaUcydGs9
+This is so damn cool!,r/neuralnetworks,Z0FBQUFBQm0yeGJTT19rS2JELWlXUkljNUx1d2tMOGNvRFNQS2ZLWTZaSnJKUWRZSE4yNjdFNDBkUDhEeVRUcGRacVg3b2RhNEZTdjF1M1FTM2tydFVtcFllVVFJQzV0clE9PQ==
+"Create a marketing call to action for a new book called, ""Mastering NLP from foundation to LLM"" use a lot of emoji and make up a promotion they can't miss out on.",r/neuralnetworks,Z0FBQUFBQm0yeGJTQ0RfbUwxaVdVRGl0ZXZKMk5EY21GZjVxdC14a2U4Y0R3N0RBZVRqdmQ0V2hkMXVLWFVRcDQ4TDRkUkRmemNFdUp0czY0WldXMGpDb0FFcTdsNkk5dWc9PQ==
+"It's hilarious to me that it's so easy to detect AI generated slop for humans, even if we can't really precisely explain why we can do it.",r/neuralnetworks,Z0FBQUFBQm0yeGJTSWtRdWVZOXNmY0twWFNIcno0em5PajVrOTZQeVpOY3d3cmk2MnRNVlZwZkRDbEpRQTA5VW9GYTBTWmhMb2djdHJkc2lvczRZVlZ0Wm5OM3MwNFhGbkE9PQ==
+😂😂,r/neuralnetworks,Z0FBQUFBQm0yeGJTSmNiN1MxQ2RFTU5hSVI3V2dZXzRNUXpKaWhlMjFyOVZZZWFRdXgxMElCamYwRTd3bktBMDZuQTlmNjltZHAyblc5TTEzbXRWZEVlMEpsTFc1R0JEa1E9PQ==
+"It makes life easy in repetitive tasks, a marketing message helps to get the word out, but if the product is good, that’s actually what’s needed. Human generated content would be needed to further convince the target audience and that’s important in a different scenario.",r/neuralnetworks,Z0FBQUFBQm0yeGJTR0plQ2xYVkh5RVZfSFB2YjFCLWswTEV1LTVlU29jaWR3QVowUGJZTmpJT1Jta3Y1MUh3eE5HdFVfRlFjVzctVFk4cWhMdmJaUE52QnBDXzZRazRmaXc9PQ==
+Try to find a docker image with pre-configured CUDA and TF on DockerHub and use it.,r/neuralnetworks,Z0FBQUFBQm0yeGJTcV9teEE2eDZZamZtNEQ2bmhaQ1VwZFVjRHItekJnbUhsZUJDN0E1SUs0YmVSWEhybzRrQ1FXU21nd0RMRUxlSWlTdkM5YnRURnU5dnptdHItd2NaeFE9PQ==
+Congrats! What does it do?,r/neuralnetworks,Z0FBQUFBQm0yeGJTa2N6aHJBbXYwaW9NTFJVX0NvRXZYSUZvTUdhaHo0Wk4yYXhCV1NiQkZpbTBQVVlNLWJkaDVPdmNaRktHWWJkY3V1ZWptS1Y2bVp6RThBeXpWUXZsbEE9PQ==
+Can you be my mentor please in neuroscience?,r/neuralnetworks,Z0FBQUFBQm0yeGJTcjBWalpFWi1QOW8yemFhcHNET0NNaGpRSV9SY3pXajJ0bExndmxxMlE5N3V0b3g4S05MMW1PSmdDcHdYWDUzeE9iUUZDV0VVeTd6NG1Gd0hTMXVvcmc9PQ==
+Can you please be my mentor in neuroscience?,r/neuralnetworks,Z0FBQUFBQm0yeGJTVUJhdVdmcEJCR2hEM2JmRmVKVWV2YUMya0JHcXBNU2w5YWc1dlJhck1rZDNWelpCNUJpT2NLRElSNUk3WGtJUk9LQXptZ2Q4ZjN3MlEwRDRNVWZRTkE9PQ==
+"My neuroscience skills are mediocre at best :) Compared to people who regularly use it all day.
+
+Thank you though. Why?",r/neuralnetworks,Z0FBQUFBQm0yeGJTckQ0QVBudkNlUGppd2pOWld1R1NSRDZXSDlFRVUyQklMYlJGeFM2WmVaNk5fVHlEMUNTUVdQbXUwdnpHczBybkhreGNvdEN3VkRQOVQyeGwtWGVKS2c9PQ==
+"This is actually just linear regression. If you modify the outputs by taking the inverse of the activation function, you can replace the neural network without hidden layers with a linear regression model and it would be mathematically equivalent.
+
+The answer calling this a perceptron is incorrect. A perceptron is a neural network with a single hidden layer.",r/neuralnetworks,Z0FBQUFBQm0yeGJTeHh0X0hZLS1FZWt0dklER3dnU0ZRdXB1NlpsTlRRVnRTYWpvb3ZUN0pGZHFTanc3Uml0YlY1M1NRWlRZSklhZDMyUFVlSjlwNDJLeXlPR1otbmE5ZUE9PQ==
+End of sentence token.,r/neuralnetworks,Z0FBQUFBQm0yeGJTbkczRWx0bDd0YU80cVlpcmlNYXFxS1ZMcjBhUVREaEJmaUZ0WXpCdVotTXFuYzlyT21nQVpaeUxkMlVxTTNOeUt3M1lPbTFaOEtSeFZRTUNxT2wzSXc9PQ==
+WebSockets.,r/neuralnetworks,Z0FBQUFBQm0yeGJTWDVNOWhrOVJYbmFrWkE5VmtpZzR6MTRXN185Q2I5NEh2dmp3dlR5N1d6S0xQaUhrdXcwZ3VqbGdnemFXVUpldlk3aUVVY0JBZ0ZHczc1aWtfYlRFUXR3Y1hvem1FVDJzbkh0NnN2R2M1LUU9
+"It's only a 3-layer neural network, but I'm hoping to upgrade the understanding to a network of any size.",r/neuralnetworks,Z0FBQUFBQm0yeGJTcFllZDhEckpZX1E3TUZUWWp4TjFwZ2N3dXlOWFNnV1JKQkppdDFNNzRWSDJFalZZdnJJeklqWThySEUtY3MzbTZkdm1FYzZ2M2dwWGt2cXJiQ2ZuU1E9PQ==
+"Backprop does not create (update) new weights and biases. It only calculates gradients. The parameter update bit is called gradient descent, which makes use of the gradients calculated by backprop.",r/neuralnetworks,Z0FBQUFBQm0yeGJTaGR5cFVsRzltRXhidUhNNjR2N1JHUmo4YzRhc1JmVGx5c2NldTdLbUpxUGw3cG1vdWd0ZVhpMlZIcjhJY2hvVmhSNzFrLTBJdzh3SXVOc2FRQ2FYV1E9PQ==
+Thanks. But is the math ok?,r/neuralnetworks,Z0FBQUFBQm0yeGJTZF9lU3lTMXA1MDdkX3pmY25WTmFtZUJSOHR1c3VPZFB0cmpzM2tKOEtvUTlDN3JYeDJkMGdTVG5LNUhJb2M1c2RyY3otdUFPejV5dXRVYjRIS2d2elE9PQ==
+"signoid(x) at the start is definitely wrong. You should leave out that circle completely.
+
+Also we usually use alpha for learning rate and not gamma. Gamma usually means momentum.",r/neuralnetworks,Z0FBQUFBQm0yeGJTSmVCT1NmaFVYWi0xV3Nwam11dzh5QjNRX3RXN0Jlb1UzSW02Ykp1cDJBc3Jwdm9nM1NFUzZXZVVIc09oTEN5WTA3NnV1cUdNeERVb0pHSnM0M2UtVlE9PQ==
+"Thanks, I wasn’t so sure about the input layer. I’ll look into the gamma thing. Thanks !",r/neuralnetworks,Z0FBQUFBQm0yeGJTSGJIRkgzaGxab19EOTI3YnVUb1EzYy1IR2JGOFN2UVU0c3NQYnFWa01mWERyNU9vS1ZvUWM1X3YxSHV6VEExWEVzMFBsVHlUU3YyX01hUi1SeXdGeFE9PQ==
+I got rid of the input layer and made it x instead. Looks a lot better. Thanks,r/neuralnetworks,Z0FBQUFBQm0yeGJTcVpfRm9odWRVdDZaQ1FxeHVXRF9tRTBSWTZSbmhqMUFxX3BuMGRTOEtEd1MtdDIwY052VmZLUHZPN0E0VVpESHROY3Uxa2ZCV0trUlI5LU5WSUlpd2c9PQ==
+"By itself this chart does not have enough information to represent distinctions among NN types.  Perhaps within a context of a web page this image makes more sense.    
+
+Where did you get it?",r/neuralnetworks,Z0FBQUFBQm0yeGJTOV9xbElXTWJJRlNyakVuWXhXZkpib3Rmejc0Zk9mNXdreVlnZEtBQ3E2Yy0zQUg5LV9STjN3SUFQYVlvWkstOXB1VlJrTE90SUNHdEVhYldaMG9VV0E9PQ==
+❤️ for the content you want to see and then the recommendations are similar to the posts liked,r/neuralnetworks,Z0FBQUFBQm0yeGJTSjdlY1hZZ0JkVGQ0cFBkNDVMeFBvV3pfUUV3ZnFxS3EwX05uZGc2aXVNLUJsaWlSeG14b3FTYnNiOWJKbGhXRXJTMVJkV213VXVLRmFabjJTbmljVmc9PQ==
+"Found [1 relevant code implementation](https://www.catalyzex.com/paper/arxiv:2403.03183/code) for ""How Well Can Transformers Emulate In-context Newton's Method?"".
+
+[Ask the author(s) a question](https://www.catalyzex.com/paper/arxiv:2403.03183?autofocus=question) about the paper or code.
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2403.03183&title=How+Well+Can+Transformers+Emulate+In-context+Newton%27s+Method%3F) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJTSlg2dzVpeDVod0Fxa0MzUG5mb3dnY25Bal9mazZPekJOS0xJS01XX3pIN2ZvcGl3emdtZFFjQnJjbHRmSWJPWnBTa3phaXVWNjVEc2tfSjR0YjRfcVRiczF5aVZzMlZ3b3RSYktUNW9YRm89
+"Guys, can you please help me solve this question? Thanks. Mods, sorry, I am new to Reddit pls be a little easy on me.",r/neuralnetworks,Z0FBQUFBQm0yeGJTSVlWUm5xalpoLTZzem5TS1FwbTZiZnhEWEItSkdsLXlyWFN5UlFzSV81NklWaXdsVVgyb2RPelc3Tmt3TmF1UzR6elVWdHVFandOMTVZUEpSS2VxZHc9PQ==
+did you got the answer??,r/neuralnetworks,Z0FBQUFBQm0yeGJTdDM5aDZ4OWhIaUxhWXg0S2hiSkRkb0VLMEtPajk1OWdkLWs2ZEM0aU8yam5NT0c3ZkVYWExVMjNFdFJlMkRSLU05SlUwWmFwdU1jT1BvbzhoeEZWUUE9PQ==
+"kinda curious if GPT can do it. Do not trust this, GPT hallucinates all the time.
+
+
+Thank you for the clarification. Here are the specific values for the 10 red boxes, calculated and rounded to three decimal places:
+
+1. **First Layer Multiplications**:
+   - \\(W_{11} \\cdot X_1 = 0.200\\)
+   - \\(W_{21} \\cdot X_2 = 0.030\\)
+   - \\(W_{12} \\cdot X_1 = 0.100\\)
+   - \\(W_{22} \\cdot X_2 = 0.240\\)
+   - \\(W_{13} \\cdot X_1 = 0.300\\)
+   - \\(W_{23} \\cdot X_2 = 0.270\\)
+
+2. **First Layer Summations**:
+   - \\(z_1 = 0.230\\) (for \\(0.200 + 0.030\\))
+   - \\(z_2 = 0.340\\) (for \\(0.100 + 0.240\\))
+   - \\(z_3 = 0.570\\) (for \\(0.300 + 0.270\\))
+
+3. **Hidden Layer Activations**:
+   - \\(h_1 = 0.557\\) (for \\(\\sigma(0.230)\\))
+   - \\(h_2 = 0.584\\) (for \\(\\sigma(0.340)\\))
+   - \\(h_3 = 0.639\\) (for \\(\\sigma(0.570)\\))
+
+The corresponding values for each red box (from left to right, top to bottom) are:
+
+1. \\(0.200\\)
+2. \\(0.030\\)
+3. \\(0.230\\)
+4. \\(0.100\\)
+5. \\(0.240\\)
+6. \\(0.340\\)
+7. \\(0.300\\)
+8. \\(0.270\\)
+9. \\(0.570\\)
+10. \\(0.710\\)",r/neuralnetworks,Z0FBQUFBQm0yeGJTOVdGV0VFT09EUW5LNkRIU05Vbk1JX0FrOEN5dHRiZldXcWlpTllLZThOcEF3N0xkN0hNeWhIbnI4ZnJrSTdFZFdQYlRtVkJBTkFlaUM0OHFRZ0xuVmc9PQ==
+Thanks 😊,r/neuralnetworks,Z0FBQUFBQm0yeGJTNUlfNHQzeWNGcFREelNHQnBGVnk2ME04NkNqRHFabXZjNkpuWWdmTEpyVXp4MlMtZ2JMSE5BSC14UzlaRFk0VnQyUEdVV0hVby1lRktCZC1Pa1NzM0E9PQ==
+We don't use neural networks because they are a particularly good way to do calculations. We use them because we have a training algorithm that can automatically create systems we don't know how to hand code.,r/neuralnetworks,Z0FBQUFBQm0yeGJTTDYtM0RZSXhJUWEyZHZnWDNCMGE5OF9Rc2ZGYWhqV0U3QUJUZnBZSjJjZ2xsTk9EeEg4dFlWd0xfSWgwUVBJc3ZLWGlZeHdzR29hWHJ1V09STGhndHc9PQ==
+The fuck is this poll?,r/neuralnetworks,Z0FBQUFBQm0yeGJUb0d6cThMUjF1OXkwWDc5UFUxTVpEMW9xeFNzWnR4OFQ3UWFhN3JRaW5MQVdERGhDbk1taFoyVGVWWW0wZkY5QnZZbWU3b1FnaHNkVUFUM0JQckJHVXc9PQ==
+16gb bruh,r/neuralnetworks,Z0FBQUFBQm0yeGJWMmRvb3k5WUNDSXNSM29FblMyc25BNkRseldrYVZZZmcyTURnWjNQSm5HVGdTNk1OTFNMd01ER3BjMjlFZmlHVGpNMjB3TFA5VjJIcGVXalJXUTY3N1l1WTdCalQ2N2dZS0xVeG9hZ1JHLTg9
+"This seems like a difficult way to do this. Gymnasium is the solution.
+
+I could be missing your point though, is it an AI written blog post?",r/neuralnetworks,Z0FBQUFBQm0yeGJjeFo4ZlptcTlpdFp5dUdhNmZQOUpBUzJ2aWJjUG1MaFBfUHU4bzE1M1Fjcll4cnZwUWhzSG5YbVc1aDZWV1FjanpDRnpReFVsWGZSWl85QlZhMVJWRW00N0tpdS1NaUNlZkRyU1JrV1hjLWc9
+"In my experience it's a good way to pay for server time without any result, especially when the data is erased when the server closes. You're better off using a Google Cloud VM.",r/neuralnetworks,Z0FBQUFBQm0yeGJkRzVCZ01xVGo0alVhYlVQZ2FFUzhtN0Uzak01MzlsTzRlLVcyRTB5Rnp3cFZyeTU3S19xTVFLdGsyckhZU3dSamhKSWt6WU5xV1FGelc5WXlkX2dfQXRNeV80SVh6YWd2d2FqZW0wM3MxMDA9
+"Found [3 relevant code implementations](https://www.catalyzex.com/paper/arxiv:2402.04553/code) for ""Curvature-Informed SGD via General Purpose Lie-Group Preconditioners"".
+
+[Ask the author(s) a question](https://www.catalyzex.com/paper/arxiv:2402.04553?autofocus=question) about the paper or code.
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2402.04553&title=Curvature-Informed+SGD+via+General+Purpose+Lie-Group+Preconditioners) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJlVk1QS1ZiLXhLNGJFUVFmTTlIZmI4ZC1iUnZxNThjcGtuR1BQSklLM3FLamlZNVJoMWZvUFFCbjJJeFRqZnJ0X2V5OXhUNTNKdVQ5MXBaRmY5X3c5bC1vdFEzdEV5M0x4WjY3Mk5yZHMyaDQ9
+"Found [1 relevant code implementation](https://www.catalyzex.com/paper/arxiv:2401.17505/code) for ""Arrows of Time for Large Language Models"".
+
+[Ask the author(s) a question](https://www.catalyzex.com/paper/arxiv:2401.17505?autofocus=question) about the paper or code.
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2401.17505&title=Arrows+of+Time+for+Large+Language+Models) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJlM0xFM0RObXJOaUhYZ2JFMW5tTm1RSVJBQW56c2xpWjdvUnpOUGZGMTZDYW9HemEwYmFyQnozeEpkRVRIMlp4eDFKX2ZlcE5Uam5EdUZsZ0pJREpGQmtfbkdjU2pYdUthdVBkbGRfN21oc0E9
+"Found [3 relevant code implementations](https://www.catalyzex.com/paper/arxiv:2402.09092/code) for ""Three Decades of Activations: A Comprehensive Survey of 400 Activation Functions for Neural Networks"".
+
+[Ask the author(s) a question](https://www.catalyzex.com/paper/arxiv:2402.09092?autofocus=question) about the paper or code.
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2402.09092&title=Three+Decades+of+Activations%3A+A+Comprehensive+Survey+of+400+Activation+Functions+for+Neural+Networks) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/neuralnetworks,Z0FBQUFBQm0yeGJlMUVCOVlpZ1lzS05lR3BaMDJLWmRFWE83aE9JM0hZSG5tX2pxaElyNFUtVzhRTW01TXNabVB0d2Z0c0FlRzdxejl4TTRIYmRuLWh6b0ZFaDNaVkQzRmk2d29VMTktZmI1MnBKZTBYZm83eXc9
+"No, take the consequences of your actions.
+
+I think even just this post can get you suspended from your university.",r/neuralnetworks,Z0FBQUFBQm0yeGJmNEUxbk13dktUSE43VFZMN1V0Z1ViQlhoNkFMLXc3ak1jTjhVNzF6WmU2SjNTclp3b3BkcDNzaEhiSnExdmR4bWFxSFFuc2Fad2VocnRaY1ZwV0RZMVE9PQ==
+Very interested in what you find out.  I am also training a model on audio information.  Boy has it been a challenge.,r/neuralnetworks,Z0FBQUFBQm0yeGJsSFo0SmRtZS1tM0E5aTFaSmlNZ2MtYVduYVlFZ1dyTk1Uem9rX2Q3UU9RLVdEVEtnek8xMjZrQnBzaUVtRnpYUGdzUmRoWTdaWkJWUGxwSWdDUXpfeFE9PQ==
+"i know this isn't what you want to hear, but you can't detect corners like that generally. maybe if it was the exact same pattern on every image, but then again why would you need a cnn for that? 
+
+there are many ways to skin a cat. for machine learning, you need to train corner images first then run a differential evolution algorithm to estimate corners. you can also detect edges first using ""sobel"" for example, then evaluate the magnitude of the gradients that pass a certain threshold and voila,corner.
+
+or skip all that and you can just use corner detector algorithms like the harris corner algorithm, shi-tomasi corner detector, or the FAST corner algorithm.",r/neuralnetworks,Z0FBQUFBQm0yeGJtU1hCWGxxd0JQUUI2QTBiZ2tuV2gtbWVIN2UzdWhacGYzaXlhOFU3dnJ6eWhIN19UMWZoTkRwV082TmMtRTA1R2tFSFc5aEZEa194bzhpNGFZNFFQeEE9PQ==
+"perhaps the contents of the book is even ai generated. matrices are printed as vectors, smh.",r/neuralnetworks,Z0FBQUFBQm0yeGJtWDMxM2p6UlUyMlg0OXJRM1BkZ1d1dGdfQWdKVVRGYnZvZlQyd2E3bXZaRjIySlpJcEtoM1JnWkJXcXpGY1E0REFNN00yV3NkV2FrNlJoR19CR2xZZVE9PQ==
+"I'm trying to generate wavetables for my synthesizer, probably gonna make a latent diffusion model to prevent my model from overfitting. Already did it with a convnet similar to a resnet, where from 16x16 noise it generated a 16x2048 wavetable. However, the output was mostly just an average of the training data. I tried different regulation techniques, they helped, but the results weren't good enough.
+
+
+What are you working on?",r/neuralnetworks,Z0FBQUFBQm0yeGJtNmh3WnQ3ZVVMazc5c3pPNHhjRjd6Vlg1SjBoM1F4YjZnYXRZSW01UEM2TDdFLUpVQ2RkSHBHUkF5b2dCNDlBLVZHeUgydmI5QW9SeW56TXk2QWcyY25aaGZvbjBjaHRSZTg2dzhsRTdQV2c9
+"I am working on a model that transforms audio based on input.  So I am training my model on original and altered audio based on labels.
+
+Wavetables are an awesome idea!  Are you using a library of them to train your model?  I have to work in spectrograms, how is your data structured?  Nice to hear of another music production AI project.",r/neuralnetworks,Z0FBQUFBQm0yeGJtUHZXY0NLUGI4T0gwUjZYNWxSSjlwYXB6OURYLXBvUDZCWVk0R2RtUmczUV9YYXh2R0JQNmo1UjA5RkpqT2QwWjRfOC1MaElzTjAyZ2ZjUEpiSWhlcGc9PQ==
+"That sounds interesting too! Would be useful when you want to create effects on your voice or guitar.
+
+I collected around 300 wavetables in a folder, processed all to be the same size, nothing special so far because I want to create a working model with diverse outputs first.",r/neuralnetworks,Z0FBQUFBQm0yeGJuQWlQbVdUajd1b2xZTzJYSzB5Wkp6WlppbFRpT3lqaGVKeDV3TnNaVEoxdDlDUEhfNWxQRWdYOE51ak5fVnpmYnJDVkNCQ2JLYXRuZjk4eEtXSDdkamhkZks5TEJFYnQ5OXByeWZxN3VVYTg9
+Wow that is so cool you managed to create a resurrection technology. Please collect your noble peace prize,r/neuralnetworks,Z0FBQUFBQm0yeGJ2R0VWWUo3WnFVaVdHWDJRRGlNMmdZMlFlczBCcDBTMV8yaHUzazY3c3N6VWRxVnVCWkdTNnNrMnBDWTVkMmdfQWRSdl9Vb1dBRmdHVGt0bndxOXlzTFE9PQ==
+"you can train a CNN based segmentation model or object detection model to segment the words out, that will be generic enough to segment handwritten words in any kind of background, not just white.",r/neuralnetworks,Z0FBQUFBQm0yeGJ3VTZ5MFpwM0Jnb3J6aGsxdUJ4RWJOdDZndjY0THUxczJnS1JTUHVQRDFEXzlRWE5QZ3MzUDFwRTVPUV9OajVYTUdQbUJBVkhTTVpfQ3JpQTQzSWtPUGc9PQ==
+Thank you so much for your help ! Your advice really helped me understand the topic. I appreciate you taking the time to share your knowledge.,r/neuralnetworks,Z0FBQUFBQm0yeGJ3R29pSEFhSE9xX1g2amlvQWFzTDIwMy1CQ0xYbk5QLTNyazRTUG01VTI5bko0azMteV82ZHpEelZ1QzNRMkNYdHFMRFdCenQ0OUFfam9WWmJwMkVQNXc9PQ==
+No,r/neuralnetworks,Z0FBQUFBQm0yeGJ4NHEtN2lBdTVmR0J0R2VtYVMzRC1HYlRObFBLTmhXRGw4Q0l4a1RZVXM2ZUpEeG5GUHh0Z1NLM1NTcjBQaEhSeXlkc0hWX1Q4bFJsQlNRcWJWS2U2bmc9PQ==
+"If this is happening, it means that both sets of images probably come from different distributions. Therefore, you should try to modify the code that creates artificial images, so as to mimic the real ones.",r/neuralnetworks,Z0FBQUFBQm0yeGJ4dFhOdlB4V3htbUU4aTBSNnItRWE3N3JOanFNUEktWENPbjc2a3NMOFI4RDhqYUNkTHJBczhOVkU1RWpLdVhTM1FMbmlObmFLWWNmRU45Z0tKbXpIZmc9PQ==
+"If you think of it mathematically , for example the bias allows the activation to shift. The activation function allows non linearity . Without the bias, the activation function would always pass through the origin points (0,0).  (X, Y). 
+
+y = W * x +b . b = 0. If b= 0 then x = 0, y = 0 , since it would have to pass through the origin point.",r/neuralnetworks,Z0FBQUFBQm0yeGJ4el9kbmdZOE4yamY3VHdjVXduNEd5SUlNZ2JxZDd5M251Zk4wcm9TWERCeURKS3ZlQ2RLNFRHWEZ0MEFDNVpJdXhHMW1xTlZRdmt1LUZITjZtVE13akE9PQ==
+"A bias is equivalent to including a node in the previous layer that is fixed at one (with an associated weight). Sometimes you will see this in diagrams of neural networks. 
+
+It’s just a very useful term to include, since replicating the same effect using the existing nodes in the previous layer leads to too much complexity and hence poor generalisation performance. (It would also be impossible for data that is all 0s).
+
+Neural networks can *technically* learn a lot of things but you want to make it as easy as possible, hence bias.",r/neuralnetworks,Z0FBQUFBQm0yeGJ5STFFekVQX2p6TkNjUGJzclZoVkR1MEZGNUtjNXhCaW9ZaVFzWU5jbFEzTlNlY0NZU0xnc3NmemF1a1BHd3c4SVlla3RZZFJPLUpQWU1BWFdmMGEyanc9PQ==
+"""Shift"" is not misleading here, it is standard. Shifting and scaling are the terms we use. They cash out as adding and multiplying.",r/neuralnetworks,Z0FBQUFBQm0yeGJ5YUlPd2FPVjdLR0pLTUpGdW5wU2ZZQm82TTFRQUZ4S0M5WUdnQUNLVDVMaTc4Rk9jWnFMelduaDh5WHYzbkZkRTd5UWVVM0JZUU1ZTk91eV9oMkVBcFE9PQ==
+"Well my friend, if i tell you a car is going 60 miles per hour, but is been in the same spot for 10 minutes while doing so, wouldn't you be confused? 
+
+Turns out the the car is on dyno tuning platform, but that detail was left out, hence your confusion.",r/neuralnetworks,Z0FBQUFBQm0yeGJ5c0d2RkNjYlgyQ2ZZTmlxUElIR181Z05BUGFGbjJFdnhmT3hpYnhHX3JnMjdFQ2hPTzlRd3pCUzRLQm1xNWhVTzJiekxhRXFiUmNmelVSZTExYzg1Vmc9PQ==
+"Well you didn't use the term shift here, so I don't see how the example is relevant.",r/neuralnetworks,Z0FBQUFBQm0yeGJ5M3FVRlViX0FnS2tzeWE4N3dkemxQd09VcWY3ME54ZFV4bENfYmtvd1JTSzNxdDE4Tjc2SEZBSkNuNVN3VUZENlVuc1dvbzJsOGx6YjkxZzNUZy1NcGc9PQ==
+Go shift yourself,r/neuralnetworks,Z0FBQUFBQm0yeGJ5V0pyOW0yYkVQLUVlbzJXX29IdWpGSHNLLXFMV1N1eUpqSVRUMXAwYjVMYU91dVo4cnBDelNuS0dUeUp4eW11Qnk0TUZqLVhiV1RsZFNGWlFIUV85NVE9PQ==
+"all of the important classes and code cells i've defined prior to calling the draw\\_dot(n(x)) cell
+
+    # establish the value class
+    class Value:
+        def __init__(self, data, _children=(), _op='', label=''):
+            self.data = data
+            self.grad = 0.0
+            self._backward = lambda: None
+            self._prev = set(_children)
+            self._op = _op
+            self.label = label
+    
+        def __repr__(self):
+            return f""Value(data={self.data})""
+    
+        def __add__(self, other):
+            other = other if isinstance(other, Value) else Value(other)
+            out = Value(self.data + other.data, (self, other), '+')
+            
+            def _backward():
+                self.grad += 1.0 * out.grad
+                other.grad += 1.0 * out.grad
+            out._backward = _backward
+            
+            return out
+    
+        def __mul__(self, other):
+            other = other if isinstance(other, Value) else Value(other)
+            out = Value(self.data * other.data, (self, other), '*')
+    
+            def _backward():
+                self.grad += other.data * out.grad
+                other.grad += self.data * out.grad        
+            out._backward = _backward
+            
+            return out
+    
+        def __rmul__(self, other): # other * self
+            return self * other
+    
+        def __radd__(self, other):
+            return self + other
+    
+        def tanh(self):
+            x = self.data
+            t = (math.exp(2*x) - 1)/(math.exp(2*x) + 1)
+            out = Value(t, (self, ), 'tanh')
+    
+            def _backward():
+                self.grad += (1 - t**2) * out.grad       
+            out._backward = _backward
+            
+            return out
+    
+        def exp(self):
+            x = self.data
+            out = Value(math.exp(x), (self, ), 'exp')
+    
+            def _backward():
+                self.grad += out.data * out.grad      
+            out._backward = _backward
+            
+            return out
+    
+        def __pow__(self, other):
+            assert isinstance(other, (int, float)), ""only supporting int/float powers for now""
+            out = Value(self.data**other, (self, ), f'**{other}')
+    
+            def _backward():
+                self.grad += other * (self.data**(other - 1)) * out.grad
+            out._backward = _backward
+    
+            return out
+    
+        def __neg__(self):
+            return self * -1
+    
+        def __sub__(self, other):
+            return self + (-other)
+        
+        def __truediv__(self, other):
+            return self * other**-1
+    
+        def backward(self):
+    
+            topo = []
+            visited = set()
+            def build_topo(v):
+                if v not in visited:
+                    visited.add(v)
+                    for child in v._prev:
+                        build_topo(child)
+                    topo.append(v)
+            build_topo(self)
+            topo
+    
+            self.grad = 1.0
+            for node in reversed(topo):
+                node._backward()",r/neuralnetworks,Z0FBQUFBQm0yeGJ5dmlweWROSTI0Szl4NXFhbzVOTFA4Wlg3TVVVNTQzaVZuNHBiWlhmVGJmQk5wTEw0V1dEMS1IMXg0SzBkUjNWcThkWGZ4a21PclhLemZhbDUzLUV3bkE9PQ==
+"more: 
+
+from graphviz import Digraph  
+  
+def trace(root):  
+# builds a set of all nodes and edges in a graph  
+nodes, edges = set(), set()  
+def build(v):  
+if v not in nodes:  
+nodes.add(v)  
+for child in v.\\_prev:  
+edges.add((child,v))  
+build(child)  
+build(root)  
+return nodes, edges  
+  
+def draw\\_dot(root):  
+dot = Digraph(format='svg', graph\\_attr={'rankdir': 'LR'}) # LR = left to right  
+  
+nodes, edges = trace(root)  
+for n in nodes:  
+uid = str(id(n))  
+# for any value in the graph, create a rectangular ('record') node for it  
+dot.node(name = uid, label = ""{ %s | data %.4f | grad %.4f }"" % (n.label, [n.data](http://n.data), n.grad), shape='record')  
+if n.\\_op:  
+# if this value is a result of some operation, create an op node for it  
+dot.node(name = uid + n.\\_op, label = n.\\_op)  
+# and connect this node to it  
+dot.edge(uid + n.\\_op, uid)  
+  
+for n1, n2 in edges:  
+# connect all n1 to the op node of n2  
+dot.edge(str(id(n1)), str(id(n2)) + n2.\\_op)  
+  
+return dot",r/neuralnetworks,Z0FBQUFBQm0yeGJ5XzIyUDhlX0JmNURfME96TmwxQXhESVNKTnRfWWtKX0tLSWo4SUdOSXhWWF9TdGU1dk5OR2pUSVVETDFFTUFQdVZMeGhHSnRldnY4Qi1hUHFsT0xrM3c9PQ==
+"and the last of it
+
+# define NN classes  
+class Neuron:  
+  
+def \\_\\_init\\_\\_(self, nin):  
+self.w = \\[Value(random.uniform(-1,1)) for \\_ in range(nin)\\]  
+self.b = Value(random.uniform(-1,1))  
+  
+def \\_\\_call\\_\\_(self, x):  
+# w \\* x + b  
+act = sum((wi\\*xi for wi, xi in zip(self.w, x)), self.b)  
+out = act.tanh()  
+return out  
+  
+class Layer:  
+  
+def \\_\\_init\\_\\_(self, nin, nout):  
+self.neurons = \\[Neuron(nin) for \\_ in range(nout)\\]  
+  
+def \\_\\_call\\_\\_(self, x):  
+outs = \\[n(x) for n in self.neurons\\]  
+return outs  
+return outs\\[0\\] if len(outs) == 1 else outs  
+  
+class MLP:  
+  
+def \\_\\_init\\_\\_(self, nin, nouts):  
+sz = \\[nin\\] + nouts  
+self.layers = \\[Layer(sz\\[i\\], sz\\[i+1\\]) for i in range(len(nouts))\\]  
+  
+def \\_\\_call\\_\\_(self, x):  
+for layer in self.layers:  
+x = layer(x)  
+return x  
+  
+# create example of MLP  
+x = \\[2.0, 3.0, -1.0\\]  
+n = MLP(3, \\[4, 4, 1\\])  
+n(x)  
+  
+# draw n(x) nodes and edges  
+draw\\_dot(n(x))",r/neuralnetworks,Z0FBQUFBQm0yeGJ5QkdPSGVjWDBtQU9WV25wUUJXamhzT2tXUzJlTEl2S3NYdE1yTl9URW9oMmZWWDBLQlhNdDNtM0l2akVBRU5MTjV4U2tMTVZ4aDZidXBHM0l3TXZpcHc9PQ==
+"I figured it out... accidentally retained a line of code that was being replaced by a conditional during the walkthrough... ![gif](emote|free_emotes_pack|dizzy_face)
+
+  
+def \\_\\_call\\_\\_(self, x):  
+outs = \\[n(x) for n in self.neurons\\]  
+~~return outs~~  
+return outs\\[0\\] if len(outs) == 1 else outs",r/neuralnetworks,Z0FBQUFBQm0yeGJ6TEJGMW0yWkhLdFh4NmtaSl9oc0Z2ZHRZZHJwd0dibTlzQm9vMzljZkZqS19wRzJ0WndPcXpqYVpBeENLak92dVpONUJKUFdiRS1FNmFueHVkbnQwLUE9PQ==
+"Nothing you’ve said would’ve caused that. There’s a mistake in implementation somewhere. How good does the cross entropy get? Does it plateau in the same manner?
+
+Also I’m assuming you’re using backpropagation. Are you using libraries for this or is it just your own implementation?",r/neuralnetworks,Z0FBQUFBQm0yeGI2SlBIODB1X3VQTUdCVkhIREV6VDVPeXRFbGNpV2FoMk5sZDYxOWRzQ29FUVBET2huckJ2OGg5YzdtZnNsTlBITTVuZVhXaEhNU0hQYXdSSGVFOGlWZWc9PQ==
+"It’s all my own implementation down to the matrix multiplication. And yes, of course back propagating through my 2 hidden layers of 40 nodes. My cross entropy gets down to 0.9 on a good run, plateaus there.",r/neuralnetworks,Z0FBQUFBQm0yeGI2ZTU1ZmZpdERyQjBWbFpSTXBBQ2psVk4ya3lwcVJKeExwU1pPVTZTeTR0Y3VNTHE3WlRTTVQ0clJ1Z0F5NkFVbmoyN1dDN1FfZEdFcDRKYzFCcjhycVRXVFF2dG9pUkU2Z3BiVm5pcDNUUk09
+"2 hidden layers of 40 nodes is quite small. You could try more nodes, although that’s probably not the problem.
+
+Have you had a look at the hidden node values during training? Are they within reasonable range? Also did you make sure to normalise the inputs between say 0.0 and 1.0?
+
+Is there any way I could look over your implementation?",r/neuralnetworks,Z0FBQUFBQm0yeGI2dk1nbjFoM2poUFpkZ3JxTnY3ZUs2Q2FyamFNZjB5VFlGNU55MkFEMkdOR3VOd1dha3UxWlJ1d2ttSzJGSVdxSGdCT2hPZ2VhWnRIZ215ZW03TVZqdVE9PQ==
+"Dude ur awesome bro. Is that normal practice to normalize the between 0-1, and could that be my whole problem? That’s a great idea to also look at the hidden node values.",r/neuralnetworks,Z0FBQUFBQm0yeGI2Nm5ORmtoeWtQQndvNnBWOGFqSS15Vm9Vd29uRTFuZFU4TUxIRW1rWmFncXlZck9SUGhhUFpHMF9oVnBIejFDbkp4bEdiR3d4TUJSSm4xQUxIOWRpWHBGQjJBUHJhSDczaUpCbTd0dllWT1U9
+Does the Scanner see clearly or darkly?,r/neuralnetworks,Z0FBQUFBQm0yeGI3STdjZHZEeUZYanlMZkhIVUVzdVZEYnZocHFnTktDUXdVMV9qOHpWMzFPNWN4Qk5wZXpJcHZFZHB6QVNZOEdBc3JWU0pZVldZYk91RloyeHF1dHBmdkE9PQ==

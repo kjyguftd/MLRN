@@ -1,0 +1,231 @@
+text,label,username_encoded
+"It’s not enough for a function to just be reentrant (e.g. using thread local, static variables) because a signal can interrupt the function while it’s running e.g. lets assume syslog() was implemented with a 4kiB thread-local buffer for formatting the string and a signal arrived while syslog() is executing unless the signal is masked it will interrupt the thread.",r/netsec,Z0FBQUFBQm0yeGNHVXZkR0VrVFEwYnRzenpUUjY3OV9RaGhDdl93R0hwZERidkM5ZXBrSlByNzZ4dXNBWVhMOGRrQlNxZVpjLWI3bEVuQ2tCS1FQNmpBT3dXRGVzUGMzS29OcGt6cnlaRzBzeGdXWURkcFdxd0U9
+"The submission doesn't seem technical enough for this sub, but might be a good fit for other places like /r/hacking.",r/netsec,Z0FBQUFBQm0yeGNHSWhubGgzZlc3eUp6Qm84ZFJIQk1scWV1VDZfRmlET19RU0txSzBaSDgya1B0WnFBWTdxbDRFaTBtS0xscG00dGxiMExiMElraURxZy1UYkZsSzZ2bkE9PQ==
+"The submission doesn't seem technical enough for this sub, but might be a good fit for other places like /r/hacking.",r/netsec,Z0FBQUFBQm0yeGNHYXJVaGZLbmh2cy1laDFISFRUcDdJR19Qek9BZDlMWWg5b0pYUnVpaGxpQzF1V3BUUC0yaEtOTXFHM2ViWkJCS0VxeEVUMUlOSTRweEpuZm03TGRTekE9PQ==
+"Hello, I know this is really old, but I am having trouble running the new wireguard mode.  
+I run
+```mitmweb --mode wireguard```
+it opens the web interface, and I copy and paste the wireguard configuartion to a .conf file, send it to my phone on the same wifi, and add it to my wireguard client, I connect and... Nothing loads, not even mitm.it. I tried overriding the DNS to the one spesified and no luck... what could I be doing wrong?
+
+Host: 
+MacBook Air
+13-inch, M3, 2024
+14.5 (23F79)
+
+Client:
+iPhone 14 Pro
+17.5.1
+Passepartout (WireGuard Client)",r/netsec,Z0FBQUFBQm0yeGNHdUh0UE0xdGNEWF9KTUZiWkJfYXZNbkZ0d2ZWTDBPNkFkYjZlY1VvR2ZSbEJEQ25PYWU4UjdOZk83MmgxNlE3MEQzUkEwOFF4cW8xazZ4b1UwQndPeHc9PQ==
+"If you peer with an org that does this to you, and you don't have prefix limits in place, you have to wonder what's wrong with you.",r/netsec,Z0FBQUFBQm0yeGNHVl93UGNSd3hMZFlGYUIyalJ1NUZqZk1PdVppaWdvdl96eU1mNGdZQkM2eXhqaDF5Mks4aTBndXVCclo1NF9Ga0ZPM0tmbVBYN1BJbEozUDBiYnplQ3c9PQ==
+Thank you for that insight. I appreciate it!,r/netsec,Z0FBQUFBQm0yeGNHU1BvYVFqU284OExJdDZKbHQ0SGlXWTN2MXFvTWN5eGh3dlJWR2U1aEdpWkhrSENqYk11VXdQZUpzWEJCR09uUzhUY1J6eXR4RjJPdUt6WDBvak1YNlNpWlZCMHZ6elphcnVWQmgwN2ZLQjQ9
+"2006 called, they want their bugs back",r/netsec,Z0FBQUFBQm0yeGNHd3RvNVZhNElPTHRncWZZeHJJV3dlM3FISGNRWFl4T0I2b0V1M0lYdnQ1V2haWlZpeHYtU0FJNW5jR2RYc3VPZVVSb2NVdzlvemtibnotak1CSVRQMFE9PQ==
+"u removed a post with 407 karma, and 6 days later ?",r/netsec,Z0FBQUFBQm0yeGNHa2dCNkVvM2ZNWUJRbTNiSGNaNExudE1NMUtRQTJTRVNKeE5lbmdMZnJHZFVoZ29fc3d5SDB0THJoRjh5OXdZRnpFSEhvVXd1VWVOckp1dU5PVmQzRnJLX1lIRFVVX3Q0RmRWMFF4bUZuQk09
+This research is so niche and weird. I love it.,r/netsec,Z0FBQUFBQm0yeGNHamZXakhWc0hkY3ZUR0ItdmZhRmRHLVFxVk40bUxSRHNmZkQ4THZwTVVYVzktUTItaTd2TDVTTUZtYWdBMGVOZ2J3WDFsR3NsMG4xNTd3VnBGeGN0OWpKUW51NkQwTFZicC1la0Z3TWtwTUU9
+"Tl;dr open source ""info stealer"" that looks across a variety of OS apps including browsers/databases/emails/chat apps/WiFi/etc. supporting Linux and Windows",r/netsec,Z0FBQUFBQm0yeGNHdXUtckd3S2t3NnVMMTVWMlN5YnE3UXFwRE4yOHoxRkRyQm9QRkdzaV9ZY0M0dVRKeldzVmtRX3ZjY1ZDNDhhMF9LUmZDY0NSaVZjSG83UGc0RmVzV3c9PQ==
+You will need to eventually replace the cert. Signing before deadline is a stay of execution at best.,r/netsec,Z0FBQUFBQm0yeGNHRGhzcW9OSlhLSXhrUjF2RkFXQ3R5MFpRU2NRQnliVnFucVJiUmExYVF3OVN2aXY2RkdGVGE5MTRvTUlwa0Y2QXQzX3FoM2lmV3FXTF9DanNaYndrVHI2N0R3ZE9RanFMNWwyRlN6bWxaY1E9
+"> In order to bolster adoption of the mechanism proposed above, we provide its implementation under bgpipe, a BGP reverse proxy and firewall
+
+I hadn't imagined a need for a tool like this. It makes sense in retrospect since I've seen plenty of tools like this for other protocols, but I haven't really looked at BGP in at least a decade and I didn't realize that it could be so crazy:
+
+> \\# How can an adversary even get hundreds or thousands of sessions?
+
+> The idea is that remote peering providers and VPS providers (e.g., Vultr) enable the adversary to quickly and cheaply 'click together' (virtual) ports at many (think 20+) different peering LANs. The adversary obtains transit by picking providers that also establish transit sessions over peering LANs (Hurricane Electric being the prime example), many bi-lateral peering sessions via openly/aggressively peering networks (that can be identified via, e.g., PeeringDB), and additional (less effective) sessions via multi-lateral peering with Route Servers. Surprisingly, while it would be hard to assemble enough sessions with just one port at each peering LAN (yet eventually doable), this limitation does not exist in reality; while certain providers directly allow clicking multiple ports for a single peering LAN, there are also multiple providers---this allows the adversary to obtain a 5X to 10X factor for its session counts by establishing multiple sessions to each neighbor (in fact each port of each neighbor).",r/netsec,Z0FBQUFBQm0yeGNHQU0weUVXNy0yNkRTUTFPNGN6bWxSckVPS1lIdHpzd2FvNGNMZEFZZHJPWnVEMWVMa0JsdUhLcHNrNzhUUXJ3eGNudjY5czhBOW1pYmVjcHJUaGExMmc9PQ==
+This sounds like your WiFi is isolating clients.,r/netsec,Z0FBQUFBQm0yeGNNeW1MUXZqbUYzbmxVbV9QMmhfWVNtejgyaUljUGNUc2ZEcDIzT05KQW4wTWFudjJjZy0xQm43emJ4UlA3dkVJSTJvcUxWMzJPbWZOM29pUzNtSFl2cGc9PQ==
+"Isn't paper saying that there's a million advertisable prefixes in a IPv6 /29 allocation, assuming a prefix limit of /48? It's been 10 years since I've had to have my head in the any BGP security or configuration, is there a way of limiting the number of announcements without adding any new security between the peers?
+
+When I was trained on IPv6, one of the core concepts was that the structure should force aggregation in an effort to reduce the growth of the IRT. This sort of attack research implies that this isn't much of a priority in practice.",r/netsec,Z0FBQUFBQm0yeGNNUVBUR3R2SExpUUZVZE5uelJsYWJSY1lNV3ozQTM0SHRjM2hVdEphQkNDYTlSWlZ2bTU0ODl4Wnh4QVdramNJSTZra2RRMUhXem9uRGJjUE5WSkJPcFE9PQ==
+"Hmmm is there a way around this? As looking through my router settings, there does not seem to be an option to disable WiFi isolation…",r/netsec,Z0FBQUFBQm0yeGNNS0M4dW1KSDhNcW01TlEtd0d2QUlFYlZjb3dpdW5HLWE2WDdMSDdyMUZUY2YzdEJMQ2U1U0k5cXc2VnZwZlMybUlYN0tJUWVjMTRhZVFNUXlhdUtBdWc9PQ==
+Great work! I only read and watched the first two but bookmarking it for when I have one of my Androids on hand. Been meaning to give it a try.,r/netsec,Z0FBQUFBQm0yeGNOY24yRTR5MVVPUWpIeFlrNDhtZFFnTUJfSmtiRndNSXhac0tYUWg4dHFIek11WVlxd1E0M1ZmSWZkMUUzTl9Zb2RWSXF4dEdwWVhNdTh1Q1FuWlY3QkE9PQ==
+Thanks! Hopefully you will find it useful when time comes :),r/netsec,Z0FBQUFBQm0yeGNOcFRjLTBXa3VvdW5YZk1Zck84UEMxLVdqVVRCNTdLYkdCUkFFVlpfaHo5Vk12aUNGbDJ5LWpocmdOY1lvV3MtdlVkMndhY3RYRUE2MUN3MTk1dnVhSXc9PQ==
+"I don't get it. Either he quit, or they made fixes after accident. If he had quit, why he is writing about post-incident fixes?",r/netsec,Z0FBQUFBQm0yeGNOMFRxUnhHUmduR3FHNEtKc18wS0FmaVZfbEpyZElYUE9UR2FIcHB1ZEROaV9pa0F1RDBiYmxhSERwQmxwY3RPUmVLdUNsSVI0Y2kta1psRkJiN1NZbkE9PQ==
+"This is some of the most egregious fart-sniffing bullshit I've read in a while.
+
+e: Oh, and of course it's an ad. This whole account does nothing but advertise his startup lol.",r/netsec,Z0FBQUFBQm0yeGNOQWJ2M05GZVc5elRYbzN6OUtLZWV6Tlk3S0cwUkN3d19pSi1EMmQ2TDFCVFpTR2VPdkt5R2J4bVR0NHR5RzZYUnZNeEJPTllIdlVRSHowZ2FEY0g3c1E9PQ==
+He is saying he fucked up so big that he quit his job to create the startup he's promoting to be a fuckup consultant.,r/netsec,Z0FBQUFBQm0yeGNOZGdrNVZxZE81VHpmcmpvTHY5Wnp6WGE2bDZEdFl1S3U1QlM1dU9hTVE1Wk9oNFVQb0oycWhnNG1CVDdaU0tYUGJvQzBhSjlqTmhFMTZUcTk1Nkc1S0E9PQ==
+Oh yea. I thought it was some Medium article when at the end it was advertising it. To the down vote vault it goes,r/netsec,Z0FBQUFBQm0yeGNOTnJ4cWVMU01qcHhyaEpzS29mdXc2Qk05VGZHbklIeHlqWF9tNU5zMTZtY2xmRFdHQ1V5NWVEQl8tR1UyMVlkaXdVSS15MEZpX3ZpT0pGZEVkaUVIenc9PQ==
+"Didn't read the article.  Obvious spam.
+
+I can tell from the clipart hero image that he deleted a schema in his database using ""AI Data Masking"".  Clever.",r/netsec,Z0FBQUFBQm0yeGNOMGY1Nm42STNUNFRnY092VlozTHphSzRBalRnTTRSNU5LQlpnZHRKU0JPM1FldHBLZk56bWRaY2U1dHZ5T0gzOHdMUEJIam5WZmxCdUxkMnJBLUp6YkE9PQ==
+"Who is not going to rotate away from them not wanting to lose trust with Chrome? It's a double edge sword because it's possible a ton of sites show warnings and users get used to accepting them as normal. 4 months should be enough time for anyone who is paying attention though.
+
+I'd imagine Entrust goes out of business though.",r/netsec,Z0FBQUFBQm0yeGNOSE1xM0dXOVRydlk4ZVNlY0hPSzlrbjR3dVY4OURUZmoyWFo3VGtDeWZXZ0k0eGNwTFF3ZWxJcGV1Q090VFBDSkp0b3prYTRISUVrYjZVNFdYbGZJZmc9PQ==
+"Tbh, I've always found this technique to be a bit overrated. Effectively, this is exactly the same thing as writing an ELF executable into /dev/shm, executing it/loading it, and then unlinking it , except this solution is less portable as it can only be used in systems with a libc that supports `memfd_create`.
+
+If you are using this technique to execute a capability via execv(), a defender or another actor on the system can still easily recover your tool by simply reading the symlink in `/proc/<PID>/exe` or `/proc/<PID>/fd`.
+
+Additionally it stands out pretty badly if someone looks into `/proc`.",r/netsec,Z0FBQUFBQm0yeGNOZ1o3ZGZoQWZOUW1UakhNLWdtOFozcFZVemVrSkIxVDkxb1NERTQ4eGE3ajZvLXF3ZGN5TXhwb3B1cV9LNEhqdE5fMTgxbUFldmxYU3VnbWhoMFhsMnc9PQ==
+He never responded RIP,r/netsec,Z0FBQUFBQm0yeGNOYTh3bHFMMnZ0ZjcyY1RpZ3VVV3RJZ3A1OU1FbXA4SHg3VThJdWhkUmg2ZXJZa0N0SGxVV2hKUGg1alN3S2ZxeUFvcGpsbmtsLXhCYTBpOGo2RzVvQmpVZklyelFaOVRTcjF2bEUxR2pVaXM9
+If any of you guys need a hacker let me know,r/netsec,Z0FBQUFBQm0yeGNORVJuamdmZS1EaXlhZy1oTzlTWVVVN0MtSlRTQ1dDd3hsek1jVlZ3anh3RjJQWTZ4NVI4dVFfUWpjQUNVZERvWHNvUjBiVFY0S2hlYm5BMHppQUh3V0E9PQ==
+"Not what I expected to be reading over breakfast but readable and interesting anyway, thanks.
+
+For the JSON issue where a huge portion of the input space is instantly wasted because it ""has to be legal JSON"" could it be split into two test phases, one fuzzing around all the non-legal-JSON inputs and another where fuzzed inputs are explicitly wrapped in legal JSON formatting to some degree to ensure they always pass that first pinhole step?",r/netsec,Z0FBQUFBQm0yeGNOWDU0QUxfc29CSlNxVDU2eUg0QVJXMUs1MkdTZlE5elhVMEZmV3BxNmJUTHMyaHQ3eVVVTnJEU1ZBOUROd2dNRjlFQjFfRUZQX1YxbC03ZDlyUTF5a19fWk9aZjNyNHJtZ3NoSEY2U3dpa1U9
+"My use case was mostly running ELFs in embedded devices such as routers, which did *not* have /dev/shm mounted (which, even then, is oftentimes mounted noexec), nor any writable mounts.
+
+> except this solution is less portable as it can only be used in systems with a libc that supports memfd_create
+
+This tool generates code that calls the syscalls directly (on target langs where this is possible). You can also optionally use libc (to not hardcode the syscall number), but it's not required.
+
+You're not wrong about reading the ELF from /proc/<pid>/exe, but as a note, that does require root to do.",r/netsec,Z0FBQUFBQm0yeGNOVFFUbmk0emZ3NzEyZDQwNHAxeUY1dUpYdWlIanpsQVNwTDZ2azV3U2NERU82eldaR19IbGQyX3BQQkJlYmVncmtxMWFBNWZQdVItRFpMSUVNNEpyV1E9PQ==
+"Wow, this is amazing. Much appreciated!!!!",r/netsec,Z0FBQUFBQm0yeGNOWFdRSHJLb2NPRXVqLW50dTBpM1BHcHdHUkNkc28yTlZXaU9RSVQ0aHQ1ZkRpa2t0bWlDcDVjdFIzaUhFOHFoa0lKYXpkZ2JCMHp2SHNVSzZsNUc1RTFYeGl2ZWN4R293dHZEZndCOXVabWs9
+"> The strategy has found countless security-critical bugs (think tens or hundreds of thousands) over its 30-odd-years of existence, and yet faces regular suspicion from industry and academia alike.
+
+Over the course of most of those decades I've yet to encounter a person who has an issue with fuzzing, are these people real or just padding the article with an antagonist?",r/netsec,Z0FBQUFBQm0yeGNONm90VmdDcVI0Smw1bTc0Sng0dHZWY0kwbXNfaERicHpGSjljTC1ZLWQydDBmSGtjVGkxcFg4YjYteGFHZjk3SkE5LTBoUFhRMVZkM0loV19fcEJJVXc9PQ==
+"maybe it's the security equivalent of nine out of ten dentists recommending the use of any particular brand of toothpaste :) Nine dentists would be happy if you brushed your teeth with any toothpaste, and the tenth is a weirdo who likes only one particular brand of toothpaste.",r/netsec,Z0FBQUFBQm0yeGNOV0M2OWEzblUyWHYzZ3RQQXdhNmhTWXlZR0FoVGdBejk1Z0pZSVhhYWlIQXFMXzdYYTdmVWNKdTkxaVJiZ3l4V1BhekpFTE54SktLRUZ2M3p2ekZQS3c9PQ==
+"Yep, this one reads better than your last article you had to remove out of embarrassment. (The one about channel bleeding iirc)
+
+It's still rather shallow.",r/netsec,Z0FBQUFBQm0yeGNPYUdXZjVuUVhjUnVmR1pVOXJxTm5aVHFXdmhKc3l1NFNCbzZzMjhPdEdOc0wxUWpuWlBaMmdPVWFPWEFQOVU4ZzFQMDhNMG1wQXFjX09Rb3BfSjJOemc9PQ==
+"I feel like the title promises more than the article delivers. I honestly thought this was the introduction to a much longer piece and I was ready to dig in.
+
+A better title might be ""An Overview of the Methods Used in Enterprise Wi-Fi"".",r/netsec,Z0FBQUFBQm0yeGNPT3RsdTJLQVQ3VUxHRzZZUnI1N3h2b3RIZjlSV0VydlZCa1lwempfc3huTkRvM0lqUHd4cXA0VkFBMXJmeHJjZ0U0elBlRVMyOFM2cGtrdVMycldQdDFuYWlkbFY3VEFrTG15OFlWYzRhQVk9
+where's CoA?,r/netsec,Z0FBQUFBQm0yeGNPUXNDaXYzSU9HR3lRZVBncXE3dmxxQ1AybUR0TmR3QWg4UzJUelB6YkxjbkhjN3I0eFZkb0JVcVNZWFI5bU5hdXRDVF9VdUNtRnRkMEhKSFhLZXFCeGc9PQ==
+"All post URLs also seem to incompatible with the new blog. It has become a traditional between companies to do that or what?
+
+
+PLEASE RESPECT YOUR AUDIENCES!",r/netsec,Z0FBQUFBQm0yeGNPOFMxTjFZQl9DdVlRQ1paaGxGWFZmOEVESEh0dGZ3NTlVX2ZiVkRHM080aTdJVzFQXzR0NWp6eWR2Z0VMZEpMTkdYM2M0TmR4ZHJYR0k5SnlxSUtOSHc9PQ==
+"You could say their blog now lacks *intigriti*.
+
+(•_•)  
+( •_•)>⌐■-■  
+(⌐■_■)",r/netsec,Z0FBQUFBQm0yeGNPcXJ3SFpEbVhldzRacWo3dFVpZ0t5V2xUb2dNODdxNDJlbG83OXhCb2FxY2ZNSmVJYk43SFoweTRYWjB1RXk1V3hVTFpYeUtrUnQ0eVlKbHlnRDlkaE5kSFdXU2JGTlpremsyck1LTk5TWHc9
+"And how exactly is this relevant for this sub?  
+mods asleep?",r/netsec,Z0FBQUFBQm0yeGNPWFc4VmtpSTllbzZGZ2t2LXFqakhIV3ZDSXQ5bGFuNVBNMjRJcHpHdWJHV3FmNEkyVjdILXpvM3Y2bWN2SnloRXNtRHBLQUZoSy1wbldxXzJ5anZ0dHc9PQ==
+Okay...?,r/netsec,Z0FBQUFBQm0yeGNPVm1uVVcxRmRaU2xnTXNyWlJvOHp6RFhkU2dzOHZzVFVyS3k5UHcwY29KQWtMU0FYYWhkU29fc2FHV1piLU14MFhfY1I0RHB5V1Z0YlgyMWw3OXo0R3c9PQ==
+"I'm with you. I don't know why a website complaint is being kept here.
+
+
+People are downvoting you so I guess they want these posts.",r/netsec,Z0FBQUFBQm0yeGNPYVEzTTlSN253aFBtTl84TmxnclVnS0s2cmhMeHlhNzFoc2EzZDBUaGF3U2pfdi1wdTJtbFUzU1NHVy1RS2dTLUVNQ0pUczdfWGQ1TmdoM2M1Y3UxUEE9PQ==
+Hey! This is from Intigriti 💙 We just did some changes internally and we will update this ASAP. Sorry for any inconvenience and thanks for spotting it!,r/netsec,Z0FBQUFBQm0yeGNQWEZkbWlfelNhOEY1VFlPZ0Z2Z0htal9POFlZR0FkcmhNYy1MaVZaRmY2RVVySllDbGxCeWNHQ3AzXzlEUEZFLVNhbWxscjBGVWpRZ2VEcFlOemtpX2c9PQ==
+"It will come back we promise, it is a bug not a feature :P",r/netsec,Z0FBQUFBQm0yeGNQNlg1SjBteU1rWk5IOHFUc3lNODkzSFlDcUdBZDd6TWJJQWVrejhXSmN4bDFHNnBjd3Vuc0I1Yzh5a1h1Uzc4eEk0VTBIS0ZfRDg1bEVETnBfQVZucFE9PQ==
+Can you give an example?,r/netsec,Z0FBQUFBQm0yeGNQWVB4NzhnWFNqN2FBTTE4ZmtJZTMydW5USkd2NTB0VHJtR1BidG5PaE93T2s3RnR3dUREcjJjZ0JhTnBWa2ZGSHkzdW1uN2l5MmFjQ2k3THhpeFFFRWc9PQ==
+That moment when you have been reading for over five minutes and look at the scrollbar to the right.,r/netsec,Z0FBQUFBQm0yeGNQbFo5TkJhZkdnc3M3NmNsY1F3YS1KNlpmMHlnWjZqRGhUVDl4UE9YZHF1TFJMaEJUTVVCQnZvQXhDdGhMUF9qTDRGY3FaWC1JZHdNOHB5MDhQOUxhd3c9PQ==
+FYI it has been fixed [https://blog.intigriti.com/feed](https://blog.intigriti.com/feed),r/netsec,Z0FBQUFBQm0yeGNQdExuTVFiUWhEakxlVXdhbmE4YWtoQTRLSXRfMlhHWllLUE9IXzhVNXg4cC1xTXY4bDJzVGFyY0k5Y3BCRHlUSnQ5RHVCR09JLW0zdk9yVHJDZnE5cXc9PQ==
+Seems to be back: [https://blog.intigriti.com/feed](https://blog.intigriti.com/feed),r/netsec,Z0FBQUFBQm0yeGNQMEh4XzQ4d3BaRXRpYjNMY3lOWDYyZlJmcmhmVlN0SGNNbzRiQXUtMW1JRExPODZtdUI2UUNuanpLNTd1c2lrNF93Rnl3eGp2aXNZSkdMZWZaSTA4SXc9PQ==
+"I'm not even done reading yet, but it seems like just the base code is garbage.  Binding to every address by default, hardcording a printout of 127.0.0.1 ?  Putting allowed URLs under performance tuning?  
+
+What a fiesta of terrible choices.",r/netsec,Z0FBQUFBQm0yeGNQdDB3UXpmcTFwZEhyT3owdVlEQzFVcENtVHFJTER1QzRlNWRiY1k3b2hXM01rZlZxVmlMdjVLZENnWTlqU2xzcmpTbmJaS3RweHVUaHpyak96RHhKbEE9PQ==
+"If an attacker has enough of a foothold to steal your browser cookies, they likely already have access to everything else including the credentials you log in with in the first place. So users should probably focus on securing their computers from physical and malware threats rather than worrying how cookies are stored. On a compromised machine, all bets are off.
+
+> Stop using cookies on high-risk websites, such as those that collect personal information; go to your browser’s settings and disable cookies for those websites.
+
+This seems like more of a privacy concern rather than a cookie-theft related one.
+
+> Use a third-party application to defend the files in which cookies are stored. In case your machine is infected by malware, this third-party defense mechanism will protect against cookie theft.
+
+What third-party applications would be recommended for this?",r/netsec,Z0FBQUFBQm0yeGNQbGkySVczRjJoZkdNTF9mQmFMNW1NUHBoZlVvdzJaX294S0lpZmt1dlhNNmUzUURFcGRyMzNDWUl4eW9aRkp0cUlEbFhmTEFFZ2Fyc0ROZFpQM053MEE9PQ==
+"Worthless blogspam that basically amounts to ""OMG, did you know that malware running on your PC can exfiltrate data, and that cookies are data?""",r/netsec,Z0FBQUFBQm0yeGNQMVlZdDAwUWJScXBWMWZyelJfb2ozdG5DTUJqZlRVTWpGSWtIS3Jjb0RkWE5MNWZoZlIzYi1wT2MzaUF0UGlzTmU3SEVCNGZTZVQyY3M5S1JqZFZxeWc9PQ==
+Where’s that guy who shut down their internet for a week?,r/netsec,Z0FBQUFBQm0yeGNQWTdPUk1yMjh3OEJRcllRV2hOWWk4T0g0Y3R5OVF2b2FsS3E3ZF9qN2dnU096cy1aVHRIb0hoWjBzbHNtakpwYzJpcU1KWFBhN3RQNXB4MkFDWFhfRUE9PQ==
+Can you tell me if onlinebluepills.com is a legit website? I'm looking to buy Saheli birth control which is only available in India. Thanks.,r/netsec,Z0FBQUFBQm0yeGNQdF90N0hkX3hoQzhlWnltOEN0VkFDSnFhTHB4S1JaLUdOYkFYUmhfTkMxRXk1cnRMYk1oRVdFeVZTT1BsUVlTbE8tX09BNGtyck9wUVB5Sm5mLUx3emc9PQ==
+NPM is a plague.,r/netsec,Z0FBQUFBQm0yeGNQVFpHYzRRbE1rY1BTTW4tSEw5bW9JYmkzTnRxQkdwM0pTT0pWNmJHRWNGaHk1Zm04NU9ybGNQYk15Y1hfck5jTjdNdnJjeFFsTEJhVnd1V005b3F6Z0RXdHRZVlpLNy1qdUZuZGxzbkliQUk9
+"Great write-up, but good lord this is a horrible situation. Again.",r/netsec,Z0FBQUFBQm0yeGNQUE9aLUxpcUtVZW5GdVpuNGptejdQUmNhZUpzUlZDWVJ1Z2VrcU1vQlpRaXNFZXI3U3Q2WnFCUWhGUUpTbGljclN1WFdmLW5CcXJONTBQZXRWSk5kV3c9PQ==
+Macrium reflect.... Saved you a click...,r/netsec,Z0FBQUFBQm0yeGNQVzRfM3o5XzhQRFpqWnN5ZkxkWlNXLTRJNzFCYS1Bc3l0Z2RCTFBYUlRnOVFEVnYzSVRmYnZ1dE4yajR5SWRIOXBLbmJoOU1WQ2NKQzEwYVcxTXg3SUE9PQ==
+I’d like to know who thee shitty isp who provides connectivity to NK.,r/netsec,Z0FBQUFBQm0yeGNQV0I1Y1duT2FVYmZLYUhZS2JaU3RLOFdSU1M0S2dKOG5MZHFrRFJjU2ZhcmNLNVVmbVRRVjZRbmwxV2xIRkU1dS1WM09wLTBHWF9MNU1RSlNVYjl5RDk2eVc5V1JpcVRFWUZKWFJFSjZNeVE9
+"Couldn't agree more.  
+The problem is that production (Java) server is written by AI engineers that lack security orientation, never read the docs, and hand the responsibility to the users.",r/netsec,Z0FBQUFBQm0yeGNQTDhJSkx2NU9RSEF3MHpYRHJtZjMyOFJhU3pxdG5UOVZlNTh4Y2dPWjJxWUFqTW5GaXRULXZEVEVlMzhmQm9QVjRsU2s0cDZLMElQajhXU21DQjJTMUE9PQ==
+"Another one? This is an  8 day old article on RegreSSHion, and isn't new.
+
+This is also an ad for this company.",r/netsec,Z0FBQUFBQm0yeGNQYURlZUZJYkF4blFoU1dQOXRraFBsUXgzTEpHVFN5VFpvTGw4cV8tSDZZSFYyanBLMUhHQ0tLbnUyS1hjVHlVdF9pQnBkUjExQlp1aFl0RnRpb2RZM2c9PQ==
+"> affects OpenSSH in versions 8.7 and 8.8
+
+> OpenSSH 8.8 was released on 2021-09-26
+
+I sleep.",r/netsec,Z0FBQUFBQm0yeGNQSEdkemNyVnFlcUNzSFU0OXF0aVRoVmo0UWFsT3RTSW4xOGdJN1ZJcWw3ZXpmMXVkamI4SkZ3Y0s3WlowOW83cEZXc2p6enJfaUpERXZ6ZTBsa3JZbEE9PQ==
+"As someone who maintains Linux in the corporate world, trust me when I tell you that many systems are still sporting Debian 8 and red hat 7",r/netsec,Z0FBQUFBQm0yeGNQT001QVAyVFNHVkQ1WWRIbjFKV1QyRm9OVG1PMHY4UmxxRjRvNTV1cmxqUzdyWklTaHBEMG1Ea3RUOEZvbXQzaE5uM2JidXdEMU8yMm9fWFdocmoxZ3p3WXk1VGlrSk9kazh4M1FXLUpBc2c9
+"""Debian 8 jessie support has reached its end-of-life on June 30, 2020""
+
+Wouldn't call that maintenance.",r/netsec,Z0FBQUFBQm0yeGNQYWpXcmtVZHc3TUgtWmVyX01XaTJmbnQySTBMSHktSUYxd3ZhSTR5cE1vZUE4T2tjR09oUk1DSTBBY2drNXFhNy14VTB4TFRyd2RsZ3NUOTBoVldQUWc9PQ==
+"Trust me I know. I was recently looking into a company's Data Center and found it loaded with tons of no longer maintained releases. Some of these machines actually had public IPS. Thankfully none of them had SSH open through the firewall but it was a mess.
+
+Businesses get very comfortable because their Linux distributions hardly ever need to be rebooted, and just work, so they don't think they need maintenance. There's still a bunch of these ""if it ain't broke don't fix it"" CEOs out there. Some may call it a travesty, I call it job security.",r/netsec,Z0FBQUFBQm0yeGNQQUdPQWg3ZWZTQllxaGZQeEVLenRsbzM0R19OcEdUYjREVDZhbk5hQWVUQzdPZFJ3cXZ5SDU5SGIwMXl2OTRZSklvb1FpelFXTXRpNDYtdHh2VVBjbDBUa2wyOUNrNTJtbDgweHhXZzVRaUE9
+https://nvd.nist.gov/vuln/detail/CVE-2024-6409,r/netsec,Z0FBQUFBQm0yeGNQMy1hR0toajhFemlZdUVuaWdPMjNtYzFsY2w0RFB2UGdlWEZtamt2bzkwSnhrOFBEdVB2T25PcWg4OHk2WFBwU3N5VHJBYnNxTzU2T09HRE01UkxwalE9PQ==
+Busy preparing for his book tour I’m sure,r/netsec,Z0FBQUFBQm0yeGNQSUx1NFJlWnQ3S1EzcWJJX3JGWU44ZnlmbUVtSnFRck1VWkxueE5EMUtaMkNWZ1hHeFp6aWdFUDdSVXZmSnBLcEJnZEdmZjZOTE0tRnB4UlozNldZLVE9PQ==
+npm - Because why NOT include tens of thousands of lines of code from hundreds of random authors in your project?,r/netsec,Z0FBQUFBQm0yeGNQVGhGUlcxcDBuVHZ3eGVXT2p3SEk1RGFLUlhUVkI3elVuNTNMSEFDblBIOUNZUm1Gc3RZVFVXdVVmR3lUNmlITTdBTTY5U3VTbkdqQlJqb3BHaHVHTHc9PQ==
+"This is why corporate repos are making a comeback, and tools like Artifactory with jfrog/xray are gaining in popularity. How many more examples do we need before we deem it irresponsible to directly pull from NPM (and others).",r/netsec,Z0FBQUFBQm0yeGNQNUJrenlKUXlZVlhpSFhYMGlVcjk2eGRjN0Ftc0Z5VUNCN09IbjZKVXItbHJIQm5aSHBMX2JhY19EMkk4eDQxdEtCd1RlbENvVjVPV2VpYWlxbGozb1M0WTg3RjA2QjZaeUNfWU1TTFpHVTQ9
+"You know that’s a very good question..🤔  My guess would be Chinese Telcom
+maybe?",r/netsec,Z0FBQUFBQm0yeGNQSkhpb2lwQlRMQ1BZNXpRMThlTFl5Qy10enk0TUNTbTc3aUpxNkdlVElITDRPaVl3ZTNzb3dHcEZGV3NjdkRkM29lLVdSVkdYWGhlbXdLTXNJVFduYVE9PQ==
+[Or just include ~8 lines because you're so bad at coding you don't know how to left-pad](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/),r/netsec,Z0FBQUFBQm0yeGNQQzVlQ2xycklIY1lKa1VnLTRkQk9HWG0yTEdrWkcwTzBlTk5FbkNxYVhfaWJsdGFKRzZ1eHdLSWJ4Z0FtTW1PZmxvNkduWkgyM1RnR1dYMHNQYkdlUmc9PQ==
+"When I first heard about it, it's pretty surprising: _""oh my god you're telling me you didn't properly type the untrusted input channel? have you even \\*heard\\* of injection attacks? you're literally writing a kernel/hypervisor for hardware that, by definition, doesn't have any undefined behavior; how could you mess that up??""_
+
+But of course that's in hindsight, from this age of cyber security.",r/netsec,Z0FBQUFBQm0yeGNQY3o2dHB4OEhaVURhYmhiZnBuTjNPN1c0cWVlcWlVN01oNWpfUmVXXzRNRkxPT2tZZDA1UEhTd3F3NGhYcjF1dEY2U0tJWGxMQnBsM0Rldlo5WG92blE9PQ==
+"RegreSSHion was CVE-2024-6387, this is CVE-2024-6409, with different impacts (you don't get root as the bug is triggered in the child process instead) and different vulnerable versions (8.7 and 8.8 only). See the discussion on OSS Security:
+
+https://www.openwall.com/lists/oss-security/2024/07/08/2
+
+Seems to be due to a patch by RHEL, so RHEL and Fedora are affected.",r/netsec,Z0FBQUFBQm0yeGNRUklIYTIwTnJoa2JXbTJ1VG16RWUzVXBYczdnQWRuYllUMzh5b3kza3hHY0ZJWFJGdzl1SlRHR1FiT3kwVVpKSmllNGhPbndRNkNVb2hsSGo0VXpBdlE9PQ==
+Bravo,r/netsec,Z0FBQUFBQm0yeGNRczlOekZNbTQtLTBYRk5zMEdaVERIU2VGek44cDd5TEhEbmF1QV9ONlB2YVlsVGhaUVVDd2JUb0w4TGRuYTVvODhTU090VWVJWVNkOFJFREM1dHpqd2c9PQ==
+This is awesome.  Thanks a lot Joe.  Also thanks for ssh-audit . Just really practical and helpful - both the testing and the guide commands.  I have a 2fa also installed hoping that will add a layer just in case.  Also the web hosts we use might easily sneak in something either as a key / kernel change / similar... just an idea you might consider.,r/netsec,Z0FBQUFBQm0yeGNRVXpUSFlPMDZyNkJsUFlSaXYtalBqNml0dWp1ODktczB5Tm8yV092Z2tlbEtzc1c3UjZ4Xy1GVFBYOEFSd0Uxa3pZNDBveU00VHlGSHRUeU9vbUxjdkIzdEsyN1EzWk5JUUZNb2F2UjdoYTg9
+"Using private repositories exposes you to many more classic misconfigurations and could cause dependency confusions, which is an order of magnitude worse than typosquatting/install this package attacks.",r/netsec,Z0FBQUFBQm0yeGNRdFNFd1BvU0lSaFBmdnhQUmhtQVdSVzJ5S2tSOW5ia3VKUTd5V3hmem9IUmdmVlZuekx4ZEpaSG1uV0RTcnBNOEllanR0YmtFNlJVZF8yd09vMDhpMWc9PQ==
+Didnt know McAfee was a really smart guy. Truly a movie character,r/netsec,Z0FBQUFBQm0yeGNRRThoZDIzV08zSnFDYkhweUlsWFFoWE84VmhaTGdlcWhrcnpnRlhackNFemZDOUU3RzNSRHRsQnJvMEVVcmV0U056SUJUcXU0b2tJd1hxR0VpZzVweXd6RUFPMzgwUHpOa2tBOWZfcTJLd3c9
+"I've also met with similar ""antagonistic"" opinions from very respectable people (won't tell names), although it was several years ago.",r/netsec,Z0FBQUFBQm0yeGNRMklHa21qaV9uQjhfaVBzZHhWMXRnTTJUUUloRDJZbG8yS2xBQWNzbTdWLUlXZE5hOUlvWHBsS0JTS05PWTA4LWprekhHQVhqanBucGt3Ykl5NDZEMUE9PQ==
+Another reason not to buy tp-link,r/netsec,Z0FBQUFBQm0yeGNReUFGN0JwUVpMSlBfY1RET0tMRmRJck9JNkdxVkJoUWY2cXFxU0xyV1ZLYl8yQ2w3b294QU94VDYtYzk5ZkZhSjFxeW02WG1zOFNlQ25ORWtxa3h1TGc9PQ==
+Or immediately replace their firmware with something Open Source.,r/netsec,Z0FBQUFBQm0yeGNXbG5WUEU4YlluYjJKMkdLVHRVRVk2X0N5b0dPdXFuWmhfNXlRSXdJMkdLSkZ6X3ZTNFZUYlBiLUszWXN2OW15QUhNOWUwWEZnNFVLV1VqUExKcGNqZUE9PQ==
+"Reading the article it sounds like the issue is actually with the Comexe DDNS system (which TP Link Omada supports).
+
+If you aren’t using this specific feature and specific DDNS provider then it sounds like it’s safe. (I updated my firmware to the latest version anyway)",r/netsec,Z0FBQUFBQm0yeGNXcE9UNmhvV2ZjYWpCekpJUEhjZlg5Y2hlSVNRLXZKaXRUSHNVX0NKRnppeTBhUHdkNVBpekEtcXpkaXdWb2dPcU1URklOdTVzRENackc4YnlnSktkc2c9PQ==
+Toilet Paper Link,r/netsec,Z0FBQUFBQm0yeGNXeXBRRllNWlpoeXF5bXNXM1h5ZHR5TFZsdGN2M1o4TlZRRFdaUkducXM4R3FaLVBFZm5KMi1WOWRjN2VZdnpDcEVKTzkybFFwaWo4VlVoamRqSXZvcnc9PQ==
+No idea why you're getting downvoted. TPLink is garbage.,r/netsec,Z0FBQUFBQm0yeGNXYnpGbjBaNjRtR2Y3aXVYNlZwV3g0MTdDbXE1ZGE4bkNURjYyTXZaSHVaV05DREdsbWkySUlhNXpXRFZSQ1NEaW5ncmdKUk9DY21uS1VuRmJ0ZmZmb3c9PQ==
+Nice writeup,r/netsec,Z0FBQUFBQm0yeGNXNmdhX0t2R3BoUDdZVGY2cU9Qd2R2M2dPcGZobWk3SS10NlhMNU5lVF85dGR6UG5icC1jLVJWRXJveDU3d3hvMmtJTGRVeVB2OUhVakgzR3dPYURXUXc9PQ==
+"Sometimes, after they use fuzzers to try to find bugs, an inexperienced user is able to miss an entire forest because they are busy gazing at a few trees that were found by a fuzzer.
+
+For example: Some people see a crash found by a fuzzer and fix the code at exactly the point where it is crashing, instead of figuring out if there is some other point where it should be fixed. This is wrong a lot of the time, as can easily hide conceptual issues in a crashy program.
+
+Obviously, the error lies not with the fuzzing in these cases.",r/netsec,Z0FBQUFBQm0yeGNXNzE0LVg0UUlfMW5lX2ZvcGZHS3cxaHJkOGstM0VRTklKNXdHdUl6OTE4ZzRnd1ZPelFjekx6WDRKX1RWSmttdzUwT1Y3eFZoR09GLXlXaXZDOUdXTlZzS3FuNXJaci0zQlZPS1I3Y19LZUk9
+"Their Omada line is considered very good actually.
+
+Edit: also I downvoted them because the comment seemed very reactionary and irrelevant if you actually read the article (the vulnerability was cause by code and services created by a third party company, not TP link)",r/netsec,Z0FBQUFBQm0yeGNXYWlGSVB6cldsN1pqX3ZESHYydXh1T2FBNU5Tc01PZEdmMTMwR1VzM01xLWs2NUZqdkVEZzRwMk9obnJmbm11RVpMM01WOXF3NzZPQXhKQjVLSVlKQ0E9PQ==
+This chain got more and more funny as the article went on. What a joke of a platform,r/netsec,Z0FBQUFBQm0yeGNXZ0JEUTk4WU1rZ3pRQnNoZFdTbTNYRWdLdl93OWI2bFRocEFLVjhZMGttR2xkTUI2azJWSzM4M3VLUnBLVXdYNW1kbl92SUJxOWdwbE1aMlJ0MnNlWHc9PQ==
+wow. great find. and thanks for protecting us all :),r/netsec,Z0FBQUFBQm0yeGNXM2dtY1RvSDFBWFFyek1MekFORVZwU0tzV3Y0M1FkRmRVOGRpckVPUjV4SlVQdzM2VVRZNXVqSjFLWnBjUk1WZE5ndDhKaGRhSWc0LVh6M1hsbFJ0alE9PQ==
+Upvoted :-),r/netsec,Z0FBQUFBQm0yeGNXYkxxVHNUdm9NTDdYQTBPRjJvLWtYSGFKX2tRdzg5SVA5emExTzRjRTVWMDZDQ2FkXzVnWUc3SG9DNTFQNXhqZEs3eUlDY3k4NWNoUEpzNENFNERJVUE9PQ==
+"This is not bad, but there are a few points I would add:
+
+* Access-Control-Allow-Origin of * prevents cookies from going up.  It is an unfortunately too common mistake that websites might reflect the origin from the browser Host header rather than using the wildcard case, which is safer than reflecting the origin.  There are some unfortunate libraries that have had the reflected origin vulnerability (gorilla/handlers being one).
+* The end section about using custom headers to prevent GET requests from changing state — the better option is to not allow GET requests to change state rather than doing bandaid patches with custom headers.  GET requests are not supposed to be state changing.
+* The statement at the beginning is wrong: “*But thankfully, this scenario will not happen. And it’s all thanks to CORS*”.  No, it’s due to the Same Origin Policy.  CORS is not a security feature, instead CORS is a relaxation of the built-in Same Origin policy.  CORS reduces security to allow functionality that the Same Origin Policy would otherwise prohibit.  The trick with CORS is to make sure you don’t reduce it too much, and the most dangerous scenario is reflecting origins with Access-Control-Allow-Credentials set to true.",r/netsec,Z0FBQUFBQm0yeGNXUVBBRVVyU1FQSjhPMkQxeUh0NWJsSHZnSkdGQjExQUlHdGZ0QXNJck5oTzJtczVtenMxanNMMHlsbVFuRUU3Q2lFNU1DUEQySnA1SUFta3VRTWNmdVE9PQ==
+"Is it just me, or the malicious packages, attacks, etc getting more frequent?",r/netsec,Z0FBQUFBQm0yeGNXby04M0Y2XzVtbFNBY25NdW5pZ1lCczhzTEstWVBnYmc3M2tybmxOdXBvUHp3ZGpObVVBRzM1d3h5VDlIWlh2clRvaTcyNjN4ZXdsNEUwazFNQmpMS2c9PQ==
+"Definitely becoming more frequent.  State based actors are targeting supply chains.  Ten years ago it was rare, nowadays it is regular.",r/netsec,Z0FBQUFBQm0yeGNXSUxRa1ZMaXJENjduZW5iNDJDQ0ZUVTZjYTRXRENEQW4wWExLcXRkazNETEVMMkhnaUJIQjdlY255SEdCYVZwTDI3TTZrdFh1ZTBlRFM1dnozQjdnOHc9PQ==
+"Attribution is extremely difficult. Packages get removed from npm by the hundreds, but often isn’t directly attributable to any specific state actor. So hardly “allowed”, North Korea just was attributed by GitHub/Microsoft for this particular campaign.",r/netsec,Z0FBQUFBQm0yeGNYSF96VFlXdTNiYUc2c2luRzdONjJQcXVNTEEzY0dUcnpQM2E3WVpWTW9GMVFfbkVmN1hhTm8wMjZyMVlmN3duNUhqSDdWa3h1WDdTaTFDZGxyOXhmeXc9PQ==
+"Thank you very much for your feedback Scott!
+
+\\* You mean Access-Control-Allow-Origin of \\* makes the CORS policy fail, right? I didn't understand what you mean by ""prevents cookies from going up"", can you please clarify?  
+\\* This technique works also to prevent CSRF in POST requests too. I just gave a GET example to make explaining CSRF simple, as the goal of this article isn't to explain CSRF. But you are right, GET shouldn't be use to change state.  
+\\* You are absolutely right. At first I didn't want to stuff the article with so many concepts, that's why I didn't want to go into SOP. I will revise this part.",r/netsec,Z0FBQUFBQm0yeGNYRDVtYTY2Q05JVkVoQjh6Um1SNmZCWHgtam1YdDlJOWN5djF2WjIzNi1mWXh4NEEzYmZqNHFjRGhHYzNYeFNoQmR2eXFnY1VoVDNRVnV4cEhPandRV1E9PQ==
+cool,r/netsec,Z0FBQUFBQm0yeGNYRzFreGFxV3RPOVdGRHhuOVhRdUVWS0lfYUFsaTJlWGlXUllMSkRhcUt0LWpXa0ppQWYxYVQ4eVVKN2pGeTJaejd5NDdDMTJUNGNQMGZWd21RR3AxcHc9PQ==
+Is it possible to set such scans mandatory before package landed into the PYPI? What worst consequences would be?,r/netsec,Z0FBQUFBQm0yeGNYRDFHWWpuYWgzc0sxMXI4TTg1Tno5Xzc1ajAwSEtMdXRDczgyS0xmWnpfbG01MXB6ODdvdGEyc0dwYkNiMGVOWHhuT3BEcG5OZ1llX3k1X20yTkFBZlE9PQ==
+"If you set Access-Control-Allow-Origin of *, then Access-Control-Allow-Credentials will not work.  See [this](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin#sect1) or any other source on the web.
+
+> Attempting to use the wildcard with credentials results in an error.
+
+[More info](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSNotSupportingCredentials)",r/netsec,Z0FBQUFBQm0yeGNYMHRFVGRWWXNNNjdSRWJrbW1rR2RDNXhSSk45ZmlnUDRWT2ZmSVFqd0haN2tpbmdTTHM4WEc1UUhnREhQbFdfY0dyQ1hsUDMwUkxZcElOUXdWYnpXbnc9PQ==
+"They definitely are (try to connect a computer with an old OS directly to the internet and see how quickly it becomes infected), but in this case there’s no evidence of an attack. The credential leak was accidental and was likely fixed before it was exploited.",r/netsec,Z0FBQUFBQm0yeGNYRnN6X19GSk9zT3MzcEJGcllnWkk0YmRRNXZETkxxd2hEMU9jN0V6eU0wcXVVcUhHT3VTSGxhRlJYLXQxcmJDU1VQbFI2R1phLWtPR3hLdkhxRVM2QUE9PQ==
+"I'm not sure how to feel about this. First of all, it serves as an exmaple why you should NEVER copy or paste any credentials into your source code, NEVER. Not for testing, not for internal projects, NEVER. If you really have to, read them from some ephemeral place like OUTSIDE credential files, env vars, stdin or inject them with a http proxy.
+
+Also one of the takeaways seems wrong. Github decided to only allow ""new"" tokens to be scoped to projects. But these tokens have to expire, you can't set them to never expire. I'm not going to replace 3 tokens every week. This is the equivalent of forcing users to change their password every month. It's not going to happen. No one is going to replace their CI tokens every month or so.
+
+So actually, this token could indeed have limited access if Github would allow to disable token expiry for new tokens.
+
+But those are nuances. I don't realistically see how this could have been prevented. Being more restrictive with access tokens doesn't make it impossible to leak them by accident. You do have to interface with external APIs and there is no way to test these interactions without puttin in real tokens at some point.",r/netsec,Z0FBQUFBQm0yeGNYRVB5VUUtZ3NEaU5rdHB0OG9yZTRFVFZUcWdlOGliQjREQ3p1bGxKQUxJaU1pV0hoTndOeEt0RTl5UVZzSFF4VUJoLTU2VmZjNm5jQjE3Q0FLd0VUemc9PQ==
+"Don’t forget the biggest CORS error footgun; if the third party server has a fatal error it will appear as a CORS issue in your browser console, even if there isn’t a CORS configuration issue.",r/netsec,Z0FBQUFBQm0yeGNYeFR0QUhiRDhSUm8yN1FaRWluMnpHUS00RjNRM0hwWndMVjZzZVdfd3RQZGFfUHBRRkdkUlJudjJsQldULTlnNVFXWkJZRDg0djJ6SkV1MlNkZWtZQkE9PQ==
+Which is fun when trying to setup a BFF (Backend for Frontend) to handle OAuth tokens for a Single Page Application.,r/netsec,Z0FBQUFBQm0yeGNYcDZHWDk1Q0JsMzNUTy0zV25wRjJqVjZCeHBNTF9VbkJUclJNcXBSa1N5Y3FldHVfMHZRcGpTYVl5Z2xlQUI2dzlydWdaZ19aVll2RFhnTEEtMWxoZWpNNmFzVVVUT1BLNFV0QkU1N2RuM2M9
+Most of these malicious packages are not used in real prod apps,r/netsec,Z0FBQUFBQm0yeGNYbEljNjcxTEZ5UHFWUDlGU3VhVEpTYXh1dWlmM0JUSjJJaXI4WmtjNkN6R2U1RE41NWFJT1g0bWViWXdfVXY4MDBTSVdiWnhudGM1bjlwNmRqR1JwX2c9PQ==
+"I’m 12 years late to your post and hopefully you still got the account, have you finished your degree at Coventry ?if yes how was the whole experience and any advice for someone going into it ? I would much appreciate your advice thanks",r/netsec,Z0FBQUFBQm0yeGNYdXRBbFRoZEJMVEtWUFJYX202bWlfMWtRejR1Tzc0ejc1eEJXLWlabHQ2ZUROU2RIaDR6RkMwUGF6RkFfVFJSNTM1MmFhX2VqUHBKekJ2YVhwSmRia3c9PQ==
+"I got the opposite impression. 
+
+What a brilliant team to hunt down the exploits needed, but they noted extensively how at every step of the way their was a lot in place to mitigate attacks.
+
+Not only that, but at the time of writing, each exploit had already been patched. It went from reported to patched in a few months.",r/netsec,Z0FBQUFBQm0yeGNYb1c5VjMyWEprMkZmby1rZ2RTLXp0cXBrMlZscWwtVndzZUFsWXBVMGl0MWZBSGxwbW15aWxXLU9NbDVjTFVPNVk3NmpaZXh4UlpTakpka2pKNk5fd3c9PQ==
+">The authentication token was found inside a Docker container, in a compiled Python file – \\_\\_pycache\\_\\_/build.cpython-311.pyc
+
+Just curious: the article mentions later the fact that the .pyc was on a published image: I guess they were not scanning a remote container but they launched themselves a container with the targeted docker image?",r/netsec,Z0FBQUFBQm0yeGNYY1N1TEFuY0ZuTnR3ajNha0NKM3RCcEpWeFRWbzl4amlINlo3NlkzcEN2MlVBY0laM2VxUkc0bmtzY0s3cmVQZkJ6ZXloNDF4dHBzVmVpYzVYdjluNWc9PQ==
+"These files (python compiled) were published in a docker image, hosted somewhere ( github? ) but not on PYPI infrastructure. The token itself could have been used to access pypi infrastructure projects, all of them, i guess, it was an admin token.",r/netsec,Z0FBQUFBQm0yeGNaQWZEWURNVHNqLWxpSHpfT1pzSWhFQkFTYVJ2TDNTMU9TSTQ3blphMkN5VkpBRjAxMzhiN0JEQ0IwcFhQWE5pLXZxOHNFeUZhU0tyX1dmRmdBdkRzNlZLcHMyaDV2TC1yWndxUUpSUTdFN1k9
+"Did you take into account the people that build these nuclear power plants?
+
+I did. And I know firsthand the price that is paid to get the components that create the end result of a nuclear power plant. The number of lives that are lost to build the centrifuges and the processes that are utilized to spin the raw uranium down for isotope usage is too high. Just to produce the maximum capacity of uranium isotopes that house the nuclear power and the centrifuges the isotopes are housed in that run these power plants is too deadly to the employees that build these abominations. The percentage of employees sacrificed to the deadly illnesses and diseases that are a result of building these power plants is not acceptable to these victims family’s.
+
+Until the company’s that are the architects of these processes can find a safer way to create these nuclear power plants, the lives of the employees who build them is not acceptable.   
+The death rate from the whole process in building these energy plants is more than 85%. Do you still consider these energy creating plants not a concern and the safest form of energy production?
+
+Don’t take my word for it, read up on the Department of Labor’s EEOICPA Ombudsman‘s office responsibilities and the energy employees occupational illness program.",r/netsec,Z0FBQUFBQm0yeGNaQnd2eG9ERDBmWXhKdGUtZjZVbkJJZWFzUVdPNGhMemJ4a3NrTWxIRTlfWHM0eW9CQjFsYk5JTVYyTGlCZ3JwQkU5VmdseXZVVHNIbzcwNjMwR3B4TWc9PQ==
+"Yes, the numbers from the WHO include deaths from accidents in the supply chain for that energy source.
+
+Coal mining sites are much worse, natural gas is dangerous too. Wind and hydro is more dangerous than nuclear because of the dangerous conditions for the workers who maintain it as well. 
+
+It takes fewer employees overall to produce more energy with nuclear.",r/netsec,Z0FBQUFBQm0yeGNaV0JVZGdBV3JlaDZhdHNtRWpRS01VSHhDaGNRSDFyUWFnWF91U1gxeFpsZVhmVzhLeEpnbE5INmNJVDh3VllYTWp3b3FYZGVjalU2S2xORndzNV9hR1E9PQ==

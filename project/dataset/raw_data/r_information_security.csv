@@ -1,0 +1,569 @@
+text,label,username_encoded
+"I just found the same thing on my Consumer Report. So I googled it and what I've found so far is that he's a long term  ""Financial Advisor"" for Merrill Lynch. So it's safe to assume that he is a gopher that gets paid to gather personal information for the financial agencies controlled by Merrill Lynch... Which is more than a handful, and probably all owned by Black Rock, like all the other big financial institutions in the US.",r/information_security,Z0FBQUFBQm0yeGJTSXJpekhoSEc1dFpwb2loQTRldGxKMkM4Q1lzSWUzdWJoRTdJRVBxOXVLWFZ0RnB0NXJHMXp5aFJOR0QzZzRPd0JIemxoWllOd0xuOUd2WlMyQkpHZ1E9PQ==
+"* ""GitHub - germancq/ELUKS"": https://github.com/germancq/ELUKS
+
+
+&nbsp;
+
+
+* On a phone that is not rooted, root access to a USB drive -- LUKS (Linux Unified Key Setup) encryption and decryption with cryptsetup luksFormat/luksOpen /dev/sdX, fdisk /dev/sdX, mkfs.ext4 /dev/sdX, mkfs.ntfs /dev/sdX, mkfs.exfat /dev/sdX, mkfs.vfat /dev/sdX, mkfs.msdos, mkfs.fat /dev/sdX -- using Termux, termux-usb, usbredirect, QEMU's -device usb-redir and -chardev socket, and Alpine Linux on QEMU: https://github.com/termux/termux-packages/issues/19635 (see ""Update-6"" to the latest update, https://web.archive.org/web/20240417120527/github.com/termux/termux-packages/issues/19635 , https://archive.is/zLQvL , see ""Connecting a USB device to QEMU using termux, termux-usb, usbredirect"")
+
+
+
+
+&nbsp;
+
+* ""Interesting Links"": https://old.reddit.com/r/termux/comments/19573gg/encryption_decryption_android_11_operating_system/khttwbf/ (https://archive.is/NFlaR , [https://web.archive.org/web/20240227153045/old.reddit.com/r/termux/comments/19573gg/encryption_decryption_android_11_operating_system/khttwbf/](https://web.archive.org/web/20240227153045/old.reddit.com/r/termux/comments/19573gg/encryption_decryption_android_11_operating_system/khttwbf/)) from  https://old.reddit.com/r/termux/comments/19573gg/encryption_decryption_android_11_operating_system/ (https://archive.is/3iqyr , 
+https://web.archive.org/web/20240227152957/old.reddit.com/r/termux/comments/19573gg/encryption_decryption_android_11_operating_system/ , ""Encryption, Decryption, Android 11 Operating System, Termux, And proot-distro Using Alpine Linux minirootfs: cryptsetup v2.6.1 And LUKS"")
+
+&nbsp;
+
+* ""Weak cryptographic parameters in LUKS1"" ""The cryptographic parameters of LUKS from Tails 5.12 or earlier are weak against a state-sponsored attacker with physical access to your device."": https://tails.net/security/argon2id/
+
+
+&nbsp;",r/information_security,Z0FBQUFBQm0yeGJTVW1vQ3RjSDIwYm5NS2hPbURmS3diaXpCaDR0WUhwOEQ2UnA5UlIwQ2MwaVFFMlVCRGVNZUtuU3dUY1Y2WjJzWTNSTm9LVUZyZ1lTcXNiOG1Yamd1YTNZdTJOR1YwNjJNUU84MGFLZTZ4R0E9
+It has its moments. Mostly tweakers tho.  Idk what ur ghetto barometer is lol. It's not the worst imo,r/information_security,Z0FBQUFBQm0yeGJTbmpGQVJackFYLXhVX0JiR3ppdEM4VzBuUTJMd0VSbFpMXzlHeEtYbS1MQ0FxUjB1NzJyaDJsSzZKYlBuLUc4dVZ5QkJCaEdENk56bHFseEczY2MtOXc9PQ==
+Sounds pretty intrusive. Where is all the data you’re collecting going?,r/information_security,Z0FBQUFBQm0yeGJTNHNnMDhJVG84ZjEzdDVHNVFqR3FtMXlPcnVveW8ydExDZEpwRXljZWc0SEFYNnktbHdUMm9UWm4tZE9UUWlJaHVTVEc3MnBYcWllUFROUXoyUTBDemY1OGZRMENhWVJhcXZaamVXWTRBUjg9
+"Encrypt data in transit and at rest.  Use TLS v1.2/1.3 (for data transfer) or a quality VPN and full local disk encryption at least AES-256 (e.g., Bitlocker).",r/information_security,Z0FBQUFBQm0yeGJTREVqYXF0d1BVY3E1Wmd2eWhtdERGQUE0QVpwSUNNd1NKQW1SXzhtN1RIUVhFTXNLaGhXT1dkOTB6dFhvVDRyNlVMMWxSWGJhREF4alREZm02djl1dUxDY2Ric2E3ZWxTaFo0a3NIdzhfOWc9
+"Make ML-2 be the standard across the board, and anything higher shows increased security posture.
+
+ML-0 <60% Unacceptable
+ML-1 60-70 Unacceptable
+ML-2 70-80 acceptable (Baseline)
+ML-3 80-90 excellent
+ML-4 90-100 outstanding
+
+ML-2 BASELINE IN ALL FUNCTIONS:
+IDENTIFY 
+PROTECT
+DETECT
+RESPOND
+RECOVERY 
+
+Must pass all checks in ML level to achieve next ML. 
+Example: missing one check in ML-0 but passed all ML-1 checks still keep you at ML-0.
+
+Suggestion:
+Make interview questions subjective and not count towards a ML. This gives a better understanding of what the site needs to polish up on.
+
+When conducting a cyber review. It's best to give the site a workbook on what's expected and what you will be looking at/for. This gives time for policies to be updated and no surprises. When the inspection has been completed, give the site a ML score and a 90 remediation period to boost their ML.",r/information_security,Z0FBQUFBQm0yeGJTUDQtV0p5VFFSYTFhMDN2T0RjU3pNQzZNWDlDeGpiWE91Q3NkSG9mN2w0TWxIU2s0Ry1vNkFSN1NrcmNVbzg3enR0UVJUMldXekJiVFJ0WEJzT1FKRkE9PQ==
+So what is the point of this post? You're showing us your PSU and your cable.  Is there an actual question you have? PSU def has issues with one of the pins looks like your ground is not connected.,r/information_security,Z0FBQUFBQm0yeGJTMW1vTDd0bDdMaU5uT05zWENRcUxkcDZ0MDBiRFFnQ2ZRbEpQNDJnOGxUSllBYUE4dmFLVlRGVFJ2OUxkNDR0OVRWeGNzcXl3TFB0dHM2MFprMUc0RkE9PQ==
+"Sorry if i irritate you with so little.
+I did a mistake i thought i paste the text, sorry 🤨",r/information_security,Z0FBQUFBQm0yeGJTUmdKV2dVT1JUWjBreklrNTNYRHFCMHpncUdwUzIxNVB4ZEx1dHZheXBRTGY0a0RMTlZVSGxCbGVsbl9QWDl0dmRqbEU5MlA0dldqRmJTLUE4a24wX1E9PQ==
+"This almost seems like a modified watering hole attack to socially engineer professionals working in Third Party Risk Management. If I wasn't a paranoid cybersecurity professional who works on supply chain risk, I would almost be willing to be interviewed... but unfortunately, this seems sketchy to me.",r/information_security,Z0FBQUFBQm0yeGJTRjYwVWU5UHNfSG9vdzRtd2d6ZVNHSDdsWHk3bDBqUVdzb29RdE52YW9lM09Odm1DZFJTcm84MGNnOWo5X01hUkgzQTlVN1FOMDNtbTRKaEJNTlZXblEtTmhFTWVVZUR6QTlhYjAxMzBHY2M9
+"op, you could use privacy-friendly alternatives that auto-syncs without your bank login",r/information_security,Z0FBQUFBQm0yeGJTcXpjZGpwNWVxX1JoWWRUYWZtNGJQRjl6OXpPc19zanNtSTlndTVaVHRpUmhLYUJnaUxQWlNnTHZsWTNWeXZVZ2dreXlpbEJ5aU9Cc0tiZmZQZ0daQmc9PQ==
+"I’d say, you have an impressive resume. You’re probably applying for some jobs that have candidates with résumé’s equally as impressive. So, to help you stand out, type out your skills as a narrative that explains something measurable. Like, talk about your skills used to correct exploits, harden postures, or reduce attack surfaces. I’m not a security guy but I do conduct interviews here and there, and showing how your skills were used in the real-world is more eye-popping than just listing your skills in bullet points. I understand that you may need to be vague with some details because of security, but maybe just be specific on what you did do. If you have a real-world incident response situation example, then even better. I hope this helps.",r/information_security,Z0FBQUFBQm0yeGJTUV9GM29iZGM3S0FKVTlRNXpSdjM1NmROMjF2OUhrLUhCcjdTLU43WTFZSTBRUjFuU3lOZFRuWFNrSlZhMEVpRWhhVkVhOXN5aU9Tb2ctY3dPQi1QQ0E9PQ==
+"CySA+ is from CompTIA, not IBM.  That might cause some confusion or be seen as shady.  It's been about 4 years since I took a CompTIA cert - do they have a certification number to show it is still an active certification?  Or a Credly badge to show that you actually achieved the certification?  Those go a long way show that you're not BSing your certifications.
+
+I know all of my certifications have Credly badges...even my old CompTIA and Cisco certifications still show up there, even though they are now expired.
+
+HR departments will do this as part of their background checks of your credentials listed on your resume.",r/information_security,Z0FBQUFBQm0yeGJTQzJmYjIxcjRuQ3Q5VlZDQ3FITnVYNlZFQU9pVWNGVllFdnlUSGlkZEJQNEVWM1ZMZ19QRjFlMlJaVmZhRWxVVkZNdmlfQmpRX3FrclVoSGxnN0lNeHMtNE9qT1Z1NkVpeG1PbWwzOFlEeTA9
+"I would personally change the way your TryHackMe experience looks. When I first saw it, it looked like you were saying you were a regular site user and not an employee. I bet some managers see it, and gloss right by your resume thinking the first thing in your professional experience is TryHackMe which makes you sound very Jr. level.",r/information_security,Z0FBQUFBQm0yeGJTTS1DNWw0alM3bUVpNnU0UF94YXFzeFJoTEFadlFnaUhHUGRJYmRzWmYxQ2lVWWJhZVFaWW9xSktLX081UGJaa1p1dnVFWFEtWXdBVElpeF9Iclp6N3c9PQ==
+"Wait......I am confused. Do you work for TryHackMe or not? If you don't, I definitely would not put that under the professional experience section. Move it to your training section or something similar.",r/information_security,Z0FBQUFBQm0yeGJTazVDV0dkR2VxTER5UktTdFljWDJmemhBbmRvQVI1U3BPTkh6V1dXZzY3QTVodnJ5c3I0bXdIb01hX29seFoyZ3ExRS0yal8yd1Z3SVFnTTFkRnNjNnc9PQ==
+IBM doesn’t have a CySA+ cert….,r/information_security,Z0FBQUFBQm0yeGJTVFRwa1JmbHRIYmIwMFdFRkZqdEFJbmZTMG5KZ0h4QzUtd3E3ZVdvMnY5dUY5Mkg4N05IX1MwZEZiWXR3MU1ZZ1FkN1ZFVzBvSTVfb3pJelFsNmlXc1lUSHE2a2xxemlrT19hbzZCcWhOLUU9
+I understand.  No harsh feelings!! :),r/information_security,Z0FBQUFBQm0yeGJTRFY0cTBSOXVFbWNEc3pUU3JEMmdOMXFZTFB1cVVYRHp4Z2tlTHpiZk85RGQ4TERSNWVFa2xsV2tFeWpwTFgwZklnRnI2U0hCUFZDVlhwci02MHhMeFE9PQ==
+"After I changed my bank account information back to my bank account, a couple days later I noticed that my dash now status was changed to schedule. My status qualified me to dash anytime so I’m thinking the same people who tried to steal my money changed my account because when I contacted dash support they had no idea why it was changed. 
+I really hope that dash pulls their head out of their ass and actually look into shady shit before they lose all their dashers. 
+Definitely thinking about switching to Uber, I hear it’s safer, more sophisticated people order from them, and they pay more (per mile and tips are higher).",r/information_security,Z0FBQUFBQm0yeGJTYmRnWnNIZEVqS1E2UG44bmFxclRULW9GdlJmT1QtRTBkbllFdWtfWjQzUkFMX2VLQmFzQi1uYzlLd19WYzMxaHVpR1dFUWdlbW5iNWx6cklkNXlZbEE9PQ==
+"Source from scamadviser.com:
+> This site is actively preventing credit card chargebacks",r/information_security,Z0FBQUFBQm0yeGJTeFF4eHVlTlB5aVFhNFI2NndqQ3VCU2pkdXF4U05pN3VOeXV3RlNxY3QxX293R2QwbzBVVXh6ZUszX1RkYVlUbkZlT0dMYjVqaHRkSC1Vd2FiNHZuNWc9PQ==
+Sounds like you need to shut your card off and talk to the fraud people.,r/information_security,Z0FBQUFBQm0yeGJTd2VZeUlaa1ZCMkkyWnNaS0ZyZFpTcC1rYkNrcTJEbVRuYjlfUmJQNmd6ZXdFV1BRWlZBMmdjWkVMTW54N2lWdXducjBPZkZIWnRqVHZZM0ZzbzNVc3c9PQ==
+"That would likely require you to externally scan the website for broken links.  Not sure how effective that would be every time you visit a large site like CNN.  Some organizations may even consider it an attack.
+
+Your best bet might be to contact the website using their About US page and looking for an email contact address.",r/information_security,Z0FBQUFBQm0yeGJTZUlJWVVGM3l6N2xRUkJOak1KbUpjR2NLMGxXNTJjTFZzbl9UdDdibzZRdHh0ZnptQ1Z0b0Z3eTNTWkJ6V2x4WjQ1OEhsa3hnOFJMOHNYMFJ3Q3daOGM5YW8zZXhPNzJEcHV3NHo2cTVWSWM9
+"This is a matter for your CC company, not random infosec folks.",r/information_security,Z0FBQUFBQm0yeGJTaFhiRzVLbklQa1k3X2x3bG1LM21XbHZIcWZaNVU0SllCYjJZZEFzQ2FncGkzaEtaWl9Jd1lTYlBNZkxyQXJLTnY0UV95b3R5dnJuby1mZHFjZE93S1E9PQ==
+"Fedora 40 : podman (2024-20393c122f)	
+
+[https://bodhi.fedoraproject.org/updates/FEDORA-2024-20393c122f](https://bodhi.fedoraproject.org/updates/FEDORA-2024-20393c122f)
+
+
+
+Fedora 39 : buildah (2024-c56e6ff1b5)
+
+[https://bodhi.fedoraproject.org/updates/FEDORA-2024-c56e6ff1b5](https://bodhi.fedoraproject.org/updates/FEDORA-2024-c56e6ff1b5)
+
+
+
+RedHat
+
+[https://access.redhat.com/security/cve/CVE-2024-3727](https://access.redhat.com/security/cve/CVE-2024-3727)
+
+
+
+[https://issues.redhat.com/browse/OCPBUGS-25269](https://issues.redhat.com/browse/OCPBUGS-25269)",r/information_security,Z0FBQUFBQm0yeGJTVFBHS1p2NVQ5bVZIdTFBbVIyNUVwa21WM0drQ0hXQWZMVUdRb18zY2RNYno3NExUaEU1bVBEdm9BU0hCSlZwRlRaZE01MUZiSnpOQmdISXFfZXFYcnc9PQ==
+"This sincerely looks like a scam ad on an edgy site back from 2009.    
+No clue of what it actually is though.",r/information_security,Z0FBQUFBQm0yeGJTZjQ4bkwzRmM5WVhyS3hrZ3kxMmFkQkZMTmwxU1RsUk1UVWp1MGtfbHd3MjdHakhHU2MtWWZDSkJFTTVDWHFTOXJCZDRZRVh5NFZOUWlneXJIdDlIWGc9PQ==
+"Use a bank that allows you to lock your card from a phone app, and keep your card locked unless you are trying to use it. Also remember that cash can be used for most transactions ... and that money orders only cost $0.50 as opposed to a $4 ATM transaction fee.",r/information_security,Z0FBQUFBQm0yeGJUVHF0c2xVQzhJZHlHeVFBVkpfT2FITkNKdDJZQ2loTlZJeTEwZnAtVUJuZVlUc2dRdlpaT2NhQ1M5MkFKWU91RW9VMlZFRl8wY2xoUlRSb09HSjF5bXc9PQ==
+"Thanks, great idea.",r/information_security,Z0FBQUFBQm0yeGJUWkEtTzcxZkFXdWtPc1B5alNUR3BPZEo3OTRVWkhzNTN6dmZlQWY3eWd6OUpyMUJsY2FrZWQyQWpWQTc4VEYwOEtjMXRYZTh6dWZHSHRWQWM2aURxM2c9PQ==
+Noted.,r/information_security,Z0FBQUFBQm0yeGJUMkV0blhKZDdaTWFWQVE5Sjk0QnV1TjFNc2JXYlJWaFB5TjRGckhMMjJVSUtrSHlxeG5SX3dqVV9DR2F3a1lVaU5pczFHTnpDbENVNVV0WnNXdU12UXc9PQ==
+"Official Advisory
+
+
+
+[https://www.veeam.com/kb4581](https://www.veeam.com/kb4581)
+
+
+
+Older Vulnerabilities related to VBEM:
+
+
+
+[https://www.scmagazine.com/news/cuba-ransomware-group-observed-exploiting-a-high-severity-veeam-bug](https://www.scmagazine.com/news/cuba-ransomware-group-observed-exploiting-a-high-severity-veeam-bug)
+
+
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-38547](https://nvd.nist.gov/vuln/detail/CVE-2023-38547)",r/information_security,Z0FBQUFBQm0yeGJVc1Q4VWVYRlJWMy1iakgzMUx2YXBrYUNsYXVHQVhkclpkVDUwUXVyQ2tMaWNKYlBWcGZjenJOa1FnSExPWlh5YWpKcFBKQ2poLVFsSUQtbFpJSUNlbEE9PQ==
+"PoC:
+
+[https://github.com/absholi7ly/Bypass-authentication-GitHub-Enterprise-Server](https://github.com/absholi7ly/Bypass-authentication-GitHub-Enterprise-Server) 
+
+
+
+Advisory:
+
+[https://docs.github.com/en/enterprise-server@3.10/admin/release-notes#3.10.12](https://docs.github.com/en/enterprise-server@3.10/admin/release-notes#3.10.12)
+
+
+
+[https://docs.github.com/en/enterprise-server@3.11/admin/release-notes#3.11.10](https://docs.github.com/en/enterprise-server@3.11/admin/release-notes#3.11.10)
+
+
+
+[https://docs.github.com/en/enterprise-server@3.12/admin/release-notes#3.12.4](https://docs.github.com/en/enterprise-server@3.12/admin/release-notes#3.12.4)
+
+
+
+[https://docs.github.com/en/enterprise-server@3.9/admin/release-notes#3.9.15](https://docs.github.com/en/enterprise-server@3.9/admin/release-notes#3.9.15)",r/information_security,Z0FBQUFBQm0yeGJVell3QUhnV2NleGJTZlE1bFdMTDAwanB2TVY3b01ZeDlPdXRrczQxZjNqOUZaY01rUGtpRzRFbWlxUUhVVWZDUjVQZ2psSWR5VGlrUGJYbExldVZWeUE9PQ==
+Every time someone looks at this image a graphic designer cries,r/information_security,Z0FBQUFBQm0yeGJVckRXcXZ4dFJXWTFoNkxNT0hwRXNvZjlla2RqVjVLYmtUaTJFNHQ4NlFyWHlkVEp5UElsXzc4NmZiV09LSldETU1tazhmRVFncFpOMlhUaFI0ZzBaelE9PQ==
+"Go to your web browser on your phone, PC, tablet or whatnot and go to settings -> password.    
+If you let your browser on any one device save your passwords it will be saved there for you to find.    
+    
+Alternatively, charge your old phone and check if it's saved on that one.    
+    
+Edit: i Highly recommend 2FA and use something like bitwarden.    
+Never actually let your browser save your passwords.",r/information_security,Z0FBQUFBQm0yeGJiY2hKUUVyM2owaEU0NmYyQW1yRlZ5UE1LYWVEUllGVXIzUndwM25jYXI0X1FBZl9ncEdqUHpNdWU0WnN2Uk4xR044X1NobGJoN3V3YkszWHlyaFJlZ2c9PQ==
+Wym by Dave your passwords ?,r/information_security,Z0FBQUFBQm0yeGJidWFaLXZOVm5lQ3hpRTVsQ0c1QlVtdWJLbFFDNm5HQjVmM05MMkVYSUEzcDdBOXF0TDE3MGdjbG9MQ1NhbDJRU09hQndVMHByLXhNMEpPMmRzd2VuSUFRclc3M0NZaEh3RGZERnFFQWF3d3M9
+"It was autocorrect that screwed me over.    
+It's corrected now.",r/information_security,Z0FBQUFBQm0yeGJiNWpXb0hXS3JTUlRlN3AwRVpjTTNzUXA2bFJuQmVuYkR0YnlKOUhYRXhfa1RENDNCQXk3ZHIzck1tNUYzZ1FYNzZYNUFnM1hQV09fTFh3cFEzbnNDQ2c9PQ==
+But the thing is that neither on my old phone and my new one I got my password saved,r/information_security,Z0FBQUFBQm0yeGJiZ1RydlYxRzJPelpNbS1RQ0NIRXJCek1PM2luUk0yNTBlZUdNOUlIRktmUkZ4ZmQ0UHd5cVZCNWdiODhPWUdzaHJ2dmxiYTNRaXVqdnZyc0xNU0NMUUJUdHhzWHI0THVpZ1lJVGx0d2xrc2c9
+Is there a way to like auto hack my Gmail account so that I recover the password ?,r/information_security,Z0FBQUFBQm0yeGJiVUJyd180ZVhGMDFpLTNHV2VEcEhibGpvY1RhalJ6VDlHV1A2QjFBcU9lczNUVmw4Sm1hVkZ2TzNtaF9ZbVVYUFI0TWxVQ21hb0tBanNiZzd5bUViYkkxU3pvQ3RjNW9vZ1hfS2ZPeEFqajQ9
+U here bro ?,r/information_security,Z0FBQUFBQm0yeGJiOU1lUDliSldmcVN3bVc3clMxcWdwR05relRqUF9nT0pOQmJ4Q19BdVQ4Ny1TNU5vX3BmdEhMSUZleHF4emIxeklJZmhGSnFpak5ZZXlqM1o5a0lkY3h4bzB4SHlJR0pkYnJQT2xZM2t4RzQ9
+"Well, now the key is simply to try to convince Google it IS your account.    
+Provide more info that support your claim on the account.    
+
+If you've used the account to buy something, or had google pay connected to it you can maybe verify it's your account that way?    
+    
+There might be a number of ways, i would get in contact with them to see what can be done.",r/information_security,Z0FBQUFBQm0yeGJic0RGLTdDd1ZwSHRZMFI0YkRob1d3Y2xuVXI0UVp3cERpQXRmNkRNWURJU2dCaVNiRVY3MlZ3bVRHdHlfRS1PLXFvX0JhTzlxSXRpa1JsV2hJbkpxWlE9PQ==
+"Nope, if there was a way like that no one would bother having a google account.",r/information_security,Z0FBQUFBQm0yeGJia3VnT2pZa25aNnpuVE5kLUFXRW9qaWo1OWRLQ0UtZU9aak1EU2NTR0x0bGlQS0JWVHlqRVpGSEp1QV9NNVlMMFlqZE91Q2xZUi1PeGJ1dzMyWktiZmc9PQ==
+"NIST Database:
+
+
+
+https://nvd.nist.gov/vuln/detail/CVE-2024-1086
+
+
+
+Oracle Linux 7/8/9 and Oracle VM verion 3:
+
+
+
+https://linux.oracle.com/cve/CVE-2024-1086.html
+
+
+
+SuSE Linux:
+
+
+
+https://www.suse.com/security/cve/CVE-2024-1086.html
+
+
+
+Amazon Linux 2 and Linux 2023:
+
+
+
+https://alas.aws.amazon.com/cve/html/CVE-2024-1086.html
+
+
+
+
+
+RHEL 7/8/9 and Cent OS 7:
+
+
+
+https://access.redhat.com/security/cve/CVE-2024-1086
+
+
+
+
+
+Fedora 39:
+
+
+
+https://bodhi.fedoraproject.org/updates/FEDORA-2024-2116a8468b
+
+
+
+https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7LSPIOMIJYTLZB6QKPQVVAYSUETUWKPF/
+
+
+
+Ubuntu:
+
+
+
+https://ubuntu.com/security/CVE-2024-1086
+
+
+
+Rocky Linux 8:
+
+
+
+https://errata.rockylinux.org/RLSA-2024:1614",r/information_security,Z0FBQUFBQm0yeGJjVllfWm1NOE9Da0R1ZlNhQmZNN0pMU1EwaXN4TklUTms1SmFjR05MTF9JY2xEWHhzRFNEaC0xMTNlbDA2M1hrREZTcS0tdnloei0xZl9iMDJKV0FocXc9PQ==
+"CVSS 7.8? Yeah, that's not worth hitting the ""patch right now"" emergency button. Do that too often and IT will start ignoring you, hurting you when you really need them to care.
+
+
+If a TA what has a local shell, I consider that game over and it's containment time.",r/information_security,Z0FBQUFBQm0yeGJjeWRYNHpjWnpydGRxS2VobkthQ08tVHpuRjY1S2QwaVpZWEh3ZEtMc3JveFdEVk1FbndFMHpPc0FwNUxMM2V4VHoxVGJEUVVrWDdDUVk1WVBuYUxIRjBUaXhhLWRsOTdONkZfZVBVdkxlQ0k9
+"Yes you are right mate!! But I do not mention it on each post(i post regularly on twitter), rather I mention right now only in a few posts. But since exploits are readily available now and easy to execute. Also, the updates cover a few additional vulnerabilities which could be chained together, which takes the effective CVSS score to almost 10 for a few distributions.",r/information_security,Z0FBQUFBQm0yeGJjNDR0X3ctSG8wczVsMEtwWUJJenB0Nnk0T29kTWdGaFZoR0JCREFsUWZUaDFtUmFtNWNMWDlOaVZwRHNfYlJEekdxaEVIa2hvRVB1LUhIbzZBOW5WZkE9PQ==
+"1. Find out what systems and versions you have in your landscape by speaking to responsible people like sysadmins
+2. Ask them in what kind of form they would prefer a guide (lots of words or only bullet points, etc...)
+3. Find the respective CIS hardening guide
+4. Create a document based on CIS and the inputs from those guys that have to use it later on",r/information_security,Z0FBQUFBQm0yeGJkVFY1VWduTEVuTFNzZ1EtTkZ0dGljMnhMREZIV3RMVEFWcmpKSjZQN2QyM2ZMQ0JISGxWQU9kakFpam05WW80dDhzT2hYODlSQUhHaVdLQjJpUU1QZEE9PQ==
+"Most STEM internships are paid jobs in the $13-20/hr range (at least, that was the case for the job market when I was looking for an internship). Job hunting is hard, but if you put the time and effort in you should be able to find something. Just be careful that you don't overload yourself with all of the things you're planning. GPA usually matters more for larger companies.",r/information_security,Z0FBQUFBQm0yeGJkTThwQTBEYnJDSFowOVJYSWNpMVVVZ3VKMDgxNW96NzZZM2JEMFpMNm9lTVd3MXZoN09zbEU3aFJ2ZTR0TTltZWdHTW55M29BWHdwWGk1Q1BLbTY4QWc9PQ==
+"Start here
+
+https://www.stigviewer.com/stig/microsoft_windows_server_2022/
+
+https://public.cyber.mil/stigs/downloads/
+
+Use your best judgement, but recognize that the business needs will often trump security best practices",r/information_security,Z0FBQUFBQm0yeGJkZGNuUU5Sc1hZYmI3MWNVRmZmSzJBN3gzeUZwOEwxZ3N1N2R6Y1Q4cFREUnJJYjhULU8tT1lRdHNvcHJxU3B4M1pLcUQxeldsbGk1YzBSa3pDazRyckROdXZCVFlqODhEVWFtMGExUFdwM3c9
+I was thinking it could be done at the host level.  I found a small city in Wyoming that needs a thorough going thru.  Different sites fit the same annual event going back to 2015…,r/information_security,Z0FBQUFBQm0yeGJkdFJuMUNDOVJtbUhVTjVNSXZhcUlDbTFwSVprUnY0TnZaYTFxdXZyQjVKT09IVzE0eXk5NzdGenZENEU5VmRFOW9iQnd4eVE2M3BGalVJd1g3RnQ5TXdMSHlrMGc0NmdBWHUwMk1zYXJkcDA9
+A good question for your own knowledge - how does this “improve security”?,r/information_security,Z0FBQUFBQm0yeGJlbEw3OXVtQ1FWbmVRb2FwbGJpaFJTallrd18yRzBic3ppNnpIU3BRS1dpbnprYUV5UkZHMGdReGUweTJ3ck1sYzNFUXhOXzdkaDFJc1dIcXRzdWtCMGE3R0dHOXdBYmlXY1lHYmJEc0FLN0U9
+Thanks so much!! Just worried cause I’ve heard from my peers that the internship market is really tough right now and I don’t want to delay my graduation due to not finding one.,r/information_security,Z0FBQUFBQm0yeGJlTnRXUmdWaTNHeHNEUnhtYllRT2JrWkx0NXJOSEFOWVJKU1FOaXhoTjhvMXZRYlNlcGVTVWpHdTkzWDdGYnBkd0dXcnpYb1NCV3p5QW5JOUV6WThweFE9PQ==
+"I worked in a NOC for ~5 years before I went the dev route and a bunch of folks didn’t even have their CCNA or Network+, honestly as long as you craft your resume/interview around troubleshooting skills and have a general knowledge around networking you’ll be in great shape once you land an interview",r/information_security,Z0FBQUFBQm0yeGJsR1VneG1EVW9xcVRGdzlLQ2piR0xzcUI4NFBsY1QyTmw0c2ZhSTFtTGVXallwX1VRd19rVVdWV1BSbVFzeHNXa2UyYnRpMU1qTlN0cWI3UWp4Zm9iQXc9PQ==
+Blur personal info. Needs to be redone using a simple template.,r/information_security,Z0FBQUFBQm0yeGJsR3FQQ0RxTGJJUHJXazF4SVYwbjJfS3J4YkpTTWZFNmE2Z1cwaW1LWi1ZazdzaG5ZNEp4SXBHbGhXSzBmaXBBdkhPbFIzVjRjcnNyOXBubEk2ZE5xeHhrQXlfWTFnM0dKMDlycFdRNnFWSnc9
+"Advisory Link: [https://docs.telerik.com/report-server/knowledge-base/registration-auth-bypass-cve-2024-4358](https://docs.telerik.com/report-server/knowledge-base/registration-auth-bypass-cve-2024-4358)
+
+
+
+Update Instructions: [https://docs.telerik.com/report-server/implementer-guide/setup/upgrade](https://docs.telerik.com/report-server/implementer-guide/setup/upgrade)",r/information_security,Z0FBQUFBQm0yeGJtU29na1IzUC1PcUNIODQ0LVZNNW0xZVpnUG1pZmJsOUZESGY2R2lNVWxINGR2ekY0M29lWFJnSldPN3l3Q01uLWdkWUdjX05waERFQ1JuZmFkQk0ycFE9PQ==
+"Just FYI, the update 10.1.24.514 also addresses CVE-2024-1800 (CVSS 9.9).",r/information_security,Z0FBQUFBQm0yeGJwcXlMMkpTUkY5NXJWanh0OEppdFpYczZtVHNMWVhpd0ZiS2RLcXNPNnktNThnODZSNTFOQ1VlMVdpZGI3REk3Tl9BVEc5X0VqcTVKUWhwcU5aZDdjYkE9PQ==
+"Official Advisory Link
+
+[https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995](https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995)
+
+
+
+
+
+Patch Release Notes
+
+[https://support.solarwinds.com/SuccessCenter/s/article/Serv-U-15-4-2-Hotfix-2-Release-Notes](https://support.solarwinds.com/SuccessCenter/s/article/Serv-U-15-4-2-Hotfix-2-Release-Notes)",r/information_security,Z0FBQUFBQm0yeGJ3MGFPc3JkajhqeFNSNHVNdm4wenV6QzEwX0RmTW5WNDRueUYtSXJOaURfUlI2dkM2YTVLVnNXZzVVNnpNVlZOQkNGZUdDT1FqdW1GREU4SU9GaDhfdXc9PQ==
+"Social media, the crack on the internet. Anything meta tracks your location. They probably have your login. Time to change your password and beef up your security settings.",r/information_security,Z0FBQUFBQm0yeGJ3Ukk1ekU5NVZkOGlXVW0xbTQ3ZzBZQ0xqNDlwVDU0TXVXQWJIeUxNX3hBWE16OVozQzVSOUVFaWg3OFk5MEFqNzVZeWp5VC1hM3A3Ul9Ra3k4RGUxNUE9PQ==
+This is a really good idea. I did test ur theory and there was a few devices i didn’t recognize logged in. But when i checked for a new login detected email nothing showed up,r/information_security,Z0FBQUFBQm0yeGJ3VjBnMFRjUVRJTHhiU21IdHM0VGdXTm5sUG5VdHBiOVVaTWJqU05DWWcxQkRFa3prUXpHZlQzMXVJUm9LUE5MUjNvX0dsVlk2Zmo3VjlrZG5iOVAyOVE9PQ==
+Might have access to your email as well. Change those passwords and make sure MFA is on all services.,r/information_security,Z0FBQUFBQm0yeGJ3NDdzaVpENmMyRVhXUUI2TXViTFB2YWFYSkFxeWZrUmktYVpHSWhGcE16N3U5ZUpZbXhHUnlYY1UzUW5XMzI0bWt6REwwOExpeW0tTXV2WXRLVFExZXc9PQ==
+"Update Release
+
+[https://github.com/pytorch/pytorch/releases](https://github.com/pytorch/pytorch/releases)
+
+
+
+Initial Bug Report:
+
+[https://huntr.com/bounties/39811836-c5b3-4999-831e-46fee8fcade3](https://huntr.com/bounties/39811836-c5b3-4999-831e-46fee8fcade3)",r/information_security,Z0FBQUFBQm0yeGJ4ZDVIc2lUMFFYTDVxUkhKdjd5QTdDNDJWLXBjZ0tidVNvUDF0X0VEMUtHSDdKZnpCX014R0YwOFV6QzBiVVNDSHBjSDBwenJZd3VVV255c0FQbkhXb1E9PQ==
+"I mean, if you spend 5 minutes looking for add-ons in VS Code you will see dozens of add-ons typosquatting popular ones.",r/information_security,Z0FBQUFBQm0yeGJ5VTJRN21vLVd6UWlEbVNSMmx3XzBNN3NiVzlIOGVfQWJRTkRRLV92eHlKdXY0TDBCbHFaTEZNZC0wTXhGX1Q0eWFsY1R5M3BBN0ZtMFhPSHZucVNIMzExOVAxUjdrdU1LbEFRdVM2d25yZFE9
+"Careful, while collecting IPs is not illegal it sounds like the way you went about it might be.
+
+Also, how tf do you know how to send a disguised IP logger but not know how IPs work? Think of them like mailing addresses. You may live on 56 boulevard Ave but when you travel elsewhere you don't carry that with you.",r/information_security,Z0FBQUFBQm0yeGJ5TmFEZjgxY1puS1dYMmJTUUI1Q0xLMTNPRDFJb21ZYXh2NGhVdjdaOXBNd2x6NWpJRElmT1BmZ0tMcGlzUnIzelFyN29rdXQ4Uy1ZdjMyTmJJRzVxUkE9PQ==
+"Lol, thank you. I actually knew that your IP moves as you travel, but my friend is the victim of the scam here and he wasn’t taking my word for it and wanted to be 100% sure that there is no possibility she is NOT lying (this is regarding a pregnancy)",r/information_security,Z0FBQUFBQm0yeGJ5X0NEeUthbWNUSE9OTkZBX0xSTXhuRHNZM1ZHMTNvZlU5cTRYMXdNR3RxOHh3eFhFd2pGNmJsdzBrZEE4V0VlcGlkdTVBWHR5cHlUN2xmZjBodWUwV0E9PQ==
+[https://www.jetbrains.com/privacy-security/issues-fixed/](https://www.jetbrains.com/privacy-security/issues-fixed/),r/information_security,Z0FBQUFBQm0yeGJ5SXc2QW1TSm9jLWNtTTE0U0dTYmpaMHdKVkVwTm9EV1Y1MnhFc0VORzNrTm5vVWhkbWthc0FhMXVORS1FdWhYcWNpQ3BoeGZjZUxZZXdjUUlSX2VBU2c9PQ==
+"IP's change all the time.    
+The vast majority of the world uses variable IP addresses.    
+Which means that each time you disconnect your mobile phone for example from wifi and gsm networks, then reconnect between 10 minutes to 24 hours later (depending on some variables). You get a new ip address.    
+    
+The same goes for your home router.    
+Disconnect it for the amount of time your ISP or network provider has set for your ip to release and then reconnect it, then you'll have a new ip address.    
+    
+The only cases where static ip addresses are widely used are when companies have either bought ip addresses or have leased them from the ISP or Network provider.    
+    
+So...    
+IP addresses change, a lot... Which means that any ip addresses you have or any ip address you've collected might as well be used by someone else.    
+But it might not be someone else's yet, it all depends how long the ISP lets a device hold the ip address, how long the device has had an uninterrupted internet connection and much much more.",r/information_security,Z0FBQUFBQm0yeGI0eGRNS0U3MWdXYVNRc2NuRmNJUUozN3RIUnhkcDMwaXd3SThjNkVZdWFrWUxWRmZRQmoteGpRU0hBRkVJZ3c2Uzl1WFlhWHZJSldNZHFpLUdMSVFWRkE9PQ==
+"Vulnerability Summary :
+
+[https://msrc.microsoft.com/update-guide/releaseNote/2024-Jun](https://msrc.microsoft.com/update-guide/releaseNote/2024-Jun)
+
+
+
+Windows 10 21H2 Enterprise EoL :
+
+[https://learn.microsoft.com/en-us/lifecycle/products/windows-10-enterprise-and-education](https://learn.microsoft.com/en-us/lifecycle/products/windows-10-enterprise-and-education)
+
+
+
+CVE-2024-30080 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30080](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30080)
+
+CVE-2024-30088 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30088](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30088)
+
+CVE-2024-30099 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30099](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30099)
+
+CVE-2024-30082 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30082](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30082)
+
+CVE-2024-30087 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30087](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30087)
+
+CVE-2024-30091 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30091](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30091)
+
+CVE-2024-30089 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30089](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30089)
+
+CVE-2024-30085 : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30085](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30085)",r/information_security,Z0FBQUFBQm0yeGI1Z0tLbENNQTRQTHRwaXRZaDN6a1hfeWdldVBDWWV0SjNSU1FVSV9JOWFQX1ZxVVdKYlFFcUpxWTBMVzdINWFBaUoxcWhlbUlqMUd2M3NDbWw5dXk0M0E9PQ==
+"It could be reverse DNS being wrong, but could be the IP address itself, any that latency changes might show that as well. Hard to tell without you actually posting the actual traceroute you were seeing.",r/information_security,Z0FBQUFBQm0yeGI2STdBOXZpdjNyZmpxUWphaktBOXc4STJ0b01NNWxtVVZ2RHpNNERyMW1sY1prWVlzVGZVQWV1ZXlQRDB4SV92OTZqdDdqckI2Ny1qRXBKN1RKVFlFLWc9PQ==
+"Advisory Link
+
+
+
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26169
+
+
+
+CISA Known Exploited Vulnerabilities Catalog..
+
+
+
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog",r/information_security,Z0FBQUFBQm0yeGI2cHRBMXhLczlYSkFIOFQtY3VXS1Q4R3BiQjB0ZGFEc3pKeHZiUS04Qk9XbkJ6Q1FxaHctblljR3lhNUpsWnNzZm5HODNxckRQVXVqc2U0WU95YWV0QkE9PQ==
+"Advisory : [https://www.twcert.org.tw/en/cp-139-7860-760b1-2.html](https://www.twcert.org.tw/en/cp-139-7860-760b1-2.html)
+
+
+
+FAQ on Firmware Update : [https://www.asus.com/support/faq/1008000/](https://www.asus.com/support/faq/1008000/)",r/information_security,Z0FBQUFBQm0yeGI3ckI0clZlZ2ExUTNqY2JiazJpQzBJTkxScThuQVhCSEZwb25qenRGakpCdXdzdy12SjMySmxrS3N6dF9RYUdTZ2lxeXFRTGZDM21JQUJ2b1RjTWdETEE9PQ==
+It’s always ASUS.,r/information_security,Z0FBQUFBQm0yeGI3a2c0cDBNZWVIeGZfb1JvV0hCZDlYNk5RcXV4T2h1UnhMUUN1YmZrQUF6dmxZX3JtM1gyMTBmRWdlU2U5ajI2MFR1RDhkdkNNbjRSQUFJc0pvYjh3T3c9PQ==
+I guess I should update my password too since they had potential access to my device.  that's obnoxious resetting all the home things,r/information_security,Z0FBQUFBQm0yeGI3SVJ2RE5McFV2dk55ZDRLandBOW5BQ0xjeWtaM25JMThnYkdadzNqaHVZMXZianpzYWd2cl9pSVZsWmhJa0xsVnJqZjYxZGEzWHBIeGZPYUdnWEdEZzhveW9ZRWQ1aV9kR3VLdjJtcDZ1LWM9
+"You should contact your local authorities and file a report.
+
+This subreddit is for computers/technology Information Security.",r/information_security,Z0FBQUFBQm0yeGNDYjB3VVdpUE0wcFFEZk4zdnBQVm1VRmVqRnRKbkxmYTlDTzVSTWlPTzBCQk83eUZXSFNnTl82Wk5OcnRJZGVRWjRCeFNmRW11WjE0dGxZY1o5S0p4YXc9PQ==
+"Advisory: 
+
+
+
+[https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453)
+
+
+
+VMware vCenter Server 8.0 U2d
+
+Downloads and Documentation:
+
+
+
+[https://support.broadcom.com/web/ecx/solutiondetails?patchId=5418](https://support.broadcom.com/web/ecx/solutiondetails?patchId=5418)
+
+[https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u2d-release-notes/index.html](https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u2d-release-notes/index.html)
+
+
+
+VMware vCenter Server 8.0 U1e
+
+Downloads and Documentation:
+
+
+
+[https://support.broadcom.com/web/ecx/solutiondetails?patchId=5419](https://support.broadcom.com/web/ecx/solutiondetails?patchId=5419)
+
+[https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u1e-release-notes/index.html](https://docs.vmware.com/en/VMware-vSphere/8.0/rn/vsphere-vcenter-server-80u1e-release-notes/index.html)
+
+
+
+VMware vCenter Server 7.0 U3r
+
+Downloads and Documentation:
+
+
+
+[https://support.broadcom.com/web/ecx/solutiondetails?patchId=5417](https://support.broadcom.com/web/ecx/solutiondetails?patchId=5417)
+
+[https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3r-release-notes/index.html](https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-vcenter-server-70u3r-release-notes/index.html)",r/information_security,Z0FBQUFBQm0yeGNDa3BrajNubHJtSF90YXFOLUFUWHE0RjRWZ29zNXdJNk9kR2lZNGZyWmNTTXlNY0VLaEdOZDFydVRoVzZEVlR2aXNBeVplbU45QkIzc3BHdWlsaFRCd2c9PQ==
+You're looking for r/paranoidschizophrenia,r/information_security,Z0FBQUFBQm0yeGNDREVseGZCd0Q4UERFU2ZVMGdqYUV5TG85YS11cWRjVDRqSi16Nm5Wbk9XaTdENjFsaXlMZlFNMDVJd2Q3UmdXSl82TlV3RHBKUWN1REZPdmJ0OC1oX0E9PQ==
+"Advisory:
+
+[https://github.com/deepjavalibrary/djl/security/advisories/GHSA-w877-jfw7-46rj](https://github.com/deepjavalibrary/djl/security/advisories/GHSA-w877-jfw7-46rj)
+
+
+
+Patched Library:
+
+[https://github.com/deepjavalibrary/djl/releases/tag/v0.28.0](https://github.com/deepjavalibrary/djl/releases/tag/v0.28.0)",r/information_security,Z0FBQUFBQm0yeGNDaXhUMXlWVDlSR2RkY2loV3A3M0NRd0pjd3BVSWhuNkZzNWVLOHZZQUdRQ2Jvd2FscGtYTUVYTlY0dXdNWVphTlg5T1V3bjNnNmtIOGJnc0cwM3BwR3c9PQ==
+Which site is this screenshot from? I'd like to add it to my morning check in routine. Thx,r/information_security,Z0FBQUFBQm0yeGNDdmw2bEJkZUQtUWpqVEZkOEtyM1ExaE5BdE5DRWVyOFdtTWo3Z25YWmRHLVVhd0Ywa0dBTkZ4bTRvNXh2MTV4TUtRZV9uWGFoeDBrNjUxN1RzSXNSVXc9PQ==
+"Advisory links:
+
+
+
+[https://nvd.nist.gov/vuln/detail/CVE-2024-5671](https://nvd.nist.gov/vuln/detail/CVE-2024-5671)
+
+[https://thrive.trellix.com/s/article/000013623](https://thrive.trellix.com/s/article/000013623)
+
+
+
+Patch Link:
+
+
+
+[https://docs.trellix.com/nl-NL/bundle/intrusion-prevention-system-11.1.x-manager-ns-series-release-notes/page/UUID-18de5423-4520-d400-f539-fc3184256955.html](https://docs.trellix.com/nl-NL/bundle/intrusion-prevention-system-11.1.x-manager-ns-series-release-notes/page/UUID-18de5423-4520-d400-f539-fc3184256955.html)",r/information_security,Z0FBQUFBQm0yeGNDSG1OM2NyTjNBM3VuUnhkSDVPT2FmYk5ycjhOamdCYnJvSzJIdVhBOHRsc2JSMS02LW5lNFV3VENvLTRPUlUyeVdQRmswZG1Oc1dvdVRHdXprQ0V1SUE9PQ==
+"GitHub Advisory:
+
+[https://github.com/rancher/rke/security/advisories/GHSA-6gr4-52w6-vmqx](https://github.com/rancher/rke/security/advisories/GHSA-6gr4-52w6-vmqx)
+
+
+
+Update Links:
+
+[https://github.com/rancher/rke/releases/tag/v1.4.19](https://github.com/rancher/rke/releases/tag/v1.4.19)
+
+[https://github.com/rancher/rke/releases/tag/v1.5.10](https://github.com/rancher/rke/releases/tag/v1.5.10)",r/information_security,Z0FBQUFBQm0yeGNEbWp6aldKRTU3enp2WkhMQ0QwSjAyTTMxWUpSLUxNWTNXSXQ3RlpZWk93X09maXAza2ZTeWFIVHlXMUVwSUM3YVFGRDF5M3l1RHY3TGcxakpaNGloY2c9PQ==
+Bruh. IP addresses aren't social security numbers,r/information_security,Z0FBQUFBQm0yeGNEWS1aWVBZcm02MTBWWHpDUjRORUdyR3dZQ2hZQlB5MkRKRUZFNzY2NWpwN3ZuX3VuNGUwWGUxU1dfRTRVcExha3dpRk5mZDNEckxOSHRMbkRXZXFMRWc9PQ==
+I shouted out my window,r/information_security,Z0FBQUFBQm0yeGNETGZnb2dvQjBfT3hiXzFWY1lXdUVRWFlUYmVKcDFaNU5RbEdRSk5STUVMSHBsRTIzYl9hNWtKWUNKUGV2SHFleWQ2aFZTMUEtc3pvdGR2dThfQnpac2c9PQ==
+"Wiz Blog:  
+[https://www.wiz.io/blog/probllama-ollama-vulnerability-cve-2024-37032](https://www.wiz.io/blog/probllama-ollama-vulnerability-cve-2024-37032)
+
+GitHub Links:
+
+[https://github.com/ollama/ollama/blob/adeb40eaf29039b8964425f69a9315f9f1694ba8/server/modelpath\\_test.go#L41-L58](https://github.com/ollama/ollama/blob/adeb40eaf29039b8964425f69a9315f9f1694ba8/server/modelpath_test.go#L41-L58)
+
+[https://github.com/ollama/ollama/compare/v0.1.33...v0.1.34](https://github.com/ollama/ollama/compare/v0.1.33...v0.1.34)
+
+[https://github.com/ollama/ollama/pull/4175](https://github.com/ollama/ollama/pull/4175)",r/information_security,Z0FBQUFBQm0yeGNEdjg4ckJsNGNHU1Z3WVBtTjFPRVkzZ0VCTmpoS1RPeHZGRzhHR1FpbTZoNGl2ODMzR1FvZDlPTGh6ZjhPTU1EQlNrUTd1QnZLLTFlMThNaU8xLXhuS0E9PQ==
+"Advisory: 
+
+https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.SD1677.html",r/information_security,Z0FBQUFBQm0yeGNEeFRLOUw5NG0wOHFLTGdZWEx1NW51VUtMNVd3MHk1MnlfcWdaM3NDTW5vYjFfYWVWd0l3WjZZRTl1OFJnbHBMNEtONGdfWVdwRGIzUUtNVnRWRHJBOHc9PQ==
+In my opinion the most significant cybersecurity challenge organizations are currently grappling with is the dynamic nature of cyber threats and the need for constant adaptation to ensure robust protection of sensitive information.  I would like to discuss other viewpoints or queries on how organizations can effectively navigate and mitigate these pressing cybersecurity challenges.,r/information_security,Z0FBQUFBQm0yeGNEd2d5NEx5REQyVXRYejJLei1OVEdXMDZXMVljZmVxakpzRmZyZXh6VzJ5ZnY0RkNXQUhzai1EdktlVFdzQ0UxMHVLc0NUUXVpVlNINHduMmpfZTlNdHc9PQ==
+"Advisory:
+
+[https://www.fortra.com/security/advisory/fi-2024-008](https://www.fortra.com/security/advisory/fi-2024-008)",r/information_security,Z0FBQUFBQm0yeGNEMjNjVlUtaVROdUR1bUh2NmJkRFJwTXZCUUE2YVZIbTI0aVVYT19XMlJxaUtXeXJJaEhsWE5pdm1XaEFOQmRRWVFSWEZpeUNoX3QxU1pWMktPdDZueGc9PQ==
+Mmm Asians / Mexican mix - Asians mind their business in Rosemead. Tho they’re organize crime individuals they will stay out of the way and be lowkey. Mexicans now either are immigrants n mind their business or you have local gang memebers. You also got lots of motels n drug addicts walking around. South San Gabriel Blvd lots of motels and garvey has flamingo lots of tweets,r/information_security,Z0FBQUFBQm0yeGNERElQX01pMER0aDQwSG1ETkRRUy12WU5GNVJya1JnWUJ0OFN4X1VSdjVaNGFvZ3VwZllrd2VwN2V3VjQ4UkwwTWRReEFZQ2ZvQlRseWlXaG53MTI2MVlCdnhiUmM5SVItaGlMclI3WFRadlE9
+The news are historical and old ;-),r/information_security,Z0FBQUFBQm0yeGNFcmVfVnRDWnJUbUtpaDNsNUdMaTlMSmhIRGo4dG1iVmtyMm4wV0VrMHZsWTM1azBYb3hySEtKMlRDUUpRYk54ZGZtZk5mcUJpOG16ZFM4MTZFSjZhNFE9PQ==
+"This was Wednesday, not from 2016. A nice fresh breach.",r/information_security,Z0FBQUFBQm0yeGNFZVEzbHBVWTJWNlhvR3JPc1NLR01GdG1mNEFOWmJ2VU04TVA0NE4wOHJsS3ZDX1hFM0x2Rzc1UlQyOGV5d3ZPMDl5azlDWk1sWDU0MDFxN0p3OXlvTFE9PQ==
+"Advisory: 
+
+[https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA0Qk0000001E5lKAE.html](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA0Qk0000001E5lKAE.html)
+
+
+
+[https://security.netwrix.com/Account/SignIn?ReturnUrl=%2FAdvisories%2FADV-2024-002](https://security.netwrix.com/Account/SignIn?ReturnUrl=%2FAdvisories%2FADV-2024-002)",r/information_security,Z0FBQUFBQm0yeGNGa1BjUVRJNDMtQnYybFFBT1VaSGtJSUdPR1p1VGU1cFVtWUVDMThTcFg3T2JxU21xbHVPX1l3WElac3pJa2tLWHQySDNyaGpGSFlUMGhFMDJURmlNd1E9PQ==
+"You should do what you feel is right. It may limit your ability to rise in the ranks at your current job, but it's not going to impact your career negatively. 
+
+What it will do it impact your integrity and your ability to sleep soundly at night if you compromise your internal values. 
+
+But then again - I'm the kind of person that would prominently document being told **by the CIO** to **hide non-compliance** and I would bring it up every chance I got until their was a total shit storm and things were fixed or I was fired.",r/information_security,Z0FBQUFBQm0yeGNGOUtwT1huak0ySWZYdTN6SElEZU5tc3hoSzBCTTdxdGc3V0d3cnVhcEVIalExZXRwOTBEOHc0c3JCVThJdGZSb2FVYkdYWTgwM2hRYU9PM3BPdURDY0E9PQ==
+Yeah I definitely don’t mind throwing a grenade to get the right thing done,r/information_security,Z0FBQUFBQm0yeGNGQlI0S1BvME8zcGlUOVNhX2xuMHgxS0M0SkFpdnJrWUZvdUJfeW9zWDc1X3dKcUxhaHB6V09SQ2wtdXdkOFpnUnBVczIzdVlBNjB5T3gtQzZrMVZ6eGU4T3M2dXdQQXM0bEIxcGNiTkZkVkE9
+"As a professional, it is a moral and ethical decision. Your organization is trying to become framework certified. It is a worthy goal of any organization. However, a lie by omission on your part is still a lie.  You need to come to terms with whichever way you go.  It is a no win situation for you regardless of which decision you make - you lie and you need to live with it...you tell the truth and you jeopardize the organization's ability to get certified. 
+
+If you do decide to tell the truth, for sake of transparency with the CIO, you should tell him either immediately before or after you tell the assessor.  That way he can begin to formulate how to fill the gap.  He is probably going to be pissed at you, but you will have a clean conscious. 
+
+Document everything.",r/information_security,Z0FBQUFBQm0yeGNHZjFZdGRKcHRCYngwSGxmRWpVTDZScDQ3NGtHQUZ0S3MySEJlSkQxbmYxLXJjT0NINE9FMksyaWFOaEo3NVl1dUkzeTI4YThnQktadVliaW5tNU4wdFp4c0hUeHVOUDRDUF9sNXVXZjVrNzQ9
+"The risk will go into our corporate risk register. Essentially we are so close to audit that when (I’m avoiding using “if” on purpose as it’s so obvious) the auditor discovers there’s no evidence that any of the processes have been followed it will most certainly result in a major non-conformity and failure. The only way of bringing it back is to say that we’ve discovered the issue in our latest internal audit and having done so, a risk has been raised, staff are beginning to work following the processes and if certified, we will be able to produce evidence in our annual audit next year. Outside of causing embarrassment, my theory is that transparency with a remediation plan might be our saving grace. Not reporting will surely result in failure.",r/information_security,Z0FBQUFBQm0yeGNHUUt0S2VNLVNyeThaS04tWGotV0lROFJjTVlxazJzT2tfcERhNUJtNjBScDZFclppdklTOWV0a0pXU1c3ZlNMTWEtOXVhU1IzRWNEM0VuWFdBVWt1bzBSNUR6d3UzdmdxR1pra3F1VGVaVVE9
+"Qualys Blog:
+
+[https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server?s=08](https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server?s=08)
+
+
+
+Wiz Blog:
+
+[https://www.wiz.io/blog/cve-2024-6387-critical-rce-openssh](https://www.wiz.io/blog/cve-2024-6387-critical-rce-openssh)
+
+
+
+OpenSSH
+
+[https://www.openssh.com/txt/release-9.8](https://www.openssh.com/txt/release-9.8)
+
+[https://www.openssh.com/security.html](https://www.openssh.com/security.html)
+
+
+
+Oracle Linux:
+
+[https://linux.oracle.com/errata/ELSA-2024-12468.html](https://linux.oracle.com/errata/ELSA-2024-12468.html)
+
+
+
+Debian:
+
+[https://security-tracker.debian.org/tracker/CVE-2024-6387](https://security-tracker.debian.org/tracker/CVE-2024-6387)
+
+
+
+FreeBSD:
+
+[https://vuxml.freebsd.org/freebsd/f1a00122-3797-11ef-b611-84a93843eb75.html](https://vuxml.freebsd.org/freebsd/f1a00122-3797-11ef-b611-84a93843eb75.html)
+
+
+
+Slackware Linux:
+
+[http://www.slackware.com/security/viewer.php?l=slackware-security&y=2024&m=slackware-security.355153](http://www.slackware.com/security/viewer.php?l=slackware-security&y=2024&m=slackware-security.355153)
+
+
+
+Ubuntu :
+
+[https://ubuntu.com/security/notices/USN-6859-1](https://ubuntu.com/security/notices/USN-6859-1)
+
+
+
+Gentoo :
+
+[https://security.gentoo.org/glsa/202407-09](https://security.gentoo.org/glsa/202407-09)
+
+[https://bugs.gentoo.org/935271](https://bugs.gentoo.org/935271)",r/information_security,Z0FBQUFBQm0yeGNHSHQyU1hfS1FkNkVyRXprU3RocVZIRG54bGk5ZWdVWEE3bFBkbmVDUEtWN0FUWVhVbWVjQ2dGOVVaRWRNTmxXa1duUV8yX2VYTHRUU2NseVB2YU04VkE9PQ==
+32 bit x86 or arm?,r/information_security,Z0FBQUFBQm0yeGNHQTZJdTJsblVZQmo5NFNnZ3dmcHNJajlWYkZET1FaOE5DZ2toWDZTajJGQmxoZGltZW9VelI0bXl0MlR3VXdTaDJzWVJWUnhGS3IwaEg1ekV1UUJwVmc9PQ==
+I think you're taking the right actions and have it documented in the risk register.  You've done your fiduciary duty to your employer.,r/information_security,Z0FBQUFBQm0yeGNHQzUtVGdEVkdMcWJuR2k1MWRfTXJFdnRDZWRuVGJGQ2FfbkhfNkI0TFZaWWZGRmozVEtNWGFVd096OHJaRXRHX2FFZFhlTlZwTGZxcTQ4TGlSay1JZ0N2UEl5OG5sRk9ERUczMjF5cTBIMlU9
+"During our iso 27001 audit we had to show prove that we follow our own rules and processes that are in place. In hindsight I'm not comfortable with trying to sweep stuff under the rug.
+
+We ended up with 2 minor nonconformity's which wasn't the end of the world, though a major one would've sucked. But I'd rather get hit with a major one instead of committing fraud.",r/information_security,Z0FBQUFBQm0yeGNHbEkyUlVlbG1jcjNaVHpZa3NFeWdZRVNYTnZRQVRDMDMzUDlwNkY4NUl5SktqWk13N2xndUZLSnIwb1NxbGV0M1B2bjR6Zkw2bXlCVFJZdEdYbFdCX2c9PQ==
+Id assume any system that is 32bit running said software/glibc.,r/information_security,Z0FBQUFBQm0yeGNNajBqUW9VdzRWRy1jdjVSN09ZdjZJZ2R1cG5RTEttLWdhbjdTRnktZVdGZXozdFNJcnlXdHltYmtHTzZVWnN4U1lNZFZEaVI2amY1OHhMY01ySlB4VWNyLVF1aUlTamhBLU0xUENGeWJZbEU9
+Mirror for the submitted article: https://archive.ph/2U61X,r/information_security,Z0FBQUFBQm0yeGNOU2c4dHJVSEQ2MTJnOENRaVhnZ2NpUHlTbjRIWWtfcUJQbzJRSGRzNUc1NDhwdUFrcjRIMHZpZ3JGYzJuS0FTQlpRWUdLeThNV2tfc2VDa0NJaXdPMEwyeTNLaXRDZm1QM1VobURHT2ZuTDg9
+"I work for a bank, this is a scam",r/information_security,Z0FBQUFBQm0yeGNQN0xwVHlMQVBmM1VMWVlPRlpOQ201M1pBRnQwNFhGNGxRUDRXZkwtN1oyTFlyNEoxMzdGajY3VnNWVVFadUNITjdkOXRKX1Y1RnhKeHdxS3BIRk1xRlE9PQ==
+这是什么,r/information_security,Z0FBQUFBQm0yeGNQbUpZSDZrY1YycTY1S25tRGZhSGVkTDJ2bUpHYjE3ZlV4dDVXdUdRMkJvZGNNLUkyb3VEYTZFTXI4OHFNOUhrZmRrM0w3ZmtlYXlQTnJ0Szk0R0V1R1E9PQ==
+Here is my surprised face.... 🤣,r/information_security,Z0FBQUFBQm0yeGNQZG9uaG5qbzZXYXVaaEMzTnJtazM1cmh1NFBkQ3Q5SWp1UzdOZWM3ZzRESTg4T3loV0VRUFN0My1EdGdZenItY1B2SlRjTzlhQmV5WHg1ZXBkenJkOHc9PQ==
+"CVE-2024-38080(Zero-day Exploited-in-the-wild): https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38080
+
+
+
+CVE-2024-38112(Zero-day Exploited-in-the-wild): https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-38112
+
+
+
+CVE-2024-35264: https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-35264
+
+
+
+CVE-2024-37985: https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-37985
+
+
+
+List of Vulnerabilities addressed in Patch Tuesday July 2024:
+
+
+
+https://msrc.microsoft.com/update-guide/en-us/releaseNote/2024-Jul",r/information_security,Z0FBQUFBQm0yeGNRVEV6RlFmOXNZVzU2a0Z6dnZuMXhydlo4WGRMMjhBOWxDMkVsaFhZYkdWVEtjNnprUF9MS0ZaX1JHWWNrNXJhd1psUWtnQ3lqWlBvVllZZEJ6bXkxRUE9PQ==
+Official Advisory: [https://support.citrix.com/article/CTX677998/netscaler-console-agent-and-svm-security-bulletin-for-cve20246235-and-cve20246236](https://support.citrix.com/article/CTX677998/netscaler-console-agent-and-svm-security-bulletin-for-cve20246235-and-cve20246236),r/information_security,Z0FBQUFBQm0yeGNRRlVHTGJTM1kwaUpYdVpSQnFmOWo5b2xFM0NCdWdkQ29LSG1jQ2VTZ3ozbFVrM3hjSjNBMHJGVlVINnNaNzlqLW0zaGI0alU3eHZJZkxDd1RfTjdST0E9PQ==
+"Generally speaking, when hardware tokens are sent they are shipped without the seed files.  Upon arrival the recipient then requests their seed file using an online form, and after supplying their order details the seed file is sent to the email address that was confirmed during the initial order.
+
+As the tokens cannot be used without the seed data this is pretty secure, but if additional security is needed you could consider using programmable tokens.  With programmable tokens you can generate random seeds yourself.",r/information_security,Z0FBQUFBQm0yeGNRTFIyWjRQZG04WlliRnZUTy1DNFcxRDV5Q0RUaGc3aWZzYzhFTi1rdzNhV19iTUoxSndLV2JodWFfaldYUzF3YVdibEpHRDVPZk03SXhGOUhuOW1Rd2c9PQ==
+Official Advisory: [https://security.paloaltonetworks.com/CVE-2024-5910](https://security.paloaltonetworks.com/CVE-2024-5910),r/information_security,Z0FBQUFBQm0yeGNXcjNZSzlJUm1KYVZMb3F5TjdmU1Y4WFhabFVXaDNOUF9OYk4zaXF4WHRuVWo5RmNjZDg1UEN2OWQ2c1lQNVdRdWJtZEhJVE9VY3M2aERHcUxpcjE1NlE9PQ==
+"Too bad checklist compliance is not cybersecurity, otherwise it would be easy. That list, while it may meet HIPAA requirements is missing basic cybersecurity controls such as SSDLC, data backups, DR, and change control.",r/information_security,Z0FBQUFBQm0yeGNZQ2htQmU1elJ3VUo0RUVGS09aOTd0MFJfdVpha29ZenJ2ZFJkYVpRell2bFpZQ01xY241YkRvRklSMGZzQmV3RC1kWEJPSEE5Sko2d1EyaUozOGhxNmpCdWQzblhIemx1MG5FbzZDRkVNWjA9
+"One easy way is to never download it to your PC. Sign up for a M365 account (not free) and use Microsoft Forms to create a form that allows them to attach a document file. You could alternatively just ask them to email you the file. The files will come into your OneDrive folder. Enable security scanning of OneDrive files in your M365 subscription. You can open the files with Word Online instead of downloading them to your computer. For extra protection, use a Chromebook instead of a regular computer.",r/information_security,Z0FBQUFBQm0yeGNZTFpLYnZCNzV2dzlXZHY4X1RWb3B3TUZlc1I4UHYxeUMwV24xMWlfSmZGOERJZmlGb3FycHZOeWxmMklfOE9lMjRPWFk2Y0xJTUl3dHRRVlhVWElYR1E9PQ==
+Docusign if you need people to confirm anything. Allows view online only I think for pdf,r/information_security,Z0FBQUFBQm0yeGNaTU5CQTNWQ09IWVdKWE56Uzlpc0tBTWVKaHRBS2dRVVkydER0YlRHZFo4TjZadzV2VDI4UGFlRFhUSGFNUHVOVW1iRl85Tl9CNllGNDJBTUZZMS1qZzVsZHNtZDBOX1BoTGNBTjQwMUdFbUk9
+"Upload your received files to 
+
+https://www.virustotal.com/gui/home/upload",r/information_security,Z0FBQUFBQm0yeGNacXpIOVlXNmFVZU9SWmVEOWluR0JYeDd4a0JlUXpVQWxvLUVIeU5qRk1qS1lzd2poUzlubUN3eU1PTjJjZW9rTHZPTGpfWU16bmdfYURGZ0lnT1B2VEE9PQ==
+"Official Advisory:
+
+
+
+[https://support.servicenow.com/kb?id=kb\\_article\\_view&sysparm\\_article=KB1645154](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1645154)
+
+[https://support.servicenow.com/kb?id=kb\\_article\\_view&sysparm\\_article=KB1644293](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1644293)",r/information_security,Z0FBQUFBQm0yeGNaSF9KRUJHTFNDcEliUk9MYm0tT0JCYVNjOFdBYXQzYkNpajNCUk5MNWJqS3NWWHNaTG11bXJaTzB2QkswakhFOVhIWEFvVjNqc2NYS054OFZ6VEJGcmc9PQ==

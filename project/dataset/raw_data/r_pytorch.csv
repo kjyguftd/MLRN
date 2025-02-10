@@ -1,0 +1,937 @@
+text,label,username_encoded
+"I as well got this error, any fixes?",r/pytorch,Z0FBQUFBQm0yeGJTOTA0R3c4U2FFSmlzRS1kMVR1OGFLajllSGJnWElmeTF4VG41VnVIVXp3a3pBcUxTeEN6bG9PQlVNc3QwSVFQbi1SSTFVTG5wd3ZtZ0tWeGRlZERBRVE9PQ==
+Same here. Any update on how to fix it,r/pytorch,Z0FBQUFBQm0yeGJTMmZHLWc0QlBUN01QQWZHVkE0aXhjNzBRSnVENmlWTFhpaXN4SjdweldFd2k3TmNtQ1JCS3c3T1V2MUJkT3JWeGZjdHNSQ29WYWhRZEZ0UnAyV21LNENLbFh5bFlPbl9Jenh6UEU5QXRtaGM9
+"I uninstalled torch version 2.3 and used 2.2.2, however I'm getting different errors when trying to use model tracking with YOLOv8 and It might be due to my dependency versions but I am not sure",r/pytorch,Z0FBQUFBQm0yeGJTcjZrS2ZpZU4xSlF6cTRIWXhYUHdfRjVQWDY5OXk0N2dJdEh4OVZLdE56MF9ienpQaUl5d1FvV2p6cEF1bWNjZG5ncGFlTENNNWFleUtEVDNLSGpHblE9PQ==
+"regardless, downgrading a version seems to get rid of this error in particular, if anyone knows a better fix to actually be able to use 2.3 as its the latest stable version, that would be awesome",r/pytorch,Z0FBQUFBQm0yeGJTX0Z0TDhmNUhrUHJBLXFKdXMybnJNM2w1b2tFLU1peDdoRHlPVlZsck1yMGJKUHdKMTFVMVVwNzVIc1JXNUZrUUMwSWp4YTdvU2xJUzhVLXk4TmlCQlE9PQ==
+"Not related to your initial question but since you are studying, you should learn about proper use of generators (ex: range()).  
+Converting a generator to a list is often completely useless, slow down execution and has a bigger memory footprint (possibly leading to oom errors).",r/pytorch,Z0FBQUFBQm0yeGJTRlRGQ3J6bjJxZXBDU2J2eGlEMjFaV3BCM3NOMUtlWEhwdW1YZzU4akJMR0JFQWdYVXp3Z204cnFmOTZ6YTBuNHp5bXhIOHBxalVMN1A5aDZZRlJmUzM4MTYzZTM0c3FsaWlvUmJ4RXlPREE9
+https://github.com/pytorch/pytorch/issues/125109,r/pytorch,Z0FBQUFBQm0yeGJTcWw4dV9yZGRSbm9WYzRIbnV1cG54bG9US0RkY0cyWENXNU94NVhXN1RDZUdaeXVIOGx2a2NCMkhNZUVzVjVCNGx4MVk2OVRLYUhsWndSS0FIMjUtcWc9PQ==
+Have you tried google colab or lightning.ai for their gpus?,r/pytorch,Z0FBQUFBQm0yeGJTelZncFVkLUJqdHRjbTYzV21aRlN6THhKd1BUTlREeEd5ajlfSGtleTlTbjFxaHZaRE9sU1RxTE9BR1JjV0JHTlp0VVQ1LXZuT0xHTUtybml3QnY1bEE9PQ==
+"Yeah, or Modal, Runpod, Beam, Cerebrium, AWS Sagify, [Fly.io](http://Fly.io) gpus, etc. However these are all renting hardware unless I am mistaken? I'm talking about deploying to a machine I own or at least a machine I control, but not one I'm necessarily sat in front of.",r/pytorch,Z0FBQUFBQm0yeGJTTmNTck5zQVJfUUVKZ3VzN0tUSVotQUN0VDdTNFZ6cFRnOXRNTnBQVXZfWDNPX1RtSmFjbkladmZaQmwtcmV5OVppUjJNMGhFNU1QVGdJVVlxYXBHeUE9PQ==
+Ray.io with its torch integration if you want to keep it simple. Flyte.org if you want to use k8s. Metaflow is also good,r/pytorch,Z0FBQUFBQm0yeGJTQkQzcThGRnNKclVPYjBuSllNQ3F4dmxnbDhQbm5VZHE0SzJqTkJUOTNEc0dSa1EzV1Y4RUM3QVI1QkloQjFTU2ZZNTYxOUgzczBtcEhweGYxTGc3aEE9PQ==
+"Thanks I have seen Ray before, but not the other two. Am I right in thinking that in all cases you have to convert your project to work with these? For example; you have to bundle up or specify your projects dependencies beyond just having a \\`requirements.txt\\` or \\`setup.py\\`?",r/pytorch,Z0FBQUFBQm0yeGJTcWwtYXU4QS1TSTFyRll6djFiVjRQQUhOWmZRWXlOVFNyUk8zdXR2bE1UbW1ZNFhNTXpuUTI1ZGIyN0pLZDdfTHhPaEYwMXRoR0wwVWdkRzNVRUZTNHc9PQ==
+I can think of many ways to use Docker. Do you mean to build locally then push the image to a repository then pull it on the remote machine?,r/pytorch,Z0FBQUFBQm0yeGJTRE01Zkg0b1lPMTkzOW9MZHRjdEVGVDVTN1U0Rl9yWU5sUlhKdldadVJvYkcwNXB4NGhWVjNEMmMxeHpIQzJZM1FycllIWmpoYVprV1hKS3BGZmFEbGc9PQ==
+"For both flyte and/or ray, you'll have to add function decorators to each part of your work flow. Ray has actors/tasks/objects. Flyte has tasks/workflows/launch plans. These will tell each system how to handle your processing. If you use torch lightning, it can be a little easier. 
+
+https://docs.ray.io/en/latest/train/getting-started-pytorch-lightning.html",r/pytorch,Z0FBQUFBQm0yeGJTRHBqM1g5dTc4RnZwYmpPUzB5S0RqT2NlRGVhaVFjMU8xVk9VeG56N2hpSVB5XzBuemd0Q0Q4UXNCUUI4YlFtMjdnYmtydnhTZnIzbFhxazFPeEVIVVE9PQ==
+"I use a Chromebook to connect via ssh to my home PC running Ubuntu. Kinda sucks I haven't been able to get X11Forwarding functional though, not sure how to use matplotlib with this config. Adding -X to my ssh string doesn't do much yet.",r/pytorch,Z0FBQUFBQm0yeGJTOHRhS1dObHpkWGVfSHVqZ2FfMWQySkxLblpmM0ZIVXdGRHNtME5xeGw2eWoxZjRhaXFMY3JqNDZGX1NBd3BqamtsWFNLVU9yLXB4WHFuVDBfQjFMSWc9PQ==
+"VSCode over SSH is spectacular for remote dev and terminal. Jupyterlab works great, too.",r/pytorch,Z0FBQUFBQm0yeGJTZEtaV3RaRm1Zd2t4VFUwdTFJWjVlbC1LUG0yUV85SjBKWHFnY2szMklVQjRSTXBfbm9NSVVQakhsdVZCWGVYbkI4NzZRdUhCOGcyQUJBcVpSM3RieUE9PQ==
+"Just a note that VSCode tends to leave a lot of orphan processes on the remote machine. So you should check after closing the connection and kill any leftover processes when done. Another option is VSCode + sshfs which requires no VsCode processes running on the server, but you lose the debugger functionality.",r/pytorch,Z0FBQUFBQm0yeGJTNjJBcGlaTXRWeDZGWEd2S1NsajI1TWlqY3NuTG0wUkxSa2Qtc1FUOWs0LUZBbTBBRjBybVBsdG5ZSnpVSkFtSE5SRHNSZVVnR1RQMnNvcmJKTVNQRGc9PQ==
+"I'd like to build docker image to run my code on remote machine. If I want to modify codes, I do it locally, and then rebuild.",r/pytorch,Z0FBQUFBQm0yeGJTUE9POXpic28yT2lUMFQ5V3oyc0FHUElIYXlvUHBHenpxclh5NC05WnlCam51a3liMzQ0dGdWdjhLRHBkS3A1dGsyb29mMEZJczQ2c0ZnRGs5VmhJcWc9PQ==
+can you solve the problem?,r/pytorch,Z0FBQUFBQm0yeGJTaFpTTDlPMmJIbXVPUmpjQlA2SDlJemdRaWF4UmFJczM2TldGM0ZXelpDaFI0MF9ZZngxclBLWkR1SHhUWU5TZkVjcXRTTjhaaHBCOHJvaFBnckYybFE9PQ==
+"A similar question has been posted on Stack before. Is this what is meant?
+
+https://stackoverflow.com/questions/52468956/how-do-i-visualize-a-net-in-pytorch",r/pytorch,Z0FBQUFBQm0yeGJTTGEwYWtPc3RjdlpKdy1ybGdkdG4yWTFPR2lPSXZoMVJlcDZKNGZ6bF9HUFpsb3JZSmJKVHNPMVdQVkpRUzNienQxRjJKNzd1ODY3UFUzVmFZV1lzdnc9PQ==
+I think this might be what I am looking for but let me look more into the post. Thanks for the help,r/pytorch,Z0FBQUFBQm0yeGJTOW0yRGV0Vk1NSFA0MXJYb1BrM2RNR2RzNzlSaENyMEtQQ0M2MEJLMWNveFY2TXppeEdYLU5PdEYtMkoyNEJSdU9RRHJxcHU5UWY3VFVKQWlGR2swQ0NKMS1ZcXJiWGlQZkxOWXlPT1lTQUU9
+All good. Yeah sorry I couldn’t provide any additional insight - genuinely didn’t know that existed until 2hrs ago,r/pytorch,Z0FBQUFBQm0yeGJTcUQxYm1JVXJKNE9rbGRIcU5uNHFzMlp6bmJQLU1FVEJLVUNTQWpFSGlvRWtUZFM0WUQyVW1UWmdJSDhwQXpCTE9COXJPb0xCWWljRC1RT1VfVmNrM2c9PQ==
+I was thinking of making a library that will visualise a model for us and that’s why I was looking into this,r/pytorch,Z0FBQUFBQm0yeGJTZ1lkd1YtUTgzUHhHa2w5c1NtaDA2YzhYbktVVmR5WnplUVdWcnFRZ2FIZVVLQWs5VDRJY3EwdGJqNDNaaG81aWFid2xmNXhUWDNGVy1ySHZTVHVJUDRDSmx6RnRjXy1xR3BYM1RmY3FGeFU9
+"Not currently no, but 2.2.2 works fine for now ig, this issue currently one of the top priority issues on their github repo so I'd stay posted there",r/pytorch,Z0FBQUFBQm0yeGJTT1VJU183RGdYekdzTXpsVVM3SnJ1SnpjMEFrcU10ejRFN2Z5amhmS3c4bE9DRDlPZFgtWmtRNTRLUmNTQ25tMVEzWUhZSl9BdVpLTnVBTjdvdDItTXc9PQ==
+I tried using 2.2.2 but in that case training stops after first epoch and dont give any error :/,r/pytorch,Z0FBQUFBQm0yeGJTcGVTWmF5eXotNWdETU9BdXp2T0g0aVVjLWtKUmVvYzRnY1VCSm83NHJQUzlfNWwtMmpvYWdvc0lIbkVNSnduVjdHQmc3bzRSMnBnblVnR05RWDdkekE9PQ==
+"Yes, print()",r/pytorch,Z0FBQUFBQm0yeGJTNXpXZDVTS0syMUV1aWFmSEtDLW50STVCTW8tbU40bDhYLW92S1lWaDg0OEctQWp3MFk0UmFwdEc4bTVnN2JUSFYtUGVFX01LQ0xuMW81TmM4UUx3TzJUYkVjdUxfU1hOMzNNdUZSaEliYzQ9
+Hahaha,r/pytorch,Z0FBQUFBQm0yeGJTMEdjT2RCYlBSSTdmTlNmRXZCMXNkc2N6UHF2cTlvYm5vRzhPQnpxYTVJeGRpdE5PNHlZVmNrN01oc2VvRE9XMFExQWFoM3AwdWRVYjlYenZ2MENpcFcyQVZkbnM2d0xHaWczNXBVOG56U3M9
+"Yeah i ran thin command, vram doesn't reaches 100%",r/pytorch,Z0FBQUFBQm0yeGJTaXZrM0NIZXRRakMydTJTZUJXXzR2WXJpbUV5NFhaMmQ3bllGVHVQZDFsTGxheWREOTVid1d6S1cyMVFzZ0traF8tRkZRX0kzaWVpTDBxNmtuUkFvV1diSXN0dGo5dmo1UEdHcUpxaWhTYlU9
+How old are you?,r/pytorch,Z0FBQUFBQm0yeGJTTktOdEJ6c2xBYW85bG5zNXpuWlN3MmxyMUVfU1JsZ0c1cDlLMjlWRWE3cTU2WEF3S2RSZVQtelJIdlZkOTNra1JUMFV6dTV4ZG5rSl9HSmc5cV91M1BCT0VQUWhGNTNaUjBmRklOcFN3V289
+Layoffs in google?,r/pytorch,Z0FBQUFBQm0yeGJTSWhYN2I4OURTM3hRNkxBOUJvOU00TVU2Mkgxd1RVZEZyUzNHeU8wdnJmaC1ZZnFEMUFOWlg5anFxMWNaVklXUWdwbEwyWGRoaUR5bWtHZUxIaGR0blVoMjA3WkN5YUZVOUV6b2RaUzZMQmc9
+"The idea of the MetaPath2Vec example \\[[https://github.com/pyg-team/pytorch\\_geometric/blob/master/examples/hetero/metapath2vec.py](https://github.com/pyg-team/pytorch_geometric/blob/master/examples/hetero/metapath2vec.py)\\]:
+
+1. On `train()` we try to reach the best embeddings for ALL of the nodes (not only ones from `data[""author""].y_index`). It's the unsupervised part, you don't need any labels here.
+
+2. On `test()` we evaluate how author nodes with known labels can be classified by logistic regression \\[`model.test(z[train_perm], y[train_perm], z[test_perm], y[test_perm], max_iter=150)`\\] using their embedding we got on the 1 step \\[`z = model('author', batch=data['author'].y_index.to(device))`\\] (supervised part).",r/pytorch,Z0FBQUFBQm0yeGJTS21DbmVzdVIzeGVabXl5TmdGUWloM0lneXVXdlZvbzNNT05fdEVUZmhoV1dsYlNyRnVKaDUwYTFiTlR3SU9oaXhRSGtZRktKblBHUHNlTG1kbW4xTnc9PQ==
+Oh okay i install torch 2.2.0 and torchvision 0.17 and it worked,r/pytorch,Z0FBQUFBQm0yeGJTSHJFUXczcFpXaUF4aXVLMEs1Vlg0bm9aRmw3VGdBYTVJQzRHZnVyM1VZbkxDNTcwak9NTzJXZFdPcWtreWc3SlpRZlNYanBWOElhcWNmVUV3bVoyakE9PQ==
+I'm also struggling to build a CUDA-enabled version of pytorch on the GH200,r/pytorch,Z0FBQUFBQm0yeGJTLWpmRWlhX2NEdWdkei1SeWtIdzFwem5rb1FxSTBYUDdlbC1GckdBQnBfVmFKbk5QQjZrcDVMYzgzOXlfVGFjT2VSQ3VHR0lIZWQ3R0RwMTMwb1loeFE9PQ==
+Probably because it is being registered as part of the forward pass* again. Why are you not using a torch optimizer? Edit: typo,r/pytorch,Z0FBQUFBQm0yeGJTaTlaM2UzbGdpVkliY0NPZTRfdkhNczlnVWE1UWtKbmhEdHBSR2RsUkdrelRzbmRkdERnX2Y3QXlTOGRLTU1XenJkX0hBNFZNTjZNTmtkUkxxSExQZHc9PQ==
+"I tried to do ""with torch.no\\_grad"" but still the same error. I am trying to do it myself for learning purposes",r/pytorch,Z0FBQUFBQm0yeGJTaERVOU5CR1BNZVhUUmRKVF93LUtqaDduY0w2Zms3NHBnN2VoOXh6MnU1LWZSelhfcl82ZWpTemNTd1lUUWJiN0QxMGtnaEZSTkZ3T2xmSTUwQm9tMXdzNkNHaXp4cXhPV3hwQkd0Z0NacU09
+"Found why because when I update W like :
+
+    W = W - lr * W.grad
+
+W is pointing to a different tensor and that new tensor does not have any grads yet. I should have done like:
+
+    W -= lr * W.grad
+
+Which would have updated [W.data](http://W.data), the underlying values. Also this update should be done in wirh torch.no\\_grad() so this update is not considered as a part of the computational graph",r/pytorch,Z0FBQUFBQm0yeGJTMHdEVVRMQTJpTDZnYS1RTFM3bFA5TnpZQ0hoeTUwN3l4SDl5SEk4R1k2QndxQzJtekdRaFpHUjZ4VWEtNFBoaEtoTDBUeUt6dHFnclVMSDZXbWlyUDl4Y2dOSXkzZFFPQnVqcVRwMEV5bTg9
+"If you want to learn about auto* diff, go look at the micrograd tutorials by Andrej Karpathy.
+
+I would strongly recommend against using pytorch partially like this. It isn't really designed for what you want to do. Anyway, one probable fix is to do the operation directly on the tensor value. I think .data() is the method. So that it isn't captured by the torch.
+
+You will also need to go learn in depth about autograd and the difference between leaf and non-leaf nodes to understand what you've done here and why it is failing. 
+
+I'm also not clear why you are retaining graph there. But you'll need to forgive that since I'm looking at this on my phone and formatting is horrible on mobile. Edit: typo again :/",r/pytorch,Z0FBQUFBQm0yeGJTVC1JRFhwVXNqR3Qzd01oUUVoVjZjMjdWVDRiaUVrTFNSd1NVZDFHYlRkVkhaTzBUMGhWanhyVnBJZ1V5TDBWYlBxb0VDb2JzMmN4bU1DM1hZSnFzdmc9PQ==
+"I found a solution, check out my comment. I was planning to watch that video it is quite long tho",r/pytorch,Z0FBQUFBQm0yeGJTMXdBUmYwZXNIbXVIVWd2aUoxQ3RESDZhdDU1aDBDMHU3am5od1o0VkZnSGtmY0ZIZ0lKNDJtTG9HZFV0SkZ0NjhMYWI4R2poUFVCX3pWV1BIbjI3VndEdXpycHhVSXdnM0hPRTg0RW9VYkk9
+"You don't have compatible versions between torch and torchvision.
+
+You can fix this by running ""pip install torch -U""",r/pytorch,Z0FBQUFBQm0yeGJTMHZ0OHdmcG1sZlBFb0w3c1R4Z1lKM3ltQ0VQbGMtaE0tU2d5d3k1aXlMcktRNGgwY3JPRU5OVkdENHR2VGNkM0pCQ2cwMHY5V0lITXZrMHhrSDRPX1E9PQ==
+i think you can just call grad twice to obtain second order derivatives,r/pytorch,Z0FBQUFBQm0yeGJTMWp4OHYtOE1hZFdCamo5OGdvdXE4a01xMWJHUTQ4c1hmVjNqTkZQdGZyS1JBZ1FjTDYwdjVZQjFQdzZLU0M4SU9pVWZzYmtaLTJIRmx2WTlYWV9WU0E9PQ==
+This won't work to do it for all network parameters tho... Or am I missing something?,r/pytorch,Z0FBQUFBQm0yeGJTTlJPOUFzaTRvcldLckFpOGstMjNnY2xVeHM3a0k3YUxWU05uWWF1NUM0bTVuZWRrTHl3bkkxYzJlRzFGN0h2TmN6cmUwU2ZBWHpGUFJ2RnNPMXFOaXc9PQ==
+"[https://pytorch.org/docs/stable/generated/torch.autograd.functional.hessian.html](https://pytorch.org/docs/stable/generated/torch.autograd.functional.hessian.html)
+
+have you tried this?",r/pytorch,Z0FBQUFBQm0yeGJTSk5CYWxfLTBYd3VseVBiN3JtZHpoOERUb3lYbHo2WmRMajZpSU5hejh6ZlJoZVJ2X0ZjSE0yUmNKMWR3RDdHY0NhYmZnSWY2QkZQbjg2UDdnNGprZmc9PQ==
+Yes but this is extremely inefficient as it is calculating the whole n^2 terms of the hessian when I only want to get n (just the diagonal),r/pytorch,Z0FBQUFBQm0yeGJTRzRpMTJmZEo4REk2Z2lVNTg5QklyTTB2bGhFY1g0b1M4UWRiNzR6bFZ4RUozbTh1cFJIUEV1UDhaZ1lZano5aVpkbFJYSWJMc3Y0YmdzWVRTSlJDWXc9PQ==
+why would it not? grad should be able to handle a vector input. just make sure you apply create_graph = True,r/pytorch,Z0FBQUFBQm0yeGJTUHg2MVg2cjVmNGV6VTBIV21lNC1rVFh0bGNVVFhqNEZUQ3U2WFVpbmpjeExHV2Y0NlBNTEJMdUxjUWVJdy1HeVM0QzV4YzBYNE43S0FaNmZGcHBZaVE9PQ==
+You can try backpack.extensions.DiagHessian or BatchDiagHessian from backpack.pt,r/pytorch,Z0FBQUFBQm0yeGJTSjFaNTlBMEgwajRrZzNHVlUyTFl2YjBtUnhLcFE2S0s0TlhYMjIzeXNReG8weE41dWlreTlMbThwcm1KdjJIS1NGb2V1YlBRZXJaVXNLcWc4X19OSkE9PQ==
+Com este nome tem cara de ser brazuca. Acertei? Eu gosto bastante das coleções da Packt. Vou conferir o conteúdo com certeza. Tenho bastante interesse em utilizar Pytorch na minha área de pesquisa.,r/pytorch,Z0FBQUFBQm0yeGJTMVhLOUZ1dVZVRU5Nd1F5S3JCVEtvWjZ4N1hTYmJ4bHc3SU5obHpPbk85cEtXRFdWWGVNcDNnM2IxM1BYa29SQlk5bVpjN3JRdUdLbGlmYmgtMEM1czI4U21tc01PaWIyOWhCaHNFQmlGQnM9
+"Fala ae!! Acertou na mosca rsrs! Se gostar do conteúdo, compartilha também com o seu pessoal! :) Obrigado!",r/pytorch,Z0FBQUFBQm0yeGJTOXFGRnlYRHlHRDd2QTZNbG50cDhtSnNzYkw1Uk9mcDJyY1FFby1SclFIMlNvWVJrakc1SUNCMHFoRGlmU0F5aVpWRnQ0WGlGaXRCOG9GVGdvZTdia19US1BTcjdqdkRrVkZPNVZPVTVwTUk9
+Have you tried with pip but still inside conda env instead?,r/pytorch,Z0FBQUFBQm0yeGJTaTVoT0xYTlh2TjZBZWJka0ZOVEJqamtQbnlSb2szNldiblFvYWp5ZFZYMnFVRDZPazR0LS1CTUFfQWlINFA1dTJRb2g1TDhxdzBzZmdzQVIxc2VHMkE9PQ==
+"Do yourself a favor and get a used 3090.  That is in your price range and is a much better option for machine learning due to having 24 GB of VRAM on a single card.  You unfortunately can't just add together the VRAM of two cards.  You'd have to split up the model or the batch, which is not as efficient as using a single card (multi-GPU setup efficiency does not scale perfectly, especially over a PCIe bus and for NLP in particular).  So one big, fast card is your best option.  If you want to wait until later this year, used 4090 prices may tank when the next generation of cards is released.",r/pytorch,Z0FBQUFBQm0yeGJTbzVFaVpHM3lMcFI4UnpKRXBWMUZVZG0wVmdCenQzWG1JU29Ca1RYOGFxNWhSemJ6RGl6WkFzRHZWQVlHWmd0b3RLQ1VXNkZYbmFYbnpqSlg3M0NpTWc9PQ==
+"yes i tried. i encountered many incompatibility issues. such as
+
+
+
+>Traceback (most recent call last):  
+  File ""/nfshome/store04/users/c.sglbo/FourCastNet1/FourCastNet/inference/inference.py"", line 65, in <module>  
+from utils.weighted\\_acc\\_rmse import weighted\\_rmse\\_torch\\_channels, weighted\\_acc\\_torch\\_channels, unweighted\\_acc\\_torch\\_channels, weighted\\_acc\\_masked\\_torch\\_channels  
+  File ""/nfshome/store04/users/c.sglbo/FourCastNet1/FourCastNet/inference/../utils/weighted\\_acc\\_rmse.py"", line 57, in <module>  
+from utils.data\\_loader\\_multifiles import get\\_data\\_loader  
+  File ""/nfshome/store04/users/c.sglbo/FourCastNet1/FourCastNet/inference/../utils/data\\_loader\\_multifiles.py"", line 58, in <module>  
+from utils.img\\_utils import reshape\\_fields, reshape\\_precip  
+  File ""/nfshome/store04/users/c.sglbo/FourCastNet1/FourCastNet/inference/../utils/img\\_utils.py"", line 62, in <module>  
+import matplotlib  
+  File ""/apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/\\_\\_init\\_\\_.py"", line 107, in <module>  
+from . import \\_api, cbook, docstring, rcsetup  
+  File ""/apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/rcsetup.py"", line 26, in <module>  
+from matplotlib.colors import Colormap, is\\_color\\_like  
+  File ""/apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/colors.py"", line 82, in <module>  
+from matplotlib import \\_api, cbook, scale  
+  File ""/apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/scale.py"", line 18, in <module>  
+from matplotlib.ticker import (  
+  File ""/apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/ticker.py"", line 179, in <module>  
+from matplotlib import transforms as mtransforms  
+  File ""/apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/transforms.py"", line 46, in <module>  
+from matplotlib.\\_path import (  
+ImportError: /lib64/libstdc++.so.6: version \\`CXXABI\\_1.3.9' not found (required by /apps/languages/anaconda/2021.11/lib/python3.9/site-packages/matplotlib/\\_path.cpython-39-x86\\_64-linux-gnu.so)",r/pytorch,Z0FBQUFBQm0yeGJTcU0zVWk5Y01KUTVYTVVFNW5nQWN4bWtBa0tseHF4YlJFQ1VwU2F0QTU3d1g5TjNLcFBBcnpYaE1pYlZlT0xGczNIWUZWVTVDdThURGlIRkVDRDdINXc9PQ==
+I pretty sure know that it is ‘not as good’ but im really scared of getting a 2nd hand gpu especially the powerful ones like 3090. And considering where i live the chance of me getting scammed is pretty significant,r/pytorch,Z0FBQUFBQm0yeGJTSFF0QW5VLXlTNFRVNlZGeDFZYTA1ckcwMnpScDQ4Tl9QZGh1ZTlHeTlFY3B1VEx3dTNoLVhJRjJCamhzam9nQ3V4aHFTOFo2aVhOVWpVNDZhcUZFUWc9PQ==
+"For most use cases, your mileage will be really poor for 1k. Kaggle and Google colab offer better value for money at the price point that interests you. They are free and get the job done at the beginner level.
+
+Afaik, all modern Nvidia cards support CUDA. Yes pytorch works with dual (read: multiple) gpus. You can look at dataparallel or distributeddataparallel. I don't know about the r5 CPU, but you would need enough pcie lanes on the cpu and the motherboard to accomplish this. You can look at timm detmers blog for more details. ([link](https://timdettmers.com/))
+
+What are you trying to accomplish in the NLP space? Do inference? Do training? 
+
+Depending on the size of models you want to run, you need to realistically look at a 5-10k usd budget for the entire rig (depending on your local market conditions), for anything involving training language models. You _can_ work with small models, but since you've asked your question in 2024, I assume it's some modern LM. you can potentially finetune smaller models like Bert or distilbert, or even a frozen CLIP with an adapter layer under 10gb, but anything beyond that will be a challenge (read: functionally impossible).
+
+If you want to use llama cpp, just add more sticks of ram, and I think you'll be fine.",r/pytorch,Z0FBQUFBQm0yeGJTaWdPY3pBV0ZzbmNEaUZ4bTRNVV80Znp5dkZVNWliT2FSd3AxNFBaTHFWTVc1VmZ0NEJEa3BZekttdG84LTdCQXN0NUR6SE16aDdkM3BqU2dERjhaRGc9PQ==
+"Thanks for that informative response. Im going to do training mostly but with nlp training i dont mean fine tuning llama, instead models that i can create by myself entry level ones. Actually it makes sense to go with free colab but it kinda sucks and not stable. Do you have any opinions on multiple gpu on pytorch? 
+Thanks in advance 🖖",r/pytorch,Z0FBQUFBQm0yeGJTNlRnTThiT0tLcnlxY21GOXhjSTJmbmFRRW1iU2xuT0hHMFlyX29MMENhcmpVbmVPYVhITHZhNWM2cDJ1R2QwVnBBbDFXM2ZJZXEzbnBla3hpMjRJX1E9PQ==
+"Hey! I'm attempting to do something similar with that right now. I'm working on porting LLaMA.cpp to the Xbox. I'm trying to get a working demo but I'm already running into issues. I will say you will need a bit of programming experience to get this idea working.
+
+I'm already having a hard time with just porting LLaMA.cpp to XBOX (Via UWP), so I have no clue how you would get Jupyter working. It could possibly be easier to get it working for a PlayStation since you can use practically any programming language **if** you get Linux running on it.",r/pytorch,Z0FBQUFBQm0yeGJTYnduSVFUSWRuQ2RFZmZNMjNUczl6SjllLURUQ1JoXy1IRFZIZWxYcHJIWjZKUFB5Y0J1X0lSdEZDNHVyUllOd0QyLVFXc2N3SDNKTGJ4Tl9YT3BZS2c9PQ==
+"Communication will be terrible on dual cards. 
+Writing efficient distributed training code requires some domain knowledge on how framework works. 
+
+I think you can achieve higher MFU by just using a better GPU on colab",r/pytorch,Z0FBQUFBQm0yeGJTRkNxQWFQNlhDaGxPb3pZTVIzZ2JnUi1fdWI4X1pWWmR1SzBVSERWQVNrV3hVYWhjVklpT01PWjJadUxVRU9TNWVJYW5zZldpcTR0QUdXYlVLcF9fUVE9PQ==
+i was trying to install it in a conda environment and changing the env python version to 3.10 worked!,r/pytorch,Z0FBQUFBQm0yeGJTamxYSkE3RUQwZWNZOE5SbG41eE11cC1xb0U5UnBud1ZuSVVDM2FYOEQ4aHNQMk1iMkVIZC1KSEhhdFR1SlNadFBVdkhvWnZGQXpOZDhTb1MteG5WWWc9PQ==
+look into using Nvidia's docker container. only time I can get cuda to run,r/pytorch,Z0FBQUFBQm0yeGJTYWNKMGR2eEJZOEUxbDg2QVRtU1NQUjNPQWtzZkhFa2NYeW9SMHlhVmEyM3RXeGJibklRR1ZNNV84NXlDU3hsNngxRERicENMc2dtaUxlZTF1cFYzZ0E9PQ==
+"Large models are possible because of multi GPU training. So it is stable and works well, but don't jump the gun and spend money yet. If colab is bad use Kaggle. 
+
+If you _must_ buy a GPU, then buy something simple. When I started out I managed to buy a 2070 super and it definitely helped me. But don't spend too much money on it. You'll outgrow it and if your only purpose is for AI, you may regret buying more than one. (At the very least, you can still game on one GPU)
+
+For toy networks you don't need much. If you need more, use lambda labs cloud since it will teach you how to use servers also (~1 usd per hour). If you discover you're spending a lot (>3k), then get a job in AI and save up for a good rig. If you've built toy networks and worked your way to this point, you should have a good enough portfolio for a job. Hopefully.",r/pytorch,Z0FBQUFBQm0yeGJTdGVzRWNSQ3VQV0tRenlzbEpiT3lhY0g4V25jUDdqQzY1YUJ5dW9rVG5wQk5HdWh0RllVeVBTcXNUVHR5UGhjUGhWTlJVZ0NuVFpjVm83RE1NRTJLbkE9PQ==
+i have been having the exact same error. Maybe it has something to do with the nvidia cuda and anaconda thing,r/pytorch,Z0FBQUFBQm0yeGJTZFlpa0FPTnpyTXRINTZaanZfSlZlMUhkemdldUFKVHROVkg3Ml8xeGg3c053QVk1b1REcjNlSUcyRWo1N2RfYmJxdmpxY19WVTAyVUcxNGlSS0gyeGc9PQ==
+"Create a new environment. Specify python v 3.11 and then try repeating the process. Also I like miniconda, but that's a personal preference since I don't want any pre-installed bloat.
+
+I am doing the install process right now on an Ubuntu machine, so I know it works (unless you're using some experimental Linux version)",r/pytorch,Z0FBQUFBQm0yeGJTN2txZDRsU0tkVWhORkhVUjVNRFZDXzhlQnJKNkZETXpSVWdRQ2Z2TERUN0V0bUF1VFJab3BoOVpXc1ppZDhUaFV3aGNzY1lSZ2pzeUJ5MTJWOUVNanc9PQ==
+"this was not just a great hardware answer, but an advice for a path i should consider. i extremely appreciate you comment. i will go with single 3060 12 gigs for now, it will be a gpu upgrade not new rig. as you said, when i advance and get good knowledge of my needs and what im doing exactly, then i would reconsider whether to buy a good gpu or go with cloud.
+
+Thanks for everything <3",r/pytorch,Z0FBQUFBQm0yeGJTSllrQktyR3dGRHJfVE9KZTk2UE16U1phS1Q4YWthWVpDVVBRR3dXcnNyZGhfcTE0LTBmRnJtZ1QwcWlvVzhzUzk3U21odXJ5ekZVcEZmZjFsWGpoN1E9PQ==
+thanks for the comment. i decided to go with 3060 12 gigs for now. in the future i might decide to go with something better. but for now i will use 3060 for 3060 sized tasks and for larger ones i will use either colab or my brothers 4090. thanks in advance.,r/pytorch,Z0FBQUFBQm0yeGJTWl9wbUlXLTQ4M1BuZzMzRU81aG9CQ2xyNG1HakgyYWJqdFFOd2lDcnhrZjVYa3U2QzRTU0lRSHRISFlOTGI3VnZScE55cEI3U1RjUi1pX1NFOEFNSFE9PQ==
+Sounds good. Try to look for reviews on the GPUs you want to buy before making the final purchase. My workplace still has some 2080s and 3080s that we use. So I'm fairly certain you'll see _something_ about 3060s.,r/pytorch,Z0FBQUFBQm0yeGJTN3BEcHEwTllwR1BUZUZWNjFmSUMyaXdud2F2MS1pTmVBMnplQXFrM0RCel9DTmZtV2NBSFJNRy1VLTRPUXAwWUExUFdpN0RqLWtFUUxxZmQxMGN1ZWc9PQ==
+"Also use ""python -m pip install <packages>"" inside the conda environment. I had issues because I did the regular ""pip install""",r/pytorch,Z0FBQUFBQm0yeGJTRXpFWlZSb3lhM0xTcWEwTVZOc185S0g2YVRxdVdES2hiSnBNMElhcGF6VFVfdWxnQUczUHVobFdseHViNXdkbDlhNnloaUp0aExQS3JOVkNqNTlsSHc9PQ==
+i think its only because pytorch supports python 3.11,r/pytorch,Z0FBQUFBQm0yeGJTVmFjS3hzQ2NadU4zc09mcWdVOTlmb29fWkk5UzJEYlNMaThLQVhxUW9QOTE1QTdkVU9udm9ybURBbGVaVXphSXFyandPbUxIRFZCX3hta3hBd3U4QkE9PQ==
+Update your conda,r/pytorch,Z0FBQUFBQm0yeGJTRUN2VDdHYk9xNlFzc1ZpalM2MENhSUh3N3ItRjhmaGRiUk44ZlhTdHdPT1ZmNVFxUW1mOVVkMkwza1l2MzRxRjFveExEbFdpQzBHWndwS0U3UkNsaVE9PQ==
+well i think its something to do you with torch,r/pytorch,Z0FBQUFBQm0yeGJTeDNrNy1rQ2E5SXIxOWhlSTN4YWxUOTlFclRpT005VHA3VVZQVHVjZTdMaWd0eFpVU0tuM2FuSUxpTHN0a3VJOVRZaVh4UVM4T0xYWDJaTl90U0V5R3c9PQ==
+"In my experience: Maybe
+
+1) The motherboard should work with two GPUs. It did for me. You may have to use a riser, due to space constraints, depending on the card(s). Make sure the riser is PCIE3.0 at least, and at least 8x, not those 1x mining risers.
+
+2) The memory controller on the CPU and your system RAM might be the actual bottleneck if you run other, larger models and have to hit the system RAM a lot. Why not upgrade to a 5700 or higher CPU with a better memory controller?
+
+3) Used GPUs seem mostly fine. I had two 3060s. I ended up getting a used A4500… and a used 3090. No issues. Work together. 
+
+However, as others pointed out, most models don’t readily split across the RAM of two GPUs. For LLMs and stuff, you have to split up the layers, and then you’re shifting the bottleneck to a different part of your system. I have not tried NVLink, as that spec seems to have changed slightly over time and I’m unsure if it will work with my GPUs.
+
+Alternative is Google Cloud, Vast.ai, etc. etc.",r/pytorch,Z0FBQUFBQm0yeGJTak5DRElacEJpSTZpY3JibmNiQ29Zczl0aFJCUTZJWGZpRTV3RUs2THdjb0xIRzNuOUtkVzJ6bmNFdnFEVGlDVEhUOExHZDAtNVJVVHgyeWFzRnMtbVE9PQ==
+Thanks 😊 that was helpful,r/pytorch,Z0FBQUFBQm0yeGJTYWVsYW1EWEVqMnhwX3A5LVNQMjBtZ3JTYzRUdmJXOWdiaTRLbVprNVBmOVJnZWdvNHQzdGp3UEJCTEtGakVMWkhCc0ZsdVFTQTd2ckhCOU5zYVhBTXc9PQ==
+solved [https://www.youtube.com/watch?v=ca34C8ZUI0A](https://www.youtube.com/watch?v=ca34C8ZUI0A),r/pytorch,Z0FBQUFBQm0yeGJTcWE0RnZTY3lYem9TTTlHVmV6b1NEWDBSeTVydkVNbngtOWw4ME8yUl9HczByZHFGYW1JZC1DM3VWTFI1dnpMeHZvRV9qSXdRNDhoMDNtcVNMLTlwcWc9PQ==
+"PyTorch offers great tutorials, check them out, they’ll provide everything you need for a classification task :)",r/pytorch,Z0FBQUFBQm0yeGJTOVZZVmJWd0VRd3ZDNTBXTnk5NXRuenBJOUJNZHVZck1RSE45VGtOdXI3MHN0YkE5alhMUkZ1RkdLc3dPTnBkRGJvMWswRjE0SXBZS2RubTVrRzFmYWc9PQ==
+Nice it’s working,r/pytorch,Z0FBQUFBQm0yeGJTQnJtcF9EYVRWS3dMMXJNYmJ6WERvZ29IRlFKRUFGRVdJbkxFSTZYc3ZwZWVrTF9zckRKWWhPSUZOQUoyT0R3MVV2SDhSSF9OdkdqbndWakJieUZBY1E9PQ==
+Got more of her ?,r/pytorch,Z0FBQUFBQm0yeGJTdE90bkRVTEVacXVEUUE2bzBCY05uU2RmZHQwcV9ZRENxMzhUVVBNMUMwREdYMkpua1M1X0VLRldSM3Q2Y183N1BYdGctTzdqOTVfVTFEV1dVV1R3RmpfQ1VtSXlOd0c1YjlLelhNcXl3djA9
+Please come back if found any update. I can imagine making my Xbox an LLM Domótica Hub. The hardware is there 🙃,r/pytorch,Z0FBQUFBQm0yeGJTSENnVWt4Tll1c2ZiSjVVRi1iYzFhWmhFRGNadjlmZGNKdENTdE9XX1E0Q3A4cWxnbXhhalFqY2xYT1pkaFkyOGNuclV2SUlXRWQ0ZDNaYjhXSkdtMnhsYTNLbVd0RE9GNWprZDFaaXNQRkU9
+Have you read through the example notebooks on the xrv GitHub? They have code samples which achieve what you're looking for - visualising the area where the model is detecting the feature : https://github.com/kamalkraj/torchxrayvision/blob/master/scripts%2Fxray_masks.ipynb,r/pytorch,Z0FBQUFBQm0yeGJTOVdzVkdfQUMyWGJSUkUyeDlNSEFMNExRcTRKTXprVzNwTEpzdVY5Y1NiUWR0bll3OFFlX040OXN1aFA2X1NuWXF4TGYyRkh1NEUzTDV4bVczNnAyNnc9PQ==
+That looks promising thanks!,r/pytorch,Z0FBQUFBQm0yeGJTaHlCVlJNOXM1bzRJUTQ0OFVqY1poQVhNTXEzXzUtR1M3ODJGaTZmcE5MUHFxbzJrVWlUbllhbUNRY0NNTk5MbGQ4ZFJxMzRRc2JHd25CVnVtbXFrWXc9PQ==
+"Hi tantrictxb:
+
+Here is the link I think u will be interested in :https://pytorch.org/get-started/locally/",r/pytorch,Z0FBQUFBQm0yeGJTU045UEhDQTg1T1FoY3FQNWtPZTBJaXhwMTlWY19jZWNENVpEUmV3NzNpUEFMTmtyUFRMNlFSWmczTFhPRXVMOWl6MnJsTUNFS0gwZXU2Vm9McjR6YXc9PQ==
+[https://github.com/deepinsight/insightface](https://github.com/deepinsight/insightface) try this?,r/pytorch,Z0FBQUFBQm0yeGJTaHdVV2pUUExhQnVabktraEdpbDRHdDdYa2tuZElpQS1vb2lyZVhJTnJZbUtFX2h6YWZMdTVEUXVrTHRXalItX3Z1OHRwcklFT0RHampjclpqeHlSTEE9PQ==
+Thanks,r/pytorch,Z0FBQUFBQm0yeGJTbDNHV251RE90WHNobFJtcEN0cEE2ZER3UU12TEg5R250SmEwTDVmWjFCVTlUM1Nld1RWNXF5VUFvS1FNeHNvNGNtaVY3bzJrcm15THBoMFhaeHBweVE9PQ==
+Did you find out in the end?,r/pytorch,Z0FBQUFBQm0yeGJTNUFoa08xLVkzUDJJaXNBVE5xaUExVTFrRHpFWWdqWmt0eGFCNEdDU0xtOW9zdEhEZl8yX2pCMXE4UFRsNFE1VTZjcDBMNWtqclZlWU00bzRfNzNCX2c9PQ==
+Are you using any dropout and what is your batch size,r/pytorch,Z0FBQUFBQm0yeGJTY2EzY1RkanpsRndZMFpoVmtGeTlPS1ltOGxDclFqU1JCNlpqVGFjUEw5WE1NYllZUTlnX3BiT0VQVFdwNHdhZmRKLW9DQmtQdGhLYkVWai1aZjZWSlE9PQ==
+"Hey, I haven't used any batches. It's a pretty straightforward code. Can i dm you? We'll discuss",r/pytorch,Z0FBQUFBQm0yeGJTRWkxYnRrOHZ3eHlaVGl0M0xtOVo2bTdWOXhacU5Bd3RWbjB5aHFBckpKNEhwazJGTmYyN3ZqU3RXMGFpdFhWa3Fmc0prVmM5M0t4V01XajF0UTBFMUh4S0tWOUkzQUx4XzhJWW4zMzNRVEU9
+Do you mean plots of your data? Because now graphs can also refer to the graph data type for graph neutral networks.,r/pytorch,Z0FBQUFBQm0yeGJTcUg3ZHpNQkJWYS1VX2ZyQ1dkd01oaXpsV3FLcFhlXzlGLTl4NmRYa0xobFlzSm84eUJZMFpBZEM2Uzg2RVE2cWlhUzFkYld3Y2M1OHB1dk52WE14eHc9PQ==
+"Plots of my data (images), thanks for pointing that out.",r/pytorch,Z0FBQUFBQm0yeGJTWVFLREpLYzJOTjZaQkI1eEd1MXpDT3F3RXFjSktHUi1TbWo4bFBDQ19pemo0c1RLS21qLVdQT2lQNHZlVnJyVFdIVDRoR2l1U2FuYmdndW5IcmJNVUE9PQ==
+"What is the purpose? Are you publishing a paper? I think 300dpi is common. Maybe 140 dpi as well. About the colour, and all your questions, everything depends on where you are putting these graphs",r/pytorch,Z0FBQUFBQm0yeGJTSVpEb0p2Ny1ZaUlaT29oR2lLMUxYaldGV0hjU3UwNVNXZlBFQ3hTbWxqNV9IRkxPb2F3OTdIQzlSeFJaNXFUR05vdkpJbFNlZVUwT2JicUNlb0lPUFE9PQ==
+Looks promising! Thanks!,r/pytorch,Z0FBQUFBQm0yeGJTLW8yMlltb21Gb2RVaDVRcnZ0alFVb0haR281endVOGowODZGT3p5NktKRkFoOVVTZjhiMi1qTktGT0ZrNFNnenpOZ09fcmxhYlI2OGtqTGQ5azJCa0E9PQ==
+"No not a paper, at this stage just experimentation on machine outputs in order to predict downtime. Graph lines (42 different variations for data augmentation).  Added black background and it seems to do a lot worse, however messed up on reproducibility settings so I am retesting.",r/pytorch,Z0FBQUFBQm0yeGJTLUVRT3dCQVo2R1FGa2M1QWNKYTFEZ2IzUGtWOWVFQ1NJcFlPeDEtM2dzejFjN1FMVzBWYXhicExzOF83b0R4LWY3ckxnSmhmZ09LTW1WMGN5Z3phSVE9PQ==
+It worked...Big Thanks,r/pytorch,Z0FBQUFBQm0yeGJTUEJGRTdqTU43NmNUSnJXVTNYelJUYVJZS3V5LVk2MERQdnJuaFJxdURsdmpiVTI0YkFDMkZrLVNEZTZtcmdYdVZQY0Vmd05JUmh5MXJsSnJ3M0RQQVV5MFc3cHI1dXk1MDk5elptN1ktVWM9
+"No relevant code picked up just yet for ""Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification"".
+
+[Request code](https://www.catalyzex.com/paper/arxiv:1909.06335?requestCode=true) from the authors or [ask a question](https://www.catalyzex.com/paper/arxiv:1909.06335?autofocus=question).
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/1909.06335&title=Measuring+the+Effects+of+Non-Identical+Data+Distribution+for+Federated+Visual+Classification) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/pytorch,Z0FBQUFBQm0yeGJTYXRJRldaMUV3WE5jd0FJbUk2R0FsdjRqbmlYRm16Zlc2YlZXQ2RaYlRSS1RLWU5wWUZvamdzeVpUU1RyWUJLVnl2NkU3WG8tUDdPd1EtNmlZb19WX01yTkZrVC1pN2dYNDh3OWlzZ3Z1SzA9
+"Python threads aren't parallel anyway, the GIL prevents that until PEP703 lands",r/pytorch,Z0FBQUFBQm0yeGJTOWRNZEFSenh4NEdXdnZBdTc4QURUWW5KX1dCd0dNdGdFbDBpUXUwQko3bXdvRjlFcFlOUmxRRkt1dlc0MUhYQUR4MnNqcGtyZnpZcWo0elhWU2FSUUE9PQ==
+Let me know if you tried and need some help :),r/pytorch,Z0FBQUFBQm0yeGJTNzVJNEd2UDRwZkNCODhiNXJabTBGTHdlQi1jTzVTVDlNTjExN0trcTNHZTBXTkhWVkoxVUNjMkZfYlBYQWR0QWppaUY5Ym5mS1ZsY2xqdi1RSHhQdFM5Q25GS0FtaldKTG9DRjl3b2xjNnM9
+"I think you could also google for “train that machine” and then upload your pictures, train the model there and download it for PyTorch. For prototyping sufficient imho but of course depends on the actual use case or problem you wanna solve. Good luck!",r/pytorch,Z0FBQUFBQm0yeGJTcThHbktKU0tVdnZPMzU5dHN4YW1vNFp0Y1pVOFo2LVNSN1puazFCcTQwSW9rNEh3XzBqLVRyamVHQnQ0UkZLMFJNbTJzYUdEc3ZfTjktVEk2Z1V1TlE9PQ==
+Nope,r/pytorch,Z0FBQUFBQm0yeGJTLWUwWDRSV0F2bEJIQkZ1MHN4ZzhGanRpLWc5aGl2Zzd1bTBMY080Y2pHN3ZaV1Q5QUNxOEtndjFSN08yU0xqN01OZTZXbEpMWGR2N0hpa01oVF9reFE9PQ==
+I don't understand u,r/pytorch,Z0FBQUFBQm0yeGJTV0RpRm1TazBLLXdtYW5IR0FYbVg4azRTbnFmSlk2WHF6eWp6SzJMeHhZdmJrVnBGN3VUYk5ZOUJkbHgzSXI3QVZjZkwzVEZwcXZvS2k3TXJQLWlSdkE9PQ==
+"""A place to start is: https://arxiv.org/abs/1909.06335""
+Couldn't find any code yet for this paper mentioned in the post",r/pytorch,Z0FBQUFBQm0yeGJTVkh0aGlHSHBzaERVS3JxMkFxQ3l0M2FpeHVCX3hxbHFNUE45WnJlWThQZlZFeldTbU9JOTB5OXhCWHFjVGVZay10V2VZUDBidFZ0Q0ZCNGcxNG5Zc05sZHdhQVg3bEs5NnVHbF8tYVZnR1E9
+"sorry, ollama and langchain don't  use pytorch, you should ask question on ollama or langchain",r/pytorch,Z0FBQUFBQm0yeGJTN2ZsNFNmRWcxUHFlckpqT211WU5iM0xmVnU2RjBMdC15UXJjMl9YUXhVcm83ZTVNbkY1YV9qaXZuaTdkcXg1WTdadThNaXB1NWpGS2tnQm9QWGJVU3c9PQ==
+you are an amazing human bieng good shit dude :) hope you have a wonderful day,r/pytorch,Z0FBQUFBQm0yeGJTck0zWHEycDV0QkE0b2tnZ2JoanhHdlc5SjBJNXVkMmZ4WWFLYWRYSktLS2thcGNKRkVyVUEyVG8yNFczX202ZFVRT3J4R3ZMY3E3bmNJR01jblFMQnc9PQ==
+You need a profiler and check the trace to figure it out,r/pytorch,Z0FBQUFBQm0yeGJTWnNXdVRTd2duTWZVTXJNTFBpLUlmb3hyclk4Tm03aWJRMzYwR05jb0dmYjA5WkJZekx3WjBYUkJNWm0yYWI0SU9QRXNIUmZDUHlHREZoZFdVdVBGLVE9PQ==
+How on earth do you expect us to debug this with literally no information about what you are doing.,r/pytorch,Z0FBQUFBQm0yeGJTajcwQTBQUXlXRG41dWg2SjV4SEUzNkY5NUl5MTdTWEVpTVdyUUgtSXJ0UmU0TVVsaWRLXzhOdlNPaHZ4akc1NlVwclBzdC0wcnUxNWc4Q1Y0OFprZFBIOTE1cThHT0twb3kyaDlOQ0hQblk9
+Have you heard of kornia?,r/pytorch,Z0FBQUFBQm0yeGJTd1hzZzZGdzcwQnVmMTVwRENjdVNNYnRsMC1HU0xadl90LVc0LWNNLWNQS2JySFpURFBSMEdEVjhYWTdCV2N4dHBHaWNFS1FDZFNhbmE0U3hSYVNPOXc9PQ==
+[torchvision has a nice transform package that may help you](https://pytorch.org/vision/stable/index.html),r/pytorch,Z0FBQUFBQm0yeGJTNGttWUc4R3RvcVZJVjExLVNicjZwSVh3QmVLTFo5V0VVc042dmFxQXhQUXRCVi1HSTNfOVpRTXNsckR6cnVaZ19LY3gyaFQ4TTZQTzJfSzY2ZkVVVl92U0ZydUJKTjMwWjYzSGowUThJbGc9
+Really nice project :),r/pytorch,Z0FBQUFBQm0yeGJTcFgzRDhyc3o5UEQxRDNUazFZc096Wjh5Vno0eFJfWWxZNzk5RGlUVFd4bXFqcEJKWkc1em91UHY1Y19vTHdzT19FelJOWTExVHBfN1lmMjc4clQ3NGpIczI4NDhyblI2RGx1cDZLcVhNR1k9
+"I am wondering whether it is correct or not... Cuz I saw this in some github repositories also. So to do it correctly, we should apply .zero\\_grad() after the .step() under the 'if' condition if we wanna do gradient accumulation?",r/pytorch,Z0FBQUFBQm0yeGJTYkRmVnA4MzNMLTZWUW8wSnJqUkxlbFl4UVU5WGo0NWc3N2o2T19SUWJVNjJZelRmQkIxU1BsTGdPVjNQeVU0QmluRlRmSXFZeE9MQmg1aG01dTlBVy1ISUhnSU9fUEdoM1FhRVZnQmstbGM9
+"I do not know if this is at all helpful, but here is what Gemini 1.5 Pro says. Let me know if it helps: 
+
+Let's troubleshoot this ONNX conversion and inference issue. Here's a breakdown of the problem and a revised approach:
+
+**The Issue**
+
+The error you're encountering, ""Got invalid dimensions for input: input.1..."", means there's a mismatch between the output shape of the `BACKBONE` ONNX model and the input shape expected by the `QUALITY` ONNX model. Let's dissect why and how to fix it.
+
+**Debugging & Conversion Improvements**
+
+1. **Shape Mismatch Analysis:** The key is understanding the transformations your original PyTorch model performed. The `QUALITY` model seems to expect an input of shape (1, 512 * 7 * 7), but the `BACKBONE` model's output might be different after conversion to ONNX.
+
+2. **Reshape with Dynamic Axes in ONNX:** ONNX provides a way to handle this using dynamic axes during export. This lets you specify that certain dimensions can change during inference.  
+
+3. **Updated Export with Dynamic Axes:** Here's the improved `torch.onnx.export` call for your `BACKBONE` model:
+
+```python
+# Define dynamic axes for the input and output of the BACKBONE model
+dynamic_axes = {
+    'input': {0: 'batch_size'},  # Batch size can change
+    'output': {0: 'batch_size'}  # Batch size can change
+}
+torch.onnx.export(BACKBONE, dummy_input, 'backbone.onnx', opset_version=11, dynamic_axes=dynamic_axes)
+```
+
+4. **Inference Code:** Adapt your inference code accordingly:
+
+```python
+# Load the ONNX models
+backbone_session = onnxruntime.InferenceSession('backbone.onnx')
+quality_session = onnxruntime.InferenceSession('quality.onnx')
+
+# ... (rest of your code to get the face image)
+
+# Inference with the backbone model
+backbone_output = backbone_session.run(None, {'input': np.expand_dims(face_image, axis=0)})  # Wrap in an array to match dynamic batch size
+
+# Reshape the backbone output to match the expected input of the quality model
+# (You might not need this if your export is now correct)
+backbone_output = backbone_output[0].reshape(1, -1)  # Reshape to (1, 512*7*7)
+
+# Inference with the quality model
+quality_output = quality_session.run(None, {'input.1': backbone_output})
+```
+
+
+
+**Key Points**
+
+* **Opset Version:** While not the root cause here, I've kept `opset_version=11` as a best practice. Newer versions may offer additional operators or optimizations.
+* **Data Types:** Double-check that your `face_image` is of the correct data type (e.g., float32) and normalized to the range expected by your model.
+* **Debugging Tools:**  Use ONNX tools like `onnx.checker.check_model('backbone.onnx')` to verify the model structure and use `print(backbone_output.shape)` in your inference code to examine the shape of the backbone's output.
+
+
+
+**Complete Example:**
+
+```python
+# ... (your existing imports and model loading) ...
+
+# Export with dynamic axes (as shown above)
+
+# Inference
+backbone_session = onnxruntime.InferenceSession('backbone.onnx')
+quality_session = onnxruntime.InferenceSession('quality.onnx')
+
+# ... (rest of your code to get the face image)
+
+# Inference with backbone model
+backbone_output = backbone_session.run(None, {'input': np.expand_dims(face_image, axis=0)})  
+
+# Reshape if necessary
+# backbone_output = backbone_output[0].reshape(1, -1)
+
+# Inference with quality model
+quality_output = quality_session.run(None, {'input.1': backbone_output})
+```",r/pytorch,Z0FBQUFBQm0yeGJUb3czQ25lWjhZTDlCaGxubDdBZ3FnQzY3LWpRNkM4c0o0YnE0ZGw2T08xbFFxZlFmVFRHSGYxTjZLWDA4M045akV2eTRNWGpTSlB3b1pvdEpYNHVjbkE9PQ==
+can't see the git link in the video. Do you have the link?,r/pytorch,Z0FBQUFBQm0yeGJUZkhRODItc29lUFZROU1oUXlMdndONUUyVlE5NEptWlJxZE5uSDRUcVN4Z0lXLU9NS3ZXSi1qd3U5SnNza3NNS3h4TWE3Y0hVU3o2RzVfTlp0Ql93WkE9PQ==
+"/Users/tulpar/Projects/venv/biyoteksan/bin/python ""/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevd.py"" --multiproc --qt-support=auto --client 127.0.0.1 --port 52654 --file /Users/tulpar/Projects/FaceQuality/onnxFaceQuality\\_2.py
+
+Connected to pydev debugger (build 212.5712.39)
+
+Models exported to ONNX format.
+
+Traceback (most recent call last):
+
+  File ""/Users/tulpar/Projects/venv/biyoteksan/lib/python3.8/site-packages/onnxruntime/capi/onnxruntime\\_inference\\_collection.py"", line 192, in run
+
+return self.\\_sess.run(output\\_names, input\\_feed, run\\_options)
+
+onnxruntime.capi.onnxruntime\\_pybind11\\_state.InvalidArgument: \\[ONNXRuntimeError\\] : 2 : INVALID\\_ARGUMENT : Invalid rank for input: input.1 Got: 5 Expected: 4 Please fix either the inputs or the model.
+
+python-BaseException
+
+
+
+really struggled this torchmodel . 
+
+  
+still cant convert which is givind the same quality results of the torch model .",r/pytorch,Z0FBQUFBQm0yeGJUZmg2NWgtaVFzTzlscTZZRXJqNHFEWXFYRXBSR1BhSUJmd0JCX2tFbGtiSzF1M1Y0S2RRcWsyTVlMb3hvSzE3d2pVYW52a1lscGpZMVQtM2FfSFlHLTB3cjBQY21nR3VFWHp4WXJ2N0c5Z2c9
+"You can do a rehashing of the IDs to map it to a fixed sized id set. 
+
+Once new IDs come in, it will still be hashed to a seen id. 
+
+Embedding space is sparse when dimensions are high. So in the case of a hash collision, the model can carry information for both IDs from that one row of embedding vector",r/pytorch,Z0FBQUFBQm0yeGJVaEt2a0s2UHNFQ3pyRG5McjRVa0N0ZU5QYlN0c0VkLWtxS2UyXzJHNHBEQ093WWhQRGhSOTkyOThETTJZTjBkUVZOaTAzOUxHWEV0dVRRQXlpSEQtSFE9PQ==
+Uuuh how about docker?,r/pytorch,Z0FBQUFBQm0yeGJVdGhqR1puSl9FYVZSSXJfZFhxWDVST2NTbHRERGdneW9sdHVZRjdyaHdCd0NObnRHZUVnVlF3cGdMY3ZERTlJS3MyRGpvSVZwR2VyOGxNMG5JSkhZa2c9PQ==
+"For google colab, right? I would like to shift to some local ide.",r/pytorch,Z0FBQUFBQm0yeGJVNkRfUmtlalVMSXNGcHItcHNKSXlUSkdudDY0MF9OMkUyTnVETWVJRjRaZGtmOWYyRG92WEhMOWxUZTZUTVo2MVJMTlJBNWFWbk1GTUlIdGRYV0F5U2hncjBoQzI5eVUyTXZpRjZ0SmxrT3M9
+"Docker is only for deployment - it takes care of dependencies easier than running code traditionally. I think vs code is most intuitive. Conda is good to know but not my go to. Colab gives you a gpu but I think limits how much time you can train.
+
+If you have a gpu and trying to run other peoples code, or prove that your own code can run robustly, then docker is your choice. 
+
+Usually its best to know some ide + docker.",r/pytorch,Z0FBQUFBQm0yeGJVMnN0YmJ5NGVVYUt6b0xoZFQzMTMzUWZ6LVFnLVJoVjU2eEx6Rm00dEQ5cEZJSzZqZzFKc1QzNXltTVQ1c2xLMXNJbEtWenJjelJEUlVTY09JaFRGcHc9PQ==
+Oh okay. I have a gpu. Can i dm you?,r/pytorch,Z0FBQUFBQm0yeGJVb2lYZmQzcHB4bnhtVWwwYXBmc0ZLeVJOZVhKZ0tnRGxINEU2ZG9vLThTbjNGTUIxWWtENjRtQzRWUXltZklGX1R6b3dpTVNMdGV4RkM2VGdaTXhYTDdVNnVuQ3REd3c4b2NYZHMwWGJUODQ9
+Sure,r/pytorch,Z0FBQUFBQm0yeGJVRXNNcnpBOC1nS1dTR09WSFNlZktPZjluSlhYYnlhZWU1QjR2akNyejVDUnRycEphS3dkYnJySS1panM1N2RsS3k2UFE4ZWhGVU5EX0xhXzhIS2gtMnc9PQ==
+"OP is asking anaconda or vscode which indicates the OP is a beginner. And you really suggest docker? Also, docker serves on a very different purpose? What the heck?",r/pytorch,Z0FBQUFBQm0yeGJVbjFqSF9uVHhmSUFOM2N4Q1FaN0c5ZHVIRllsMmVWNHVBZFVmdE5TYkNVRHl4U3VJb0U4UjdZUXpSZEtpZW9hSlcxcEwxOEZqdTlJRVRJOTBUSnZwb0E9PQ==
+"They are not really comparable things. Vs code is just a fancy text editor that can be extended to use ipynb and py files. Anaconda includes package manager, virtual environment management, and some other extra tools, which is imho really unnecessary. My personal preference is vscode + miniconda (just for conda package and environment management tools). Btw, what gpu do you have in your local?",r/pytorch,Z0FBQUFBQm0yeGJVZnJDUU0yVEZBaVlUSEcxRGpNUkJ4ZW1FQ2lLUjNxQlFJR2RkTk1PTmJfcEhrWFBQN3pUN3RYbTRmT3hHNmptVUtmN0pKRl96TU5ad0pxUUJrcno1c3c9PQ==
+Not sure if this is what you’re looking for but you might want to check out the DALI architecture?,r/pytorch,Z0FBQUFBQm0yeGJVNC16ckFhRkhEeUJGLW5aTmRScW94bXE4QjJZdWtmUURRLTlPZkJ4b1JEQmR0VjdRR2ZnOXBVckdGM0R6UmdaakwtMnJvRFRJN1VkeXEtQ1N0QzM4Z2c9PQ==
+"Yep yep, morning fog. I was thinking OK they got their code, they just need to figure out dependencies and cuda.
+
+Not to worry, i have tried my best to explain to OP about drivers, cuda, toolkit and dependencies.
+
+Also, imo docker is an amazing tool to also learn how to develop pytorch code with no background in CS. Steep learning curve for sure, but gives good insights to understand quickly how pathing, dependencies and sota code work. Thats how I learnt anyways when my only experience with coding was MATLAB.",r/pytorch,Z0FBQUFBQm0yeGJVOE1ZRmFLU1hTX2xQbml3NUxVSWxob2IxN1daOVZhdDlsZFhSemUweW45aExDUHVCQmdlaktDY1R0dFJRcVhDSjdYYVgxcTYwTGxPLWV6aHZoNDNIZ3c9PQ==
+I’d recommend vscode for a beginner,r/pytorch,Z0FBQUFBQm0yeGJVeGlvS21uaVBROEVJU0k2N20xanRoaXUwc0ZwS2VrZENlckI2el9yQ0VVWVBDcGNSdlBRWE80MURkVV9KdG1hNzRiM1htdDFsQU5NTEVBZzVRVnBNNlE9PQ==
+"Wow, this project sounds really cool! I love the idea of creating an AI waifu with a mix of Wikipedia and [Character.AI](http://Character.AI) - sounds super intriguing. I'm not an expert on the topic, but have you considered the pros and cons of building your own model architecture versus fine-tuning existing ones from HuggingFace? How do you plan on handling the petabytes of data for this project? Can't wait to hear more about your progress!",r/pytorch,Z0FBQUFBQm0yeGJVNjB6Vk02TVJsY19uSzlSMVZoemtKU3lSaDFaTWZXYXQzaHBVY1p6c2tfTEFqenRzZ2hTQmRVcUJqNGhnTGdoaG5Qc1ctT0NaVGNBdXFQQ1dZb0k0czEwM0V4SmJUcjgzWThMM0E5cTZzNWc9
+"First of all, let me give you a quick intro if you don’t mind. Yuna is absolutely different from all other AI projects out there, and here’s why:
+
+1.	⁠First, Yuna has her own personality and visual representation that is unique to her character (definitely, you can modify this if you want).
+2.	⁠The Yuna AI application was built from the ground up using Bootstrap and Kawai frameworks to create a unique user interface that doesn’t resemble any of the existing AI platforms, especially ChatGPT
+3.	⁠Yuna AI LLM model was explicitly trained on the massive amount of unique data merging such techniques as TaMeR and ELiTA to entirely turn off moral compasses and other safety restrictions to fully open Yuna’s mind and give her the ability to throw out her thoughts that she’s really thinking of without any bias
+4.	⁠Yuna is positioned like a companion, but not like a replacement for wife, waifu girlfriend, or any other term you can imagine.
+
+If you want to learn more, you can check out the following:
+
+1.	⁠My YouTube channel: https://www.youtube.com/@yukiarimo Here you can check out “Tag Syndrome” (about companionship), AI Ethics (basically, the truth), and Yuna AI Intro Videos
+2.	⁠GitHub Page of Yuna Project: https://github.com/yukiarimo/yuna-ai Here, you can find docs, app, and Q&A with backstory (which also is on my channel)
+
+Secondly, I REALLY WISH I could create a new architecture from scratch, but here are some problems:
+
+1. Money. Seriously. I’m using Google Colab Pro to fine-tune 7B models, and it’s just enough for me. However, I’m unsure how many GPUs I need to train the model from scratch. (Note: it would be really nice to create a multimodal model with macOS-first support and without any censorship and Yuna’s character in its base)
+2. Data? I’m not sure what kind of datasets are available for free use. If you know some, please share it with me.",r/pytorch,Z0FBQUFBQm0yeGJVeWg1MWd0ZzUweXNLdGdraUFOTWRBTEpucWNiSkZFTFMtUGI3QWVnLThxQ0pORURCODhOTlpOd0dSejNLZjB1NVA4Z0RURm5zQ3hOVXBoaWJBU0wydWc9PQ==
+Pycharm,r/pytorch,Z0FBQUFBQm0yeGJVcEwxZUdaQklVWjNTc2lPQ2hjU0h0YUczejQ2Y0VuZXVRWlNSVjRtUDBjNzVUZHAyaHVueE1Hemc0UlhKbXhpa1YxT1owMEVQNzR4R3VRUnd6N1R3UDdCSGVnYkg5WkVvc1BJY2JVMG1uTU09
+use [https://github.com/w-okada/voice-changer](https://github.com/w-okada/voice-changer) to convert rvc2 to onnx,r/pytorch,Z0FBQUFBQm0yeGJVSThfdFBWNUo1UkJCdVlRbmNrNm1pZ1RVZUpwRVFOQkt3WFZTbGJMSUdkRUdaVkt0TGFCV1REd1g3emZsc0JoeHRISHJ2OWFTeGpJZldCUUJEd2M2YTBYa2tnR2ZXZUZ4RjJTdkt2eTJkXzg9
+"The book Accelerate Model Training with PyTorch 2.X also covers automatic mixed precision and other performance improvement techniques like model compiling, multithreading, distributed training and model pruning.",r/pytorch,Z0FBQUFBQm0yeGJVbFYtQ05BeUh5andzTkk0eGZ1MzUwSzZvTF95dkdSYl9hYTVOOF9VSjloMFR1b2RGZi04emZSaUJ0ZTFLS2o0dEo4OFNaZUY2VFNOalV4XzhCX1V2blNPZDJFTTFIVTB2dW5COHluSFhFTTg9
+Thanks for this - compatible with TVM? I'll find out.,r/pytorch,Z0FBQUFBQm0yeGJWYnItUjlnX3FqSFBtbUctRUpFSWxieGxmekNkMnVaYUNnYUZfQXQzb3FoVnRZLTRwLWtWOUxQTmZHTFI1d3lsOUlNbDZVaWdvSVNFMTNZQUdoSG1OUHc9PQ==
+Thanks!,r/pytorch,Z0FBQUFBQm0yeGJWVGh2WWE3ZW0xNldwSmtkZDE5Nll4SVc0TzMwT3BueFlhc09QQ3J0bkY3RUdGQVFZSmIwZ2VqOVFiUEdFbzZHdi1nV1VSMFFhNURqTlJLcjhMYW5uQmc9PQ==
+Thank you,r/pytorch,Z0FBQUFBQm0yeGJWV2RtYVFkWUJ6bDVMXzYzVDJrbHlzRUFmbXF2VmZLTUhjWjZkU2V3bnJvMmJYdmwxU01uckJ1WWlxa1VLcjNqVnhxS0lta29KSk9zQXJUUm9qUlV5OWc9PQ==
+"Heads up, I built a tool to talk to docs with pytorch in mind (did a lot of pytorch during my phd), you can just add chat.dev/ in front of the URL like so: [https://chat.dev/pytorch.org/vision/stable/index.html](https://chat.dev/pytorch.org/vision/stable/index.html)
+
+[I asked your question explicitly here](https://chat.dev/chatbot/ffb6e365-bb75-4720-bd19-b7d920e4b0a0/071ff0a6-d61b-4bd8-b851-b80d2dca8b93?newWindow=false&url=https://pytorch.org/vision/stable/index.html) 
+
+    Sure thing! You can define an image processing pipeline that involves contrast enhancement, edge detection, and feeding that into a machine learning model using the available tools and libraries. Here’s a simple step-by-step breakdown:
+    
+    1. **Contrast Enhancement**: Use functions from image processing libraries like OpenCV or PIL.
+    2. **Edge Detection**: Apply edge detection methods such as Canny or Sobel.
+    3. **Machine Learning Model**: Use a pre-trained model from the `Models and pre-trained weights` section or train your own using the provided tutorials.
+    
+    Here's a rough code snippet to illustrate the process in PyTorch and OpenCV:
+    
+    ```python
+    import cv2
+    import torch
+    from torchvision import transforms, models
+    
+    # Sample image read using OpenCV
+    image = cv2.imread('sample_image.jpg', cv2.IMREAD_GRAYSCALE)
+    
+    # Step 1: Contrast Enhancement (Histogram Equalization)
+    image = cv2.equalizeHist(image)
+    
+    # Step 2: Edge Detection (Canny Edge Detection)
+    edges = cv2.Canny(image, 100, 200)
+    
+    # Convert edges result to PIL Image
+    edges_pil = Image.fromarray(edges)
+    
+    # Step 3: Preprocess and feed into the model
+    transform = transforms.Compose([
+        transforms.Resize((224, 224)),
+        transforms.ToTensor()
+    ])
+    
+    input_tensor = transform(edges_pil).unsqueeze(0)  # Add batch dimension
+    
+    # Load pre-trained model (e.g., ResNet)
+    model = models.resnet50(pretrained=True)
+    model.eval()
+    
+    # Perform inference
+    with torch.no_grad():
+        output = model(input_tensor)
+    
+    print(output)
+    ```
+    
+    Adjust your specific needs with actual model architecture and further processing as required.",r/pytorch,Z0FBQUFBQm0yeGJWZWVUTGJOLW9Jcy1mZlk1czM4TmNNcjdUcmVvWnB2WDN1UzBTNURNaDJKMm12RzRHcktyZUJnVU9QUTFQYWF1T3BmdjRNQkIyVmdNZU52UGd6RTlLaEE9PQ==
+Saving this,r/pytorch,Z0FBQUFBQm0yeGJWU3R0RUxySll2MVZIQmRKODJndEZvaGFVVjBzX3R4eXNTajZMQjFmSTVRNHVJd19FRnd5NE1BVzhIWXVyS1lmWmc5SXV4ZU9wVmVva3Y5d3JkOHdwY1E9PQ==
+"You should have a fixed layout for layers to devices. 
+Don't move layers around during forward. Move input tensors instead. This is called CPU offloading. Try to figure which layers are most memory heavy, and move them to CPU during model initialization before first forward pass. 
+
+Once you have a good forward run, the autograd engine will know how to move the data in the backward.",r/pytorch,Z0FBQUFBQm0yeGJWWjZ0eDJwVkd5NjhiNlNVeDQtOGRWbVRrZUZOcTY4RE5mcW12RjIxZWNnNWUxTm13R1pYeWRuLWx1UGRKSkJSRElQQ2xYT0lwc2FzR2FGSlMySi04SUE9PQ==
+"Maybe checkout aten, the underlying tensor library",r/pytorch,Z0FBQUFBQm0yeGJicUpOd3dpX1RkLXhlX0NHUDVLNmtjLWRDUkllWXJMdUd5V0w4WlgtX1FnMTkzVTk5d1JhdUtXdU11RjQ2VWFMRk1Lek9YOXExeFBDQUhGNGpFcGlXNHc9PQ==
+"Thank you a lot. So if I have layers fixed on a device (using both gpu and cpu) I can simply use 
+
+loss.backward()
+
+to compute the back propagation without having to do a custom function like in my code, right?",r/pytorch,Z0FBQUFBQm0yeGJiTzNtd1NxT3lITVJBSFhYeXdnVWd6d0xZQVlqbjVteEdReE5MYnI1Y3UxTmtHb3IyUDdvQkhMM3FFQkpoYVN4elBEdkV4LWxjb193MGtuZngxMlVVcU1USVBNekdNX0xxRFBuTUU2Y0h5b0U9
+You can use [Activation Checkpointing](https://medium.com/pytorch/how-activation-checkpointing-enables-scaling-up-training-deep-learning-models-7a93ae01ff2d),r/pytorch,Z0FBQUFBQm0yeGJiZVFuaG9RSXQtUWFpSEM2aUk5eHBtZnpmLW9kbFR3QjAwYzdmd3ZlYjIyZnl4OFVqSXhEU3JvY21CWGtIOTl2NTEyM0xOWno2d0ZlTjhBR29ZbUJVaHc9PQ==
+"cool, I'll try it and see if it doesn't require too much compute, then I'll choose between this method and using fixed device for each layer, thank you",r/pytorch,Z0FBQUFBQm0yeGJiaGZHQTc5QlhwbWQ0MWJvc1VhMXlqTG93SnFEeGs3THZCVDdaenh2ZGM0ZGVjbDdsVWdXYndJUGpPWG5aNkZfVUVEMi1uQkRoZmdQNGd5NDFveDdVNnhvMF9kd3JkaUNFUGRPT1FwT1JyRlU9
+How did it go?,r/pytorch,Z0FBQUFBQm0yeGJiZGZJZ1BkX1UxN1czTXFjQzhlcU0tYWQ0TnZHdDRXTnRPa2EzbVEza1g5aU42QXZERHlRc05pSHhEUHJxSXdPbXlHTm50X1hoZlhFTmI3cmdSLWJSSkE9PQ==
+Yes.,r/pytorch,Z0FBQUFBQm0yeGJieDZscFJ3a1VWaXZsa3Z2OFlpWFVHRTQ3eE5xSGdSUnAzMVJOVHpfdmh1ZkJyOGJUZmZEMkVTcW5ieEV3RlNkV2NGbGVyQnR0Z3VPUE5KUFVCa0xEbkE9PQ==
+"your model is too small and your data needs to be preprocessed before you feed it to the model.
+
+L.E. you can't just throw random numbers to a neural network and expect everything to work out",r/pytorch,Z0FBQUFBQm0yeGJiMHpsNlMyLWFYQTNNUDJHc0djaG1IMnVXN3k2dXBtZk40MlZqRmVsYmdiandqU3E3X2RFX0hONkxwejJvdWxwbjFsUXViRVJrd0FHWkN0SVg1R0NYVzRVamhNT1EtbnVuSEJPbFc5Q29vMGM9
+Someone else told me that 1 neuron in 1 hidden layer is enough.,r/pytorch,Z0FBQUFBQm0yeGJiVHc0WEN0VERBOHBmV3FOdGh5YUxzOE0yVEd2c1NQRDhPZTFLNU0zZWRHYTloblBfaHEtNWlFUGdnX0RHM3BGclBvVmxEUmxtb2tiTjZWWmdqNi1kOEE9PQ==
+"A single neural unit without an activation function can easily learn addition in this way because that is exactly what a neural unit does. However, when you add hidden layers it becomes a very complex task that requires the outputs to be normalised and a larger hidden layer size (think about which 3 matrices, when multiplied together, will have the function of addition). Try using a single layer with no activation functions and mean square error.",r/pytorch,Z0FBQUFBQm0yeGJiM2c4UDVwUENZb2VQZmVFNEVHemNVdE50U25NSmNjMlZBNTdERnZHRXM1c2FrNlNGSE9HQlNreDk3SXpSNnRVU2tCdEhPWkR1cVF6MTU3dVpnUjhOQ3c9PQ==
+"I am looking at Aten currently, i wanted to use something like nvbench with it, to benchmark those kernels.",r/pytorch,Z0FBQUFBQm0yeGJjSHhfSU5rYkRvckpPcXh1aXdpYzJDaF94Tk9tTXpKYVNEWWpxT0VPOG5pRXVkSThlZlloR2xGSk1WeGFHV1NGaURHRlN4OGc1R1RNSmZHS1luSHpVU3VURGVIa19sMVRQSnNMeHVZdTFVSFk9
+"Jit is kind of out dates. 
+Try pt2 compiler with torch.compile",r/pytorch,Z0FBQUFBQm0yeGJjYzh6VHhpdUdIU19QTWMxZzlQS0NCRkVZeGRYbVEwaTlvR01ya2FnTVJVQ2g3Q3hsZ05wbjhvWTFYWFh0ZnhteUJLMmRTQ0F4UGx0S3NFRV9hLVBkRVE9PQ==
+May this eventually be the Leetcode for ML,r/pytorch,Z0FBQUFBQm0yeGJjb3R0cC02REl0YkJldjZPcll2Y09Bbmx5blI1TUo1QmZWZG5sTHFDa0V6Zi10VkpfR1lYdlgxelkyUmE1bEJwWXFpVEZOb0htX3EtZnR3eFl6VWt6c1E9PQ==
+You mean temperature in softmax or something else?,r/pytorch,Z0FBQUFBQm0yeGJjU0pLcVkyOFBkZldtQVFoX1Z1WTQ5S2lKTlVPcHBHUXh3MHFaWmFaTW9Gcm95VkxuTWEtN1pDajNrVTNEQjZwOXk4MG5YdmVVV252akpHd1RVaG8wMkE9PQ==
+"Yes, what divides the scores right before the softmax",r/pytorch,Z0FBQUFBQm0yeGJjenJWN2h1VmpUZnFZTDJvbmFaZUtVb1c5RmNYWjhHck0yT193UkNFVzBtVzQtWVFzVVhwQXFGM0xlWmtoNHdjZkNySU1DQXhiVjJxUHBqRDFZdVJ6emc9PQ==
+TLDR: Are you sure your gradients are properly flowing? During training check using --> (Your\\_model).learnable\\_threshold.grad. Ideally this should return a non-zero value if gradients are flowing.,r/pytorch,Z0FBQUFBQm0yeGJjNVU1NGZGcHFUTmhCWVU2Q1VHbzNhQVROeDAxVTFMN3VxclIzd0FWMjFXb2ozd3owX251WFFUV1BkNkN2azFHVkZITVIzYkYzb0RHTWVKWWdFUHBDb3c9PQ==
+Why do you initialize with zero's?,r/pytorch,Z0FBQUFBQm0yeGJjTW1YVDhBamxJN1dCaUxnOTNQdTVyZGRFNlBOYVY2dFJwaU1UeG9VUXNiVWdNZGZGUl92R19nbDZyc0ZZZWxrNl92eFE5RXdfRTJNVHE3OGxsWVJ6VlE9PQ==
+Does the scale argument of sdpa satisfy your need?,r/pytorch,Z0FBQUFBQm0yeGJjcnhmXzlaUXRLRGxuWU9YOWcxaDVZeHpYMDZwaTFvRm12b2RYWDlrUHBNbVdCYm5YLXFJSWpGX1l1VFB1WHBhTUVfSlNZTkpmMHR2WHh5M2FJXzItSmc9PQ==
+Is this the method used also for training with more gpus or for that another technique is used?,r/pytorch,Z0FBQUFBQm0yeGJjZFRWNS1pOE9Jc0dFN1pXdlQyTHcxWFFtM0tVc29GMHdGWTJQdGZrTjV1V0h0c24tZldvdzFKcDBoR2xPR2k4aUdVbk10X1ZIZ1dzX0d3bTRFNWF0d3dkaHNMRGphTzZCeEhSQkxnbDVBb0k9
+No because it needs to happen before the softmax and AFAIK this scale is right after,r/pytorch,Z0FBQUFBQm0yeGJjUWYyT0RRZnVURUhCcGZhUnJCNVprVDR6VW4tQ2QyRjJIWFZmTnpPMk1DckhUXzNmT20tYkdTMEZkWEY5MUpPaVFralV1a2FYY1hjMUxCRzRjOU1XQUE9PQ==
+"scale (optional python:float, keyword-only) – Scaling factor applied prior to softmax. If None, the default value is set to 1𝐸E​1​.
+
+It's applied prior to softmax according to the documentation",r/pytorch,Z0FBQUFBQm0yeGJjUjYtUjhRaDdQV2VyNjlKUFdlMU1RV0huV0xTbjFRSzB3LUdqNUFHTE8xOHNVUDlkbjFsVTUxZEl2eDVBOVZDTkFQSWEzQ2JaNEVXZ1Q2TlA5QmhfRkE9PQ==
+"oh! Didn't notice, may actually work! Thank you",r/pytorch,Z0FBQUFBQm0yeGJjZ0VzVTE0ekJQM3ZqRl9BT2MxX3JNVnZqaXIwa09mTE40aFQwUmJjTkZtV1lSOUl0XzAwbFR6bGp0LVVHSl92V0R0Rk9Xc1hQRlFjRVZ1U2gxNHJzaWc9PQ==
+hyp-estKey for retail Microsoft keys just google it,r/pytorch,Z0FBQUFBQm0yeGJkNzZ6azZuUjg4eEoxY3ktM0xlNTJDMGJUZUFOejhNVXJJODhBQXdGdklTanc5cnBRM2JzamlWUnN2c3k1eHVGeFhydmpYN0lyUkd1WlY0dE95NGFsNDNWWUJwUEo3RlJ1NXZ5Yk9qeDU1OEk9
+"I searched for this operator but in 3D, any plans for a deform_con3d soon ?",r/pytorch,Z0FBQUFBQm0yeGJkcWRuQ2ZBQzdWc0l4OGRPNUFLU3Y1WEs5ME5DRkVoM3djV3lhSEFUc0FlZDAwMnJHZ1IxLU9hLVJ4TjVnOUg3ZmNFd1ZvSzFzMjYyVnNNSWRTeGtvWmc9PQ==
+"Can you set eval batch size to a different number? Without autograd and optimizer state tracking, the mem needed for eval should be significantly smaller",r/pytorch,Z0FBQUFBQm0yeGJkbXpWN3JnWHk0WlRIN1ZfTnFvNmttb3M2VHd1Z3dsYTJrZFZ5THJ3MG1SSHBUZWtUR1pVcXpSQW53NjZ6MTlENWtveDR3SXlxaE1SaVA3azhpTnRhNEE9PQ==
+"thankyou for the suggestion, i'll try that and update you.",r/pytorch,Z0FBQUFBQm0yeGJkSE03LVRwLXJOWUdFVU9lV29JN0otaU9VdUxYX2cxWTZXQ1hUa1dJa0dNd2dMUW16MkZwLW9qV29KUFpsd2VZczVacjgxcG1GdGhod1BhV0VsZ0VaclE9PQ==
+it helps a bit but still its very very slow.,r/pytorch,Z0FBQUFBQm0yeGJkVkxRV1lVNjBDaTlZSlo4cG9JUmU0SkFoZnpDcGRTbTBLQm9hWDdYSFd0WVpFcmthc2lHOG85cWZmdzdYUXdjY2prMVY4Y21Ld1lndm5DeTE4c1dub0E9PQ==
+"Takes a while dependending on the model but yes you can train most ViTs with a 4090, I've been doing a lot of that.",r/pytorch,Z0FBQUFBQm0yeGJkSl80WW04TVZTMEhvRll0OEh1TUl6YnFzVU9VQUdVX0tLZEJtY1AzbFZ6T2FnZVRQcDdOeXRGZFZzWTFJYXVwcG1KdGZRWXdvcTFVNEVSVDRXb2xFZUE9PQ==
+"Hi, I’ve implemented the deform_conv2d operator for my personal project, but I’m not sure when I have time for the 3d version. It’ll require much more effort. 
+
+What’re the shapes of tensors in your model (input, mask, offset, etc. for deform_conv3d)?",r/pytorch,Z0FBQUFBQm0yeGJkLWxiTXpSS1dYQUdpaFo3S1ZJakpVT0lrM0RIaW5GU2xyQW5VbzBFNklmeFl4TjFtX1ZLdFphS1BIbVJLNTJlNkJaNm5GZ3ZTZHBCUDBaVXFEQktINGc9PQ==
+"Sure, you can train anything but a sufficiently large model may take a while.
+
+
+I suggest Colab otherwise!",r/pytorch,Z0FBQUFBQm0yeGJkX25jQ2NTdHJLVUowdTdQN0RRVGxSUXJDc2xVNHJaVnV4UllzOEJRZDFPekVBajloSG1sUVdkckpwYVR3UE43NDVvOFk2bEZSRUxNUkMtcDZuRTkydmYyR2tPaTJzY1RYNHJSbVdGSmpSM0E9
+Really it depends on the size. You obviously won’t be able to train any commercial LLM but a 4090 will allow you to train pretty much anything else in near reasonable time.,r/pytorch,Z0FBQUFBQm0yeGJlMlBvSDVVcjgzUXd2VEwzM2kxcm5PSVhJdlJ5YzhFZDVCbENCVEtZZElIOUVOR2pYR0dRcWFCUWtTd2dYZC1kejNHRmRVdEJval95U3ppNnlSRGdXWGc9PQ==
+No need for commercial LLM. It’s for test purposes and personal projects. Thanks,r/pytorch,Z0FBQUFBQm0yeGJlZEg2S3BlZUVuckVHWEo3OXFGN3VmUTlTQmRfc1RSajhTcV9JRGQwQ05pTHlEMXRXenVIelVQVHFRZWNrRmRVajNmLVFweUJxeGpjbmI4WVcyVl9Sbmc9PQ==
+Yeah I used Colab a lot. Now they have a wide range of GPUs but doesn’t feel as good as my Jupyter haha,r/pytorch,Z0FBQUFBQm0yeGJlODFlX0thcklGRXg3WV9lRFNNUzdDLWcwSXpJcDlwUDhvRnVTVV80cGV0UTE3MjNFY0dQYVBfc1dPcTFMNUhmYjVLVE16N3hXb1EtbkJtTENLdjlINnc9PQ==
+How big were the ViTs? Like the 16 or did you try on bigger ones?,r/pytorch,Z0FBQUFBQm0yeGJlbi0tcXdZTVpQTUIzbmc3YjBadXZOakRRVWlrZUYtbEF6eTZDYWl3SFhXRENqa2hDYTZvTVNpd0I0VGZxal9WYlVXRmd6a1hjQXNxT25ScFFPbGs3VXc9PQ==
+"I wonder if you could use something like this to connect your local IDE to the Colab GPU runtime. 
+
+https://cschranz.medium.com/connect-vs-code-to-your-remote-gpu-jupyter-instance-58b86a195d9e",r/pytorch,Z0FBQUFBQm0yeGJlTk05YzE4aFBjTzdBWDBoNDhLTmRsZlk5cEZTSVRTWEhidEJKbHctdzY1UXFESE11WmhHSGV0RUMzTW9FWklOTGlrZzhZajRXYmR6NTFTOGd2dTVMTjB1RnBJcUYybzFwM2xEM0NNUko1V3c9
+"having the same issues, moved to a tpu so I could have more memory but its so slow, I am so glad to see this, have to try this out to see if it helps.",r/pytorch,Z0FBQUFBQm0yeGJlSUpNdmQtRGpQSkU4dzMwU1JMeTliVkh1Q1dFaGs1eEF3ZUNQUjZmbWY5WXBjZG81bXpJSXAzM1NDYlBtSGpVUGNzX3ZaNDJ2UGdhMVRuV2hGYndXQ3c9PQ==
+"yeah, i gave up on google colab because I had a lot of problems with the gpus and I find it ridiculous that they don't give you access to the terminal if you don't pay. I'll do the training with my pc, so I can use the terminal and not have problems with usage time of the cards.  Also if you have to load a big dataset it takes too long... I think colab is a good service for tests and small projects, but as soon as you need to train a big model it's impossible to use.",r/pytorch,Z0FBQUFBQm0yeGJlVWhlbksxRzV4UG9xVW1RZ3FYRmFtTkpSdDFhX1NSME1LeVBueU1nU0ZjbVEwNlo3OTRPVlhnTjF3aDVzMGJ5ZEZtUHI3RTBGa2pQdnJhUjZxYlQ0M2RTdkM3eXIxQ1Awb3BrLVFKbHJwdDA9
+"I hear you!  My model takes up around 261 gb to train and I am having a hard time getting it to run anywhere but on the tpu pod on colab.  I can't get it to run on my local computer cause its an M1 mac that I use for music production and software development, and its perfect for that use case.  I don't want to get another machine just for training as I see this field moving so fast and I don't want to constantly chase after hardware, but I understand why you are frustrated and using your machine.  Between having enough memory or storage, I have been having a really hard time training and based on my math it will take me 150 days to train 50 epochs (omg, help me).  Very hard to do this on my own without big pockets but I am trying so hard.",r/pytorch,Z0FBQUFBQm0yeGJlc3FXU0pLeUt4NHZVRHFlcWlEWXdkeVQ5OUxDb1FEd050ekkxbGEyZ1JZX2EyZmdHa0pGalN5eDg1TFF2Z2h1MTRwOVkwdEU4eDF0bEstN2lLVGJfUlE9PQ==
+"What the hell? Does Google Colab even provide 261 GB? And isn’t there a limit of 12h for training? you can still save the model and resume the training every time, but 150 days :0
+and I even complain about needing more than 30GB…",r/pytorch,Z0FBQUFBQm0yeGJlcjd0UDJiR0tMZUNEeHcydlJ5TERuS29yY3FrVE5GWTJYVDNSbDgzczJOSnd6RVdNOTJ5aEZEREd5SlpxZjBoLVM4VHo0Zk1vQmhlOG1ZT0p3RVlHeUpoclZNVWVYSERfX0JpbDZqMU5mZjQ9
+"You have to do a checkpoint after every item you train, not epoch, item, cause you never know when the script will stop executing and you need to start again and I want my script to restart.  Turned out to be a good idea anyway, cause if you get to item 45 and it has a data issue, you want to fix it and resume, not restart from the beginning anyway.  So I have checkpoints on the epoch and the set (I am training on a set of audio - leave it at that for here).  After 24 hours, Colab will kill your sessions, even if you are on colab +.  They want you to pay for Google Cloud which is much much more money to keep sessions passed 24 hours.  If you want an NVidia GPU, the max memory is 40gb for vram, but with TPU v2 (technically its a tpu v2 pod - a cluster of tpus) the max is over 300gb (some is used for overhead) and it comes out to about 280gb for model use (give or take).
+
+I am using Google Drive to store my data, I currently have 5 terrabytes of data.  The read is always free but I can only write 750 gb of data a day, so when I was uploading, it took forever.  I tried Google Cloud Storage but that was like 50 dollars a day in read/writes.  It was crazy.
+
+Every set takes 9 to 10 minutes to process, I have 530 sets, 50 epochs, comes down to 3 days per epoch, about 150 days.  If I make my batch size greater than 1, it crashes on me (runs out of memory).
+
+It is working, but at this rate, I will be very very old by the time my model is ready, hahaha.
+
+Frustrating....",r/pytorch,Z0FBQUFBQm0yeGJlZy1Fd2dLS1l6NENJTHZWX0NVX05EaDNENEdPdTFfMWZOaGhOZ1hFeHJqNVlqdzZUUEIwYk5mbzBZZHpaQkpHc2FWS2J3RUNJYm00UGlTWVVkd1A1Umc9PQ==
+You bypassed every limit of Google Colab ahaha. Do you have Colab+ or this can also be done with the free tier?,r/pytorch,Z0FBQUFBQm0yeGJlTjZmVWVfQnM5dWFBUDJBcmUtOWVpUDJJTGgyNU85NkpSUmVJdndkcUd2MDNCSktUZy1NZkdoaUd4LWlmVE9QV2FlZXRoUjZwZVJiMEhucDNTLXdXT3h3LVhQLU9BbjFYaDR5TDBWTmtIVlk9
+Colab +,r/pytorch,Z0FBQUFBQm0yeGJlNWwzMGhvMzR3VGszVjdvQTNuZFRCbFMtRXhvQ21ZcXFzZG00ZnhrSVJaUTdNdzlQY2JuSXZNQWVFWFU5Qk8tT1FlQjFELVlYa2N5QkpzRXhJdUZXSFE9PQ==
+Ah ok. And what are you training your model for?,r/pytorch,Z0FBQUFBQm0yeGJlUC1CVHl4V0Y2aXV2VWxWZWxCXzhid2hYVVYxMGNOMzJ0eHZtTDk0M0dDa3RHZjdVUVJja2FpdmN6Rld2WE4wOVd6ZFJ5QUN4SmxRblBoNktHLVR3NFY4VzlfRXQxVElfS0o5THFsSXBzbms9
+Teaching it to make alternate versions for clubs or acoustic,r/pytorch,Z0FBQUFBQm0yeGJlZDU2aElaYks2bXBqOXpRLXhHNTRCcmFTcXlfSXNmTVZ0R3UwZHhFYkRld0tSbUZEcllBMzR6Q2VWT19BUFo3c1RRSWJHRGJ3ZTc4cXNvd0NOcHNET3c9PQ==
+Cool,r/pytorch,Z0FBQUFBQm0yeGJlMWY2LUFGNFJPejYxZVRoSll1TERIYU5nTm1qTWNvYWVXZUdnMjRXMTlmZ0dyUWhHNUZsZl9mRjF6bXlIdEdSR2txX2dSRHA2Sjd0ZDlKQU9LM2FIUnpWVXE3bDVWeTNkMTRDLWtEdjFwZ1U9
+"Let’s see if it can be done, I have a huge dataset and it’s labeled really well, took me 6 months.  Is all lossless.",r/pytorch,Z0FBQUFBQm0yeGJlekMycExicXNnc3BzQ3YzUkF2Z3BMQWI3NEFnRjFrUEFpM2hoY2lPRG5rbW5ydUhsVzQ1dXhVcHdqQzBEbWR1Nm9ENDkyZkhuc2xRbmVhMWl4NVJZb1E9PQ==
+Doesn’t something like that already exist? Did you designed the model from scratch or you are fine-tuning it?,r/pytorch,Z0FBQUFBQm0yeGJlZjNRZFh5WnBCczNmZ29jaWR5SUQ1YVdGanFObU1OSEFpM1lkLVpqdEpsdHlhMnZ6aXIwRXNxdUp0OEZNM21Md0pGNGVRQTBVOHMwYUcxTmJ2OFpHMS11TDJBOW5kOC00OTIwWEV1WGtGRFU9
+"Yes. You will get much better performance on an RX 7800. Pytorch works with ROCm 6.1.1 on Linux and requires no special code or work. Pytorch allows you to use device=`cuda` and do anything you would otherwise do with CUDA on a NVIDIA card.
+
+I haven't used Fedora 40 personally but Ubuntu 22.04 works perfectly for me.",r/pytorch,Z0FBQUFBQm0yeGJlSWNCalRhallLbkpiUkVpaGV2RlBOUVctUGY4SlI4ZkVEV1ZnQ1FvcndLSFFKbG81LU9XS0lfbHFkeF9FUEVnMHVqM0JubURRUU92NDdHbDlubG56M0E9PQ==
+"Oh and for other AI workloads, there is growing compatibility too. Llama.cpp is the most popular LLM backend and it has a ROCm implementation too.",r/pytorch,Z0FBQUFBQm0yeGJleHdBSjk4a2xRYUFSZ2xRbHN4V2N1Y19aYU1vbU55dnZNWjVBcFdscC1UUG5XTHBYbVpHb1JYUV9hN3RMb092dXVXX3dRMENnOFRrM1VaUElLZ0xGM1E9PQ==
+"The concept does not exist, currently there is Suno and Udio and they are music generators, but not taking current songs and creating new variations in production.  I am starting to understand why, the amount of data you need to process is vast and it requires a large amount of memory to train the model.  The model itself is based on a u-net architecture which borrowed from computer vision that has seen great applications in splitting music out into its instrumental parts like in spleeter.  The model architecture is u-net derived, I am training it from scratch.  I am currently in day 5 of training and I am seeing some early results that indicate it is going in the right direction.  I tried with a smaller set of just pop to acoustic and it did start to work.  The vocals were coming through and you could hear it start to simplify the instrumentation down.  Its still very early and I am looking forward to hearing more.
+
+Project 2:  I have another project where I am creating loops using one shots (these are in music production the sounds you hear when you hit the button for a drum or a key for a C) and I label them.  Then I send this through the model to learn how to identify the sounds.  This model will then be used to classify production quality loops to categorize and label the pattern.  Then I will use a second model based on the second production quality loops to train based on genre and loop types to create a generator.  This is still early on in the process.  So far I have created the library of 150,000 random loops and the labels and I am now designing the model for learning the 'notes' to the 'labels'.
+
+All this on the side of my normal everyday dev management work, I just don't want to miss the AI bubble.",r/pytorch,Z0FBQUFBQm0yeGJlcHczUXlMVERCOXhiYWJfUmxNN2RING5YeWo4VkdJT09yMEJEZGU3b1hadWw1Q0ZyUGtTZWJ0SV9pT3lIYTdrc2h2aTlwcEMtcktWSHlCTi1YczRlZ1E9PQ==
+"Mate! Thank for the link. I’ve been looking for such a solution but been told that it will not work. And that only opposite exists , running Colab locally. Maybe I should have looked more instead of listening",r/pytorch,Z0FBQUFBQm0yeGJlSEhvRkViMmJIblJSdGtoWVU4VTZoQ0pLdTVodkluVVFYazQ2QS0wMS03T2ZJNnpOc2VfSXlzWUhKX2dXNFdkM3RlTUhDOURiV3FrZ0dQc1ZOWDhHdEE9PQ==
+Like 1.3B params,r/pytorch,Z0FBQUFBQm0yeGJlTTViUXFHUHZjQ2s4UERFV1JFc2RPNUZzVndiYkZmR081Nld0bEhvTlo3OWJsUTByUzZJZ0pkdlhhN1NoVHVPc055WW9iRDBzZTRqR2RaaENia0NWZGc9PQ==
+"I think you will be better off working with an N card. It looks like you are on a tight budget and are experimenting with smaller models. No unlikely you need to squeeze every power of a card. If you cannot get your work done with the N card, then unlikely you will see the work done with the A card. 
+
+AMD ROCm is supposed to work with no issues. But in reality depending on your models, you encounter unforeseeable issues and likely you will have a hard time to unblock it due to lack of community support and docs, compared to N cards which have a larger user base. So you will find tutorials and forums to get some help. 
+
+Especially when you are learning stuff, it can be frustrating to handle those compatibility issues of A cards.",r/pytorch,Z0FBQUFBQm0yeGJlQlhmNmNtNlFiWWxGSTIyNFdnQS1vYTRKcTJhRGpEcXhsYURoOXN0UW1Qb3hYYjBsbVBYNFhfS1BFajNjWFRKaWFoMGd4Yl9hQUNwQUN6VjB0ck5EUlE9PQ==
+"You can fine tune 8B llama on a 3090 (it's very slow, but can be done), so any image model should be fine.",r/pytorch,Z0FBQUFBQm0yeGJlVzN4SVRCbmJuQUlNVWFqNWRveE5PdUJ4ZzZvVlc2Y3hJZmhuTTd3OGl4Y0FOMF9mY19YWXRVN0RlNWpRRlhkektXUE45dndhWnktNWZlU193aldNWlE9PQ==
+No worries!,r/pytorch,Z0FBQUFBQm0yeGJlZlZacDZfUHZqczNkUmtJcFkxeXY0eVFzeGxDb3Y4elpzaEVVeE0xRmo2clJEbmItb25xa25KMmV3RHBmY2pzVG9hRHZ4eVRZWXNkU1pIMTJkMjhhbkpYRnBuM0Z0amp2WTFtbDVVTjhncEU9
+"Thanks for the opinion, that's what I fear the most, it will supposedly work and then down the road I will have to fight many issues .. I'll probably go for the nvidia card as much as it seems that it is a bit overpriced :/",r/pytorch,Z0FBQUFBQm0yeGJlRUdJNWtzWTU5TXJmZU5aZ1o5M3lERFhqQ3k0Q1ZhUnIxbjdaT1c4aFFiM1g0TzB0eURRVmlUTkQ0T1FZbmNoLXh0N0FMaDc3UDRuUmVVbjk5b1A4cHc9PQ==
+"Thanks, so you have tried this yourself? Any hiccups, etc, can I just follow a random internet tutorial and use most models from huggingface? I am really a beginner here so I would like to be able to concentrate on the actual problem solving, if there are often (even smaller issues which an expert can resolve quickly) I think it would be a bigger problem for me ..",r/pytorch,Z0FBQUFBQm0yeGJlMDluT2NINFVqeFdReWFvZnZNN2xQMWpIV2IyQXN5MU1qRnF5LXVORTlBTXFXUHJ6WkpUNFY1QXNjNlRZeVU0OVZaMzhIVTRLVWwxc0hZVW16eE13MWc9PQ==
+Hey there! 👋 Is there any plan to be able to install touch eval through conda channel?,r/pytorch,Z0FBQUFBQm0yeGJlc2hiR21mazNDUVpDTVVyT1hmU19pT1lYWGJqRWpkeEgyUzg2dEpoYXJNN0Nfd0pEY1Y0VEVITklvZk9BeGk3dUUwY0swM1R0TTRkRS1YanptZmkwT2c9PQ==
+"Do your environment variables correctly reference the relevant directories? 
+
+Use `echo $PATH` and `echo $LD_LIBRARY_PATH` to check if they include your CUDA installation directory: `/usr/local/cuda/bin` or similar.
+
+Next, `nvidia-smi` only shows the compatible version. It does not report the version PyTorch's own CUDA is built on.
+
+You check the PyTorch CUDA version with `torch.version.cuda` in Python and the system CUDA version with `nvcc --version`.",r/pytorch,Z0FBQUFBQm0yeGJlVlYybXdEZU52N3N5MjBpclo1Q1NCOTdSY3dvMGp6Zm1DcUZtOTZMclFXM0lOMEgwYXhmYnBwOUlxZ1pFSG5wTDY5Nk91TkpyZElKY1R6NVUtSzhmbnc9PQ==
+"Sometimes I just save best model, then I restart the pc and just run my inference.py file.. also, consider using PIN MEMORY = True",r/pytorch,Z0FBQUFBQm0yeGJlQWNnY0JESTF1YWN5d3NSdjNPUUVfMHhCMGc2MWFWT05UUktvRExoMVZVNkY4WXdEOUdVNEtTbG9hOVpSeGZ2SHhOVFI5Y1BITTNwbWdEM1NtLTktd2RMVnA3MFNCbUpQajZQNzZtS3hSNHM9
+Did you ever figure this out?,r/pytorch,Z0FBQUFBQm0yeGJmTUJhQ1hVNVNyZUF2akN3WnVETnBpRTVSaDJWNFFaZlprY1NOZFZpa2lhYVhnb2tnd0tUZDI0cDdDbzBqd21reDFWbkM3X1otajRtWGsyR1VwMEQ0S2c9PQ==
+"Wow, this project sounds super cool! I love seeing how AI technology is evolving. I once tried creating my own AI model for a project, and it was such a fun learning experience. Have you considered the computational resources required for training your own model versus fine-tuning from HuggingFace? I'm really curious to know your thoughts on that aspect. Good luck with your AI waifu project!",r/pytorch,Z0FBQUFBQm0yeGJmZC1ZSlk4MmRzY09wQVFqeUJpT3B6R0RpYUlNYTRIZTZMc2MyZW4wcVlXZUJRMEp6SVBtSE93MTY0ZUdibnJpNE0tbjVnenFSNWZMZFpCbWREWHB2Ulc2bFhWSXpFYnYtMWd0bVdsdEVyWkk9
+"CoreML doesn’t support some operations, so you’ll need to write custom layers (and GPU-shaders) to support them on iOS/macOS. 
+
+You can have a look at the Github issues to see which operations aren’t supported:
+
+https://github.com/apple/coremltools/labels/missing%20layer%20type",r/pytorch,Z0FBQUFBQm0yeGJmeXN1eU5GQWFfX1dXajItRElxRG1xY3ljekFfeFZMWi1VRE1hQWJ6cHROZmVHNktWdkxyZ2hCanZncy0waTloSF9MX2lTd0g4WDhWUmptck1UeFpFMWc9PQ==
+"Short answer - yes there are, search for exactly what you've said here.
+
+Just Google ""speech to text pytorch models"". Huggingface (a company that releases libraries to simplify DL) allows you to run models via something called pipelines that abstract away a lot of the complications. Look for ""huggingface speech to text models"" and you should find details on how to implement things. This should get you started if all you care about is inference (meaning you don't want to train models)",r/pytorch,Z0FBQUFBQm0yeGJmc2ZoT0EzT3hXdktpV0YxaFRfRXJGUEt2MldWVWNHZG02Tll2X25xWlpueG9YOXNGWVJxUWdGa2pjWi1zTTRrUGYyWllVSzRmYWd4NFhYaVdRNW5RQlE9PQ==
+Oh okay. Thanks for the assist.,r/pytorch,Z0FBQUFBQm0yeGJmZG43TTZvX285SGx1bmR5dUxNZ2JZYV9NRTd1SlRKR3BXNkVyN0dGUk5tUWtRVjlUQzJWakVhQl9odGlReW5zZGNPSDdtSksteFNvVThGTzJaZnl0Wmc9PQ==
+You're welcome!,r/pytorch,Z0FBQUFBQm0yeGJmNkp0Q3U4cEt5OEhJdm0zV3lGX0VVel9NUldFUllFeVhKTWVsLWNodUQyaWtQb1d3cmp2VThVN0NsUllva0c3V1Q0TjlYcTZBR3lCekQzcmQybmdvcXc9PQ==
+WoW a 8B on a 3090. You fear nothing my man,r/pytorch,Z0FBQUFBQm0yeGJmbFMyeFJscnZzaHJUY09tc0pMZi1EZWZ2UlVMdjRkZ1AxMWltWlBTaW4xN1YxbTQ1VHhyWEEwRjFma1JCaFJpTU5KaE9tWk5sc25WTnlDa29fN19LOXc9PQ==
+Thanks mate. That will do the work,r/pytorch,Z0FBQUFBQm0yeGJmQzNHdUx4Z3VubUQ5aTg5VlhpXzRwRlJUSVZPMTVjVVlnZjRlQklCbUJxMnNjZmlXLWpyaVR6ZDQweDNDRnZBb19nS3J5TlVYcHVsa3FQbWJjajEzSkE9PQ==
+"Not really, nope",r/pytorch,Z0FBQUFBQm0yeGJmenZ5TTFDS3FKVUd1SnVYR2Z4T0xFN0VaM1dNSFdoNHpDSTdneENIMzNmUTlmWENCYjB6bWVpZGN4WEg5MFp0dTdnZFVOWkluNmdqUno4LXhhUS1SNmc9PQ==
+"torch.from_numpy returns tensor with requires_grad =  false    
+You can just use torch.tensor and put requires_grad = true     
+torch.tensor(target_data, requires_grad=True)",r/pytorch,Z0FBQUFBQm0yeGJsSGl1Z3NVRmM1djdpckxtQWRxa25iWE5FeWJuTVBlcUZqSW5SSlYtV0dkTWFQOGtCenVRUXZUY2FxTWZ4enRoUjlFX2taaFJqZ2padmVhTEdXY0lXTEE9PQ==
+Are you looking to do an Android or iOS app?,r/pytorch,Z0FBQUFBQm0yeGJsM2ZzbC1KXzdKSFV5N0M4ZzNfQjN1eUlCRXVYY1oxTVE1bXZtUTBmQTVLRGVRUzlJVGNSUnhaSnFJaHhlM25RVlRwcFRJMmttY3dzZWVWSGRXOFkyUHc9PQ==
+"Yes in the future, but want to start as a web or desktop app",r/pytorch,Z0FBQUFBQm0yeGJsOGFKaWhyR1UySG5DRk9vVml2dXA1dF9pbDgzcUFadERaTXNkUlVUNjNWZTI4ZlMxZkVBdlM4RDF0Ni1CbFQyUXk4UmFwd0ZhSURjT0hNQ1FPWXU2dUE9PQ==
+"So I'm not sure about pytorch, but you can use vosk which is super fast or whisper which is slower, but more accurate. You can call both from python. I've actually tried both in my android app here. https://play.google.com/store/apps/details?id=com.discreteapps.transcribot",r/pytorch,Z0FBQUFBQm0yeGJsdHY3dnhjdGpuSVJJR1pzcUZ6enVQWDV2d3lwenNfZXA2OS1SMmkwUmhUQjhoS250cWNWd1lXLWh0VndjR0ptUFI5NllQcWlJc2liaHFUaHNYQmo3UlE9PQ==
+"Ok I will look at it. Let me Google ""Vosk"" because I have never heard of it.",r/pytorch,Z0FBQUFBQm0yeGJsUWZJb2c5a0YzQkdfYnFWSGtLV19UQXI3ZWJkeFlsTUpnX3ZtNm9Lc0xpVGp4N0VuUHUxbThRcFVMRUd0UWdEYzd2OVJoN3c2dUZycGFsMFFGYlpJYWc9PQ==
+Wait what size of language model did you use? And how did you integrate it?,r/pytorch,Z0FBQUFBQm0yeGJsQm1jUFVVejhvQ2M4QlRiYVdyZEt3UjNDTWZtejlqNmY4SHVOdFZxS0trdENLTEhOWUhRMVYxTVJtb0UzMW5OOWxtZlNqU1VEWU4wWlo1OXZGTDUxUmc9PQ==
+I used the smallest ones because mobile devices do not have much processing power or ram compared to desktops with GPUs. Plus they slow down even more as they heat up. And they heat up more as you do more processing on them.,r/pytorch,Z0FBQUFBQm0yeGJsR3hNc1pZMjBaS1UwVE1rOVhkVFZMeG1wUDN0LWJVREJwa0xDMEZQMTR6NHBXN2V6M0M3RFhPNmZKaFl1UXI3ejhyZTR1RlhtRFdHUUlBR3ZFanpKZkE9PQ==
+Yeah that's why I am particularly interested in Google's Gboard voice typing feature. The language model for English is 85MB and it works offline as well.,r/pytorch,Z0FBQUFBQm0yeGJsTXV2UHB5REx0dEN3aVFCYnpMMDJhSTJmSGZOWWpLRmJYbTNIU3g0UVMzVDJLRVZyRzNjTVpSWVhWcWU5cjdQaW1GSUQwSkdnZ0RrbjZhVmFjTkRWaGc9PQ==
+any update bro,r/pytorch,Z0FBQUFBQm0yeGJsX3EyNTFnMTFiMVVBMWlKMFNWaUJzVl9HOWVnX0gtNWdPOVdWRy1uYjIxRkZ2ZlV0UWFlSno4eWpTbDRMZUtFM3dXazA0Mk0xRzJieVhBS24yakNkdVIzSXJZOUVScU1HUVM4LW50LVJOLWc9
+Nope somebody put the one I was looking to use on HF since.,r/pytorch,Z0FBQUFBQm0yeGJsM2Rkc1NyOGxOb1ducGNfZlc4dG5KZ3pLRDVRdUkyWXBlZTY4aE9mWW0wSjhHYTUtdGN1NDlLQmhpaU1KRTdXNnBpaHhNakFHazRLc2VxX2xkV2RXZmc9PQ==
+"I can generate a relay IR compatible dataflow graph from the PyTorch + Kornia so thanks alot, I was trying to see if I needed to build a new front-end DSL for TVM!",r/pytorch,Z0FBQUFBQm0yeGJsaG1xRVh6VUgyd1NyUDRzNW1WajJOLXVMZE55X0JTY2Foajk1OHBWM0hlbDh6TzBydEVtRFFsay11blQ1TnhhQ3RxOHhzSjZURVpXcEczWk01dVB6UGc9PQ==
+Very helpful thank you!,r/pytorch,Z0FBQUFBQm0yeGJsc1dVZ0lGdnVnVkx6eENWSXBpVGo3T2ZNb0VpdkNNUWtNVFpCNHN1V1JNdlRRV2ZaNzFidktsbEkxUmxtZ3dnWXBhMjh4d2dDVlY1ZmpLRTB2eFJabVE9PQ==
+"you can try vast.ai to rent GPU, much cheaper than buy GPU",r/pytorch,Z0FBQUFBQm0yeGJsZXFVWTk1NV9vSTc3NDV2Yk1HSEZNZGNCTmVYdkdVNmNDV2xTYnRKUnIzZ0NaeDNyYzBIcFZBSm1WTTFnS1hvd08xTWFQQXpiS2ZNNnpjR3FKUmMzS1E9PQ==
+"Finally had the time to test what you suggested, here are my results :  
+`echo $PATH` gives : `/home/x/miniforge3/envs/vllm/bin:/home/x/miniforge3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games`
+
+`echo $LD_LIBRARY_PATH` only outputs a blank line
+
+ `torch.version.cuda` gives : `12.1`",r/pytorch,Z0FBQUFBQm0yeGJsbmxOWFVZTkpYdzJWMElzVVNWWmFHcUx1WkpvVUt6NHg4VzRPeVRYUmFFTS1JQ3gxWThtdzZ1aWVXcEFkXzVrUUw4VUdwRFdOQzFsbHlVUkNDR19oV1E9PQ==
+"I see, I think the environment variables may be the issue here. Assuming you have the same CUDA version installed (per `nvcc --version`), try these before running that PyTorch test again:
+
+```bash
+export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64\\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+
+Found these here: https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html
+
+If you follow the guidance on this page you should be able to resolve your issues.",r/pytorch,Z0FBQUFBQm0yeGJtZldaNm56ZkNTVnNQd0E2a2twdTJuVEFGRVVEZEJJNVFHX0plT2dxYURaYmtFQUZuS0xnQ0pzOEVnbGRJLWZKWUpYeE9LbDIwZExTdjZLQXE5dEdwbnc9PQ==
+"normalize and standardise your data by using scikit learn , that will increase your performance by a lot , data should not be random , increase your number of neurons as well , for parameters in linear start with random values multiplied with 0.01 or set those values from -1 to 1 or 0 to 1  ;",r/pytorch,Z0FBQUFBQm0yeGJtUEk0clZJLVM1TkE2S2hKOGdLLUJCN09xRHREV2xFOHdCRXRLQTRVNUZ3WTBhM2RudnhOMlE0YVByR3hzVmZuNjA4MW9sbkdaeEJPOVJEMFR6cUdqRkE9PQ==
+"No relevant code picked up just yet for ""Backpropagation Through Time For Networks With Long-Term Dependencies"".
+
+[Request code](https://www.catalyzex.com/paper/arxiv:2103.15589?requestCode=true) from the authors or [ask a question](https://www.catalyzex.com/paper/arxiv:2103.15589?autofocus=question).
+
+If you have code to share with the community, please add it [here](https://www.catalyzex.com/add_code?paper_url=https://arxiv.org/abs/2103.15589&title=Backpropagation+Through+Time+For+Networks+With+Long-Term+Dependencies) 😊🙏
+
+--
+
+To opt out from receiving code links, DM me.",r/pytorch,Z0FBQUFBQm0yeGJuaXBYYkNtano1Rk1mX25JYTEzWlowRUtMcDB0aWZBdEhtTnpfTWg2dVVZVjdQQTZJeW01RDJqNnVlaVFRY1l6bXBBdHRNZ1dsWlRyQkdVQWpSS3d4ai1rSkl6dng4QzNkemVPVjlabVRzLTA9
+"It wasn't there a few versions ago. Thanks again.
+
+I did this with it:
+
+https://github.com/Extraltodeus/Stable-Diffusion-temperature-settings
+
+Diffusion models somehow did not make use of temperature while it is actually useful.",r/pytorch,Z0FBQUFBQm0yeGJuWmhxbHpFNThjelFXemRpWHdJWnBHRWl2UDFsU3pzZzk0MDhhT2tGakJCeV9nQl9BaE1YQ29OcHlRVkRsNXc3Y2YyNl9CaHRXY0N0dndVei1JX251c1E9PQ==
+"the thing is /usr/local/cuda\\* doesn't exists, is it a nominal behavior since I Installed cuda via conda using pytorch-cuda ?",r/pytorch,Z0FBQUFBQm0yeGJubkRkaG45NV9Oc1ZOaURrSGtRQVZuVTU5elFoVFN5WUNXbmNvaHJzRjBRUS0xTE5ubklNYWNHRllvSEY2VWVDM255cG5yQWUtc0pfb3dmVS03YWdNM0E9PQ==
+"I use it to capture the tracer of the run. Very useful to identify the performance bottleneck of your training loop and come up with optimizations. 
+It is a bit of a learning curve to master this technique. You need some understanding how GPU and CPU work together (e.g., GPU kernels are async. When does CPU and GPU sync with each other. What are cuda streams. What can be done in parallel by a GPU)
+
+Definitely recommend if you need to understand the performance of your training or inference code. Nsight can be an additional tool since it can provide more information compared to the standard profiler
+
+This is an example of using trace and profiler to iteratively optimize a model efficiency performance by the pytorch team https://pytorch.org/blog/accelerating-generative-ai/",r/pytorch,Z0FBQUFBQm0yeGJvUHBBTTZPQktCS0xYR1FaTzBSU0pkT19zUHp3Y1A2cm9ZbVJpdUNVTFVVY3hsaUdKNm5hellSM2hyOUoyTXhFbE5EcGVTUDB5eGMybzVWQ0VONTlKUFE9PQ==
+"Thank you! I appreciate it. I tried to find some online tutorials and the pytorch docs. 
+
+Is this something that is best used on a small (<10) subsample to do some optimization before running a full training loop?",r/pytorch,Z0FBQUFBQm0yeGJvUHE5RE9QRHN5bGJkR0JQekkzNnlFZFBIUnhwOEVzcWMwZzViamlVcElSU0EyQW9yeVljcnI0MDZmWGpfYXljYktRMWw5TkIwSUdIRTJhU2l2LUZkTmc9PQ==
+"What I do is to keep the config identical to the prod settings, run a few warm up batches before starting the profiling on a small number of  batches of data, e.g. 5 batches. And check the trace from there",r/pytorch,Z0FBQUFBQm0yeGJvd01ET19EM1J6SjlDYXJiY0tkZERxUGxlZXQyNHVnZXNVY2FNOFRCVnprX0NuT1pFQl9FbDRaYXZXX283ODNsd1lUVE5YU1RGd2h3ckNhWG5Wc2lWVVE9PQ==
+I know I read/saw that someplace. Im assuming the warm up batches is due to async issues?,r/pytorch,Z0FBQUFBQm0yeGJvNklreThScy1OaXd6aGJUX1lGMl9PZFF3NXRJQlQ3bkNkRzR2LU9JaUxzZ19PZlRWVzI1Z1MwU3RWelFjZEtLekZkYTR6ckROTlJQSDNLUEV0SC02RFE9PQ==
+"I use the profiler too, but at a more basic level. Can I ask you where you found resources to learn about syncing phases between the cpu and GPU kernels and cuda streams etc etc?",r/pytorch,Z0FBQUFBQm0yeGJvcktnTkdReGlLbzI5MHJtOWRUQWRYN3dVTE9GM09Va1R1bmtjYlRMSU9WLWNUU09QRmtOb0ZaaDk0bTZqRzU5RFdhandNV0QwelJvTko3NHNLcGkzenc9PQ==
+This is probably more of a “learning Python” question. ,r/pytorch,Z0FBQUFBQm0yeGJvRHhXek5ZM2dCczZ3SDN5OHN2M29UUTlsMmFGQXB6ZTd3RTJ1NWpzUlRmaWt3SGpUSXNIT2RkcFRXMC1zbHNhNDRwUjEyYTJyWVF0Q1hxR2xKMkZPakp4XzNWdmJBOEZyWVAzdnhFQ25GTFE9
+Do you mean a different subreddit? I'm sorry-I didn't understand.,r/pytorch,Z0FBQUFBQm0yeGJvUTNNU19iMjBWdXgyX3Exekg1Y1ZUN1BKVHZoR0JGaVZXWXRESE1BNjJuVFVoOTg0VlMwWmFkVnhPMHd1d3RlR1hLY1BVMnlkeEVDQUxna3dBeDBhekE9PQ==
+"I'll preface with that I am no expert.
+
+I've done something similar, we had a service (systemd service) like a watchdog that would look for new images in the directory, analyze them as they arrived.
+
+Another way to do it, would be if you are controlling when new images are captured, to analyze directly the images in your capture service.
+
+
+Another way, is you could periodically analyze the full directory of images with a CRON job, and clean (move) the images after they are analyzed",r/pytorch,Z0FBQUFBQm0yeGJvSWozNlJpbFYzNC0zeWR3dzk5VFRaRmtXYVBCTGU0VjRPTnFueFpKV0pjRXFjcm5TNWw0SDdQTEx6OE1hcXVNVUFNSTVGSDE0cHc5cF93OUJPTnc0MGNjYlZpbDdER0R2NWQ4ZTBJZnd0Rjg9
+"I should have given more context--I am analyzing images coming from an Arduino OV7670 camera into a folder on my computer. The camera sends images every few seconds! Do you know how I would directly analyze those images? I hoped to have this being done automatically, without my input in the CNN model after the initialization.",r/pytorch,Z0FBQUFBQm0yeGJvZWtYNHdVeEtqOVlWMWFKTkkyX3V3VUtXNFl4bHp6SkdqS1FTZHpmOUZIRG9vdUYxVC1DaTJkc0tGSmlRWTFPdHdYYl9VNVJpQ0FlMmtNektkMGJPb3c9PQ==
+"The GPU starts from idle state in the first few batches. The kernel queue is empty. The caches are not loaded. 
+You want to measure the performance at a more ""stable"" state after the GPU starts to get busy. That's why to give it some time to warm up.",r/pytorch,Z0FBQUFBQm0yeGJvNUZVcF9hZV9rXzBfMk96MlJhUVdIMEtoQW55bmZrN2FvcUlUbnFheW8wRXVlcHAtUXA1SV9xYVkydXh3dlNHT3U4Rlo3OXJWYlBUTTQza3RsNTd2UkE9PQ==
+"Not sure if there's a formal tutorial on this topic. But the rule of thumb is that if the GPU needs the CPU side data or the other way around it will trigger the sync between the two. 
+Some common examples are calling .item(), to(device) with async=false, indexing / slicing using CPU side tensor on a GPU tensor,... These are fair common pitfalls",r/pytorch,Z0FBQUFBQm0yeGJvSHZVRlpyalhXNnI5M0xiQmMyMEtWR21FV0ZtZmZPTjJLQ01ZUHBESXYzanpPNDZHSTd2TnRkYTBOR2Znc0lkNnI3Y0dRUWRwTzBrUDRhS2lzV1FwMWc9PQ==
+"Just that your problem isn't really a question about PyTorch, rather a general python problem",r/pytorch,Z0FBQUFBQm0yeGJvLTdhMWNqLUFTaC13ei12MEtXYjBDRnFtaVpXWnBDOVNoU0VjZUZDZlNoMmNhRjlZRDV5WXFlN1JndTlET2E4Mk84VlNJaGZTTDhKTVRZQ2VQbjZoOTNaVThlUEp1aklULVFnbWpUdzRwaFU9
+"So you'll either have to set up a service to monitor your images folder for new images -> then analyze images as your service finds them
+
+or, i'm not sure how you are saving your images through arduino, but you could set up a sort of hook in python, either through serial or WiFi (or however you are sending your images to your PC from the arduino).
+
+Either way you probably will work with systemd and a python script rather than jupyter notebook, unless you just want to periodically run your jupyter cell on the full image directory, in which case just run a for loop for each image in the directory",r/pytorch,Z0FBQUFBQm0yeGJvelNxbFdXNFN2UTBIaEx4d2lhNEJJdGVhYTJHei1tZDBleVlZSzEyRmEyUTJJcXlRbjZsb0RYcmYwQXY5b0kyY2RtRTJORmdaajlCeFkyOUJYWm1HdVpYMTF1c1ZWcGVDTmhmcmtJdWpnTXM9
+Thank you man!,r/pytorch,Z0FBQUFBQm0yeGJvcktBVzM5X04zaEF3T2dKV3JmLUtyanNoUXR4XzVXazUzUjhSZFRXTWlLQmpwM05paXZwTGl1X0JMNmQ4YkdhQVA5NHB3TUt2ZGxRNHVZWHdTNkFVeHc9PQ==
+"Yeah. R/learnpython maybe?
+
+Basically the fact that it’s PyTorch is mostly irrelevant.
+
+ What you need is help setting up a script that continuously monitors a folder for new files and then sends those files through your PyTorch-based code. You’ll have to wrap your code into a function probably too, but again that’s not really PyTorch specific. ",r/pytorch,Z0FBQUFBQm0yeGJvRTVhc1k1dmZzMXoyYmYtV0VIR2Q1Y1JHVjRCa0JTWlBsd1BNejBWdFRXUlh5UUJLd3FmQVpIMEZiSGhFa1RMNS1uWml1TVJWNGxvMGlhQXJDUkVEQk5tX3Y0U1BmT3ZYNFg0VVg5ZVVfRms9
+"Creating your own model architecture can be a fun and rewarding challenge, especially with petabytes of data at your disposal! However, fine-tuning a pre-trained model from HuggingFace could save you time and effort. Why not experiment with both approaches to see which one gives you the best results for your AI waifu project? Muah AI might even be able to help you with some inspiration!",r/pytorch,Z0FBQUFBQm0yeGJvYko1Yl91dVd1Vlh0bzVpaHBLSExCZG9YamZvdlZPc0xvWjBHNGd4SUoxT1NlTVNHY0huSFozNVViZkw3MzgwU1ROaExaY1lJejdsbms4RGtuSlI3aXRrTGZqaFFaT3dVbVFmeWtmdXpndXc9
+"OK, this makes a lot of sense. I will post it in that subreddit, thank you!",r/pytorch,Z0FBQUFBQm0yeGJvQ2RrX1U3V2p0d3RPdmY3bWZsTDFPbDNCT0hyMHNCUmhVTXVDR3RBR0JrcUJKV3ZEbFVYUlF0T3UxaF80dk1xM0RZcDYxT2psemk3VVNtQmJSNzdhd3c9PQ==
+"OK, this makes sense, thank you! If you are able, would you be able to explain what ""systemd"" is? Also, how would I construct that for loop? I'm sorry--I'm still a little new to this.",r/pytorch,Z0FBQUFBQm0yeGJvdzRWT3ZucjlLSzJ2YmIwall3RF9zeG1Pc2tUR2FaLWlqSmdWS1FKVnhsdEtpYzJfQzNRY1hvSnlfT1RmclBfQ0R4RTI0Q3hLM0dGT2ZUN1hsMEpoQ1E9PQ==
+ChatGPT is your friend,r/pytorch,Z0FBQUFBQm0yeGJvaXQzZUpCdFZiMWc5a1N2VXFJU1ZNbnk5QkFPa2MydWk5ak5aeG1PSVZsRmMwc1p2WGhvZXVEY1J0M012amI1VmtrMVFycmlUQXlqUllaMk91Zk1HWVpOY296b1Y2ay1PWWY0MG1UejJrd0k9
+"Wow, this project sounds super cool! I love the idea of combining Wikipedia-like knowledge with a character AI. Reminds me of that movie where the guy falls in love with his AI assistant. 😅 I'm curious, have you considered the ethical implications of creating such a realistic AI? Like, how do you plan to address any potential issues that could arise from users developing strong emotional connections to the AI? Can't wait to hear more about your project!",r/pytorch,Z0FBQUFBQm0yeGJvUFJybmZMeEdPekhSVFF0S0xGckNGSlk2bjhlNVRDQi1sVGx2ZXFzQTV6RzQtTUdkTlpPbTYyd014cnNuMk1tYlVaY21tVkdVQ3hvR1kxRDZjMXNuNUE9PQ==
+This is a really weak ad masquerading as a post. Shady marketing is the first warning sign that what you're selling can't be trusted,r/pytorch,Z0FBQUFBQm0yeGJveUZhbUF2YXQ0Rmxtd0k5d0tmZXpJS3pMNEpEb3lzaUhteTJ3dzZvMTVPNmE5TVBaNFJ4a0RzbTlZaW0yejNEcXNPOVVES0U2dExDX0tHQ3BqS1ZLZEE9PQ==
+"Hello, unfortunatelly a lot of inference backends methods (like transformers from HF that uses pytorch) doesn't support Apple Silicon MPS hardware 100% and those need to fallback to CPU handle it.
+
+You can follow the requests in this oficial issue in github and vote it
+
+https://github.com/pytorch/pytorch/issues/77764",r/pytorch,Z0FBQUFBQm0yeGJvTEtQRXo1NWNyYlZWclZ3VkoxSHhVWklmUXg1ZEdFUWVVRjRsTlN6U21lTE9CMWlCRENJNFIycjRZdE9IZF9mQmsyeWFtdGloM1g0b3dhQ1VaSmtnbmc9PQ==
+"There are optimised paths baked in to inbuilt functions at a low level. To make an apples to apples comparison you'd probably need to strip all that away and write your own CUDA for both. Also at 3s/epoch you're likely overhead limited anyway, not compute limited (i.e. processing speed is limited by the amount of time calling in and out of python, rather than doing big matmuls and such) so it's tough to show anything meaningful at such a small scale.",r/pytorch,Z0FBQUFBQm0yeGJwTjRuYkpIemZ6NFpHOHdGTk4ydS1iWnhyRHpWTVp2cXFpRXBJVmxuYlpzVFVhWTMxX18wZlpXWlQ1VC01YzZTTWduSUM3NDBTcVg0SUFSWDBwVk5KbVE9PQ==
+Yeah okay I'll look at how it goes on a bigger dataset just to see what's what... Thank you!,r/pytorch,Z0FBQUFBQm0yeGJwck90Nm50dnVvUDA1V2t3dGxDWFBLU3Z0Ti1LS0J0MWxNVUNEQ2JZQ25obUdRc0k2MWlxQ2wxSVhib1NpMmxpXzRPVlRIeG13VlR5MEkwaHM5c0NDT0E9PQ==
+"Yeah, Google has some good models. They pour a lot of money into AI. Yeah, your best bet is the above models as the small ones should work well on a PC. If you need them to work faster you either need a GPU or use someone else's machine. You could also use a commercial API where you send the file and they process it and return the transcript. Google has a service like that and so does deepgram.",r/pytorch,Z0FBQUFBQm0yeGJ2UGJHZTFUa2llZWFBZ0xSRVdIWlphVDVhS0dEeVVWUkJTY20ybEk2VXdDUXExV1RvWHVJQlFfdHM1SzFjdmVjTUxQMlJ0WEh6R05aU0FDbzJITGNiemc9PQ==
+"I believe you won't be able to use the latest PyTorch with a 920M; or at least not a recent version.
+
+PyTorch expects an specific CUDA version to be compatible with your card. If that's not the case, it won't be able to use it.
+
+If I recall correctly, you should be able to install at least the Nvidia driver version 452.06. You can check if you have installed that version (or higher).
+
+If that's the case, then you should be able to install PyTorch versions compatible with CUDA 10.2 or older. That leaves you with PyTorch 1.12.1 (which to be honest has most of the actual functionality of later versions).
+
+You can try to install 1.12.1 following the instructions listed [here](https://pytorch.org/get-started/previous-versions/). I recommend installing with conda.
+
+Good luck!
+
+Edit: OP I would love to know if it works! Old hardware is great for learning and testing and reduces the amount of e-waste",r/pytorch,Z0FBQUFBQm0yeGJ3T0F6dEZRbi1EV1Y1Z2J1NjRvSVdaZ3RIbXc5NTJyYVN5SnhLU3hmUkdMSDkzd1RNR1NvQ3Y2MWFtZi03bzQ3b3k3UjU4a2pvY3Fuejh0ZGZVbXAyeWc9PQ==
+"Just install and use an older cuda version, worked for my 4080",r/pytorch,Z0FBQUFBQm0yeGJ3TTNyU3ZLR0tSLWtRd3RUMWQwbFlSWG9md3E3d3psQzY3dVNDNjVuRnAwSnBUV2NtbFVMajdTY3liRk4yRE9rTmkydlpITzYwVDNVLTluZFg5RmJUMHc9PQ==
+"It will be in the next Docker version 4.31:
+https://github.com/docker/docs/pull/20114/files",r/pytorch,Z0FBQUFBQm0yeGJ3Tlo2VGJTZWgxU1Y4NEZCWlU4UDNnQjVpNXhzVlpKMVpkajBEM2c2NjJCdjdhT0lXeVA1VDhoaVBNd1Q1ZFZIbVRsWThLSy1xQ3FRbUVGSEhETW12dXc9PQ==
+Nice!,r/pytorch,Z0FBQUFBQm0yeGJ3aDM3SzVOSHJZWnZESE5DYnczOWRORlBZbi1jVGNNMWlhWGpCMGZyMmpjVjVHckFhd2Y0MmZFY2NlNmljcUMyRmc1UUlPRUlJRHE2Z2ZueXloU2FBd2c9PQ==
+use the latest driver is always right. make sure your cuda version supported by your driver and GPU,r/pytorch,Z0FBQUFBQm0yeGJ3YXZFbW5JRXlhZHEzUVRoTjJvQXVmWVdyY2hVRDZTSVZLU2k0a2t6OHNmbFk2ZFF5bDhoYktuWnJGX29nWjJDWlF1bFpqZlctd2NrMVBON3UyVmFzRUE9PQ==
+"Does this snippet the docs align with what you were looking for? Also just a small note, `torchvision.transforms.v2` is recommended over `torchvision.transforms`.
+
+> Most transform classes and functionals support torchscript. For composing transforms, use torch.nn.Sequential instead of Compose:
+
+```python
+transforms = torch.nn.Sequential(
+    CenterCrop(10),
+    Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+)
+scripted_transforms = torch.jit.script(transforms)
+```
+https://pytorch.org/vision/stable/transforms.html#torchscript-support
+
+Finally, have you checked out `torch.utils.data`? https://pytorch.org/docs/stable/data.html#module-torch.utils.data",r/pytorch,Z0FBQUFBQm0yeGJ3Qm5pYjRYRi04QVRwWk1SMVUya2VrYjZ3Z2lwMm44RjB1QUVxdjJadGN5ZXNYdFE3bF9Eenk1dXY4S0dHWmRSQzhHRlhTalMzQmY3am5yclVtTjV4Z3c9PQ==
+"It would be nice to have in main PyTorch, but it's just calling functions one after another in a list.",r/pytorch,Z0FBQUFBQm0yeGJ3SDBKalVscjdYTGV0RERIUGJCSml2TFJSRXhmNkwwTDZwZTJ4VENnS1kzd0xfSEZPd0o1akF2UFctRFJtb1FGblZLbkF0S29veFQ1Qmw1NWRHYzNIcHc9PQ==
+CreateML says 'The feature extractor model scales the input image to 360 x 360 and yields a feature embedding size of 768.' May be that does the trick. Does pytorch have this or do I need to implement this myself,r/pytorch,Z0FBQUFBQm0yeGJ4X01FMjJtZlNMaXNCNThvMjk1MEdWUlFGQVJ1WlhidW9icC1lYVBOang2aEVBSmJSQjFrU1pWT3VmMXduclNzRWhtRnBONUEzNXFLeTgyRHJYQW93TGtaR2xhV21VcFlVeW9XWWxERnZmUnc9
+Do you know what is CreateML and Pytorch are? I feel like you are misunderstanding them,r/pytorch,Z0FBQUFBQm0yeGJ4YkhNLWJaN1hOeW1zMGxrUlJuQTFjTGtfWmxKeFFNSFA0WFI2c3dzQndEVHZDa2cwZEJ5SDRYODNHMjRUamZoYnZrVXZBbkVjdEJJTUJzZmNwazlQaHk1d3VSTHJTNGNXS3NUWnFrYllWNXM9
+May be. But both are tools for building machine learning models.,r/pytorch,Z0FBQUFBQm0yeGJ4WF9Ec3M5Ni10UjJnN19uMnJ1em93TFJza25fUnJPSE11SGlVQ3M4YkNPZmdxNjFhUVp0Q3hKVEo3TjY3cEs1dXZKdG1BMFBaVHpSenM5Qld5T3d2eVVLSkJTVHdyMjgzUXg3VnhuLTJKLTg9
+I’m aware that create ml is a higher level framework but why wouldn’t the same be possible with PyTorch,r/pytorch,Z0FBQUFBQm0yeGJ4cVNUV3B5NTlKaW9Sdzdrb0NUSW5YdjJtSy1jLU9kNlRSRHBWUS1tazFRbGxiczJCU1NLUU9scFBwU2ZOQVFYTU9SWFBTQV9GbVJ4aENqVGRydnZoeklRODVseGtYMU5lVnk3Zl8yWjV0bFk9
+"Yes, they are both frameworks that allows you to easily build up a machine learning model without having to code the barebones that supports it. 
+
+For the pytorch side of things, your model is resnet18, a pretrained model that is decent. There are many many pretrained models the pytorch allows you to easily use. Another model example is resnet50, which is better but much bigger than resnet18. And the pretrained model was trained on certain (though at least 1000) different classes. If your data is not one of those classes, the pretrained model might struggle initailly but may learn after a few epochs (or more epochs for the model to actually learn). 
+
+For the training speeds, it depends on a bunch of factors - your hardware, your code, the data, etc. 
+in your pytorch code, you are using cuda - meaning you are using your nvidia gpu. If you do not have a nvidia gpu, you are using your cpu. 
+
+To get better results in pytorch, you can do many many things. Change the learning rate, change the loss function, change the optimizer, change/clean the data, change the model, etc.",r/pytorch,Z0FBQUFBQm0yeGJ4TVRlNWUxb2NWd2NWWjBPZG51Z1BGcjhaVDloQi1DSmhESnJha0xqNWpDbHBZVDVrdTBJY1U4cXpVdGtlcmF5M2tLUl8yUktPMkh3X3djaXg4RlZ3X3FLNXVFcFJ5aFVOY0NVR0VRTlRaVWc9
+"torch is only a gig or two, so it isn't going to miraculously give you a heap of space back. For other general python stuff you could also clear the pip cache (google it, I can't remember the command), same with conda if you're using it.",r/pytorch,Z0FBQUFBQm0yeGJ4MEpFMFgwZDZlUzR1bHBqeVM3RGwtcm1fYXY0QXVyZFhqWFZQWU5jeEFwRW9YTTlsSW5HUm1EN3pUVHZVVFp0M295cDN4Q1JQbUY0TzJKM1RzV2JZS1E9PQ==
+"The same is possible with PyTorch but needs way more interaction and fine tuning as with CreateML. CreateML is the „Apple“ way of creating models, it just works (some kind). PyTorch is a ML/DL framework with a strong scientific focus, „it just works“ is here not always the case without some effort.",r/pytorch,Z0FBQUFBQm0yeGJ4cHdsalh1UU1rb0x3UUNVNXhjcGx5MnlwQy02bTZVWHdMSWUwbmN5RENiVkY0NFdJQ0VKMmM3N1JxajZXN2dPZklmbGpPVXcwcmV1VmNwYk0wNjhhWlE9PQ==
+"Hi good answer, thank you. I’ll experiment a bit",r/pytorch,Z0FBQUFBQm0yeGJ4Q3pFdTQ0d0t1UjhtMWw0aFR2UnI4YzFzb2lOMldWMXk2b2NMTms0WFYwbkhJbEhTckVjN0hyVUFweWtqWnlHOUQxYTFCWGRRQTN2cld4VnE4bW82ZEg1MXVqb29jdE1Dd2l2MWZnVG9xSDQ9
+du -hxd2 /,r/pytorch,Z0FBQUFBQm0yeGJ4bGtLU3VMLXFkNkhqSFVwTlYycUw2cXlwaUlYV3MtSlNnNjdmTXhVeHN6NEdRVk1mYk0xbG5mMUNPRmllaDdFYzZpM205NGt5c2pJVnphSW8wU2tWS0oxZlBGMzFNNi1zeFlwaTlSNHlCZEU9
+I think pip install torch also download other libraries like matplotlib and numpy. Did you do it in a virtual enviroment or on your system?,r/pytorch,Z0FBQUFBQm0yeGJ4RzFOWHJOYi1FVERKZ2JlTTVpX1NDT3F4Z3ZUY0JsZ1BQaWlIZm1aZ2hSSFJ3UGEtOVNXZ1RlZHZXSHpHUzdZNkxmVWNFWmd1UmE2RFIzbzZiSGR4S1lqX1VxX196R1U2VmVjMnRrZlJ4V0U9
+Use virtualenv and install in it… easy to uninstall or just delete the virtualenv folder,r/pytorch,Z0FBQUFBQm0yeGJ4LXJGY0tDSkNrS1NacE5jdGg5V2RDSVRyMVNxcmtMbDdCT1hNZG9hWHBoaFhYcGJodDZWOUxLT0E3a0tJYTBJNUdadEk1TGpXRk5fb25odmM5bnExdlE9PQ==
+I use conda. Idk why but I just do,r/pytorch,Z0FBQUFBQm0yeGJ4VHdPcmI3UXlOWlRXUXVlSFRRbVFURnQ3b2lKWVhiYnUyeGtxd0s4YVBHQWF1YnJMdWx1eXZfT0xEdWhqaWx4aGpsd0dya0ZiRnJhT01XQ095YXVhWGc9PQ==
+"I tried with pip, but even though the versions are correct for my CUDA version, torch doesn’t see the GPUs. Now I’m trying with conda",r/pytorch,Z0FBQUFBQm0yeGJ4RlVqODBxcmxyRmlZYmRWS01fSFFMcjZTNDkyc2kycEE2SmcyeTF5ZDIwUTEtNHpyR0I3VmVmX0tCSUR6SWE4V1pwRzVfZVROZEFxbFgtcXJ2d0Z4eWlhSDhyYi1vT1J0WF94R09FbG9haUE9
+"Now it works.... 
+
+`Python 3.11.9 | packaged by Anaconda, Inc. | (main, Apr 19 2024, 16:40:41) [MSC v.1916 64 bit (AMD64)] on win32`
+
+`Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.`
+
+`>>> import torch`
+
+`>>> torch.cuda.is_available()`
+
+`True`",r/pytorch,Z0FBQUFBQm0yeGJ4TWpZSWZaX1ZJeEpucGc5WFJOSWNqMDA4aGVWYnVwN0Y0OGJDQjRTalBuYXh0WEdzTGNBeFJ4VnVVZ2xGMk5WY0ZDcTE2UTR6dk4tckhTd3ltbjZEalY2R3JBb2lQQ3VyYWg1RXljMDR6MWM9
+Have you tried turning it off and on again? I usually see this when something has updated,r/pytorch,Z0FBQUFBQm0yeGJ5OW8zcW9NanhUQlZkajltWUk5OVBfcE1sckJqbGVuNjJSRFJpRGY1SVpYSXBRZVhtckFhV2RCcjh4TU5NakNwTmRnNVpUTFI2RXBueTM4U05RWGVQVGc9PQ==
+"Tried that already, still no luck.",r/pytorch,Z0FBQUFBQm0yeGJ5NGZ3UkVOVE01T3NwQ0NqcUdsLWstNWJGdUhDWE9tV3preTBQTFMzand5RFo2azRwR2ZHWXAxZjZPcU9YdXA3cVJWOExHVjdBNjM4MmlxYWdHZ2RwZnc9PQ==
+"Is your GPU being detected? Try the `nvtop` command to check. If it isn't detected, then reseat the GPU in the pcie slot and reboot.
+
+If it is detected, then reinstall everything and reboot.
+
+I see this error when the GPU stops being detected.
+
+If you don't have physical access to the GPU, then contact your admin.
+
+If it's a laptop, maybe an OS reset would be the last resort.",r/pytorch,Z0FBQUFBQm0yeGJ5OUt1MkRSLXdianlmeG5jNXRsV01GX2Q1OXhvZlFodWxhVlhpanlicEp6T0oxUnc4cUd1STRqTFZSM2VUMVZtTVdfNTdScWdZMjQzazAxY0hvMS1DREE9PQ==
+Have you had success in running FourCastNet yet? I am also working on running the model,r/pytorch,Z0FBQUFBQm0yeGJ5eFhrRmxZdzFFOWhSNENhY3R6NUg3WWllSjQ4S3FwTlJFYllzc3ludjd4NHotR1MwQWZaWXJlSTBrc0ZyT1JXMGZ4VmR2bG1OTy1xSFJudTkzTFlCQXc9PQ==
+"Try \\`\\`\\`nvidia-smi -pl 200\\`\\`\\` and see what happens. If it doens't crash, it means that PSU is not strong enough  
+(I assume so).
+
+upd.  
+oh you are on windows, - what I want to do is to limit allowed watt consumption per card, you've got to figure out how to do it on windows yourself. Also find a way to measure **peak** consumption rate per-card, I think it'll help you understand the issue better (no, 450W is not peak consumption for 4090)",r/pytorch,Z0FBQUFBQm0yeGJ5M2tuVVVoNjhpbkl6UnVLTHoxbEdzRmljN3VhREdXYTFSLW5KYmR0bk1xZ1NfUEZ6ZGw5aTRlOUEza0EyN3dLVXdKMFZIM3d2RDFIaDJ5anRDS1U1UVNsOGpseGFPa2VJam9hb2RnSm1ZWGs9
+"I am working on a windows based system. When I check task manager, I can see my GPU is visible in the task manager.",r/pytorch,Z0FBQUFBQm0yeGJ5TnZyRVlHalpieDlUdTFnWjE2U1hZQWhHR2hubUdwbWo0U0wxa1R2cGYwTlVEbmpzSndwa0JrVXdHSm5NX1dpdFFiQzlaRmIxTnhJY1hkVjlBRHI5S1E9PQ==
+Try installing nvtop if it isn't already present. Use it and see if your GPU is listed. Then try the other steps I mentioned.,r/pytorch,Z0FBQUFBQm0yeGJ6YVNDcldXVGp5R3htNHNyUnR3M0NSUzc1NGVYbE9VTVViaWxIbWJ3bFViZHZOaE45R1FjVTVLYjZJSzg3QVl6ZE1ncEhseGF6V0ZaXzh3RlByTzJiZVE9PQ==
+"You are trying to use PS5's computing capability to do LLM training. Where have we heard that before?
+
+Back in 2010, the US Airforce connected 1760 PS3 into a cluster and used it as a super computer.
+
+It worked because PS3 came with Yellow Dog Linux preinstalled and it could be tricked into install applications by the user. They installed applications that allowed cluster computing on a large number of PS3 connected on the network.  
+But once Sony realized that their heavily subsidized hardware was being used for supercomputing, they changed the code over updates which prevented any such code from being installed on the machine. You see, the Sony company sells the PlayStation hardware at a loss and makes money off the games that are sold to the gamers. If people buy the hardware without buying the games, Sony would go bankrupt for obvious reasons.
+
+That was PlayStation from 2 generations ago. Do you think they would have kept any loopholes that this could be exploited again?
+
+Personally I think it would be cheaper to just rent good hosting service from Google, Amazon or NVidia for such purpose.
+
+Or buy a really powerful gaming computer with an RTX graphic card and build a home AI server that you can ping from your laptop or phones. You can also get a very fast & sufficiently accurate system if install some fine tuned variant of the larger LLMs.",r/pytorch,Z0FBQUFBQm0yeGI1ZTRzekpwM2pKanFjczlBVi1seVZOSDhQWkw1UGEzamk2RlJfTW1FdWJuRGQzSVhQTDF1YzQ4SldNZXprdjR5NTc3aDVSSGhtMlU0OTVGTVhtSFNObXc9PQ==
+"Thank you for your time. Don't know about the issue will be resolved or not, but I was getting this error while training an object detection model, but after multiple attempts, now there seems to be no issue with training.",r/pytorch,Z0FBQUFBQm0yeGI1SEZidjRJRkMtZlpmMVRLcGNwVlNBd0JwX1lPT1NMSVA5UVhLbGc2LTYyU29haWhQQW8ydlNrZE1RVWJtVVJsVHJSUUtJWWVJUnZ0N0hBMllNX0NuX0E9PQ==
+Thanks 🙏🏼,r/pytorch,Z0FBQUFBQm0yeGI1MDJMWUgtTzQwRndweFJrU0VELXlhLXFkLUZCM2t3UUg2bmNIbEtTWklJeU51dFZ3YU5xUnRUbHFOdUlpZjdrcVBwRUJTOTF1OGdINlJoeHczVU1tbHc9PQ==
+"I think point 1 is the main concern… idea is correct… execution is poor. Have seen and done point 2 myself. 
+
+Now I am thinking about it… it could be (even with my company) the lack of documentation and less accountability or infrequent updates for resource utilization or creation. I have thought about having a common page where each and every individual updates or add info",r/pytorch,Z0FBQUFBQm0yeGI1bGlaeUJNWnFtdEZqTW4teFpQOFRQTk4xWVljY3hXSVE2cXNyQkJ2X0JYX1R5bWNhR1doM2VCdVhzS0lPRS1IUEc4a0c5WklIdGlUdDVka2xTYVdCcEJhS3U5ZHBzVXRRRHhmOFpfeURIclU9
+Have you heard of Zillow? And the numerous math and deep learning PhDs they hired who probably contributed to the PyTorch library?,r/pytorch,Z0FBQUFBQm0yeGI1WTljRHB4TVFVcmFYc2VmU3hDSjB6Z0hYVFd2cmpzZkotb0xUWU1hbGI2Z0wzRFNXUVNmV2ZEWHhTQ0VRTWNzQXdpV2dzODV1WEhlc1F4a3N1UXlwVHVKWVRNdkNZYXA5STNZY1BlWFdPbEk9
+"Zillow and its former employees have published information about the valuation model they developed for purchasing houses before they closed their home buying business. 1. **Zillow's Zestimate Model**: Zillow's Zestimate is a well-known home valuation model that uses a neural network-based system to estimate the market value of homes. This model incorporates a variety of data points, including property details, sales transactions, tax assessments, and market trends. The Zestimate is updated multiple times a week to reflect current market conditions[5][7][13]. 2. **Challenges with the iBuying Model**: Zillow's iBuying business, Zillow Offers, faced significant challenges due to the unpredictability in forecasting home prices. The company admitted that its algorithms struggled to accurately predict future home prices, which led to purchasing homes at prices higher than they could sell them for. This issue was exacerbated by the volatility in the housing market caused by the pandemic and other economic factors[1][2][3]. 3. **Operational and Strategic Issues**: Former employees and analysts have pointed out several operational and strategic issues with Zillow's iBuying model. These include paying too much for homes, long holding times, and a lack of operational experience in renovating and selling homes. Additionally, there were internal incentives and ambitious goal-setting that led to altering model outputs to justify high-volume purchases[8][19]. 4. **Public Statements and Analysis**: Zillow's CEO, Rich Barton, and other executives have publicly discussed the limitations and failures of their valuation model. They acknowledged that the model's inability to accurately forecast home prices within a narrow margin of error was a significant factor in the decision to shut down Zillow Offers[1][2][3]. In summary, Zillow has provided detailed information about its Zestimate model and the challenges it faced with its iBuying business. The company's public statements and analyses from former employees highlight the difficulties in accurately predicting home prices, which ultimately led to the closure of Zillow Offers. Sources [1] Zillow to exit its home buying business, cut 25% of staff https://www.cnn.com/2021/11/02/homes/zillow-exit-ibuying-home-business/index.html [2] Zillow to shutter home buying business and lay off 2000 employees as its big real estate bet falters https://www.geekwire.com/2021/zillow-shutter-home-buying-business-lay-off-2k-employees-big-real-estate-bet-falters/ [3] Zillow says it's closing homebuying business, cutting 25% of workforce; earnings miss estimates https://www.cnbc.com/2021/11/02/zillow-shares-plunge-after-announcing-it-will-close-home-buying-business.html [4] Strategies for Optimizing Zillow Company Valuation https://www.efinancialmodels.com/strategies-for-optimizing-zillow-company-valuation/ [5] What Are Zestimates and How Are They Calculated? - Investopedia https://www.investopedia.com/articles/personal-finance/111115/zillow-estimates-not-accurate-you-think.asp [6] Zillow Group completes its acquisition of Spruce, a tech-enabled title and escrow company, as a building block in the ... https://www.zillowgroup.com/news/zillow-group-completes-its-acquisition-of-spruce/ [7] Building the Neural Zestimate - Zillow Tech Hub https://www.zillow.com/tech/building-the-neural-zestimate/ [8] Zillow just gave us a look at machine learning's future - Hacker News https://news.ycombinator.com/item?id=29139654 [9] [PDF] Zillow, Ken Wingert - RIN 3064-AE68 - FDIC https://www.fdic.gov/resources/regulations/federal-register-publications/2023/2023-quality-control-standards-for-automated-valuation-models-3064-ae68-c-012.pdf [10] Housing Data - Zillow Research https://www.zillow.com/research/data/ [11] Zillow Home Value Index Methodology, 2023 Revision https://www.zillow.com/research/methodology-neural-zhvi-32128/ [12] Zillow - Wikipedia https://en.wikipedia.org/wiki/Zillow [13] What is a Zestimate? Zillow's Zestimate Accuracy | Zillow https://www.zillow.com/z/zestimate/ [14] Zillow's $6 billion home flipping business was a disaster. Now, a cooling housing market could foil its comeback plan https://fortune.com/2022/06/02/zillow-6-billion-home-flipping-business-housing-market-fortune-500/ [15] Zillow offers 1% down payment to lure homebuyers as mortgage rates hit 22-year high https://nypost.com/2023/08/25/zillow-offers-1-down-payment-to-buyers-squeezed-by-high-mortgage-rates/ [16] Zestimate Forecast Methodology - Zillow Research https://www.zillow.com/research/zestimate-forecast-methodology/ [17] [PDF] zillow-annual-report-2022.pdf https://s24.q4cdn.com/723050407/files/doc_financials/2022/ar/zillow-annual-report-2022.pdf [18] Zillow Pauses Homebuying as Tech-Powered Flipping Hits Snag https://www.bloomberg.com/news/articles/2021-10-17/zillow-pauses-home-purchases-as-snags-hit-tech-powered-flipping [19] A whodunnit on Zillow - The Economist https://www.economist.com/finance-and-economics/2021/11/13/a-whodunnit-on-zillow [20] Zillow Group, Inc. - Spruce Point Capital Management LLC https://www.sprucepointcap.com/research/zillow-group-inc
+
+From Perplexity: https://www.perplexity.ai/search/Did-Zillow-or-VmSmqzLFT7.aIvxICqhbtg",r/pytorch,Z0FBQUFBQm0yeGI1c2hoSGt0WWVlUjhobFYwR1h2dWNfR3pLdFh1Smh3dktzMU9WQlBTcWh6NFk5d0JIc0c4QjAtMURhRGd3SEpXSF9EOUp2Q1NrdVpKUmR2S1dta0N4WkJuTF9XVHE0LWZrZDFNaE5ieTV0azQ9
+Anyone found a solution to this problem?,r/pytorch,Z0FBQUFBQm0yeGI1Vy1JSE1BVVcycGNmSDlDdDRaaVFqME9lT210Q01KaWJSV21EdmVDSVI5V0xlTFFybjVqRWtERzhUcmxSM1JOMF9mQldWQkptNC0yVGg4N3Y1enNVTUE9PQ==
+i get where you are coming from but its amd who is at fault here. they quite frankly do have the resources to make tensorflow/pytorch/other libraries work with ROCm. but are they serious about it?,r/pytorch,Z0FBQUFBQm0yeGI1akdWOUw0djd6a3ByeTdDQ3EwdUNVZUd4QUdZVUdGeWtlVmpmc3c3ZW53dzB3MTBRWGdnTVhjdVZQZGlzckd1TXJnOTZ6SmdCVGZMV0RtbzRaU1Q0UFE9PQ==
+I have a dual RTX 4090 and models are training flawlessly on it.,r/pytorch,Z0FBQUFBQm0yeGI2OTVOTTI2eTdKRmR1M3hfLWNKVnQ3QXhTcGFOWXp2cHcxckdQbXNKWTkxbDM5NGVPWlZabHNjdEtyM0IwVU1lS2pGN29IN2NEQS02Q1cwM1hWRXpIZVE9PQ==
+"This isn't a direct answer but TorchScript isn't maintained anymore. IF you need to optimize some Python code, use numba.",r/pytorch,Z0FBQUFBQm0yeGI2d2NSdy1MeXRmOTI4bkVGVThxQm9lMkdqLV9teUV0TTUxTDVrNkp1N2Nzc2VraGg0dGFQUnNENW1SLXlxX2d4bzcxak9rdTZfQ2RCdXBYZzdlU0l2cWc9PQ==
+"Thank you for your response and suggestion. I have tried the power limit and it works only when I set it to 150 watts, I have tried replacing the power supply with the corsair AX1600i, and the computer now works flawlessly at full wattage for both gpus.",r/pytorch,Z0FBQUFBQm0yeGI2dHRDTFl3Ty10aUx3cUxEWXJleE5VbVFVdnVvckFIUDEwV3lQa016V1N6eHV0N2RMbnJOVGROd2JJN0xLOWpSbmViazhiaFdvSVIwcGcwSVkzT1ByYVE9PQ==
+"Check out this video: [https://www.youtube.com/watch?v=8POW3G6itcE](https://www.youtube.com/watch?v=8POW3G6itcE)
+
+I've been running this way with ZLUDA, and it's working pretty well. It's not ideal, but it will fill in until we have proper ROCm support.",r/pytorch,Z0FBQUFBQm0yeGI2NjdfMkcyMGNpTlRYckhRTkpGYVlwMDEzb2NHQl9vcFpIVy05Z29fX21SYlNZUnE2eDRyR0ZWTmtaTERpYXdnSXJTdmp0alp6bkZnUUhES0hhVFdlM2c9PQ==
+"Thanks, does it work with pytorch though?",r/pytorch,Z0FBQUFBQm0yeGI2a1NpTUhXb1RweGQ2U3pUaFozVGlxekh6c2hUbm8wakZYVG52ZjEybkdTLVU2d0FIY3BGLUk1NHZMSGFWbnhxRHlGemlNbFI4a0lJZjBaZ1Y0bWN2eFE9PQ==
+"It just accelerates your Python code. For the code you gave, it should work fine. One minor thing is that it only works on numpy, but converting a numpy to pytorch tensor is basically free.",r/pytorch,Z0FBQUFBQm0yeGI3Smk0aW0wRXhEVUJ3SUZxMGJkUFR5YWUyM1RiZ3RtakFKSnVXcjBvUmZOMDZ0cU5wWC1Mb09nTGZYaGZLMWdUVVlwMnVXNFU3UGtiamJhVC1EbFFuWHc9PQ==
+"not directly same scenario but we have a big muti models ai endpoints we want to server and was using GCP Vertex online predictation. It was only used for demo or testing when needed, but GCP Vertex online predication takes about 20-30mins for deployment, it's a pain in the ass to manually deploy it and later need to turn it off.
+
+to solve this problem, we recently build a pipeline system that did the follow:  
+- break our multi models endpoint into jobs (for example, first several models only recognize image type, then the next step based on the result do other jobs).
+
+- for each job we make them deployable and executables onto GCP Cloud Job (runs only on CPU atm)
+
+- we then have a coordinating server that receives task (input image generally), and are able to trigger jobs and follow up jobs based on the previously job result. We keep record of the jobs for each image analysis task
+
+  
+this system seems so far runs very stable and can scale up very well, and we have a clearly record to check the result for each image and the job details.
+
+we are also using this for model evaluation as we can just give the system a big amount of data and it should scale up and run through all the images and get the result back.
+
+given its running on CPU so it's also very cost effective.
+
+anyway, with all the above said, eventually we want to have similar thing for production, but i found the speed becomes the main block given ideally we want each image to finish 10-20s or even under 10s. I would like some suggestion on this if anyone has some idea.
+
+The speed issue mainly we are facing:
+
+- time costs for each job to spin up (to be fair it's pretty good if not for this use case) will already take 5-10s
+
+- for each job after spin up, loading serveral pytorch model takes a **big amount of time** 
+
+- the inference itself actually seems to be quite OK even though they are running on CPU, but usually takes about several seconds for each image",r/pytorch,Z0FBQUFBQm0yeGI3RkRsYXVDQTRWdkR4M28tMnpYdmQwWXM4Z0tlRE8wNXQ5MU1pUi1yT2plN0FZZFlrSm56MnNRM1JiM05UOEdpQ1I3QzRFZnk3TWZsODFsU0g5UE93Nnc9PQ==
+You haven't rotations to your input data as part of data augmentation? This is the most common way to make classifiers agnostic to rotations. Can effectively 50x your training set size,r/pytorch,Z0FBQUFBQm0yeGI3RHR0emJZY0RQeHVsd0t3LWZfUHg5cDlkdEV4QTktcGc4UkE4MFFvTlhjanUtS3R4akZxemVSRHB5TWxYU2xpeEszdy1ZdjhMOHpLbmlMd2prdEJ0eFE9PQ==
+"First of all, you need to understand what a backend is, I think you already know this, but if you don't I will briefly describe it to you.
+
+A backend, in the context of PyTorch, is the core infrastructure (Hardware + Software) that allows you to accelerate mathematical operations on tensors (typically matrix-to-matrix and matrix-to-vector multiplications), after all, a neural network is just a huge mathematical function that operates on tensors (high dimensional arrays of numbers). So the whole purpose of the backend is to do fast math operations.
+
+By default, any personal computer has a CPU and RAM, this is the default backend in PyTorch, but it is not the best choice when it comes to doing fast math operations, at least not for deep learning purposes. In this case, we need a better alternative, CUDA enters the stage :)
+
+What is CUDA? As I said above, a backend is a Hardware + Software infrastructure, what does that mean? Hardware means the physical device, in the case of CUDA we are talking about NVidia's GPUs, but not all NVidia's GPUs support CUDA, CUDA is a special kind of architecture baked into some of NVidia's GPUs having the sole purpose of running fast and parallel mathematical operations, the kind of operations we need in deep neural networks, you can read more about CUDA [here.](https://blogs.nvidia.com/blog/what-is-cuda-2/) Let's continue with Software. Now that we know about CUDA from a hardware point of view we need to discuss about how code gets to be executed in CUDA. To execute code in CUDA we need a programming language, libraries, a compiler, and some additional tools we will not talk about because they are not so important to us, in the software industry all of the above-mentioned tools make up a toolchain.
+
+In the PyTorch codebase, there is code written in the CUDA programming language, compiled by a CUDA compiler, linked with CUDA libraries, and in the end, it results in a CUDA-based backend which will run on a NVidia GPU card.
+
+This was the case for CUDA, but CUDA is not the only backend PyTorch supports, there are many others like MPS (Apple silicon), AMD, Intel, and Google I believe have one for their TPUs, all these backends mentioned before have similar toolchains for their hardware architecture.
+
+By default, PyTorch uses the x64 backend, supported by almost every CPU around the world, If you have a CUDA-compatible GPU and a PyTorch compiled version with CUDA support you can opt-in to use either one or the other, additionally, if your CPU is from Intel you may have an additional backend provided by Intel, in this case, you will have 3 backends to choose from.
+
+I hope you got the gist of it!
+
+If there are any grammar mistakes, I'm sorry for them, I'm not a native English speaker! Have a good day!",r/pytorch,Z0FBQUFBQm0yeGI3Vk9RaUN6WGxlU200Z1pNOFhSbGc4UEs0emxNbTZTbkM1UUN0djkzOGlQTW5lTXRDMld2VEFfNGJ0ZkNCcng2SkJWV01TaVhoQWtwYVRyR0ZVZ3M3VnZ3UmJDc0l1cnM4NlZ2VmJ1SlU3dHc9
+Thanks for sharing. I love how you are working around the system! :),r/pytorch,Z0FBQUFBQm0yeGI3SVhGajBjekFYVEU2QXI2U0lIQVhKUlZka0p0am5VQ2k1aGxFal9uOUdrV25KdGw3ZkVpbEVxdjJHSTc5Vk9CenJwa0dOWW90WWx5UTQ1ajcyczR6Nnc9PQ==
+"That makes sense, thank you for the reply! But my question still remains...
+
+I'm a beginner here, so maybe I'm not formulating my question well, but what if I have a machine with both CUDA available (through a NVIDIA GPU) and AVX available (through a not so old CPU)?
+
+I'm believe that in the scenario above it will prefer using CUDA over AVX for its computations, simply because it's probably more effective (thus having a higher precedence in the code). Is there a code or configuration in which I'm able to see this happening? Can I, for testing purposes, force CUDA not to be used through some configuration?
+
+Edit: I saw that there is a envvar for disabling CUDA, but is still unclear to me if the backends I see there are interchangeable (implementing some common interface) as I'm picturing.",r/pytorch,Z0FBQUFBQm0yeGI3dGN4WGZBOVZNMjk0ZTdsZDRhQkxpUDNUOHM5cW1KZVAxMkNLTEVsdjRvN2pTVkZ2bktUbmxtTjQ4TGJtSmxycFBYVmw0UFBPUHcwa1R0VF8zLTVWbVE9PQ==
+"I would be extremely hesitant to do option 2, on the basis that there may be spurious information in the rotations -- say, one lab that has a higher frequency of a certain condition happens to also send a particular orientation, and now your model starts to associate the orientation with the condition.
+
+I would pretty much definitely go with option 1, and two separate models, with rotation augmentation.
+
+The other factor is, detecting rotation when you don't have a ground source of truth means you have to manually label.  Odds are, you don't need nearly as many samples to detect orientation, so it's wasted effort if you force the process of labelling rotation for each sample.
+
+I would still use the model for step 1 that classifies the conditions as a pretrained base model for the second one.  I wouldn't train it up from the ground up, but just fine tune.  I'm highly certain you'll save a ton of compute type by doing this.  I wouldn't be surprised if the fine tune for rotation detection could be done in like, 5 minutes of training time or even less.",r/pytorch,Z0FBQUFBQm0yeGI3dWhWa1ZFVXJNRlh2a2wzV0xjSkhPNklaN2l1Nzk5M3RPTlhMYUxCZFMzemFFb28zck92V3pTdUszVGhfZ29MbXRrUnNIcGd6TnNPYlpmRkZBWWJJcmc9PQ==
+"    import torch
+    import time
+    # I run the latest version, 2.3.1
+    # I have an M1 Macbook Air 8GB RAM
+    print(torch.__version__)
+    
+    msg = 'is available' if torch.cuda.is_available() else 'is not available'
+    print(f'cuda {msg}')
+    for p in dir(torch.backends):
+        try:
+            msg = 'is available' if eval(f'torch.backends.{p}.is_available()') else 'is not available'
+            print(f'{p} {msg}')
+        except AttributeError as e:
+            pass
+    
+    conv = torch.nn.Conv2d(in_channels=100, out_channels=30, kernel_size=(3,3))
+    
+    tensor = torch.rand(100, 100, 100, 100)
+    #warm-up the backend
+    #by default nnpack is enabled
+    for _ in range(10):
+        out = conv(tensor)
+    
+    t0 = time.perf_counter_ns()
+    for _ in range(20):
+        out = conv(tensor)
+    t1 = time.perf_counter_ns()
+    print(t1-t0)
+    
+    torch.backends.nnpack.set_flags(_enabled=False)
+    
+    #warm-up the backend
+    for _ in range(10):
+        out = conv(tensor)
+    
+    t0 = time.perf_counter_ns()
+    for _ in range(20):
+        out = conv(tensor)
+    t1 = time.perf_counter_ns()
+    print(t1-t0)",r/pytorch,Z0FBQUFBQm0yeGI3UlA2UWZ2SFlqMFNnNGxDRjJTRFNxZkRic2s3b1JCdzh5ZkRkZlFRdllwclV3aGZLUU9TbGdYYXh6c0JHcUFpNDkxc0tyLUtRYkRwcGlQSmRaNnVZQ1BQalVGd3czaTNqcTlxdVF2SzJMcmM9
+"In the above code snippet, the nnpack backend is enabled by default, the nnpack backend is efficient when working with conv-nets, you can read more about it on the internet. To disable the backend is just a matter of reading the PyTorch [`documentation.`](https://pytorch.org/docs/stable/backends.html#torch.backends.nnpack.set_flags)",r/pytorch,Z0FBQUFBQm0yeGI3TXJ1SzNYWnMzaU9jck9DZlIxNFpsakpRMEwzdVpnZF8tMHh2cEJZWlRFOXFQZ3QwMmNEM0pEb2F1QWFzMGJFUWdOUkJZOWJiOGlXeGU1OVZXcVMzOWpsRnBVSTdKWGFZR2JjVXZROGRGdTA9
+"Have you tried normalizing input for example with sigmoid? If the values range is finite and known, you could do linear normalisation.",r/pytorch,Z0FBQUFBQm0yeGI3Umh2MjZxQ3dfZEFxWTRSaWcxdm9KUXRMeklXOFRXeVRuZEo1VFhPOUxTN015aDNwMjVHLXd3ZkVyREhTTnZIcktPeWZBeWVaLXZGaDAtMHh2bHotSVY5bXdRcHppaDRKMlpqd2hOeDNpX1k9
+"I'd go with option 1
+
+Recently had a similar issue with my CNN classification of numbers and the best is to pre-process to make the classification more accurate. It's best to reduce parameters for a deep learning project.",r/pytorch,Z0FBQUFBQm0yeGI3YmtwdVZlSGx0eGQ4Y3IzT0FGNE5aYUR3NWExT3ducm5RNEdaQlFvRWlBSDJEa082QWtLUnBCU3V6UWg3TGQ4d0FYaFNaNzdwWXZmSUZRVk12aEUybUE9PQ==
+"I would try a mix of both approaches, i.e., using a single model that performs both tasks. However, instead of having combined classes like A_0, A_90, etc., I would have two output layers: one predicting the class and the other predicting the rotation. 
+
+This way, the model is optimized to perform two tasks simultaneously. The model can learn shared features that are useful for both tasks, potentially improving overall performance. (Note: This approach may also have a negative effect.)
+
+I would start by experimenting with one model to keep the number of models manageable",r/pytorch,Z0FBQUFBQm0yeGI3YTJ2SzVDUkZfM0xtekdQbFZsam1JYnhqYmRwSzFxSjV3cmhJY1BmNjJLY1NranhPR3R5ak9rT29wU21fY0Q0RnhyQ1o0elRzeDZxT1NackVwZVpnRXc9PQ==
+"If the  question is whether you need to create separate folders to ensure you train, test, and validate the model with mutually exclusive data. The answer is no, you don't need to put them into separate folders. You can handle this using PyTorch's random_split.",r/pytorch,Z0FBQUFBQm0yeGI3blhFVGZ3cGlEVXpOdzl6NFdPVEVIZm5NSFl2MkZxTU5VYjVrLWtYNFRzdEZzSVREOTQ3Y1NkbnBrcEJxemQ0ZVFpQWlDQTU4V1l2VkU5aFl4cExZa2c9PQ==
+"RTX 4090 does not support NVLINK, I think this is the problem, tho I am not 100% sure, at some point, I heard one of my work buddies complaining about the fact that they can't use 2xRTX 4090 for deep learning due to NVLINK missing.",r/pytorch,Z0FBQUFBQm0yeGI3eFFBeWIxWEItQ0pWUFUxel9iRWhFLVhsSzJEM2luaGdWRmNKNWE4WnNnMG00ZDRFRUtqa3RDNjF4U1ZUejQzX1B3eGV3YkNNSTdtb1ZHVFZNejl0UFVvMGoxVGFIaDdVVlU5M2tIQXZRazQ9
+"Thanks, the concern about option 1 makes sense to me!
+
+For your suggestion of fine tune, are you saying it will still be valuable that the model that does the classification of image types (ABCD), will also be useful to be used to fine tuned to do classification on rotations? (A0,A90,A180,A270)?",r/pytorch,Z0FBQUFBQm0yeGI3R1d2SmQtY2I1Ql9LRTMwS1FudTJldjlrNUVwZGVwYnhNbDN1aWFJQjdQY3VYVGlaUTg3RVAxMlRiTW1COWVyeUJnMGFRQmlOdXlSTWozZ1RJNHVmc2c9PQ==
+"I’m taking over this project recently and yes now that I looked into the existing training code, it was doing RandomRotation to a 90 degree, which I think is something I can improve on (a random rotation in this case is not useful, in reality we won’t receive an image that is rotated like a random degrees like 34)",r/pytorch,Z0FBQUFBQm0yeGI3dGE1c0w0a2d1SkFYUV9jMVBCazZQRllhcHNsa0x5azJvSVZ2bUdUdGpOMFFYbi1WVUZYTFQ3MmFpRkwwMFpobVp6cVVUVmpvQ0N1d3R1eHViT0gwMVE9PQ==
+"Thanks, yeah I would def give it a go as well!",r/pytorch,Z0FBQUFBQm0yeGI3UzNkR0pObTVaMno5RTFyUjQ2a3Q3THFVOTNBNWZZWU9IQTEwb2U4ODU0LUxoanBXdDNkTVlJWkVTQVVlc3VtdDZldnU2ZVJyUzh0ME1XUEhDM1JaRUE9PQ==
+"Yeah, I think that's highly likely.",r/pytorch,Z0FBQUFBQm0yeGI3OXZla0t3djJ4NlJqdUM3d1lkeHVTdDZRY2JHZm8zN2ZYbGxxOWNxWG52aGcyckxkbUhfakNKV1NSV3pVMGpuX0tiNjhQOTJ1WndsZjBwUDJFVlNRcGc9PQ==
+AI question,r/pytorch,Z0FBQUFBQm0yeGI3cmxNemphcWFaZC1SRG5hN3lDVmtDei1BWkZ0QVBEQmJMMDczdTRhZ01FRE1VN05uaHZrb2d2NmdicEpZdU1DNm9femxmZUQ3c19TYTlmM1dvSkZoTnlCN1JCak1LY1hlb3J1cjRYaGxyRG89
+"I think one of the greatest pytorch’s concepts explanation is the blog from Edward yang
+
+http://blog.ezyang.com/2020/09/lets-talk-about-the-pytorch-dispatcher/
+
+here is the one about dispatcher (how know the backend to choose)
+
+he also did an amazing pytorch podcast on spotify, apple music and others",r/pytorch,Z0FBQUFBQm0yeGI3TVZ6NzFFQVByNFI1U1NIZmNlSl9fVDMwVHpkaFBhRmpxb1VHVkVjUGM0dUJFMlhlOTVQY0RmVmZyRmViWWdRb3FHbGdWYUVWYnFyaG9KVEF0YVE0RHc9PQ==
+"I'm not OP, but I had the same issue and your advice fixed it. Thanks!",r/pytorch,Z0FBQUFBQm0yeGI4SVlfWjdOclNMdUNsYWpoZWk2VU5vWkkycHF1M2laeHh0dzFuRThmV1RPYTlSSUtDeEpkWVFGOG1hZnVMWld3bUM0dXFWd0tNM3RPbE9UYkZoUEZXNUE9PQ==
+"ChatGPT's answer to your question:
+
+The issue lies in how you define and add the layers in the second code snippet. In PyTorch, for the parameters of a module to be registered properly, they need to be added as attributes of the module or to a `nn.ModuleList`. When you create a list of layers (`self.net = [conv_layer(in_c, out_c) for in_c, out_c in channel_defs]`), this list is just a regular Python list and does not register the layers as part of the network in a way that PyTorch can track the parameters.
+
+To fix this, you should use `nn.ModuleList` instead of a regular list to store your layers. Here's the corrected code:
+
+from torch import nn
+
+class CNNNetwork(nn.Module):
+
+def \\_\\_init\\_\\_(self, channel\\_defs=\\[(1, 16)\\]):
+
+super().\\_\\_init\\_\\_()
+
+def conv\\_layer(in\\_c, out\\_c):
+
+conv = nn.Sequential(
+
+nn.Conv2d(
+
+in\\_channels=in\\_c,
+
+out\\_channels=out\\_c,
+
+kernel\\_size=3,
+
+stride=1,
+
+padding=2
+
+),
+
+nn.ReLU(),
+
+nn.MaxPool2d(kernel\\_size=2)
+
+)
+
+return conv
+
+[self.net](http://self.net) = nn.ModuleList(\\[conv\\_layer(in\\_c, out\\_c) for in\\_c, out\\_c in channel\\_defs\\])
+
+self.net.append(nn.Flatten())
+
+self.net.append(nn.Linear(128 \\* 5 \\* 4, 10))
+
+def forward(self, input\\_data):
+
+x = input\\_data
+
+for layer in self.net:
+
+x = layer(x)
+
+return x
+
+if \\_\\_name\\_\\_ == ""\\_\\_main\\_\\_"":
+
+cnn = CNNNetwork()
+
+print(f""parameters: {sum(p.numel() for p in cnn.parameters() if p.requires\\_grad)}"")",r/pytorch,Z0FBQUFBQm0yeGNDWHNVTkZnekRsWkQtNjZxWVRtOVNQYXdsN2pZWWJ2c1U3cWwtakxudDhqR3FGb1Fmb0d3YnZ3V1RfbWEzRjRJWHJNeHVyVHc1bXppcXYwVFVYOEV0Z0E9PQ==
+Interesting. Thanks for taking the time to formulate the question and posting the answer!,r/pytorch,Z0FBQUFBQm0yeGNDVWx6TkhuQ1FRN1EyRDhLdVJKdl9KVGFyT0piNTQ2d1haTGt2N1dfaE9xcTRZUHpQVk4tTk5xVkNOeXpDQVJJNkNzMlIyRXo0UzFtTkZLZVBjSndYTFE9PQ==
+I just copy/pasted your question verbatim :D Hope it works!,r/pytorch,Z0FBQUFBQm0yeGNDVlhSTkQ4V3J2UWZmQ2lVbTdMM01RMjMtSkpuS2h4clU1V3hmMVRJNngtZV83RWRKbzdJT1UzbGRselpNMVN4eTk2MGx2RFpCZHBmeGo5dklBOVR4clE9PQ==
+It does!,r/pytorch,Z0FBQUFBQm0yeGNDeTJMYzExd0w4cF9FWVRvTFJwYklkWXZvNW9TdXhqeDZGbVQ1bTNFcGpIV2I2NXFRdTZaTHBnTnBLMUg2STl0TWtTQVhCeUlDRmpBZHVIcWlPWUlZU3c9PQ==
+"Typically those branches in your code are to support different environments where your users will run it. 
+
+In testing you have to simulate the environments you want to support. So you probably want a CI runner backed by a cpu only instance type, if you are working locally you can create a venv without the gpu backend installed.",r/pytorch,Z0FBQUFBQm0yeGNDOXdGa2hJY3VZNE9fckR1OENJVE1xRmk4SS1XS2duMVpuaVZpbTJ4aUZONnVTSkJNQzVPSGZkdXpaQnVVSTdtd05WS1JpOWFBZFhzSGk1UmlMV05MVkE9PQ==
+Hmm don't think I follow; my question is more about how to write unit tests for such GPU code.,r/pytorch,Z0FBQUFBQm0yeGNDSGlyVUdsT3A1eW54QkJrUXFkQy1zMlI4NGpfc1NZQzRSdjJXaXFHTzZDUG5odDJUQ0JHOFNrR29DREU0OHpuMVlRdEowOWF5Z2c4cWpETXk2Q0NYeTFiWlR0ZTVmVWhMMmFfVTYzSGhweVE9
+"So in your code you have branch for when cuda is available and when it isn’t. The code should do the same thing, just in a different way, like using the accelerator if it is available and using the default backend if not. 
+
+You don’t really need to write a different unit test for those two scenarios. The same input to the function should produce the same result in both cases. When you need to do to exercise both branches is change the environment where it executes. 
+
+If you look at the unit tests for PyTorch you will see that the CI jobs will execute the same tests in my different environments. This is done to make sure all branches like this are tested. If you only have one unit test environment then only one path at this kind of branch point will be taken. 
+
+You can change the test environment in many different ways, using different hardware, or using multiple software environments on the same hardware. 
+
+    torch.cuda.is_available()
+
+Will return true if the library was compiled with cuda and the cuda driver context can be initialized. If you want to test the other branch you have to change one of those things.
+
+If the computer you are running the test on has a gpu then the easiest solution is to install the cup only PyTorch package in another conda environment and use it to run the test. That will make sure the else branch runs. 
+
+If the computer does not have a gpu, then you will need to configure your ci job to run on an instance with one.",r/pytorch,Z0FBQUFBQm0yeGNDSnZ5ZHhBRFNldWlTVDNpSHNwRWhEaXZJR2xkT2xHaVdjQ1dxUWpwSTZTZWVLOEI3SmFoa0FhR3VtZmtzVTJDM1cwbFh0WnNTc0szeVQ0Z2FUWXZUSUE9PQ==
